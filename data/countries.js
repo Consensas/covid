@@ -32,10 +32,11 @@ const NAME = "countries.yaml"
 _.promise()
     .then(fetch.json.get(URL))
     .make(sd => {
-        sd.json = sd.json.map(row => ({
-            name: row.name,
-            value: row["alpha-2"],
-        }))
+        sd.json = sd.json
+            .map(row => ({
+                name: row.name,
+                value: row["alpha-2"],
+            }))
     })
     .then(fs.write.yaml.p(NAME, null))
     .except(_.error.log)

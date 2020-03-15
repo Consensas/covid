@@ -1,5 +1,5 @@
 /*
- *  data/ca.js
+ *  data/au.js
  *
  *  David Janes
  *  IOTDB
@@ -26,16 +26,16 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 const fetch = require("iotdb-fetch")
 
-const URL = "https://raw.githubusercontent.com/vlucas/devdata.io/master/datasets/canadian-provinces.json"
-const NAME = "ca.yaml"
+const URL = "https://raw.githubusercontent.com/nwinch/australian-states/master/data/states.json"
+const NAME = "au.yaml"
 
 _.promise()
     .then(fetch.json.get(URL))
     .make(sd => {
-        sd.json = _.pairs(sd.json)
+        sd.json = sd.json
             .map(row => ({
-                name: row[1],
-                value: row[0],
+                name: row.name,
+                value: row.abbreviation,
             }))
     })
     .then(fs.write.yaml.p(NAME, null))
