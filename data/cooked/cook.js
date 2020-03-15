@@ -203,6 +203,34 @@ _write.produces = {
 
 /**
  */
+const _merge_data = dataset => _.promise((self, done) => {
+    _.promise(self)
+        .validate(_merge_data)
+
+        .then(fs.read.yaml.p(path.join(__dirname, "..", "datasets", `${dataset}.yaml`)))
+        .make(sd => {
+            sd.json
+                .filter(row => row.key)
+                .filter(row => sd.results[row.key])
+                .map(row => {
+                    sd.results[row.key] = Object.assign(sd.results[row.key], row)
+                })
+        })
+        .end(done, self, _merge_data)
+})
+
+_merge_data.method = "_merge_data"
+_merge_data.description = ``
+_merge_data.requires = {
+    results: _.is.Dictionary,
+}
+_merge_data.accepts = {
+}
+_merge_data.produces = {
+}
+
+/**
+ */
 _.promise({
     datasets: {},
     results: {},
@@ -217,6 +245,9 @@ _.promise({
         method: _cook,
         inputs: "names:name",
     })
+
+    .then(_merge_data("ca-icu"))
+    .then(_merge_data("ca-population"))
 
     .make(sd => {
         sd.jsons = _.values(sd.results)
