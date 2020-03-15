@@ -121,7 +121,9 @@ const _cook = _.promise((self, done) => {
                         const y = match[3]
                         const key = `${_year(y)}-${_month(m)}-${_day(d)}`
 
-                        result.items[key] = result.items[key] || {}
+                        result.items[key] = result.items[key] || {
+                            date: key,
+                        }
                         result.items[key][sd.name] = row[o]
                     })
                 
@@ -187,7 +189,7 @@ _write.requires = {
     json: {
         country: _.is.String,
         key: _.is.String,
-        items: _.is.Dictionary,
+        items: _.is.Array,
     }
 }
 _write.accepts = {
@@ -216,11 +218,15 @@ _.promise({
     })
 
     .make(sd => {
-        sd.result_list = _.values(sd.results)
+        sd.jsons = _.values(sd.results)
+        sd.jsons.forEach(result => {
+            result.items = _.values(result.items)
+            result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+        })
     })
     .each({
         method: _write,
-        inputs: "result_list:json",
+        inputs: "jsons:json",
     })
 
     .except(_.error.log)
