@@ -174,6 +174,32 @@ _load_data.produces = {
 
 /**
  */
+const _write = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_write)
+        .then(fs.write.yaml.p(`${self.json.key}.yaml`, null))
+        .end(done, self, _write)
+})
+
+_write.method = "_write"
+_write.description = ``
+_write.requires = {
+    json: {
+        country: _.is.String,
+        key: _.is.String,
+        items: _.is.Dictionary,
+    }
+}
+_write.accepts = {
+    json: {
+        state: _.is.String,
+    }
+}
+_write.produces = {
+}
+
+/**
+ */
 _.promise({
     datasets: {},
     results: {},
@@ -184,13 +210,17 @@ _.promise({
     .then(_load_data("countries"))
 
     .add("names", [ "deaths", "confirmed", "recovered", ])
-    // .add("names", [ "deaths", ]) // 
     .each({
         method: _cook,
         inputs: "names:name",
     })
+
     .make(sd => {
-        console.log(JSON.stringify(sd.results, null, 2))
+        sd.result_list = _.values(sd.results)
+    })
+    .each({
+        method: _write,
+        inputs: "result_list:json",
     })
 
     .except(_.error.log)
