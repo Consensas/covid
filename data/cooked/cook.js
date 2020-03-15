@@ -248,6 +248,7 @@ _.promise({
 
     .then(_merge_data("ca-icu"))
     .then(_merge_data("ca-population"))
+    .then(_merge_data("ca-spending"))
 
     .make(sd => {
         sd.jsons = _.values(sd.results)
