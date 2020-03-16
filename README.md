@@ -6,6 +6,17 @@ data about cases, deaths and recovery of COVID19 in Canada
 and merge that with information such as population,
 ICU capacity and so forth.
 
+## Notes
+
+Code is a demonstration of Pipe Oriented Programming in NodeJS. 
+Think of it as an attempt to do a "Wolfram Language" type
+hypercompatible set of libaries for working with data and the world.
+Look at the code in `data/datasets` for getting a sense of 
+what it does.
+
+[Consensas](https://www.consensas.com/) is my startup, credit to 
+them / us for taking time away from that to work on this.
+
 ## Data Organization
 
 The "cooked" data can be found in folder `data/cooked`
