@@ -114,6 +114,10 @@ items:
     deaths: 0
     confirmed: 3
     recovered: 1
+    tests_negative: 418
+    tests_positive: 2
+    tests_resolved: 1
+    tests_ordered: 421
     tests: 421
   - date: '2020-02-19'
     deaths: 0
@@ -123,7 +127,11 @@ items:
     deaths: 0
     confirmed: 3
     recovered: 1
-    tests: 479
+    tests_negative: 462
+    tests_positive: 1
+    tests_resolved: 2
+    tests_ordered: 479
+    tests: 465
   - date: '2020-02-21'
     deaths: 0
     confirmed: 3
@@ -140,7 +148,11 @@ items:
     deaths: 0
     confirmed: 4
     recovered: 3
-    tests: 553
+    tests_negative: 540
+    tests_positive: 1
+    tests_resolved: 3
+    tests_ordered: 553
+    tests: 544
   - date: '2020-02-25'
     deaths: 0
     confirmed: 4
@@ -149,7 +161,11 @@ items:
     deaths: 0
     confirmed: 4
     recovered: 3
-    tests: 629
+    tests_negative: 610
+    tests_positive: 1
+    tests_resolved: 3
+    tests_ordered: 629
+    tests: 614
   - date: '2020-02-27'
     deaths: 0
     confirmed: 6
@@ -182,17 +198,29 @@ items:
     deaths: 0
     confirmed: 22
     recovered: 3
-    tests: 1566
+    tests_negative: 1466
+    tests_positive: 18
+    tests_resolved: 4
+    tests_ordered: 1566
+    tests: 1488
   - date: '2020-03-06'
     deaths: 0
     confirmed: 25
     recovered: 3
-    tests: 1763
+    tests_negative: 1665
+    tests_positive: 22
+    tests_resolved: 4
+    tests_ordered: 1763
+    tests: 1691
   - date: '2020-03-07'
     deaths: 0
     confirmed: 28
     recovered: 4
-    tests: 1982
+    tests_negative: 1918
+    tests_positive: 24
+    tests_resolved: 4
+    tests_ordered: 1982
+    tests: 1946
   - date: '2020-03-08'
     deaths: 0
     confirmed: 29
@@ -201,12 +229,20 @@ items:
     deaths: 0
     confirmed: 34
     recovered: 4
-    tests: 2404
+    tests_negative: 2347
+    tests_positive: 31
+    tests_resolved: 4
+    tests_ordered: 2404
+    tests: 2382
   - date: '2020-03-10'
     deaths: 0
     confirmed: 36
     recovered: 4
-    tests: 2747
+    tests_negative: 2599
+    tests_positive: 31
+    tests_resolved: 5
+    tests_ordered: 2747
+    tests: 2635
   - date: '2020-03-11'
     deaths: 0
     confirmed: 41
@@ -215,23 +251,39 @@ items:
     deaths: 0
     confirmed: 42
     recovered: 4
-    tests: 4185
+    tests_negative: 3590
+    tests_positive: 54
+    tests_resolved: 5
+    tests_ordered: 4185
+    tests: 3649
   - date: '2020-03-13'
     deaths: 0
     confirmed: 74
     recovered: 4
-    tests: 5129
+    tests_negative: 4470
+    tests_positive: 74
+    tests_resolved: 5
+    tests_ordered: 5129
+    tests: 4549
   - date: '2020-03-14'
     deaths: 0
     confirmed: 79
     recovered: 4
-    tests: 6646
+    tests_negative: 5606
+    tests_positive: 96
+    tests_resolved: 5
+    tests_ordered: 6646
+    tests: 5707
   - date: '2020-03-15'
     deaths: 0
     confirmed: 104
     recovered: 4
   - date: '2020-03-16'
-    tests: 10178
+    tests_negative: 8464
+    tests_positive: 172
+    tests_resolved: 5
+    tests_ordered: 10178
+    tests: 8641
 icu_hospitals: 84
 icu_beds: 1122
 icu_ventalators: 2101

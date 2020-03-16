@@ -90,11 +90,15 @@ Keys:
 ### Testing
 
 This retrieved by scraping. 
-Right now we only scrape:
+Right now we only scrape provinces:
 
 * ON
 
-- `tests`: the number of tests performed (may be ordered or underway)
+- `tests`: the number of tests performed / underway
+- `tests_negative`
+- `tests_positive`
+- `tests_resolved`
+- `tests_ordered`
 
 ### Political
 

@@ -52,15 +52,29 @@ _.promise()
                     date: json.date,
                 }
 
+                // console.log(json.status)
+                // process.exit()
+                
                 json.status.forEach(tuple => {
+                    const number = _.coerce.to.Integer(tuple[1].replace(/,/g, ""), null)
                     if (tuple[0].startsWith("Total number")) {
-                        item.tests = _.coerce.to.Integer(tuple[1].replace(/,/g, ""))
+                        item.tests_ordered = number
+                    } else if (tuple[0].startsWith("Confirmed neg") || tuple[0].startsWith("Neg")) {
+                        item.tests_negative = number
+                    } else if (tuple[0].startsWith("Presumptive neg")) {
+                        // item.tests_xxx = number
+                    } else if (tuple[0].startsWith("Confirmed p") || tuple[0].startsWith("Pos")) {
+                        item.tests_positive = number
+                    } else if (tuple[0].startsWith("Presumptive p")) {
+                        // item.tests_xxx = number
+                    } else if (tuple[0].startsWith("Resolved")) {
+                        item.tests_resolved = number
                     }
                 })
 
-                if (item.tests) {
-                    sd.json.items.push(item)
-                }
+                item.tests = (item.tests_negative || 0) + (item.tests_positive || 0) + (item.tests_resolved || 0) 
+
+                sd.json.items.push(item)
             })
 
         sd.json = [ sd.json ]
