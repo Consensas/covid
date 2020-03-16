@@ -74,12 +74,7 @@ Keys:
 
 * `spending_pp` - spending per person
 
-## Geographical Naming
-
-* https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
-* https://github.com/vlucas/devdata.io/tree/master/datasets
-
-## Age Brackets and Population
+### Age Brackets and Population
 
 From Stats Can 2019 dataset
 
@@ -90,7 +85,12 @@ Keys:
 - `population`: the population
 - `age_median`: median age
 - `age_XX_YY`: population aged XX to YY
-- `age_XX_up: population aged XX and up
+- `age_XX_up`: population aged XX and up
+
+## Geographical Naming
+
+* https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
+* https://github.com/vlucas/devdata.io/tree/master/datasets
 
 ## Discontinued
 
