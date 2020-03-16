@@ -66,17 +66,6 @@ Keys:
 * `icu_hospitals_ino` - Hospitals with ICUs with iNO
 * `icu_hospitals_ecmo` - Hospitals with ICUs with ECMO
 
-## Population
-
-This is as close to "from some Internet rando" as it gets.
-I hope to replace with StatsCan data soon.
-
-* https://github.com/Clavicus/Testing-Requests
-
-Keys:
-
-* `population`
-
 ### Spending
 
 * https://www.cihi.ca/en/how-do-the-provinces-and-territories-compare
@@ -89,3 +78,30 @@ Keys:
 
 * https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
 * https://github.com/vlucas/devdata.io/tree/master/datasets
+
+## Age Brackets and Population
+
+From Stats Can 2019 dataset
+
+* https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710000501#timeframe
+
+Keys:
+
+- `population`: the population
+- `age_median`: median age
+- `age_XX_YY`: population aged XX to YY
+- `age_XX_up: population aged XX and up
+
+## Discontinued
+
+### Population
+
+This is as close to "from some Internet rando" as it gets.
+I hope to replace with StatsCan data soon.
+
+* https://github.com/Clavicus/Testing-Requests
+
+Keys:
+
+* `population`
+

@@ -247,7 +247,7 @@ _.promise({
     })
 
     .then(_merge_data("ca-icu"))
-    .then(_merge_data("ca-population"))
+    .then(_merge_data("ca-age"))
     .then(_merge_data("ca-spending"))
     .then(_merge_data("ca-doctors"))
 
