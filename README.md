@@ -87,7 +87,16 @@ Keys:
 - `age_XX_YY`: population aged XX to YY
 - `age_XX_up`: population aged XX and up
 
-## Political
+### Testing
+
+This retrieved by scraping. 
+Right now we only scrape:
+
+* ON
+
+- `tests`: the number of tests performed (may be ordered or underway)
+
+### Political
 
 This dataset I created myself using lots of Google Searching
 
