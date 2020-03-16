@@ -1,0 +1,20 @@
+#
+#   ca-on-tests.yaml
+#
+#   David Janes
+#   2020-03-16
+#
+#   Source:
+#   https://www.ontario.ca/page/2019-novel-coronavirus#section-0
+#
+#   Need to automate this
+#
+- country: CA
+  state: 'ON'
+  key: ca-on
+  items:
+  - date: 2020-03-15
+    test_negative: 7004
+    test_current: 1316
+    test_positive: 140
+    test_resolved: 5
