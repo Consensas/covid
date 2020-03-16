@@ -116,8 +116,12 @@ const _pull = _.promise((self, done) => {
                 })
             })
 
-            console.log("HERE:XXX", JSON.stringify(sd.result, null, 2))
+            sd.path = path.join(__dirname, "raw", `${sd.result.date}.yaml`)
+            sd.json = sd.result
         })
+        .then(fs.make.directory.parent)
+        .then(fs.write.yaml)
+
         .end(done, self, _pull)
 })
 
