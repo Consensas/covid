@@ -1,0 +1,18 @@
+#
+#   ca-bc-tests.yaml
+#
+#   David Janes
+#   2020-03-16
+#
+#   Source:
+#   http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+#
+#   Need to automate this
+#
+- country: CA
+  state: 'BC'
+  key: ca-bc
+  items:
+  - date: 2020-03-13
+    test_total: 6326 
+    test_positive: 73
