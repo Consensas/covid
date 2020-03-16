@@ -87,6 +87,15 @@ Keys:
 - `age_XX_YY`: population aged XX to YY
 - `age_XX_up`: population aged XX and up
 
+## Political
+
+This dataset I created myself using lots of Google Searching
+
+- `poli_leader`: eg the premier
+- `poli_leader_health`: eg the minister of health
+- `poli_officer_cmo`: chief medical officer
+- `poli_covid_url`: address of provincial COVID19 website
+
 ## Geographical Naming
 
 * https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
