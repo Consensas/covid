@@ -152,9 +152,9 @@ if (ad._.length) {
         .except(_.error.log)
 } else {
     _.promise()
-        .then(fetch.document.get("https://www.ontario.ca/page/2019-novel-coronavirus"))
+        .then(fetch.json.get("https://api.ontario.ca/api/drupal/page%2F2019-novel-coronavirus?fields=body"))
         .make(sd => {
-            console.log(sd.document)
+            sd.document = "<div id='pagebody'>" + sd.json.body.und[0].safe_value + "</div>"
         })
         .then(_pull)
         .except(_.error.log)
