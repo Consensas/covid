@@ -1,0 +1,200 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Population estimates on July 1st, by age and sex",17100005,051-0001,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501",1;2;6;7,"CURRENT - a cube available to the public and that is current",Annual,1971-01-01,2019-01-01,3
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,Sex,,
+3,"Age group",5;6,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,,
+1,"Newfoundland and Labrador",[10],2,1,,,
+1,"Prince Edward Island",[11],3,1,,,
+1,"Nova Scotia",[12],4,1,,,
+1,"New Brunswick",[13],5,1,,,
+1,Quebec,[24],6,1,,,
+1,Ontario,[35],7,1,,,
+1,Manitoba,[46],8,1,,,
+1,Saskatchewan,[47],9,1,,,
+1,Alberta,[48],10,1,,,
+1,"British Columbia",[59],11,1,,,
+1,Yukon,[60],12,1,,,
+1,"Northwest Territories including Nunavut",,13,1,t,3,
+1,"Northwest Territories",[61],14,1,,4,
+1,Nunavut,[62],15,1,,4,
+2,"Both sexes",,1,,,,
+2,Males,,2,1,,,
+2,Females,,3,1,,,
+3,"All ages",,1,,,,
+3,"0 years",,2,7,,,
+3,"1 year",,3,7,,,
+3,"2 years",,4,7,,,
+3,"3 years",,5,7,,,
+3,"4 years",,6,7,,,
+3,"0 to 4 years",,7,1,,,
+3,"5 years",,8,13,,,
+3,"6 years",,9,13,,,
+3,"7 years",,10,13,,,
+3,"8 years",,11,13,,,
+3,"9 years",,12,13,,,
+3,"5 to 9 years",,13,1,,,
+3,"10 years",,14,19,,,
+3,"11 years",,15,19,,,
+3,"12 years",,16,19,,,
+3,"13 years",,17,19,,,
+3,"14 years",,18,19,,,
+3,"10 to 14 years",,19,1,,,
+3,"15 years",,20,25,,,
+3,"16 years",,21,25,,,
+3,"17 years",,22,25,,,
+3,"18 years",,23,25,,,
+3,"19 years",,24,25,,,
+3,"15 to 19 years",,25,1,,,
+3,"20 years",,26,31,,,
+3,"21 years",,27,31,,,
+3,"22 years",,28,31,,,
+3,"23 years",,29,31,,,
+3,"24 years",,30,31,,,
+3,"20 to 24 years",,31,1,,,
+3,"25 years",,32,37,,,
+3,"26 years",,33,37,,,
+3,"27 years",,34,37,,,
+3,"28 years",,35,37,,,
+3,"29 years",,36,37,,,
+3,"25 to 29 years",,37,1,,,
+3,"30 years",,38,43,,,
+3,"31 years",,39,43,,,
+3,"32 years",,40,43,,,
+3,"33 years",,41,43,,,
+3,"34 years",,42,43,,,
+3,"30 to 34 years",,43,1,,,
+3,"35 years",,44,49,,,
+3,"36 years",,45,49,,,
+3,"37 years",,46,49,,,
+3,"38 years",,47,49,,,
+3,"39 years",,48,49,,,
+3,"35 to 39 years",,49,1,,,
+3,"40 years",,50,55,,,
+3,"41 years",,51,55,,,
+3,"42 years",,52,55,,,
+3,"43 years",,53,55,,,
+3,"44 years",,54,55,,,
+3,"40 to 44 years",,55,1,,,
+3,"45 years",,56,61,,,
+3,"46 years",,57,61,,,
+3,"47 years",,58,61,,,
+3,"48 years",,59,61,,,
+3,"49 years",,60,61,,,
+3,"45 to 49 years",,61,1,,,
+3,"50 years",,62,67,,,
+3,"51 years",,63,67,,,
+3,"52 years",,64,67,,,
+3,"53 years",,65,67,,,
+3,"54 years",,66,67,,,
+3,"50 to 54 years",,67,1,,,
+3,"55 years",,68,73,,,
+3,"56 years",,69,73,,,
+3,"57 years",,70,73,,,
+3,"58 years",,71,73,,,
+3,"59 years",,72,73,,,
+3,"55 to 59 years",,73,1,,,
+3,"60 years",,74,79,,,
+3,"61 years",,75,79,,,
+3,"62 years",,76,79,,,
+3,"63 years",,77,79,,,
+3,"64 years",,78,79,,,
+3,"60 to 64 years",,79,1,,,
+3,"65 years",,80,85,,,
+3,"66 years",,81,85,,,
+3,"67 years",,82,85,,,
+3,"68 years",,83,85,,,
+3,"69 years",,84,85,,,
+3,"65 to 69 years",,85,1,,,
+3,"70 to 74 years",,86,1,,,
+3,"75 to 79 years",,87,1,,,
+3,"80 to 84 years",,88,1,,,
+3,"85 to 89 years",,89,1,,,
+3,"90 years and over",,90,,,,
+3,"0 to 14 years",,91,,,,
+3,"0 to 15 years",,92,,,,
+3,"0 to 16 years",,93,,,,
+3,"0 to 17 years",,94,,,,
+3,"15 to 49 years",,95,,,,
+3,"15 to 64 years",,96,,,,
+3,"16 to 64 years",,97,,,,
+3,"17 to 64 years",,98,,,,
+3,"18 to 24 years",,99,100,,,
+3,"18 to 64 years",,100,101,,,
+3,"18 years and over",,101,,,,
+3,"25 to 44 years",,102,100,,,
+3,"45 to 64 years",,103,100,,,
+3,"65 years and over",,104,101,,,
+3,"Median age",,105,,,,
+3,"70 years",,106,86,,,
+3,"71 years",,107,86,,,
+3,"72 years",,108,86,,,
+3,"73 years",,109,86,,,
+3,"74 years",,110,86,,,
+3,"75 years",,111,87,,,
+3,"76 years",,112,87,,,
+3,"77 years",,113,87,,,
+3,"78 years",,114,87,,,
+3,"79 years",,115,87,,,
+3,"80 years",,116,88,,,
+3,"81 years",,117,88,,,
+3,"82 years",,118,88,,,
+3,"83 years",,119,88,,,
+3,"84 years",,120,88,,,
+3,"85 years",,121,89,,,
+3,"86 years",,122,89,,,
+3,"87 years",,123,89,,,
+3,"88 years",,124,89,,,
+3,"89 years",,125,89,,,
+3,"90 to 94 years",,126,1,,,
+3,"90 years",,127,126,,,
+3,"91 years",,128,126,,,
+3,"92 years",,129,126,,,
+3,"93 years",,130,126,,,
+3,"94 years",,131,126,,,
+3,"95 to 99 years",,132,1,,,
+3,"95 years",,133,132,,,
+3,"96 years",,134,132,,,
+3,"97 years",,135,132,,,
+3,"98 years",,136,132,,,
+3,"99 years",,137,132,,,
+3,"100 years and over",,138,1,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3604,"Annual Demographic Estimates: Canada, Provinces and Territories"
+
+"Subject Code","Subject Name"
+17,"Population and demography"
+
+"Note ID",Note
+1,"Postcensal estimates are based on the 2016 Census counts adjusted for census net undercoverage (CNU) (including adjustment for incompletely enumerated Indian reserves (IEIR)) and the components of demographic growth that occurred since that census. Intercensal estimates are produced using counts from two consecutive censuses adjusted for CNU (including (IEIR) and postcensal estimates."
+2,"Estimates are final intercensal up to 2015, final postcensal for 2016, updated postcensal for 2017 and 2018 and preliminary postcensal for 2019."
+3,"Population estimates for Northwest Territories and Nunavut are presented separately from 1991."
+4,"Prior to 1991, only estimates of population for Northwest Territories and Nunavut combined are available."
+5,"Age at last birthday in years."
+6,"Data for persons aged 90 to 100 years and over will be available from 2001."
+7,"The population growth, which is used to calculate population estimates, is comprised of the natural growth (Tables 17100006 and 17100016), international migration (Table 17100014) and interprovincial migration (Table 17100015)."
+
+"Correction ID","Correction Date","Correction Note"
+
