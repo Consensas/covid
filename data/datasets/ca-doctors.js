@@ -46,7 +46,7 @@ _.promise()
                 country: "CA",
                 state: province.toUpperCase(),
                 key: `CA-${province}`.toLowerCase(),
-                doctors_pp: doctors_ptp / 1000,
+                doctors_pp: doctors_ptp / 100000,
             })
         })
     })
