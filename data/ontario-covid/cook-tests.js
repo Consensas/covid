@@ -62,6 +62,8 @@ _.promise()
                     sd.json.items.push(item)
                 }
             })
+
+        sd.json = [ sd.json ]
     })
     .then(fs.write.yaml.p(NAME, null))
     .except(_.error.log)

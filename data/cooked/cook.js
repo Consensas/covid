@@ -212,8 +212,25 @@ const _merge_data = dataset => _.promise((self, done) => {
             sd.json
                 .filter(row => row.key)
                 .filter(row => sd.results[row.key])
-                .map(row => {
-                    sd.results[row.key] = Object.assign(sd.results[row.key], row)
+                .map(nrow => {
+                    const orow = sd.results[nrow.key] = sd.results[nrow.key] || {}
+                    
+                    _.keys(nrow).forEach(column => {
+                        if (column === "items") {
+                            nrow.items
+                                .filter(nitem => nitem.date)
+                                .forEach(nitem => {
+                                    const oitem = orow.items[nitem.date]
+                                    orow.items[nitem.date] = Object.assign(
+                                        {},
+                                        orow.items[nitem.date] || {},
+                                        nitem
+                                    )
+                                })
+                        } else {
+                            orow[column] = nrow[column]
+                        }
+                    })
                 })
         })
         .end(done, self, _merge_data)
@@ -251,6 +268,7 @@ _.promise({
     .then(_merge_data("ca-spending"))
     .then(_merge_data("ca-doctors"))
     .then(_merge_data("ca-political"))
+    .then(_merge_data("../ontario-covid/ca-on-tests"))
 
     .make(sd => {
         sd.jsons = _.values(sd.results)
