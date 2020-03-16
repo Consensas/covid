@@ -42,7 +42,7 @@ We will pull it daily.
 
 * https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 
-### Physcians 
+### Physicians 
 
 * https://www.cma.ca/sites/default/files/pdf/Physician%20Data/12-Phys_per_pop.pdf
 
