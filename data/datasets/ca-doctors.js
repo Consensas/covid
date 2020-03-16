@@ -19,6 +19,9 @@
  *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
+ *
+ *  DATA SOURCE
+ *  https://www.cma.ca/sites/default/files/pdf/Physician%20Data/12-Phys_per_pop.pdf
  */
 
 "use strict"
@@ -29,19 +32,23 @@ const xlsx = require("iotdb-xlsx")
 
 const path = require("path")
 
-const FILE = path.join(__dirname, "ca-spending-raw.yaml")
-const NAME = "ca-spending.yaml"
+const FILE = path.join(__dirname, "ca-doctors.csv")
+const NAME = "ca-doctors.yaml"
 
 _.promise()
-    .then(fs.read.yaml.p(FILE))
+    .then(fs.read.utf8.p(FILE))
+    .then(xlsx.load.csv)
     .make(sd => {
-        sd.json = _.pairs(sd.json)
-            .map(row => ({
+        sd.json = []
+
+        _.mapObject(sd.jsons[0], (doctors_ptp, province) => {
+            sd.json.push({
                 country: "CA",
-                state: row[0],
-                key: `CA-${row[0]}`.toLowerCase(),
-                spending_pp: row[1],
-            }))
+                state: province.toUpperCase(),
+                key: `CA-${province}`.toLowerCase(),
+                doctors_pp: doctors_ptp / 1000,
+            })
+        })
     })
     .then(fs.write.yaml.p(NAME, null))
     .except(_.error.log)
