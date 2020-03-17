@@ -102,7 +102,7 @@ Right now we only do these provinces:
 - `tests`: the number of tests performed / underway
 - `tests_negative`
 - `tests_positive`
-- `tests_resolved`
+- `tests_resolved`: patient is no longer infectious based on two consecutive negative tests performed at PHO Laboratory at least 24 hours apart
 - `tests_ordered`
 
 ### Political
