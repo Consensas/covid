@@ -98,11 +98,12 @@ Right now we only do these provinces:
 * SK (partial)
 * MB (partial)
 * NS (partial)
+* PE (starts 2020-03-17)
 
 - `tests`: the number of tests performed / underway
 - `tests_negative`
 - `tests_positive`
-- `tests_resolved`: patient is no longer infectious based on two consecutive negative tests performed at PHO Laboratory at least 24 hours apart
+- `tests_resolved`: patient is no longer infectious
 - `tests_ordered`
 
 ### Political
