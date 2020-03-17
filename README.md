@@ -94,6 +94,7 @@ Right now we only do these provinces:
 
 * ON
 * BC
+* AB
 
 - `tests`: the number of tests performed / underway
 - `tests_negative`

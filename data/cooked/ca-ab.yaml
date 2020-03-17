@@ -98,6 +98,9 @@ items:
     deaths: 0
     confirmed: 0
     recovered: 0
+    tests_negative: 76
+    tests_positive: 0
+    tests: 76
   - date: '2020-02-15'
     deaths: 0
     confirmed: 0
@@ -134,6 +137,9 @@ items:
     deaths: 0
     confirmed: 0
     recovered: 0
+    tests_negative: 117
+    tests_positive: 0
+    tests: 117
   - date: '2020-02-24'
     deaths: 0
     confirmed: 0
@@ -146,10 +152,16 @@ items:
     deaths: 0
     confirmed: 0
     recovered: 0
+    tests_negative: 117
+    tests_positive: 0
+    tests: 117
   - date: '2020-02-27'
     deaths: 0
     confirmed: 0
     recovered: 0
+    tests_negative: 117
+    tests_positive: 0
+    tests: 117
   - date: '2020-02-28'
     deaths: 0
     confirmed: 0
@@ -174,6 +186,9 @@ items:
     deaths: 0
     confirmed: 0
     recovered: 0
+    tests_negative: 173
+    tests_positive: 0
+    tests: 173
   - date: '2020-03-05'
     deaths: 0
     confirmed: 0
@@ -190,34 +205,62 @@ items:
     deaths: 0
     confirmed: 4
     recovered: 0
+    tests_negative: 375
+    tests_positive: 4
+    tests: 379
   - date: '2020-03-09'
     deaths: 0
     confirmed: 7
     recovered: 0
+    tests_negative: 1452
+    tests_positive: 7
+    tests: 1459
   - date: '2020-03-10'
     deaths: 0
     confirmed: 7
     recovered: 0
+    tests_negative: 1452
+    tests_positive: 7
+    tests: 1459
   - date: '2020-03-11'
     deaths: 0
     confirmed: 19
     recovered: 0
+    tests_negative: 2600
+    tests_positive: 19
+    tests: 2619
   - date: '2020-03-12'
     deaths: 0
     confirmed: 19
     recovered: 0
+    tests_negative: 4265
+    tests_positive: 23
+    tests: 4288
   - date: '2020-03-13'
     deaths: 0
     confirmed: 29
     recovered: 0
+    tests_negative: 5429
+    tests_positive: 29
+    tests: 5458
   - date: '2020-03-14'
     deaths: 0
     confirmed: 29
     recovered: 0
+    tests_negative: 7069
+    tests_positive: 39
+    tests: 7108
   - date: '2020-03-15'
     deaths: 0
     confirmed: 39
     recovered: 0
+  - date: '2020-03-16'
+    deaths: 0
+    confirmed: 56
+    recovered: 0
+    tests_negative: 10524
+    tests_positive: 74
+    tests: 10598
 icu_hospitals: 16
 icu_beds: 292
 icu_ventalators: 373

@@ -1,5 +1,5 @@
 /*
- *  data/bc-cmo/cook.js
+ *  data/ab-cmo/cook.js
  *
  *  David Janes
  *  IOTDB
@@ -28,7 +28,7 @@ const fs = require("iotdb-fs")
 
 const path = require("path")
 
-const NAME = "ca-bc-tests.yaml"
+const NAME = "ca-ab-tests.yaml"
 
 _.promise()
     .then(fs.list.p(path.join(__dirname, "raw")))
@@ -41,21 +41,10 @@ _.promise()
     .make(sd => {
         sd.json = {
             country: "CA",
-            state: "BC",
-            key: "ca-bc",
-            items: [],
+            state: "AB",
+            key: "ca-ab",
+            items: sd.jsons.filter(json => json.date)
         }
-
-        sd.jsons
-            .filter(json => json.date && json.value)
-            .forEach(json => {
-                const item = {
-                    date: json.date,
-                    tests: json.value,
-                }
-
-                sd.json.items.push(item)
-            })
 
         sd.json = [ sd.json ]
     })
