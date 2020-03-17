@@ -112,21 +112,7 @@ if (ad._.length) {
         .except(_.error.log)
 } else {
     _.promise()
-        .then(fetch.json.get("https://api.ontario.ca/api/drupal/page%2F2019-novel-coronavirus?fields=body"))
-        .make(sd => {
-            sd.document = "<div id='pagebody'>" + sd.json.body.und[0].safe_value + "</div>"
-        })
+        .then(fetch.document.get("http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements"))
         .then(_pull)
         .except(_.error.log)
 }
-
-
-/*
-const FILE = path.join(__dirname, "ca-age.csv")
-const NAME = "ca-age.yaml"
-
-_.promise()
-    .then(fs.read.utf8.p(FILE))
-    .then(fs.write.yaml.p(NAME, null))
-    .except(_.error.log)
-*/
