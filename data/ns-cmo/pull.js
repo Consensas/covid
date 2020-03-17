@@ -26,6 +26,7 @@
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 const fetch = require("iotdb-fetch")
+const document = require("iotdb-document")
 
 const path = require("path")
 const cheerio = require("cheerio")
@@ -74,44 +75,64 @@ const _pull = _.promise((self, done) => {
                 if (sd.json.date) {
                     return
                 }
+
                 const text = $(e).text()
                 if (_.is.Empty(text)) {
                     return
                 }
 
-                const match = text.match(/Updated.*((January|February|March|April|May|June|July|August|September) \d+), ([\d,]+)/)
-                if (!match) {
+                let match
+                match = text.match(/(\d+ (January|February|March|April|May|June|July|August|September)),*.([\d]+)/)
+                if (match) {
+                    const date = parse(`${match[1]} ${match[3]}`, "dd MMMM yyyy", new Date())
+                    if (!_.is.Date(date)) {
+                        return 
+                    }
+
+                    sd.json.date = date.toISOString().substring(0, 10)
                     return
                 }
 
-                const date = parse(`${match[1]} ${match[3]}`, "MMMM dd yyyy", new Date())
-                if (!_.is.Date(date)) {
-                    return 
+                match = text.match(/((January|February|March|April|May|June|July|August|September) \d+),*.(\d+)/)
+                if (match) {
+                    const date = parse(`${match[1]} ${match[3]}`, "MMMM dd yyyy", new Date())
+                    if (!_.is.Date(date)) {
+                        return 
+                    }
+
+                    sd.json.date = date.toISOString().substring(0, 10)
+                    return
                 }
 
-                sd.json.date = date.toISOString().substring(0, 10)
             })
 
             $("#cases table").each((x, e) => {
                 const table = _table($(e))
+// console.log(table)
 
                 table.forEach(row => {
                     if (!row.length === 2) {
                         return
                     }
 
-                    if (row[0] === "Positive") {
-                        sd.json.tests_positive = _integer(row[1])
-                    } else if (row[0] === "Negative") {
+                    if (_contains(row[0], "confirmed negative")) {
                         sd.json.tests_negative = _integer(row[1])
-                    } else if (_contains(row[0], "confirmed negative")) {
-                        sd.json.tests_negative = _integer(row[1])
+                    } else if (_contains(row[0], "Presumptive Positive")) {
                     } else if (_contains(row[0], "confirmed positive")) {
+                        sd.json.tests_positive = _integer(row[1])
+                    } else if (_contains(row[0], "negative")) {
+                        sd.json.tests_negative = _integer(row[1])
+                    } else if (_contains(row[0], "positive")) {
                         sd.json.tests_positive = _integer(row[1])
                     }
                 })
             })
 
+            if (_.is.Integer(sd.json.tests_positive) && _.is.Integer(sd.json.tests_negative)) {
+                sd.json.tests = sd.json.tests_positive + sd.json.tests_negative
+            }
+
+// console.log(sd.json)
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
             if (_.is.Empty(sd.json.date)) {
@@ -153,8 +174,15 @@ if (ad._.length) {
         })
         .except(_.error.log)
 } else {
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+
     _.promise()
-        .then(fetch.document.get("http://novascotia.ca/coronavirus/"))
+        .then(fetch.document.get("https://novascotia.ca/coronavirus/"))
+        .then(document.to.string)
         .then(_pull)
+        .catch(error => {
+            delete error.self
+            console.log(error)
+        })
         .except(_.error.log)
 }
