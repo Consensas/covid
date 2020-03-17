@@ -1,0 +1,25 @@
+#
+#   cook.yaml
+#
+#   David Janes
+#   2020-03-17
+#   ☘️
+#
+#   Configuration for cook.js
+
+## these are basically just "how to name things"
+data:
+- datasets/ca.yaml
+- datasets/us.yaml
+- datasets/au.yaml
+- datasets/countries.yaml
+
+## these augment the core datasets
+merge:
+- datasets/ca-icu.yaml
+- datasets/ca-age.yaml
+- datasets/ca-spending.yaml
+- datasets/ca-doctors.yaml
+- by-hand/ca-political.yaml
+- on-cmo/ca-on-tests.yaml
+- bc-cmo/ca-bc-tests.yaml

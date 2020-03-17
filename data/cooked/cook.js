@@ -154,13 +154,14 @@ _cook.produces = {
 
 /**
  */
-const _load_data = dataset => _.promise((self, done) => {
+const _load_data = _.promise((self, done) => {
     _.promise(self)
         .validate(_load_data)
 
-        .then(fs.read.yaml.p(path.join(__dirname, "..", "datasets", `${dataset}.yaml`)))
+        .then(fs.read.yaml.p(path.join(__dirname, "..", self.dataset)))
         .make(sd => {
-            sd.datasets[dataset] = sd.json
+            const name = path.basename(self.dataset).replace(/[.].*$/, "")
+            sd.datasets[name] = sd.json
         })
 
         .end(done, self, _load_data)
@@ -170,10 +171,15 @@ _load_data.method = "_load_data"
 _load_data.description = ``
 _load_data.requires = {
     datasets: _.is.Dictionary,
+    dataset: _.is.String,
 }
 _load_data.produces = {
     datasets: _.is.Dictionary,
 }
+_load_data.params = {
+    dataset: _.p.normal,
+}
+_load_data.p = _.p(_load_data)
 
 /**
  */
@@ -204,11 +210,11 @@ _write.produces = {
 
 /**
  */
-const _merge_data = dataset => _.promise((self, done) => {
+const _merge_data = _.promise((self, done) => {
     _.promise(self)
         .validate(_merge_data)
 
-        .then(fs.read.yaml.p(path.join(__dirname, "..", `${dataset}.yaml`)))
+        .then(fs.read.yaml.p(path.join(__dirname, "..", self.dataset)))
         .make(sd => {
             sd.json
                 .filter(row => row.key)
@@ -241,11 +247,16 @@ _merge_data.method = "_merge_data"
 _merge_data.description = ``
 _merge_data.requires = {
     results: _.is.Dictionary,
+    dataset: _.is.String,
 }
 _merge_data.accepts = {
 }
 _merge_data.produces = {
 }
+_merge_data.params = {
+    dataset: _.p.normal,
+}
+_merge_data.p = _.p(_merge_data)
 
 /**
  */
@@ -253,25 +264,30 @@ _.promise({
     datasets: {},
     results: {},
 })
-    .then(_load_data("ca"))
-    .then(_load_data("us"))
-    .then(_load_data("au"))
-    .then(_load_data("countries"))
+    // configuration
+    .then(fs.read.yaml.p(path.join(__dirname, "cook.yaml")))
+    .add("json:cfg")
 
+    // names of things
+    .each({
+        method: _load_data,
+        inputs: "cfg/data:dataset",
+    })
+
+    // core data
     .add("names", [ "deaths", "confirmed", "recovered", ])
     .each({
         method: _cook,
         inputs: "names:name",
     })
 
-    .then(_merge_data("datasets/ca-icu"))
-    .then(_merge_data("datasets/ca-age"))
-    .then(_merge_data("datasets/ca-spending"))
-    .then(_merge_data("datasets/ca-doctors"))
-    .then(_merge_data("by-hand/ca-political"))
-    .then(_merge_data("on-cmo/ca-on-tests"))
-    .then(_merge_data("bc-cmo/ca-bc-tests"))
+    // augment core dataset
+    .each({
+        method: _merge_data,
+        inputs: "cfg/merge:dataset",
+    })
 
+    // cleanup
     .make(sd => {
         sd.jsons = _.values(sd.results)
         sd.jsons.forEach(result => {
@@ -279,6 +295,8 @@ _.promise({
             result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
         })
     })
+
+    // write each file
     .each({
         method: _write,
         inputs: "jsons:json",
