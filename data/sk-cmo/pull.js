@@ -81,9 +81,6 @@ const _pull = _.promise((self, done) => {
                 if (table.length < 2) {
                     return
                 }
-                if (!_contains(table[0][0], "COVID-19 Laboratory")) {
-                    return
-                }
 
                 table.forEach(row => {
                     const match = row[0].match(/as of ([A-Za-z]* \d+, \d+)/)
@@ -102,11 +99,13 @@ const _pull = _.promise((self, done) => {
 
                     if (_contains(row[0], "total persons")) {
                         sd.json.tests = _integer(row[1])
+                    } else if (_contains(row[0], "tests performed")) {
+                        sd.json.tests = _integer(row[1])
                     } else if (_contains(row[0], "pending results")) {
                         sd.json.tests_pending = _integer(row[1])
                     } else if (_contains(row[0], "confirmed negative")) {
                         sd.json.tests_negative = _integer(row[1])
-                    } else if (_contains(row[0], "confirmed posituve")) {
+                    } else if (_contains(row[0], "confirmed positive")) {
                         sd.json.tests_positive = _integer(row[1])
                     }
                 })
@@ -117,6 +116,7 @@ const _pull = _.promise((self, done) => {
             if (_.is.Empty(sd.json.date)) {
                 _.promise.bail(sd)
             }
+
         })
         .then(fs.make.directory.parent)
         .then(fs.write.yaml)
@@ -133,7 +133,6 @@ _pull.accepts = {
 }
 _pull.produces = {
 }
-
 
 if (ad._.length) {
     _.promise({
