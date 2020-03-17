@@ -181,6 +181,7 @@ const _write = _.promise((self, done) => {
     _.promise(self)
         .validate(_write)
         .then(fs.write.yaml.p(`${self.json.key}.yaml`, null))
+        .log("wrote", "json/key")
         .end(done, self, _write)
 })
 
@@ -207,7 +208,7 @@ const _merge_data = dataset => _.promise((self, done) => {
     _.promise(self)
         .validate(_merge_data)
 
-        .then(fs.read.yaml.p(path.join(__dirname, "..", "datasets", `${dataset}.yaml`)))
+        .then(fs.read.yaml.p(path.join(__dirname, "..", `${dataset}.yaml`)))
         .make(sd => {
             sd.json
                 .filter(row => row.key)
@@ -263,12 +264,12 @@ _.promise({
         inputs: "names:name",
     })
 
-    .then(_merge_data("ca-icu"))
-    .then(_merge_data("ca-age"))
-    .then(_merge_data("ca-spending"))
-    .then(_merge_data("ca-doctors"))
-    .then(_merge_data("ca-political"))
-    .then(_merge_data("../ontario-covid/ca-on-tests"))
+    .then(_merge_data("datasets/ca-icu"))
+    .then(_merge_data("datasets/ca-age"))
+    .then(_merge_data("datasets/ca-spending"))
+    .then(_merge_data("datasets/ca-doctors"))
+    .then(_merge_data("by-hand/ca-political"))
+    .then(_merge_data("on-cmo/ca-on-tests"))
 
     .make(sd => {
         sd.jsons = _.values(sd.results)
