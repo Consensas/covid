@@ -86,6 +86,7 @@ const _pull = _.promise((self, done) => {
         })
         .then(fs.make.directory.parent)
         .then(fs.write.yaml)
+        .log("wrote", "path")
 
         .end(done, self, _pull)
 })

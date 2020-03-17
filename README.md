@@ -97,6 +97,7 @@ Right now we only do these provinces:
 * AB
 * SK (partial)
 * MB (partial)
+* NS (partial)
 
 - `tests`: the number of tests performed / underway
 - `tests_negative`
