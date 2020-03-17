@@ -89,16 +89,17 @@ Keys:
 
 ### Testing
 
-This retrieved by scraping. 
-Right now we only do these provinces:
+This retrieved by scraping, and may be spotty.
+These provinces are in the data set:
 
 * ON
 * BC
 * AB
-* SK (partial)
-* MB (partial)
-* NS (partial)
+* SK
+* MB
+* NS
 * PE (starts 2020-03-17)
+* NB
 
 - `tests`: the number of tests performed / underway
 - `tests_negative`

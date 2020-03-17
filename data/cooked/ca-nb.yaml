@@ -210,10 +210,16 @@ items:
     deaths: 0
     confirmed: 1
     recovered: 0
+    tests_positive: 1
+    tests_probable: 0
+    tests_negative: 18
   - date: '2020-03-14'
     deaths: 0
     confirmed: 1
     recovered: 0
+    tests_positive: 1
+    tests_probable: 1
+    tests_negative: 18
   - date: '2020-03-15'
     deaths: 0
     confirmed: 2
@@ -222,6 +228,9 @@ items:
     deaths: 0
     confirmed: 6
     recovered: 0
+  - date: '2020-03-17'
+    tests_probable: 6
+    tests_positive: 2
 icu_hospitals: 9
 icu_beds: 103
 icu_ventalators: 113
