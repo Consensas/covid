@@ -95,6 +95,7 @@ Right now we only do these provinces:
 * ON
 * BC
 * AB
+* SK (not full data series)
 
 - `tests`: the number of tests performed / underway
 - `tests_negative`
