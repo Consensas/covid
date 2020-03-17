@@ -90,9 +90,10 @@ Keys:
 ### Testing
 
 This retrieved by scraping. 
-Right now we only scrape provinces:
+Right now we only do these provinces:
 
 * ON
+* BC
 
 - `tests`: the number of tests performed / underway
 - `tests_negative`

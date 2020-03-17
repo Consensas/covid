@@ -270,6 +270,7 @@ _.promise({
     .then(_merge_data("datasets/ca-doctors"))
     .then(_merge_data("by-hand/ca-political"))
     .then(_merge_data("on-cmo/ca-on-tests"))
+    .then(_merge_data("bc-cmo/ca-bc-tests"))
 
     .make(sd => {
         sd.jsons = _.values(sd.results)
