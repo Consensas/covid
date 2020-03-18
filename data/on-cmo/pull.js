@@ -1,5 +1,5 @@
 /*
- *  data/ontario-covid/pull.js
+ *  data/on-cmo/pull.js
  *
  *  David Janes
  *  IOTDB
@@ -163,14 +163,3 @@ if (ad._.length) {
         .then(_pull)
         .except(_.error.log)
 }
-
-
-/*
-const FILE = path.join(__dirname, "ca-age.csv")
-const NAME = "ca-age.yaml"
-
-_.promise()
-    .then(fs.read.utf8.p(FILE))
-    .then(fs.write.yaml.p(NAME, null))
-    .except(_.error.log)
-*/
