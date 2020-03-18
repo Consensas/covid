@@ -17,13 +17,23 @@ what it does.
 [Consensas](https://www.consensas.com/) is my startup, credit to 
 them / us for taking time away from that to work on this.
 
+Generally we name data as follow:
+
+* *bootstrap* data is usually data loaded eg from Wayback machine, to set up a dataset
+* *raw* data is usually YAML/JSON pulled or built from another source,
+  but otherwise nothing else has been done to it
+* *cooked* data has been normalized to the data schema describe below.
+  This is usually what you want to look at.
+* *pull* programs get raw data from elsewhere
+* *cook* programs merge or process data to create cooked data
+
 ## Data Organization
 
-The "cooked" data can be found in folder `data/cooked`
-[here on the web](https://github.com/dpjanes/covid/tree/master/data/cooked).
-
-Data that is merged is in `data/datasets` (as well as
-geographical names).
+The primary "cooked" data can be found in folder `data/cooked`
+[here on the web](https://github.com/consensas/covid/tree/master/data/cooked).
+There is cooked data elsewhere but unless noted, 
+it's been merged into this data set.
+The files we have spent the most work on are `ca-??.yaml`.
 
 * If you would like to contribute data, do the usual fork
   and submit a change request.
