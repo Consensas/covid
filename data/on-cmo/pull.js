@@ -45,6 +45,7 @@ const _pull = _.promise((self, done) => {
     _.promise(self)
         .validate(_pull)
         .make(sd => {
+            sd.cases = []
             sd.result = {
                 cases: null,
                 status: null,
@@ -83,6 +84,8 @@ const _pull = _.promise((self, done) => {
                 return date.toISOString().substring(0, 10)
             }
 
+            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
+
             $("#pagebody").each((x, e) => {
                 let state = "start"
 
@@ -116,11 +119,52 @@ const _pull = _.promise((self, done) => {
                 })
             })
 
+/*
+            $("table").each((x, e) => {
+                const table = _table($(e))
+                if (!table.length) {
+                    return
+                }
+
+                table.forEach(row => {
+                    if (row.length < 5) {
+                        return
+                    }
+
+                    const n = _integer(row[0])
+                    if (!n) {
+                        return
+                    }
+
+                    const d = _.object(
+                        [ "id", "patient", "phu", "hospital", "transmission", "status" ],
+                        row
+                    )
+                    d.id = n
+
+                    sd.cases.push(d)
+                })
+
+            })
+    */
+
             sd.path = path.join(__dirname, "raw", `${sd.result.date}.yaml`)
             sd.json = sd.result
         })
         .then(fs.make.directory.parent)
         .then(fs.write.yaml)
+        /* -- going to use a different data source
+        .each({
+            method: _.promise((sd, sdone) => {
+                _.promise(sd)
+                    .add("path", `raw-cases/${sd.json.id}.yaml`)
+                    .then(fs.make.directory.parent)
+                    .then(fs.write.yaml)
+                    .end(sdone, sd)
+            }),
+            inputs: "cases:json"
+        })
+        */
 
         .end(done, self, _pull)
 })
