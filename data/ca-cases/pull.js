@@ -41,6 +41,14 @@ const googled = {
     token: token,
 }
 
+const _pad = s => {
+    while (s.length < 5) {
+        s = `0${s}`
+    }
+
+    return s
+}
+
 _.promise({
     googled: googled,
 })
@@ -60,7 +68,7 @@ _.promise({
     .each({
         method: _.promise((sd, sdone) => {
             _.promise(sd)
-                .add("path", `raw/${sd.json.case_id}.yaml`)
+                .add("path", `raw/${_pad(sd.json.case_id)}.yaml`)
                 .then(fs.make.directory.parent)
                 .then(fs.write.yaml)
                 .end(sdone, sd)
