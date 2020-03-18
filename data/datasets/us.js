@@ -1,8 +1,8 @@
 /*
- *  data/us.js
+ *  data/datasets/us.js
  *
  *  David Janes
- *  IOTDB
+ *  Consensas
  *  2020-03-15
  *  🔪🗡
  *

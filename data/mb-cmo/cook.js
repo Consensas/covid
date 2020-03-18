@@ -2,7 +2,7 @@
  *  data/mb-cmo/cook.js
  *
  *  David Janes
- *  IOTDB
+ *  Consensas
  *  2020-03-17
  *  ☘️
  *

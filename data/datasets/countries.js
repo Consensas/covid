@@ -1,8 +1,8 @@
 /*
- *  data/countries.js
+ *  data/datasets/countries.js
  *
  *  David Janes
- *  IOTDB
+ *  Consensas
  *  2020-03-15
  *  🔪🗡
  *

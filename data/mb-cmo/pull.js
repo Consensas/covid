@@ -1,8 +1,8 @@
 /*
- *  data/mb-covid/pull.js
+ *  data/mb-cmo/pull.js
  *
  *  David Janes
- *  IOTDB
+ *  Consensas
  *  2020-03-17
  *
  *  Copyright (2013-2020) David P. Janes

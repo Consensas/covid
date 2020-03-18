@@ -1,8 +1,8 @@
 /*
- *  data/nb-covid/pull.js
+ *  data/nb-cmo/pull.js
  *
  *  David Janes
- *  IOTDB
+ *  Consensas
  *  2020-03-17
  *  ☘️
  *

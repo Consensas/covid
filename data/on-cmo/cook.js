@@ -1,8 +1,8 @@
 /*
- *  data/ontaria-covid/cook-tests.js
+ *  data/on-cmo/cook.js
  *
  *  David Janes
- *  IOTDB
+ *  Consensas
  *  2020-03-16
  *
  *  Copyright (2013-2020) David P. Janes
