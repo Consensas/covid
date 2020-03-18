@@ -144,3 +144,7 @@ Keys:
 
 * `population`
 
+## Other
+
+Similar project for Ontario data:
+* https://github.com/Russell-Pollari/ontario-covid19
