@@ -148,3 +148,6 @@ Keys:
 
 Similar project for Ontario data:
 * https://github.com/Russell-Pollari/ontario-covid19
+
+Kaggle challange
+* https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?utm_medium=email&utm_source=intercom&utm_campaign=CORD-19-research-chal-email
