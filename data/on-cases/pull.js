@@ -55,7 +55,13 @@ const _one = _.promise((self, done) => {
 _one.method = "_one"
 _one.description = ``
 _one.requires = {
-    json: _.is.Dictionary,
+    json: {
+        number: _.is.String,
+        age_and_gender: _.is.String,
+        public_health_unit: _.is.String,
+        city: _.is.String,
+        date: _.is.String,
+    },
 }
 _one.produces = {
 }
@@ -65,5 +71,8 @@ _.promise()
     .each({
         method: _one,
         inputs: "json:json",
+        error: error => {
+            console.log("#", _.error.message(error))
+        },
     })
     .except(_.error.log)
