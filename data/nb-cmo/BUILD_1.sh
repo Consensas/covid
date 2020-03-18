@@ -16,4 +16,3 @@ node pull.js
 node cook.js
 git add raw/*.yaml
 git commit -am "new raw data"
-git push
