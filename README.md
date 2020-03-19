@@ -1,29 +1,23 @@
 # covid
 COVID-2019 data / code
 
-The primary purpose of this project is to provide useful
-data about cases, deaths and recovery of COVID19 in Canada 
-and merge that with information such as population,
-ICU capacity and so forth.
+The primary purpose of this project is to provide useful data about cases, deaths and recovery of COVID19 in Canada 
+and merge that with information such as population, ICU capacity and so forth.
 
 ## Notes
 
-Code is a demonstration of Pipe Oriented Programming in NodeJS. 
-Think of it as an attempt to do a "Wolfram Language" type
-hypercompatible set of libaries for working with data and the world.
-Look at the code in `data/datasets` for getting a sense of 
-what it does.
+Code is a demonstration of Pipe Oriented Programming in NodeJS.
 
-[Consensas](https://www.consensas.com/) is my startup, credit to 
-them / us for taking time away from that to work on this.
+Think of it as an attempt to do a "Wolfram Language" type hypercompatible set of libaries for working with data and the world.
+Look at the code in `data/datasets` for getting a sense of what it does.
+
+[Consensas](https://www.consensas.com/) is my startup, credit to them / us for taking time away from that to work on this.
 
 Generally we name data as follow:
 
 * *bootstrap* data is usually data loaded eg from Wayback machine, to set up a dataset
-* *raw* data is usually YAML/JSON pulled or built from another source,
-  but otherwise nothing else has been done to it
-* *cooked* data has been normalized to the data schema describe below.
-  This is usually what you want to look at.
+* *raw* data is usually YAML/JSON pulled or built from another source, but otherwise nothing else has been done to it
+* *cooked* data has been normalized to the data schema describe below. This is usually what you want to look at.
 * *pull* programs get raw data from elsewhere
 * *cook* programs merge or process data to create cooked data
 
@@ -31,8 +25,7 @@ Generally we name data as follow:
 
 The primary "cooked" data can be found in folder `data/cooked`
 [here on the web](https://github.com/consensas/covid/tree/master/data/cooked).
-There is cooked data elsewhere but unless noted, 
-it's been merged into this data set.
+There is cooked data elsewhere but unless noted, it's been merged into this data set.
 The files we have spent the most work on are `ca-??.yaml`.
 
 * If you would like to contribute data, do the usual fork
@@ -40,7 +33,7 @@ The files we have spent the most work on are `ca-??.yaml`.
 * If you know of a dataset I should add, open an issue.
 * If you think I should add something but can't find it, sorry busy.
 * The *primary* purpose of this project is Canada, but there's data
-  for the rest of the world there too. If you do the codingh legwork,
+  for the rest of the world there too. If you do the coding legwork,
   I'm happy to add it but I don't have the time otherwise.
 
 ## Data Sources
@@ -191,4 +184,6 @@ Kaggle challange
 
 Article on open data sources
 * https://www.cbc.ca/news/canada/coronavirus-date-information-sharing-1.5500709?fbclid=IwAR2Hds42iyOoCEijeoDxIEz_tTidbme15DKkTcV6bi5YGM5JwfEk3w9fPYQ
+
+
 
