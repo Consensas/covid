@@ -3,6 +3,7 @@ state: XXRP
 key: ca-xxrp
 cases:
   - id: 'urn:covid19:case:ca:250'
+    dataset_id: '250'
     state_id: '1'
     sources:
       - >-
@@ -10,11 +11,12 @@ cases:
     date: '2020-03-11'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:251'
+    dataset_id: '251'
     state_id: '2'
     sources:
       - >-
@@ -22,11 +24,12 @@ cases:
     date: '2020-03-13'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:252'
+    dataset_id: '252'
     state_id: '3'
     sources:
       - >-
@@ -34,11 +37,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:253'
+    dataset_id: '253'
     state_id: '4'
     sources:
       - >-
@@ -46,11 +50,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:419'
+    dataset_id: '419'
     state_id: '5'
     sources:
       - >-
@@ -58,11 +63,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:420'
+    dataset_id: '420'
     state_id: '6'
     sources:
       - >-
@@ -70,11 +76,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:421'
+    dataset_id: '421'
     state_id: '7'
     sources:
       - >-
@@ -82,11 +89,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:422'
+    dataset_id: '422'
     state_id: '8'
     sources:
       - >-
@@ -94,11 +102,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:484'
+    dataset_id: '484'
     state_id: '9'
     sources:
       - >-
@@ -106,7 +115,7 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null

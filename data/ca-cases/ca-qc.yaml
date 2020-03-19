@@ -3,6 +3,7 @@ state: QC
 key: ca-qc
 cases:
   - id: 'urn:covid19:case:ca:14'
+    dataset_id: '14'
     state_id: '1'
     sources:
       - >-
@@ -19,6 +20,7 @@ cases:
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:35'
+    dataset_id: '35'
     state_id: '2'
     sources:
       - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2049/'
@@ -33,6 +35,7 @@ cases:
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:51'
+    dataset_id: '51'
     state_id: '3'
     sources:
       - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2053/'
@@ -43,11 +46,12 @@ cases:
     date: '2020-03-06'
     week_reported: '2020-03-01'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:62'
+    dataset_id: '62'
     state_id: '4'
     sources:
       - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2057/'
@@ -56,11 +60,12 @@ cases:
     date: '2020-03-08'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: F
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:79'
+    dataset_id: '79'
     state_id: '5'
     sources:
       - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2059/'
@@ -70,11 +75,12 @@ cases:
     date: '2020-03-09'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: M
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:100'
+    dataset_id: '100'
     state_id: '6'
     sources:
       - >-
@@ -83,11 +89,12 @@ cases:
     date: '2020-03-11'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:101'
+    dataset_id: '101'
     state_id: '7'
     sources:
       - 'https://twitter.com/sante_qc/status/1237563703051956226'
@@ -96,11 +103,12 @@ cases:
     date: '2020-03-11'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:102'
+    dataset_id: '102'
     state_id: '8'
     sources:
       - 'https://twitter.com/sante_qc/status/1237836022576275459'
@@ -109,11 +117,12 @@ cases:
     date: '2020-03-11'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Mauricie
     acquired_country: null
   - id: 'urn:covid19:case:ca:135'
+    dataset_id: '135'
     state_id: '9'
     sources:
       - 'https://twitter.com/sante_qc/status/1237860478203727873'
@@ -122,11 +131,12 @@ cases:
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - id: 'urn:covid19:case:ca:136'
+    dataset_id: '136'
     state_id: '10'
     sources:
       - >-
@@ -135,11 +145,12 @@ cases:
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:137'
+    dataset_id: '137'
     state_id: '11'
     sources:
       - >-
@@ -148,11 +159,12 @@ cases:
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:138'
+    dataset_id: '138'
     state_id: '12'
     sources:
       - >-
@@ -161,11 +173,12 @@ cases:
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:139'
+    dataset_id: '139'
     state_id: '13'
     sources:
       - >-
@@ -174,55 +187,60 @@ cases:
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:145'
+    dataset_id: '145'
     state_id: '14'
     sources:
       - 'https://twitter.com/sante_qc/status/1238277138954039296'
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:146'
+    dataset_id: '146'
     state_id: '15'
     sources:
       - 'https://twitter.com/sante_qc/status/1238277138954039296'
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:147'
+    dataset_id: '147'
     state_id: '16'
     sources:
       - 'https://twitter.com/sante_qc/status/1238277138954039296'
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:148'
+    dataset_id: '148'
     state_id: '17'
     sources:
       - 'https://twitter.com/sante_qc/status/1238277138954039296'
     date: '2020-03-12'
     week_reported: '2020-03-08'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:222'
+    dataset_id: '222'
     state_id: '18'
     sources:
       - >-
@@ -230,11 +248,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:223'
+    dataset_id: '223'
     state_id: '19'
     sources:
       - >-
@@ -242,11 +261,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Lanaudière
     acquired_country: null
   - id: 'urn:covid19:case:ca:224'
+    dataset_id: '224'
     state_id: '20'
     sources:
       - >-
@@ -254,11 +274,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:225'
+    dataset_id: '225'
     state_id: '21'
     sources:
       - >-
@@ -266,11 +287,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:226'
+    dataset_id: '226'
     state_id: '22'
     sources:
       - >-
@@ -278,11 +300,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:227'
+    dataset_id: '227'
     state_id: '23'
     sources:
       - >-
@@ -290,11 +313,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:228'
+    dataset_id: '228'
     state_id: '24'
     sources:
       - >-
@@ -302,11 +326,12 @@ cases:
     date: '2020-03-14'
     week_reported: '2020-03-08'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:299'
+    dataset_id: '299'
     state_id: '25'
     sources:
       - >-
@@ -314,11 +339,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:300'
+    dataset_id: '300'
     state_id: '26'
     sources:
       - >-
@@ -326,11 +352,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:301'
+    dataset_id: '301'
     state_id: '27'
     sources:
       - >-
@@ -338,11 +365,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Mauricie
     acquired_country: null
   - id: 'urn:covid19:case:ca:302'
+    dataset_id: '302'
     state_id: '28'
     sources:
       - >-
@@ -350,11 +378,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Mauricie
     acquired_country: null
   - id: 'urn:covid19:case:ca:303'
+    dataset_id: '303'
     state_id: '29'
     sources:
       - >-
@@ -362,11 +391,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:304'
+    dataset_id: '304'
     state_id: '30'
     sources:
       - >-
@@ -374,11 +404,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:305'
+    dataset_id: '305'
     state_id: '31'
     sources:
       - >-
@@ -386,11 +417,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:306'
+    dataset_id: '306'
     state_id: '32'
     sources:
       - >-
@@ -398,11 +430,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:307'
+    dataset_id: '307'
     state_id: '33'
     sources:
       - >-
@@ -410,11 +443,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:308'
+    dataset_id: '308'
     state_id: '34'
     sources:
       - >-
@@ -422,11 +456,12 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:309'
+    dataset_id: '309'
     state_id: '35'
     sources:
       - >-
@@ -434,55 +469,60 @@ cases:
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:338'
+    dataset_id: '338'
     state_id: '36'
     sources:
       - 'https://twitter.com/sante_qc/status/1239278209113391105'
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:339'
+    dataset_id: '339'
     state_id: '37'
     sources:
       - 'https://twitter.com/sante_qc/status/1239278209113391105'
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - id: 'urn:covid19:case:ca:340'
+    dataset_id: '340'
     state_id: '38'
     sources:
       - 'https://twitter.com/sante_qc/status/1239278209113391105'
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - id: 'urn:covid19:case:ca:341'
+    dataset_id: '341'
     state_id: '39'
     sources:
       - 'https://twitter.com/sante_qc/status/1239278209113391105'
     date: '2020-03-15'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Lanaudière
     acquired_country: null
   - id: 'urn:covid19:case:ca:374'
+    dataset_id: '374'
     state_id: '40'
     sources:
       - >-
@@ -490,11 +530,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:375'
+    dataset_id: '375'
     state_id: '41'
     sources:
       - >-
@@ -502,11 +543,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:379'
+    dataset_id: '379'
     state_id: '42'
     sources:
       - >-
@@ -514,11 +556,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:380'
+    dataset_id: '380'
     state_id: '43'
     sources:
       - >-
@@ -526,11 +569,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:381'
+    dataset_id: '381'
     state_id: '44'
     sources:
       - >-
@@ -538,11 +582,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:382'
+    dataset_id: '382'
     state_id: '45'
     sources:
       - >-
@@ -550,11 +595,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:383'
+    dataset_id: '383'
     state_id: '46'
     sources:
       - >-
@@ -562,11 +608,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:384'
+    dataset_id: '384'
     state_id: '47'
     sources:
       - >-
@@ -574,11 +621,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - id: 'urn:covid19:case:ca:385'
+    dataset_id: '385'
     state_id: '48'
     sources:
       - >-
@@ -586,11 +634,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Lanaudière
     acquired_country: null
   - id: 'urn:covid19:case:ca:386'
+    dataset_id: '386'
     state_id: '49'
     sources:
       - >-
@@ -598,11 +647,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:387'
+    dataset_id: '387'
     state_id: '50'
     sources:
       - >-
@@ -610,11 +660,12 @@ cases:
     date: '2020-03-16'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:453'
+    dataset_id: '453'
     state_id: '51'
     sources:
       - >-
@@ -622,11 +673,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:454'
+    dataset_id: '454'
     state_id: '52'
     sources:
       - >-
@@ -634,11 +686,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:455'
+    dataset_id: '455'
     state_id: '53'
     sources:
       - >-
@@ -646,11 +699,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:456'
+    dataset_id: '456'
     state_id: '54'
     sources:
       - >-
@@ -658,11 +712,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:457'
+    dataset_id: '457'
     state_id: '55'
     sources:
       - >-
@@ -670,11 +725,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:458'
+    dataset_id: '458'
     state_id: '56'
     sources:
       - >-
@@ -682,11 +738,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:459'
+    dataset_id: '459'
     state_id: '57'
     sources:
       - >-
@@ -694,11 +751,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:460'
+    dataset_id: '460'
     state_id: '58'
     sources:
       - >-
@@ -706,11 +764,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:461'
+    dataset_id: '461'
     state_id: '59'
     sources:
       - >-
@@ -718,11 +777,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:462'
+    dataset_id: '462'
     state_id: '60'
     sources:
       - >-
@@ -730,11 +790,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:463'
+    dataset_id: '463'
     state_id: '61'
     sources:
       - >-
@@ -742,11 +803,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:464'
+    dataset_id: '464'
     state_id: '62'
     sources:
       - >-
@@ -754,11 +816,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:465'
+    dataset_id: '465'
     state_id: '63'
     sources:
       - >-
@@ -766,11 +829,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:466'
+    dataset_id: '466'
     state_id: '64'
     sources:
       - >-
@@ -778,11 +842,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:467'
+    dataset_id: '467'
     state_id: '65'
     sources:
       - >-
@@ -790,11 +855,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Lanaudière
     acquired_country: null
   - id: 'urn:covid19:case:ca:468'
+    dataset_id: '468'
     state_id: '66'
     sources:
       - >-
@@ -802,11 +868,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Lanaudière
     acquired_country: null
   - id: 'urn:covid19:case:ca:469'
+    dataset_id: '469'
     state_id: '67'
     sources:
       - >-
@@ -814,11 +881,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Lanaudière
     acquired_country: null
   - id: 'urn:covid19:case:ca:470'
+    dataset_id: '470'
     state_id: '68'
     sources:
       - >-
@@ -826,11 +894,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:471'
+    dataset_id: '471'
     state_id: '69'
     sources:
       - >-
@@ -838,11 +907,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:472'
+    dataset_id: '472'
     state_id: '70'
     sources:
       - >-
@@ -850,11 +920,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:473'
+    dataset_id: '473'
     state_id: '71'
     sources:
       - >-
@@ -862,11 +933,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montérégie
     acquired_country: null
   - id: 'urn:covid19:case:ca:474'
+    dataset_id: '474'
     state_id: '72'
     sources:
       - >-
@@ -874,11 +946,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:475'
+    dataset_id: '475'
     state_id: '73'
     sources:
       - >-
@@ -886,11 +959,12 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:476'
+    dataset_id: '476'
     state_id: '74'
     sources:
       - >-
@@ -898,227 +972,247 @@ cases:
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:621'
+    dataset_id: '621'
     state_id: '75'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:622'
+    dataset_id: '622'
     state_id: '76'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:623'
+    dataset_id: '623'
     state_id: '77'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:624'
+    dataset_id: '624'
     state_id: '78'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:625'
+    dataset_id: '625'
     state_id: '79'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
   - id: 'urn:covid19:case:ca:626'
+    dataset_id: '626'
     state_id: '80'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:627'
+    dataset_id: '627'
     state_id: '81'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:628'
+    dataset_id: '628'
     state_id: '82'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:629'
+    dataset_id: '629'
     state_id: '83'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:630'
+    dataset_id: '630'
     state_id: '84'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:631'
+    dataset_id: '631'
     state_id: '85'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:632'
+    dataset_id: '632'
     state_id: '86'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:633'
+    dataset_id: '633'
     state_id: '87'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Estrie
     acquired_country: null
   - id: 'urn:covid19:case:ca:634'
+    dataset_id: '634'
     state_id: '88'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:635'
+    dataset_id: '635'
     state_id: '89'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:636'
+    dataset_id: '636'
     state_id: '90'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Montréal
     acquired_country: null
   - id: 'urn:covid19:case:ca:637'
+    dataset_id: '637'
     state_id: '91'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - id: 'urn:covid19:case:ca:638'
+    dataset_id: '638'
     state_id: '92'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - id: 'urn:covid19:case:ca:639'
+    dataset_id: '639'
     state_id: '93'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Laurentides
     acquired_country: null
   - id: 'urn:covid19:case:ca:640'
+    dataset_id: '640'
     state_id: '94'
     sources:
       - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: null
-    age_range: Not Reported
+    age_range: null
     sex: null
     health_region: Outaouais
     acquired_country: null

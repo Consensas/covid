@@ -3,6 +3,7 @@ state: NS
 key: ca-ns
 cases:
   - id: 'urn:covid19:case:ca:296'
+    dataset_id: '296'
     state_id: '1'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200315002'
@@ -14,6 +15,7 @@ cases:
     health_region: Zone 1 - Western
     acquired_country: null
   - id: 'urn:covid19:case:ca:297'
+    dataset_id: '297'
     state_id: '2'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200315002'
@@ -25,6 +27,7 @@ cases:
     health_region: Zone 4 - Central
     acquired_country: null
   - id: 'urn:covid19:case:ca:298'
+    dataset_id: '298'
     state_id: '3'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200315002'
@@ -36,6 +39,7 @@ cases:
     health_region: Zone 4 - Central
     acquired_country: null
   - id: 'urn:covid19:case:ca:376'
+    dataset_id: '376'
     state_id: '4'
     sources:
       - >-
@@ -49,6 +53,7 @@ cases:
     acquired_country: CA
     acquired_close_contact: true
   - id: 'urn:covid19:case:ca:377'
+    dataset_id: '377'
     state_id: '5'
     sources:
       - >-
@@ -62,80 +67,87 @@ cases:
     acquired_country: CA
     acquired_close_contact: true
   - id: 'urn:covid19:case:ca:482'
+    dataset_id: '482'
     state_id: '6'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200317001'
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:483'
+    dataset_id: '483'
     state_id: '7'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200317001'
     date: '2020-03-17'
     week_reported: '2020-03-15'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:641'
+    dataset_id: '641'
     state_id: '8'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200318001'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:642'
+    dataset_id: '642'
     state_id: '9'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200318001'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:643'
+    dataset_id: '643'
     state_id: '10'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200318001'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:644'
+    dataset_id: '644'
     state_id: '11'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200318001'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: null
   - id: 'urn:covid19:case:ca:645'
+    dataset_id: '645'
     state_id: '12'
     sources:
       - 'https://novascotia.ca/news/release/?id=20200318001'
     date: '2020-03-18'
     week_reported: '2020-03-15'
     is_travel: true
-    age_range: Not Reported
+    age_range: null
     sex: null
-    health_region: Not Reported
+    health_region: null
     acquired_country: CA
     acquired_close_contact: true
