@@ -1,4 +1,4 @@
-- event: bars
+- event: close_bars
   nl: '2020-03-18'
   ns: '2020-03-19'
   nb: '2020-03-16'
@@ -12,7 +12,7 @@
   yk: ''
   nt: ''
   nu: '2020-03-20'
-- event: restaurants
+- event: close_restaurants
   nl: '2020-03-18'
   ns: '2020-03-19'
   nb: '2020-03-16'
@@ -26,7 +26,7 @@
   yk: ''
   nt: ''
   nu: '2020-03-20'
-- event: takeout
+- event: close_takeout
   nl: '-'
   ns: '-'
   nb: '-'
@@ -40,7 +40,7 @@
   yk: '-'
   nt: '-'
   nu: '-'
-- event: school_public
+- event: close_school_public
   nl: '2020-03-16'
   ns: '2020-03-23'
   nb: '2020-03-16'
@@ -54,7 +54,7 @@
   yk: '2020-03-18'
   nt: '2020-03-16'
   nu: '2020-03-17'
-- event: school_private
+- event: close_school_private
   nl: ''
   ns: ''
   nb: '2020-03-16'
@@ -68,7 +68,7 @@
   yk: ''
   nt: ''
   nu: '-'
-- event: postsecondary
+- event: close_postsecondary
   nl: '2020-03-19'
   ns: '2020-03-23'
   nb: '2020-03-16'
@@ -82,7 +82,7 @@
   yk: ''
   nt: ''
   nu: '2020-03-17'
-- event: daycare
+- event: close_daycare
   nl: '2020-03-17'
   ns: '2020-03-23'
   nb: '2020-03-16'
@@ -96,11 +96,11 @@
   yk: '2020-03-18'
   nt: '2020-03-16'
   nu: '2020-03-16'
-- event: stores
+- event: close_stores
   nl: ''
   ns: ''
   nb: '2020-03-16'
-- event: faith
+- event: close_faith
   nl: ''
   ns: ''
   nb: ''
@@ -112,7 +112,7 @@
   ab: '2020-03-15'
   bc: ''
   yk: '2020-03-16'
-- event: libraries
+- event: close_libraries
   nl: ''
   ns: ''
   nb: '2020-03-16'
@@ -123,9 +123,9 @@
   sk: ''
   ab: '2020-03-17'
 - {}
-- event: groups_1000
-- event: groups_500
-- event: groups_250
+- event: ban_groups_1000
+- event: ban_groups_500
+- event: ban_groups_250
   nl: ''
   ns: ''
   nb: ''
@@ -136,12 +136,12 @@
   sk: '2020-03-16'
   ab: '2020-03-15'
   bc: '2020-03-12'
-- event: groups_150
+- event: ban_groups_150
   nl: ''
   ns: '2020-03-15'
   nb: '2020-03-12'
-- event: groups_100
-- event: groups_50
+- event: ban_groups_100
+- event: ban_groups_50
   nl: '2020-03-18'
   ns: '2020-03-17'
   nb: ''

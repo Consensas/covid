@@ -33,18 +33,39 @@ _.promise()
     .add("path", path.join(__dirname, "raw", "data.yaml"))
     .then(fs.read.json.magic)
     .make(sd => {
-        console.log(sd.json)
-        /*
-        const d
-        sd.json = {
-            country: "CA",
-            state: "PE",
-            key: "ca-pe",
-            items: sd.jsons.filter(json => json.date)
-        }
+        const pdd = {}
 
-        sd.json = [ sd.json ]
-        */
+        sd.json
+            .filter(row => !_.is.Empty(row))
+            .forEach(row => {
+                const event = `event_${row.event}`
+
+                _.keys(row)
+                    .filter(province => province.length === 2)
+                    .forEach(province => {
+                        const value = row[province]
+                        if (!value.match(/^20\d\d-\d\d-\d\d/)) {
+                            return
+                        }
+
+                        pdd[province] = pdd[province] || {}
+                        pdd[province][event] = value
+                    })
+            })
+        
+        sd.json = []
+
+        _.keys(pdd)
+            .forEach(province => {
+                sd.json.push(Object.assign(
+                    {
+                        country: "CA",
+                        state: province.toUpperCase(),
+                        key: `ca-${province}`.toLowerCase(),
+                    },
+                    pdd[province],
+                ))
+            })
     })
     .then(fs.write.yaml.p(NAME, null))
     .except(_.error.log)
