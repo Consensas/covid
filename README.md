@@ -185,5 +185,6 @@ Kaggle challange
 Article on open data sources
 * https://www.cbc.ca/news/canada/coronavirus-date-information-sharing-1.5500709?fbclid=IwAR2Hds42iyOoCEijeoDxIEz_tTidbme15DKkTcV6bi5YGM5JwfEk3w9fPYQ
 
-
+Our World in Data: Data Set
+* https://covid.ourworldindata.org/data/ecdc/full_data.csv
 
