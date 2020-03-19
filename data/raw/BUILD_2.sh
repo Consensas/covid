@@ -12,3 +12,4 @@
 cd $(dirname $0)
 
 node primary.js
+git commit -am "new raw data"

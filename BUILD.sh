@@ -20,3 +20,4 @@ do
         bash $FILE
     done
 done
+git push
