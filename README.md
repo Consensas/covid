@@ -52,6 +52,19 @@ We will pull it daily.
 
 * https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 
+
+### COVID-19 Canada Open Data Working Group
+
+COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada.
+
+We've got the their data set, but have not merged into the cooked data yet.
+You can find this in `data/ca.cases`
+
+See their original data at
+* https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit#gid=411012049
+* https://github.com/ishaberry/Covid19Canada
+
+
 ### Physicians 
 
 * https://www.cma.ca/sites/default/files/pdf/Physician%20Data/12-Phys_per_pop.pdf
