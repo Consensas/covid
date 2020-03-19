@@ -151,3 +151,6 @@ Similar project for Ontario data:
 
 Kaggle challange
 * https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge?utm_medium=email&utm_source=intercom&utm_campaign=CORD-19-research-chal-email
+
+Article on open data sources
+* https://www.cbc.ca/news/canada/coronavirus-date-information-sharing-1.5500709?fbclid=IwAR2Hds42iyOoCEijeoDxIEz_tTidbme15DKkTcV6bi5YGM5JwfEk3w9fPYQ
