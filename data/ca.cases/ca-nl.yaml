@@ -2,7 +2,7 @@ country: CA
 state: NL
 key: ca-nl
 cases:
-  - id: 'urn:covid19:case:ca:249'
+  - id: 'urn:covid:ca.cases:249'
     dataset_id: '249'
     state_id: '1'
     sources:
@@ -17,7 +17,7 @@ cases:
     sex: F
     health_region: Labrador-Grenfell
     acquired_country: null
-  - id: 'urn:covid19:case:ca:450'
+  - id: 'urn:covid:ca.cases:450'
     dataset_id: '450'
     state_id: '2'
     sources:
@@ -32,7 +32,7 @@ cases:
     health_region: Labrador-Grenfell
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:451'
+  - id: 'urn:covid:ca.cases:451'
     dataset_id: '451'
     state_id: '3'
     sources:

@@ -2,7 +2,7 @@ country: CA
 state: NB
 key: ca-nb
 cases:
-  - id: 'urn:covid19:case:ca:140'
+  - id: 'urn:covid:ca.cases:140'
     dataset_id: '140'
     state_id: '1'
     sources:
@@ -17,7 +17,7 @@ cases:
     sex: F
     health_region: Zone 1 (Moncton Area)
     acquired_country: null
-  - id: 'urn:covid19:case:ca:221'
+  - id: 'urn:covid:ca.cases:221'
     dataset_id: '221'
     state_id: '2'
     sources:
@@ -31,7 +31,7 @@ cases:
     health_region: Zone 1 (Moncton Area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:314'
+  - id: 'urn:covid:ca.cases:314'
     dataset_id: '314'
     state_id: '3'
     sources:
@@ -44,7 +44,7 @@ cases:
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:315'
+  - id: 'urn:covid:ca.cases:315'
     dataset_id: '315'
     state_id: '4'
     sources:
@@ -57,7 +57,7 @@ cases:
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:316'
+  - id: 'urn:covid:ca.cases:316'
     dataset_id: '316'
     state_id: '5'
     sources:
@@ -70,7 +70,7 @@ cases:
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:317'
+  - id: 'urn:covid:ca.cases:317'
     dataset_id: '317'
     state_id: '6'
     sources:
@@ -83,7 +83,7 @@ cases:
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:378'
+  - id: 'urn:covid:ca.cases:378'
     dataset_id: '378'
     state_id: '7'
     sources:
@@ -95,7 +95,7 @@ cases:
     sex: F
     health_region: Zone 2 (Saint John area)
     acquired_country: null
-  - id: 'urn:covid19:case:ca:452'
+  - id: 'urn:covid:ca.cases:452'
     dataset_id: '452'
     state_id: '8'
     sources:
@@ -108,7 +108,7 @@ cases:
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:646'
+  - id: 'urn:covid:ca.cases:646'
     dataset_id: '646'
     state_id: '9'
     sources:
@@ -121,7 +121,7 @@ cases:
     sex: F
     health_region: Zone 1 (Moncton Area)
     acquired_country: null
-  - id: 'urn:covid19:case:ca:647'
+  - id: 'urn:covid:ca.cases:647'
     dataset_id: '647'
     state_id: '10'
     sources:
@@ -135,7 +135,7 @@ cases:
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:648'
+  - id: 'urn:covid:ca.cases:648'
     dataset_id: '648'
     state_id: '11'
     sources:

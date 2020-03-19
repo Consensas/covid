@@ -2,7 +2,7 @@ country: CA
 state: 'ON'
 key: ca-on
 cases:
-  - id: 'urn:covid19:case:ca:1'
+  - id: 'urn:covid:ca.cases:1'
     dataset_id: '1'
     state_id: '1'
     sources:
@@ -17,7 +17,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:2'
+  - id: 'urn:covid:ca.cases:2'
     dataset_id: '2'
     state_id: '2'
     sources:
@@ -31,7 +31,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:4'
+  - id: 'urn:covid:ca.cases:4'
     dataset_id: '4'
     state_id: '3'
     sources:
@@ -45,7 +45,7 @@ cases:
     sex: F
     health_region: Middlesex-London
     acquired_country: null
-  - id: 'urn:covid19:case:ca:10'
+  - id: 'urn:covid:ca.cases:10'
     dataset_id: '10'
     state_id: '4'
     sources:
@@ -60,7 +60,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:11'
+  - id: 'urn:covid:ca.cases:11'
     dataset_id: '11'
     state_id: '5'
     sources:
@@ -75,7 +75,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:13'
+  - id: 'urn:covid:ca.cases:13'
     dataset_id: '13'
     state_id: '6'
     sources:
@@ -91,7 +91,7 @@ cases:
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:15'
+  - id: 'urn:covid:ca.cases:15'
     dataset_id: '15'
     state_id: '7'
     sources:
@@ -104,7 +104,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:16'
+  - id: 'urn:covid:ca.cases:16'
     dataset_id: '16'
     state_id: '8'
     sources:
@@ -117,7 +117,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:17'
+  - id: 'urn:covid:ca.cases:17'
     dataset_id: '17'
     state_id: '9'
     sources:
@@ -130,7 +130,7 @@ cases:
     sex: F
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:18'
+  - id: 'urn:covid:ca.cases:18'
     dataset_id: '18'
     state_id: '10'
     sources:
@@ -143,7 +143,7 @@ cases:
     sex: F
     health_region: Durham
     acquired_country: null
-  - id: 'urn:covid19:case:ca:19'
+  - id: 'urn:covid:ca.cases:19'
     dataset_id: '19'
     state_id: '11'
     sources:
@@ -157,7 +157,7 @@ cases:
     health_region: Durham
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:21'
+  - id: 'urn:covid:ca.cases:21'
     dataset_id: '21'
     state_id: '12'
     sources:
@@ -172,7 +172,7 @@ cases:
     sex: M
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:22'
+  - id: 'urn:covid:ca.cases:22'
     dataset_id: '22'
     state_id: '13'
     sources:
@@ -185,7 +185,7 @@ cases:
     sex: M
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:23'
+  - id: 'urn:covid:ca.cases:23'
     dataset_id: '23'
     state_id: '14'
     sources:
@@ -198,7 +198,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:24'
+  - id: 'urn:covid:ca.cases:24'
     dataset_id: '24'
     state_id: '15'
     sources:
@@ -211,7 +211,7 @@ cases:
     sex: F
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:25'
+  - id: 'urn:covid:ca.cases:25'
     dataset_id: '25'
     state_id: '16'
     sources:
@@ -224,7 +224,7 @@ cases:
     sex: F
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:26'
+  - id: 'urn:covid:ca.cases:26'
     dataset_id: '26'
     state_id: '17'
     sources:
@@ -237,7 +237,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:27'
+  - id: 'urn:covid:ca.cases:27'
     dataset_id: '27'
     state_id: '18'
     sources:
@@ -250,7 +250,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:28'
+  - id: 'urn:covid:ca.cases:28'
     dataset_id: '28'
     state_id: '19'
     sources:
@@ -265,7 +265,7 @@ cases:
     sex: F
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:29'
+  - id: 'urn:covid:ca.cases:29'
     dataset_id: '29'
     state_id: '20'
     sources:
@@ -280,7 +280,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:36'
+  - id: 'urn:covid:ca.cases:36'
     dataset_id: '36'
     state_id: '21'
     sources:
@@ -295,7 +295,7 @@ cases:
     sex: F
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:37'
+  - id: 'urn:covid:ca.cases:37'
     dataset_id: '37'
     state_id: '22'
     sources:
@@ -308,7 +308,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:38'
+  - id: 'urn:covid:ca.cases:38'
     dataset_id: '38'
     state_id: '23'
     sources:
@@ -325,7 +325,7 @@ cases:
     sex: M
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:48'
+  - id: 'urn:covid:ca.cases:48'
     dataset_id: '48'
     state_id: '24'
     sources:
@@ -338,7 +338,7 @@ cases:
     sex: F
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:49'
+  - id: 'urn:covid:ca.cases:49'
     dataset_id: '49'
     state_id: '25'
     sources:
@@ -351,7 +351,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:50'
+  - id: 'urn:covid:ca.cases:50'
     dataset_id: '50'
     state_id: '26'
     sources:
@@ -364,7 +364,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:52'
+  - id: 'urn:covid:ca.cases:52'
     dataset_id: '52'
     state_id: '27'
     sources:
@@ -377,7 +377,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:53'
+  - id: 'urn:covid:ca.cases:53'
     dataset_id: '53'
     state_id: '28'
     sources:
@@ -390,7 +390,7 @@ cases:
     sex: F
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:61'
+  - id: 'urn:covid:ca.cases:61'
     dataset_id: '61'
     state_id: '29'
     sources:
@@ -403,7 +403,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:65'
+  - id: 'urn:covid:ca.cases:65'
     dataset_id: '65'
     state_id: '30'
     sources:
@@ -416,7 +416,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:66'
+  - id: 'urn:covid:ca.cases:66'
     dataset_id: '66'
     state_id: '31'
     sources:
@@ -429,7 +429,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:67'
+  - id: 'urn:covid:ca.cases:67'
     dataset_id: '67'
     state_id: '32'
     sources:
@@ -442,7 +442,7 @@ cases:
     sex: M
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:68'
+  - id: 'urn:covid:ca.cases:68'
     dataset_id: '68'
     state_id: '33'
     sources:
@@ -454,7 +454,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:69'
+  - id: 'urn:covid:ca.cases:69'
     dataset_id: '69'
     state_id: '34'
     sources:
@@ -466,7 +466,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:78'
+  - id: 'urn:covid:ca.cases:78'
     dataset_id: '78'
     state_id: '35'
     sources:
@@ -480,7 +480,7 @@ cases:
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:80'
+  - id: 'urn:covid:ca.cases:80'
     dataset_id: '80'
     state_id: '36'
     sources:
@@ -493,7 +493,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:95'
+  - id: 'urn:covid:ca.cases:95'
     dataset_id: '95'
     state_id: '37'
     sources:
@@ -507,7 +507,7 @@ cases:
     health_region: Sudbury
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid19:case:ca:96'
+  - id: 'urn:covid:ca.cases:96'
     dataset_id: '96'
     state_id: '38'
     sources:
@@ -519,7 +519,7 @@ cases:
     sex: F
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:97'
+  - id: 'urn:covid:ca.cases:97'
     dataset_id: '97'
     state_id: '39'
     sources:
@@ -531,7 +531,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:98'
+  - id: 'urn:covid:ca.cases:98'
     dataset_id: '98'
     state_id: '40'
     sources:
@@ -545,7 +545,7 @@ cases:
     sex: M
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:99'
+  - id: 'urn:covid:ca.cases:99'
     dataset_id: '99'
     state_id: '41'
     sources:
@@ -559,7 +559,7 @@ cases:
     sex: F
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:103'
+  - id: 'urn:covid:ca.cases:103'
     dataset_id: '103'
     state_id: '42'
     sources:
@@ -572,7 +572,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:116'
+  - id: 'urn:covid:ca.cases:116'
     dataset_id: '116'
     state_id: '43'
     sources:
@@ -584,7 +584,7 @@ cases:
     sex: M
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:117'
+  - id: 'urn:covid:ca.cases:117'
     dataset_id: '117'
     state_id: '44'
     sources:
@@ -597,7 +597,7 @@ cases:
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:118'
+  - id: 'urn:covid:ca.cases:118'
     dataset_id: '118'
     state_id: '45'
     sources:
@@ -610,7 +610,7 @@ cases:
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:119'
+  - id: 'urn:covid:ca.cases:119'
     dataset_id: '119'
     state_id: '46'
     sources:
@@ -622,7 +622,7 @@ cases:
     sex: M
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:120'
+  - id: 'urn:covid:ca.cases:120'
     dataset_id: '120'
     state_id: '47'
     sources:
@@ -634,7 +634,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:121'
+  - id: 'urn:covid:ca.cases:121'
     dataset_id: '121'
     state_id: '48'
     sources:
@@ -646,7 +646,7 @@ cases:
     sex: F
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:122'
+  - id: 'urn:covid:ca.cases:122'
     dataset_id: '122'
     state_id: '49'
     sources:
@@ -658,7 +658,7 @@ cases:
     sex: F
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:123'
+  - id: 'urn:covid:ca.cases:123'
     dataset_id: '123'
     state_id: '50'
     sources:
@@ -670,7 +670,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:124'
+  - id: 'urn:covid:ca.cases:124'
     dataset_id: '124'
     state_id: '51'
     sources:
@@ -682,7 +682,7 @@ cases:
     sex: F
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:125'
+  - id: 'urn:covid:ca.cases:125'
     dataset_id: '125'
     state_id: '52'
     sources:
@@ -697,7 +697,7 @@ cases:
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:126'
+  - id: 'urn:covid:ca.cases:126'
     dataset_id: '126'
     state_id: '53'
     sources:
@@ -710,7 +710,7 @@ cases:
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:127'
+  - id: 'urn:covid:ca.cases:127'
     dataset_id: '127'
     state_id: '54'
     sources:
@@ -722,7 +722,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:128'
+  - id: 'urn:covid:ca.cases:128'
     dataset_id: '128'
     state_id: '55'
     sources:
@@ -734,7 +734,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:129'
+  - id: 'urn:covid:ca.cases:129'
     dataset_id: '129'
     state_id: '56'
     sources:
@@ -746,7 +746,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:130'
+  - id: 'urn:covid:ca.cases:130'
     dataset_id: '130'
     state_id: '57'
     sources:
@@ -758,7 +758,7 @@ cases:
     sex: F
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:131'
+  - id: 'urn:covid:ca.cases:131'
     dataset_id: '131'
     state_id: '58'
     sources:
@@ -770,7 +770,7 @@ cases:
     sex: M
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:132'
+  - id: 'urn:covid:ca.cases:132'
     dataset_id: '132'
     state_id: '59'
     sources:
@@ -782,7 +782,7 @@ cases:
     sex: M
     health_region: Simcoe Muskoka
     acquired_country: null
-  - id: 'urn:covid19:case:ca:156'
+  - id: 'urn:covid:ca.cases:156'
     dataset_id: '156'
     state_id: '60'
     sources:
@@ -794,7 +794,7 @@ cases:
     sex: F
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:157'
+  - id: 'urn:covid:ca.cases:157'
     dataset_id: '157'
     state_id: '61'
     sources:
@@ -807,7 +807,7 @@ cases:
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:158'
+  - id: 'urn:covid:ca.cases:158'
     dataset_id: '158'
     state_id: '62'
     sources:
@@ -819,7 +819,7 @@ cases:
     sex: F
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:159'
+  - id: 'urn:covid:ca.cases:159'
     dataset_id: '159'
     state_id: '63'
     sources:
@@ -831,7 +831,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:160'
+  - id: 'urn:covid:ca.cases:160'
     dataset_id: '160'
     state_id: '64'
     sources:
@@ -843,7 +843,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:161'
+  - id: 'urn:covid:ca.cases:161'
     dataset_id: '161'
     state_id: '65'
     sources:
@@ -855,7 +855,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:162'
+  - id: 'urn:covid:ca.cases:162'
     dataset_id: '162'
     state_id: '66'
     sources:
@@ -867,7 +867,7 @@ cases:
     sex: F
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:163'
+  - id: 'urn:covid:ca.cases:163'
     dataset_id: '163'
     state_id: '67'
     sources:
@@ -879,7 +879,7 @@ cases:
     sex: M
     health_region: Niagara
     acquired_country: null
-  - id: 'urn:covid19:case:ca:164'
+  - id: 'urn:covid:ca.cases:164'
     dataset_id: '164'
     state_id: '68'
     sources:
@@ -891,7 +891,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:165'
+  - id: 'urn:covid:ca.cases:165'
     dataset_id: '165'
     state_id: '69'
     sources:
@@ -903,7 +903,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:166'
+  - id: 'urn:covid:ca.cases:166'
     dataset_id: '166'
     state_id: '70'
     sources:
@@ -915,7 +915,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:167'
+  - id: 'urn:covid:ca.cases:167'
     dataset_id: '167'
     state_id: '71'
     sources:
@@ -928,7 +928,7 @@ cases:
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:168'
+  - id: 'urn:covid:ca.cases:168'
     dataset_id: '168'
     state_id: '72'
     sources:
@@ -940,7 +940,7 @@ cases:
     sex: M
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:169'
+  - id: 'urn:covid:ca.cases:169'
     dataset_id: '169'
     state_id: '73'
     sources:
@@ -952,7 +952,7 @@ cases:
     sex: F
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:170'
+  - id: 'urn:covid:ca.cases:170'
     dataset_id: '170'
     state_id: '74'
     sources:
@@ -964,7 +964,7 @@ cases:
     sex: F
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:171'
+  - id: 'urn:covid:ca.cases:171'
     dataset_id: '171'
     state_id: '75'
     sources:
@@ -976,7 +976,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:172'
+  - id: 'urn:covid:ca.cases:172'
     dataset_id: '172'
     state_id: '76'
     sources:
@@ -988,7 +988,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:173'
+  - id: 'urn:covid:ca.cases:173'
     dataset_id: '173'
     state_id: '77'
     sources:
@@ -1000,7 +1000,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:174'
+  - id: 'urn:covid:ca.cases:174'
     dataset_id: '174'
     state_id: '78'
     sources:
@@ -1012,7 +1012,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:175'
+  - id: 'urn:covid:ca.cases:175'
     dataset_id: '175'
     state_id: '79'
     sources:
@@ -1024,7 +1024,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:197'
+  - id: 'urn:covid:ca.cases:197'
     dataset_id: '197'
     state_id: '80'
     sources:
@@ -1036,7 +1036,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:198'
+  - id: 'urn:covid:ca.cases:198'
     dataset_id: '198'
     state_id: '81'
     sources:
@@ -1048,7 +1048,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:199'
+  - id: 'urn:covid:ca.cases:199'
     dataset_id: '199'
     state_id: '82'
     sources:
@@ -1060,7 +1060,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:200'
+  - id: 'urn:covid:ca.cases:200'
     dataset_id: '200'
     state_id: '83'
     sources:
@@ -1072,7 +1072,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:201'
+  - id: 'urn:covid:ca.cases:201'
     dataset_id: '201'
     state_id: '84'
     sources:
@@ -1084,7 +1084,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:202'
+  - id: 'urn:covid:ca.cases:202'
     dataset_id: '202'
     state_id: '85'
     sources:
@@ -1096,7 +1096,7 @@ cases:
     sex: M
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:203'
+  - id: 'urn:covid:ca.cases:203'
     dataset_id: '203'
     state_id: '86'
     sources:
@@ -1108,7 +1108,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:204'
+  - id: 'urn:covid:ca.cases:204'
     dataset_id: '204'
     state_id: '87'
     sources:
@@ -1120,7 +1120,7 @@ cases:
     sex: F
     health_region: Durham
     acquired_country: null
-  - id: 'urn:covid19:case:ca:205'
+  - id: 'urn:covid:ca.cases:205'
     dataset_id: '205'
     state_id: '88'
     sources:
@@ -1132,7 +1132,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:206'
+  - id: 'urn:covid:ca.cases:206'
     dataset_id: '206'
     state_id: '89'
     sources:
@@ -1144,7 +1144,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:207'
+  - id: 'urn:covid:ca.cases:207'
     dataset_id: '207'
     state_id: '90'
     sources:
@@ -1156,7 +1156,7 @@ cases:
     sex: null
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:208'
+  - id: 'urn:covid:ca.cases:208'
     dataset_id: '208'
     state_id: '91'
     sources:
@@ -1168,7 +1168,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:209'
+  - id: 'urn:covid:ca.cases:209'
     dataset_id: '209'
     state_id: '92'
     sources:
@@ -1181,7 +1181,7 @@ cases:
     sex: F
     health_region: Middlesex-London
     acquired_country: null
-  - id: 'urn:covid19:case:ca:210'
+  - id: 'urn:covid:ca.cases:210'
     dataset_id: '210'
     state_id: '93'
     sources:
@@ -1193,7 +1193,7 @@ cases:
     sex: F
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
-  - id: 'urn:covid19:case:ca:211'
+  - id: 'urn:covid:ca.cases:211'
     dataset_id: '211'
     state_id: '94'
     sources:
@@ -1205,7 +1205,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:212'
+  - id: 'urn:covid:ca.cases:212'
     dataset_id: '212'
     state_id: '95'
     sources:
@@ -1217,7 +1217,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:213'
+  - id: 'urn:covid:ca.cases:213'
     dataset_id: '213'
     state_id: '96'
     sources:
@@ -1229,7 +1229,7 @@ cases:
     sex: M
     health_region: Durham
     acquired_country: null
-  - id: 'urn:covid19:case:ca:214'
+  - id: 'urn:covid:ca.cases:214'
     dataset_id: '214'
     state_id: '97'
     sources:
@@ -1241,7 +1241,7 @@ cases:
     sex: F
     health_region: Durham
     acquired_country: null
-  - id: 'urn:covid19:case:ca:215'
+  - id: 'urn:covid:ca.cases:215'
     dataset_id: '215'
     state_id: '98'
     sources:
@@ -1253,7 +1253,7 @@ cases:
     sex: null
     health_region: Huron Perth
     acquired_country: null
-  - id: 'urn:covid19:case:ca:216'
+  - id: 'urn:covid:ca.cases:216'
     dataset_id: '216'
     state_id: '99'
     sources:
@@ -1265,7 +1265,7 @@ cases:
     sex: F
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:217'
+  - id: 'urn:covid:ca.cases:217'
     dataset_id: '217'
     state_id: '100'
     sources:
@@ -1277,7 +1277,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:218'
+  - id: 'urn:covid:ca.cases:218'
     dataset_id: '218'
     state_id: '101'
     sources:
@@ -1289,7 +1289,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:219'
+  - id: 'urn:covid:ca.cases:219'
     dataset_id: '219'
     state_id: '102'
     sources:
@@ -1303,7 +1303,7 @@ cases:
     sex: null
     health_region: Northwestern
     acquired_country: null
-  - id: 'urn:covid19:case:ca:220'
+  - id: 'urn:covid:ca.cases:220'
     dataset_id: '220'
     state_id: '103'
     sources:
@@ -1315,7 +1315,7 @@ cases:
     sex: F
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid19:case:ca:254'
+  - id: 'urn:covid:ca.cases:254'
     dataset_id: '254'
     state_id: '104'
     sources:
@@ -1327,7 +1327,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:255'
+  - id: 'urn:covid:ca.cases:255'
     dataset_id: '255'
     state_id: '105'
     sources:
@@ -1339,7 +1339,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:256'
+  - id: 'urn:covid:ca.cases:256'
     dataset_id: '256'
     state_id: '106'
     sources:
@@ -1351,7 +1351,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:257'
+  - id: 'urn:covid:ca.cases:257'
     dataset_id: '257'
     state_id: '107'
     sources:
@@ -1363,7 +1363,7 @@ cases:
     sex: null
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:258'
+  - id: 'urn:covid:ca.cases:258'
     dataset_id: '258'
     state_id: '108'
     sources:
@@ -1375,7 +1375,7 @@ cases:
     sex: null
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:259'
+  - id: 'urn:covid:ca.cases:259'
     dataset_id: '259'
     state_id: '109'
     sources:
@@ -1387,7 +1387,7 @@ cases:
     sex: null
     health_region: Durham
     acquired_country: null
-  - id: 'urn:covid19:case:ca:260'
+  - id: 'urn:covid:ca.cases:260'
     dataset_id: '260'
     state_id: '110'
     sources:
@@ -1399,7 +1399,7 @@ cases:
     sex: null
     health_region: Durham
     acquired_country: null
-  - id: 'urn:covid19:case:ca:261'
+  - id: 'urn:covid:ca.cases:261'
     dataset_id: '261'
     state_id: '111'
     sources:
@@ -1411,7 +1411,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:262'
+  - id: 'urn:covid:ca.cases:262'
     dataset_id: '262'
     state_id: '112'
     sources:
@@ -1423,7 +1423,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:263'
+  - id: 'urn:covid:ca.cases:263'
     dataset_id: '263'
     state_id: '113'
     sources:
@@ -1435,7 +1435,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:264'
+  - id: 'urn:covid:ca.cases:264'
     dataset_id: '264'
     state_id: '114'
     sources:
@@ -1447,7 +1447,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:265'
+  - id: 'urn:covid:ca.cases:265'
     dataset_id: '265'
     state_id: '115'
     sources:
@@ -1459,7 +1459,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:266'
+  - id: 'urn:covid:ca.cases:266'
     dataset_id: '266'
     state_id: '116'
     sources:
@@ -1471,7 +1471,7 @@ cases:
     sex: null
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
-  - id: 'urn:covid19:case:ca:267'
+  - id: 'urn:covid:ca.cases:267'
     dataset_id: '267'
     state_id: '117'
     sources:
@@ -1483,7 +1483,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:268'
+  - id: 'urn:covid:ca.cases:268'
     dataset_id: '268'
     state_id: '118'
     sources:
@@ -1495,7 +1495,7 @@ cases:
     sex: F
     health_region: Niagara
     acquired_country: null
-  - id: 'urn:covid19:case:ca:269'
+  - id: 'urn:covid:ca.cases:269'
     dataset_id: '269'
     state_id: '119'
     sources:
@@ -1507,7 +1507,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:270'
+  - id: 'urn:covid:ca.cases:270'
     dataset_id: '270'
     state_id: '120'
     sources:
@@ -1519,7 +1519,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:271'
+  - id: 'urn:covid:ca.cases:271'
     dataset_id: '271'
     state_id: '121'
     sources:
@@ -1531,7 +1531,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:272'
+  - id: 'urn:covid:ca.cases:272'
     dataset_id: '272'
     state_id: '122'
     sources:
@@ -1543,7 +1543,7 @@ cases:
     sex: null
     health_region: Simcoe Muskoka
     acquired_country: null
-  - id: 'urn:covid19:case:ca:273'
+  - id: 'urn:covid:ca.cases:273'
     dataset_id: '273'
     state_id: '123'
     sources:
@@ -1555,7 +1555,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:274'
+  - id: 'urn:covid:ca.cases:274'
     dataset_id: '274'
     state_id: '124'
     sources:
@@ -1567,7 +1567,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid19:case:ca:275'
+  - id: 'urn:covid:ca.cases:275'
     dataset_id: '275'
     state_id: '125'
     sources:
@@ -1579,7 +1579,7 @@ cases:
     sex: null
     health_region: Simcoe Muskoka
     acquired_country: null
-  - id: 'urn:covid19:case:ca:276'
+  - id: 'urn:covid:ca.cases:276'
     dataset_id: '276'
     state_id: '126'
     sources:
@@ -1591,7 +1591,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:277'
+  - id: 'urn:covid:ca.cases:277'
     dataset_id: '277'
     state_id: '127'
     sources:
@@ -1603,7 +1603,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:278'
+  - id: 'urn:covid:ca.cases:278'
     dataset_id: '278'
     state_id: '128'
     sources:
@@ -1615,7 +1615,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:279'
+  - id: 'urn:covid:ca.cases:279'
     dataset_id: '279'
     state_id: '129'
     sources:
@@ -1627,7 +1627,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:280'
+  - id: 'urn:covid:ca.cases:280'
     dataset_id: '280'
     state_id: '130'
     sources:
@@ -1639,7 +1639,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:281'
+  - id: 'urn:covid:ca.cases:281'
     dataset_id: '281'
     state_id: '131'
     sources:
@@ -1651,7 +1651,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:282'
+  - id: 'urn:covid:ca.cases:282'
     dataset_id: '282'
     state_id: '132'
     sources:
@@ -1663,7 +1663,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:283'
+  - id: 'urn:covid:ca.cases:283'
     dataset_id: '283'
     state_id: '133'
     sources:
@@ -1675,7 +1675,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:284'
+  - id: 'urn:covid:ca.cases:284'
     dataset_id: '284'
     state_id: '134'
     sources:
@@ -1687,7 +1687,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:285'
+  - id: 'urn:covid:ca.cases:285'
     dataset_id: '285'
     state_id: '135'
     sources:
@@ -1699,7 +1699,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:286'
+  - id: 'urn:covid:ca.cases:286'
     dataset_id: '286'
     state_id: '136'
     sources:
@@ -1711,7 +1711,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:287'
+  - id: 'urn:covid:ca.cases:287'
     dataset_id: '287'
     state_id: '137'
     sources:
@@ -1723,7 +1723,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:288'
+  - id: 'urn:covid:ca.cases:288'
     dataset_id: '288'
     state_id: '138'
     sources:
@@ -1735,7 +1735,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:289'
+  - id: 'urn:covid:ca.cases:289'
     dataset_id: '289'
     state_id: '139'
     sources:
@@ -1747,7 +1747,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:290'
+  - id: 'urn:covid:ca.cases:290'
     dataset_id: '290'
     state_id: '140'
     sources:
@@ -1759,7 +1759,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:291'
+  - id: 'urn:covid:ca.cases:291'
     dataset_id: '291'
     state_id: '141'
     sources:
@@ -1771,7 +1771,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:292'
+  - id: 'urn:covid:ca.cases:292'
     dataset_id: '292'
     state_id: '142'
     sources:
@@ -1783,7 +1783,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:318'
+  - id: 'urn:covid:ca.cases:318'
     dataset_id: '318'
     state_id: '143'
     sources:
@@ -1795,7 +1795,7 @@ cases:
     sex: M
     health_region: Grey Bruce
     acquired_country: null
-  - id: 'urn:covid19:case:ca:319'
+  - id: 'urn:covid:ca.cases:319'
     dataset_id: '319'
     state_id: '144'
     sources:
@@ -1807,7 +1807,7 @@ cases:
     sex: F
     health_region: Grey Bruce
     acquired_country: null
-  - id: 'urn:covid19:case:ca:320'
+  - id: 'urn:covid:ca.cases:320'
     dataset_id: '320'
     state_id: '145'
     sources:
@@ -1819,7 +1819,7 @@ cases:
     sex: M
     health_region: Peterborough
     acquired_country: null
-  - id: 'urn:covid19:case:ca:342'
+  - id: 'urn:covid:ca.cases:342'
     dataset_id: '342'
     state_id: '146'
     sources:
@@ -1831,7 +1831,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:343'
+  - id: 'urn:covid:ca.cases:343'
     dataset_id: '343'
     state_id: '147'
     sources:
@@ -1843,7 +1843,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:344'
+  - id: 'urn:covid:ca.cases:344'
     dataset_id: '344'
     state_id: '148'
     sources:
@@ -1855,7 +1855,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:345'
+  - id: 'urn:covid:ca.cases:345'
     dataset_id: '345'
     state_id: '149'
     sources:
@@ -1867,7 +1867,7 @@ cases:
     sex: M
     health_region: Wellington Dufferin Guelph
     acquired_country: null
-  - id: 'urn:covid19:case:ca:346'
+  - id: 'urn:covid:ca.cases:346'
     dataset_id: '346'
     state_id: '150'
     sources:
@@ -1880,7 +1880,7 @@ cases:
     health_region: Sudbury
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:347'
+  - id: 'urn:covid:ca.cases:347'
     dataset_id: '347'
     state_id: '151'
     sources:
@@ -1892,7 +1892,7 @@ cases:
     sex: null
     health_region: Durham
     acquired_country: null
-  - id: 'urn:covid19:case:ca:348'
+  - id: 'urn:covid:ca.cases:348'
     dataset_id: '348'
     state_id: '152'
     sources:
@@ -1904,7 +1904,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:349'
+  - id: 'urn:covid:ca.cases:349'
     dataset_id: '349'
     state_id: '153'
     sources:
@@ -1916,7 +1916,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:350'
+  - id: 'urn:covid:ca.cases:350'
     dataset_id: '350'
     state_id: '154'
     sources:
@@ -1928,7 +1928,7 @@ cases:
     sex: null
     health_region: Niagara
     acquired_country: null
-  - id: 'urn:covid19:case:ca:351'
+  - id: 'urn:covid:ca.cases:351'
     dataset_id: '351'
     state_id: '155'
     sources:
@@ -1940,7 +1940,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:352'
+  - id: 'urn:covid:ca.cases:352'
     dataset_id: '352'
     state_id: '156'
     sources:
@@ -1952,7 +1952,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:353'
+  - id: 'urn:covid:ca.cases:353'
     dataset_id: '353'
     state_id: '157'
     sources:
@@ -1964,7 +1964,7 @@ cases:
     sex: M
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:354'
+  - id: 'urn:covid:ca.cases:354'
     dataset_id: '354'
     state_id: '158'
     sources:
@@ -1976,7 +1976,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:355'
+  - id: 'urn:covid:ca.cases:355'
     dataset_id: '355'
     state_id: '159'
     sources:
@@ -1988,7 +1988,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:356'
+  - id: 'urn:covid:ca.cases:356'
     dataset_id: '356'
     state_id: '160'
     sources:
@@ -2000,7 +2000,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:357'
+  - id: 'urn:covid:ca.cases:357'
     dataset_id: '357'
     state_id: '161'
     sources:
@@ -2012,7 +2012,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:358'
+  - id: 'urn:covid:ca.cases:358'
     dataset_id: '358'
     state_id: '162'
     sources:
@@ -2024,7 +2024,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:359'
+  - id: 'urn:covid:ca.cases:359'
     dataset_id: '359'
     state_id: '163'
     sources:
@@ -2036,7 +2036,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:360'
+  - id: 'urn:covid:ca.cases:360'
     dataset_id: '360'
     state_id: '164'
     sources:
@@ -2048,7 +2048,7 @@ cases:
     sex: null
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:361'
+  - id: 'urn:covid:ca.cases:361'
     dataset_id: '361'
     state_id: '165'
     sources:
@@ -2060,7 +2060,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:362'
+  - id: 'urn:covid:ca.cases:362'
     dataset_id: '362'
     state_id: '166'
     sources:
@@ -2072,7 +2072,7 @@ cases:
     sex: null
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:363'
+  - id: 'urn:covid:ca.cases:363'
     dataset_id: '363'
     state_id: '167'
     sources:
@@ -2084,7 +2084,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:364'
+  - id: 'urn:covid:ca.cases:364'
     dataset_id: '364'
     state_id: '168'
     sources:
@@ -2096,7 +2096,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:365'
+  - id: 'urn:covid:ca.cases:365'
     dataset_id: '365'
     state_id: '169'
     sources:
@@ -2108,7 +2108,7 @@ cases:
     sex: null
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:366'
+  - id: 'urn:covid:ca.cases:366'
     dataset_id: '366'
     state_id: '170'
     sources:
@@ -2120,7 +2120,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:367'
+  - id: 'urn:covid:ca.cases:367'
     dataset_id: '367'
     state_id: '171'
     sources:
@@ -2132,7 +2132,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:368'
+  - id: 'urn:covid:ca.cases:368'
     dataset_id: '368'
     state_id: '172'
     sources:
@@ -2144,7 +2144,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:369'
+  - id: 'urn:covid:ca.cases:369'
     dataset_id: '369'
     state_id: '173'
     sources:
@@ -2156,7 +2156,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:370'
+  - id: 'urn:covid:ca.cases:370'
     dataset_id: '370'
     state_id: '174'
     sources:
@@ -2168,7 +2168,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:371'
+  - id: 'urn:covid:ca.cases:371'
     dataset_id: '371'
     state_id: '175'
     sources:
@@ -2180,7 +2180,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:372'
+  - id: 'urn:covid:ca.cases:372'
     dataset_id: '372'
     state_id: '176'
     sources:
@@ -2192,7 +2192,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:373'
+  - id: 'urn:covid:ca.cases:373'
     dataset_id: '373'
     state_id: '177'
     sources:
@@ -2204,7 +2204,7 @@ cases:
     sex: null
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:442'
+  - id: 'urn:covid:ca.cases:442'
     dataset_id: '442'
     state_id: '178'
     sources:
@@ -2216,7 +2216,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:443'
+  - id: 'urn:covid:ca.cases:443'
     dataset_id: '443'
     state_id: '179'
     sources:
@@ -2228,7 +2228,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:444'
+  - id: 'urn:covid:ca.cases:444'
     dataset_id: '444'
     state_id: '180'
     sources:
@@ -2240,7 +2240,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:445'
+  - id: 'urn:covid:ca.cases:445'
     dataset_id: '445'
     state_id: '181'
     sources:
@@ -2252,7 +2252,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:446'
+  - id: 'urn:covid:ca.cases:446'
     dataset_id: '446'
     state_id: '182'
     sources:
@@ -2264,7 +2264,7 @@ cases:
     sex: null
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:447'
+  - id: 'urn:covid:ca.cases:447'
     dataset_id: '447'
     state_id: '183'
     sources:
@@ -2276,7 +2276,7 @@ cases:
     sex: null
     health_region: Middlesex-London
     acquired_country: null
-  - id: 'urn:covid19:case:ca:448'
+  - id: 'urn:covid:ca.cases:448'
     dataset_id: '448'
     state_id: '184'
     sources:
@@ -2288,7 +2288,7 @@ cases:
     sex: null
     health_region: Middlesex-London
     acquired_country: null
-  - id: 'urn:covid19:case:ca:449'
+  - id: 'urn:covid:ca.cases:449'
     dataset_id: '449'
     state_id: '185'
     sources:
@@ -2300,7 +2300,7 @@ cases:
     sex: M
     health_region: York
     acquired_country: null
-  - id: 'urn:covid19:case:ca:477'
+  - id: 'urn:covid:ca.cases:477'
     dataset_id: '477'
     state_id: '186'
     sources:
@@ -2315,7 +2315,7 @@ cases:
     health_region: Simcoe Muskoka
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:479'
+  - id: 'urn:covid:ca.cases:479'
     dataset_id: '479'
     state_id: '187'
     sources:
@@ -2327,7 +2327,7 @@ cases:
     sex: F
     health_region: Kingston Frontenac Lennox & Addington
     acquired_country: null
-  - id: 'urn:covid19:case:ca:480'
+  - id: 'urn:covid:ca.cases:480'
     dataset_id: '480'
     state_id: '188'
     sources:
@@ -2339,7 +2339,7 @@ cases:
     sex: F
     health_region: Kingston Frontenac Lennox & Addington
     acquired_country: null
-  - id: 'urn:covid19:case:ca:481'
+  - id: 'urn:covid:ca.cases:481'
     dataset_id: '481'
     state_id: '189'
     sources:
@@ -2351,7 +2351,7 @@ cases:
     sex: M
     health_region: Kingston Frontenac Lennox & Addington
     acquired_country: null
-  - id: 'urn:covid19:case:ca:598'
+  - id: 'urn:covid:ca.cases:598'
     dataset_id: '598'
     state_id: '190'
     sources:
@@ -2363,7 +2363,7 @@ cases:
     sex: F
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:599'
+  - id: 'urn:covid:ca.cases:599'
     dataset_id: '599'
     state_id: '191'
     sources:
@@ -2376,7 +2376,7 @@ cases:
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:600'
+  - id: 'urn:covid:ca.cases:600'
     dataset_id: '600'
     state_id: '192'
     sources:
@@ -2388,7 +2388,7 @@ cases:
     sex: M
     health_region: Peel
     acquired_country: null
-  - id: 'urn:covid19:case:ca:601'
+  - id: 'urn:covid:ca.cases:601'
     dataset_id: '601'
     state_id: '193'
     sources:
@@ -2400,7 +2400,7 @@ cases:
     sex: F
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:602'
+  - id: 'urn:covid:ca.cases:602'
     dataset_id: '602'
     state_id: '194'
     sources:
@@ -2412,7 +2412,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:603'
+  - id: 'urn:covid:ca.cases:603'
     dataset_id: '603'
     state_id: '195'
     sources:
@@ -2424,7 +2424,7 @@ cases:
     sex: F
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:604'
+  - id: 'urn:covid:ca.cases:604'
     dataset_id: '604'
     state_id: '196'
     sources:
@@ -2436,7 +2436,7 @@ cases:
     sex: F
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:605'
+  - id: 'urn:covid:ca.cases:605'
     dataset_id: '605'
     state_id: '197'
     sources:
@@ -2449,7 +2449,7 @@ cases:
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid19:case:ca:606'
+  - id: 'urn:covid:ca.cases:606'
     dataset_id: '606'
     state_id: '198'
     sources:
@@ -2461,7 +2461,7 @@ cases:
     sex: M
     health_region: Toronto
     acquired_country: null
-  - id: 'urn:covid19:case:ca:607'
+  - id: 'urn:covid:ca.cases:607'
     dataset_id: '607'
     state_id: '199'
     sources:
@@ -2473,7 +2473,7 @@ cases:
     sex: M
     health_region: Halton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:608'
+  - id: 'urn:covid:ca.cases:608'
     dataset_id: '608'
     state_id: '200'
     sources:
@@ -2485,7 +2485,7 @@ cases:
     sex: F
     health_region: Waterloo
     acquired_country: null
-  - id: 'urn:covid19:case:ca:609'
+  - id: 'urn:covid:ca.cases:609'
     dataset_id: '609'
     state_id: '201'
     sources:
@@ -2497,7 +2497,7 @@ cases:
     sex: M
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:610'
+  - id: 'urn:covid:ca.cases:610'
     dataset_id: '610'
     state_id: '202'
     sources:
@@ -2509,7 +2509,7 @@ cases:
     sex: M
     health_region: Ottawa
     acquired_country: null
-  - id: 'urn:covid19:case:ca:611'
+  - id: 'urn:covid:ca.cases:611'
     dataset_id: '611'
     state_id: '203'
     sources:
@@ -2521,7 +2521,7 @@ cases:
     sex: F
     health_region: Middlesex-London
     acquired_country: null
-  - id: 'urn:covid19:case:ca:612'
+  - id: 'urn:covid:ca.cases:612'
     dataset_id: '612'
     state_id: '204'
     sources:
@@ -2533,7 +2533,7 @@ cases:
     sex: M
     health_region: Hamilton
     acquired_country: null
-  - id: 'urn:covid19:case:ca:613'
+  - id: 'urn:covid:ca.cases:613'
     dataset_id: '613'
     state_id: '205'
     sources:
@@ -2545,7 +2545,7 @@ cases:
     sex: M
     health_region: Chatham-Kent
     acquired_country: null
-  - id: 'urn:covid19:case:ca:614'
+  - id: 'urn:covid:ca.cases:614'
     dataset_id: '614'
     state_id: '206'
     sources:
@@ -2557,7 +2557,7 @@ cases:
     sex: M
     health_region: Grey Bruce
     acquired_country: null
-  - id: 'urn:covid19:case:ca:615'
+  - id: 'urn:covid:ca.cases:615'
     dataset_id: '615'
     state_id: '207'
     sources:
@@ -2569,7 +2569,7 @@ cases:
     sex: M
     health_region: Simcoe Muskoka
     acquired_country: null
-  - id: 'urn:covid19:case:ca:616'
+  - id: 'urn:covid:ca.cases:616'
     dataset_id: '616'
     state_id: '208'
     sources:
@@ -2581,7 +2581,7 @@ cases:
     sex: F
     health_region: Brant
     acquired_country: null
-  - id: 'urn:covid19:case:ca:617'
+  - id: 'urn:covid:ca.cases:617'
     dataset_id: '617'
     state_id: '209'
     sources:
@@ -2593,7 +2593,7 @@ cases:
     sex: F
     health_region: Algoma
     acquired_country: null
-  - id: 'urn:covid19:case:ca:618'
+  - id: 'urn:covid:ca.cases:618'
     dataset_id: '618'
     state_id: '210'
     sources:
@@ -2605,7 +2605,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid19:case:ca:619'
+  - id: 'urn:covid:ca.cases:619'
     dataset_id: '619'
     state_id: '211'
     sources:
@@ -2617,7 +2617,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid19:case:ca:620'
+  - id: 'urn:covid:ca.cases:620'
     dataset_id: '620'
     state_id: '212'
     sources:
@@ -2629,7 +2629,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid19:case:ca:724'
+  - id: 'urn:covid:ca.cases:724'
     dataset_id: '724'
     state_id: '213'
     sources:
@@ -2641,7 +2641,7 @@ cases:
     sex: M
     health_region: Niagara
     acquired_country: null
-  - id: 'urn:covid19:case:ca:725'
+  - id: 'urn:covid:ca.cases:725'
     dataset_id: '725'
     state_id: '214'
     sources:
