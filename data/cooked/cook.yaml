@@ -20,13 +20,13 @@ merge:
 - datasets/ca-age.yaml
 - datasets/ca-spending.yaml
 - datasets/ca-doctors.yaml
-- by-hand/ca-political.yaml
+- ca.manual/ca-political.yaml
 
-- on-cmo/ca-on-tests.yaml
-- bc-cmo/ca-bc-tests.yaml
-- ab-cmo/ca-ab-tests.yaml
-- sk-cmo/ca-sk-tests.yaml
-- mb-cmo/ca-mb-tests.yaml
-- ns-cmo/ca-ns-tests.yaml
-- pe-cmo/ca-pe-tests.yaml
-- nb-cmo/ca-nb-tests.yaml
+- ca-on.cmo/ca-on-tests.yaml
+- ca-bc.cmo/ca-bc-tests.yaml
+- ca-ab.cmo/ca-ab-tests.yaml
+- ca-sk.cmo/ca-sk-tests.yaml
+- ca-mb.cmo/ca-mb-tests.yaml
+- ca-ns.cmo/ca-ns-tests.yaml
+- ca-pe.cmo/ca-pe-tests.yaml
+- ca-nb.cmo/ca-nb-tests.yaml
