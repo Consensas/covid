@@ -64,7 +64,7 @@ _.promise({
     .then(google.sheets.headers.first)
 
     .add("jsons:json")
-    .add("path", path.join(__dirname, "raw", "data.json"))
+    .add("path", path.join(__dirname, "raw", "data.yaml"))
     .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
