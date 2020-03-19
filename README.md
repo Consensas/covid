@@ -52,7 +52,6 @@ We will pull it daily.
 
 * https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 
-
 ### COVID-19 Canada Open Data Working Group
 
 COVID-19 Canada Open Data Working Group. Epidemiological Data from the COVID-19 Outbreak in Canada.
@@ -130,9 +129,34 @@ These provinces are in the data set:
 - `tests_resolved`: patient is no longer infectious
 - `tests_ordered`
 
+### Timeline of events
+
+Data by Consenas
+
+- `event_close_bars`: bars have been ordered to shut down
+- `event_close_restaurants`: restaurants have been ordered to shutdown (excluding restuarants)
+- `event_close_takeout`: takeout services have been ordered to shutdown
+- `event_close_school_public`: public shcools have been ordered to shutdown
+- `event_close_school_private`: private schools have been ordered to shutdown
+- `event_close_postsecondary`: postsecondary have been ordered to shutdown
+- `event_close_daycare`: daycares have been ordered to shutdown
+- `event_close_stores`: stores have been ordered to shutdown
+- `event_close_faith`: faith servies have been ordered to shutdown
+- `event_close_libraries`: libraries have been ordered to shutdown
+
+- `event_ban_groups_1000`: groups bigger than 1000 should not meet
+- `event_ban_groups_500`: groups bigger than 500 should not meet
+- `event_ban_groups_250`: groups bigger than 250 should not meet
+- `event_ban_groups_150`: groups bigger than 150 should not meet
+- `event_ban_groups_100`: groups bigger than 100 should not meet
+- `event_ban_groups_50`: groups bigger than 50 should not meet
+
+- `event_emergency`: state of emergency / public health emergency declared
+- `event_shutdown`: general shutdown of everything (eg Italy level)
+
 ### Political
 
-This dataset I created myself using lots of Google Searching
+This dataset we created using lots of Google Searching
 
 - `poli_leader`: eg the premier
 - `poli_leader_health`: eg the minister of health
@@ -167,3 +191,4 @@ Kaggle challange
 
 Article on open data sources
 * https://www.cbc.ca/news/canada/coronavirus-date-information-sharing-1.5500709?fbclid=IwAR2Hds42iyOoCEijeoDxIEz_tTidbme15DKkTcV6bi5YGM5JwfEk3w9fPYQ
+
