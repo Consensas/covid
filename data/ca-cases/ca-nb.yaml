@@ -1,0 +1,139 @@
+country: CA
+state: NB
+key: ca-nb
+cases:
+  - id: 'urn:covid19:case:ca:140'
+    state_id: '1'
+    sources:
+      - >-
+        https://atlantic.ctvnews.ca/covid-19-arrives-in-maritimes-as-n-b-reports-first-presumptive-case-1.4848961
+      - >-
+        https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-covid-19-1.5494328
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Zone 1 (Moncton Area)
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:221'
+    state_id: '2'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/new-brunswick/nb-chief-medical-officer-health-covid-19-1.5497971
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Zone 1 (Moncton Area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:314'
+    state_id: '3'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 20-29
+    sex: M
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:315'
+    state_id: '4'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 20-29
+    sex: M
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:316'
+    state_id: '5'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:317'
+    state_id: '6'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:378'
+    state_id: '7'
+    sources:
+      - 'https://globalnews.ca/news/6683869/covid-19-nb-update-monday/'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 20-29
+    sex: F
+    health_region: Zone 2 (Saint John area)
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:452'
+    state_id: '8'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0132.html'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: <10
+    sex: M
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:646'
+    state_id: '9'
+    sources:
+      - >-
+        https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Zone 1 (Moncton Area)
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:647'
+    state_id: '10'
+    sources:
+      - >-
+        https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:648'
+    state_id: '11'
+    sources:
+      - >-
+        https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: null

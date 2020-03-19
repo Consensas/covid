@@ -1,0 +1,200 @@
+country: CA
+state: MB
+key: ca-mb
+cases:
+  - id: 'urn:covid19:case:ca:134'
+    state_id: '1'
+    sources:
+      - 'https://winnipeg.ctvnews.ca/video?clipId=1920424'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:176'
+    state_id: '2'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=46931'
+      - >-
+        https://globalnews.ca/news/6669210/manitoba-confirms-two-additional-presumptive-cases-of-covid-19-coronavirus/
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:177'
+    state_id: '3'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=46931'
+      - >-
+        https://globalnews.ca/news/6669210/manitoba-confirms-two-additional-presumptive-cases-of-covid-19-coronavirus/
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:185'
+    state_id: '4'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=46934&posted=2020-03-13'
+      - >-
+        https://winnipeg.ctvnews.ca/fourth-presumptive-covid-19-case-confirmed-in-manitoba-1.4852527
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:293'
+    state_id: '5'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
+      - 'https://news.gov.mb.ca/news/index.html?item=46958'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 70-79
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:294'
+    state_id: '6'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
+      - 'https://news.gov.mb.ca/news/index.html?item=46958'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 70-79
+    sex: F
+    health_region: Interlake-Eastern
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:295'
+    state_id: '7'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
+      - 'https://news.gov.mb.ca/news/index.html?item=46958'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:423'
+    state_id: '8'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=46997&posted=2020-03-16'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 80-89
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:591'
+    state_id: '9'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 60-69
+    sex: M
+    health_region: Southern Health
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:592'
+    state_id: '10'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 60-69
+    sex: F
+    health_region: Southern Health
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:593'
+    state_id: '11'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 60-69
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:594'
+    state_id: '12'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 50-59
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:595'
+    state_id: '13'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 40-49
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:596'
+    state_id: '14'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 30-39
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:597'
+    state_id: '15'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 50-59
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:726'
+    state_id: '16'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47077'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:727'
+    state_id: '17'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47077'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 70-79
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null

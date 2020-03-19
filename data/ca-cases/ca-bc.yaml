@@ -1,0 +1,2746 @@
+country: CA
+state: BC
+key: ca-bc
+cases:
+  - id: 'urn:covid19:case:ca:3'
+    state_id: '1'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0015-000151'
+    date: '2020-01-28'
+    week_reported: '2020-01-26'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:5'
+    state_id: '2'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0023-000222'
+    date: '2020-02-04'
+    week_reported: '2020-02-02'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:6'
+    state_id: '3'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0025-000236'
+    date: '2020-02-06'
+    week_reported: '2020-02-02'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:7'
+    state_id: '4'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0025-000236'
+    date: '2020-02-06'
+    week_reported: '2020-02-02'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:8'
+    state_id: '5'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0036-000284'
+      - >-
+        https://www.cbc.ca/news/canada/british-columbia/coronavirus-bc-update-1.5470757
+    date: '2020-02-14'
+    week_reported: '2020-02-09'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:9'
+    state_id: '6'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0041-000304'
+      - >-
+        https://www.richmond-news.com/news/coronavirus-latest-8th-case-confirmed-in-b-c-in-vancouver-coastal-health-region-1.24087401
+    date: '2020-02-20'
+    week_reported: '2020-02-16'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:12'
+    state_id: '7'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0043-000320'
+    date: '2020-02-24'
+    week_reported: '2020-02-23'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:20'
+    state_id: '8'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0052-000356'
+    date: '2020-02-29'
+    week_reported: '2020-02-23'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:30'
+    state_id: '9'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0056-000365'
+    date: '2020-03-03'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:31'
+    state_id: '10'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0058-000370'
+    date: '2020-03-03'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:32'
+    state_id: '11'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0058-000370'
+    date: '2020-03-03'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: Not Reported
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:33'
+    state_id: '12'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0058-000370'
+    date: '2020-03-03'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:34'
+    state_id: '13'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0060-000380'
+    date: '2020-03-04'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 80-89
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:39'
+    state_id: '14'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 20-29
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:40'
+    state_id: '15'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:41'
+    state_id: '16'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:42'
+    state_id: '17'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:43'
+    state_id: '18'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:44'
+    state_id: '19'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:45'
+    state_id: '20'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:46'
+    state_id: '21'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0062-000393'
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Fraser
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:55'
+    state_id: '22'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0064-000413'
+    date: '2020-03-07'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:56'
+    state_id: '23'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0064-000413'
+    date: '2020-03-07'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:57'
+    state_id: '24'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0064-000413'
+    date: '2020-03-07'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:58'
+    state_id: '25'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0064-000413'
+    date: '2020-03-07'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:59'
+    state_id: '26'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0064-000413'
+    date: '2020-03-07'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 70-79
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:60'
+    state_id: '27'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0064-000413'
+    date: '2020-03-07'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 80-89
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:70'
+    state_id: '28'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0068-000423'
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 10-19
+    sex: M
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:71'
+    state_id: '29'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0068-000423'
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:72'
+    state_id: '30'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0068-000423'
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:73'
+    state_id: '31'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0068-000423'
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:74'
+    state_id: '32'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0068-000423'
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:88'
+    state_id: '33'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0072-000445'
+    date: '2020-03-10'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:89'
+    state_id: '34'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0072-000445'
+    date: '2020-03-10'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:90'
+    state_id: '35'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0072-000445'
+    date: '2020-03-10'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:91'
+    state_id: '36'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0072-000445'
+    date: '2020-03-10'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 90-99
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:92'
+    state_id: '37'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0072-000445'
+    date: '2020-03-10'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:93'
+    state_id: '38'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0072-000445'
+    date: '2020-03-10'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 90-99
+    sex: M
+    health_region: Fraser
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:94'
+    state_id: '39'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0072-000445'
+    date: '2020-03-10'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Fraser
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:109'
+    state_id: '40'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0074-000470'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 20-29
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:110'
+    state_id: '41'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0074-000470'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Fraser
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:111'
+    state_id: '42'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0074-000470'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 70-79
+    sex: M
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:112'
+    state_id: '43'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0074-000470'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 70-79
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:113'
+    state_id: '44'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0074-000470'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Fraser
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:114'
+    state_id: '45'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0074-000470'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:115'
+    state_id: '46'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0074-000470'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:149'
+    state_id: '47'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0077-000484'
+      - >-
+        https://docs.google.com/spreadsheets/d/1G17R6SoGc2-l_naBF2z5YCtau-k5jJ8Tvh_r_9qhgLI/edit#gid=532907458
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 90-99
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:150'
+    state_id: '48'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0077-000484'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-discourage-travel-outside-canada-ban-events-larger-than-250-people-1.4850903
+      - >-
+        https://docs.google.com/spreadsheets/d/1G17R6SoGc2-l_naBF2z5YCtau-k5jJ8Tvh_r_9qhgLI/edit#gid=532907458
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:151'
+    state_id: '49'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0077-000484'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-discourage-travel-outside-canada-ban-events-larger-than-250-people-1.4850903
+      - >-
+        https://docs.google.com/spreadsheets/d/1G17R6SoGc2-l_naBF2z5YCtau-k5jJ8Tvh_r_9qhgLI/edit#gid=532907458
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Fraser
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:152'
+    state_id: '50'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0077-000484'
+      - >-
+        https://docs.google.com/spreadsheets/d/1G17R6SoGc2-l_naBF2z5YCtau-k5jJ8Tvh_r_9qhgLI/edit#gid=532907458
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:153'
+    state_id: '51'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0077-000484'
+      - >-
+        https://docs.google.com/spreadsheets/d/1G17R6SoGc2-l_naBF2z5YCtau-k5jJ8Tvh_r_9qhgLI/edit#gid=532907458
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:154'
+    state_id: '52'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0077-000484'
+      - >-
+        https://docs.google.com/spreadsheets/d/1G17R6SoGc2-l_naBF2z5YCtau-k5jJ8Tvh_r_9qhgLI/edit#gid=532907458
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:155'
+    state_id: '53'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0077-000484'
+      - >-
+        https://docs.google.com/spreadsheets/d/1G17R6SoGc2-l_naBF2z5YCtau-k5jJ8Tvh_r_9qhgLI/edit#gid=532907458
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:186'
+    state_id: '54'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:187'
+    state_id: '55'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:188'
+    state_id: '56'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:189'
+    state_id: '57'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:190'
+    state_id: '58'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:191'
+    state_id: '59'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:192'
+    state_id: '60'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:193'
+    state_id: '61'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:194'
+    state_id: '62'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:195'
+    state_id: '63'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:196'
+    state_id: '64'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0081-000493'
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:239'
+    state_id: '65'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:240'
+    state_id: '66'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:241'
+    state_id: '67'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:242'
+    state_id: '68'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:243'
+    state_id: '69'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:244'
+    state_id: '70'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:245'
+    state_id: '71'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:246'
+    state_id: '72'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:247'
+    state_id: '73'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0082-000494'
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-health-officials-announce-9-new-covid-19-cases-warn-against-panic-buying-1.4853308
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:388'
+    state_id: '74'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:389'
+    state_id: '75'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:390'
+    state_id: '76'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:391'
+    state_id: '77'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:392'
+    state_id: '78'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:393'
+    state_id: '79'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:394'
+    state_id: '80'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:395'
+    state_id: '81'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:396'
+    state_id: '82'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:397'
+    state_id: '83'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:398'
+    state_id: '84'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:399'
+    state_id: '85'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:400'
+    state_id: '86'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:401'
+    state_id: '87'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:402'
+    state_id: '88'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:403'
+    state_id: '89'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:404'
+    state_id: '90'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:405'
+    state_id: '91'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:406'
+    state_id: '92'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:407'
+    state_id: '93'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:408'
+    state_id: '94'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:409'
+    state_id: '95'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:410'
+    state_id: '96'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:411'
+    state_id: '97'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:412'
+    state_id: '98'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:413'
+    state_id: '99'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:414'
+    state_id: '100'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:415'
+    state_id: '101'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:416'
+    state_id: '102'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:417'
+    state_id: '103'
+    sources:
+      - 'https://news.gov.bc.ca/releases/2020HLTH0086-000499'
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:508'
+    state_id: '104'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:509'
+    state_id: '105'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:510'
+    state_id: '106'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:511'
+    state_id: '107'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:512'
+    state_id: '108'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Northern
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:513'
+    state_id: '109'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Northern
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:514'
+    state_id: '110'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:515'
+    state_id: '111'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:516'
+    state_id: '112'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:517'
+    state_id: '113'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:518'
+    state_id: '114'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:519'
+    state_id: '115'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:520'
+    state_id: '116'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:521'
+    state_id: '117'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:522'
+    state_id: '118'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:523'
+    state_id: '119'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:524'
+    state_id: '120'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:525'
+    state_id: '121'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:526'
+    state_id: '122'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:527'
+    state_id: '123'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:528'
+    state_id: '124'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:529'
+    state_id: '125'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:530'
+    state_id: '126'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:531'
+    state_id: '127'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:532'
+    state_id: '128'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:533'
+    state_id: '129'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:534'
+    state_id: '130'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:535'
+    state_id: '131'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:536'
+    state_id: '132'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:537'
+    state_id: '133'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Northern
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:538'
+    state_id: '134'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Northern
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:539'
+    state_id: '135'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:540'
+    state_id: '136'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:541'
+    state_id: '137'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:542'
+    state_id: '138'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:543'
+    state_id: '139'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:544'
+    state_id: '140'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:545'
+    state_id: '141'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:546'
+    state_id: '142'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:547'
+    state_id: '143'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:548'
+    state_id: '144'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:549'
+    state_id: '145'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:550'
+    state_id: '146'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:551'
+    state_id: '147'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:552'
+    state_id: '148'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:553'
+    state_id: '149'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:554'
+    state_id: '150'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:555'
+    state_id: '151'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:556'
+    state_id: '152'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:557'
+    state_id: '153'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:558'
+    state_id: '154'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:559'
+    state_id: '155'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:560'
+    state_id: '156'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:561'
+    state_id: '157'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:562'
+    state_id: '158'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:563'
+    state_id: '159'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:564'
+    state_id: '160'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:565'
+    state_id: '161'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:566'
+    state_id: '162'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:567'
+    state_id: '163'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:568'
+    state_id: '164'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:569'
+    state_id: '165'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:570'
+    state_id: '166'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:571'
+    state_id: '167'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:572'
+    state_id: '168'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:573'
+    state_id: '169'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:574'
+    state_id: '170'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:575'
+    state_id: '171'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:576'
+    state_id: '172'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:577'
+    state_id: '173'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:578'
+    state_id: '174'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:579'
+    state_id: '175'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:580'
+    state_id: '176'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:581'
+    state_id: '177'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:582'
+    state_id: '178'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:583'
+    state_id: '179'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:584'
+    state_id: '180'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:585'
+    state_id: '181'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:586'
+    state_id: '182'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:587'
+    state_id: '183'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:588'
+    state_id: '184'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:589'
+    state_id: '185'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:590'
+    state_id: '186'
+    sources:
+      - >-
+        https://vancouverisland.ctvnews.ca/b-c-declares-public-health-emergency-with-12-cases-of-covid-19-on-vancouver-island-1.4857080
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:657'
+    state_id: '187'
+    sources:
+      - >-
+        http://www.vch.ca/about-us/news/news-releases/vancouver-coastal-health-confirms-a-case-of-covid-19-at-haro-park-centre
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:658'
+    state_id: '188'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:659'
+    state_id: '189'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Interior
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:660'
+    state_id: '190'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:661'
+    state_id: '191'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:662'
+    state_id: '192'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:663'
+    state_id: '193'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Island
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:664'
+    state_id: '194'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:665'
+    state_id: '195'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:666'
+    state_id: '196'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:667'
+    state_id: '197'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:668'
+    state_id: '198'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:669'
+    state_id: '199'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:670'
+    state_id: '200'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:671'
+    state_id: '201'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:672'
+    state_id: '202'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:673'
+    state_id: '203'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:674'
+    state_id: '204'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Fraser
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:675'
+    state_id: '205'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:676'
+    state_id: '206'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:677'
+    state_id: '207'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:678'
+    state_id: '208'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:679'
+    state_id: '209'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:680'
+    state_id: '210'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:681'
+    state_id: '211'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:682'
+    state_id: '212'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:683'
+    state_id: '213'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:684'
+    state_id: '214'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:685'
+    state_id: '215'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:686'
+    state_id: '216'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:687'
+    state_id: '217'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:688'
+    state_id: '218'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:689'
+    state_id: '219'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:690'
+    state_id: '220'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:691'
+    state_id: '221'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:692'
+    state_id: '222'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:693'
+    state_id: '223'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:694'
+    state_id: '224'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:695'
+    state_id: '225'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:696'
+    state_id: '226'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:697'
+    state_id: '227'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:698'
+    state_id: '228'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:699'
+    state_id: '229'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:700'
+    state_id: '230'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:701'
+    state_id: '231'
+    sources:
+      - >-
+        http://www.bccdc.ca/health-info/diseases-conditions/covid-19/case-counts-press-statements
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Vancouver Coastal
+    acquired_country: null

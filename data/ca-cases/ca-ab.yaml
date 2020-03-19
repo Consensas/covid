@@ -1,0 +1,1497 @@
+country: CA
+state: AB
+key: ca-ab
+cases:
+  - id: 'urn:covid19:case:ca:47'
+    state_id: '1'
+    sources:
+      - >-
+        https://edmonton.ctvnews.ca/alberta-s-first-presumptive-coronavirus-case-in-calgary-zone-1.4841023
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:54'
+    state_id: '2'
+    sources:
+      - >-
+        https://calgary.ctvnews.ca/2-calgary-banks-closed-in-connection-with-presumptive-case-of-covid-19-1.4842654
+      - 'https://globalnews.ca/news/6647369/coronavirus-alberta-bc-connection/'
+    date: '2020-03-06'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:63'
+    state_id: '3'
+    sources:
+      - >-
+        https://globalnews.ca/news/6647035/new-presumptive-cases-covid-19-in-alberta/
+    date: '2020-03-08'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:64'
+    state_id: '4'
+    sources:
+      - >-
+        https://globalnews.ca/news/6647035/new-presumptive-cases-covid-19-in-alberta/
+    date: '2020-03-08'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:75'
+    state_id: '5'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68769850EF253-A8A2-2BB1-D69F6DB8EB774E91
+      - >-
+        https://globalnews.ca/news/6649955/alberta-coronavirus-covid-19-cases-monday/
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 70-79
+    sex: F
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:76'
+    state_id: '6'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68769850EF253-A8A2-2BB1-D69F6DB8EB774E91
+      - >-
+        https://globalnews.ca/news/6649955/alberta-coronavirus-covid-19-cases-monday/
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:77'
+    state_id: '7'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68769850EF253-A8A2-2BB1-D69F6DB8EB774E91
+      - >-
+        https://globalnews.ca/news/6649955/alberta-coronavirus-covid-19-cases-monday/
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:81'
+    state_id: '8'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 70-79
+    sex: M
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:82'
+    state_id: '9'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:83'
+    state_id: '10'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:84'
+    state_id: '11'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:85'
+    state_id: '12'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:86'
+    state_id: '13'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:87'
+    state_id: '14'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:104'
+    state_id: '15'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:105'
+    state_id: '16'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 20-29
+    sex: M
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:106'
+    state_id: '17'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:107'
+    state_id: '18'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:108'
+    state_id: '19'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Central
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:141'
+    state_id: '20'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
+      - >-
+        https://www.theglobeandmail.com/canada/article-child-at-calgary-daycare-tests-positive-for-covid-19-canadas-first/
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: '2'
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:142'
+    state_id: '21'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:143'
+    state_id: '22'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:144'
+    state_id: '23'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 70-79
+    sex: F
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:178'
+    state_id: '24'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: M
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:179'
+    state_id: '25'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:180'
+    state_id: '26'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:181'
+    state_id: '27'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:182'
+    state_id: '28'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:183'
+    state_id: '29'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
+    date: '2020-03-13'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:229'
+    state_id: '30'
+    sources:
+      - >-
+        https://edmontonjournal.com/news/local-news/covid-19-10-new-cases-in-alberta-brings-provincial-total-to-39/
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: 60-69
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:230'
+    state_id: '31'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:231'
+    state_id: '32'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:232'
+    state_id: '33'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:233'
+    state_id: '34'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:234'
+    state_id: '35'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:235'
+    state_id: '36'
+    sources:
+      - >-
+        https://edmontonjournal.com/news/local-news/covid-19-10-new-cases-in-alberta-brings-provincial-total-to-39/
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: 60-69
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:236'
+    state_id: '37'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:237'
+    state_id: '38'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:238'
+    state_id: '39'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:321'
+    state_id: '40'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:322'
+    state_id: '41'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:323'
+    state_id: '42'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:324'
+    state_id: '43'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:325'
+    state_id: '44'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:326'
+    state_id: '45'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:327'
+    state_id: '46'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:328'
+    state_id: '47'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:329'
+    state_id: '48'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:330'
+    state_id: '49'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:331'
+    state_id: '50'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: CA
+    acquired_community: true
+  - id: 'urn:covid19:case:ca:332'
+    state_id: '51'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:333'
+    state_id: '52'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:334'
+    state_id: '53'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:335'
+    state_id: '54'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:336'
+    state_id: '55'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:337'
+    state_id: '56'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
+      - >-
+        https://www.youtube.com/watch?v=xHpWvR9kWoA&list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&index=1
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:424'
+    state_id: '57'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: North
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:425'
+    state_id: '58'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: South
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:426'
+    state_id: '59'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:427'
+    state_id: '60'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:428'
+    state_id: '61'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:429'
+    state_id: '62'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:430'
+    state_id: '63'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:431'
+    state_id: '64'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:432'
+    state_id: '65'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:433'
+    state_id: '66'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:434'
+    state_id: '67'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:435'
+    state_id: '68'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:436'
+    state_id: '69'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:437'
+    state_id: '70'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:438'
+    state_id: '71'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:439'
+    state_id: '72'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:440'
+    state_id: '73'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:441'
+    state_id: '74'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Central
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:485'
+    state_id: '75'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:486'
+    state_id: '76'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:487'
+    state_id: '77'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:488'
+    state_id: '78'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:489'
+    state_id: '79'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:490'
+    state_id: '80'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:491'
+    state_id: '81'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:492'
+    state_id: '82'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:493'
+    state_id: '83'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:494'
+    state_id: '84'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:495'
+    state_id: '85'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:496'
+    state_id: '86'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:497'
+    state_id: '87'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:498'
+    state_id: '88'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:499'
+    state_id: '89'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:500'
+    state_id: '90'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:501'
+    state_id: '91'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:502'
+    state_id: '92'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:503'
+    state_id: '93'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:504'
+    state_id: '94'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:505'
+    state_id: '95'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Central
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:506'
+    state_id: '96'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: North
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:507'
+    state_id: '97'
+    sources:
+      - >-
+        https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: North
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:702'
+    state_id: '98'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:703'
+    state_id: '99'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:704'
+    state_id: '100'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:705'
+    state_id: '101'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:706'
+    state_id: '102'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:707'
+    state_id: '103'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:708'
+    state_id: '104'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:709'
+    state_id: '105'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:710'
+    state_id: '106'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:711'
+    state_id: '107'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:712'
+    state_id: '108'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:713'
+    state_id: '109'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:714'
+    state_id: '110'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Calgary
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:715'
+    state_id: '111'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:716'
+    state_id: '112'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:717'
+    state_id: '113'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:718'
+    state_id: '114'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:719'
+    state_id: '115'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:720'
+    state_id: '116'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:721'
+    state_id: '117'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Edmonton
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:722'
+    state_id: '118'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: North
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:723'
+    state_id: '119'
+    sources:
+      - >-
+        https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&v=S1pCOOMPg2Q&feature=emb_title
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: South
+    acquired_country: null

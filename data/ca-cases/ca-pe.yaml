@@ -1,0 +1,16 @@
+country: CA
+state: PE
+key: ca-pe
+cases:
+  - id: 'urn:covid19:case:ca:248'
+    state_id: '1'
+    sources:
+      - >-
+        https://atlantic.ctvnews.ca/p-e-i-confirms-first-case-of-covid-19-1.4853291
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Prince Edward Island
+    acquired_country: null

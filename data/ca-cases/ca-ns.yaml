@@ -1,0 +1,141 @@
+country: CA
+state: NS
+key: ca-ns
+cases:
+  - id: 'urn:covid19:case:ca:296'
+    state_id: '1'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200315002'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: '61'
+    sex: F
+    health_region: Zone 1 - Western
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:297'
+    state_id: '2'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200315002'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: '50'
+    sex: M
+    health_region: Zone 4 - Central
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:298'
+    state_id: '3'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200315002'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Zone 4 - Central
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:376'
+    state_id: '4'
+    sources:
+      - >-
+        https://globalnews.ca/news/6683327/2-new-presumptive-cases-coronavirus-nova-scotia-covid-19/
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Zone 4 - Central
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:377'
+    state_id: '5'
+    sources:
+      - >-
+        https://globalnews.ca/news/6683327/2-new-presumptive-cases-coronavirus-nova-scotia-covid-19/
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Zone 4 - Central
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid19:case:ca:482'
+    state_id: '6'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200317001'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:483'
+    state_id: '7'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200317001'
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:641'
+    state_id: '8'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200318001'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:642'
+    state_id: '9'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200318001'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:643'
+    state_id: '10'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200318001'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:644'
+    state_id: '11'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200318001'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:645'
+    state_id: '12'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200318001'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: CA
+    acquired_close_contact: true

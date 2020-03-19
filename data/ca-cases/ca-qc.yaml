@@ -1,0 +1,1124 @@
+country: CA
+state: QC
+key: ca-qc
+cases:
+  - id: 'urn:covid19:case:ca:14'
+    state_id: '1'
+    sources:
+      - >-
+        https://globalnews.ca/news/6606736/quebec-first-presumptive-coronavirus-case/
+      - >-
+        https://globalnews.ca/news/6634234/second-covid-19-coronavirus-case-quebec/
+      - >-
+        https://ici.radio-canada.ca/nouvelle/1641897/coronavirus-cas-quebec-montreal
+    date: '2020-02-27'
+    week_reported: '2020-02-23'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:35'
+    state_id: '2'
+    sources:
+      - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2049/'
+      - 'https://www.cbc.ca/news/canada/montreal/covid19-quebec-2nd-1.5486496'
+      - >-
+        https://www.journaldemontreal.com/2020/03/05/nouveau-cas-de-covid-19-au-quebec
+    date: '2020-03-05'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: 70-79
+    sex: M
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:51'
+    state_id: '3'
+    sources:
+      - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2053/'
+      - >-
+        https://montrealgazette.com/news/local-news/covid-19-third-possible-coronavirus-case-detected-in-quebec
+      - >-
+        https://www.ledevoir.com/societe/sante/574252/covid-19-un-nouveau-cas-probable-au-quebec-signale-par-le-gouvernement
+    date: '2020-03-06'
+    week_reported: '2020-03-01'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:62'
+    state_id: '4'
+    sources:
+      - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2057/'
+      - >-
+        https://www.lapresse.ca/actualites/sante/202003/08/01-5263768-un-quatrieme-cas-probable-de-covid-19-au-quebec.php
+    date: '2020-03-08'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: F
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:79'
+    state_id: '5'
+    sources:
+      - 'https://www.msss.gouv.qc.ca/ministere/salle-de-presse/communique-2059/'
+      - >-
+        https://www.journaldemontreal.com/2020/03/09/un-cinquieme-cas-probable-de-coronavirus-au-quebec
+      - ''
+    date: '2020-03-09'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: M
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:100'
+    state_id: '6'
+    sources:
+      - >-
+        https://ici.radio-canada.ca/nouvelle/1658863/coronavirus-covid-19-bilan-sept-cas-confirmes-quebec
+      - 'https://twitter.com/sante_qc/status/1237563703051956226'
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:101'
+    state_id: '7'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1237563703051956226'
+      - >-
+        https://www.lapresse.ca/covid-19/202003/11/01-5264124-deux-nouveaux-cas-confirmes-au-quebec.php
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:102'
+    state_id: '8'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1237836022576275459'
+      - >-
+        https://www.journaldequebec.com/2020/03/11/un-8e-cas-de-coronavirus-confirme-au-quebec-1
+    date: '2020-03-11'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Mauricie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:135'
+    state_id: '9'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1237860478203727873'
+      - >-
+        https://www.standard-freeholder.com/news/quebec/covid-19-quebec-asks-anyone-returning-from-travel-to-self-quarantine/wcm/8dbbeffa-348f-4df9-88ce-ae37761620de
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Chaudière-Appalaches
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:136'
+    state_id: '10'
+    sources:
+      - >-
+        https://www.standard-freeholder.com/news/quebec/covid-19-quebec-asks-anyone-returning-from-travel-to-self-quarantine/wcm/8dbbeffa-348f-4df9-88ce-ae37761620de
+      - 'https://twitter.com/sante_qc/status/1238133608596090883'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:137'
+    state_id: '11'
+    sources:
+      - >-
+        https://www.standard-freeholder.com/news/quebec/covid-19-quebec-asks-anyone-returning-from-travel-to-self-quarantine/wcm/8dbbeffa-348f-4df9-88ce-ae37761620de
+      - 'https://twitter.com/sante_qc/status/1238133608596090883'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:138'
+    state_id: '12'
+    sources:
+      - >-
+        https://www.standard-freeholder.com/news/quebec/covid-19-quebec-asks-anyone-returning-from-travel-to-self-quarantine/wcm/8dbbeffa-348f-4df9-88ce-ae37761620de
+      - 'https://twitter.com/sante_qc/status/1238133608596090883'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:139'
+    state_id: '13'
+    sources:
+      - >-
+        https://www.standard-freeholder.com/news/quebec/covid-19-quebec-asks-anyone-returning-from-travel-to-self-quarantine/wcm/8dbbeffa-348f-4df9-88ce-ae37761620de
+      - 'https://twitter.com/sante_qc/status/1238133608596090883'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:145'
+    state_id: '14'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1238277138954039296'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:146'
+    state_id: '15'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1238277138954039296'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:147'
+    state_id: '16'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1238277138954039296'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:148'
+    state_id: '17'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1238277138954039296'
+    date: '2020-03-12'
+    week_reported: '2020-03-08'
+    is_travel: true
+    age_range: Not Reported
+    sex: null
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:222'
+    state_id: '18'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:223'
+    state_id: '19'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Lanaudière
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:224'
+    state_id: '20'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:225'
+    state_id: '21'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:226'
+    state_id: '22'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:227'
+    state_id: '23'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:228'
+    state_id: '24'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-14'
+    week_reported: '2020-03-08'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:299'
+    state_id: '25'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:300'
+    state_id: '26'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:301'
+    state_id: '27'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Mauricie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:302'
+    state_id: '28'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Mauricie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:303'
+    state_id: '29'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:304'
+    state_id: '30'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:305'
+    state_id: '31'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:306'
+    state_id: '32'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:307'
+    state_id: '33'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:308'
+    state_id: '34'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:309'
+    state_id: '35'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:338'
+    state_id: '36'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1239278209113391105'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:339'
+    state_id: '37'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1239278209113391105'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Chaudière-Appalaches
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:340'
+    state_id: '38'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1239278209113391105'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Chaudière-Appalaches
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:341'
+    state_id: '39'
+    sources:
+      - 'https://twitter.com/sante_qc/status/1239278209113391105'
+    date: '2020-03-15'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Lanaudière
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:374'
+    state_id: '40'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:375'
+    state_id: '41'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:379'
+    state_id: '42'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:380'
+    state_id: '43'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:381'
+    state_id: '44'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:382'
+    state_id: '45'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:383'
+    state_id: '46'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:384'
+    state_id: '47'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Chaudière-Appalaches
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:385'
+    state_id: '48'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Lanaudière
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:386'
+    state_id: '49'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:387'
+    state_id: '50'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-16'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:453'
+    state_id: '51'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:454'
+    state_id: '52'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:455'
+    state_id: '53'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:456'
+    state_id: '54'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:457'
+    state_id: '55'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:458'
+    state_id: '56'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:459'
+    state_id: '57'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:460'
+    state_id: '58'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:461'
+    state_id: '59'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:462'
+    state_id: '60'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:463'
+    state_id: '61'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:464'
+    state_id: '62'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:465'
+    state_id: '63'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:466'
+    state_id: '64'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:467'
+    state_id: '65'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Lanaudière
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:468'
+    state_id: '66'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Lanaudière
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:469'
+    state_id: '67'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Lanaudière
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:470'
+    state_id: '68'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:471'
+    state_id: '69'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:472'
+    state_id: '70'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:473'
+    state_id: '71'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montérégie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:474'
+    state_id: '72'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:475'
+    state_id: '73'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:476'
+    state_id: '74'
+    sources:
+      - >-
+        https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/#c46333
+    date: '2020-03-17'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Not Reported
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:621'
+    state_id: '75'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:622'
+    state_id: '76'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:623'
+    state_id: '77'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:624'
+    state_id: '78'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:625'
+    state_id: '79'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Capitale-Nationale
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:626'
+    state_id: '80'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:627'
+    state_id: '81'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:628'
+    state_id: '82'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:629'
+    state_id: '83'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:630'
+    state_id: '84'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:631'
+    state_id: '85'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:632'
+    state_id: '86'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:633'
+    state_id: '87'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Estrie
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:634'
+    state_id: '88'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:635'
+    state_id: '89'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:636'
+    state_id: '90'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Montréal
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:637'
+    state_id: '91'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Chaudière-Appalaches
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:638'
+    state_id: '92'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Chaudière-Appalaches
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:639'
+    state_id: '93'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Laurentides
+    acquired_country: null
+  - id: 'urn:covid19:case:ca:640'
+    state_id: '94'
+    sources:
+      - 'https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/'
+    date: '2020-03-18'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: Not Reported
+    sex: null
+    health_region: Outaouais
+    acquired_country: null
