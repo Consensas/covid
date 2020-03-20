@@ -1,4 +1,5 @@
-- country: CA
+- id: 'urn:covid:consensas:ca-nb:cmo'
+  country: CA
   state: NB
   key: ca-nb
   items:
@@ -6,19 +7,32 @@
       tests_positive: 1
       tests_probable: 0
       tests_negative: 18
+      id: 'urn:covid:consensas:ca-nb:cmo:2020-03-13'
+      tests: 19
     - date: '2020-03-14'
       tests_positive: 1
       tests_probable: 1
       tests_negative: 18
+      id: 'urn:covid:consensas:ca-nb:cmo:2020-03-14'
+      tests: 20
     - date: '2020-03-17'
       tests_probable: 6
       tests_positive: 2
+      id: 'urn:covid:consensas:ca-nb:cmo:2020-03-17'
+      tests: 8
     - date: '2020-03-18'
       tests_probable: 9
       tests_positive: 2
+      id: 'urn:covid:consensas:ca-nb:cmo:2020-03-18'
+      tests: 11
     - date: '2020-03-19'
       tests_probable: 4
       tests_positive: 7
+      id: 'urn:covid:consensas:ca-nb:cmo:2020-03-19'
+      tests: 11
     - date: '2020-03-20'
+      tests_negative: 509
       tests_probable: 4
       tests_positive: 7
+      id: 'urn:covid:consensas:ca-nb:cmo:2020-03-20'
+      tests: 520

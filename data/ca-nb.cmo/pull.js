@@ -84,7 +84,7 @@ const _pull = _.promise((self, done) => {
                     next = "tests_probable"
                 } else if (text.startsWith("presumptive case")) {
                     next = "tests_probable"
-                } else if (text.startsWith("negative case")) {
+                } else if (text.startsWith("negative")) {
                     next = "tests_negative"
                 } else if (text.indexOf("case") > -1) {
                     next = null
