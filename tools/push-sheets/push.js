@@ -27,7 +27,20 @@ const google = require("iotdb-google")
 const fs = require("iotdb-fs")
 
 const path = require("path")
+const minimist = require("minimist")
 
+const push = require(".")
+
+const ad = minimist(process.argv.slice(2), {
+    boolean: [
+    ],
+    string: [
+    ],
+    alias: {
+    },
+})
+
+/*
 let credentials
 let token
 
@@ -37,26 +50,39 @@ try {
 } catch (x) {
     console.log("#", "use bin/google-token to get tokens first")
 }
+*/
 
-const googled = {
-    credentials: credentials,
-    token: token,
+
+/*
+if (!ad._.length) {
+    console.log("usage: push.js <sheetid>")
+    process.exit()
 }
-
-const _pad = s => {
-    while (s.length < 5) {
-        s = `0${s}`
-    }
-
-    return s
-}
+*/
 
 _.promise({
-    googled: googled,
+    /*
+    googled: {
+        credentials: credentials,
+        token: token,
+    },
+    */
 })
+    // load settings
+    .then(fs.read.yaml.p(path.join(__dirname, "settings.yaml")))
+    .add("json:settings")
+
+    /*
     .then(google.initialize)
     .then(google.auth.token)
     .then(google.sheets.initialize)
+    */
+
+    .then(push.load_datasets)
+    .make(sd => {
+        console.log(sd.datasets)
+    })
+
     /*
     .then(google.sheets.list_values.p({
         spreadsheetId: "12MS8REzfOPCtaw4z9CPJq36AjJis8VOJIil3LP5nXiQ",
@@ -71,3 +97,4 @@ _.promise({
     .log("wrote", "path")
     */
     .catch(_.error.log)
+
