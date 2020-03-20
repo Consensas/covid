@@ -9,3 +9,29 @@ datasets:
 - ca-pe.yaml
 - ca-qc.yaml
 - ca-sk.yaml
+
+sheets:
+- name: Deaths
+  type: timeseries
+  timeseries: items
+  value: death
+
+- name: Medical
+  type: sheet
+  values:
+  - key: icu_hospitals
+    name: ICU Hospitals
+  - key: icu_beds
+    name: ICU Beds
+  - key: icu_ventalators
+    name: ICU Ventalators
+  - key: icu_hfov
+    name: ICU HFOV
+  - key: icu_hospitals_ino
+    name: ICU INO
+  - key: icu_hospitals_ecmo
+    name: ICU ECMO
+  - key: spending_pp
+    name: Spending PP
+  - key: doctors_pp
+    name: Doctors PP
