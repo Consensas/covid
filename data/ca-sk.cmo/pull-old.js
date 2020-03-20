@@ -70,45 +70,54 @@ const _pull = _.promise((self, done) => {
             const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
             const _contains = (a, b) => (a || "").toLowerCase().indexOf(b.toLowerCase()) > -1
             
-            const text = $.text()
-            const tests_match = text.match(/([\d,]+) COVID-19 tests/)
-            if (tests_match) {
-                sd.json.tests = _integer(tests_match[1])
-            }
-
-            const date_match = text.match(/SUMMARY . ([A-Za-z]+ \d+, 20\d\d)/)
-            if (date_match) {
-                const date = parse(`${date_match[1]}`, "MMMM dd, yyyy", new Date())
-                if (!_.is.Date(date)) {
-                    return 
+            $("meta[name='published']").each((x, e) => {
+                if (e.attribs.content) {
+                    sd.json.date = new Date(e.attribs.content).toISOString().substring(0, 10)
                 }
+            })
 
-                sd.json.date = date.toISOString().substring(0, 10)
-            }
-
+            // the old way
             $("table.compacttable").each((x, e) => {
                 const table = _table($(e))
                 if (table.length < 2) {
                     return
                 }
 
-                table
-                    .filter(row => row.length === 5)
-                    .filter(row => row[0] === 'Total Saskatchewan')
-                    .forEach(row => {
-                        sd.json.tests_positive = _integer(row[2])
-                        sd.json.tests_probable = _integer(row[3])
-                    })
+                console.log(table)
+
+                table.forEach(row => {
+                    const match = row[0].match(/as of ([A-Za-z]* \d+, \d+)/)
+                    if (match) {
+                        const date = parse(`${match[1]}`, "MMMM dd, yyyy", new Date())
+                        if (!_.is.Date(date)) {
+                            return 
+                        }
+
+                        sd.json.date = date.toISOString().substring(0, 10)
+                    }
+
+                    if (!row.length === 2) {
+                        return
+                    }
+
+                    if (_contains(row[0], "total persons")) {
+                        sd.json.tests = _integer(row[1])
+                    } else if (_contains(row[0], "tests performed")) {
+                        sd.json.tests = _integer(row[1])
+                    } else if (_contains(row[0], "pending results")) {
+                        sd.json.tests_pending = _integer(row[1])
+                    } else if (_contains(row[0], "confirmed negative")) {
+                        sd.json.tests_negative = _integer(row[1])
+                    } else if (_contains(row[0], "confirmed positive")) {
+                        sd.json.tests_positive = _integer(row[1])
+                    }
+                })
             })
 
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
             if (_.is.Empty(sd.json.date)) {
                 _.promise.bail(sd)
-            }
-
-            if (sd.json.tests && sd.json.tests_positive) {
-                sd.json.tests_negative = sd.json.tests - sd.json.tests_positive - (sd.json.tests_probable || 0)
             }
 
         })
@@ -148,6 +157,7 @@ if (ad._.length) {
         .except(_.error.log)
 } else {
     _.promise()
+        .then(fetch.document.get("https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus"))
         .then(fetch.document.get("https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan"))
         .then(_pull)
         .except(_.error.log)
