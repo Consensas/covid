@@ -68,19 +68,16 @@ const publish = _.promise((self, done) => {
     _.promise(self)
         .validate(publish)
 
-    /*
-    .then(google.sheets.list_values.p({
-        spreadsheetId: "12MS8REzfOPCtaw4z9CPJq36AjJis8VOJIil3LP5nXiQ",
-        range: "Data",
-    }))
-    .then(google.sheets.headers.first)
-
-    .add("jsons:json")
-    .add("path", path.join(__dirname, "raw", "data.yaml"))
-    .then(fs.make.directory.parent)
-    .then(fs.write.yaml)
-    .log("wrote", "path")
-    */
+        .make(sd => {
+            sd.title = sd.sheet.name
+            sd.path = `/${sd.settings.google.sheet}/${sd.sheet.name}`
+            sd.jsons = sd.sheet.rows
+        })
+        .then(google.sheets.parse)
+        .then(google.sheets.sheets)
+        .then(google.sheets.sheets.select)
+        .conditional(sd => !sd.sheet, google.sheets.sheets.add)
+        .then(google.sheets.put)
 
         .end(done, self, publish)
 })
@@ -92,6 +89,11 @@ publish.requires = {
     sheet: {
         name: _.is.String,
         rows: _.is.Array,
+    },
+    settings: {
+        google: {
+            sheet: _.is.String,
+        },
     },
 }
 publish.accepts = {

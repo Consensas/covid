@@ -62,6 +62,13 @@ const generate_timeseries = _.promise(self => {
                 max_date = date
             }
         })
+
+        // header
+        header.push([
+            // dataset.locality,
+            dataset.state,
+            // dataset.country,
+        ].filter(p => p).join(", "))
     })
 
     if (min_date < "2020-01-01") {
