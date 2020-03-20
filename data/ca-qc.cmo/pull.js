@@ -41,16 +41,34 @@ const ad = minimist(process.argv.slice(2), {
     },
 })
 
+const USER = "sante_qc"
+
 /**
  */
 const _pull = _.promise((self, done) => {
     _.promise(self)
         .validate(_pull)
 
-        .make((sd, sdone) => {
-            const command = "twarc --since_id 1240733877343260677 timeline dpjanes"
+        // figure out last tweet
+        .add({
+            path: path.join(__dirname, "raw"),
+            fs$filter_name: name => name.match(/^\d+[.]yaml$/)
+        })
+        .then(fs.make.directory)
+        .then(fs.list)
 
-            child_process.exec(command, (error, stdout, stderr) => {
+        .make((sd, sdone) => {
+            const biggest = sd.paths
+                .map(p => path.basename(p, ".yaml"))
+                .reduce((maximum, id) => maximum > id ? maximum : id, "")
+
+            const command = _.is.Empty(biggest) ?
+                `twarc timeline ${USER}` :
+                `twarc --since_id ${biggest} timeline ${USER}`;
+
+            child_process.exec(command, {
+                maxBuffer: 1024 * 1024 * 1024,
+            }, (error, stdout, stderr) => {
                 if (error) {
                     error.self = sd
                     return sdone(error)
@@ -63,13 +81,10 @@ const _pull = _.promise((self, done) => {
             });
         })
         .make(sd => {
-            sd.path = "tmp.yaml"
-            sd.json = sd.document
+            sd.jsons = sd.document
                 .split("\n")
                 .filter(line => line.startsWith("{"))
                 .map(line => JSON.parse(line))
-                // .filter(json => !json.is_quote_status)
-                // .filter(json => !json.in_reply_to_status_id)
                 .map(json => ({
                     created_at: json.created_at,
                     id_str: json.id_str,
@@ -78,9 +93,16 @@ const _pull = _.promise((self, done) => {
                 .filter(json => !json.full_text.startsWith("RT @"))
         })
         
-        .then(fs.make.directory.parent)
-        .then(fs.write.yaml)
-        .log("wrote", "path")
+        .each({
+            method: _.promise((sd, sdone) => {
+                _.promise(sd)
+                    .add("path", `raw/${sd.json.id_str}.yaml`)
+                    .then(fs.write.yaml)
+                    .log("wrote", "path")
+                    .end(sdone, sd)
+            }),
+            inputs: "jsons:json"
+        })
 
         .end(done, self, _pull)
 })
