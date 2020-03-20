@@ -158,6 +158,11 @@ items:
     deaths: 0
     confirmed: 1
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-02-29'
+    tests_positive: 1
+    tests_ordered: 8
+    tests_negative: 104
+    tests: 105
   - date: '2020-03-01'
     deaths: 0
     confirmed: 1
@@ -166,74 +171,164 @@ items:
     deaths: 0
     confirmed: 1
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-02'
+    tests_positive: 1
+    tests_ordered: 17
+    tests_negative: 189
+    tests: 190
   - date: '2020-03-03'
     deaths: 0
     confirmed: 1
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-03'
+    tests_positive: 1
+    tests_ordered: 7
+    tests_negative: 203
+    tests: 204
   - date: '2020-03-04'
     deaths: 0
     confirmed: 1
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-04'
+    tests_positive: 1
+    tests_ordered: 33
+    tests_negative: 203
+    tests: 204
   - date: '2020-03-05'
     deaths: 0
     confirmed: 2
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-05'
+    tests_positive: 1
+    tests_ordered: 20
+    tests_negative: 242
+    tests: 243
   - date: '2020-03-06'
     deaths: 0
     confirmed: 2
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-06'
+    tests_positive: 2
+    tests_ordered: 40
+    tests_negative: 260
+    tests: 262
   - date: '2020-03-07'
     deaths: 0
     confirmed: 3
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-07'
+    tests_positive: 2
+    tests_ordered: 41
+    tests_negative: 303
+    tests: 305
   - date: '2020-03-08'
     deaths: 0
     confirmed: 4
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-08'
+    tests_positive: 2
+    tests_ordered: 10
+    tests_negative: 340
+    tests: 342
   - date: '2020-03-09'
     deaths: 0
     confirmed: 4
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-09'
+    tests_positive: 2
+    tests_ordered: 25
+    tests_negative: 376
+    tests: 378
   - date: '2020-03-10'
     deaths: 0
     confirmed: 4
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-10'
+    tests_positive: 4
+    tests_ordered: 91
+    tests_negative: 465
+    tests: 469
   - date: '2020-03-11'
     deaths: 0
     confirmed: 8
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-11'
+    tests_positive: 8
+    tests_ordered: 136
+    tests_negative: 570
+    tests: 578
   - date: '2020-03-12'
     deaths: 0
     confirmed: 9
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-12'
+    tests_positive: 13
+    tests_ordered: 266
+    tests_negative: 798
+    tests: 811
   - date: '2020-03-13'
     deaths: 0
     confirmed: 17
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-13'
+    tests_positive: 17
+    tests_ordered: 646
+    tests_negative: 1079
+    tests: 1096
   - date: '2020-03-14'
     deaths: 0
     confirmed: 17
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-14'
+    tests_positive: 24
+    tests_ordered: 850
+    tests_negative: 1399
+    tests: 1423
   - date: '2020-03-15'
     deaths: 0
     confirmed: 24
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-15'
+    tests_positive: 39
+    tests_ordered: 1480
+    tests_negative: 2270
+    tests: 2309
   - date: '2020-03-16'
     deaths: 0
     confirmed: 50
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-16'
+    tests_positive: 50
+    tests_ordered: 3073
+    tests_negative: 3079
+    tests: 3129
   - date: '2020-03-17'
     deaths: 0
     confirmed: 74
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-17'
+    tests_positive: 74
+    tests_ordered: 2949
+    tests_negative: 4778
+    tests: 4852
   - date: '2020-03-18'
     deaths: 0
     confirmed: 94
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-18'
+    tests_positive: 94
+    tests_ordered: 3627
+    tests_negative: 5213
+    tests: 5307
   - date: '2020-03-19'
     deaths: 1
     confirmed: 121
     recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-19'
+    tests_positive: 121
+    tests_ordered: 3997
+    tests_negative: 6331
+    tests: 6452
 icu_hospitals: 87
 icu_beds: 885
 icu_ventalators: 1197
@@ -287,3 +382,4 @@ event_close_postsecondary: '2020-03-13'
 event_close_daycare: '2020-03-15'
 event_close_libraries: '2020-03-15'
 event_ban_groups_250: '2020-03-12'
+id: 'urn:covid:consensas:ca-qc:cmo'
