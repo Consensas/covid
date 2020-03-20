@@ -20,7 +20,18 @@ sheets:
   date: date
   value: confirmed
 
-xxx:
+- name: Recovered
+  type: timeseries
+  timeseries: items
+  date: date
+  value: recovered
+
+- name: Deaths
+  type: timeseries
+  timeseries: items
+  date: date
+  value: deaths
+
 - name: Medical
   type: datasheet
   values:
