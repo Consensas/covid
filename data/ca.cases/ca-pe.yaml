@@ -15,3 +15,15 @@ cases:
     sex: F
     health_region: Prince Edward Island
     acquired_country: null
+  - id: 'urn:covid:ca.cases:800'
+    dataset_id: '800'
+    state_id: '2'
+    sources:
+      - 'https://globalnews.ca/news/6702858/pei-second-covid-case/'
+    date: '2020-03-19'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Prince Edward Island
+    acquired_country: null

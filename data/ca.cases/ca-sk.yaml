@@ -39,7 +39,7 @@ cases:
     is_travel: true
     age_range: 30-39
     sex: null
-    health_region: null
+    health_region: North
     acquired_country: null
   - id: 'urn:covid:ca.cases:311'
     dataset_id: '311'
@@ -52,7 +52,7 @@ cases:
     is_travel: true
     age_range: 40-49
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: null
   - id: 'urn:covid:ca.cases:312'
     dataset_id: '312'
@@ -65,7 +65,7 @@ cases:
     is_travel: true
     age_range: 40-49
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: CA
     acquired_close_contact: true
   - id: 'urn:covid:ca.cases:313'
@@ -79,7 +79,7 @@ cases:
     is_travel: true
     age_range: 20-29
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: null
   - id: 'urn:covid:ca.cases:418'
     dataset_id: '418'
@@ -92,7 +92,7 @@ cases:
     is_travel: true
     age_range: null
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: null
   - id: 'urn:covid:ca.cases:478'
     dataset_id: '478'
@@ -105,7 +105,7 @@ cases:
     is_travel: true
     age_range: 50-59
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: null
   - id: 'urn:covid:ca.cases:649'
     dataset_id: '649'
@@ -118,7 +118,7 @@ cases:
     is_travel: null
     age_range: 30-39
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: null
   - id: 'urn:covid:ca.cases:650'
     dataset_id: '650'
@@ -131,7 +131,7 @@ cases:
     is_travel: true
     age_range: 40-49
     sex: null
-    health_region: null
+    health_region: North
     acquired_country: CA
     acquired_close_contact: true
   - id: 'urn:covid:ca.cases:651'
@@ -171,7 +171,7 @@ cases:
     is_travel: true
     age_range: null
     sex: null
-    health_region: Five Hills
+    health_region: South
     acquired_country: null
   - id: 'urn:covid:ca.cases:654'
     dataset_id: '654'
@@ -184,7 +184,7 @@ cases:
     is_travel: true
     age_range: null
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: null
   - id: 'urn:covid:ca.cases:655'
     dataset_id: '655'
@@ -197,7 +197,7 @@ cases:
     is_travel: true
     age_range: null
     sex: null
-    health_region: Regina Qu'Appelle
+    health_region: Regina
     acquired_country: null
   - id: 'urn:covid:ca.cases:656'
     dataset_id: '656'
@@ -211,4 +211,59 @@ cases:
     age_range: 40-49
     sex: null
     health_region: Saskatoon
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:802'
+    dataset_id: '802'
+    state_id: '17'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
+    date: '2020-03-19'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: Saskatoon
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:803'
+    dataset_id: '803'
+    state_id: '18'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
+      - >-
+        https://winnipeg.ctvnews.ca/head-of-saskatchewan-medical-group-says-he-got-covid-19-at-doctors-bonspiel-1.4860665
+    date: '2020-03-19'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: Regina
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:804'
+    dataset_id: '804'
+    state_id: '19'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
+    date: '2020-03-19'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: South
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:805'
+    dataset_id: '805'
+    state_id: '20'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
+    date: '2020-03-19'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: Central
     acquired_country: null

@@ -151,3 +151,27 @@ cases:
     health_region: null
     acquired_country: CA
     acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:798'
+    dataset_id: '798'
+    state_id: '13'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200319003'
+    date: '2020-03-19'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:799'
+    dataset_id: '799'
+    state_id: '14'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200319003'
+    date: '2020-03-19'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
