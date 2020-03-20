@@ -29,7 +29,55 @@ const _ = require("iotdb-helpers")
 const generate_datasheet = _.promise(self => {
     _.promise.validate(self, generate_datasheet)
 
-    console.log("A")
+    const sheet = {
+        name: self.definition.name,
+        rows: [],
+    }
+
+    const header = []
+    sheet.rows.push(header)
+
+    header.push("Value")
+
+    const datasets = _.keys(self.datasets)
+    datasets.sort()
+    datasets.forEach(key => {
+        const dataset = self.datasets[key]
+
+        // header
+        header.push([
+            // dataset.locality,
+            dataset.state,
+            // dataset.country,
+        ].filter(p => p).join(", "))
+
+        // values
+        self.definition.values
+            .filter(vd => vd.key && vd.name)
+            .forEach(vd => {
+                const row = []
+                row.push(vd.name)
+
+                let value = dataset[vd.key]
+                if (_.is.Nullish(value)) {
+                    row.push(value)
+                } else if (_.is.Number(value)) {
+                    if (vd.multiply) {
+                        value = value * vd.multiply
+                    }
+
+                    row.push(value)
+                } else if (_.is.String(value)) {
+                    row.push(value)
+                } else {
+                    row.push("???")
+                }
+
+                sheet.rows.push(row)
+            })
+    })
+
+    self.sheets.push(sheet)
 })
 
 generate_datasheet.method = "generate_datasheet"
@@ -38,6 +86,10 @@ generate_datasheet.requires = {
     datasets: _.is.Dictionary,
     definition: _.is.Dictionary,
     sheets: _.is.Array,
+    definition: {
+        name: _.is.String,
+        values: _.is.Array.of.Dictionary,
+    },
 }
 generate_datasheet.accepts = {
 }

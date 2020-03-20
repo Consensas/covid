@@ -29,15 +29,25 @@ const _ = require("iotdb-helpers")
 const generate_timeseries = _.promise(self => {
     _.promise.validate(self, generate_timeseries)
 
-    console.log("B")
+    const sheet = {
+        name: self.definition.name,
+        header: [],
+        rows: [],
+    }
+
+    self.sheets.push(sheet)
 })
 
 generate_timeseries.method = "generate_timeseries"
 generate_timeseries.description = ``
 generate_timeseries.requires = {
     datasets: _.is.Dictionary,
-    definition: _.is.Dictionary,
     sheets: _.is.Array,
+    definition: {
+        name: _.is.String,
+        timeseries: _.is.String,
+        value: _.is.String,
+    },
 }
 generate_timeseries.accepts = {
 }

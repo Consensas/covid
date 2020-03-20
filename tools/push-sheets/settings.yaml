@@ -32,6 +32,8 @@ sheets:
   - key: icu_hospitals_ecmo
     name: ICU ECMO
   - key: spending_pp
-    name: Spending PP
+    name: Spending (PP)
   - key: doctors_pp
-    name: Doctors PP
+    name: Doctors (PTP)
+    multiply: 1000
+

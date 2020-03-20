@@ -93,11 +93,11 @@ _.promise({
     })
 
         
-    /*
     .make(sd => {
-        console.log(sd.datasets)
+        console.log(JSON.stringify(sd.sheets, null, 2))
     })
 
+    /*
     .then(google.sheets.list_values.p({
         spreadsheetId: "12MS8REzfOPCtaw4z9CPJq36AjJis8VOJIil3LP5nXiQ",
         range: "Data",
