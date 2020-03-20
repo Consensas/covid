@@ -76,11 +76,14 @@ const _pull = _.promise((self, done) => {
                 }
             })
 
+            // the old way
             $("table.compacttable").each((x, e) => {
                 const table = _table($(e))
                 if (table.length < 2) {
                     return
                 }
+
+                console.log(table)
 
                 table.forEach(row => {
                     const match = row[0].match(/as of ([A-Za-z]* \d+, \d+)/)
@@ -155,6 +158,7 @@ if (ad._.length) {
 } else {
     _.promise()
         .then(fetch.document.get("https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus"))
+        .then(fetch.document.get("https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan"))
         .then(_pull)
         .except(_.error.log)
 }
