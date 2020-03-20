@@ -1,5 +1,5 @@
 /*
- *  tools/push-sheets/index.js
+ *  tools/push-sheets/generate_timeseries.js
  *
  *  David Janes
  *  Consensas
@@ -22,11 +22,30 @@
 
 "use strict"
 
-module.exports = Object.assign(
-    {},
-    require("./load_datasets"),
-    require("./generate_timeseries"),
-    require("./generate_datasheet"),
-    {}
-);
+const _ = require("iotdb-helpers")
 
+/**
+ */
+const generate_timeseries = _.promise(self => {
+    _.promise.validate(self, generate_timeseries)
+
+    console.log("B")
+})
+
+generate_timeseries.method = "generate_timeseries"
+generate_timeseries.description = ``
+generate_timeseries.requires = {
+    datasets: _.is.Dictionary,
+    definition: _.is.Dictionary,
+    sheets: _.is.Array,
+}
+generate_timeseries.accepts = {
+}
+generate_timeseries.produces = {
+    sheets: _.is.Array,
+}
+
+/**
+ *  API
+ */
+exports.generate_timeseries = generate_timeseries

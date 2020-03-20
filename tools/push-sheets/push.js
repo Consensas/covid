@@ -79,11 +79,25 @@ _.promise({
     */
 
     .then(push.load_datasets)
+
+    .add("sheets", [])
+    .each({
+        method: push.generate_timeseries,
+        inputs: "settings/sheets:definition",
+        input_filter: definition => definition.type === "timeseries",
+    })
+    .each({
+        method: push.generate_datasheet,
+        inputs: "settings/sheets:definition",
+        input_filter: definition => definition.type === "datasheet",
+    })
+
+        
+    /*
     .make(sd => {
         console.log(sd.datasets)
     })
 
-    /*
     .then(google.sheets.list_values.p({
         spreadsheetId: "12MS8REzfOPCtaw4z9CPJq36AjJis8VOJIil3LP5nXiQ",
         range: "Data",

@@ -1,5 +1,5 @@
 /*
- *  tools/push-sheets/index.js
+ *  tools/push-sheets/generate_datasheet.js
  *
  *  David Janes
  *  Consensas
@@ -22,11 +22,30 @@
 
 "use strict"
 
-module.exports = Object.assign(
-    {},
-    require("./load_datasets"),
-    require("./generate_timeseries"),
-    require("./generate_datasheet"),
-    {}
-);
+const _ = require("iotdb-helpers")
 
+/**
+ */
+const generate_datasheet = _.promise(self => {
+    _.promise.validate(self, generate_datasheet)
+
+    console.log("A")
+})
+
+generate_datasheet.method = "generate_datasheet"
+generate_datasheet.description = ``
+generate_datasheet.requires = {
+    datasets: _.is.Dictionary,
+    definition: _.is.Dictionary,
+    sheets: _.is.Array,
+}
+generate_datasheet.accepts = {
+}
+generate_datasheet.produces = {
+    sheets: _.is.Array,
+}
+
+/**
+ *  API
+ */
+exports.generate_datasheet = generate_datasheet
