@@ -73,6 +73,7 @@ const publish = _.promise((self, done) => {
             sd.path = `/${sd.settings.google.sheet}/${sd.sheet.name}`
             sd.jsons = sd.sheet.rows
         })
+        .log("publish", "title")
         .then(google.sheets.parse)
         .then(google.sheets.sheets)
         .then(google.sheets.sheets.select)

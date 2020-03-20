@@ -133,3 +133,37 @@ sheets:
   - key: poli_covid_url
     name: COVID URL
 
+
+- name: Events
+  type: datasheet
+  values:
+  - key: event_close_bars
+    name: Bars Closed
+  - key: event_close_restaurants
+    name: Restaurants Closed
+  - key: event_close_school_public
+    name: Schools (Public) Closed
+  - key: event_close_school_private
+    name: Schools (Private) Closed
+  - key: event_close_postsecondary
+    name: Postsecondary Closed
+  - key: event_close_daycare
+    name: Daycares Closed
+  - key: event_close_faith
+    name: Churchs etc Closed
+  - key: event_close_libraries
+    name: Libraries Closed
+  - key: event_ban_groups_1000
+    name: Groups over 100 Banned
+  - key: event_ban_groups_500
+    name: Groups over 500 Banned
+  - key: event_ban_groups_250
+    name: Groups over 250 Banned
+  - key: event_ban_groups_150
+    name: Groups over 150 Banned
+  - key: event_ban_groups_100
+    name: Groups over 100 Banned
+  - key: event_ban_groups_50
+    name: Groups over 50 Banned
+  - key: event_emergency
+    name: State of Emergency Declared
