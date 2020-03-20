@@ -80,6 +80,7 @@ const generate_timeseries = _.promise(self => {
 
     // each row is a date
     const cursor = new Date(min_date)
+    const lastd = {}
     while (true) {
         const date = cursor.toISOString().substring(0, 10)
         if (date > max_date) {
@@ -91,18 +92,26 @@ const generate_timeseries = _.promise(self => {
         sheet.rows.push(row)
 
         // add values
-        datasets.forEach(key => {
+        datasets.forEach((key, dx) => {
             const dataset = self.datasets[key]
+
 
             const tds = _.d.list(dataset, self.definition.timeseries, [])
             const td = tds.find(td => _.d.first(td, self.definition.date) === date) 
-            const value = _.d.first(td, self.definition.value)
+            let value = _.d.first(td, self.definition.value)
+
+            if (_.is.Nullish(value)) {
+                value = lastd[dataset.key]
+            }
+
             if (_.is.Nullish(value)) {
                 row.push("")
             } else if (_.is.Number(value)) {
                 row.push(value)
+                lastd[dataset.key] = value
             } else if (_.is.String(value)) {
                 row.push(value)
+                lastd[dataset.key] = value
             } else {
                 row.push("???")
             }

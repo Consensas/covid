@@ -32,6 +32,24 @@ sheets:
   date: date
   value: deaths
 
+- name: Tests
+  type: timeseries
+  timeseries: items
+  date: date
+  value: tests
+
+- name: Test Negatives
+  type: timeseries
+  timeseries: items
+  date: date
+  value: tests_negative
+
+- name: Test Positive
+  type: timeseries
+  timeseries: items
+  date: date
+  value: tests_positive
+
 - name: Medical
   type: datasheet
   values:
@@ -52,4 +70,66 @@ sheets:
   - key: doctors_pp
     name: Doctors (PTP)
     multiply: 1000
+
+- name: Population
+  type: datasheet
+  values:
+  - key: population
+    name: Population
+  - key: age_median
+    name: Median Age
+  - key: age_0_4
+    name: Aged 0-4
+  - key: age_5_9
+    name: Aged 5-9
+  - key: age_10_14
+    name: Aged 10-14
+  - key: age_15_19
+    name: Aged 15-19
+  - key: age_20_24
+    name: Aged 20-24
+  - key: age_25_29
+    name: Aged 25-29
+  - key: age_30_34
+    name: Aged 30-34
+  - key: age_35_39
+    name: Aged 35-39
+  - key: age_40_44
+    name: Aged 40-44
+  - key: age_45_49
+    name: Aged 45-49
+  - key: age_50_54
+    name: Aged 50-54
+  - key: age_55_59
+    name: Aged 55-59
+  - key: age_60_64
+    name: Aged 60-64
+  - key: age_65_69
+    name: Aged 65-69
+  - key: age_70_74
+    name: Aged 70-74
+  - key: age_75_79
+    name: Aged 75-79
+  - key: age_80_84
+    name: Aged 80-84
+  - key: age_85_89
+    name: Aged 85-89
+  - key: age_90_94
+    name: Aged 90-94
+  - key: age_95_99
+    name: Aged 95-99
+  - key: age_100_up
+    name: Aged 100-up
+
+- name: Politcal
+  type: datasheet
+  values:
+  - key: poli_leader
+    name: Premier
+  - key: poli_leader_health
+    name: Minister Health
+  - key: poli_officer_cmo
+    name: Chief Medical Officer
+  - key: poli_covid_url
+    name: COVID URL
 

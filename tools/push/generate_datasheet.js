@@ -41,23 +41,29 @@ const generate_datasheet = _.promise(self => {
 
     const datasets = _.keys(self.datasets)
     datasets.sort()
-    datasets.forEach(key => {
-        const dataset = self.datasets[key]
 
-        // header
-        header.push([
-            // dataset.locality,
-            dataset.state,
-            // dataset.country,
-        ].filter(p => p).join(", "))
+    // values
+    self.definition.values
+        .filter(vd => vd.key && vd.name)
+        .forEach((vd, vx) => {
+            const row = []
+            sheet.rows.push(row)
+            row.push(vd.name)
 
-        // values
-        self.definition.values
-            .filter(vd => vd.key && vd.name)
-            .forEach(vd => {
-                const row = []
-                row.push(vd.name)
+            // datasets
+            datasets.forEach(key => {
+                const dataset = self.datasets[key]
 
+                // header
+                if (vx === 0) {
+                    header.push([
+                        // dataset.locality,
+                        dataset.state,
+                        // dataset.country,
+                    ].filter(p => p).join(", "))
+                }
+
+                // value
                 let value = dataset[vd.key]
                 if (_.is.Nullish(value)) {
                     row.push("")
@@ -72,10 +78,9 @@ const generate_datasheet = _.promise(self => {
                 } else {
                     row.push("???")
                 }
-
-                sheet.rows.push(row)
             })
-    })
+
+        })
 
     self.sheets.push(sheet)
 })
