@@ -60,7 +60,7 @@ const generate_datasheet = _.promise(self => {
 
                 let value = dataset[vd.key]
                 if (_.is.Nullish(value)) {
-                    row.push(value)
+                    row.push("")
                 } else if (_.is.Number(value)) {
                     if (vd.multiply) {
                         value = value * vd.multiply

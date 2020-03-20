@@ -11,11 +11,13 @@ datasets:
 - ca-sk.yaml
 
 sheets:
-- name: Deaths
+- name: Confirmed
   type: timeseries
   timeseries: items
-  value: death
+  date: date
+  value: confirmed
 
+xxx:
 - name: Medical
   type: datasheet
   values:
