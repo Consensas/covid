@@ -40,11 +40,20 @@ _.promise()
     })
     .make(sd => {
         sd.json = {
+            id: "urn:covid:consensas:ca-pe:cmo",
             country: "CA",
             state: "PE",
             key: "ca-pe",
             items: sd.jsons.filter(json => json.date)
         }
+
+        sd.json.items.forEach(item => {
+            item.id = "urn:covid:consensas:ca-pe:cmo:" + item.date
+            item.tests = 
+                (item.tests_positive || 0) +
+                (item.tests_negative || 0) +
+                (item.tests_pending || 0)
+        })
 
         sd.json = [ sd.json ]
     })

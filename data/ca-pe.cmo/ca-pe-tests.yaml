@@ -1,4 +1,5 @@
-- country: CA
+- id: 'urn:covid:consensas:ca-pe:cmo'
+  country: CA
   state: PE
   key: ca-pe
   items:
@@ -6,15 +7,23 @@
       tests_positive: 1
       tests_negative: 40
       tests_pending: 106
+      id: 'urn:covid:consensas:ca-pe:cmo:2020-03-16'
+      tests: 147
     - date: '2020-03-17'
       tests_positive: 1
       tests_negative: 40
       tests_pending: 142
+      id: 'urn:covid:consensas:ca-pe:cmo:2020-03-17'
+      tests: 183
     - date: '2020-03-19'
       tests_positive: 2
       tests_negative: 122
       tests_pending: 89
+      id: 'urn:covid:consensas:ca-pe:cmo:2020-03-19'
+      tests: 213
     - date: '2020-03-20'
       tests_positive: 2
       tests_negative: 167
       tests_pending: 71
+      id: 'urn:covid:consensas:ca-pe:cmo:2020-03-20'
+      tests: 240
