@@ -24,6 +24,7 @@
 
 module.exports = Object.assign(
     {},
+    require("./google"),
     require("./load_datasets"),
     require("./generate_timeseries"),
     require("./generate_datasheet"),

@@ -33,6 +33,7 @@ const push = require(".")
 
 const ad = minimist(process.argv.slice(2), {
     boolean: [
+        "google",
     ],
     string: [
     ],
@@ -40,43 +41,13 @@ const ad = minimist(process.argv.slice(2), {
     },
 })
 
-/*
-let credentials
-let token
-
-try {
-    credentials = require("../../.cfg/credentials.json")
-    token = require("../../.cfg/token.json")
-} catch (x) {
-    console.log("#", "use bin/google-token to get tokens first")
-}
-*/
-
-
-/*
-if (!ad._.length) {
-    console.log("usage: push.js <sheetid>")
-    process.exit()
-}
-*/
-
+/**
+ */
 _.promise({
-    /*
-    googled: {
-        credentials: credentials,
-        token: token,
-    },
-    */
 })
     // load settings
     .then(fs.read.yaml.p(path.join(__dirname, "settings.yaml")))
     .add("json:settings")
-
-    /*
-    .then(google.initialize)
-    .then(google.auth.token)
-    .then(google.sheets.initialize)
-    */
 
     .then(push.load_datasets)
 
@@ -92,23 +63,14 @@ _.promise({
         input_filter: definition => definition.type === "datasheet",
     })
 
-        
-    .make(sd => {
-        console.log(JSON.stringify(sd.sheets, null, 2))
+    // google
+    .conditional(!ad.google, _.promise.bail)
+    .then(push.google.initialize)
+    .each({
+        method: push.google.publish,
+        inputs: "sheets:sheet",
     })
+    .except(_.promise.unbail)
 
-    /*
-    .then(google.sheets.list_values.p({
-        spreadsheetId: "12MS8REzfOPCtaw4z9CPJq36AjJis8VOJIil3LP5nXiQ",
-        range: "Data",
-    }))
-    .then(google.sheets.headers.first)
-
-    .add("jsons:json")
-    .add("path", path.join(__dirname, "raw", "data.yaml"))
-    .then(fs.make.directory.parent)
-    .then(fs.write.yaml)
-    .log("wrote", "path")
-    */
     .catch(_.error.log)
 
