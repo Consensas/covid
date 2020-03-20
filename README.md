@@ -115,6 +115,7 @@ These provinces are in the data set:
 * NS
 * PE (starts 2020-03-17)
 * NB
+* QC
 
 - `tests`: the number of tests performed / underway
 - `tests_negative`
