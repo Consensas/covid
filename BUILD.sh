@@ -11,6 +11,7 @@
 #
 
 ROOT=$(dirname $0)
+OUT=build.log
 
 git pull || exit 1
 (
@@ -22,9 +23,12 @@ do
         bash $FILE
     done
 done
-) | tee build-errors.txt
+) | tee "$OUT"
 
 git push
 
+echo ""
+echo ""
 echo "finished: the following (if any) errors occurred"
-grep "#" build-errors.txt
+grep "#" "$OUT"
+echo
