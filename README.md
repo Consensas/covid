@@ -1,10 +1,5 @@
-# covid
 
  ![Consensas_Logo](https://consensas-aws.s3.amazonaws.com/email-201910/Consensas-Black.png) 
-
-=======
-# Data Visualizations 
-(Google Sheets + Charts + Consensas Data) are now available [here](https://docs.google.com/spreadsheets/d/1BxT6W3RgnkJvJRyJhFQ-43SfUEKg-p5iYBgQCGa-jOY/edit) 
 
 # covid
 COVID-2019 data / code
@@ -12,8 +7,8 @@ COVID-2019 data / code
 The primary purpose of this project is to provide useful data about cases, deaths and recovery of COVID19 in Canada 
 and merge that with information such as population, ICU capacity and so forth.
 
-Visualizations and Google Sheets version 
-[here](https://docs.google.com/spreadsheets/d/1BxT6W3RgnkJvJRyJhFQ-43SfUEKg-p5iYBgQCGa-jOY/edit?usp=sharing)
+# Data Visualizations 
+(Google Sheets + Charts + Consensas Data) are now available [here](https://docs.google.com/spreadsheets/d/1BxT6W3RgnkJvJRyJhFQ-43SfUEKg-p5iYBgQCGa-jOY/edit) 
 
 ## Notes
 
