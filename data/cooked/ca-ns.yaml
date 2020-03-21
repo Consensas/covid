@@ -209,6 +209,7 @@ items:
     tests_negative: 57
     tests_positive: 0
     tests: 57
+    '@id': 'urn:covid:consensas:ca-ns:2020-03-12'
   - date: '2020-03-13'
     deaths: 0
     confirmed: 0
@@ -232,6 +233,7 @@ items:
     tests_positive: 1
     tests_negative: 934
     tests: 935
+    '@id': 'urn:covid:consensas:ca-ns:2020-03-17'
   - date: '2020-03-18'
     deaths: 0
     confirmed: 12
@@ -239,6 +241,7 @@ items:
     tests_positive: 3
     tests_negative: 1141
     tests: 1144
+    '@id': 'urn:covid:consensas:ca-ns:2020-03-18'
   - date: '2020-03-19'
     deaths: 0
     confirmed: 14
@@ -246,6 +249,7 @@ items:
     tests_positive: 5
     tests_negative: 1373
     tests: 1378
+    '@id': 'urn:covid:consensas:ca-ns:2020-03-19'
   - date: '2020-03-20'
     deaths: 0
     confirmed: 15
@@ -253,10 +257,12 @@ items:
     tests_positive: 5
     tests_negative: 1546
     tests: 1551
+    '@id': 'urn:covid:consensas:ca-ns:2020-03-20'
   - date: '2020-03-21'
     tests_positive: 9
     tests_negative: 1826
     tests: 1835
+    '@id': 'urn:covid:consensas:ca-ns:2020-03-21'
 icu_hospitals: 14
 icu_beds: 141
 icu_ventalators: 191
@@ -309,3 +315,5 @@ event_close_postsecondary: '2020-03-23'
 event_close_daycare: '2020-03-23'
 event_ban_groups_150: '2020-03-15'
 event_ban_groups_50: '2020-03-17'
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-ns:cmo'

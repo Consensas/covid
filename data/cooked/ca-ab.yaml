@@ -101,6 +101,7 @@ items:
     tests_negative: 76
     tests_positive: 0
     tests: 76
+    '@id': 'urn:covid:consensas:ca-ab:2020-02-14'
   - date: '2020-02-15'
     deaths: 0
     confirmed: 0
@@ -140,6 +141,7 @@ items:
     tests_negative: 117
     tests_positive: 0
     tests: 117
+    '@id': 'urn:covid:consensas:ca-ab:2020-02-23'
   - date: '2020-02-24'
     deaths: 0
     confirmed: 0
@@ -155,6 +157,7 @@ items:
     tests_negative: 117
     tests_positive: 0
     tests: 117
+    '@id': 'urn:covid:consensas:ca-ab:2020-02-26'
   - date: '2020-02-27'
     deaths: 0
     confirmed: 0
@@ -162,6 +165,7 @@ items:
     tests_negative: 117
     tests_positive: 0
     tests: 117
+    '@id': 'urn:covid:consensas:ca-ab:2020-02-27'
   - date: '2020-02-28'
     deaths: 0
     confirmed: 0
@@ -189,6 +193,7 @@ items:
     tests_negative: 173
     tests_positive: 0
     tests: 173
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-04'
   - date: '2020-03-05'
     deaths: 0
     confirmed: 0
@@ -208,6 +213,7 @@ items:
     tests_negative: 375
     tests_positive: 4
     tests: 379
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-08'
   - date: '2020-03-09'
     deaths: 0
     confirmed: 7
@@ -215,6 +221,7 @@ items:
     tests_negative: 1452
     tests_positive: 7
     tests: 1459
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-09'
   - date: '2020-03-10'
     deaths: 0
     confirmed: 7
@@ -222,6 +229,7 @@ items:
     tests_negative: 1452
     tests_positive: 7
     tests: 1459
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-10'
   - date: '2020-03-11'
     deaths: 0
     confirmed: 19
@@ -229,6 +237,7 @@ items:
     tests_negative: 2600
     tests_positive: 19
     tests: 2619
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-11'
   - date: '2020-03-12'
     deaths: 0
     confirmed: 19
@@ -236,6 +245,7 @@ items:
     tests_negative: 4265
     tests_positive: 23
     tests: 4288
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-12'
   - date: '2020-03-13'
     deaths: 0
     confirmed: 29
@@ -243,6 +253,7 @@ items:
     tests_negative: 5429
     tests_positive: 29
     tests: 5458
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-13'
   - date: '2020-03-14'
     deaths: 0
     confirmed: 29
@@ -250,6 +261,7 @@ items:
     tests_negative: 7069
     tests_positive: 39
     tests: 7108
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-14'
   - date: '2020-03-15'
     deaths: 0
     confirmed: 39
@@ -261,6 +273,7 @@ items:
     tests_negative: 10524
     tests_positive: 74
     tests: 10598
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-16'
   - date: '2020-03-17'
     deaths: 0
     confirmed: 74
@@ -268,6 +281,7 @@ items:
     tests_negative: 14447
     tests_positive: 119
     tests: 14566
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-17'
   - date: '2020-03-18'
     deaths: 0
     confirmed: 97
@@ -275,6 +289,7 @@ items:
     tests_negative: 14447
     tests_positive: 119
     tests: 14566
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-18'
   - date: '2020-03-19'
     deaths: 0
     confirmed: 119
@@ -282,6 +297,7 @@ items:
     tests_negative: 16867
     tests_positive: 146
     tests: 17013
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-19'
   - date: '2020-03-20'
     deaths: 1
     confirmed: 146
@@ -289,7 +305,9 @@ items:
     tests_negative: 20165
     tests_positive: 195
     tests: 20360
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-20'
   - date: '2020-03-21'
+    '@id': 'urn:covid:consensas:ca-ab:2020-03-21'
 icu_hospitals: 16
 icu_beds: 292
 icu_ventalators: 373
@@ -345,3 +363,5 @@ event_close_libraries: '2020-03-17'
 event_ban_groups_250: '2020-03-15'
 event_ban_groups_50: '2020-03-17'
 event_emergency: '2020-03-17'
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-ab:cmo'

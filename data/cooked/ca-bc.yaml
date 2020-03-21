@@ -67,6 +67,7 @@ items:
     confirmed: 2
     recovered: 0
     tests: 264
+    '@id': 'urn:covid:consensas:ca-bc:2020-02-06'
   - date: '2020-02-07'
     deaths: 0
     confirmed: 4
@@ -96,11 +97,13 @@ items:
     confirmed: 4
     recovered: 0
     tests: 524
+    '@id': 'urn:covid:consensas:ca-bc:2020-02-13'
   - date: '2020-02-14'
     deaths: 0
     confirmed: 4
     recovered: 0
     tests: 524
+    '@id': 'urn:covid:consensas:ca-bc:2020-02-14'
   - date: '2020-02-15'
     deaths: 0
     confirmed: 4
@@ -130,6 +133,7 @@ items:
     confirmed: 6
     recovered: 0
     tests: 677
+    '@id': 'urn:covid:consensas:ca-bc:2020-02-21'
   - date: '2020-02-22'
     deaths: 0
     confirmed: 6
@@ -155,6 +159,7 @@ items:
     confirmed: 7
     recovered: 3
     tests: 1012
+    '@id': 'urn:covid:consensas:ca-bc:2020-02-27'
   - date: '2020-02-28'
     deaths: 0
     confirmed: 7
@@ -188,6 +193,7 @@ items:
     confirmed: 21
     recovered: 3
     tests: 2008
+    '@id': 'urn:covid:consensas:ca-bc:2020-03-06'
   - date: '2020-03-07'
     deaths: 0
     confirmed: 21
@@ -217,6 +223,7 @@ items:
     confirmed: 64
     recovered: 4
     tests: 6326
+    '@id': 'urn:covid:consensas:ca-bc:2020-03-13'
   - date: '2020-03-14'
     deaths: 1
     confirmed: 64
@@ -296,3 +303,5 @@ event_close_school_public: '2020-03-17'
 event_ban_groups_250: '2020-03-12'
 event_ban_groups_50: '2020-03-16'
 event_emergency: '2020-03-18'
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-bc:cmo'

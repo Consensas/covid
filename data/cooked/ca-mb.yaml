@@ -219,11 +219,13 @@ items:
     confirmed: 4
     recovered: 0
     tests: 1871
+    '@id': 'urn:covid:consensas:ca-mb:2020-03-15'
   - date: '2020-03-16'
     deaths: 0
     confirmed: 7
     recovered: 0
     tests: 2280
+    '@id': 'urn:covid:consensas:ca-mb:2020-03-16'
   - date: '2020-03-17'
     deaths: 0
     confirmed: 8
@@ -233,11 +235,13 @@ items:
     confirmed: 15
     recovered: 0
     tests: 3270
+    '@id': 'urn:covid:consensas:ca-mb:2020-03-18'
   - date: '2020-03-19'
     deaths: 0
     confirmed: 17
     recovered: 0
     tests: 3534
+    '@id': 'urn:covid:consensas:ca-mb:2020-03-19'
   - date: '2020-03-20'
     deaths: 0
     confirmed: 17
@@ -290,3 +294,5 @@ poli_covid_url: 'https://manitoba.ca/covid19/'
 event_close_school_public: '2020-03-23'
 event_close_daycare: '2020-03-20'
 event_ban_groups_250: '2020-03-15'
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-mb:cmo'
