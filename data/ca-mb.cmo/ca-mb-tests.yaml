@@ -1,12 +1,18 @@
-- country: CA
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:consensas:ca-mb:cmo'
+  country: CA
   state: MB
   key: ca-mb
   items:
     - tests: 1871
       date: '2020-03-15'
+      '@id': 'urn:covid:consensas:ca-mb:2020-03-15'
     - tests: 2280
       date: '2020-03-16'
+      '@id': 'urn:covid:consensas:ca-mb:2020-03-16'
     - tests: 3270
       date: '2020-03-18'
+      '@id': 'urn:covid:consensas:ca-mb:2020-03-18'
     - tests: 3534
       date: '2020-03-19'
+      '@id': 'urn:covid:consensas:ca-mb:2020-03-19'
