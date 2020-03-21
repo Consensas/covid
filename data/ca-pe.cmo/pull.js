@@ -41,6 +41,9 @@ const ad = minimist(process.argv.slice(2), {
     },
 })
 
+const COUNTRY = "ca"
+const PROVINCE = "pe"
+
 /**
  */
 const _pull = _.promise((self, done) => {
@@ -122,6 +125,7 @@ const _pull = _.promise((self, done) => {
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
             if (_.is.Empty(sd.json.date)) {
+                console.log("#", "no data for", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
 

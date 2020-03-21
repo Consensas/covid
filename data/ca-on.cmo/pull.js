@@ -39,6 +39,9 @@ const ad = minimist(process.argv.slice(2), {
     },
 })
 
+const COUNTRY = "ca"
+const PROVINCE = "on"
+
 /**
  */
 const _pull = _.promise((self, done) => {
@@ -119,52 +122,16 @@ const _pull = _.promise((self, done) => {
                 })
             })
 
-/*
-            $("table").each((x, e) => {
-                const table = _table($(e))
-                if (!table.length) {
-                    return
-                }
-
-                table.forEach(row => {
-                    if (row.length < 5) {
-                        return
-                    }
-
-                    const n = _integer(row[0])
-                    if (!n) {
-                        return
-                    }
-
-                    const d = _.object(
-                        [ "id", "patient", "phu", "hospital", "transmission", "status" ],
-                        row
-                    )
-                    d.id = n
-
-                    sd.cases.push(d)
-                })
-
-            })
-    */
+            if (_.is.Empty(sd.json.date)) {
+                console.log("#", "no data for", COUNTRY, PROVINCE)
+                _.promise.bail(sd)
+            }
 
             sd.path = path.join(__dirname, "raw", `${sd.result.date}.yaml`)
             sd.json = sd.result
         })
         .then(fs.make.directory.parent)
         .then(fs.write.yaml)
-        /* -- going to use a different data source
-        .each({
-            method: _.promise((sd, sdone) => {
-                _.promise(sd)
-                    .add("path", `raw-cases/${sd.json.id}.yaml`)
-                    .then(fs.make.directory.parent)
-                    .then(fs.write.yaml)
-                    .end(sdone, sd)
-            }),
-            inputs: "cases:json"
-        })
-        */
 
         .end(done, self, _pull)
 })

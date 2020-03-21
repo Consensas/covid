@@ -43,6 +43,9 @@ const ad = minimist(process.argv.slice(2), {
 
 const USER = "sante_qc"
 
+const COUNTRY = "ca"
+const PROVINCE = "qc"
+
 /**
  */
 const _pull = _.promise((self, done) => {

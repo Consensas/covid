@@ -40,6 +40,9 @@ const ad = minimist(process.argv.slice(2), {
     },
 })
 
+const COUNTRY = "ca"
+const PROVINCE = "mb"
+
 /**
  */
 const _pull = _.promise((self, done) => {
@@ -79,6 +82,7 @@ const _pull = _.promise((self, done) => {
             })
 
             if (!sd.json.date || !sd.json.tests) {
+                console.log("#", "no data for", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
 
