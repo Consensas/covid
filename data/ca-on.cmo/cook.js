@@ -42,7 +42,7 @@ _.promise()
     .make(sd => {
         sd.json = {
             "@context": "https://consensas.world/m/covid",
-            "@urn": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
+            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
             country: COUNTRY.toUpperCase(),
             state: PROVINCE.toUpperCase(),
             key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
@@ -82,7 +82,7 @@ _.promise()
             })
 
         sd.json.items.forEach(item => {
-            item["@urn"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
+            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
         })
 
         sd.json = [ sd.json ]
