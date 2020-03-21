@@ -82,4 +82,5 @@ _.promise()
         sd.json = [ sd.json ]
     })
     .then(fs.write.yaml.p(NAME, null))
+    .log("wrote")
     .except(_.error.log)
