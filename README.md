@@ -1,7 +1,8 @@
 
  ![Consensas_Logo](https://consensas-aws.s3.amazonaws.com/email-201910/Consensas-Black.png) 
 
-
+# Data Visualizations 
+(Google Sheets + Charts + Consensas Data) are now available [here](https://docs.google.com/spreadsheets/d/1BxT6W3RgnkJvJRyJhFQ-43SfUEKg-p5iYBgQCGa-jOY/edit) 
 
 
 # covid
