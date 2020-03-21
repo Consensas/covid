@@ -18,7 +18,7 @@ Think of it as an attempt to do a "Wolfram Language" type hyper-compatible set o
 
 [Consensas](https://www.consensas.com/) is our startup, credit to them / us for taking time away from that to work on this. **Our goal during the pandemic is to create a public, normalized, semantically well-defined dataset. Our concern is a lack of data, loss of data**
 
-Generally we name data as follow:
+Generally we name data as follows:
 
 * *bootstrap* data is usually data loaded eg from Wayback machine, to set up a dataset
 * *raw* data is usually YAML/JSON pulled or built from another source, but otherwise nothing else has been done to it
