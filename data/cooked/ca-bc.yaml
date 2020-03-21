@@ -66,8 +66,8 @@ items:
     deaths: 0
     confirmed: 2
     recovered: 0
-    tests: 264
     '@id': 'urn:covid:consensas:ca-bc:2020-02-06'
+    tests: 264
   - date: '2020-02-07'
     deaths: 0
     confirmed: 4
@@ -96,14 +96,14 @@ items:
     deaths: 0
     confirmed: 4
     recovered: 0
-    tests: 524
     '@id': 'urn:covid:consensas:ca-bc:2020-02-13'
+    tests: 524
   - date: '2020-02-14'
     deaths: 0
     confirmed: 4
     recovered: 0
-    tests: 524
     '@id': 'urn:covid:consensas:ca-bc:2020-02-14'
+    tests: 524
   - date: '2020-02-15'
     deaths: 0
     confirmed: 4
@@ -132,8 +132,8 @@ items:
     deaths: 0
     confirmed: 6
     recovered: 0
-    tests: 677
     '@id': 'urn:covid:consensas:ca-bc:2020-02-21'
+    tests: 677
   - date: '2020-02-22'
     deaths: 0
     confirmed: 6
@@ -158,8 +158,8 @@ items:
     deaths: 0
     confirmed: 7
     recovered: 3
-    tests: 1012
     '@id': 'urn:covid:consensas:ca-bc:2020-02-27'
+    tests: 1012
   - date: '2020-02-28'
     deaths: 0
     confirmed: 7
@@ -192,8 +192,8 @@ items:
     deaths: 0
     confirmed: 21
     recovered: 3
-    tests: 2008
     '@id': 'urn:covid:consensas:ca-bc:2020-03-06'
+    tests: 2008
   - date: '2020-03-07'
     deaths: 0
     confirmed: 21
@@ -222,8 +222,8 @@ items:
     deaths: 1
     confirmed: 64
     recovered: 4
-    tests: 6326
     '@id': 'urn:covid:consensas:ca-bc:2020-03-13'
+    tests: 6326
   - date: '2020-03-14'
     deaths: 1
     confirmed: 64
@@ -252,6 +252,10 @@ items:
     deaths: 8
     confirmed: 271
     recovered: 4
+    '@id': 'urn:covid:consensas:ca-bc:2020-03-20'
+    tests: 17912
+    tests_positive: 424
+    tests_negative: 17488
 icu_hospitals: 34
 icu_beds: 304
 icu_ventalators: 460
