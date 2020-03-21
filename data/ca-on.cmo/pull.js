@@ -122,16 +122,18 @@ const _pull = _.promise((self, done) => {
                 })
             })
 
+            sd.path = path.join(__dirname, "raw", `${sd.result.date}.yaml`)
+            sd.json = sd.result
+
             if (_.is.Empty(sd.json.date)) {
                 console.log("#", "no data for", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
 
-            sd.path = path.join(__dirname, "raw", `${sd.result.date}.yaml`)
-            sd.json = sd.result
         })
         .then(fs.make.directory.parent)
         .then(fs.write.yaml)
+        .log("wrote", "path")
 
         .end(done, self, _pull)
 })
