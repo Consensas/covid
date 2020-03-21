@@ -109,7 +109,7 @@ Keys:
 
 ### Testing
 
-This retrieved by scraping, and may be spotty.
+This is retrieved by scraping, and may be spotty.
 These provinces are in the data set:
 
 * ON
