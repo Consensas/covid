@@ -329,8 +329,11 @@ items:
     tests_ordered: 3997
     tests_negative: 6331
     tests: 6452
-  - id: 'urn:covid:consensas:ca-qc:cmo:2020-03-20'
-    date: '2020-03-20'
+  - date: '2020-03-20'
+    deaths: 1
+    confirmed: 139
+    recovered: 0
+    id: 'urn:covid:consensas:ca-qc:cmo:2020-03-20'
     tests_positive: 139
     tests_ordered: 2403
     tests_negative: 7666
