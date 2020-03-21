@@ -35,11 +35,11 @@ The files we have spent the most work on are `ca-??.yaml`.
 
 * If you would like to contribute data, do the usual fork
   and submit a change request.
-* If you know of a dataset I should add, open an issue.
-* If you think I should add something but can't find it, sorry busy.
+* If you know of a dataset we should add, open an issue.
+* If you think we should add something but can't find it, sorry busy.
 * The *primary* purpose of this project is Canada, but there's data
   for the rest of the world there too. If you do the coding legwork,
-  I'm happy to add it but I don't have the time otherwise.
+  We're happy to add it but we don't have the time otherwise.
 
 ## Data Sources
 
@@ -172,7 +172,7 @@ This dataset we created using lots of Google Searching
 ### Population
 
 This is as close to "from some Internet rando" as it gets.
-I hope to replace with StatsCan data soon.
+We hope to replace with StatsCan data soon.
 
 * https://github.com/Clavicus/Testing-Requests
 
