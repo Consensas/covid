@@ -13,7 +13,8 @@
 ROOT=$(dirname $0)
 
 git pull || exit 1
-for COUNT in 2 1 0
+(
+for COUNT in 3 2 1 0
 do
     for FILE in $(find "$ROOT" -name "BUILD_$COUNT.sh")
     do
@@ -21,4 +22,9 @@ do
         bash $FILE
     done
 done
+) | tee build-errors.txt
+
 git push
+
+echo "finished: the following (if any) errors occurred"
+grep "#" build-errors.txt
