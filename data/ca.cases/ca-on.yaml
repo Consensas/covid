@@ -3176,11 +3176,756 @@ cases:
     sources:
       - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
       - 'https://globalnews.ca/news/6701911/coronavirus-second-death-ontario/'
+      - >-
+        https://www.ctvnews.ca/health/coronavirus/stay-home-urges-widow-of-51-year-old-ontario-man-who-died-of-covid-19-1.4860802
     date: '2020-03-19'
-    week_reported: '2020-03-19'
+    week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
     sex: M
     health_region: Halton
     acquired_country: CA
     acquired_community: true
+  - id: 'urn:covid:ca.cases:874'
+    dataset_id: '874'
+    state_id: '259'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Hamilton
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:875'
+    dataset_id: '875'
+    state_id: '260'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: Peterborough
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:876'
+    dataset_id: '876'
+    state_id: '261'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 60-69
+    sex: F
+    health_region: Haliburton Kawartha Pineridge
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:877'
+    dataset_id: '877'
+    state_id: '262'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Haliburton Kawartha Pineridge
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:878'
+    dataset_id: '878'
+    state_id: '263'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 70-79
+    sex: F
+    health_region: Durham
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:879'
+    dataset_id: '879'
+    state_id: '264'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 80-89
+    sex: M
+    health_region: Hastings Prince Edward
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:880'
+    dataset_id: '880'
+    state_id: '265'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+      - >-
+        https://globalnews.ca/news/6704587/coronavirus-hillsdale-terraces-oshawa/
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 60-69
+    sex: M
+    health_region: Durham
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:881'
+    dataset_id: '881'
+    state_id: '266'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+      - >-
+        https://globalnews.ca/news/6704587/coronavirus-hillsdale-terraces-oshawa/
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 90-99
+    sex: F
+    health_region: Durham
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:882'
+    dataset_id: '882'
+    state_id: '267'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+      - >-
+        https://globalnews.ca/news/6704587/coronavirus-hillsdale-terraces-oshawa/
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 80-89
+    sex: F
+    health_region: Durham
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:883'
+    dataset_id: '883'
+    state_id: '268'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+      - >-
+        https://globalnews.ca/news/6704587/coronavirus-hillsdale-terraces-oshawa/
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 70-79
+    sex: M
+    health_region: Durham
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:884'
+    dataset_id: '884'
+    state_id: '269'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 80-89
+    sex: M
+    health_region: Ottawa
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:885'
+    dataset_id: '885'
+    state_id: '270'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Ottawa
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:886'
+    dataset_id: '886'
+    state_id: '271'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Ottawa
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:887'
+    dataset_id: '887'
+    state_id: '272'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 70-79
+    sex: F
+    health_region: Hamilton
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:888'
+    dataset_id: '888'
+    state_id: '273'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 70-79
+    sex: M
+    health_region: Waterloo
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:889'
+    dataset_id: '889'
+    state_id: '274'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 20-29
+    sex: F
+    health_region: Peel
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:890'
+    dataset_id: '890'
+    state_id: '275'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Toronto
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:891'
+    dataset_id: '891'
+    state_id: '276'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 40-49
+    sex: M
+    health_region: Peel
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:892'
+    dataset_id: '892'
+    state_id: '277'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 20-29
+    sex: F
+    health_region: Waterloo
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:893'
+    dataset_id: '893'
+    state_id: '278'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Waterloo
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:894'
+    dataset_id: '894'
+    state_id: '279'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 20-29
+    sex: M
+    health_region: Waterloo
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:895'
+    dataset_id: '895'
+    state_id: '280'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Toronto
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:896'
+    dataset_id: '896'
+    state_id: '281'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Durham
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:897'
+    dataset_id: '897'
+    state_id: '282'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 30-39
+    sex: M
+    health_region: York
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:898'
+    dataset_id: '898'
+    state_id: '283'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:899'
+    dataset_id: '899'
+    state_id: '284'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:900'
+    dataset_id: '900'
+    state_id: '285'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:901'
+    dataset_id: '901'
+    state_id: '286'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:902'
+    dataset_id: '902'
+    state_id: '287'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:903'
+    dataset_id: '903'
+    state_id: '288'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:904'
+    dataset_id: '904'
+    state_id: '289'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:905'
+    dataset_id: '905'
+    state_id: '290'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:906'
+    dataset_id: '906'
+    state_id: '291'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:907'
+    dataset_id: '907'
+    state_id: '292'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:908'
+    dataset_id: '908'
+    state_id: '293'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:909'
+    dataset_id: '909'
+    state_id: '294'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:910'
+    dataset_id: '910'
+    state_id: '295'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:911'
+    dataset_id: '911'
+    state_id: '296'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:912'
+    dataset_id: '912'
+    state_id: '297'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:913'
+    dataset_id: '913'
+    state_id: '298'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:914'
+    dataset_id: '914'
+    state_id: '299'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:915'
+    dataset_id: '915'
+    state_id: '300'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:916'
+    dataset_id: '916'
+    state_id: '301'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:917'
+    dataset_id: '917'
+    state_id: '302'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:918'
+    dataset_id: '918'
+    state_id: '303'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:919'
+    dataset_id: '919'
+    state_id: '304'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:920'
+    dataset_id: '920'
+    state_id: '305'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:921'
+    dataset_id: '921'
+    state_id: '306'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:922'
+    dataset_id: '922'
+    state_id: '307'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:923'
+    dataset_id: '923'
+    state_id: '308'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:952'
+    dataset_id: '952'
+    state_id: '309'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: Middlesex-London
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:953'
+    dataset_id: '953'
+    state_id: '310'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: Middlesex-London
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:954'
+    dataset_id: '954'
+    state_id: '311'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: Middlesex-London
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:955'
+    dataset_id: '955'
+    state_id: '312'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: Middlesex-London
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:956'
+    dataset_id: '956'
+    state_id: '313'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: Middlesex-London
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:957'
+    dataset_id: '957'
+    state_id: '314'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: Middlesex-London
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:958'
+    dataset_id: '958'
+    state_id: '315'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+      - >-
+        https://globalnews.ca/news/6709951/new-covid-19-cases-confirmed-long-term-care-unit/
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 80-89
+    sex: M
+    health_region: Haliburton Kawartha Pineridge
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:959'
+    dataset_id: '959'
+    state_id: '316'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+      - >-
+        https://globalnews.ca/news/6709951/new-covid-19-cases-confirmed-long-term-care-unit/
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 90-99
+    sex: F
+    health_region: Haliburton Kawartha Pineridge
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:960'
+    dataset_id: '960'
+    state_id: '317'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+      - >-
+        https://globalnews.ca/news/6709951/new-covid-19-cases-confirmed-long-term-care-unit/
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: null
+    age_range: 60-69
+    sex: M
+    health_region: Haliburton Kawartha Pineridge
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:961'
+    dataset_id: '961'
+    state_id: '318'
+    sources:
+      - 'https://www.ontario.ca/page/2019-novel-coronavirus#section-0'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: M
+    health_region: Porcupine
+    acquired_country: null

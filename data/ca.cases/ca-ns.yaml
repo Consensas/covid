@@ -175,3 +175,17 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
+  - id: 'urn:covid:ca.cases:942'
+    dataset_id: '942'
+    state_id: '15'
+    sources:
+      - 'https://novascotia.ca/news/release/?id=20200320001'
+      - 'https://globalnews.ca/news/6707726/coronavirus-update-march-20/'
+      - 'https://www.youtube.com/watch?v=veJm1ts_FN4'
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null

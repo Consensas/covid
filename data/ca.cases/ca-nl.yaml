@@ -47,3 +47,16 @@ cases:
     health_region: Labrador-Grenfell
     acquired_country: CA
     acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:943'
+    dataset_id: '943'
+    state_id: '4'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-20-nl-1.5504154
+    date: '2020-03-20'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: M
+    health_region: Eastern
+    acquired_country: null
