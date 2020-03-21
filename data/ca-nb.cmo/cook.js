@@ -28,7 +28,9 @@ const fs = require("iotdb-fs")
 
 const path = require("path")
 
-const NAME = "ca-nb-tests.yaml"
+const COUNTRY = "ca"
+const PROVINCE = "nb"
+const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
 
 _.promise()
     .then(fs.list.p(path.join(__dirname, "raw")))
@@ -41,9 +43,9 @@ _.promise()
     .make(sd => {
         sd.json = {
             id: "urn:covid:consensas:ca-nb:cmo",
-            country: "CA",
-            state: "NB",
-            key: "ca-nb",
+            country: COUNTRY.toUpperCase(),
+            state: PROVINCE.toUpperCase(),
+            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
             items: sd.jsons.filter(json => json.date)
         }
 

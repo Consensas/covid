@@ -30,7 +30,9 @@ const fr_locale = require('date-fns/locale/fr')
 
 const path = require("path")
 
-const NAME = "ca-qc-tests.yaml"
+const COUNTRY = "ca"
+const PROVINCE = "qc"
+const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
 
 _.promise()
     .add({
@@ -48,9 +50,9 @@ _.promise()
     .make(sd => {
         sd.json = {
             id: "urn:covid:consensas:ca-qc:cmo",
-            country: "CA",
-            state: "QC",
-            key: "ca-qc",
+            country: COUNTRY.toUpperCase(),
+            state: PROVINCE.toUpperCase(),
+            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
             items: [],
         }
 
