@@ -4,24 +4,29 @@
   state: BC
   key: ca-bc
   items:
-    - date: '2020-02-06'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-02-06'
+      date: '2020-02-06'
       tests: 264
-      '@id': 'urn:covid:consensas:ca-bc:2020-02-06'
-    - date: '2020-02-13'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-02-13'
+      date: '2020-02-13'
       tests: 524
-      '@id': 'urn:covid:consensas:ca-bc:2020-02-13'
-    - date: '2020-02-14'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-02-14'
+      date: '2020-02-14'
       tests: 524
-      '@id': 'urn:covid:consensas:ca-bc:2020-02-14'
-    - date: '2020-02-21'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-02-21'
+      date: '2020-02-21'
       tests: 677
-      '@id': 'urn:covid:consensas:ca-bc:2020-02-21'
-    - date: '2020-02-27'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-02-27'
+      date: '2020-02-27'
       tests: 1012
-      '@id': 'urn:covid:consensas:ca-bc:2020-02-27'
-    - date: '2020-03-06'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-03-06'
+      date: '2020-03-06'
       tests: 2008
-      '@id': 'urn:covid:consensas:ca-bc:2020-03-06'
-    - date: '2020-03-13'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-03-13'
+      date: '2020-03-13'
       tests: 6326
-      '@id': 'urn:covid:consensas:ca-bc:2020-03-13'
+    - '@id': 'urn:covid:consensas:ca-bc:2020-03-20'
+      date: '2020-03-20'
+      tests: 17912
+      tests_positive: 424
+      tests_negative: 17488

@@ -50,11 +50,37 @@ const _pull = _.promise((self, done) => {
         .validate(_pull)
         .make(sd => {
             sd.json = {
-                value: null,
                 date: null,
             }
 
             const $ = cheerio.load(self.document)
+            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
+
+            $("li").each((x, e) => {
+                const text = $(e).text()
+
+                const t_match = text.match(/([\d,]+) tests complete as of ([A-Z][a-z]+)\s+(\d+),\s+(202\d)/) 
+                if (t_match) {
+                    const date = parse(`${t_match[2]} ${t_match[3]} ${t_match[4]}`, "MMMM dd yyyy", new Date())
+                    if (_.is.Date(date)) {
+                        sd.json.date = date.toISOString().substring(0, 10)
+                    }
+
+                    const value = _integer(t_match[1])
+                    if (value) {
+                        sd.json.value = value
+                    }
+
+                }
+
+                const c_match = text.match(/([\d,]+) confirmed cases as/)
+                if (c_match) {
+                    const value = _integer(c_match[1])
+                    if (value) {
+                        sd.json.confirmed = value
+                    }
+                }
+            })
 
             $("p.phsa-rteElement-Paragraph").each((x, e) => {
                 const text = $(e).text()
@@ -86,6 +112,7 @@ const _pull = _.promise((self, done) => {
         })
         .then(fs.make.directory.parent)
         .then(fs.write.yaml)
+        .log("wrote", "path")
 
         .end(done, self, _pull)
 })
