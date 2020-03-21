@@ -13,4 +13,4 @@ cd $(dirname $0)
 
 node cook.js
 git add *.yaml
-git commit -am "new cooekd country data"
+git commit -am "new cooked country data"

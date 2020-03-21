@@ -12,6 +12,7 @@
 
 ROOT=$(dirname $0)
 
+git pull || exit 1
 for COUNT in 2 1 0
 do
     for FILE in $(find "$ROOT" -name "BUILD_$COUNT.sh")
