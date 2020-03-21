@@ -42,7 +42,8 @@ _.promise()
     })
     .make(sd => {
         sd.json = {
-            id: "urn:covid:consensas:ca-nb:cmo",
+            "@context": "https://consensas.world/m/covid",
+            "@urn": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
             country: COUNTRY.toUpperCase(),
             state: PROVINCE.toUpperCase(),
             key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
@@ -50,7 +51,7 @@ _.promise()
         }
 
         sd.json.items.forEach(item => {
-            item.id = "urn:covid:consensas:ca-nb:cmo:" + item.date
+            item["@urn"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
             item.tests = 
                 (item.tests_positive || 0) +
                 (item.tests_negative || 0) +
@@ -59,5 +60,9 @@ _.promise()
 
         sd.json = [ sd.json ]
     })
-    .then(fs.write.yaml.p(NAME, null))
+
+    .add("path", path.join(__dirname, NAME))
+    .then(fs.write.yaml)
+    .log("wrote", "path")
+    
     .except(_.error.log)
