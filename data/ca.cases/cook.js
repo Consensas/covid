@@ -42,6 +42,7 @@ const _normalize_province = op => {
         "Quebec": "QC",
         "Repatriated": "XXRP",
         "Saskatchewan": "SK",
+        "NWT": "NT",
     }[op]
 
     if (!np) {
