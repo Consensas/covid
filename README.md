@@ -11,7 +11,7 @@ and merge that with information such as population, ICU capacity and so forth.
 (Google Sheets + Charts + Consensas Data) are now available [here](https://docs.google.com/spreadsheets/d/1BxT6W3RgnkJvJRyJhFQ-43SfUEKg-p5iYBgQCGa-jOY/edit) 
 
 # Daily Assessments
-Sign up for our daily assessments, which provide analysis on the Canadian COVID-19 health data we're producing. [Here] (https://bit.ly/3ddUO6B)
+Sign up for our daily assessments, which provide analysis on the Canadian COVID-19 health data we're producing. [here](https://bit.ly/3ddUO6B)
 
 ## Notes
 
