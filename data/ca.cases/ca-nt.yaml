@@ -1,0 +1,17 @@
+country: CA
+state: NT
+key: ca-nt
+cases:
+  - id: 'urn:covid:ca.cases:1198'
+    dataset_id: '1198'
+    state_id: '1'
+    sources:
+      - >-
+        https://www.gov.nt.ca/sites/flagship/files/documents/pha_-confirmed_case_of_covid-19_in_nwt.pdf
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: NWT
+    acquired_country: null

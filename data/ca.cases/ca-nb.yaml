@@ -148,3 +148,77 @@ cases:
     sex: F
     health_region: Zone 3 (Fredericton area)
     acquired_country: null
+  - id: 'urn:covid:ca.cases:1199'
+    dataset_id: '1199'
+    state_id: '12'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Zone 2 (Saint John area)
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1200'
+    dataset_id: '1200'
+    state_id: '13'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Zone 3 (Fredericton area)
+    acquired_country: CA
+    acquired_close_contact: true
+  - id: 'urn:covid:ca.cases:1201'
+    dataset_id: '1201'
+    state_id: '14'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 40-49
+    sex: F
+    health_region: Zone 2 (Saint John area)
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1202'
+    dataset_id: '1202'
+    state_id: '15'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 60-69
+    sex: M
+    health_region: Zone 2 (Saint John area)
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1203'
+    dataset_id: '1203'
+    state_id: '16'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Zone 2 (Saint John area)
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1204'
+    dataset_id: '1204'
+    state_id: '17'
+    sources:
+      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 20-29
+    sex: F
+    health_region: Zone 2 (Saint John area)
+    acquired_country: CA
+    acquired_close_contact: true

@@ -215,3 +215,15 @@ cases:
     sex: M
     health_region: Winnipeg
     acquired_country: null
+  - id: 'urn:covid:ca.cases:1197'
+    dataset_id: '1197'
+    state_id: '18'
+    sources:
+      - 'https://news.gov.mb.ca/news/?archive=&item=47157'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 50-59
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
