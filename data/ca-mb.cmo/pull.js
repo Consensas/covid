@@ -56,13 +56,40 @@ const _pull = _.promise((self, done) => {
 
             const $ = cheerio.load(self.document)
 
+            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
+            const _table = $n => {
+                const rows = []
+                $n.find("tr").each((x, etr) => {
+                    const row = []
+                    $(etr).find("td,th").each((y, etd) => {
+                        row.push($(etd).text().trim())
+                    })
+                    if (row.length) {
+                        rows.push(row)
+                    }
+                })
+                return rows
+            }
+
+            $("table").each((x, e) => {
+                const table = _table($(e))
+                table.forEach(row => {
+                    if (row[0].startsWith("Confirmed Pos")) {
+                        sd.json.tests_positive = _integer(row[1])
+                    }
+                    if (row[0].startsWith("Probable Pos")) {
+                        sd.json.tests_probable = _integer(row[1])
+                    }
+                })
+            })
+
             $("p").each((x, e) => {
-                const text = $(e).text()
+                const text = $(e).text().trim()
                 if (_.is.Empty(text)) {
                     return
                 }
 
-                const match = text.match(/^As.*((January|February|March|April|May|June|July|August|September) \d+), ([\d,]+) test.*COVID/)
+                let match = text.match(/^As.*((January|February|March|April|May|June|July|August|September) \d+), ([\d,]+) test/)
                 if (!match) {
                     return
                 }
@@ -80,6 +107,8 @@ const _pull = _.promise((self, done) => {
                 sd.json.tests = value
                 sd.json.date = date.toISOString().substring(0, 10)
             })
+
+
 
             if (!sd.json.date || !sd.json.tests) {
                 console.log("#", "no data for", COUNTRY, PROVINCE)
