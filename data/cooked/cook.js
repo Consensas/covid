@@ -50,7 +50,7 @@ const _cook = _.promise((self, done) => {
 
                 let country = _find(sd.datasets.countries, row.country_region)
                 if (!country) {
-                    console.log("Unknown", row.country_region)
+                    console.log("#", "data/cooked/cook", "unknown country:", row.country_region)
                     return
                 }
 
@@ -95,7 +95,7 @@ const _cook = _.promise((self, done) => {
                 }
 
                 if (!row._state) {
-                    console.log("Unknown", row.province_state)
+                    console.log("#", "data/cooked/cook", "unknown state:", row.province_state)
                     return
                 }
             })
