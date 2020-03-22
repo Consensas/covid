@@ -57,7 +57,7 @@ _.promise()
             items: [],
         }
 
-        const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
+        const _integer = x => _.coerce.to.Integer(x.replace(/[, ]/g, ""), null)
 
         sd.jsons
             .filter(json => json.full_text.startsWith("#COVID19 – Au Québec"))
@@ -95,17 +95,17 @@ _.promise()
                     item.tweet = json.full_text
                 }
 
-                const positive_match = tweet.match(/[➡➡️]\s*([\d,.]+) cas conf/)
+                const positive_match = tweet.match(/[➡➡️]\s*([\d, ]+) cas conf/)
                 if (positive_match) {
                     item.tests_positive = _integer(positive_match[1])
                 }
 
-                const testing_match = tweet.match(/[➡➡️]\s*([\d,.]+) personnes s/)
+                const testing_match = tweet.match(/[➡➡️]\s*([\d, ]+) personnes s/)
                 if (testing_match) {
                     item.tests_ordered = _integer(testing_match[1])
                 }
 
-                const negative_match = tweet.match(/[➡➡️]\s*([\d,.]+) analyses n/)
+                const negative_match = tweet.match(/[➡➡️]\s*([\d, ]+) analyses n/)
                 if (negative_match) {
                     item.tests_negative = _integer(negative_match[1])
                 }
