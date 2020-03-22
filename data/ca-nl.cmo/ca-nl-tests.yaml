@@ -1,0 +1,32 @@
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:consensas:ca-nl:cmo'
+  country: CA
+  state: NL
+  key: ca-nl
+  items:
+    - date: '2020-03-15'
+      source: >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-15-1.5498433
+      tests_positive: 1
+      tests_negative: 105
+      tests: 161
+      '@id': 'urn:covid:consensas:ca-nl:2020-03-15'
+    - date: '2020-03-17'
+      source: >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
+      tests_positive: 3
+      tests: 494
+      '@id': 'urn:covid:consensas:ca-nl:2020-03-17'
+    - date: '2020-03-19'
+      source: >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-update-john-haggie-march-19-1.5502805
+      tests_positive: 3
+      tests: 684
+      '@id': 'urn:covid:consensas:ca-nl:2020-03-19'
+    - date: '2020-03-21'
+      source: >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
+      tests_positive: 6
+      tests_negative: 895
+      tests: 901
+      '@id': 'urn:covid:consensas:ca-nl:2020-03-21'

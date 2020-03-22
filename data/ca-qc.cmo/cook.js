@@ -89,7 +89,6 @@ _.promise()
                     let date = parse(`${day} ${month} 2020`, "d MMMM yyyy", new Date())
                     if (_.is.Date(date)) {
                         date = date.toISOString().substring(0, 10)
-                        item.id = "urn:covid:consensas:ca-qc:cmo:" + date
                         item.date = date
                     }
                 } else {
