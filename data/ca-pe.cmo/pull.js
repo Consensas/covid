@@ -91,8 +91,10 @@ const _pull = _.promise((self, done) => {
                     return
                 }
 
+                console.log(table)
+
                 table.forEach(row => {
-                    const match = row[0].match(/as of (\d+)-([A-Za-z]*) (2\d+)/)
+                    const match = row[0].match(/as of (\d+)[-\s]([A-Za-z]*) (2\d+)/)
                     if (match) {
                         const date = parse(`${match[2]} ${match[1]} ${match[3]}`, "MMMM dd yyyy", new Date())
                         if (!_.is.Date(date)) {
