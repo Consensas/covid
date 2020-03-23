@@ -1,0 +1,11 @@
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:consensas:ca-XXCA:cmo'
+  country: CA
+  state: XXCA
+  key: ca-xxca
+  items:
+    - date: '2020-03-11'
+      tests_positive: 1
+    - date: '2020-03-12'
+      tests_probable: 0
+      tests_confirmed: 1

@@ -31,9 +31,74 @@ const fr_locale = require('date-fns/locale/fr')
 const path = require("path")
 
 const COUNTRY = "ca"
-const PROVINCE = "qc"
-const NAME = `${COUNTRY}-tests.yaml`
 
+/**
+ */
+const _one = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_one)
+        .make(sd => {
+            sd.json = {
+                "@context": "https://consensas.world/m/covid",
+                "@id": null,
+                country: COUNTRY.toUpperCase(),
+                state: null,
+                key: null,
+                items: [],
+            }
+
+            const PROVINCE = sd.items[0].state
+            if (_.is.Empty(PROVINCE)) {
+                sd.json["@id"] = `urn:covid:consensas:${COUNTRY}:cmo`
+                sd.json.key = `${COUNTRY}`.toLowerCase()
+                sd.path = path.join(__dirname, `${COUNTRY}-tests.yaml`.toLowerCase())
+            } else {
+                sd.json["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`
+                sd.json.key = `${COUNTRY}-${PROVINCE}`.toLowerCase()
+                sd.json.state = PROVINCE
+                sd.path = path.join(__dirname, `${COUNTRY}-${PROVINCE}-tests.yaml`.toLowerCase())
+            }
+
+            sd.items
+                .filter(item => item.date)
+                .forEach(item => {
+                    item = _.d.clone(item)
+                    _.mapObject(item, (value, key) => {
+                        if (!_.is.Integer(value) && (key !== "date")) {
+                            delete item[key]
+                        }
+                    })
+
+                    sd.json.items.push(item)
+                })
+
+            /*
+            sd.json.items.forEach(item => {
+                item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
+            })
+            */
+
+            sd.json = [ sd.json ]
+        })
+
+        .then(fs.write.yaml)
+        .log("wrote", "path")
+
+        .end(done, self, _one)
+})
+
+_one.method = "_one"
+_one.description = ``
+_one.requires = {
+    items: _.is.Array.of.Dictionary,
+}
+_one.accepts = {
+}
+_one.produces = {
+}
+
+/**
+ */
 _.promise()
     .add("path", path.join(__dirname, "settings.yaml"))
     .then(fs.read.yaml)
@@ -52,106 +117,70 @@ _.promise()
         output_selector: sd => sd.json,
     })
     .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            key: `${COUNTRY}`.toLowerCase(),
-            items: [],
-        }
+        const records = []
 
         sd.jsons.forEach(json => {
+            const data = {}
+
             json.tables.forEach(rows => {
                 rows = rows.map(row => row.map(cell => sd.settings.mapping[cell] || cell))
                 const header = rows.shift()
 
-                    const table = []
-                    rows.forEach(row => {
-                        table.push(_.object(header, row))
-                    })
-                    // console.log(table)
+                let table = []
+                rows.forEach(row => {
+                    table.push(_.object(header, row))
+                })
+
                 if (header[0] === "province") {
-                }
+                    table.forEach(row => {
+                        const province = row.province || "xxx"
+                        if (province !== province.toUpperCase()) {
+                            return
+                        }
 
+                        const d = data[province] || {}
+                        data[province] = d
 
-
-
-
-                console.log(table)
-                console.log()
-            })
-        })
-
-        /*
-        const _integer = x => _.coerce.to.Integer(x.replace(/[, ]/g, ""), null)
-
-        sd.jsons
-            .filter(json => json.full_text.startsWith("#COVID19 – Au Québec"))
-            .forEach(json => {
-                const tweet = json.full_text
-                const item = {
-                    // tweet: json.full_text,
-                }
-
-                const date_match = tweet.match(/en date du (\d+) ([^\s,.]+)/)
-                if (date_match) {
-                    const day = date_match[1]
-                    const month = {
-                        "janvier": "January",
-                        "février": "February",
-                        "mars": "March",
-                        "avril": "April",
-                        "mai": "May",
-                        "juin": "June",
-                        "juillet": "July",
-                        "août": "August",
-                        "septembre": "September",
-                        "octobre": "October",
-                        "novembre": "November",
-                        "décembre": "December",
-                    }[date_match[2]];
-
-                    const date$ = `${day} ${month} 2020`
-                    let date = parse(`${day} ${month} 2020`, "d MMMM yyyy", new Date())
-                    if (_.is.Date(date)) {
-                        date = date.toISOString().substring(0, 10)
-                        item.date = date
-                    }
+                        _.mapObject(row, (value, key) => {
+                            if (_.is.Number(value)) {
+                                d[key] = value
+                            }
+                        })
+                    })
                 } else {
-                    item.tweet = json.full_text
+                    const row = table[0]
+                    const province = ""
+                    const d = data[province] || {}
+                    data[province] = d
+
+                    _.mapObject(table[0], (value, key) => {
+                        if (_.is.Number(value)) {
+                            d[key] = value
+                        }
+                    })
                 }
-
-                const positive_match = tweet.match(/[➡➡️]\s*([\d, ]+) cas conf/)
-                if (positive_match) {
-                    item.tests_positive = _integer(positive_match[1])
-                }
-
-                const testing_match = tweet.match(/[➡➡️]\s*([\d, ]+) personnes s/)
-                if (testing_match) {
-                    item.tests_ordered = _integer(testing_match[1])
-                }
-
-                const negative_match = tweet.match(/[➡➡️]\s*([\d, ]+) analyses n/)
-                if (negative_match) {
-                    item.tests_negative = _integer(negative_match[1])
-                }
-
-                item.tests = (item.tests_negative || 0) + (item.tests_positive || 0)
-
-                sd.json.items.push(item)
             })
 
-        sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}:${item.date}`
+            _.mapObject(data, (value, state) => {
+                records.push(Object.assign({
+                    date: json.date,
+                    state: state,
+                }, value))
+            })
         })
-        */
 
-        sd.json = [ sd.json ]
+        sd.itemss = []
+        _.uniq(records.map(r => r.state)).forEach(state => {
+            sd.itemss.push(records.filter(record => record.state === state))
+        })
+    })
+    .each({
+        method: _one,
+        inputs: "itemss:items",
     })
 
-    .add("path", path.join(__dirname, NAME))
-    .then(fs.write.yaml)
-    .log("wrote", "path")
+    /*
+    */
 
     .except(_.error.log)
 

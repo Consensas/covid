@@ -1,0 +1,50 @@
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:consensas:ca-AB:cmo'
+  country: CA
+  state: AB
+  key: ca-ab
+  items:
+    - date: '2020-03-08'
+      tests_positive: 1
+    - date: '2020-03-09'
+      tests_positive: 7
+    - date: '2020-03-10'
+      tests_positive: 14
+    - date: '2020-03-11'
+      tests_positive: 14
+    - date: '2020-03-12'
+      tests_probable: 0
+      tests_confirmed: 19
+    - date: '2020-03-13'
+      tests_confirmed: 23
+      tests_probable: 0
+    - date: '2020-03-14'
+      tests_confirmed: 39
+      tests_probable: 2
+    - date: '2020-03-15'
+      tests_confirmed: 39
+      tests_probable: 0
+    - date: '2020-03-16'
+      tests_confirmed: 74
+      tests_probable: 0
+    - date: '2020-03-17'
+      tests_confirmed: 97
+      tests_probable: 0
+    - date: '2020-03-18'
+      tests_confirmed: 97
+      tests_probable: 0
+    - date: '2020-03-19'
+      tests_confirmed: 146
+      tests_probable: 0
+    - date: '2020-03-20'
+      tests_confirmed: 195
+      tests_probable: 0
+      deaths: 1
+    - date: '2020-03-21'
+      tests_confirmed: 195
+      tests_probable: 0
+      deaths: 1
+    - date: '2020-03-23'
+      tests_confirmed: 259
+      tests_probable: 0
+      deaths: 1
