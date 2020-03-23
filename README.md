@@ -2,10 +2,16 @@
  ![Consensas_Logo](https://consensas-aws.s3.amazonaws.com/email-201910/Consensas-Black.png) 
 
 # covid
-COVID-2019 data / code
 
 The primary purpose of this project is to provide useful data about cases, deaths and recovery of COVID19 in Canada 
 and merge that with information such as population, ICU capacity and so forth.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Data is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+Software licenced under [Apache, Licence 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Copyright (2020) Consensas, Inc.
+
 
 # Data Visualizations 
 (Google Sheets + Charts + Consensas Data) are now available [here](https://docs.google.com/spreadsheets/d/1BxT6W3RgnkJvJRyJhFQ-43SfUEKg-p5iYBgQCGa-jOY/edit) 
