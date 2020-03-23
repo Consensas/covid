@@ -1,29 +1,30 @@
 mapping:
-- alberta: AB
-- british colombia: BC
-- british columbia: BC
-- confirmed cases: tests_positive
-- manitoba: MB
-- negative: negative
-- new brunswick: NB
-- newfoundland and labrador: NL
-- northwest territories: NT
-- nova scotia: NS
-- number of confirmed cases: tests_confirmed
-- number of deaths: deaths
-- number of probable cases: tests_probable
-- nunavut: NT
-- ontario: "ON"
-- positive: tests_positive
-- prince edward island: PE
-- province or territory: province
-- province territory or other: province
-- repatriated canadians: xx
-- repatriated travellers: xx
-- saskatchewan: SK
-- total cases: tests
-- total negative: tests_negative
-- total number of patients tested in canada: tests
-- total positive: tests_positive
-- total: tests
-- yukon: YK
+  alberta: AB
+  british colombia: BC
+  british columbia: BC
+  confirmed cases: tests_positive
+  manitoba: MB
+  negative: negative
+  new brunswick: NB
+  newfoundland and labrador: NL
+  northwest territories: NT
+  nova scotia: NS
+  number of confirmed cases: tests_confirmed
+  number of deaths: deaths
+  number of probable cases: tests_probable
+  nunavut: NT
+  ontario: "ON"
+  positive: tests_positive
+  prince edward island: PE
+  province or territory: province
+  province territory or other: province
+  quebec: QC
+  repatriated canadians: XXCA
+  repatriated travellers: XXTR
+  saskatchewan: SK
+  total cases: tests
+  total negative: tests_negative
+  total number of patients tested in canada: tests
+  total positive: tests_positive
+  total: tests
+  yukon: YK
