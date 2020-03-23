@@ -242,7 +242,7 @@ items:
     recovered: 0
     tests: 3801
     tests_positive: 11
-    tests_probable: 8
+    tests_probable: 9
     '@id': 'urn:covid:consensas:ca-mb:2020-03-19'
   - date: '2020-03-20'
     deaths: 0
@@ -251,6 +251,10 @@ items:
   - date: '2020-03-21'
     deaths: 0
     confirmed: 18
+    recovered: 0
+  - date: '2020-03-22'
+    deaths: 0
+    confirmed: 19
     recovered: 0
 icu_hospitals: 10
 icu_beds: 93
