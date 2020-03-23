@@ -23,6 +23,7 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
+const addDays = require("date-fns/addDays")
 
 /**
  */
@@ -79,14 +80,14 @@ const generate_timeseries = _.promise(self => {
     }
 
     // each row is a date
-    const cursor = new Date(min_date)
+    let cursor = new Date(min_date + "T12:00:00")
     const lastd = {}
     while (true) {
         const date = cursor.toISOString().substring(0, 10)
         if (date > max_date) {
             break
         }
-        cursor.setDate(cursor.getDate() + 1)
+        cursor = addDays(cursor, 1)
 
         const row = [ date ]
         sheet.rows.push(row)
@@ -94,7 +95,6 @@ const generate_timeseries = _.promise(self => {
         // add values
         datasets.forEach((key, dx) => {
             const dataset = self.datasets[key]
-
 
             const tds = _.d.list(dataset, self.definition.timeseries, [])
             const td = tds.find(td => _.d.first(td, self.definition.date) === date) 
