@@ -27,3 +27,16 @@ cases:
     sex: M
     health_region: Prince Edward Island
     acquired_country: null
+  - id: 'urn:covid:ca.cases:1435'
+    dataset_id: '1435'
+    state_id: '3'
+    sources:
+      - >-
+        https://atlantic.ctvnews.ca/p-e-i-identifies-third-case-of-covid-19-1.4863509
+    date: '2020-03-22'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: 20-29
+    sex: F
+    health_region: Prince Edward Island
+    acquired_country: null

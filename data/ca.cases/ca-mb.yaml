@@ -227,3 +227,28 @@ cases:
     sex: F
     health_region: Winnipeg
     acquired_country: null
+  - id: 'urn:covid:ca.cases:1330'
+    dataset_id: '1330'
+    state_id: '19'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47159&posted=2020-03-21'
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
+    age_range: 30-39
+    sex: F
+    health_region: Winnipeg
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1470'
+    dataset_id: '1470'
+    state_id: '20'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/manitoba/manitoba-covid-19-update-sunday-1.5506036
+    date: '2020-03-22'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: 40-49
+    sex: M
+    health_region: Winnipeg
+    acquired_country: null

@@ -10,7 +10,7 @@ cases:
         https://globalnews.ca/news/6660159/coronavirus-quarantine-cfb-trenton-update/
     date: '2020-03-11'
     week_reported: '2020-03-08'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -23,7 +23,7 @@ cases:
         https://globalnews.ca/news/6672900/2nd-coronavirus-confirmed-grand-princess-passengers/
     date: '2020-03-13'
     week_reported: '2020-03-08'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -36,7 +36,7 @@ cases:
         https://atlantic.ctvnews.ca/the-latest-numbers-of-covid-19-cases-in-canada-as-of-march-14-2020-1.4853203
     date: '2020-03-14'
     week_reported: '2020-03-08'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -49,7 +49,7 @@ cases:
         https://atlantic.ctvnews.ca/the-latest-numbers-of-covid-19-cases-in-canada-as-of-march-14-2020-1.4853203
     date: '2020-03-14'
     week_reported: '2020-03-08'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -62,7 +62,7 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-16'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -75,7 +75,7 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-16'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -88,7 +88,7 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-16'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -101,7 +101,7 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-16'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -114,7 +114,7 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-17'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -127,7 +127,7 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-19'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -140,7 +140,7 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-20'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
     age_range: null
     sex: null
     health_region: null
@@ -153,7 +153,20 @@ cases:
         https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
     date: '2020-03-20'
     week_reported: '2020-03-15'
-    is_travel: null
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: null
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1331'
+    dataset_id: '1331'
+    state_id: '13'
+    sources:
+      - >-
+        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+    date: '2020-03-21'
+    week_reported: '2020-03-15'
+    is_travel: true
     age_range: null
     sex: null
     health_region: null

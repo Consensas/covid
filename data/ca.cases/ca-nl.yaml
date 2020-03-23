@@ -86,3 +86,42 @@ cases:
     sex: F
     health_region: Central
     acquired_country: null
+  - id: 'urn:covid:ca.cases:1424'
+    dataset_id: '1424'
+    state_id: '7'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
+    date: '2020-03-22'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: Eastern
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1425'
+    dataset_id: '1425'
+    state_id: '8'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
+    date: '2020-03-22'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: Eastern
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1426'
+    dataset_id: '1426'
+    state_id: '9'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
+    date: '2020-03-22'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    sex: null
+    health_region: Eastern
+    acquired_country: null
