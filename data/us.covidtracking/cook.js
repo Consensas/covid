@@ -44,12 +44,20 @@ _.promise()
             "@id": `urn:covid:covidtracking.com:${COUNTRY}:cases:cmo`,
             country: COUNTRY.toUpperCase(),
             key: `${COUNTRY}`.toLowerCase(),
-            items: sd.jsons.filter(json => json.date)
-        }
+            items: sd.jsons.map(_item => {
+                const date = `${_item.date}`.replace(/^(....)(..)(..)$/, "$1-$2-$3")
+                const item = {
+                    "@id": `urn:covid:covidtracking.com:${COUNTRY}:cases:${date}`,
+                    date: date,
+                    tests: _.d.first(_item, "total", null),
+                    tests_positive: _.d.first(_item, "positive", null),
+                    tests_negative: _.d.first(_item, "negative", null),
+                    tests_pending: _.d.first(_item, "pending", null),
+                }
 
-        sd.json.items.forEach(item => {
-            "@id": `urn:covid:covidtracking.com:${COUNTRY}:cases:${item.date}`
-        })
+                return item
+            }),
+        }
 
         sd.json = [ sd.json ]
     })
