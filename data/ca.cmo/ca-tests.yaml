@@ -1,146 +1,218 @@
 - '@context': 'https://consensas.world/m/covid'
   '@id': 'urn:covid:consensas:ca:cmo'
+  source: >-
+    https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
   country: CA
   state: null
   key: ca
   items:
-    - date: '2020-02-08'
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-08'
+      date: '2020-02-08'
       tests_negative: 191
       tests_positive: 7
       tests: 198
-    - date: '2020-02-09'
+      confirmed: 7
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-09'
+      date: '2020-02-09'
       tests_negative: 191
       tests_positive: 7
       tests: 198
-    - date: '2020-02-13'
+      confirmed: 7
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-13'
+      date: '2020-02-13'
       tests_negative: 191
       tests_positive: 7
       tests: 198
-    - date: '2020-02-15'
+      confirmed: 7
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-15'
+      date: '2020-02-15'
       tests_negative: 350
       tests_positive: 7
       tests: 357
-    - date: '2020-02-17'
+      confirmed: 7
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-17'
+      date: '2020-02-17'
       tests_negative: 350
       tests_positive: 8
       tests: 358
-    - date: '2020-02-18'
+      confirmed: 8
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-18'
+      date: '2020-02-18'
       tests_negative: 350
       tests_positive: 8
       tests: 358
-    - date: '2020-02-21'
+      confirmed: 8
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-21'
+      date: '2020-02-21'
       tests_negative: 350
       tests_positive: 8
       tests: 358
-    - date: '2020-02-22'
+      confirmed: 8
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-22'
+      date: '2020-02-22'
       tests_negative: 455
       tests_positive: 9
       tests: 464
-    - date: '2020-02-24'
+      confirmed: 9
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-24'
+      date: '2020-02-24'
       tests_negative: 474
       tests_positive: 10
       tests: 484
-    - date: '2020-02-25'
+      confirmed: 10
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-25'
+      date: '2020-02-25'
       tests_negative: 474
       tests_positive: 11
       tests: 485
-    - date: '2020-02-27'
+      confirmed: 11
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-27'
+      date: '2020-02-27'
       tests_negative: 480
       tests_positive: 10
       tests: 490
-    - date: '2020-02-28'
+      confirmed: 10
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-28'
+      date: '2020-02-28'
       tests_negative: 485
       tests_positive: 12
       tests: 497
-    - date: '2020-02-29'
+      confirmed: 12
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-29'
+      date: '2020-02-29'
       tests_negative: 485
       tests_positive: 13
       tests: 498
-    - date: '2020-03-01'
+      confirmed: 13
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-01'
+      date: '2020-03-01'
       tests_negative: 485
       tests_positive: 13
       tests: 498
-    - date: '2020-03-02'
+      confirmed: 13
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-02'
+      date: '2020-03-02'
       tests_negative: 506
       tests_positive: 14
       tests: 520
-    - date: '2020-03-03'
+      confirmed: 14
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-03'
+      date: '2020-03-03'
       tests_negative: 506
       tests_positive: 14
       tests: 520
-    - date: '2020-03-04'
+      confirmed: 14
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-04'
+      date: '2020-03-04'
       tests_negative: 519
       tests_positive: 14
       tests: 533
-    - date: '2020-03-05'
+      confirmed: 14
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-05'
+      date: '2020-03-05'
       tests_negative: 519
       tests_positive: 14
       tests: 533
-    - date: '2020-03-06'
+      confirmed: 14
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-06'
+      date: '2020-03-06'
       tests_negative: 538
       tests_positive: 15
       tests: 553
-    - date: '2020-03-07'
+      confirmed: 15
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-07'
+      date: '2020-03-07'
       tests_negative: 538
       tests_positive: 15
       tests: 553
-    - date: '2020-03-08'
+      confirmed: 15
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-08'
+      date: '2020-03-08'
       tests_negative: 538
       tests_positive: 15
       tests: 553
-    - date: '2020-03-09'
+      confirmed: 15
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-09'
+      date: '2020-03-09'
       tests_negative: 606
       tests_positive: 17
       tests: 623
-    - date: '2020-03-10'
+      confirmed: 17
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-10'
+      date: '2020-03-10'
       tests_negative: 606
       tests_positive: 18
       tests: 624
-    - date: '2020-03-11'
+      confirmed: 18
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-11'
+      date: '2020-03-11'
       tests_negative: 619
       tests_positive: 23
       tests: 642
-    - date: '2020-03-12'
+      confirmed: 23
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-12'
+      date: '2020-03-12'
       tests_negative: 684
       tests_positive: 23
       tests: 707
-    - date: '2020-03-13'
+      confirmed: 23
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-13'
+      date: '2020-03-13'
       tests_negative: 771
       tests_positive: 25
       tests: 796
-    - date: '2020-03-14'
+      confirmed: 25
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-14'
+      date: '2020-03-14'
       tests_negative: 771
       tests_positive: 25
       tests: 796
-    - date: '2020-03-15'
+      confirmed: 25
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-15'
+      date: '2020-03-15'
       tests_negative: 771
       tests_positive: 25
       tests: 796
-    - date: '2020-03-16'
+      confirmed: 25
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-16'
+      date: '2020-03-16'
       tests_negative: 971
       tests_positive: 37
       tests: 1008
-    - date: '2020-03-17'
+      confirmed: 37
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-17'
+      date: '2020-03-17'
       tests_negative: 1012
       tests_positive: 43
       tests: 1055
-    - date: '2020-03-18'
+      confirmed: 43
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-18'
+      date: '2020-03-18'
       tests_negative: 1018
       tests_positive: 47
       tests: 1065
-    - date: '2020-03-19'
+      confirmed: 47
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-19'
+      date: '2020-03-19'
       tests: 54956
       tests_positive: 628
       tests_negative: 42157
-    - date: '2020-03-20'
+      confirmed: 628
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-20'
+      date: '2020-03-20'
       tests: 76814
       tests_positive: 975
       tests_negative: 65673
-    - date: '2020-03-21'
+      confirmed: 975
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-21'
+      date: '2020-03-21'
       tests: 76814
       tests_positive: 975
       tests_negative: 65673
-    - date: '2020-03-23'
+      confirmed: 975
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-23'
+      date: '2020-03-23'
       tests: 102803
       tests_positive: 1512
       tests_negative: 90819
+      confirmed: 1512

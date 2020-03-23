@@ -31,6 +31,8 @@ const fr_locale = require('date-fns/locale/fr')
 const path = require("path")
 
 const COUNTRY = "ca"
+const URL = "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html"
+
 
 /**
  */
@@ -41,6 +43,7 @@ const _one = _.promise((self, done) => {
             sd.json = {
                 "@context": "https://consensas.world/m/covid",
                 "@id": null,
+                "source": URL,
                 country: COUNTRY.toUpperCase(),
                 state: null,
                 key: null,
@@ -53,7 +56,7 @@ const _one = _.promise((self, done) => {
                 sd.json.key = `${COUNTRY}`.toLowerCase()
                 sd.path = path.join(__dirname, `${COUNTRY}-tests.yaml`.toLowerCase())
             } else {
-                sd.json["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`
+                sd.json["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`.toLowerCase()
                 sd.json.key = `${COUNTRY}-${PROVINCE}`.toLowerCase()
                 sd.json.state = PROVINCE
                 sd.path = path.join(__dirname, `${COUNTRY}-${PROVINCE}-tests.yaml`.toLowerCase())
@@ -61,22 +64,23 @@ const _one = _.promise((self, done) => {
 
             sd.items
                 .filter(item => item.date)
-                .forEach(item => {
-                    item = _.d.clone(item)
-                    _.mapObject(item, (value, key) => {
-                        if (!_.is.Integer(value) && (key !== "date")) {
-                            delete item[key]
+                .forEach(_item => {
+                    const item = {
+                        "@id": `${sd.json["@id"]}:${_item.date}`,
+                    }
+
+                    _.mapObject(_item, (value, key) => {
+                        if (_.is.Integer(value) || (key === "date")) {
+                            item[key] = _item[key]
                         }
                     })
 
+                    if (item.tests_positive) {
+                        item.confirmed = item.tests_positive
+                    }
+
                     sd.json.items.push(item)
                 })
-
-            /*
-            sd.json.items.forEach(item => {
-                item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
-            })
-            */
 
             sd.json = [ sd.json ]
         })
@@ -133,7 +137,7 @@ _.promise()
 
                 if (header[0] === "province") {
                     table.forEach(row => {
-                        const province = row.province || "xxx"
+                        const province = row.province || "xxxx"
                         if (province !== province.toUpperCase()) {
                             return
                         }

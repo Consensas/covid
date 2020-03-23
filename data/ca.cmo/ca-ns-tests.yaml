@@ -1,33 +1,49 @@
 - '@context': 'https://consensas.world/m/covid'
-  '@id': 'urn:covid:consensas:ca-NS:cmo'
+  '@id': 'urn:covid:consensas:ca-ns:cmo'
+  source: >-
+    https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
   country: CA
   state: NS
   key: ca-ns
   items:
-    - date: '2020-03-15'
-      tests_confirmed: 0
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-15'
+      date: '2020-03-15'
+      tests_positive: 0
       tests_probable: 3
-    - date: '2020-03-16'
-      tests_confirmed: 0
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-16'
+      date: '2020-03-16'
+      tests_positive: 0
       tests_probable: 5
-    - date: '2020-03-17'
-      tests_confirmed: 1
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-17'
+      date: '2020-03-17'
+      tests_positive: 1
       tests_probable: 6
-    - date: '2020-03-18'
-      tests_confirmed: 3
+      confirmed: 1
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-18'
+      date: '2020-03-18'
+      tests_positive: 3
       tests_probable: 9
-    - date: '2020-03-19'
-      tests_confirmed: 5
+      confirmed: 3
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-19'
+      date: '2020-03-19'
+      tests_positive: 5
       tests_probable: 9
-    - date: '2020-03-20'
-      tests_confirmed: 5
+      confirmed: 5
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-20'
+      date: '2020-03-20'
+      tests_positive: 5
       tests_probable: 10
       deaths: 0
-    - date: '2020-03-21'
-      tests_confirmed: 5
+      confirmed: 5
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-21'
+      date: '2020-03-21'
+      tests_positive: 5
       tests_probable: 10
       deaths: 0
-    - date: '2020-03-23'
-      tests_confirmed: 28
+      confirmed: 5
+    - '@id': 'urn:covid:consensas:ca-ns:cmo:2020-03-23'
+      date: '2020-03-23'
+      tests_positive: 28
       tests_probable: 0
       deaths: 0
+      confirmed: 28
