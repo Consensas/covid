@@ -62,13 +62,14 @@ const _pull = _.promise((self, done) => {
                     $(etr).find("td,th").each((y, etd) => {
                         const value = $(etd)
                             .text()
-                            .trim()
                             .replace(/\s+/g, " ")
+                            .trim()
                             .toLowerCase()
-                            .replace(/[^a-z0-9 ]/, "")
+                            .replace(/[^a-z0-9 ]/g, "")
 
                         row.push(_.coerce.to.Integer(value, value))
                     })
+
                     if (row.length) {
                         rows.push(row)
                     }
@@ -119,7 +120,6 @@ _pull.accepts = {
 }
 _pull.produces = {
 }
-
 
 if (ad._.length) {
     _.promise({
