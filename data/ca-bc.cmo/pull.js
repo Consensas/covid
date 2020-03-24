@@ -59,7 +59,11 @@ const _pull = _.promise((self, done) => {
 
             $("li").each((x, e) => {
                 const text = $(e).text().replace(/\s+/, " ")
-                const t_match = text.match(/([\d,]+).tests.complete.as.of.([A-Z][a-z]+)\s+(\d+),\s+(202\d)/) 
+                if (ad.verbose) {
+                    console.log("-", "text", text)
+                }
+
+                const t_match = text.match(/([\d,]+).tests.complete.*(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d+),\s+(202\d)/) 
                 if (t_match) {
                     const date = parse(`${t_match[2]} ${t_match[3]} ${t_match[4]}`, "MMMM dd yyyy", new Date())
                     if (_.is.Date(date)) {
@@ -83,6 +87,10 @@ const _pull = _.promise((self, done) => {
 
             $("p.phsa-rteElement-Paragraph").each((x, e) => {
                 const text = $(e).text()
+                if (ad.verbose) {
+                    console.log("-", "text", text)
+                }
+
                 const match = text.match(/([\d,]+).individuals.*as.of.([A-Za-z]*).(\d+),.(\d+)/)
                 if (!match) {
                     return
@@ -101,6 +109,10 @@ const _pull = _.promise((self, done) => {
                 sd.json.value = value
                 sd.json.date = date.toISOString().substring(0, 10)
             })
+
+            if (ad.verbose) {
+                console.log("-", "json", sd.json)
+            }
 
             if (_.is.Empty(sd.json.date)) {
                 console.log("#", "no data for", COUNTRY, PROVINCE)

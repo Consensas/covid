@@ -29,6 +29,11 @@ const path = require("path")
 
 const NAME = "ca-cases.yaml"
 
+const _normalize_text = v => _.coerce.to.String(v, v)
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, " ")
+    .replace(/\s+/, " ")
+
 const _normalize_province = op => {
     const np = {
         "Alberta": "AB",
@@ -47,7 +52,7 @@ const _normalize_province = op => {
     }[op]
 
     if (!np) {
-        console.log("#", "don't know province", op)
+        console.log("#", "data/ca.cases/cook", "don't know province", op)
         process.exit(1)
     }
 
@@ -73,7 +78,7 @@ const _boolean = v => {
     case "Not Reported":
         return null
     default:
-        console.log("#", "don't know boolean", v)
+        console.log("#", "data/ca.cases/cook", "don't know boolean", v)
         process.exit(1)
     }
 }
@@ -89,7 +94,7 @@ const _sex = v => {
     case "Not Reported":
         return null
     default:
-        console.log("#", "don't know sex", v)
+        console.log("#", "data/ca.cases/cook", "don't know sex", v)
         process.exit(1)
     }
 }
@@ -107,23 +112,6 @@ const _health_region = v => {
         return null
     } else {
         return v || null
-    }
-}
-
-const _acquired = v => {
-    switch (v) {
-    case "":
-        return null
-
-    case "Close Contact":
-        return "close-contact"
-
-    case "Community":
-        return "community"
-
-    default:
-        console.log("#", "don't know acquired", v)
-        process.exit(1)
     }
 }
 
@@ -156,22 +144,22 @@ const _one = _.promise((self, done) => {
                 acquired_country: null,
             }
 
-            switch (sd.json.locally_acquired) {
+            switch (_normalize_text(sd.json.locally_acquired)) {
             case "":
                 break
 
-            case "Close Contact":
+            case "close contact":
                 sd.record.acquired_close_contact = true
                 sd.record.acquired_country = "CA"
                 break
 
-            case "Community":
+            case "community":
                 sd.record.acquired_community = true
                 sd.record.acquired_country = "CA"
                 break
 
             default:
-                console.log("#", "don't know acquired", sd.json.locally_acquired)
+                console.log("#", "data/ca.cases/cook", "don't know acquired", sd.json.locally_acquired)
                 process.exit(1)
             }
         })

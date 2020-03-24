@@ -1,0 +1,28 @@
+country: CA
+state: YK
+key: ca-yk
+cases:
+  - id: 'urn:covid:ca.cases:1471'
+    dataset_id: '1471'
+    state_id: '1'
+    sources:
+      - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
+    date: '2020-03-22'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: Yukon
+    acquired_country: null
+  - id: 'urn:covid:ca.cases:1472'
+    dataset_id: '1472'
+    state_id: '2'
+    sources:
+      - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
+    date: '2020-03-22'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: null
+    sex: null
+    health_region: Yukon
+    acquired_country: null
