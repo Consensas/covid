@@ -266,13 +266,13 @@ _.promise({
     results: {},
 })
     // configuration
-    .then(fs.read.yaml.p(path.join(__dirname, "cook.yaml")))
-    .add("json:cfg")
+    .then(fs.read.yaml.p(path.join(__dirname, "settings.yaml")))
+    .add("json:settings")
 
     // names of things
     .each({
         method: _load_data,
-        inputs: "cfg/data:dataset",
+        inputs: "settings/data:dataset",
     })
 
     // core data
@@ -285,7 +285,7 @@ _.promise({
     // augment core dataset
     .each({
         method: _merge_data,
-        inputs: "cfg/merge:dataset",
+        inputs: "settings/merge:dataset",
     })
 
     // cleanup
