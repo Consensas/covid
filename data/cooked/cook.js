@@ -92,6 +92,7 @@ const _cook = _.promise((self, done) => {
                 case "Grand Princess": row._state = "XXGP"; return
                 case "Washington, D.C.": row._state = "DC"; return
                 case "Virgin Islands, U.S.": row._state = "VI"; return
+                case "United States Virgin Islands": row._state = "VI"; return
                 }
 
                 if (!row._state) {
