@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: NL
 key: ca-nl
 cases:
-  - id: 'urn:covid:ca.cases:249'
+  - '@id': 'urn:covid:consensas:ca.cases:249'
     dataset_id: '249'
     state_id: '1'
     sources:
@@ -14,10 +15,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: F
+    sex: Female
     health_region: Labrador-Grenfell
     acquired_country: null
-  - id: 'urn:covid:ca.cases:450'
+  - '@id': 'urn:covid:consensas:ca.cases:450'
     dataset_id: '450'
     state_id: '2'
     sources:
@@ -28,11 +29,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: M
+    sex: Male
     health_region: Labrador-Grenfell
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:451'
+  - '@id': 'urn:covid:consensas:ca.cases:451'
     dataset_id: '451'
     state_id: '3'
     sources:
@@ -43,11 +44,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: F
+    sex: Female
     health_region: Labrador-Grenfell
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:943'
+  - '@id': 'urn:covid:consensas:ca.cases:943'
     dataset_id: '943'
     state_id: '4'
     sources:
@@ -57,10 +58,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: M
+    sex: Male
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1195'
+  - '@id': 'urn:covid:consensas:ca.cases:1195'
     dataset_id: '1195'
     state_id: '5'
     sources:
@@ -70,10 +71,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: F
+    sex: Female
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1196'
+  - '@id': 'urn:covid:consensas:ca.cases:1196'
     dataset_id: '1196'
     state_id: '6'
     sources:
@@ -83,10 +84,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: F
+    sex: Female
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1424'
+  - '@id': 'urn:covid:consensas:ca.cases:1424'
     dataset_id: '1424'
     state_id: '7'
     sources:
@@ -99,7 +100,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1425'
+  - '@id': 'urn:covid:consensas:ca.cases:1425'
     dataset_id: '1425'
     state_id: '8'
     sources:
@@ -112,7 +113,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1426'
+  - '@id': 'urn:covid:consensas:ca.cases:1426'
     dataset_id: '1426'
     state_id: '9'
     sources:
@@ -125,7 +126,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2021'
+  - '@id': 'urn:covid:consensas:ca.cases:2021'
     dataset_id: '2021'
     state_id: '10'
     sources:
@@ -138,7 +139,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2022'
+  - '@id': 'urn:covid:consensas:ca.cases:2022'
     dataset_id: '2022'
     state_id: '11'
     sources:
@@ -151,7 +152,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2023'
+  - '@id': 'urn:covid:consensas:ca.cases:2023'
     dataset_id: '2023'
     state_id: '12'
     sources:
@@ -164,7 +165,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2024'
+  - '@id': 'urn:covid:consensas:ca.cases:2024'
     dataset_id: '2024'
     state_id: '13'
     sources:
@@ -178,7 +179,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2025'
+  - '@id': 'urn:covid:consensas:ca.cases:2025'
     dataset_id: '2025'
     state_id: '14'
     sources:
@@ -192,7 +193,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2026'
+  - '@id': 'urn:covid:consensas:ca.cases:2026'
     dataset_id: '2026'
     state_id: '15'
     sources:
@@ -206,7 +207,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2027'
+  - '@id': 'urn:covid:consensas:ca.cases:2027'
     dataset_id: '2027'
     state_id: '16'
     sources:
@@ -220,7 +221,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2028'
+  - '@id': 'urn:covid:consensas:ca.cases:2028'
     dataset_id: '2028'
     state_id: '17'
     sources:
@@ -234,7 +235,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2029'
+  - '@id': 'urn:covid:consensas:ca.cases:2029'
     dataset_id: '2029'
     state_id: '18'
     sources:
@@ -248,7 +249,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2030'
+  - '@id': 'urn:covid:consensas:ca.cases:2030'
     dataset_id: '2030'
     state_id: '19'
     sources:
@@ -262,7 +263,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2031'
+  - '@id': 'urn:covid:consensas:ca.cases:2031'
     dataset_id: '2031'
     state_id: '20'
     sources:
@@ -276,7 +277,7 @@ cases:
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:2032'
+  - '@id': 'urn:covid:consensas:ca.cases:2032'
     dataset_id: '2032'
     state_id: '21'
     sources:
@@ -289,7 +290,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2033'
+  - '@id': 'urn:covid:consensas:ca.cases:2033'
     dataset_id: '2033'
     state_id: '22'
     sources:
@@ -302,7 +303,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2034'
+  - '@id': 'urn:covid:consensas:ca.cases:2034'
     dataset_id: '2034'
     state_id: '23'
     sources:
@@ -315,7 +316,7 @@ cases:
     sex: null
     health_region: Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2035'
+  - '@id': 'urn:covid:consensas:ca.cases:2035'
     dataset_id: '2035'
     state_id: '24'
     sources:

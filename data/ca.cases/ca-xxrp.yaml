@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: XXRP
 key: ca-xxrp
 cases:
-  - id: 'urn:covid:ca.cases:250'
+  - '@id': 'urn:covid:consensas:ca.cases:250'
     dataset_id: '250'
     state_id: '1'
     sources:
@@ -15,7 +16,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:251'
+  - '@id': 'urn:covid:consensas:ca.cases:251'
     dataset_id: '251'
     state_id: '2'
     sources:
@@ -28,7 +29,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:252'
+  - '@id': 'urn:covid:consensas:ca.cases:252'
     dataset_id: '252'
     state_id: '3'
     sources:
@@ -41,7 +42,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:253'
+  - '@id': 'urn:covid:consensas:ca.cases:253'
     dataset_id: '253'
     state_id: '4'
     sources:
@@ -54,7 +55,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:419'
+  - '@id': 'urn:covid:consensas:ca.cases:419'
     dataset_id: '419'
     state_id: '5'
     sources:
@@ -67,7 +68,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:420'
+  - '@id': 'urn:covid:consensas:ca.cases:420'
     dataset_id: '420'
     state_id: '6'
     sources:
@@ -80,7 +81,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:421'
+  - '@id': 'urn:covid:consensas:ca.cases:421'
     dataset_id: '421'
     state_id: '7'
     sources:
@@ -93,7 +94,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:422'
+  - '@id': 'urn:covid:consensas:ca.cases:422'
     dataset_id: '422'
     state_id: '8'
     sources:
@@ -106,7 +107,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:484'
+  - '@id': 'urn:covid:consensas:ca.cases:484'
     dataset_id: '484'
     state_id: '9'
     sources:
@@ -119,7 +120,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:801'
+  - '@id': 'urn:covid:consensas:ca.cases:801'
     dataset_id: '801'
     state_id: '10'
     sources:
@@ -132,7 +133,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:950'
+  - '@id': 'urn:covid:consensas:ca.cases:950'
     dataset_id: '950'
     state_id: '11'
     sources:
@@ -145,7 +146,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:951'
+  - '@id': 'urn:covid:consensas:ca.cases:951'
     dataset_id: '951'
     state_id: '12'
     sources:
@@ -158,7 +159,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1331'
+  - '@id': 'urn:covid:consensas:ca.cases:1331'
     dataset_id: '1331'
     state_id: '13'
     sources:

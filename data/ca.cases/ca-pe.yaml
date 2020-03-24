@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: PE
 key: ca-pe
 cases:
-  - id: 'urn:covid:ca.cases:248'
+  - '@id': 'urn:covid:consensas:ca.cases:248'
     dataset_id: '248'
     state_id: '1'
     sources:
@@ -12,10 +13,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Prince Edward Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:800'
+  - '@id': 'urn:covid:consensas:ca.cases:800'
     dataset_id: '800'
     state_id: '2'
     sources:
@@ -24,10 +25,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Prince Edward Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1435'
+  - '@id': 'urn:covid:consensas:ca.cases:1435'
     dataset_id: '1435'
     state_id: '3'
     sources:
@@ -37,6 +38,6 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 20-29
-    sex: F
+    sex: Female
     health_region: Prince Edward Island
     acquired_country: null

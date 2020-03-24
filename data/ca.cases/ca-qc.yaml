@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: QC
 key: ca-qc
 cases:
-  - id: 'urn:covid:ca.cases:14'
+  - '@id': 'urn:covid:consensas:ca.cases:14'
     dataset_id: '14'
     state_id: '1'
     sources:
@@ -16,10 +17,10 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:35'
+  - '@id': 'urn:covid:consensas:ca.cases:35'
     dataset_id: '35'
     state_id: '2'
     sources:
@@ -31,10 +32,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 70-79
-    sex: M
+    sex: Male
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:51'
+  - '@id': 'urn:covid:consensas:ca.cases:51'
     dataset_id: '51'
     state_id: '3'
     sources:
@@ -50,7 +51,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:62'
+  - '@id': 'urn:covid:consensas:ca.cases:62'
     dataset_id: '62'
     state_id: '4'
     sources:
@@ -61,10 +62,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: F
+    sex: Female
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:79'
+  - '@id': 'urn:covid:consensas:ca.cases:79'
     dataset_id: '79'
     state_id: '5'
     sources:
@@ -76,10 +77,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: M
+    sex: Male
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:100'
+  - '@id': 'urn:covid:consensas:ca.cases:100'
     dataset_id: '100'
     state_id: '6'
     sources:
@@ -93,7 +94,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:101'
+  - '@id': 'urn:covid:consensas:ca.cases:101'
     dataset_id: '101'
     state_id: '7'
     sources:
@@ -107,7 +108,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:102'
+  - '@id': 'urn:covid:consensas:ca.cases:102'
     dataset_id: '102'
     state_id: '8'
     sources:
@@ -121,7 +122,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:135'
+  - '@id': 'urn:covid:consensas:ca.cases:135'
     dataset_id: '135'
     state_id: '9'
     sources:
@@ -135,7 +136,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:136'
+  - '@id': 'urn:covid:consensas:ca.cases:136'
     dataset_id: '136'
     state_id: '10'
     sources:
@@ -149,7 +150,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:137'
+  - '@id': 'urn:covid:consensas:ca.cases:137'
     dataset_id: '137'
     state_id: '11'
     sources:
@@ -163,7 +164,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:138'
+  - '@id': 'urn:covid:consensas:ca.cases:138'
     dataset_id: '138'
     state_id: '12'
     sources:
@@ -177,7 +178,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:139'
+  - '@id': 'urn:covid:consensas:ca.cases:139'
     dataset_id: '139'
     state_id: '13'
     sources:
@@ -191,7 +192,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:145'
+  - '@id': 'urn:covid:consensas:ca.cases:145'
     dataset_id: '145'
     state_id: '14'
     sources:
@@ -203,7 +204,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:146'
+  - '@id': 'urn:covid:consensas:ca.cases:146'
     dataset_id: '146'
     state_id: '15'
     sources:
@@ -215,7 +216,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:147'
+  - '@id': 'urn:covid:consensas:ca.cases:147'
     dataset_id: '147'
     state_id: '16'
     sources:
@@ -227,7 +228,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:148'
+  - '@id': 'urn:covid:consensas:ca.cases:148'
     dataset_id: '148'
     state_id: '17'
     sources:
@@ -239,7 +240,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:222'
+  - '@id': 'urn:covid:consensas:ca.cases:222'
     dataset_id: '222'
     state_id: '18'
     sources:
@@ -252,7 +253,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:223'
+  - '@id': 'urn:covid:consensas:ca.cases:223'
     dataset_id: '223'
     state_id: '19'
     sources:
@@ -265,7 +266,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:224'
+  - '@id': 'urn:covid:consensas:ca.cases:224'
     dataset_id: '224'
     state_id: '20'
     sources:
@@ -278,7 +279,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:225'
+  - '@id': 'urn:covid:consensas:ca.cases:225'
     dataset_id: '225'
     state_id: '21'
     sources:
@@ -291,7 +292,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:226'
+  - '@id': 'urn:covid:consensas:ca.cases:226'
     dataset_id: '226'
     state_id: '22'
     sources:
@@ -304,7 +305,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:227'
+  - '@id': 'urn:covid:consensas:ca.cases:227'
     dataset_id: '227'
     state_id: '23'
     sources:
@@ -317,7 +318,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:228'
+  - '@id': 'urn:covid:consensas:ca.cases:228'
     dataset_id: '228'
     state_id: '24'
     sources:
@@ -330,7 +331,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:299'
+  - '@id': 'urn:covid:consensas:ca.cases:299'
     dataset_id: '299'
     state_id: '25'
     sources:
@@ -343,7 +344,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:300'
+  - '@id': 'urn:covid:consensas:ca.cases:300'
     dataset_id: '300'
     state_id: '26'
     sources:
@@ -356,7 +357,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:301'
+  - '@id': 'urn:covid:consensas:ca.cases:301'
     dataset_id: '301'
     state_id: '27'
     sources:
@@ -369,7 +370,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:302'
+  - '@id': 'urn:covid:consensas:ca.cases:302'
     dataset_id: '302'
     state_id: '28'
     sources:
@@ -382,7 +383,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:303'
+  - '@id': 'urn:covid:consensas:ca.cases:303'
     dataset_id: '303'
     state_id: '29'
     sources:
@@ -395,7 +396,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:304'
+  - '@id': 'urn:covid:consensas:ca.cases:304'
     dataset_id: '304'
     state_id: '30'
     sources:
@@ -408,7 +409,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:305'
+  - '@id': 'urn:covid:consensas:ca.cases:305'
     dataset_id: '305'
     state_id: '31'
     sources:
@@ -421,7 +422,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:306'
+  - '@id': 'urn:covid:consensas:ca.cases:306'
     dataset_id: '306'
     state_id: '32'
     sources:
@@ -434,7 +435,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:307'
+  - '@id': 'urn:covid:consensas:ca.cases:307'
     dataset_id: '307'
     state_id: '33'
     sources:
@@ -447,7 +448,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:308'
+  - '@id': 'urn:covid:consensas:ca.cases:308'
     dataset_id: '308'
     state_id: '34'
     sources:
@@ -460,7 +461,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:309'
+  - '@id': 'urn:covid:consensas:ca.cases:309'
     dataset_id: '309'
     state_id: '35'
     sources:
@@ -473,7 +474,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:338'
+  - '@id': 'urn:covid:consensas:ca.cases:338'
     dataset_id: '338'
     state_id: '36'
     sources:
@@ -485,7 +486,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:339'
+  - '@id': 'urn:covid:consensas:ca.cases:339'
     dataset_id: '339'
     state_id: '37'
     sources:
@@ -497,7 +498,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:340'
+  - '@id': 'urn:covid:consensas:ca.cases:340'
     dataset_id: '340'
     state_id: '38'
     sources:
@@ -509,7 +510,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:341'
+  - '@id': 'urn:covid:consensas:ca.cases:341'
     dataset_id: '341'
     state_id: '39'
     sources:
@@ -521,7 +522,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:374'
+  - '@id': 'urn:covid:consensas:ca.cases:374'
     dataset_id: '374'
     state_id: '40'
     sources:
@@ -534,7 +535,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:375'
+  - '@id': 'urn:covid:consensas:ca.cases:375'
     dataset_id: '375'
     state_id: '41'
     sources:
@@ -547,7 +548,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:379'
+  - '@id': 'urn:covid:consensas:ca.cases:379'
     dataset_id: '379'
     state_id: '42'
     sources:
@@ -560,7 +561,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:380'
+  - '@id': 'urn:covid:consensas:ca.cases:380'
     dataset_id: '380'
     state_id: '43'
     sources:
@@ -573,7 +574,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:381'
+  - '@id': 'urn:covid:consensas:ca.cases:381'
     dataset_id: '381'
     state_id: '44'
     sources:
@@ -586,7 +587,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:382'
+  - '@id': 'urn:covid:consensas:ca.cases:382'
     dataset_id: '382'
     state_id: '45'
     sources:
@@ -599,7 +600,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:383'
+  - '@id': 'urn:covid:consensas:ca.cases:383'
     dataset_id: '383'
     state_id: '46'
     sources:
@@ -612,7 +613,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:384'
+  - '@id': 'urn:covid:consensas:ca.cases:384'
     dataset_id: '384'
     state_id: '47'
     sources:
@@ -625,7 +626,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:385'
+  - '@id': 'urn:covid:consensas:ca.cases:385'
     dataset_id: '385'
     state_id: '48'
     sources:
@@ -638,7 +639,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:386'
+  - '@id': 'urn:covid:consensas:ca.cases:386'
     dataset_id: '386'
     state_id: '49'
     sources:
@@ -651,7 +652,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:387'
+  - '@id': 'urn:covid:consensas:ca.cases:387'
     dataset_id: '387'
     state_id: '50'
     sources:
@@ -664,7 +665,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:453'
+  - '@id': 'urn:covid:consensas:ca.cases:453'
     dataset_id: '453'
     state_id: '51'
     sources:
@@ -677,7 +678,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:454'
+  - '@id': 'urn:covid:consensas:ca.cases:454'
     dataset_id: '454'
     state_id: '52'
     sources:
@@ -690,7 +691,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:455'
+  - '@id': 'urn:covid:consensas:ca.cases:455'
     dataset_id: '455'
     state_id: '53'
     sources:
@@ -703,7 +704,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:456'
+  - '@id': 'urn:covid:consensas:ca.cases:456'
     dataset_id: '456'
     state_id: '54'
     sources:
@@ -716,7 +717,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:457'
+  - '@id': 'urn:covid:consensas:ca.cases:457'
     dataset_id: '457'
     state_id: '55'
     sources:
@@ -729,7 +730,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:458'
+  - '@id': 'urn:covid:consensas:ca.cases:458'
     dataset_id: '458'
     state_id: '56'
     sources:
@@ -742,7 +743,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:459'
+  - '@id': 'urn:covid:consensas:ca.cases:459'
     dataset_id: '459'
     state_id: '57'
     sources:
@@ -755,7 +756,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:460'
+  - '@id': 'urn:covid:consensas:ca.cases:460'
     dataset_id: '460'
     state_id: '58'
     sources:
@@ -768,7 +769,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:461'
+  - '@id': 'urn:covid:consensas:ca.cases:461'
     dataset_id: '461'
     state_id: '59'
     sources:
@@ -781,7 +782,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:462'
+  - '@id': 'urn:covid:consensas:ca.cases:462'
     dataset_id: '462'
     state_id: '60'
     sources:
@@ -794,7 +795,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:463'
+  - '@id': 'urn:covid:consensas:ca.cases:463'
     dataset_id: '463'
     state_id: '61'
     sources:
@@ -807,7 +808,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:464'
+  - '@id': 'urn:covid:consensas:ca.cases:464'
     dataset_id: '464'
     state_id: '62'
     sources:
@@ -820,7 +821,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:465'
+  - '@id': 'urn:covid:consensas:ca.cases:465'
     dataset_id: '465'
     state_id: '63'
     sources:
@@ -833,7 +834,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:466'
+  - '@id': 'urn:covid:consensas:ca.cases:466'
     dataset_id: '466'
     state_id: '64'
     sources:
@@ -846,7 +847,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:467'
+  - '@id': 'urn:covid:consensas:ca.cases:467'
     dataset_id: '467'
     state_id: '65'
     sources:
@@ -859,7 +860,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:468'
+  - '@id': 'urn:covid:consensas:ca.cases:468'
     dataset_id: '468'
     state_id: '66'
     sources:
@@ -872,7 +873,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:469'
+  - '@id': 'urn:covid:consensas:ca.cases:469'
     dataset_id: '469'
     state_id: '67'
     sources:
@@ -885,7 +886,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:470'
+  - '@id': 'urn:covid:consensas:ca.cases:470'
     dataset_id: '470'
     state_id: '68'
     sources:
@@ -898,7 +899,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:471'
+  - '@id': 'urn:covid:consensas:ca.cases:471'
     dataset_id: '471'
     state_id: '69'
     sources:
@@ -911,7 +912,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:472'
+  - '@id': 'urn:covid:consensas:ca.cases:472'
     dataset_id: '472'
     state_id: '70'
     sources:
@@ -924,7 +925,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:473'
+  - '@id': 'urn:covid:consensas:ca.cases:473'
     dataset_id: '473'
     state_id: '71'
     sources:
@@ -937,7 +938,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:474'
+  - '@id': 'urn:covid:consensas:ca.cases:474'
     dataset_id: '474'
     state_id: '72'
     sources:
@@ -950,7 +951,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:475'
+  - '@id': 'urn:covid:consensas:ca.cases:475'
     dataset_id: '475'
     state_id: '73'
     sources:
@@ -963,7 +964,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:476'
+  - '@id': 'urn:covid:consensas:ca.cases:476'
     dataset_id: '476'
     state_id: '74'
     sources:
@@ -976,7 +977,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:621'
+  - '@id': 'urn:covid:consensas:ca.cases:621'
     dataset_id: '621'
     state_id: '75'
     sources:
@@ -988,7 +989,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:622'
+  - '@id': 'urn:covid:consensas:ca.cases:622'
     dataset_id: '622'
     state_id: '76'
     sources:
@@ -1000,7 +1001,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:623'
+  - '@id': 'urn:covid:consensas:ca.cases:623'
     dataset_id: '623'
     state_id: '77'
     sources:
@@ -1012,7 +1013,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:624'
+  - '@id': 'urn:covid:consensas:ca.cases:624'
     dataset_id: '624'
     state_id: '78'
     sources:
@@ -1024,7 +1025,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:625'
+  - '@id': 'urn:covid:consensas:ca.cases:625'
     dataset_id: '625'
     state_id: '79'
     sources:
@@ -1036,7 +1037,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:626'
+  - '@id': 'urn:covid:consensas:ca.cases:626'
     dataset_id: '626'
     state_id: '80'
     sources:
@@ -1048,7 +1049,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:627'
+  - '@id': 'urn:covid:consensas:ca.cases:627'
     dataset_id: '627'
     state_id: '81'
     sources:
@@ -1060,7 +1061,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:628'
+  - '@id': 'urn:covid:consensas:ca.cases:628'
     dataset_id: '628'
     state_id: '82'
     sources:
@@ -1072,7 +1073,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:629'
+  - '@id': 'urn:covid:consensas:ca.cases:629'
     dataset_id: '629'
     state_id: '83'
     sources:
@@ -1084,7 +1085,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:630'
+  - '@id': 'urn:covid:consensas:ca.cases:630'
     dataset_id: '630'
     state_id: '84'
     sources:
@@ -1096,7 +1097,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:631'
+  - '@id': 'urn:covid:consensas:ca.cases:631'
     dataset_id: '631'
     state_id: '85'
     sources:
@@ -1108,7 +1109,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:632'
+  - '@id': 'urn:covid:consensas:ca.cases:632'
     dataset_id: '632'
     state_id: '86'
     sources:
@@ -1120,7 +1121,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:633'
+  - '@id': 'urn:covid:consensas:ca.cases:633'
     dataset_id: '633'
     state_id: '87'
     sources:
@@ -1132,7 +1133,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:634'
+  - '@id': 'urn:covid:consensas:ca.cases:634'
     dataset_id: '634'
     state_id: '88'
     sources:
@@ -1144,7 +1145,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:635'
+  - '@id': 'urn:covid:consensas:ca.cases:635'
     dataset_id: '635'
     state_id: '89'
     sources:
@@ -1156,7 +1157,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:636'
+  - '@id': 'urn:covid:consensas:ca.cases:636'
     dataset_id: '636'
     state_id: '90'
     sources:
@@ -1168,7 +1169,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:637'
+  - '@id': 'urn:covid:consensas:ca.cases:637'
     dataset_id: '637'
     state_id: '91'
     sources:
@@ -1180,7 +1181,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:638'
+  - '@id': 'urn:covid:consensas:ca.cases:638'
     dataset_id: '638'
     state_id: '92'
     sources:
@@ -1192,7 +1193,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:639'
+  - '@id': 'urn:covid:consensas:ca.cases:639'
     dataset_id: '639'
     state_id: '93'
     sources:
@@ -1204,7 +1205,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:640'
+  - '@id': 'urn:covid:consensas:ca.cases:640'
     dataset_id: '640'
     state_id: '94'
     sources:
@@ -1216,7 +1217,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:771'
+  - '@id': 'urn:covid:consensas:ca.cases:771'
     dataset_id: '771'
     state_id: '95'
     sources:
@@ -1229,7 +1230,7 @@ cases:
     sex: null
     health_region: Bas-Saint-Laurent
     acquired_country: null
-  - id: 'urn:covid:ca.cases:772'
+  - '@id': 'urn:covid:consensas:ca.cases:772'
     dataset_id: '772'
     state_id: '96'
     sources:
@@ -1242,7 +1243,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:773'
+  - '@id': 'urn:covid:consensas:ca.cases:773'
     dataset_id: '773'
     state_id: '97'
     sources:
@@ -1255,7 +1256,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:774'
+  - '@id': 'urn:covid:consensas:ca.cases:774'
     dataset_id: '774'
     state_id: '98'
     sources:
@@ -1268,7 +1269,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:775'
+  - '@id': 'urn:covid:consensas:ca.cases:775'
     dataset_id: '775'
     state_id: '99'
     sources:
@@ -1281,7 +1282,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:776'
+  - '@id': 'urn:covid:consensas:ca.cases:776'
     dataset_id: '776'
     state_id: '100'
     sources:
@@ -1294,7 +1295,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:777'
+  - '@id': 'urn:covid:consensas:ca.cases:777'
     dataset_id: '777'
     state_id: '101'
     sources:
@@ -1307,7 +1308,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:778'
+  - '@id': 'urn:covid:consensas:ca.cases:778'
     dataset_id: '778'
     state_id: '102'
     sources:
@@ -1320,7 +1321,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:779'
+  - '@id': 'urn:covid:consensas:ca.cases:779'
     dataset_id: '779'
     state_id: '103'
     sources:
@@ -1333,7 +1334,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:780'
+  - '@id': 'urn:covid:consensas:ca.cases:780'
     dataset_id: '780'
     state_id: '104'
     sources:
@@ -1346,7 +1347,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:781'
+  - '@id': 'urn:covid:consensas:ca.cases:781'
     dataset_id: '781'
     state_id: '105'
     sources:
@@ -1359,7 +1360,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:782'
+  - '@id': 'urn:covid:consensas:ca.cases:782'
     dataset_id: '782'
     state_id: '106'
     sources:
@@ -1372,7 +1373,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:783'
+  - '@id': 'urn:covid:consensas:ca.cases:783'
     dataset_id: '783'
     state_id: '107'
     sources:
@@ -1385,7 +1386,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:784'
+  - '@id': 'urn:covid:consensas:ca.cases:784'
     dataset_id: '784'
     state_id: '108'
     sources:
@@ -1398,7 +1399,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:785'
+  - '@id': 'urn:covid:consensas:ca.cases:785'
     dataset_id: '785'
     state_id: '109'
     sources:
@@ -1411,7 +1412,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:786'
+  - '@id': 'urn:covid:consensas:ca.cases:786'
     dataset_id: '786'
     state_id: '110'
     sources:
@@ -1424,7 +1425,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:787'
+  - '@id': 'urn:covid:consensas:ca.cases:787'
     dataset_id: '787'
     state_id: '111'
     sources:
@@ -1437,7 +1438,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:788'
+  - '@id': 'urn:covid:consensas:ca.cases:788'
     dataset_id: '788'
     state_id: '112'
     sources:
@@ -1450,7 +1451,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:789'
+  - '@id': 'urn:covid:consensas:ca.cases:789'
     dataset_id: '789'
     state_id: '113'
     sources:
@@ -1463,7 +1464,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:790'
+  - '@id': 'urn:covid:consensas:ca.cases:790'
     dataset_id: '790'
     state_id: '114'
     sources:
@@ -1476,7 +1477,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:791'
+  - '@id': 'urn:covid:consensas:ca.cases:791'
     dataset_id: '791'
     state_id: '115'
     sources:
@@ -1489,7 +1490,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:792'
+  - '@id': 'urn:covid:consensas:ca.cases:792'
     dataset_id: '792'
     state_id: '116'
     sources:
@@ -1502,7 +1503,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:793'
+  - '@id': 'urn:covid:consensas:ca.cases:793'
     dataset_id: '793'
     state_id: '117'
     sources:
@@ -1515,7 +1516,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:794'
+  - '@id': 'urn:covid:consensas:ca.cases:794'
     dataset_id: '794'
     state_id: '118'
     sources:
@@ -1528,7 +1529,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:795'
+  - '@id': 'urn:covid:consensas:ca.cases:795'
     dataset_id: '795'
     state_id: '119'
     sources:
@@ -1541,7 +1542,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:796'
+  - '@id': 'urn:covid:consensas:ca.cases:796'
     dataset_id: '796'
     state_id: '120'
     sources:
@@ -1554,7 +1555,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:797'
+  - '@id': 'urn:covid:consensas:ca.cases:797'
     dataset_id: '797'
     state_id: '121'
     sources:
@@ -1567,7 +1568,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:924'
+  - '@id': 'urn:covid:consensas:ca.cases:924'
     dataset_id: '924'
     state_id: '122'
     sources:
@@ -1580,7 +1581,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:925'
+  - '@id': 'urn:covid:consensas:ca.cases:925'
     dataset_id: '925'
     state_id: '123'
     sources:
@@ -1593,7 +1594,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:926'
+  - '@id': 'urn:covid:consensas:ca.cases:926'
     dataset_id: '926'
     state_id: '124'
     sources:
@@ -1606,7 +1607,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:927'
+  - '@id': 'urn:covid:consensas:ca.cases:927'
     dataset_id: '927'
     state_id: '125'
     sources:
@@ -1619,7 +1620,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:928'
+  - '@id': 'urn:covid:consensas:ca.cases:928'
     dataset_id: '928'
     state_id: '126'
     sources:
@@ -1632,7 +1633,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:929'
+  - '@id': 'urn:covid:consensas:ca.cases:929'
     dataset_id: '929'
     state_id: '127'
     sources:
@@ -1645,7 +1646,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:930'
+  - '@id': 'urn:covid:consensas:ca.cases:930'
     dataset_id: '930'
     state_id: '128'
     sources:
@@ -1658,7 +1659,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:931'
+  - '@id': 'urn:covid:consensas:ca.cases:931'
     dataset_id: '931'
     state_id: '129'
     sources:
@@ -1671,7 +1672,7 @@ cases:
     sex: null
     health_region: Nord-du-Québec
     acquired_country: null
-  - id: 'urn:covid:ca.cases:932'
+  - '@id': 'urn:covid:consensas:ca.cases:932'
     dataset_id: '932'
     state_id: '130'
     sources:
@@ -1684,7 +1685,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:933'
+  - '@id': 'urn:covid:consensas:ca.cases:933'
     dataset_id: '933'
     state_id: '131'
     sources:
@@ -1697,7 +1698,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:934'
+  - '@id': 'urn:covid:consensas:ca.cases:934'
     dataset_id: '934'
     state_id: '132'
     sources:
@@ -1710,7 +1711,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:935'
+  - '@id': 'urn:covid:consensas:ca.cases:935'
     dataset_id: '935'
     state_id: '133'
     sources:
@@ -1723,7 +1724,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:936'
+  - '@id': 'urn:covid:consensas:ca.cases:936'
     dataset_id: '936'
     state_id: '134'
     sources:
@@ -1736,7 +1737,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:937'
+  - '@id': 'urn:covid:consensas:ca.cases:937'
     dataset_id: '937'
     state_id: '135'
     sources:
@@ -1749,7 +1750,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:938'
+  - '@id': 'urn:covid:consensas:ca.cases:938'
     dataset_id: '938'
     state_id: '136'
     sources:
@@ -1762,7 +1763,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:939'
+  - '@id': 'urn:covid:consensas:ca.cases:939'
     dataset_id: '939'
     state_id: '137'
     sources:
@@ -1775,7 +1776,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:940'
+  - '@id': 'urn:covid:consensas:ca.cases:940'
     dataset_id: '940'
     state_id: '138'
     sources:
@@ -1788,7 +1789,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:941'
+  - '@id': 'urn:covid:consensas:ca.cases:941'
     dataset_id: '941'
     state_id: '139'
     sources:
@@ -1801,7 +1802,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1147'
+  - '@id': 'urn:covid:consensas:ca.cases:1147'
     dataset_id: '1147'
     state_id: '140'
     sources:
@@ -1814,7 +1815,7 @@ cases:
     sex: null
     health_region: Saguenay
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1148'
+  - '@id': 'urn:covid:consensas:ca.cases:1148'
     dataset_id: '1148'
     state_id: '141'
     sources:
@@ -1827,7 +1828,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1149'
+  - '@id': 'urn:covid:consensas:ca.cases:1149'
     dataset_id: '1149'
     state_id: '142'
     sources:
@@ -1840,7 +1841,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1150'
+  - '@id': 'urn:covid:consensas:ca.cases:1150'
     dataset_id: '1150'
     state_id: '143'
     sources:
@@ -1853,7 +1854,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1151'
+  - '@id': 'urn:covid:consensas:ca.cases:1151'
     dataset_id: '1151'
     state_id: '144'
     sources:
@@ -1866,7 +1867,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1152'
+  - '@id': 'urn:covid:consensas:ca.cases:1152'
     dataset_id: '1152'
     state_id: '145'
     sources:
@@ -1879,7 +1880,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1153'
+  - '@id': 'urn:covid:consensas:ca.cases:1153'
     dataset_id: '1153'
     state_id: '146'
     sources:
@@ -1892,7 +1893,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1154'
+  - '@id': 'urn:covid:consensas:ca.cases:1154'
     dataset_id: '1154'
     state_id: '147'
     sources:
@@ -1905,7 +1906,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1155'
+  - '@id': 'urn:covid:consensas:ca.cases:1155'
     dataset_id: '1155'
     state_id: '148'
     sources:
@@ -1918,7 +1919,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1156'
+  - '@id': 'urn:covid:consensas:ca.cases:1156'
     dataset_id: '1156'
     state_id: '149'
     sources:
@@ -1931,7 +1932,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1157'
+  - '@id': 'urn:covid:consensas:ca.cases:1157'
     dataset_id: '1157'
     state_id: '150'
     sources:
@@ -1944,7 +1945,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1158'
+  - '@id': 'urn:covid:consensas:ca.cases:1158'
     dataset_id: '1158'
     state_id: '151'
     sources:
@@ -1957,7 +1958,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1159'
+  - '@id': 'urn:covid:consensas:ca.cases:1159'
     dataset_id: '1159'
     state_id: '152'
     sources:
@@ -1970,7 +1971,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1160'
+  - '@id': 'urn:covid:consensas:ca.cases:1160'
     dataset_id: '1160'
     state_id: '153'
     sources:
@@ -1983,7 +1984,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1161'
+  - '@id': 'urn:covid:consensas:ca.cases:1161'
     dataset_id: '1161'
     state_id: '154'
     sources:
@@ -1996,7 +1997,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1162'
+  - '@id': 'urn:covid:consensas:ca.cases:1162'
     dataset_id: '1162'
     state_id: '155'
     sources:
@@ -2009,7 +2010,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1163'
+  - '@id': 'urn:covid:consensas:ca.cases:1163'
     dataset_id: '1163'
     state_id: '156'
     sources:
@@ -2022,7 +2023,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1164'
+  - '@id': 'urn:covid:consensas:ca.cases:1164'
     dataset_id: '1164'
     state_id: '157'
     sources:
@@ -2035,7 +2036,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1165'
+  - '@id': 'urn:covid:consensas:ca.cases:1165'
     dataset_id: '1165'
     state_id: '158'
     sources:
@@ -2048,7 +2049,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1166'
+  - '@id': 'urn:covid:consensas:ca.cases:1166'
     dataset_id: '1166'
     state_id: '159'
     sources:
@@ -2061,7 +2062,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1167'
+  - '@id': 'urn:covid:consensas:ca.cases:1167'
     dataset_id: '1167'
     state_id: '160'
     sources:
@@ -2074,7 +2075,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1168'
+  - '@id': 'urn:covid:consensas:ca.cases:1168'
     dataset_id: '1168'
     state_id: '161'
     sources:
@@ -2087,7 +2088,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1169'
+  - '@id': 'urn:covid:consensas:ca.cases:1169'
     dataset_id: '1169'
     state_id: '162'
     sources:
@@ -2100,7 +2101,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1170'
+  - '@id': 'urn:covid:consensas:ca.cases:1170'
     dataset_id: '1170'
     state_id: '163'
     sources:
@@ -2113,7 +2114,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1171'
+  - '@id': 'urn:covid:consensas:ca.cases:1171'
     dataset_id: '1171'
     state_id: '164'
     sources:
@@ -2126,7 +2127,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1172'
+  - '@id': 'urn:covid:consensas:ca.cases:1172'
     dataset_id: '1172'
     state_id: '165'
     sources:
@@ -2139,7 +2140,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1173'
+  - '@id': 'urn:covid:consensas:ca.cases:1173'
     dataset_id: '1173'
     state_id: '166'
     sources:
@@ -2152,7 +2153,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1174'
+  - '@id': 'urn:covid:consensas:ca.cases:1174'
     dataset_id: '1174'
     state_id: '167'
     sources:
@@ -2165,7 +2166,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1175'
+  - '@id': 'urn:covid:consensas:ca.cases:1175'
     dataset_id: '1175'
     state_id: '168'
     sources:
@@ -2178,7 +2179,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1176'
+  - '@id': 'urn:covid:consensas:ca.cases:1176'
     dataset_id: '1176'
     state_id: '169'
     sources:
@@ -2191,7 +2192,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1177'
+  - '@id': 'urn:covid:consensas:ca.cases:1177'
     dataset_id: '1177'
     state_id: '170'
     sources:
@@ -2204,7 +2205,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1178'
+  - '@id': 'urn:covid:consensas:ca.cases:1178'
     dataset_id: '1178'
     state_id: '171'
     sources:
@@ -2217,7 +2218,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1179'
+  - '@id': 'urn:covid:consensas:ca.cases:1179'
     dataset_id: '1179'
     state_id: '172'
     sources:
@@ -2230,7 +2231,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1180'
+  - '@id': 'urn:covid:consensas:ca.cases:1180'
     dataset_id: '1180'
     state_id: '173'
     sources:
@@ -2243,7 +2244,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1181'
+  - '@id': 'urn:covid:consensas:ca.cases:1181'
     dataset_id: '1181'
     state_id: '174'
     sources:
@@ -2256,7 +2257,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1182'
+  - '@id': 'urn:covid:consensas:ca.cases:1182'
     dataset_id: '1182'
     state_id: '175'
     sources:
@@ -2269,7 +2270,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1183'
+  - '@id': 'urn:covid:consensas:ca.cases:1183'
     dataset_id: '1183'
     state_id: '176'
     sources:
@@ -2282,7 +2283,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1184'
+  - '@id': 'urn:covid:consensas:ca.cases:1184'
     dataset_id: '1184'
     state_id: '177'
     sources:
@@ -2295,7 +2296,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1185'
+  - '@id': 'urn:covid:consensas:ca.cases:1185'
     dataset_id: '1185'
     state_id: '178'
     sources:
@@ -2308,7 +2309,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1186'
+  - '@id': 'urn:covid:consensas:ca.cases:1186'
     dataset_id: '1186'
     state_id: '179'
     sources:
@@ -2321,7 +2322,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1187'
+  - '@id': 'urn:covid:consensas:ca.cases:1187'
     dataset_id: '1187'
     state_id: '180'
     sources:
@@ -2334,7 +2335,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1188'
+  - '@id': 'urn:covid:consensas:ca.cases:1188'
     dataset_id: '1188'
     state_id: '181'
     sources:
@@ -2347,7 +2348,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1379'
+  - '@id': 'urn:covid:consensas:ca.cases:1379'
     dataset_id: '1379'
     state_id: '182'
     sources:
@@ -2360,7 +2361,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1380'
+  - '@id': 'urn:covid:consensas:ca.cases:1380'
     dataset_id: '1380'
     state_id: '183'
     sources:
@@ -2373,7 +2374,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1381'
+  - '@id': 'urn:covid:consensas:ca.cases:1381'
     dataset_id: '1381'
     state_id: '184'
     sources:
@@ -2386,7 +2387,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1382'
+  - '@id': 'urn:covid:consensas:ca.cases:1382'
     dataset_id: '1382'
     state_id: '185'
     sources:
@@ -2399,7 +2400,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1383'
+  - '@id': 'urn:covid:consensas:ca.cases:1383'
     dataset_id: '1383'
     state_id: '186'
     sources:
@@ -2412,7 +2413,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1384'
+  - '@id': 'urn:covid:consensas:ca.cases:1384'
     dataset_id: '1384'
     state_id: '187'
     sources:
@@ -2425,7 +2426,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1385'
+  - '@id': 'urn:covid:consensas:ca.cases:1385'
     dataset_id: '1385'
     state_id: '188'
     sources:
@@ -2438,7 +2439,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1386'
+  - '@id': 'urn:covid:consensas:ca.cases:1386'
     dataset_id: '1386'
     state_id: '189'
     sources:
@@ -2451,7 +2452,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1387'
+  - '@id': 'urn:covid:consensas:ca.cases:1387'
     dataset_id: '1387'
     state_id: '190'
     sources:
@@ -2464,7 +2465,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1388'
+  - '@id': 'urn:covid:consensas:ca.cases:1388'
     dataset_id: '1388'
     state_id: '191'
     sources:
@@ -2477,7 +2478,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1389'
+  - '@id': 'urn:covid:consensas:ca.cases:1389'
     dataset_id: '1389'
     state_id: '192'
     sources:
@@ -2490,7 +2491,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1390'
+  - '@id': 'urn:covid:consensas:ca.cases:1390'
     dataset_id: '1390'
     state_id: '193'
     sources:
@@ -2503,7 +2504,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1391'
+  - '@id': 'urn:covid:consensas:ca.cases:1391'
     dataset_id: '1391'
     state_id: '194'
     sources:
@@ -2516,7 +2517,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1392'
+  - '@id': 'urn:covid:consensas:ca.cases:1392'
     dataset_id: '1392'
     state_id: '195'
     sources:
@@ -2529,7 +2530,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1393'
+  - '@id': 'urn:covid:consensas:ca.cases:1393'
     dataset_id: '1393'
     state_id: '196'
     sources:
@@ -2542,7 +2543,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1394'
+  - '@id': 'urn:covid:consensas:ca.cases:1394'
     dataset_id: '1394'
     state_id: '197'
     sources:
@@ -2555,7 +2556,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1395'
+  - '@id': 'urn:covid:consensas:ca.cases:1395'
     dataset_id: '1395'
     state_id: '198'
     sources:
@@ -2568,7 +2569,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1396'
+  - '@id': 'urn:covid:consensas:ca.cases:1396'
     dataset_id: '1396'
     state_id: '199'
     sources:
@@ -2581,7 +2582,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1397'
+  - '@id': 'urn:covid:consensas:ca.cases:1397'
     dataset_id: '1397'
     state_id: '200'
     sources:
@@ -2594,7 +2595,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1398'
+  - '@id': 'urn:covid:consensas:ca.cases:1398'
     dataset_id: '1398'
     state_id: '201'
     sources:
@@ -2607,7 +2608,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1399'
+  - '@id': 'urn:covid:consensas:ca.cases:1399'
     dataset_id: '1399'
     state_id: '202'
     sources:
@@ -2620,7 +2621,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1400'
+  - '@id': 'urn:covid:consensas:ca.cases:1400'
     dataset_id: '1400'
     state_id: '203'
     sources:
@@ -2633,7 +2634,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1401'
+  - '@id': 'urn:covid:consensas:ca.cases:1401'
     dataset_id: '1401'
     state_id: '204'
     sources:
@@ -2646,7 +2647,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1402'
+  - '@id': 'urn:covid:consensas:ca.cases:1402'
     dataset_id: '1402'
     state_id: '205'
     sources:
@@ -2659,7 +2660,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1403'
+  - '@id': 'urn:covid:consensas:ca.cases:1403'
     dataset_id: '1403'
     state_id: '206'
     sources:
@@ -2672,7 +2673,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1404'
+  - '@id': 'urn:covid:consensas:ca.cases:1404'
     dataset_id: '1404'
     state_id: '207'
     sources:
@@ -2685,7 +2686,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1405'
+  - '@id': 'urn:covid:consensas:ca.cases:1405'
     dataset_id: '1405'
     state_id: '208'
     sources:
@@ -2698,7 +2699,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1406'
+  - '@id': 'urn:covid:consensas:ca.cases:1406'
     dataset_id: '1406'
     state_id: '209'
     sources:
@@ -2711,7 +2712,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1407'
+  - '@id': 'urn:covid:consensas:ca.cases:1407'
     dataset_id: '1407'
     state_id: '210'
     sources:
@@ -2724,7 +2725,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1408'
+  - '@id': 'urn:covid:consensas:ca.cases:1408'
     dataset_id: '1408'
     state_id: '211'
     sources:
@@ -2737,7 +2738,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1409'
+  - '@id': 'urn:covid:consensas:ca.cases:1409'
     dataset_id: '1409'
     state_id: '212'
     sources:
@@ -2750,7 +2751,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1410'
+  - '@id': 'urn:covid:consensas:ca.cases:1410'
     dataset_id: '1410'
     state_id: '213'
     sources:
@@ -2763,7 +2764,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1411'
+  - '@id': 'urn:covid:consensas:ca.cases:1411'
     dataset_id: '1411'
     state_id: '214'
     sources:
@@ -2776,7 +2777,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1412'
+  - '@id': 'urn:covid:consensas:ca.cases:1412'
     dataset_id: '1412'
     state_id: '215'
     sources:
@@ -2789,7 +2790,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1413'
+  - '@id': 'urn:covid:consensas:ca.cases:1413'
     dataset_id: '1413'
     state_id: '216'
     sources:
@@ -2802,7 +2803,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1414'
+  - '@id': 'urn:covid:consensas:ca.cases:1414'
     dataset_id: '1414'
     state_id: '217'
     sources:
@@ -2815,7 +2816,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1415'
+  - '@id': 'urn:covid:consensas:ca.cases:1415'
     dataset_id: '1415'
     state_id: '218'
     sources:
@@ -2828,7 +2829,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1416'
+  - '@id': 'urn:covid:consensas:ca.cases:1416'
     dataset_id: '1416'
     state_id: '219'
     sources:
@@ -2841,7 +2842,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1564'
+  - '@id': 'urn:covid:consensas:ca.cases:1564'
     dataset_id: '1564'
     state_id: '221'
     sources:
@@ -2854,7 +2855,7 @@ cases:
     sex: null
     health_region: Bas-Saint-Laurent
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1565'
+  - '@id': 'urn:covid:consensas:ca.cases:1565'
     dataset_id: '1565'
     state_id: '220'
     sources:
@@ -2867,7 +2868,7 @@ cases:
     sex: null
     health_region: Bas-Saint-Laurent
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1566'
+  - '@id': 'urn:covid:consensas:ca.cases:1566'
     dataset_id: '1566'
     state_id: '222'
     sources:
@@ -2880,7 +2881,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1567'
+  - '@id': 'urn:covid:consensas:ca.cases:1567'
     dataset_id: '1567'
     state_id: '223'
     sources:
@@ -2893,7 +2894,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1568'
+  - '@id': 'urn:covid:consensas:ca.cases:1568'
     dataset_id: '1568'
     state_id: '224'
     sources:
@@ -2906,7 +2907,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1569'
+  - '@id': 'urn:covid:consensas:ca.cases:1569'
     dataset_id: '1569'
     state_id: '225'
     sources:
@@ -2919,7 +2920,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1570'
+  - '@id': 'urn:covid:consensas:ca.cases:1570'
     dataset_id: '1570'
     state_id: '226'
     sources:
@@ -2932,7 +2933,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1571'
+  - '@id': 'urn:covid:consensas:ca.cases:1571'
     dataset_id: '1571'
     state_id: '227'
     sources:
@@ -2945,7 +2946,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1572'
+  - '@id': 'urn:covid:consensas:ca.cases:1572'
     dataset_id: '1572'
     state_id: '228'
     sources:
@@ -2958,7 +2959,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1573'
+  - '@id': 'urn:covid:consensas:ca.cases:1573'
     dataset_id: '1573'
     state_id: '229'
     sources:
@@ -2971,7 +2972,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1574'
+  - '@id': 'urn:covid:consensas:ca.cases:1574'
     dataset_id: '1574'
     state_id: '230'
     sources:
@@ -2984,7 +2985,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1575'
+  - '@id': 'urn:covid:consensas:ca.cases:1575'
     dataset_id: '1575'
     state_id: '231'
     sources:
@@ -2997,7 +2998,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1576'
+  - '@id': 'urn:covid:consensas:ca.cases:1576'
     dataset_id: '1576'
     state_id: '232'
     sources:
@@ -3010,7 +3011,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1577'
+  - '@id': 'urn:covid:consensas:ca.cases:1577'
     dataset_id: '1577'
     state_id: '233'
     sources:
@@ -3023,7 +3024,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1578'
+  - '@id': 'urn:covid:consensas:ca.cases:1578'
     dataset_id: '1578'
     state_id: '234'
     sources:
@@ -3036,7 +3037,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1579'
+  - '@id': 'urn:covid:consensas:ca.cases:1579'
     dataset_id: '1579'
     state_id: '235'
     sources:
@@ -3049,7 +3050,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1580'
+  - '@id': 'urn:covid:consensas:ca.cases:1580'
     dataset_id: '1580'
     state_id: '236'
     sources:
@@ -3062,7 +3063,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1581'
+  - '@id': 'urn:covid:consensas:ca.cases:1581'
     dataset_id: '1581'
     state_id: '237'
     sources:
@@ -3075,7 +3076,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1582'
+  - '@id': 'urn:covid:consensas:ca.cases:1582'
     dataset_id: '1582'
     state_id: '238'
     sources:
@@ -3088,7 +3089,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1583'
+  - '@id': 'urn:covid:consensas:ca.cases:1583'
     dataset_id: '1583'
     state_id: '239'
     sources:
@@ -3101,7 +3102,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1584'
+  - '@id': 'urn:covid:consensas:ca.cases:1584'
     dataset_id: '1584'
     state_id: '240'
     sources:
@@ -3114,7 +3115,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1585'
+  - '@id': 'urn:covid:consensas:ca.cases:1585'
     dataset_id: '1585'
     state_id: '241'
     sources:
@@ -3127,7 +3128,7 @@ cases:
     sex: null
     health_region: Capitale-Nationale
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1586'
+  - '@id': 'urn:covid:consensas:ca.cases:1586'
     dataset_id: '1586'
     state_id: '242'
     sources:
@@ -3140,7 +3141,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1587'
+  - '@id': 'urn:covid:consensas:ca.cases:1587'
     dataset_id: '1587'
     state_id: '243'
     sources:
@@ -3153,7 +3154,7 @@ cases:
     sex: null
     health_region: Chaudière-Appalaches
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1588'
+  - '@id': 'urn:covid:consensas:ca.cases:1588'
     dataset_id: '1588'
     state_id: '244'
     sources:
@@ -3166,7 +3167,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1589'
+  - '@id': 'urn:covid:consensas:ca.cases:1589'
     dataset_id: '1589'
     state_id: '245'
     sources:
@@ -3179,7 +3180,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1590'
+  - '@id': 'urn:covid:consensas:ca.cases:1590'
     dataset_id: '1590'
     state_id: '246'
     sources:
@@ -3192,7 +3193,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1591'
+  - '@id': 'urn:covid:consensas:ca.cases:1591'
     dataset_id: '1591'
     state_id: '247'
     sources:
@@ -3205,7 +3206,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1592'
+  - '@id': 'urn:covid:consensas:ca.cases:1592'
     dataset_id: '1592'
     state_id: '248'
     sources:
@@ -3218,7 +3219,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1593'
+  - '@id': 'urn:covid:consensas:ca.cases:1593'
     dataset_id: '1593'
     state_id: '249'
     sources:
@@ -3231,7 +3232,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1594'
+  - '@id': 'urn:covid:consensas:ca.cases:1594'
     dataset_id: '1594'
     state_id: '250'
     sources:
@@ -3244,7 +3245,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1595'
+  - '@id': 'urn:covid:consensas:ca.cases:1595'
     dataset_id: '1595'
     state_id: '251'
     sources:
@@ -3257,7 +3258,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1596'
+  - '@id': 'urn:covid:consensas:ca.cases:1596'
     dataset_id: '1596'
     state_id: '252'
     sources:
@@ -3270,7 +3271,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1597'
+  - '@id': 'urn:covid:consensas:ca.cases:1597'
     dataset_id: '1597'
     state_id: '253'
     sources:
@@ -3283,7 +3284,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1598'
+  - '@id': 'urn:covid:consensas:ca.cases:1598'
     dataset_id: '1598'
     state_id: '254'
     sources:
@@ -3296,7 +3297,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1599'
+  - '@id': 'urn:covid:consensas:ca.cases:1599'
     dataset_id: '1599'
     state_id: '255'
     sources:
@@ -3309,7 +3310,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1600'
+  - '@id': 'urn:covid:consensas:ca.cases:1600'
     dataset_id: '1600'
     state_id: '256'
     sources:
@@ -3322,7 +3323,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1601'
+  - '@id': 'urn:covid:consensas:ca.cases:1601'
     dataset_id: '1601'
     state_id: '257'
     sources:
@@ -3335,7 +3336,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1602'
+  - '@id': 'urn:covid:consensas:ca.cases:1602'
     dataset_id: '1602'
     state_id: '258'
     sources:
@@ -3348,7 +3349,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1603'
+  - '@id': 'urn:covid:consensas:ca.cases:1603'
     dataset_id: '1603'
     state_id: '259'
     sources:
@@ -3361,7 +3362,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1604'
+  - '@id': 'urn:covid:consensas:ca.cases:1604'
     dataset_id: '1604'
     state_id: '260'
     sources:
@@ -3374,7 +3375,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1605'
+  - '@id': 'urn:covid:consensas:ca.cases:1605'
     dataset_id: '1605'
     state_id: '261'
     sources:
@@ -3387,7 +3388,7 @@ cases:
     sex: null
     health_region: Estrie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1606'
+  - '@id': 'urn:covid:consensas:ca.cases:1606'
     dataset_id: '1606'
     state_id: '262'
     sources:
@@ -3400,7 +3401,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1607'
+  - '@id': 'urn:covid:consensas:ca.cases:1607'
     dataset_id: '1607'
     state_id: '263'
     sources:
@@ -3413,7 +3414,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1608'
+  - '@id': 'urn:covid:consensas:ca.cases:1608'
     dataset_id: '1608'
     state_id: '264'
     sources:
@@ -3426,7 +3427,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1609'
+  - '@id': 'urn:covid:consensas:ca.cases:1609'
     dataset_id: '1609'
     state_id: '265'
     sources:
@@ -3439,7 +3440,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1610'
+  - '@id': 'urn:covid:consensas:ca.cases:1610'
     dataset_id: '1610'
     state_id: '266'
     sources:
@@ -3452,7 +3453,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1611'
+  - '@id': 'urn:covid:consensas:ca.cases:1611'
     dataset_id: '1611'
     state_id: '267'
     sources:
@@ -3465,7 +3466,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1612'
+  - '@id': 'urn:covid:consensas:ca.cases:1612'
     dataset_id: '1612'
     state_id: '268'
     sources:
@@ -3478,7 +3479,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1613'
+  - '@id': 'urn:covid:consensas:ca.cases:1613'
     dataset_id: '1613'
     state_id: '269'
     sources:
@@ -3491,7 +3492,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1614'
+  - '@id': 'urn:covid:consensas:ca.cases:1614'
     dataset_id: '1614'
     state_id: '270'
     sources:
@@ -3504,7 +3505,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1615'
+  - '@id': 'urn:covid:consensas:ca.cases:1615'
     dataset_id: '1615'
     state_id: '271'
     sources:
@@ -3517,7 +3518,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1616'
+  - '@id': 'urn:covid:consensas:ca.cases:1616'
     dataset_id: '1616'
     state_id: '272'
     sources:
@@ -3530,7 +3531,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1617'
+  - '@id': 'urn:covid:consensas:ca.cases:1617'
     dataset_id: '1617'
     state_id: '273'
     sources:
@@ -3543,7 +3544,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1618'
+  - '@id': 'urn:covid:consensas:ca.cases:1618'
     dataset_id: '1618'
     state_id: '274'
     sources:
@@ -3556,7 +3557,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1619'
+  - '@id': 'urn:covid:consensas:ca.cases:1619'
     dataset_id: '1619'
     state_id: '275'
     sources:
@@ -3569,7 +3570,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1620'
+  - '@id': 'urn:covid:consensas:ca.cases:1620'
     dataset_id: '1620'
     state_id: '276'
     sources:
@@ -3582,7 +3583,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1621'
+  - '@id': 'urn:covid:consensas:ca.cases:1621'
     dataset_id: '1621'
     state_id: '277'
     sources:
@@ -3595,7 +3596,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1622'
+  - '@id': 'urn:covid:consensas:ca.cases:1622'
     dataset_id: '1622'
     state_id: '278'
     sources:
@@ -3608,7 +3609,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1623'
+  - '@id': 'urn:covid:consensas:ca.cases:1623'
     dataset_id: '1623'
     state_id: '279'
     sources:
@@ -3621,7 +3622,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1624'
+  - '@id': 'urn:covid:consensas:ca.cases:1624'
     dataset_id: '1624'
     state_id: '280'
     sources:
@@ -3634,7 +3635,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1625'
+  - '@id': 'urn:covid:consensas:ca.cases:1625'
     dataset_id: '1625'
     state_id: '281'
     sources:
@@ -3647,7 +3648,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1626'
+  - '@id': 'urn:covid:consensas:ca.cases:1626'
     dataset_id: '1626'
     state_id: '282'
     sources:
@@ -3660,7 +3661,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1627'
+  - '@id': 'urn:covid:consensas:ca.cases:1627'
     dataset_id: '1627'
     state_id: '283'
     sources:
@@ -3673,7 +3674,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1628'
+  - '@id': 'urn:covid:consensas:ca.cases:1628'
     dataset_id: '1628'
     state_id: '284'
     sources:
@@ -3686,7 +3687,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1629'
+  - '@id': 'urn:covid:consensas:ca.cases:1629'
     dataset_id: '1629'
     state_id: '285'
     sources:
@@ -3699,7 +3700,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1630'
+  - '@id': 'urn:covid:consensas:ca.cases:1630'
     dataset_id: '1630'
     state_id: '286'
     sources:
@@ -3712,7 +3713,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1631'
+  - '@id': 'urn:covid:consensas:ca.cases:1631'
     dataset_id: '1631'
     state_id: '287'
     sources:
@@ -3725,7 +3726,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1632'
+  - '@id': 'urn:covid:consensas:ca.cases:1632'
     dataset_id: '1632'
     state_id: '288'
     sources:
@@ -3738,7 +3739,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1633'
+  - '@id': 'urn:covid:consensas:ca.cases:1633'
     dataset_id: '1633'
     state_id: '289'
     sources:
@@ -3751,7 +3752,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1634'
+  - '@id': 'urn:covid:consensas:ca.cases:1634'
     dataset_id: '1634'
     state_id: '290'
     sources:
@@ -3764,7 +3765,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1635'
+  - '@id': 'urn:covid:consensas:ca.cases:1635'
     dataset_id: '1635'
     state_id: '291'
     sources:
@@ -3777,7 +3778,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1636'
+  - '@id': 'urn:covid:consensas:ca.cases:1636'
     dataset_id: '1636'
     state_id: '292'
     sources:
@@ -3790,7 +3791,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1637'
+  - '@id': 'urn:covid:consensas:ca.cases:1637'
     dataset_id: '1637'
     state_id: '293'
     sources:
@@ -3803,7 +3804,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1638'
+  - '@id': 'urn:covid:consensas:ca.cases:1638'
     dataset_id: '1638'
     state_id: '294'
     sources:
@@ -3816,7 +3817,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1639'
+  - '@id': 'urn:covid:consensas:ca.cases:1639'
     dataset_id: '1639'
     state_id: '295'
     sources:
@@ -3829,7 +3830,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1640'
+  - '@id': 'urn:covid:consensas:ca.cases:1640'
     dataset_id: '1640'
     state_id: '296'
     sources:
@@ -3842,7 +3843,7 @@ cases:
     sex: null
     health_region: Lanaudière
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1641'
+  - '@id': 'urn:covid:consensas:ca.cases:1641'
     dataset_id: '1641'
     state_id: '297'
     sources:
@@ -3855,7 +3856,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1642'
+  - '@id': 'urn:covid:consensas:ca.cases:1642'
     dataset_id: '1642'
     state_id: '298'
     sources:
@@ -3868,7 +3869,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1643'
+  - '@id': 'urn:covid:consensas:ca.cases:1643'
     dataset_id: '1643'
     state_id: '299'
     sources:
@@ -3881,7 +3882,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1644'
+  - '@id': 'urn:covid:consensas:ca.cases:1644'
     dataset_id: '1644'
     state_id: '300'
     sources:
@@ -3894,7 +3895,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1645'
+  - '@id': 'urn:covid:consensas:ca.cases:1645'
     dataset_id: '1645'
     state_id: '301'
     sources:
@@ -3907,7 +3908,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1646'
+  - '@id': 'urn:covid:consensas:ca.cases:1646'
     dataset_id: '1646'
     state_id: '302'
     sources:
@@ -3920,7 +3921,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1647'
+  - '@id': 'urn:covid:consensas:ca.cases:1647'
     dataset_id: '1647'
     state_id: '303'
     sources:
@@ -3933,7 +3934,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1648'
+  - '@id': 'urn:covid:consensas:ca.cases:1648'
     dataset_id: '1648'
     state_id: '304'
     sources:
@@ -3946,7 +3947,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1649'
+  - '@id': 'urn:covid:consensas:ca.cases:1649'
     dataset_id: '1649'
     state_id: '305'
     sources:
@@ -3959,7 +3960,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1650'
+  - '@id': 'urn:covid:consensas:ca.cases:1650'
     dataset_id: '1650'
     state_id: '306'
     sources:
@@ -3972,7 +3973,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1651'
+  - '@id': 'urn:covid:consensas:ca.cases:1651'
     dataset_id: '1651'
     state_id: '307'
     sources:
@@ -3985,7 +3986,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1652'
+  - '@id': 'urn:covid:consensas:ca.cases:1652'
     dataset_id: '1652'
     state_id: '308'
     sources:
@@ -3998,7 +3999,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1653'
+  - '@id': 'urn:covid:consensas:ca.cases:1653'
     dataset_id: '1653'
     state_id: '309'
     sources:
@@ -4011,7 +4012,7 @@ cases:
     sex: null
     health_region: Laurentides
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1654'
+  - '@id': 'urn:covid:consensas:ca.cases:1654'
     dataset_id: '1654'
     state_id: '310'
     sources:
@@ -4024,7 +4025,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1655'
+  - '@id': 'urn:covid:consensas:ca.cases:1655'
     dataset_id: '1655'
     state_id: '311'
     sources:
@@ -4037,7 +4038,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1656'
+  - '@id': 'urn:covid:consensas:ca.cases:1656'
     dataset_id: '1656'
     state_id: '312'
     sources:
@@ -4050,7 +4051,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1657'
+  - '@id': 'urn:covid:consensas:ca.cases:1657'
     dataset_id: '1657'
     state_id: '313'
     sources:
@@ -4063,7 +4064,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1658'
+  - '@id': 'urn:covid:consensas:ca.cases:1658'
     dataset_id: '1658'
     state_id: '314'
     sources:
@@ -4076,7 +4077,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1659'
+  - '@id': 'urn:covid:consensas:ca.cases:1659'
     dataset_id: '1659'
     state_id: '315'
     sources:
@@ -4089,7 +4090,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1660'
+  - '@id': 'urn:covid:consensas:ca.cases:1660'
     dataset_id: '1660'
     state_id: '316'
     sources:
@@ -4102,7 +4103,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1661'
+  - '@id': 'urn:covid:consensas:ca.cases:1661'
     dataset_id: '1661'
     state_id: '317'
     sources:
@@ -4115,7 +4116,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1662'
+  - '@id': 'urn:covid:consensas:ca.cases:1662'
     dataset_id: '1662'
     state_id: '318'
     sources:
@@ -4128,7 +4129,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1663'
+  - '@id': 'urn:covid:consensas:ca.cases:1663'
     dataset_id: '1663'
     state_id: '319'
     sources:
@@ -4141,7 +4142,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1664'
+  - '@id': 'urn:covid:consensas:ca.cases:1664'
     dataset_id: '1664'
     state_id: '320'
     sources:
@@ -4154,7 +4155,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1665'
+  - '@id': 'urn:covid:consensas:ca.cases:1665'
     dataset_id: '1665'
     state_id: '321'
     sources:
@@ -4167,7 +4168,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1666'
+  - '@id': 'urn:covid:consensas:ca.cases:1666'
     dataset_id: '1666'
     state_id: '322'
     sources:
@@ -4180,7 +4181,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1667'
+  - '@id': 'urn:covid:consensas:ca.cases:1667'
     dataset_id: '1667'
     state_id: '323'
     sources:
@@ -4193,7 +4194,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1668'
+  - '@id': 'urn:covid:consensas:ca.cases:1668'
     dataset_id: '1668'
     state_id: '324'
     sources:
@@ -4206,7 +4207,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1669'
+  - '@id': 'urn:covid:consensas:ca.cases:1669'
     dataset_id: '1669'
     state_id: '325'
     sources:
@@ -4219,7 +4220,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1670'
+  - '@id': 'urn:covid:consensas:ca.cases:1670'
     dataset_id: '1670'
     state_id: '326'
     sources:
@@ -4232,7 +4233,7 @@ cases:
     sex: null
     health_region: Laval
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1671'
+  - '@id': 'urn:covid:consensas:ca.cases:1671'
     dataset_id: '1671'
     state_id: '327'
     sources:
@@ -4245,7 +4246,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1672'
+  - '@id': 'urn:covid:consensas:ca.cases:1672'
     dataset_id: '1672'
     state_id: '328'
     sources:
@@ -4258,7 +4259,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1673'
+  - '@id': 'urn:covid:consensas:ca.cases:1673'
     dataset_id: '1673'
     state_id: '329'
     sources:
@@ -4271,7 +4272,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1674'
+  - '@id': 'urn:covid:consensas:ca.cases:1674'
     dataset_id: '1674'
     state_id: '330'
     sources:
@@ -4284,7 +4285,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1675'
+  - '@id': 'urn:covid:consensas:ca.cases:1675'
     dataset_id: '1675'
     state_id: '331'
     sources:
@@ -4297,7 +4298,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1676'
+  - '@id': 'urn:covid:consensas:ca.cases:1676'
     dataset_id: '1676'
     state_id: '332'
     sources:
@@ -4310,7 +4311,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1677'
+  - '@id': 'urn:covid:consensas:ca.cases:1677'
     dataset_id: '1677'
     state_id: '333'
     sources:
@@ -4323,7 +4324,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1678'
+  - '@id': 'urn:covid:consensas:ca.cases:1678'
     dataset_id: '1678'
     state_id: '334'
     sources:
@@ -4336,7 +4337,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1679'
+  - '@id': 'urn:covid:consensas:ca.cases:1679'
     dataset_id: '1679'
     state_id: '335'
     sources:
@@ -4349,7 +4350,7 @@ cases:
     sex: null
     health_region: Mauricie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1680'
+  - '@id': 'urn:covid:consensas:ca.cases:1680'
     dataset_id: '1680'
     state_id: '336'
     sources:
@@ -4362,7 +4363,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1681'
+  - '@id': 'urn:covid:consensas:ca.cases:1681'
     dataset_id: '1681'
     state_id: '337'
     sources:
@@ -4375,7 +4376,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1682'
+  - '@id': 'urn:covid:consensas:ca.cases:1682'
     dataset_id: '1682'
     state_id: '338'
     sources:
@@ -4388,7 +4389,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1683'
+  - '@id': 'urn:covid:consensas:ca.cases:1683'
     dataset_id: '1683'
     state_id: '339'
     sources:
@@ -4401,7 +4402,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1684'
+  - '@id': 'urn:covid:consensas:ca.cases:1684'
     dataset_id: '1684'
     state_id: '340'
     sources:
@@ -4414,7 +4415,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1685'
+  - '@id': 'urn:covid:consensas:ca.cases:1685'
     dataset_id: '1685'
     state_id: '341'
     sources:
@@ -4427,7 +4428,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1686'
+  - '@id': 'urn:covid:consensas:ca.cases:1686'
     dataset_id: '1686'
     state_id: '342'
     sources:
@@ -4440,7 +4441,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1687'
+  - '@id': 'urn:covid:consensas:ca.cases:1687'
     dataset_id: '1687'
     state_id: '343'
     sources:
@@ -4453,7 +4454,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1688'
+  - '@id': 'urn:covid:consensas:ca.cases:1688'
     dataset_id: '1688'
     state_id: '344'
     sources:
@@ -4466,7 +4467,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1689'
+  - '@id': 'urn:covid:consensas:ca.cases:1689'
     dataset_id: '1689'
     state_id: '345'
     sources:
@@ -4479,7 +4480,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1690'
+  - '@id': 'urn:covid:consensas:ca.cases:1690'
     dataset_id: '1690'
     state_id: '346'
     sources:
@@ -4492,7 +4493,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1691'
+  - '@id': 'urn:covid:consensas:ca.cases:1691'
     dataset_id: '1691'
     state_id: '347'
     sources:
@@ -4505,7 +4506,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1692'
+  - '@id': 'urn:covid:consensas:ca.cases:1692'
     dataset_id: '1692'
     state_id: '348'
     sources:
@@ -4518,7 +4519,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1693'
+  - '@id': 'urn:covid:consensas:ca.cases:1693'
     dataset_id: '1693'
     state_id: '349'
     sources:
@@ -4531,7 +4532,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1694'
+  - '@id': 'urn:covid:consensas:ca.cases:1694'
     dataset_id: '1694'
     state_id: '350'
     sources:
@@ -4544,7 +4545,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1695'
+  - '@id': 'urn:covid:consensas:ca.cases:1695'
     dataset_id: '1695'
     state_id: '351'
     sources:
@@ -4557,7 +4558,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1696'
+  - '@id': 'urn:covid:consensas:ca.cases:1696'
     dataset_id: '1696'
     state_id: '352'
     sources:
@@ -4570,7 +4571,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1697'
+  - '@id': 'urn:covid:consensas:ca.cases:1697'
     dataset_id: '1697'
     state_id: '353'
     sources:
@@ -4583,7 +4584,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1698'
+  - '@id': 'urn:covid:consensas:ca.cases:1698'
     dataset_id: '1698'
     state_id: '354'
     sources:
@@ -4596,7 +4597,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1699'
+  - '@id': 'urn:covid:consensas:ca.cases:1699'
     dataset_id: '1699'
     state_id: '355'
     sources:
@@ -4609,7 +4610,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1700'
+  - '@id': 'urn:covid:consensas:ca.cases:1700'
     dataset_id: '1700'
     state_id: '356'
     sources:
@@ -4622,7 +4623,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1701'
+  - '@id': 'urn:covid:consensas:ca.cases:1701'
     dataset_id: '1701'
     state_id: '357'
     sources:
@@ -4635,7 +4636,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1702'
+  - '@id': 'urn:covid:consensas:ca.cases:1702'
     dataset_id: '1702'
     state_id: '358'
     sources:
@@ -4648,7 +4649,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1703'
+  - '@id': 'urn:covid:consensas:ca.cases:1703'
     dataset_id: '1703'
     state_id: '359'
     sources:
@@ -4661,7 +4662,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1704'
+  - '@id': 'urn:covid:consensas:ca.cases:1704'
     dataset_id: '1704'
     state_id: '360'
     sources:
@@ -4674,7 +4675,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1705'
+  - '@id': 'urn:covid:consensas:ca.cases:1705'
     dataset_id: '1705'
     state_id: '361'
     sources:
@@ -4687,7 +4688,7 @@ cases:
     sex: null
     health_region: Montérégie
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1706'
+  - '@id': 'urn:covid:consensas:ca.cases:1706'
     dataset_id: '1706'
     state_id: '362'
     sources:
@@ -4700,7 +4701,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1707'
+  - '@id': 'urn:covid:consensas:ca.cases:1707'
     dataset_id: '1707'
     state_id: '363'
     sources:
@@ -4713,7 +4714,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1708'
+  - '@id': 'urn:covid:consensas:ca.cases:1708'
     dataset_id: '1708'
     state_id: '364'
     sources:
@@ -4726,7 +4727,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1709'
+  - '@id': 'urn:covid:consensas:ca.cases:1709'
     dataset_id: '1709'
     state_id: '365'
     sources:
@@ -4739,7 +4740,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1710'
+  - '@id': 'urn:covid:consensas:ca.cases:1710'
     dataset_id: '1710'
     state_id: '366'
     sources:
@@ -4752,7 +4753,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1711'
+  - '@id': 'urn:covid:consensas:ca.cases:1711'
     dataset_id: '1711'
     state_id: '367'
     sources:
@@ -4765,7 +4766,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1712'
+  - '@id': 'urn:covid:consensas:ca.cases:1712'
     dataset_id: '1712'
     state_id: '368'
     sources:
@@ -4778,7 +4779,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1713'
+  - '@id': 'urn:covid:consensas:ca.cases:1713'
     dataset_id: '1713'
     state_id: '369'
     sources:
@@ -4791,7 +4792,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1714'
+  - '@id': 'urn:covid:consensas:ca.cases:1714'
     dataset_id: '1714'
     state_id: '370'
     sources:
@@ -4804,7 +4805,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1715'
+  - '@id': 'urn:covid:consensas:ca.cases:1715'
     dataset_id: '1715'
     state_id: '371'
     sources:
@@ -4817,7 +4818,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1716'
+  - '@id': 'urn:covid:consensas:ca.cases:1716'
     dataset_id: '1716'
     state_id: '372'
     sources:
@@ -4830,7 +4831,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1717'
+  - '@id': 'urn:covid:consensas:ca.cases:1717'
     dataset_id: '1717'
     state_id: '373'
     sources:
@@ -4843,7 +4844,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1718'
+  - '@id': 'urn:covid:consensas:ca.cases:1718'
     dataset_id: '1718'
     state_id: '374'
     sources:
@@ -4856,7 +4857,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1719'
+  - '@id': 'urn:covid:consensas:ca.cases:1719'
     dataset_id: '1719'
     state_id: '375'
     sources:
@@ -4869,7 +4870,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1720'
+  - '@id': 'urn:covid:consensas:ca.cases:1720'
     dataset_id: '1720'
     state_id: '376'
     sources:
@@ -4882,7 +4883,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1721'
+  - '@id': 'urn:covid:consensas:ca.cases:1721'
     dataset_id: '1721'
     state_id: '377'
     sources:
@@ -4895,7 +4896,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1722'
+  - '@id': 'urn:covid:consensas:ca.cases:1722'
     dataset_id: '1722'
     state_id: '378'
     sources:
@@ -4908,7 +4909,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1723'
+  - '@id': 'urn:covid:consensas:ca.cases:1723'
     dataset_id: '1723'
     state_id: '379'
     sources:
@@ -4921,7 +4922,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1724'
+  - '@id': 'urn:covid:consensas:ca.cases:1724'
     dataset_id: '1724'
     state_id: '380'
     sources:
@@ -4934,7 +4935,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1725'
+  - '@id': 'urn:covid:consensas:ca.cases:1725'
     dataset_id: '1725'
     state_id: '381'
     sources:
@@ -4947,7 +4948,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1726'
+  - '@id': 'urn:covid:consensas:ca.cases:1726'
     dataset_id: '1726'
     state_id: '382'
     sources:
@@ -4960,7 +4961,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1727'
+  - '@id': 'urn:covid:consensas:ca.cases:1727'
     dataset_id: '1727'
     state_id: '383'
     sources:
@@ -4973,7 +4974,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1728'
+  - '@id': 'urn:covid:consensas:ca.cases:1728'
     dataset_id: '1728'
     state_id: '384'
     sources:
@@ -4986,7 +4987,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1729'
+  - '@id': 'urn:covid:consensas:ca.cases:1729'
     dataset_id: '1729'
     state_id: '385'
     sources:
@@ -4999,7 +5000,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1730'
+  - '@id': 'urn:covid:consensas:ca.cases:1730'
     dataset_id: '1730'
     state_id: '386'
     sources:
@@ -5012,7 +5013,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1731'
+  - '@id': 'urn:covid:consensas:ca.cases:1731'
     dataset_id: '1731'
     state_id: '387'
     sources:
@@ -5025,7 +5026,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1732'
+  - '@id': 'urn:covid:consensas:ca.cases:1732'
     dataset_id: '1732'
     state_id: '388'
     sources:
@@ -5038,7 +5039,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1733'
+  - '@id': 'urn:covid:consensas:ca.cases:1733'
     dataset_id: '1733'
     state_id: '389'
     sources:
@@ -5051,7 +5052,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1734'
+  - '@id': 'urn:covid:consensas:ca.cases:1734'
     dataset_id: '1734'
     state_id: '390'
     sources:
@@ -5064,7 +5065,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1735'
+  - '@id': 'urn:covid:consensas:ca.cases:1735'
     dataset_id: '1735'
     state_id: '391'
     sources:
@@ -5077,7 +5078,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1736'
+  - '@id': 'urn:covid:consensas:ca.cases:1736'
     dataset_id: '1736'
     state_id: '392'
     sources:
@@ -5090,7 +5091,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1737'
+  - '@id': 'urn:covid:consensas:ca.cases:1737'
     dataset_id: '1737'
     state_id: '393'
     sources:
@@ -5103,7 +5104,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1738'
+  - '@id': 'urn:covid:consensas:ca.cases:1738'
     dataset_id: '1738'
     state_id: '394'
     sources:
@@ -5116,7 +5117,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1739'
+  - '@id': 'urn:covid:consensas:ca.cases:1739'
     dataset_id: '1739'
     state_id: '395'
     sources:
@@ -5129,7 +5130,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1740'
+  - '@id': 'urn:covid:consensas:ca.cases:1740'
     dataset_id: '1740'
     state_id: '396'
     sources:
@@ -5142,7 +5143,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1741'
+  - '@id': 'urn:covid:consensas:ca.cases:1741'
     dataset_id: '1741'
     state_id: '397'
     sources:
@@ -5155,7 +5156,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1742'
+  - '@id': 'urn:covid:consensas:ca.cases:1742'
     dataset_id: '1742'
     state_id: '398'
     sources:
@@ -5168,7 +5169,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1743'
+  - '@id': 'urn:covid:consensas:ca.cases:1743'
     dataset_id: '1743'
     state_id: '399'
     sources:
@@ -5181,7 +5182,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1744'
+  - '@id': 'urn:covid:consensas:ca.cases:1744'
     dataset_id: '1744'
     state_id: '400'
     sources:
@@ -5194,7 +5195,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1745'
+  - '@id': 'urn:covid:consensas:ca.cases:1745'
     dataset_id: '1745'
     state_id: '401'
     sources:
@@ -5207,7 +5208,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1746'
+  - '@id': 'urn:covid:consensas:ca.cases:1746'
     dataset_id: '1746'
     state_id: '402'
     sources:
@@ -5220,7 +5221,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1747'
+  - '@id': 'urn:covid:consensas:ca.cases:1747'
     dataset_id: '1747'
     state_id: '403'
     sources:
@@ -5233,7 +5234,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1748'
+  - '@id': 'urn:covid:consensas:ca.cases:1748'
     dataset_id: '1748'
     state_id: '404'
     sources:
@@ -5246,7 +5247,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1749'
+  - '@id': 'urn:covid:consensas:ca.cases:1749'
     dataset_id: '1749'
     state_id: '405'
     sources:
@@ -5259,7 +5260,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1750'
+  - '@id': 'urn:covid:consensas:ca.cases:1750'
     dataset_id: '1750'
     state_id: '406'
     sources:
@@ -5272,7 +5273,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1751'
+  - '@id': 'urn:covid:consensas:ca.cases:1751'
     dataset_id: '1751'
     state_id: '407'
     sources:
@@ -5285,7 +5286,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1752'
+  - '@id': 'urn:covid:consensas:ca.cases:1752'
     dataset_id: '1752'
     state_id: '408'
     sources:
@@ -5298,7 +5299,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1753'
+  - '@id': 'urn:covid:consensas:ca.cases:1753'
     dataset_id: '1753'
     state_id: '409'
     sources:
@@ -5311,7 +5312,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1754'
+  - '@id': 'urn:covid:consensas:ca.cases:1754'
     dataset_id: '1754'
     state_id: '410'
     sources:
@@ -5324,7 +5325,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1755'
+  - '@id': 'urn:covid:consensas:ca.cases:1755'
     dataset_id: '1755'
     state_id: '411'
     sources:
@@ -5337,7 +5338,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1756'
+  - '@id': 'urn:covid:consensas:ca.cases:1756'
     dataset_id: '1756'
     state_id: '412'
     sources:
@@ -5350,7 +5351,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1757'
+  - '@id': 'urn:covid:consensas:ca.cases:1757'
     dataset_id: '1757'
     state_id: '413'
     sources:
@@ -5363,7 +5364,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1758'
+  - '@id': 'urn:covid:consensas:ca.cases:1758'
     dataset_id: '1758'
     state_id: '414'
     sources:
@@ -5376,7 +5377,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1759'
+  - '@id': 'urn:covid:consensas:ca.cases:1759'
     dataset_id: '1759'
     state_id: '415'
     sources:
@@ -5389,7 +5390,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1760'
+  - '@id': 'urn:covid:consensas:ca.cases:1760'
     dataset_id: '1760'
     state_id: '416'
     sources:
@@ -5402,7 +5403,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1761'
+  - '@id': 'urn:covid:consensas:ca.cases:1761'
     dataset_id: '1761'
     state_id: '417'
     sources:
@@ -5415,7 +5416,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1762'
+  - '@id': 'urn:covid:consensas:ca.cases:1762'
     dataset_id: '1762'
     state_id: '418'
     sources:
@@ -5428,7 +5429,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1763'
+  - '@id': 'urn:covid:consensas:ca.cases:1763'
     dataset_id: '1763'
     state_id: '419'
     sources:
@@ -5441,7 +5442,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1764'
+  - '@id': 'urn:covid:consensas:ca.cases:1764'
     dataset_id: '1764'
     state_id: '420'
     sources:
@@ -5454,7 +5455,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1765'
+  - '@id': 'urn:covid:consensas:ca.cases:1765'
     dataset_id: '1765'
     state_id: '421'
     sources:
@@ -5467,7 +5468,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1766'
+  - '@id': 'urn:covid:consensas:ca.cases:1766'
     dataset_id: '1766'
     state_id: '422'
     sources:
@@ -5480,7 +5481,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1767'
+  - '@id': 'urn:covid:consensas:ca.cases:1767'
     dataset_id: '1767'
     state_id: '423'
     sources:
@@ -5493,7 +5494,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1768'
+  - '@id': 'urn:covid:consensas:ca.cases:1768'
     dataset_id: '1768'
     state_id: '424'
     sources:
@@ -5506,7 +5507,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1769'
+  - '@id': 'urn:covid:consensas:ca.cases:1769'
     dataset_id: '1769'
     state_id: '425'
     sources:
@@ -5519,7 +5520,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1770'
+  - '@id': 'urn:covid:consensas:ca.cases:1770'
     dataset_id: '1770'
     state_id: '426'
     sources:
@@ -5532,7 +5533,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1771'
+  - '@id': 'urn:covid:consensas:ca.cases:1771'
     dataset_id: '1771'
     state_id: '427'
     sources:
@@ -5545,7 +5546,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1772'
+  - '@id': 'urn:covid:consensas:ca.cases:1772'
     dataset_id: '1772'
     state_id: '428'
     sources:
@@ -5558,7 +5559,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1773'
+  - '@id': 'urn:covid:consensas:ca.cases:1773'
     dataset_id: '1773'
     state_id: '429'
     sources:
@@ -5571,7 +5572,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1774'
+  - '@id': 'urn:covid:consensas:ca.cases:1774'
     dataset_id: '1774'
     state_id: '430'
     sources:
@@ -5584,7 +5585,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1775'
+  - '@id': 'urn:covid:consensas:ca.cases:1775'
     dataset_id: '1775'
     state_id: '431'
     sources:
@@ -5597,7 +5598,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1776'
+  - '@id': 'urn:covid:consensas:ca.cases:1776'
     dataset_id: '1776'
     state_id: '432'
     sources:
@@ -5610,7 +5611,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1777'
+  - '@id': 'urn:covid:consensas:ca.cases:1777'
     dataset_id: '1777'
     state_id: '433'
     sources:
@@ -5623,7 +5624,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1778'
+  - '@id': 'urn:covid:consensas:ca.cases:1778'
     dataset_id: '1778'
     state_id: '434'
     sources:
@@ -5636,7 +5637,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1779'
+  - '@id': 'urn:covid:consensas:ca.cases:1779'
     dataset_id: '1779'
     state_id: '435'
     sources:
@@ -5649,7 +5650,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1780'
+  - '@id': 'urn:covid:consensas:ca.cases:1780'
     dataset_id: '1780'
     state_id: '436'
     sources:
@@ -5662,7 +5663,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1781'
+  - '@id': 'urn:covid:consensas:ca.cases:1781'
     dataset_id: '1781'
     state_id: '437'
     sources:
@@ -5675,7 +5676,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1782'
+  - '@id': 'urn:covid:consensas:ca.cases:1782'
     dataset_id: '1782'
     state_id: '438'
     sources:
@@ -5688,7 +5689,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1783'
+  - '@id': 'urn:covid:consensas:ca.cases:1783'
     dataset_id: '1783'
     state_id: '439'
     sources:
@@ -5701,7 +5702,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1784'
+  - '@id': 'urn:covid:consensas:ca.cases:1784'
     dataset_id: '1784'
     state_id: '440'
     sources:
@@ -5714,7 +5715,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1785'
+  - '@id': 'urn:covid:consensas:ca.cases:1785'
     dataset_id: '1785'
     state_id: '441'
     sources:
@@ -5727,7 +5728,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1786'
+  - '@id': 'urn:covid:consensas:ca.cases:1786'
     dataset_id: '1786'
     state_id: '442'
     sources:
@@ -5740,7 +5741,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1787'
+  - '@id': 'urn:covid:consensas:ca.cases:1787'
     dataset_id: '1787'
     state_id: '443'
     sources:
@@ -5753,7 +5754,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1788'
+  - '@id': 'urn:covid:consensas:ca.cases:1788'
     dataset_id: '1788'
     state_id: '444'
     sources:
@@ -5766,7 +5767,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1789'
+  - '@id': 'urn:covid:consensas:ca.cases:1789'
     dataset_id: '1789'
     state_id: '445'
     sources:
@@ -5779,7 +5780,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1790'
+  - '@id': 'urn:covid:consensas:ca.cases:1790'
     dataset_id: '1790'
     state_id: '446'
     sources:
@@ -5792,7 +5793,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1791'
+  - '@id': 'urn:covid:consensas:ca.cases:1791'
     dataset_id: '1791'
     state_id: '447'
     sources:
@@ -5805,7 +5806,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1792'
+  - '@id': 'urn:covid:consensas:ca.cases:1792'
     dataset_id: '1792'
     state_id: '448'
     sources:
@@ -5818,7 +5819,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1793'
+  - '@id': 'urn:covid:consensas:ca.cases:1793'
     dataset_id: '1793'
     state_id: '449'
     sources:
@@ -5831,7 +5832,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1794'
+  - '@id': 'urn:covid:consensas:ca.cases:1794'
     dataset_id: '1794'
     state_id: '450'
     sources:
@@ -5844,7 +5845,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1795'
+  - '@id': 'urn:covid:consensas:ca.cases:1795'
     dataset_id: '1795'
     state_id: '451'
     sources:
@@ -5857,7 +5858,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1796'
+  - '@id': 'urn:covid:consensas:ca.cases:1796'
     dataset_id: '1796'
     state_id: '452'
     sources:
@@ -5870,7 +5871,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1797'
+  - '@id': 'urn:covid:consensas:ca.cases:1797'
     dataset_id: '1797'
     state_id: '453'
     sources:
@@ -5883,7 +5884,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1798'
+  - '@id': 'urn:covid:consensas:ca.cases:1798'
     dataset_id: '1798'
     state_id: '454'
     sources:
@@ -5896,7 +5897,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1799'
+  - '@id': 'urn:covid:consensas:ca.cases:1799'
     dataset_id: '1799'
     state_id: '455'
     sources:
@@ -5909,7 +5910,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1800'
+  - '@id': 'urn:covid:consensas:ca.cases:1800'
     dataset_id: '1800'
     state_id: '456'
     sources:
@@ -5922,7 +5923,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1801'
+  - '@id': 'urn:covid:consensas:ca.cases:1801'
     dataset_id: '1801'
     state_id: '457'
     sources:
@@ -5935,7 +5936,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1802'
+  - '@id': 'urn:covid:consensas:ca.cases:1802'
     dataset_id: '1802'
     state_id: '458'
     sources:
@@ -5948,7 +5949,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1803'
+  - '@id': 'urn:covid:consensas:ca.cases:1803'
     dataset_id: '1803'
     state_id: '459'
     sources:
@@ -5961,7 +5962,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1804'
+  - '@id': 'urn:covid:consensas:ca.cases:1804'
     dataset_id: '1804'
     state_id: '460'
     sources:
@@ -5974,7 +5975,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1805'
+  - '@id': 'urn:covid:consensas:ca.cases:1805'
     dataset_id: '1805'
     state_id: '461'
     sources:
@@ -5987,7 +5988,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1806'
+  - '@id': 'urn:covid:consensas:ca.cases:1806'
     dataset_id: '1806'
     state_id: '462'
     sources:
@@ -6000,7 +6001,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1807'
+  - '@id': 'urn:covid:consensas:ca.cases:1807'
     dataset_id: '1807'
     state_id: '463'
     sources:
@@ -6013,7 +6014,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1808'
+  - '@id': 'urn:covid:consensas:ca.cases:1808'
     dataset_id: '1808'
     state_id: '464'
     sources:
@@ -6026,7 +6027,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1809'
+  - '@id': 'urn:covid:consensas:ca.cases:1809'
     dataset_id: '1809'
     state_id: '465'
     sources:
@@ -6039,7 +6040,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1810'
+  - '@id': 'urn:covid:consensas:ca.cases:1810'
     dataset_id: '1810'
     state_id: '466'
     sources:
@@ -6052,7 +6053,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1811'
+  - '@id': 'urn:covid:consensas:ca.cases:1811'
     dataset_id: '1811'
     state_id: '467'
     sources:
@@ -6065,7 +6066,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1812'
+  - '@id': 'urn:covid:consensas:ca.cases:1812'
     dataset_id: '1812'
     state_id: '468'
     sources:
@@ -6078,7 +6079,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1813'
+  - '@id': 'urn:covid:consensas:ca.cases:1813'
     dataset_id: '1813'
     state_id: '469'
     sources:
@@ -6091,7 +6092,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1814'
+  - '@id': 'urn:covid:consensas:ca.cases:1814'
     dataset_id: '1814'
     state_id: '470'
     sources:
@@ -6104,7 +6105,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1815'
+  - '@id': 'urn:covid:consensas:ca.cases:1815'
     dataset_id: '1815'
     state_id: '471'
     sources:
@@ -6117,7 +6118,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1816'
+  - '@id': 'urn:covid:consensas:ca.cases:1816'
     dataset_id: '1816'
     state_id: '472'
     sources:
@@ -6130,7 +6131,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1817'
+  - '@id': 'urn:covid:consensas:ca.cases:1817'
     dataset_id: '1817'
     state_id: '473'
     sources:
@@ -6143,7 +6144,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1818'
+  - '@id': 'urn:covid:consensas:ca.cases:1818'
     dataset_id: '1818'
     state_id: '474'
     sources:
@@ -6156,7 +6157,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1819'
+  - '@id': 'urn:covid:consensas:ca.cases:1819'
     dataset_id: '1819'
     state_id: '475'
     sources:
@@ -6169,7 +6170,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1820'
+  - '@id': 'urn:covid:consensas:ca.cases:1820'
     dataset_id: '1820'
     state_id: '476'
     sources:
@@ -6182,7 +6183,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1821'
+  - '@id': 'urn:covid:consensas:ca.cases:1821'
     dataset_id: '1821'
     state_id: '477'
     sources:
@@ -6195,7 +6196,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1822'
+  - '@id': 'urn:covid:consensas:ca.cases:1822'
     dataset_id: '1822'
     state_id: '478'
     sources:
@@ -6208,7 +6209,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1823'
+  - '@id': 'urn:covid:consensas:ca.cases:1823'
     dataset_id: '1823'
     state_id: '479'
     sources:
@@ -6221,7 +6222,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1824'
+  - '@id': 'urn:covid:consensas:ca.cases:1824'
     dataset_id: '1824'
     state_id: '480'
     sources:
@@ -6234,7 +6235,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1825'
+  - '@id': 'urn:covid:consensas:ca.cases:1825'
     dataset_id: '1825'
     state_id: '481'
     sources:
@@ -6247,7 +6248,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1826'
+  - '@id': 'urn:covid:consensas:ca.cases:1826'
     dataset_id: '1826'
     state_id: '482'
     sources:
@@ -6260,7 +6261,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1827'
+  - '@id': 'urn:covid:consensas:ca.cases:1827'
     dataset_id: '1827'
     state_id: '483'
     sources:
@@ -6273,7 +6274,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1828'
+  - '@id': 'urn:covid:consensas:ca.cases:1828'
     dataset_id: '1828'
     state_id: '484'
     sources:
@@ -6286,7 +6287,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1829'
+  - '@id': 'urn:covid:consensas:ca.cases:1829'
     dataset_id: '1829'
     state_id: '485'
     sources:
@@ -6299,7 +6300,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1830'
+  - '@id': 'urn:covid:consensas:ca.cases:1830'
     dataset_id: '1830'
     state_id: '486'
     sources:
@@ -6312,7 +6313,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1831'
+  - '@id': 'urn:covid:consensas:ca.cases:1831'
     dataset_id: '1831'
     state_id: '487'
     sources:
@@ -6325,7 +6326,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1832'
+  - '@id': 'urn:covid:consensas:ca.cases:1832'
     dataset_id: '1832'
     state_id: '488'
     sources:
@@ -6338,7 +6339,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1833'
+  - '@id': 'urn:covid:consensas:ca.cases:1833'
     dataset_id: '1833'
     state_id: '489'
     sources:
@@ -6351,7 +6352,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1834'
+  - '@id': 'urn:covid:consensas:ca.cases:1834'
     dataset_id: '1834'
     state_id: '490'
     sources:
@@ -6364,7 +6365,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1835'
+  - '@id': 'urn:covid:consensas:ca.cases:1835'
     dataset_id: '1835'
     state_id: '491'
     sources:
@@ -6377,7 +6378,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1836'
+  - '@id': 'urn:covid:consensas:ca.cases:1836'
     dataset_id: '1836'
     state_id: '492'
     sources:
@@ -6390,7 +6391,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1837'
+  - '@id': 'urn:covid:consensas:ca.cases:1837'
     dataset_id: '1837'
     state_id: '493'
     sources:
@@ -6403,7 +6404,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1838'
+  - '@id': 'urn:covid:consensas:ca.cases:1838'
     dataset_id: '1838'
     state_id: '494'
     sources:
@@ -6416,7 +6417,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1839'
+  - '@id': 'urn:covid:consensas:ca.cases:1839'
     dataset_id: '1839'
     state_id: '495'
     sources:
@@ -6429,7 +6430,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1840'
+  - '@id': 'urn:covid:consensas:ca.cases:1840'
     dataset_id: '1840'
     state_id: '496'
     sources:
@@ -6442,7 +6443,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1841'
+  - '@id': 'urn:covid:consensas:ca.cases:1841'
     dataset_id: '1841'
     state_id: '497'
     sources:
@@ -6455,7 +6456,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1842'
+  - '@id': 'urn:covid:consensas:ca.cases:1842'
     dataset_id: '1842'
     state_id: '498'
     sources:
@@ -6468,7 +6469,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1843'
+  - '@id': 'urn:covid:consensas:ca.cases:1843'
     dataset_id: '1843'
     state_id: '499'
     sources:
@@ -6481,7 +6482,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1844'
+  - '@id': 'urn:covid:consensas:ca.cases:1844'
     dataset_id: '1844'
     state_id: '500'
     sources:
@@ -6494,7 +6495,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1845'
+  - '@id': 'urn:covid:consensas:ca.cases:1845'
     dataset_id: '1845'
     state_id: '501'
     sources:
@@ -6507,7 +6508,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1846'
+  - '@id': 'urn:covid:consensas:ca.cases:1846'
     dataset_id: '1846'
     state_id: '502'
     sources:
@@ -6520,7 +6521,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1847'
+  - '@id': 'urn:covid:consensas:ca.cases:1847'
     dataset_id: '1847'
     state_id: '503'
     sources:
@@ -6533,7 +6534,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1848'
+  - '@id': 'urn:covid:consensas:ca.cases:1848'
     dataset_id: '1848'
     state_id: '504'
     sources:
@@ -6546,7 +6547,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1849'
+  - '@id': 'urn:covid:consensas:ca.cases:1849'
     dataset_id: '1849'
     state_id: '505'
     sources:
@@ -6559,7 +6560,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1850'
+  - '@id': 'urn:covid:consensas:ca.cases:1850'
     dataset_id: '1850'
     state_id: '506'
     sources:
@@ -6572,7 +6573,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1851'
+  - '@id': 'urn:covid:consensas:ca.cases:1851'
     dataset_id: '1851'
     state_id: '507'
     sources:
@@ -6585,7 +6586,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1852'
+  - '@id': 'urn:covid:consensas:ca.cases:1852'
     dataset_id: '1852'
     state_id: '508'
     sources:
@@ -6598,7 +6599,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1853'
+  - '@id': 'urn:covid:consensas:ca.cases:1853'
     dataset_id: '1853'
     state_id: '509'
     sources:
@@ -6611,7 +6612,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1854'
+  - '@id': 'urn:covid:consensas:ca.cases:1854'
     dataset_id: '1854'
     state_id: '510'
     sources:
@@ -6624,7 +6625,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1855'
+  - '@id': 'urn:covid:consensas:ca.cases:1855'
     dataset_id: '1855'
     state_id: '511'
     sources:
@@ -6637,7 +6638,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1856'
+  - '@id': 'urn:covid:consensas:ca.cases:1856'
     dataset_id: '1856'
     state_id: '512'
     sources:
@@ -6650,7 +6651,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1857'
+  - '@id': 'urn:covid:consensas:ca.cases:1857'
     dataset_id: '1857'
     state_id: '513'
     sources:
@@ -6663,7 +6664,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1858'
+  - '@id': 'urn:covid:consensas:ca.cases:1858'
     dataset_id: '1858'
     state_id: '514'
     sources:
@@ -6676,7 +6677,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1859'
+  - '@id': 'urn:covid:consensas:ca.cases:1859'
     dataset_id: '1859'
     state_id: '515'
     sources:
@@ -6689,7 +6690,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1860'
+  - '@id': 'urn:covid:consensas:ca.cases:1860'
     dataset_id: '1860'
     state_id: '516'
     sources:
@@ -6702,7 +6703,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1861'
+  - '@id': 'urn:covid:consensas:ca.cases:1861'
     dataset_id: '1861'
     state_id: '517'
     sources:
@@ -6715,7 +6716,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1862'
+  - '@id': 'urn:covid:consensas:ca.cases:1862'
     dataset_id: '1862'
     state_id: '518'
     sources:
@@ -6728,7 +6729,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1863'
+  - '@id': 'urn:covid:consensas:ca.cases:1863'
     dataset_id: '1863'
     state_id: '519'
     sources:
@@ -6741,7 +6742,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1864'
+  - '@id': 'urn:covid:consensas:ca.cases:1864'
     dataset_id: '1864'
     state_id: '520'
     sources:
@@ -6754,7 +6755,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1865'
+  - '@id': 'urn:covid:consensas:ca.cases:1865'
     dataset_id: '1865'
     state_id: '521'
     sources:
@@ -6767,7 +6768,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1866'
+  - '@id': 'urn:covid:consensas:ca.cases:1866'
     dataset_id: '1866'
     state_id: '522'
     sources:
@@ -6780,7 +6781,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1867'
+  - '@id': 'urn:covid:consensas:ca.cases:1867'
     dataset_id: '1867'
     state_id: '523'
     sources:
@@ -6793,7 +6794,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1868'
+  - '@id': 'urn:covid:consensas:ca.cases:1868'
     dataset_id: '1868'
     state_id: '524'
     sources:
@@ -6806,7 +6807,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1869'
+  - '@id': 'urn:covid:consensas:ca.cases:1869'
     dataset_id: '1869'
     state_id: '525'
     sources:
@@ -6819,7 +6820,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1870'
+  - '@id': 'urn:covid:consensas:ca.cases:1870'
     dataset_id: '1870'
     state_id: '526'
     sources:
@@ -6832,7 +6833,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1871'
+  - '@id': 'urn:covid:consensas:ca.cases:1871'
     dataset_id: '1871'
     state_id: '527'
     sources:
@@ -6845,7 +6846,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1872'
+  - '@id': 'urn:covid:consensas:ca.cases:1872'
     dataset_id: '1872'
     state_id: '528'
     sources:
@@ -6858,7 +6859,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1873'
+  - '@id': 'urn:covid:consensas:ca.cases:1873'
     dataset_id: '1873'
     state_id: '529'
     sources:
@@ -6871,7 +6872,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1874'
+  - '@id': 'urn:covid:consensas:ca.cases:1874'
     dataset_id: '1874'
     state_id: '530'
     sources:
@@ -6884,7 +6885,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1875'
+  - '@id': 'urn:covid:consensas:ca.cases:1875'
     dataset_id: '1875'
     state_id: '531'
     sources:
@@ -6897,7 +6898,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1876'
+  - '@id': 'urn:covid:consensas:ca.cases:1876'
     dataset_id: '1876'
     state_id: '532'
     sources:
@@ -6910,7 +6911,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1877'
+  - '@id': 'urn:covid:consensas:ca.cases:1877'
     dataset_id: '1877'
     state_id: '533'
     sources:
@@ -6923,7 +6924,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1878'
+  - '@id': 'urn:covid:consensas:ca.cases:1878'
     dataset_id: '1878'
     state_id: '534'
     sources:
@@ -6936,7 +6937,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1879'
+  - '@id': 'urn:covid:consensas:ca.cases:1879'
     dataset_id: '1879'
     state_id: '535'
     sources:
@@ -6949,7 +6950,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1880'
+  - '@id': 'urn:covid:consensas:ca.cases:1880'
     dataset_id: '1880'
     state_id: '536'
     sources:
@@ -6962,7 +6963,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1881'
+  - '@id': 'urn:covid:consensas:ca.cases:1881'
     dataset_id: '1881'
     state_id: '537'
     sources:
@@ -6975,7 +6976,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1882'
+  - '@id': 'urn:covid:consensas:ca.cases:1882'
     dataset_id: '1882'
     state_id: '538'
     sources:
@@ -6988,7 +6989,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1883'
+  - '@id': 'urn:covid:consensas:ca.cases:1883'
     dataset_id: '1883'
     state_id: '539'
     sources:
@@ -7001,7 +7002,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1884'
+  - '@id': 'urn:covid:consensas:ca.cases:1884'
     dataset_id: '1884'
     state_id: '540'
     sources:
@@ -7014,7 +7015,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1885'
+  - '@id': 'urn:covid:consensas:ca.cases:1885'
     dataset_id: '1885'
     state_id: '541'
     sources:
@@ -7027,7 +7028,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1886'
+  - '@id': 'urn:covid:consensas:ca.cases:1886'
     dataset_id: '1886'
     state_id: '542'
     sources:
@@ -7040,7 +7041,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1887'
+  - '@id': 'urn:covid:consensas:ca.cases:1887'
     dataset_id: '1887'
     state_id: '543'
     sources:
@@ -7053,7 +7054,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1888'
+  - '@id': 'urn:covid:consensas:ca.cases:1888'
     dataset_id: '1888'
     state_id: '544'
     sources:
@@ -7066,7 +7067,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1889'
+  - '@id': 'urn:covid:consensas:ca.cases:1889'
     dataset_id: '1889'
     state_id: '545'
     sources:
@@ -7079,7 +7080,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1890'
+  - '@id': 'urn:covid:consensas:ca.cases:1890'
     dataset_id: '1890'
     state_id: '546'
     sources:
@@ -7092,7 +7093,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1891'
+  - '@id': 'urn:covid:consensas:ca.cases:1891'
     dataset_id: '1891'
     state_id: '547'
     sources:
@@ -7105,7 +7106,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1892'
+  - '@id': 'urn:covid:consensas:ca.cases:1892'
     dataset_id: '1892'
     state_id: '548'
     sources:
@@ -7118,7 +7119,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1893'
+  - '@id': 'urn:covid:consensas:ca.cases:1893'
     dataset_id: '1893'
     state_id: '549'
     sources:
@@ -7131,7 +7132,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1894'
+  - '@id': 'urn:covid:consensas:ca.cases:1894'
     dataset_id: '1894'
     state_id: '550'
     sources:
@@ -7144,7 +7145,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1895'
+  - '@id': 'urn:covid:consensas:ca.cases:1895'
     dataset_id: '1895'
     state_id: '551'
     sources:
@@ -7157,7 +7158,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1896'
+  - '@id': 'urn:covid:consensas:ca.cases:1896'
     dataset_id: '1896'
     state_id: '552'
     sources:
@@ -7170,7 +7171,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1897'
+  - '@id': 'urn:covid:consensas:ca.cases:1897'
     dataset_id: '1897'
     state_id: '553'
     sources:
@@ -7183,7 +7184,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1898'
+  - '@id': 'urn:covid:consensas:ca.cases:1898'
     dataset_id: '1898'
     state_id: '554'
     sources:
@@ -7196,7 +7197,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1899'
+  - '@id': 'urn:covid:consensas:ca.cases:1899'
     dataset_id: '1899'
     state_id: '555'
     sources:
@@ -7209,7 +7210,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1900'
+  - '@id': 'urn:covid:consensas:ca.cases:1900'
     dataset_id: '1900'
     state_id: '556'
     sources:
@@ -7222,7 +7223,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1901'
+  - '@id': 'urn:covid:consensas:ca.cases:1901'
     dataset_id: '1901'
     state_id: '557'
     sources:
@@ -7235,7 +7236,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1902'
+  - '@id': 'urn:covid:consensas:ca.cases:1902'
     dataset_id: '1902'
     state_id: '558'
     sources:
@@ -7248,7 +7249,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1903'
+  - '@id': 'urn:covid:consensas:ca.cases:1903'
     dataset_id: '1903'
     state_id: '559'
     sources:
@@ -7261,7 +7262,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1904'
+  - '@id': 'urn:covid:consensas:ca.cases:1904'
     dataset_id: '1904'
     state_id: '560'
     sources:
@@ -7274,7 +7275,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1905'
+  - '@id': 'urn:covid:consensas:ca.cases:1905'
     dataset_id: '1905'
     state_id: '561'
     sources:
@@ -7287,7 +7288,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1906'
+  - '@id': 'urn:covid:consensas:ca.cases:1906'
     dataset_id: '1906'
     state_id: '562'
     sources:
@@ -7300,7 +7301,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1907'
+  - '@id': 'urn:covid:consensas:ca.cases:1907'
     dataset_id: '1907'
     state_id: '563'
     sources:
@@ -7313,7 +7314,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1908'
+  - '@id': 'urn:covid:consensas:ca.cases:1908'
     dataset_id: '1908'
     state_id: '564'
     sources:
@@ -7326,7 +7327,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1909'
+  - '@id': 'urn:covid:consensas:ca.cases:1909'
     dataset_id: '1909'
     state_id: '565'
     sources:
@@ -7339,7 +7340,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1910'
+  - '@id': 'urn:covid:consensas:ca.cases:1910'
     dataset_id: '1910'
     state_id: '566'
     sources:
@@ -7352,7 +7353,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1911'
+  - '@id': 'urn:covid:consensas:ca.cases:1911'
     dataset_id: '1911'
     state_id: '567'
     sources:
@@ -7365,7 +7366,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1912'
+  - '@id': 'urn:covid:consensas:ca.cases:1912'
     dataset_id: '1912'
     state_id: '568'
     sources:
@@ -7378,7 +7379,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1913'
+  - '@id': 'urn:covid:consensas:ca.cases:1913'
     dataset_id: '1913'
     state_id: '569'
     sources:
@@ -7391,7 +7392,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1914'
+  - '@id': 'urn:covid:consensas:ca.cases:1914'
     dataset_id: '1914'
     state_id: '570'
     sources:
@@ -7404,7 +7405,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1915'
+  - '@id': 'urn:covid:consensas:ca.cases:1915'
     dataset_id: '1915'
     state_id: '571'
     sources:
@@ -7417,7 +7418,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1916'
+  - '@id': 'urn:covid:consensas:ca.cases:1916'
     dataset_id: '1916'
     state_id: '572'
     sources:
@@ -7430,7 +7431,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1917'
+  - '@id': 'urn:covid:consensas:ca.cases:1917'
     dataset_id: '1917'
     state_id: '573'
     sources:
@@ -7443,7 +7444,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1918'
+  - '@id': 'urn:covid:consensas:ca.cases:1918'
     dataset_id: '1918'
     state_id: '574'
     sources:
@@ -7456,7 +7457,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1919'
+  - '@id': 'urn:covid:consensas:ca.cases:1919'
     dataset_id: '1919'
     state_id: '575'
     sources:
@@ -7469,7 +7470,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1920'
+  - '@id': 'urn:covid:consensas:ca.cases:1920'
     dataset_id: '1920'
     state_id: '576'
     sources:
@@ -7482,7 +7483,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1921'
+  - '@id': 'urn:covid:consensas:ca.cases:1921'
     dataset_id: '1921'
     state_id: '577'
     sources:
@@ -7495,7 +7496,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1922'
+  - '@id': 'urn:covid:consensas:ca.cases:1922'
     dataset_id: '1922'
     state_id: '578'
     sources:
@@ -7508,7 +7509,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1923'
+  - '@id': 'urn:covid:consensas:ca.cases:1923'
     dataset_id: '1923'
     state_id: '579'
     sources:
@@ -7521,7 +7522,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1924'
+  - '@id': 'urn:covid:consensas:ca.cases:1924'
     dataset_id: '1924'
     state_id: '580'
     sources:
@@ -7534,7 +7535,7 @@ cases:
     sex: null
     health_region: Montréal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1925'
+  - '@id': 'urn:covid:consensas:ca.cases:1925'
     dataset_id: '1925'
     state_id: '581'
     sources:
@@ -7547,7 +7548,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1926'
+  - '@id': 'urn:covid:consensas:ca.cases:1926'
     dataset_id: '1926'
     state_id: '582'
     sources:
@@ -7560,7 +7561,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1927'
+  - '@id': 'urn:covid:consensas:ca.cases:1927'
     dataset_id: '1927'
     state_id: '583'
     sources:
@@ -7573,7 +7574,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1928'
+  - '@id': 'urn:covid:consensas:ca.cases:1928'
     dataset_id: '1928'
     state_id: '584'
     sources:
@@ -7586,7 +7587,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1929'
+  - '@id': 'urn:covid:consensas:ca.cases:1929'
     dataset_id: '1929'
     state_id: '585'
     sources:
@@ -7599,7 +7600,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1930'
+  - '@id': 'urn:covid:consensas:ca.cases:1930'
     dataset_id: '1930'
     state_id: '586'
     sources:
@@ -7612,7 +7613,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1931'
+  - '@id': 'urn:covid:consensas:ca.cases:1931'
     dataset_id: '1931'
     state_id: '587'
     sources:
@@ -7625,7 +7626,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1932'
+  - '@id': 'urn:covid:consensas:ca.cases:1932'
     dataset_id: '1932'
     state_id: '588'
     sources:
@@ -7638,7 +7639,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1933'
+  - '@id': 'urn:covid:consensas:ca.cases:1933'
     dataset_id: '1933'
     state_id: '589'
     sources:
@@ -7651,7 +7652,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1934'
+  - '@id': 'urn:covid:consensas:ca.cases:1934'
     dataset_id: '1934'
     state_id: '590'
     sources:
@@ -7664,7 +7665,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1935'
+  - '@id': 'urn:covid:consensas:ca.cases:1935'
     dataset_id: '1935'
     state_id: '591'
     sources:
@@ -7677,7 +7678,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1936'
+  - '@id': 'urn:covid:consensas:ca.cases:1936'
     dataset_id: '1936'
     state_id: '592'
     sources:
@@ -7690,7 +7691,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1937'
+  - '@id': 'urn:covid:consensas:ca.cases:1937'
     dataset_id: '1937'
     state_id: '593'
     sources:
@@ -7703,7 +7704,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1938'
+  - '@id': 'urn:covid:consensas:ca.cases:1938'
     dataset_id: '1938'
     state_id: '594'
     sources:
@@ -7716,7 +7717,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1939'
+  - '@id': 'urn:covid:consensas:ca.cases:1939'
     dataset_id: '1939'
     state_id: '595'
     sources:
@@ -7729,7 +7730,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1940'
+  - '@id': 'urn:covid:consensas:ca.cases:1940'
     dataset_id: '1940'
     state_id: '596'
     sources:
@@ -7742,7 +7743,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1941'
+  - '@id': 'urn:covid:consensas:ca.cases:1941'
     dataset_id: '1941'
     state_id: '597'
     sources:
@@ -7755,7 +7756,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1942'
+  - '@id': 'urn:covid:consensas:ca.cases:1942'
     dataset_id: '1942'
     state_id: '598'
     sources:
@@ -7768,7 +7769,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1943'
+  - '@id': 'urn:covid:consensas:ca.cases:1943'
     dataset_id: '1943'
     state_id: '599'
     sources:
@@ -7781,7 +7782,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1944'
+  - '@id': 'urn:covid:consensas:ca.cases:1944'
     dataset_id: '1944'
     state_id: '600'
     sources:
@@ -7794,7 +7795,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1945'
+  - '@id': 'urn:covid:consensas:ca.cases:1945'
     dataset_id: '1945'
     state_id: '601'
     sources:
@@ -7807,7 +7808,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1946'
+  - '@id': 'urn:covid:consensas:ca.cases:1946'
     dataset_id: '1946'
     state_id: '602'
     sources:
@@ -7820,7 +7821,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1947'
+  - '@id': 'urn:covid:consensas:ca.cases:1947'
     dataset_id: '1947'
     state_id: '603'
     sources:
@@ -7833,7 +7834,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1948'
+  - '@id': 'urn:covid:consensas:ca.cases:1948'
     dataset_id: '1948'
     state_id: '604'
     sources:
@@ -7846,7 +7847,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1949'
+  - '@id': 'urn:covid:consensas:ca.cases:1949'
     dataset_id: '1949'
     state_id: '605'
     sources:
@@ -7859,7 +7860,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1950'
+  - '@id': 'urn:covid:consensas:ca.cases:1950'
     dataset_id: '1950'
     state_id: '606'
     sources:
@@ -7872,7 +7873,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1951'
+  - '@id': 'urn:covid:consensas:ca.cases:1951'
     dataset_id: '1951'
     state_id: '607'
     sources:
@@ -7885,7 +7886,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1952'
+  - '@id': 'urn:covid:consensas:ca.cases:1952'
     dataset_id: '1952'
     state_id: '608'
     sources:
@@ -7898,7 +7899,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1953'
+  - '@id': 'urn:covid:consensas:ca.cases:1953'
     dataset_id: '1953'
     state_id: '609'
     sources:
@@ -7911,7 +7912,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1954'
+  - '@id': 'urn:covid:consensas:ca.cases:1954'
     dataset_id: '1954'
     state_id: '610'
     sources:
@@ -7924,7 +7925,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1955'
+  - '@id': 'urn:covid:consensas:ca.cases:1955'
     dataset_id: '1955'
     state_id: '611'
     sources:
@@ -7937,7 +7938,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1956'
+  - '@id': 'urn:covid:consensas:ca.cases:1956'
     dataset_id: '1956'
     state_id: '612'
     sources:
@@ -7950,7 +7951,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1957'
+  - '@id': 'urn:covid:consensas:ca.cases:1957'
     dataset_id: '1957'
     state_id: '613'
     sources:
@@ -7963,7 +7964,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1958'
+  - '@id': 'urn:covid:consensas:ca.cases:1958'
     dataset_id: '1958'
     state_id: '614'
     sources:
@@ -7976,7 +7977,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1959'
+  - '@id': 'urn:covid:consensas:ca.cases:1959'
     dataset_id: '1959'
     state_id: '615'
     sources:
@@ -7989,7 +7990,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1960'
+  - '@id': 'urn:covid:consensas:ca.cases:1960'
     dataset_id: '1960'
     state_id: '616'
     sources:
@@ -8002,7 +8003,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1961'
+  - '@id': 'urn:covid:consensas:ca.cases:1961'
     dataset_id: '1961'
     state_id: '617'
     sources:
@@ -8015,7 +8016,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1962'
+  - '@id': 'urn:covid:consensas:ca.cases:1962'
     dataset_id: '1962'
     state_id: '618'
     sources:
@@ -8028,7 +8029,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1963'
+  - '@id': 'urn:covid:consensas:ca.cases:1963'
     dataset_id: '1963'
     state_id: '619'
     sources:
@@ -8041,7 +8042,7 @@ cases:
     sex: null
     health_region: null
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1964'
+  - '@id': 'urn:covid:consensas:ca.cases:1964'
     dataset_id: '1964'
     state_id: '620'
     sources:
@@ -8054,7 +8055,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1965'
+  - '@id': 'urn:covid:consensas:ca.cases:1965'
     dataset_id: '1965'
     state_id: '621'
     sources:
@@ -8067,7 +8068,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1966'
+  - '@id': 'urn:covid:consensas:ca.cases:1966'
     dataset_id: '1966'
     state_id: '622'
     sources:
@@ -8080,7 +8081,7 @@ cases:
     sex: null
     health_region: Outaouais
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1967'
+  - '@id': 'urn:covid:consensas:ca.cases:1967'
     dataset_id: '1967'
     state_id: '623'
     sources:
@@ -8093,7 +8094,7 @@ cases:
     sex: null
     health_region: Abitibi-Témiscamingue
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1968'
+  - '@id': 'urn:covid:consensas:ca.cases:1968'
     dataset_id: '1968'
     state_id: '624'
     sources:
@@ -8106,7 +8107,7 @@ cases:
     sex: null
     health_region: Abitibi-Témiscamingue
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1969'
+  - '@id': 'urn:covid:consensas:ca.cases:1969'
     dataset_id: '1969'
     state_id: '625'
     sources:
@@ -8119,7 +8120,7 @@ cases:
     sex: null
     health_region: Abitibi-Témiscamingue
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1970'
+  - '@id': 'urn:covid:consensas:ca.cases:1970'
     dataset_id: '1970'
     state_id: '626'
     sources:
@@ -8132,7 +8133,7 @@ cases:
     sex: null
     health_region: Gaspésie-Îles-de-la-Madeleine
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1971'
+  - '@id': 'urn:covid:consensas:ca.cases:1971'
     dataset_id: '1971'
     state_id: '627'
     sources:
@@ -8145,7 +8146,7 @@ cases:
     sex: null
     health_region: Gaspésie-Îles-de-la-Madeleine
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1972'
+  - '@id': 'urn:covid:consensas:ca.cases:1972'
     dataset_id: '1972'
     state_id: '628'
     sources:

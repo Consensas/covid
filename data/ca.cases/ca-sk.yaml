@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: SK
 key: ca-sk
 cases:
-  - id: 'urn:covid:ca.cases:133'
+  - '@id': 'urn:covid:consensas:ca.cases:133'
     dataset_id: '133'
     state_id: '1'
     sources:
@@ -12,10 +13,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:184'
+  - '@id': 'urn:covid:consensas:ca.cases:184'
     dataset_id: '184'
     state_id: '2'
     sources:
@@ -28,7 +29,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:310'
+  - '@id': 'urn:covid:consensas:ca.cases:310'
     dataset_id: '310'
     state_id: '3'
     sources:
@@ -41,7 +42,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:311'
+  - '@id': 'urn:covid:consensas:ca.cases:311'
     dataset_id: '311'
     state_id: '4'
     sources:
@@ -54,7 +55,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:312'
+  - '@id': 'urn:covid:consensas:ca.cases:312'
     dataset_id: '312'
     state_id: '5'
     sources:
@@ -68,7 +69,7 @@ cases:
     health_region: Regina
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:313'
+  - '@id': 'urn:covid:consensas:ca.cases:313'
     dataset_id: '313'
     state_id: '6'
     sources:
@@ -81,7 +82,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:418'
+  - '@id': 'urn:covid:consensas:ca.cases:418'
     dataset_id: '418'
     state_id: '7'
     sources:
@@ -94,7 +95,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:478'
+  - '@id': 'urn:covid:consensas:ca.cases:478'
     dataset_id: '478'
     state_id: '8'
     sources:
@@ -107,7 +108,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:649'
+  - '@id': 'urn:covid:consensas:ca.cases:649'
     dataset_id: '649'
     state_id: '9'
     sources:
@@ -120,7 +121,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:650'
+  - '@id': 'urn:covid:consensas:ca.cases:650'
     dataset_id: '650'
     state_id: '10'
     sources:
@@ -134,7 +135,7 @@ cases:
     health_region: North
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:651'
+  - '@id': 'urn:covid:consensas:ca.cases:651'
     dataset_id: '651'
     state_id: '11'
     sources:
@@ -147,7 +148,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:652'
+  - '@id': 'urn:covid:consensas:ca.cases:652'
     dataset_id: '652'
     state_id: '12'
     sources:
@@ -160,7 +161,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:653'
+  - '@id': 'urn:covid:consensas:ca.cases:653'
     dataset_id: '653'
     state_id: '13'
     sources:
@@ -173,7 +174,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:654'
+  - '@id': 'urn:covid:consensas:ca.cases:654'
     dataset_id: '654'
     state_id: '14'
     sources:
@@ -186,7 +187,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:655'
+  - '@id': 'urn:covid:consensas:ca.cases:655'
     dataset_id: '655'
     state_id: '15'
     sources:
@@ -199,7 +200,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:656'
+  - '@id': 'urn:covid:consensas:ca.cases:656'
     dataset_id: '656'
     state_id: '16'
     sources:
@@ -212,7 +213,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:802'
+  - '@id': 'urn:covid:consensas:ca.cases:802'
     dataset_id: '802'
     state_id: '17'
     sources:
@@ -225,7 +226,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:803'
+  - '@id': 'urn:covid:consensas:ca.cases:803'
     dataset_id: '803'
     state_id: '18'
     sources:
@@ -240,7 +241,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:804'
+  - '@id': 'urn:covid:consensas:ca.cases:804'
     dataset_id: '804'
     state_id: '19'
     sources:
@@ -254,7 +255,7 @@ cases:
     health_region: South
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:805'
+  - '@id': 'urn:covid:consensas:ca.cases:805'
     dataset_id: '805'
     state_id: '20'
     sources:
@@ -267,7 +268,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:944'
+  - '@id': 'urn:covid:consensas:ca.cases:944'
     dataset_id: '944'
     state_id: '21'
     sources:
@@ -280,7 +281,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:945'
+  - '@id': 'urn:covid:consensas:ca.cases:945'
     dataset_id: '945'
     state_id: '22'
     sources:
@@ -293,7 +294,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:946'
+  - '@id': 'urn:covid:consensas:ca.cases:946'
     dataset_id: '946'
     state_id: '23'
     sources:
@@ -306,7 +307,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:947'
+  - '@id': 'urn:covid:consensas:ca.cases:947'
     dataset_id: '947'
     state_id: '24'
     sources:
@@ -319,7 +320,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:948'
+  - '@id': 'urn:covid:consensas:ca.cases:948'
     dataset_id: '948'
     state_id: '25'
     sources:
@@ -332,7 +333,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:949'
+  - '@id': 'urn:covid:consensas:ca.cases:949'
     dataset_id: '949'
     state_id: '26'
     sources:
@@ -345,7 +346,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1312'
+  - '@id': 'urn:covid:consensas:ca.cases:1312'
     dataset_id: '1312'
     state_id: '27'
     sources:
@@ -358,7 +359,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1313'
+  - '@id': 'urn:covid:consensas:ca.cases:1313'
     dataset_id: '1313'
     state_id: '28'
     sources:
@@ -371,7 +372,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1314'
+  - '@id': 'urn:covid:consensas:ca.cases:1314'
     dataset_id: '1314'
     state_id: '29'
     sources:
@@ -384,7 +385,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1315'
+  - '@id': 'urn:covid:consensas:ca.cases:1315'
     dataset_id: '1315'
     state_id: '30'
     sources:
@@ -397,7 +398,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1316'
+  - '@id': 'urn:covid:consensas:ca.cases:1316'
     dataset_id: '1316'
     state_id: '31'
     sources:
@@ -410,7 +411,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1317'
+  - '@id': 'urn:covid:consensas:ca.cases:1317'
     dataset_id: '1317'
     state_id: '32'
     sources:
@@ -423,7 +424,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1318'
+  - '@id': 'urn:covid:consensas:ca.cases:1318'
     dataset_id: '1318'
     state_id: '33'
     sources:
@@ -436,7 +437,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1319'
+  - '@id': 'urn:covid:consensas:ca.cases:1319'
     dataset_id: '1319'
     state_id: '34'
     sources:
@@ -449,7 +450,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1320'
+  - '@id': 'urn:covid:consensas:ca.cases:1320'
     dataset_id: '1320'
     state_id: '35'
     sources:
@@ -462,7 +463,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1321'
+  - '@id': 'urn:covid:consensas:ca.cases:1321'
     dataset_id: '1321'
     state_id: '36'
     sources:
@@ -475,7 +476,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1322'
+  - '@id': 'urn:covid:consensas:ca.cases:1322'
     dataset_id: '1322'
     state_id: '37'
     sources:
@@ -488,7 +489,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1323'
+  - '@id': 'urn:covid:consensas:ca.cases:1323'
     dataset_id: '1323'
     state_id: '38'
     sources:
@@ -501,7 +502,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1324'
+  - '@id': 'urn:covid:consensas:ca.cases:1324'
     dataset_id: '1324'
     state_id: '39'
     sources:
@@ -514,7 +515,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1325'
+  - '@id': 'urn:covid:consensas:ca.cases:1325'
     dataset_id: '1325'
     state_id: '40'
     sources:
@@ -527,7 +528,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1326'
+  - '@id': 'urn:covid:consensas:ca.cases:1326'
     dataset_id: '1326'
     state_id: '41'
     sources:
@@ -540,7 +541,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1327'
+  - '@id': 'urn:covid:consensas:ca.cases:1327'
     dataset_id: '1327'
     state_id: '42'
     sources:
@@ -553,7 +554,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1328'
+  - '@id': 'urn:covid:consensas:ca.cases:1328'
     dataset_id: '1328'
     state_id: '43'
     sources:
@@ -566,7 +567,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1329'
+  - '@id': 'urn:covid:consensas:ca.cases:1329'
     dataset_id: '1329'
     state_id: '44'
     sources:
@@ -579,7 +580,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1427'
+  - '@id': 'urn:covid:consensas:ca.cases:1427'
     dataset_id: '1427'
     state_id: '45'
     sources:
@@ -592,7 +593,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1428'
+  - '@id': 'urn:covid:consensas:ca.cases:1428'
     dataset_id: '1428'
     state_id: '46'
     sources:
@@ -605,7 +606,7 @@ cases:
     sex: null
     health_region: Regina
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1429'
+  - '@id': 'urn:covid:consensas:ca.cases:1429'
     dataset_id: '1429'
     state_id: '47'
     sources:
@@ -618,7 +619,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1430'
+  - '@id': 'urn:covid:consensas:ca.cases:1430'
     dataset_id: '1430'
     state_id: '48'
     sources:
@@ -631,7 +632,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1431'
+  - '@id': 'urn:covid:consensas:ca.cases:1431'
     dataset_id: '1431'
     state_id: '49'
     sources:
@@ -644,7 +645,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1432'
+  - '@id': 'urn:covid:consensas:ca.cases:1432'
     dataset_id: '1432'
     state_id: '50'
     sources:
@@ -657,7 +658,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1433'
+  - '@id': 'urn:covid:consensas:ca.cases:1433'
     dataset_id: '1433'
     state_id: '51'
     sources:
@@ -670,7 +671,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1434'
+  - '@id': 'urn:covid:consensas:ca.cases:1434'
     dataset_id: '1434'
     state_id: '52'
     sources:
@@ -683,7 +684,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2036'
+  - '@id': 'urn:covid:consensas:ca.cases:2036'
     dataset_id: '2036'
     state_id: '53'
     sources:
@@ -696,7 +697,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2037'
+  - '@id': 'urn:covid:consensas:ca.cases:2037'
     dataset_id: '2037'
     state_id: '54'
     sources:
@@ -709,7 +710,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2038'
+  - '@id': 'urn:covid:consensas:ca.cases:2038'
     dataset_id: '2038'
     state_id: '55'
     sources:
@@ -722,7 +723,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2039'
+  - '@id': 'urn:covid:consensas:ca.cases:2039'
     dataset_id: '2039'
     state_id: '56'
     sources:
@@ -735,7 +736,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2040'
+  - '@id': 'urn:covid:consensas:ca.cases:2040'
     dataset_id: '2040'
     state_id: '57'
     sources:
@@ -748,7 +749,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2041'
+  - '@id': 'urn:covid:consensas:ca.cases:2041'
     dataset_id: '2041'
     state_id: '58'
     sources:
@@ -761,7 +762,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2042'
+  - '@id': 'urn:covid:consensas:ca.cases:2042'
     dataset_id: '2042'
     state_id: '59'
     sources:
@@ -774,7 +775,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2043'
+  - '@id': 'urn:covid:consensas:ca.cases:2043'
     dataset_id: '2043'
     state_id: '60'
     sources:
@@ -787,7 +788,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2044'
+  - '@id': 'urn:covid:consensas:ca.cases:2044'
     dataset_id: '2044'
     state_id: '61'
     sources:
@@ -800,7 +801,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2045'
+  - '@id': 'urn:covid:consensas:ca.cases:2045'
     dataset_id: '2045'
     state_id: '62'
     sources:
@@ -813,7 +814,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2046'
+  - '@id': 'urn:covid:consensas:ca.cases:2046'
     dataset_id: '2046'
     state_id: '63'
     sources:
@@ -826,7 +827,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2047'
+  - '@id': 'urn:covid:consensas:ca.cases:2047'
     dataset_id: '2047'
     state_id: '64'
     sources:
@@ -839,7 +840,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2048'
+  - '@id': 'urn:covid:consensas:ca.cases:2048'
     dataset_id: '2048'
     state_id: '65'
     sources:
@@ -852,7 +853,7 @@ cases:
     sex: null
     health_region: Saskatoon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2049'
+  - '@id': 'urn:covid:consensas:ca.cases:2049'
     dataset_id: '2049'
     state_id: '66'
     sources:

@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: YK
 key: ca-yk
 cases:
-  - id: 'urn:covid:ca.cases:1471'
+  - '@id': 'urn:covid:consensas:ca.cases:1471'
     dataset_id: '1471'
     state_id: '1'
     sources:
@@ -14,7 +15,7 @@ cases:
     sex: null
     health_region: Yukon
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1472'
+  - '@id': 'urn:covid:consensas:ca.cases:1472'
     dataset_id: '1472'
     state_id: '2'
     sources:

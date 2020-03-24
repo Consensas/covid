@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: NT
 key: ca-nt
 cases:
-  - id: 'urn:covid:ca.cases:1198'
+  - '@id': 'urn:covid:consensas:ca.cases:1198'
     dataset_id: '1198'
     state_id: '1'
     sources:

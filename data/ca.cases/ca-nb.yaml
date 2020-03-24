@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: NB
 key: ca-nb
 cases:
-  - id: 'urn:covid:ca.cases:140'
+  - '@id': 'urn:covid:consensas:ca.cases:140'
     dataset_id: '140'
     state_id: '1'
     sources:
@@ -14,10 +15,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Zone 1 (Moncton Area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:221'
+  - '@id': 'urn:covid:consensas:ca.cases:221'
     dataset_id: '221'
     state_id: '2'
     sources:
@@ -27,11 +28,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Zone 1 (Moncton Area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:314'
+  - '@id': 'urn:covid:consensas:ca.cases:314'
     dataset_id: '314'
     state_id: '3'
     sources:
@@ -40,11 +41,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: M
+    sex: Male
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:315'
+  - '@id': 'urn:covid:consensas:ca.cases:315'
     dataset_id: '315'
     state_id: '4'
     sources:
@@ -53,11 +54,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: M
+    sex: Male
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:316'
+  - '@id': 'urn:covid:consensas:ca.cases:316'
     dataset_id: '316'
     state_id: '5'
     sources:
@@ -66,11 +67,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:317'
+  - '@id': 'urn:covid:consensas:ca.cases:317'
     dataset_id: '317'
     state_id: '6'
     sources:
@@ -79,11 +80,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:378'
+  - '@id': 'urn:covid:consensas:ca.cases:378'
     dataset_id: '378'
     state_id: '7'
     sources:
@@ -92,10 +93,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: F
+    sex: Female
     health_region: Zone 2 (Saint John area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:452'
+  - '@id': 'urn:covid:consensas:ca.cases:452'
     dataset_id: '452'
     state_id: '8'
     sources:
@@ -104,11 +105,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: <10
-    sex: M
+    sex: Male
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:646'
+  - '@id': 'urn:covid:consensas:ca.cases:646'
     dataset_id: '646'
     state_id: '9'
     sources:
@@ -118,10 +119,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Zone 1 (Moncton Area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:647'
+  - '@id': 'urn:covid:consensas:ca.cases:647'
     dataset_id: '647'
     state_id: '10'
     sources:
@@ -131,11 +132,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:648'
+  - '@id': 'urn:covid:consensas:ca.cases:648'
     dataset_id: '648'
     state_id: '11'
     sources:
@@ -145,10 +146,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Zone 3 (Fredericton area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1199'
+  - '@id': 'urn:covid:consensas:ca.cases:1199'
     dataset_id: '1199'
     state_id: '12'
     sources:
@@ -157,10 +158,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Zone 2 (Saint John area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1200'
+  - '@id': 'urn:covid:consensas:ca.cases:1200'
     dataset_id: '1200'
     state_id: '13'
     sources:
@@ -169,11 +170,11 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Zone 3 (Fredericton area)
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:1201'
+  - '@id': 'urn:covid:consensas:ca.cases:1201'
     dataset_id: '1201'
     state_id: '14'
     sources:
@@ -182,10 +183,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Zone 2 (Saint John area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1202'
+  - '@id': 'urn:covid:consensas:ca.cases:1202'
     dataset_id: '1202'
     state_id: '15'
     sources:
@@ -194,10 +195,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Zone 2 (Saint John area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1203'
+  - '@id': 'urn:covid:consensas:ca.cases:1203'
     dataset_id: '1203'
     state_id: '16'
     sources:
@@ -206,10 +207,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Zone 2 (Saint John area)
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1204'
+  - '@id': 'urn:covid:consensas:ca.cases:1204'
     dataset_id: '1204'
     state_id: '17'
     sources:
@@ -218,7 +219,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: F
+    sex: Female
     health_region: Zone 2 (Saint John area)
     acquired_country: CA
     acquired_close_contact: true

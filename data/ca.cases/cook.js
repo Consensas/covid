@@ -88,9 +88,9 @@ const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
 const _sex = v => {
     switch (v) {
     case "Male":
-        return "M"
+        return "Male"
     case "Female":
-        return "F"
+        return "Female"
     case "Not Reported":
         return null
     default:
@@ -125,7 +125,7 @@ const _one = _.promise((self, done) => {
         .make(sd => {
             const state = _normalize_province(sd.json.province)
             sd.record = {
-                id: `urn:covid:ca.cases:${_integer(sd.json.case_id)}`,
+                "@id": `urn:covid:consensas:ca.cases:${_integer(sd.json.case_id)}`,
                 dataset_id: sd.json.case_id,
                 state_id: sd.json.provincial_case_id,
                 country: "CA",
@@ -223,6 +223,7 @@ _.promise({
         sd.rss = _.values(rsd)
             .map(rs => {
                 const rd = {
+                    "@context": "https://consensas.world/m/covid",
                     country: rs[0].country,
                     state: rs[0].state,
                     key: rs[0].key,

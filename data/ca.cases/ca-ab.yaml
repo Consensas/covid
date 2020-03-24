@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: AB
 key: ca-ab
 cases:
-  - id: 'urn:covid:ca.cases:47'
+  - '@id': 'urn:covid:consensas:ca.cases:47'
     dataset_id: '47'
     state_id: '1'
     sources:
@@ -12,10 +13,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:54'
+  - '@id': 'urn:covid:consensas:ca.cases:54'
     dataset_id: '54'
     state_id: '2'
     sources:
@@ -26,10 +27,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:63'
+  - '@id': 'urn:covid:consensas:ca.cases:63'
     dataset_id: '63'
     state_id: '3'
     sources:
@@ -39,10 +40,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:64'
+  - '@id': 'urn:covid:consensas:ca.cases:64'
     dataset_id: '64'
     state_id: '4'
     sources:
@@ -52,11 +53,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:75'
+  - '@id': 'urn:covid:consensas:ca.cases:75'
     dataset_id: '75'
     state_id: '5'
     sources:
@@ -68,10 +69,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: F
+    sex: Female
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:76'
+  - '@id': 'urn:covid:consensas:ca.cases:76'
     dataset_id: '76'
     state_id: '6'
     sources:
@@ -83,10 +84,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:77'
+  - '@id': 'urn:covid:consensas:ca.cases:77'
     dataset_id: '77'
     state_id: '7'
     sources:
@@ -98,10 +99,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:81'
+  - '@id': 'urn:covid:consensas:ca.cases:81'
     dataset_id: '81'
     state_id: '8'
     sources:
@@ -111,10 +112,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: M
+    sex: Male
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:82'
+  - '@id': 'urn:covid:consensas:ca.cases:82'
     dataset_id: '82'
     state_id: '9'
     sources:
@@ -124,10 +125,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:83'
+  - '@id': 'urn:covid:consensas:ca.cases:83'
     dataset_id: '83'
     state_id: '10'
     sources:
@@ -137,10 +138,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:84'
+  - '@id': 'urn:covid:consensas:ca.cases:84'
     dataset_id: '84'
     state_id: '11'
     sources:
@@ -150,10 +151,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:85'
+  - '@id': 'urn:covid:consensas:ca.cases:85'
     dataset_id: '85'
     state_id: '12'
     sources:
@@ -163,10 +164,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:86'
+  - '@id': 'urn:covid:consensas:ca.cases:86'
     dataset_id: '86'
     state_id: '13'
     sources:
@@ -176,10 +177,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:87'
+  - '@id': 'urn:covid:consensas:ca.cases:87'
     dataset_id: '87'
     state_id: '14'
     sources:
@@ -189,10 +190,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:104'
+  - '@id': 'urn:covid:consensas:ca.cases:104'
     dataset_id: '104'
     state_id: '15'
     sources:
@@ -202,10 +203,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:105'
+  - '@id': 'urn:covid:consensas:ca.cases:105'
     dataset_id: '105'
     state_id: '16'
     sources:
@@ -215,10 +216,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: M
+    sex: Male
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:106'
+  - '@id': 'urn:covid:consensas:ca.cases:106'
     dataset_id: '106'
     state_id: '17'
     sources:
@@ -228,10 +229,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:107'
+  - '@id': 'urn:covid:consensas:ca.cases:107'
     dataset_id: '107'
     state_id: '18'
     sources:
@@ -241,10 +242,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:108'
+  - '@id': 'urn:covid:consensas:ca.cases:108'
     dataset_id: '108'
     state_id: '19'
     sources:
@@ -254,10 +255,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:141'
+  - '@id': 'urn:covid:consensas:ca.cases:141'
     dataset_id: '141'
     state_id: '20'
     sources:
@@ -272,7 +273,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:142'
+  - '@id': 'urn:covid:consensas:ca.cases:142'
     dataset_id: '142'
     state_id: '21'
     sources:
@@ -282,10 +283,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:143'
+  - '@id': 'urn:covid:consensas:ca.cases:143'
     dataset_id: '143'
     state_id: '22'
     sources:
@@ -295,10 +296,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:144'
+  - '@id': 'urn:covid:consensas:ca.cases:144'
     dataset_id: '144'
     state_id: '23'
     sources:
@@ -308,10 +309,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: F
+    sex: Female
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:178'
+  - '@id': 'urn:covid:consensas:ca.cases:178'
     dataset_id: '178'
     state_id: '24'
     sources:
@@ -321,10 +322,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: M
+    sex: Male
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:179'
+  - '@id': 'urn:covid:consensas:ca.cases:179'
     dataset_id: '179'
     state_id: '25'
     sources:
@@ -337,7 +338,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:180'
+  - '@id': 'urn:covid:consensas:ca.cases:180'
     dataset_id: '180'
     state_id: '26'
     sources:
@@ -351,7 +352,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:181'
+  - '@id': 'urn:covid:consensas:ca.cases:181'
     dataset_id: '181'
     state_id: '27'
     sources:
@@ -365,7 +366,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:182'
+  - '@id': 'urn:covid:consensas:ca.cases:182'
     dataset_id: '182'
     state_id: '28'
     sources:
@@ -379,7 +380,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:183'
+  - '@id': 'urn:covid:consensas:ca.cases:183'
     dataset_id: '183'
     state_id: '29'
     sources:
@@ -393,7 +394,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:229'
+  - '@id': 'urn:covid:consensas:ca.cases:229'
     dataset_id: '229'
     state_id: '30'
     sources:
@@ -408,7 +409,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:230'
+  - '@id': 'urn:covid:consensas:ca.cases:230'
     dataset_id: '230'
     state_id: '31'
     sources:
@@ -421,7 +422,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:231'
+  - '@id': 'urn:covid:consensas:ca.cases:231'
     dataset_id: '231'
     state_id: '32'
     sources:
@@ -434,7 +435,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:232'
+  - '@id': 'urn:covid:consensas:ca.cases:232'
     dataset_id: '232'
     state_id: '33'
     sources:
@@ -447,7 +448,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:233'
+  - '@id': 'urn:covid:consensas:ca.cases:233'
     dataset_id: '233'
     state_id: '34'
     sources:
@@ -460,7 +461,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:234'
+  - '@id': 'urn:covid:consensas:ca.cases:234'
     dataset_id: '234'
     state_id: '35'
     sources:
@@ -473,7 +474,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:235'
+  - '@id': 'urn:covid:consensas:ca.cases:235'
     dataset_id: '235'
     state_id: '36'
     sources:
@@ -488,7 +489,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:236'
+  - '@id': 'urn:covid:consensas:ca.cases:236'
     dataset_id: '236'
     state_id: '37'
     sources:
@@ -501,7 +502,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:237'
+  - '@id': 'urn:covid:consensas:ca.cases:237'
     dataset_id: '237'
     state_id: '38'
     sources:
@@ -514,7 +515,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:238'
+  - '@id': 'urn:covid:consensas:ca.cases:238'
     dataset_id: '238'
     state_id: '39'
     sources:
@@ -527,7 +528,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:321'
+  - '@id': 'urn:covid:consensas:ca.cases:321'
     dataset_id: '321'
     state_id: '40'
     sources:
@@ -542,7 +543,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:322'
+  - '@id': 'urn:covid:consensas:ca.cases:322'
     dataset_id: '322'
     state_id: '41'
     sources:
@@ -557,7 +558,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:323'
+  - '@id': 'urn:covid:consensas:ca.cases:323'
     dataset_id: '323'
     state_id: '42'
     sources:
@@ -575,7 +576,7 @@ cases:
     health_region: Edmonton
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:324'
+  - '@id': 'urn:covid:consensas:ca.cases:324'
     dataset_id: '324'
     state_id: '43'
     sources:
@@ -591,7 +592,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:325'
+  - '@id': 'urn:covid:consensas:ca.cases:325'
     dataset_id: '325'
     state_id: '44'
     sources:
@@ -607,7 +608,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:326'
+  - '@id': 'urn:covid:consensas:ca.cases:326'
     dataset_id: '326'
     state_id: '45'
     sources:
@@ -623,7 +624,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:327'
+  - '@id': 'urn:covid:consensas:ca.cases:327'
     dataset_id: '327'
     state_id: '46'
     sources:
@@ -639,7 +640,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:328'
+  - '@id': 'urn:covid:consensas:ca.cases:328'
     dataset_id: '328'
     state_id: '47'
     sources:
@@ -655,7 +656,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:329'
+  - '@id': 'urn:covid:consensas:ca.cases:329'
     dataset_id: '329'
     state_id: '48'
     sources:
@@ -671,7 +672,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:330'
+  - '@id': 'urn:covid:consensas:ca.cases:330'
     dataset_id: '330'
     state_id: '49'
     sources:
@@ -687,7 +688,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:331'
+  - '@id': 'urn:covid:consensas:ca.cases:331'
     dataset_id: '331'
     state_id: '50'
     sources:
@@ -705,7 +706,7 @@ cases:
     health_region: Calgary
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:332'
+  - '@id': 'urn:covid:consensas:ca.cases:332'
     dataset_id: '332'
     state_id: '51'
     sources:
@@ -720,7 +721,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:333'
+  - '@id': 'urn:covid:consensas:ca.cases:333'
     dataset_id: '333'
     state_id: '52'
     sources:
@@ -735,7 +736,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:334'
+  - '@id': 'urn:covid:consensas:ca.cases:334'
     dataset_id: '334'
     state_id: '53'
     sources:
@@ -750,7 +751,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:335'
+  - '@id': 'urn:covid:consensas:ca.cases:335'
     dataset_id: '335'
     state_id: '54'
     sources:
@@ -765,7 +766,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:336'
+  - '@id': 'urn:covid:consensas:ca.cases:336'
     dataset_id: '336'
     state_id: '55'
     sources:
@@ -780,7 +781,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:337'
+  - '@id': 'urn:covid:consensas:ca.cases:337'
     dataset_id: '337'
     state_id: '56'
     sources:
@@ -795,7 +796,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:424'
+  - '@id': 'urn:covid:consensas:ca.cases:424'
     dataset_id: '424'
     state_id: '57'
     sources:
@@ -808,7 +809,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:425'
+  - '@id': 'urn:covid:consensas:ca.cases:425'
     dataset_id: '425'
     state_id: '58'
     sources:
@@ -821,7 +822,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:426'
+  - '@id': 'urn:covid:consensas:ca.cases:426'
     dataset_id: '426'
     state_id: '59'
     sources:
@@ -834,7 +835,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:427'
+  - '@id': 'urn:covid:consensas:ca.cases:427'
     dataset_id: '427'
     state_id: '60'
     sources:
@@ -847,7 +848,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:428'
+  - '@id': 'urn:covid:consensas:ca.cases:428'
     dataset_id: '428'
     state_id: '61'
     sources:
@@ -860,7 +861,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:429'
+  - '@id': 'urn:covid:consensas:ca.cases:429'
     dataset_id: '429'
     state_id: '62'
     sources:
@@ -873,7 +874,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:430'
+  - '@id': 'urn:covid:consensas:ca.cases:430'
     dataset_id: '430'
     state_id: '63'
     sources:
@@ -886,7 +887,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:431'
+  - '@id': 'urn:covid:consensas:ca.cases:431'
     dataset_id: '431'
     state_id: '64'
     sources:
@@ -899,7 +900,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:432'
+  - '@id': 'urn:covid:consensas:ca.cases:432'
     dataset_id: '432'
     state_id: '65'
     sources:
@@ -912,7 +913,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:433'
+  - '@id': 'urn:covid:consensas:ca.cases:433'
     dataset_id: '433'
     state_id: '66'
     sources:
@@ -925,7 +926,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:434'
+  - '@id': 'urn:covid:consensas:ca.cases:434'
     dataset_id: '434'
     state_id: '67'
     sources:
@@ -938,7 +939,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:435'
+  - '@id': 'urn:covid:consensas:ca.cases:435'
     dataset_id: '435'
     state_id: '68'
     sources:
@@ -951,7 +952,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:436'
+  - '@id': 'urn:covid:consensas:ca.cases:436'
     dataset_id: '436'
     state_id: '69'
     sources:
@@ -964,7 +965,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:437'
+  - '@id': 'urn:covid:consensas:ca.cases:437'
     dataset_id: '437'
     state_id: '70'
     sources:
@@ -977,7 +978,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:438'
+  - '@id': 'urn:covid:consensas:ca.cases:438'
     dataset_id: '438'
     state_id: '71'
     sources:
@@ -990,7 +991,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:439'
+  - '@id': 'urn:covid:consensas:ca.cases:439'
     dataset_id: '439'
     state_id: '72'
     sources:
@@ -1003,7 +1004,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:440'
+  - '@id': 'urn:covid:consensas:ca.cases:440'
     dataset_id: '440'
     state_id: '73'
     sources:
@@ -1016,7 +1017,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:441'
+  - '@id': 'urn:covid:consensas:ca.cases:441'
     dataset_id: '441'
     state_id: '74'
     sources:
@@ -1029,7 +1030,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:485'
+  - '@id': 'urn:covid:consensas:ca.cases:485'
     dataset_id: '485'
     state_id: '75'
     sources:
@@ -1042,7 +1043,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:486'
+  - '@id': 'urn:covid:consensas:ca.cases:486'
     dataset_id: '486'
     state_id: '76'
     sources:
@@ -1055,7 +1056,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:487'
+  - '@id': 'urn:covid:consensas:ca.cases:487'
     dataset_id: '487'
     state_id: '77'
     sources:
@@ -1068,7 +1069,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:488'
+  - '@id': 'urn:covid:consensas:ca.cases:488'
     dataset_id: '488'
     state_id: '78'
     sources:
@@ -1081,7 +1082,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:489'
+  - '@id': 'urn:covid:consensas:ca.cases:489'
     dataset_id: '489'
     state_id: '79'
     sources:
@@ -1094,7 +1095,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:490'
+  - '@id': 'urn:covid:consensas:ca.cases:490'
     dataset_id: '490'
     state_id: '80'
     sources:
@@ -1107,7 +1108,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:491'
+  - '@id': 'urn:covid:consensas:ca.cases:491'
     dataset_id: '491'
     state_id: '81'
     sources:
@@ -1120,7 +1121,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:492'
+  - '@id': 'urn:covid:consensas:ca.cases:492'
     dataset_id: '492'
     state_id: '82'
     sources:
@@ -1133,7 +1134,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:493'
+  - '@id': 'urn:covid:consensas:ca.cases:493'
     dataset_id: '493'
     state_id: '83'
     sources:
@@ -1146,7 +1147,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:494'
+  - '@id': 'urn:covid:consensas:ca.cases:494'
     dataset_id: '494'
     state_id: '84'
     sources:
@@ -1159,7 +1160,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:495'
+  - '@id': 'urn:covid:consensas:ca.cases:495'
     dataset_id: '495'
     state_id: '85'
     sources:
@@ -1172,7 +1173,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:496'
+  - '@id': 'urn:covid:consensas:ca.cases:496'
     dataset_id: '496'
     state_id: '86'
     sources:
@@ -1185,7 +1186,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:497'
+  - '@id': 'urn:covid:consensas:ca.cases:497'
     dataset_id: '497'
     state_id: '87'
     sources:
@@ -1198,7 +1199,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:498'
+  - '@id': 'urn:covid:consensas:ca.cases:498'
     dataset_id: '498'
     state_id: '88'
     sources:
@@ -1211,7 +1212,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:499'
+  - '@id': 'urn:covid:consensas:ca.cases:499'
     dataset_id: '499'
     state_id: '89'
     sources:
@@ -1224,7 +1225,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:500'
+  - '@id': 'urn:covid:consensas:ca.cases:500'
     dataset_id: '500'
     state_id: '90'
     sources:
@@ -1237,7 +1238,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:501'
+  - '@id': 'urn:covid:consensas:ca.cases:501'
     dataset_id: '501'
     state_id: '91'
     sources:
@@ -1250,7 +1251,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:502'
+  - '@id': 'urn:covid:consensas:ca.cases:502'
     dataset_id: '502'
     state_id: '92'
     sources:
@@ -1263,7 +1264,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:503'
+  - '@id': 'urn:covid:consensas:ca.cases:503'
     dataset_id: '503'
     state_id: '93'
     sources:
@@ -1276,7 +1277,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:504'
+  - '@id': 'urn:covid:consensas:ca.cases:504'
     dataset_id: '504'
     state_id: '94'
     sources:
@@ -1289,7 +1290,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:505'
+  - '@id': 'urn:covid:consensas:ca.cases:505'
     dataset_id: '505'
     state_id: '95'
     sources:
@@ -1302,7 +1303,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:506'
+  - '@id': 'urn:covid:consensas:ca.cases:506'
     dataset_id: '506'
     state_id: '96'
     sources:
@@ -1315,7 +1316,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:507'
+  - '@id': 'urn:covid:consensas:ca.cases:507'
     dataset_id: '507'
     state_id: '97'
     sources:
@@ -1328,7 +1329,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:702'
+  - '@id': 'urn:covid:consensas:ca.cases:702'
     dataset_id: '702'
     state_id: '98'
     sources:
@@ -1341,7 +1342,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:703'
+  - '@id': 'urn:covid:consensas:ca.cases:703'
     dataset_id: '703'
     state_id: '99'
     sources:
@@ -1354,7 +1355,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:704'
+  - '@id': 'urn:covid:consensas:ca.cases:704'
     dataset_id: '704'
     state_id: '100'
     sources:
@@ -1367,7 +1368,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:705'
+  - '@id': 'urn:covid:consensas:ca.cases:705'
     dataset_id: '705'
     state_id: '101'
     sources:
@@ -1380,7 +1381,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:706'
+  - '@id': 'urn:covid:consensas:ca.cases:706'
     dataset_id: '706'
     state_id: '102'
     sources:
@@ -1393,7 +1394,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:707'
+  - '@id': 'urn:covid:consensas:ca.cases:707'
     dataset_id: '707'
     state_id: '103'
     sources:
@@ -1406,7 +1407,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:708'
+  - '@id': 'urn:covid:consensas:ca.cases:708'
     dataset_id: '708'
     state_id: '104'
     sources:
@@ -1419,7 +1420,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:709'
+  - '@id': 'urn:covid:consensas:ca.cases:709'
     dataset_id: '709'
     state_id: '105'
     sources:
@@ -1432,7 +1433,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:710'
+  - '@id': 'urn:covid:consensas:ca.cases:710'
     dataset_id: '710'
     state_id: '106'
     sources:
@@ -1445,7 +1446,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:711'
+  - '@id': 'urn:covid:consensas:ca.cases:711'
     dataset_id: '711'
     state_id: '107'
     sources:
@@ -1458,7 +1459,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:712'
+  - '@id': 'urn:covid:consensas:ca.cases:712'
     dataset_id: '712'
     state_id: '108'
     sources:
@@ -1471,7 +1472,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:713'
+  - '@id': 'urn:covid:consensas:ca.cases:713'
     dataset_id: '713'
     state_id: '109'
     sources:
@@ -1484,7 +1485,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:714'
+  - '@id': 'urn:covid:consensas:ca.cases:714'
     dataset_id: '714'
     state_id: '110'
     sources:
@@ -1497,7 +1498,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:715'
+  - '@id': 'urn:covid:consensas:ca.cases:715'
     dataset_id: '715'
     state_id: '111'
     sources:
@@ -1510,7 +1511,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:716'
+  - '@id': 'urn:covid:consensas:ca.cases:716'
     dataset_id: '716'
     state_id: '112'
     sources:
@@ -1523,7 +1524,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:717'
+  - '@id': 'urn:covid:consensas:ca.cases:717'
     dataset_id: '717'
     state_id: '113'
     sources:
@@ -1536,7 +1537,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:718'
+  - '@id': 'urn:covid:consensas:ca.cases:718'
     dataset_id: '718'
     state_id: '114'
     sources:
@@ -1549,7 +1550,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:719'
+  - '@id': 'urn:covid:consensas:ca.cases:719'
     dataset_id: '719'
     state_id: '115'
     sources:
@@ -1562,7 +1563,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:720'
+  - '@id': 'urn:covid:consensas:ca.cases:720'
     dataset_id: '720'
     state_id: '116'
     sources:
@@ -1575,7 +1576,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:721'
+  - '@id': 'urn:covid:consensas:ca.cases:721'
     dataset_id: '721'
     state_id: '117'
     sources:
@@ -1588,7 +1589,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:722'
+  - '@id': 'urn:covid:consensas:ca.cases:722'
     dataset_id: '722'
     state_id: '118'
     sources:
@@ -1601,7 +1602,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:723'
+  - '@id': 'urn:covid:consensas:ca.cases:723'
     dataset_id: '723'
     state_id: '119'
     sources:
@@ -1614,7 +1615,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:807'
+  - '@id': 'urn:covid:consensas:ca.cases:807'
     dataset_id: '807'
     state_id: '120'
     sources:
@@ -1627,7 +1628,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:808'
+  - '@id': 'urn:covid:consensas:ca.cases:808'
     dataset_id: '808'
     state_id: '121'
     sources:
@@ -1640,7 +1641,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:809'
+  - '@id': 'urn:covid:consensas:ca.cases:809'
     dataset_id: '809'
     state_id: '122'
     sources:
@@ -1653,7 +1654,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:810'
+  - '@id': 'urn:covid:consensas:ca.cases:810'
     dataset_id: '810'
     state_id: '123'
     sources:
@@ -1666,7 +1667,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:811'
+  - '@id': 'urn:covid:consensas:ca.cases:811'
     dataset_id: '811'
     state_id: '124'
     sources:
@@ -1679,7 +1680,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:812'
+  - '@id': 'urn:covid:consensas:ca.cases:812'
     dataset_id: '812'
     state_id: '125'
     sources:
@@ -1692,7 +1693,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:813'
+  - '@id': 'urn:covid:consensas:ca.cases:813'
     dataset_id: '813'
     state_id: '126'
     sources:
@@ -1705,7 +1706,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:814'
+  - '@id': 'urn:covid:consensas:ca.cases:814'
     dataset_id: '814'
     state_id: '127'
     sources:
@@ -1718,7 +1719,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:815'
+  - '@id': 'urn:covid:consensas:ca.cases:815'
     dataset_id: '815'
     state_id: '128'
     sources:
@@ -1731,7 +1732,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:816'
+  - '@id': 'urn:covid:consensas:ca.cases:816'
     dataset_id: '816'
     state_id: '129'
     sources:
@@ -1744,7 +1745,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:817'
+  - '@id': 'urn:covid:consensas:ca.cases:817'
     dataset_id: '817'
     state_id: '130'
     sources:
@@ -1757,7 +1758,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:818'
+  - '@id': 'urn:covid:consensas:ca.cases:818'
     dataset_id: '818'
     state_id: '131'
     sources:
@@ -1770,7 +1771,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:819'
+  - '@id': 'urn:covid:consensas:ca.cases:819'
     dataset_id: '819'
     state_id: '132'
     sources:
@@ -1783,7 +1784,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:820'
+  - '@id': 'urn:covid:consensas:ca.cases:820'
     dataset_id: '820'
     state_id: '133'
     sources:
@@ -1796,7 +1797,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:821'
+  - '@id': 'urn:covid:consensas:ca.cases:821'
     dataset_id: '821'
     state_id: '134'
     sources:
@@ -1809,7 +1810,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:822'
+  - '@id': 'urn:covid:consensas:ca.cases:822'
     dataset_id: '822'
     state_id: '135'
     sources:
@@ -1822,7 +1823,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:823'
+  - '@id': 'urn:covid:consensas:ca.cases:823'
     dataset_id: '823'
     state_id: '136'
     sources:
@@ -1835,7 +1836,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:824'
+  - '@id': 'urn:covid:consensas:ca.cases:824'
     dataset_id: '824'
     state_id: '137'
     sources:
@@ -1848,7 +1849,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:825'
+  - '@id': 'urn:covid:consensas:ca.cases:825'
     dataset_id: '825'
     state_id: '138'
     sources:
@@ -1861,7 +1862,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:826'
+  - '@id': 'urn:covid:consensas:ca.cases:826'
     dataset_id: '826'
     state_id: '139'
     sources:
@@ -1874,7 +1875,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:827'
+  - '@id': 'urn:covid:consensas:ca.cases:827'
     dataset_id: '827'
     state_id: '140'
     sources:
@@ -1887,7 +1888,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:828'
+  - '@id': 'urn:covid:consensas:ca.cases:828'
     dataset_id: '828'
     state_id: '141'
     sources:
@@ -1900,7 +1901,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:829'
+  - '@id': 'urn:covid:consensas:ca.cases:829'
     dataset_id: '829'
     state_id: '142'
     sources:
@@ -1913,7 +1914,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:830'
+  - '@id': 'urn:covid:consensas:ca.cases:830'
     dataset_id: '830'
     state_id: '143'
     sources:
@@ -1926,7 +1927,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:831'
+  - '@id': 'urn:covid:consensas:ca.cases:831'
     dataset_id: '831'
     state_id: '144'
     sources:
@@ -1939,7 +1940,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:832'
+  - '@id': 'urn:covid:consensas:ca.cases:832'
     dataset_id: '832'
     state_id: '145'
     sources:
@@ -1952,7 +1953,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:833'
+  - '@id': 'urn:covid:consensas:ca.cases:833'
     dataset_id: '833'
     state_id: '146'
     sources:
@@ -1965,7 +1966,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1039'
+  - '@id': 'urn:covid:consensas:ca.cases:1039'
     dataset_id: '1039'
     state_id: '147'
     sources:
@@ -1977,7 +1978,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1040'
+  - '@id': 'urn:covid:consensas:ca.cases:1040'
     dataset_id: '1040'
     state_id: '148'
     sources:
@@ -1989,7 +1990,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1041'
+  - '@id': 'urn:covid:consensas:ca.cases:1041'
     dataset_id: '1041'
     state_id: '149'
     sources:
@@ -2001,7 +2002,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1042'
+  - '@id': 'urn:covid:consensas:ca.cases:1042'
     dataset_id: '1042'
     state_id: '150'
     sources:
@@ -2013,7 +2014,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1043'
+  - '@id': 'urn:covid:consensas:ca.cases:1043'
     dataset_id: '1043'
     state_id: '151'
     sources:
@@ -2025,7 +2026,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1044'
+  - '@id': 'urn:covid:consensas:ca.cases:1044'
     dataset_id: '1044'
     state_id: '152'
     sources:
@@ -2037,7 +2038,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1045'
+  - '@id': 'urn:covid:consensas:ca.cases:1045'
     dataset_id: '1045'
     state_id: '153'
     sources:
@@ -2049,7 +2050,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1046'
+  - '@id': 'urn:covid:consensas:ca.cases:1046'
     dataset_id: '1046'
     state_id: '154'
     sources:
@@ -2061,7 +2062,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1047'
+  - '@id': 'urn:covid:consensas:ca.cases:1047'
     dataset_id: '1047'
     state_id: '155'
     sources:
@@ -2073,7 +2074,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1048'
+  - '@id': 'urn:covid:consensas:ca.cases:1048'
     dataset_id: '1048'
     state_id: '156'
     sources:
@@ -2085,7 +2086,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1049'
+  - '@id': 'urn:covid:consensas:ca.cases:1049'
     dataset_id: '1049'
     state_id: '157'
     sources:
@@ -2097,7 +2098,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1050'
+  - '@id': 'urn:covid:consensas:ca.cases:1050'
     dataset_id: '1050'
     state_id: '158'
     sources:
@@ -2109,7 +2110,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1051'
+  - '@id': 'urn:covid:consensas:ca.cases:1051'
     dataset_id: '1051'
     state_id: '159'
     sources:
@@ -2121,7 +2122,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1052'
+  - '@id': 'urn:covid:consensas:ca.cases:1052'
     dataset_id: '1052'
     state_id: '160'
     sources:
@@ -2133,7 +2134,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1053'
+  - '@id': 'urn:covid:consensas:ca.cases:1053'
     dataset_id: '1053'
     state_id: '161'
     sources:
@@ -2145,7 +2146,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1054'
+  - '@id': 'urn:covid:consensas:ca.cases:1054'
     dataset_id: '1054'
     state_id: '162'
     sources:
@@ -2157,7 +2158,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1055'
+  - '@id': 'urn:covid:consensas:ca.cases:1055'
     dataset_id: '1055'
     state_id: '163'
     sources:
@@ -2169,7 +2170,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1056'
+  - '@id': 'urn:covid:consensas:ca.cases:1056'
     dataset_id: '1056'
     state_id: '164'
     sources:
@@ -2181,7 +2182,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1057'
+  - '@id': 'urn:covid:consensas:ca.cases:1057'
     dataset_id: '1057'
     state_id: '165'
     sources:
@@ -2193,7 +2194,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1058'
+  - '@id': 'urn:covid:consensas:ca.cases:1058'
     dataset_id: '1058'
     state_id: '166'
     sources:
@@ -2205,7 +2206,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1059'
+  - '@id': 'urn:covid:consensas:ca.cases:1059'
     dataset_id: '1059'
     state_id: '167'
     sources:
@@ -2217,7 +2218,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1060'
+  - '@id': 'urn:covid:consensas:ca.cases:1060'
     dataset_id: '1060'
     state_id: '168'
     sources:
@@ -2229,7 +2230,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1061'
+  - '@id': 'urn:covid:consensas:ca.cases:1061'
     dataset_id: '1061'
     state_id: '169'
     sources:
@@ -2241,7 +2242,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1062'
+  - '@id': 'urn:covid:consensas:ca.cases:1062'
     dataset_id: '1062'
     state_id: '170'
     sources:
@@ -2253,7 +2254,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1063'
+  - '@id': 'urn:covid:consensas:ca.cases:1063'
     dataset_id: '1063'
     state_id: '171'
     sources:
@@ -2265,7 +2266,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1064'
+  - '@id': 'urn:covid:consensas:ca.cases:1064'
     dataset_id: '1064'
     state_id: '172'
     sources:
@@ -2277,7 +2278,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1065'
+  - '@id': 'urn:covid:consensas:ca.cases:1065'
     dataset_id: '1065'
     state_id: '173'
     sources:
@@ -2289,7 +2290,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1066'
+  - '@id': 'urn:covid:consensas:ca.cases:1066'
     dataset_id: '1066'
     state_id: '174'
     sources:
@@ -2301,7 +2302,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1067'
+  - '@id': 'urn:covid:consensas:ca.cases:1067'
     dataset_id: '1067'
     state_id: '175'
     sources:
@@ -2313,7 +2314,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1068'
+  - '@id': 'urn:covid:consensas:ca.cases:1068'
     dataset_id: '1068'
     state_id: '176'
     sources:
@@ -2325,7 +2326,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1069'
+  - '@id': 'urn:covid:consensas:ca.cases:1069'
     dataset_id: '1069'
     state_id: '177'
     sources:
@@ -2337,7 +2338,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1070'
+  - '@id': 'urn:covid:consensas:ca.cases:1070'
     dataset_id: '1070'
     state_id: '178'
     sources:
@@ -2349,7 +2350,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1071'
+  - '@id': 'urn:covid:consensas:ca.cases:1071'
     dataset_id: '1071'
     state_id: '179'
     sources:
@@ -2361,7 +2362,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1072'
+  - '@id': 'urn:covid:consensas:ca.cases:1072'
     dataset_id: '1072'
     state_id: '180'
     sources:
@@ -2373,7 +2374,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1073'
+  - '@id': 'urn:covid:consensas:ca.cases:1073'
     dataset_id: '1073'
     state_id: '181'
     sources:
@@ -2385,7 +2386,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1074'
+  - '@id': 'urn:covid:consensas:ca.cases:1074'
     dataset_id: '1074'
     state_id: '182'
     sources:
@@ -2397,7 +2398,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1075'
+  - '@id': 'urn:covid:consensas:ca.cases:1075'
     dataset_id: '1075'
     state_id: '183'
     sources:
@@ -2409,7 +2410,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1076'
+  - '@id': 'urn:covid:consensas:ca.cases:1076'
     dataset_id: '1076'
     state_id: '184'
     sources:
@@ -2421,7 +2422,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1077'
+  - '@id': 'urn:covid:consensas:ca.cases:1077'
     dataset_id: '1077'
     state_id: '185'
     sources:
@@ -2433,7 +2434,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1078'
+  - '@id': 'urn:covid:consensas:ca.cases:1078'
     dataset_id: '1078'
     state_id: '186'
     sources:
@@ -2445,7 +2446,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1079'
+  - '@id': 'urn:covid:consensas:ca.cases:1079'
     dataset_id: '1079'
     state_id: '187'
     sources:
@@ -2457,7 +2458,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1080'
+  - '@id': 'urn:covid:consensas:ca.cases:1080'
     dataset_id: '1080'
     state_id: '188'
     sources:
@@ -2469,7 +2470,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1081'
+  - '@id': 'urn:covid:consensas:ca.cases:1081'
     dataset_id: '1081'
     state_id: '189'
     sources:
@@ -2481,7 +2482,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1082'
+  - '@id': 'urn:covid:consensas:ca.cases:1082'
     dataset_id: '1082'
     state_id: '190'
     sources:
@@ -2493,7 +2494,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1083'
+  - '@id': 'urn:covid:consensas:ca.cases:1083'
     dataset_id: '1083'
     state_id: '191'
     sources:
@@ -2505,7 +2506,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1084'
+  - '@id': 'urn:covid:consensas:ca.cases:1084'
     dataset_id: '1084'
     state_id: '192'
     sources:
@@ -2517,7 +2518,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1085'
+  - '@id': 'urn:covid:consensas:ca.cases:1085'
     dataset_id: '1085'
     state_id: '193'
     sources:
@@ -2529,7 +2530,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1086'
+  - '@id': 'urn:covid:consensas:ca.cases:1086'
     dataset_id: '1086'
     state_id: '194'
     sources:
@@ -2541,7 +2542,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1087'
+  - '@id': 'urn:covid:consensas:ca.cases:1087'
     dataset_id: '1087'
     state_id: '195'
     sources:
@@ -2553,7 +2554,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1281'
+  - '@id': 'urn:covid:consensas:ca.cases:1281'
     dataset_id: '1281'
     state_id: '196'
     sources:
@@ -2565,7 +2566,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1282'
+  - '@id': 'urn:covid:consensas:ca.cases:1282'
     dataset_id: '1282'
     state_id: '197'
     sources:
@@ -2577,7 +2578,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1283'
+  - '@id': 'urn:covid:consensas:ca.cases:1283'
     dataset_id: '1283'
     state_id: '198'
     sources:
@@ -2589,7 +2590,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1284'
+  - '@id': 'urn:covid:consensas:ca.cases:1284'
     dataset_id: '1284'
     state_id: '199'
     sources:
@@ -2601,7 +2602,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1285'
+  - '@id': 'urn:covid:consensas:ca.cases:1285'
     dataset_id: '1285'
     state_id: '200'
     sources:
@@ -2613,7 +2614,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1286'
+  - '@id': 'urn:covid:consensas:ca.cases:1286'
     dataset_id: '1286'
     state_id: '201'
     sources:
@@ -2625,7 +2626,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1287'
+  - '@id': 'urn:covid:consensas:ca.cases:1287'
     dataset_id: '1287'
     state_id: '202'
     sources:
@@ -2637,7 +2638,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1288'
+  - '@id': 'urn:covid:consensas:ca.cases:1288'
     dataset_id: '1288'
     state_id: '203'
     sources:
@@ -2649,7 +2650,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1289'
+  - '@id': 'urn:covid:consensas:ca.cases:1289'
     dataset_id: '1289'
     state_id: '204'
     sources:
@@ -2661,7 +2662,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1290'
+  - '@id': 'urn:covid:consensas:ca.cases:1290'
     dataset_id: '1290'
     state_id: '205'
     sources:
@@ -2673,7 +2674,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1291'
+  - '@id': 'urn:covid:consensas:ca.cases:1291'
     dataset_id: '1291'
     state_id: '206'
     sources:
@@ -2685,7 +2686,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1292'
+  - '@id': 'urn:covid:consensas:ca.cases:1292'
     dataset_id: '1292'
     state_id: '207'
     sources:
@@ -2697,7 +2698,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1293'
+  - '@id': 'urn:covid:consensas:ca.cases:1293'
     dataset_id: '1293'
     state_id: '208'
     sources:
@@ -2709,7 +2710,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1294'
+  - '@id': 'urn:covid:consensas:ca.cases:1294'
     dataset_id: '1294'
     state_id: '209'
     sources:
@@ -2721,7 +2722,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1295'
+  - '@id': 'urn:covid:consensas:ca.cases:1295'
     dataset_id: '1295'
     state_id: '210'
     sources:
@@ -2733,7 +2734,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1296'
+  - '@id': 'urn:covid:consensas:ca.cases:1296'
     dataset_id: '1296'
     state_id: '211'
     sources:
@@ -2745,7 +2746,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1297'
+  - '@id': 'urn:covid:consensas:ca.cases:1297'
     dataset_id: '1297'
     state_id: '212'
     sources:
@@ -2757,7 +2758,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1298'
+  - '@id': 'urn:covid:consensas:ca.cases:1298'
     dataset_id: '1298'
     state_id: '213'
     sources:
@@ -2769,7 +2770,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1299'
+  - '@id': 'urn:covid:consensas:ca.cases:1299'
     dataset_id: '1299'
     state_id: '214'
     sources:
@@ -2781,7 +2782,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1300'
+  - '@id': 'urn:covid:consensas:ca.cases:1300'
     dataset_id: '1300'
     state_id: '215'
     sources:
@@ -2793,7 +2794,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1301'
+  - '@id': 'urn:covid:consensas:ca.cases:1301'
     dataset_id: '1301'
     state_id: '216'
     sources:
@@ -2805,7 +2806,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1302'
+  - '@id': 'urn:covid:consensas:ca.cases:1302'
     dataset_id: '1302'
     state_id: '217'
     sources:
@@ -2817,7 +2818,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1303'
+  - '@id': 'urn:covid:consensas:ca.cases:1303'
     dataset_id: '1303'
     state_id: '218'
     sources:
@@ -2829,7 +2830,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1304'
+  - '@id': 'urn:covid:consensas:ca.cases:1304'
     dataset_id: '1304'
     state_id: '219'
     sources:
@@ -2841,7 +2842,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1305'
+  - '@id': 'urn:covid:consensas:ca.cases:1305'
     dataset_id: '1305'
     state_id: '220'
     sources:
@@ -2853,7 +2854,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1306'
+  - '@id': 'urn:covid:consensas:ca.cases:1306'
     dataset_id: '1306'
     state_id: '221'
     sources:
@@ -2865,7 +2866,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1307'
+  - '@id': 'urn:covid:consensas:ca.cases:1307'
     dataset_id: '1307'
     state_id: '222'
     sources:
@@ -2877,7 +2878,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1308'
+  - '@id': 'urn:covid:consensas:ca.cases:1308'
     dataset_id: '1308'
     state_id: '223'
     sources:
@@ -2889,7 +2890,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1309'
+  - '@id': 'urn:covid:consensas:ca.cases:1309'
     dataset_id: '1309'
     state_id: '224'
     sources:
@@ -2901,7 +2902,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1310'
+  - '@id': 'urn:covid:consensas:ca.cases:1310'
     dataset_id: '1310'
     state_id: '225'
     sources:
@@ -2913,7 +2914,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1311'
+  - '@id': 'urn:covid:consensas:ca.cases:1311'
     dataset_id: '1311'
     state_id: '226'
     sources:
@@ -2925,7 +2926,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1436'
+  - '@id': 'urn:covid:consensas:ca.cases:1436'
     dataset_id: '1436'
     state_id: '227'
     sources:
@@ -2937,7 +2938,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1437'
+  - '@id': 'urn:covid:consensas:ca.cases:1437'
     dataset_id: '1437'
     state_id: '228'
     sources:
@@ -2949,7 +2950,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1438'
+  - '@id': 'urn:covid:consensas:ca.cases:1438'
     dataset_id: '1438'
     state_id: '229'
     sources:
@@ -2961,7 +2962,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1439'
+  - '@id': 'urn:covid:consensas:ca.cases:1439'
     dataset_id: '1439'
     state_id: '230'
     sources:
@@ -2973,7 +2974,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1440'
+  - '@id': 'urn:covid:consensas:ca.cases:1440'
     dataset_id: '1440'
     state_id: '231'
     sources:
@@ -2985,7 +2986,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1441'
+  - '@id': 'urn:covid:consensas:ca.cases:1441'
     dataset_id: '1441'
     state_id: '232'
     sources:
@@ -2997,7 +2998,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1442'
+  - '@id': 'urn:covid:consensas:ca.cases:1442'
     dataset_id: '1442'
     state_id: '233'
     sources:
@@ -3009,7 +3010,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1443'
+  - '@id': 'urn:covid:consensas:ca.cases:1443'
     dataset_id: '1443'
     state_id: '234'
     sources:
@@ -3021,7 +3022,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1444'
+  - '@id': 'urn:covid:consensas:ca.cases:1444'
     dataset_id: '1444'
     state_id: '235'
     sources:
@@ -3033,7 +3034,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1445'
+  - '@id': 'urn:covid:consensas:ca.cases:1445'
     dataset_id: '1445'
     state_id: '236'
     sources:
@@ -3045,7 +3046,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1446'
+  - '@id': 'urn:covid:consensas:ca.cases:1446'
     dataset_id: '1446'
     state_id: '237'
     sources:
@@ -3057,7 +3058,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1447'
+  - '@id': 'urn:covid:consensas:ca.cases:1447'
     dataset_id: '1447'
     state_id: '238'
     sources:
@@ -3069,7 +3070,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1448'
+  - '@id': 'urn:covid:consensas:ca.cases:1448'
     dataset_id: '1448'
     state_id: '239'
     sources:
@@ -3081,7 +3082,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1449'
+  - '@id': 'urn:covid:consensas:ca.cases:1449'
     dataset_id: '1449'
     state_id: '240'
     sources:
@@ -3093,7 +3094,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1450'
+  - '@id': 'urn:covid:consensas:ca.cases:1450'
     dataset_id: '1450'
     state_id: '241'
     sources:
@@ -3105,7 +3106,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1451'
+  - '@id': 'urn:covid:consensas:ca.cases:1451'
     dataset_id: '1451'
     state_id: '242'
     sources:
@@ -3117,7 +3118,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1452'
+  - '@id': 'urn:covid:consensas:ca.cases:1452'
     dataset_id: '1452'
     state_id: '243'
     sources:
@@ -3129,7 +3130,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1453'
+  - '@id': 'urn:covid:consensas:ca.cases:1453'
     dataset_id: '1453'
     state_id: '244'
     sources:
@@ -3141,7 +3142,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1454'
+  - '@id': 'urn:covid:consensas:ca.cases:1454'
     dataset_id: '1454'
     state_id: '245'
     sources:
@@ -3153,7 +3154,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1455'
+  - '@id': 'urn:covid:consensas:ca.cases:1455'
     dataset_id: '1455'
     state_id: '246'
     sources:
@@ -3165,7 +3166,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1456'
+  - '@id': 'urn:covid:consensas:ca.cases:1456'
     dataset_id: '1456'
     state_id: '247'
     sources:
@@ -3177,7 +3178,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1457'
+  - '@id': 'urn:covid:consensas:ca.cases:1457'
     dataset_id: '1457'
     state_id: '248'
     sources:
@@ -3189,7 +3190,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1458'
+  - '@id': 'urn:covid:consensas:ca.cases:1458'
     dataset_id: '1458'
     state_id: '249'
     sources:
@@ -3201,7 +3202,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1459'
+  - '@id': 'urn:covid:consensas:ca.cases:1459'
     dataset_id: '1459'
     state_id: '250'
     sources:
@@ -3213,7 +3214,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1460'
+  - '@id': 'urn:covid:consensas:ca.cases:1460'
     dataset_id: '1460'
     state_id: '251'
     sources:
@@ -3225,7 +3226,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1461'
+  - '@id': 'urn:covid:consensas:ca.cases:1461'
     dataset_id: '1461'
     state_id: '252'
     sources:
@@ -3237,7 +3238,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1462'
+  - '@id': 'urn:covid:consensas:ca.cases:1462'
     dataset_id: '1462'
     state_id: '253'
     sources:
@@ -3249,7 +3250,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1463'
+  - '@id': 'urn:covid:consensas:ca.cases:1463'
     dataset_id: '1463'
     state_id: '254'
     sources:
@@ -3261,7 +3262,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1464'
+  - '@id': 'urn:covid:consensas:ca.cases:1464'
     dataset_id: '1464'
     state_id: '255'
     sources:
@@ -3273,7 +3274,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1465'
+  - '@id': 'urn:covid:consensas:ca.cases:1465'
     dataset_id: '1465'
     state_id: '256'
     sources:
@@ -3285,7 +3286,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1466'
+  - '@id': 'urn:covid:consensas:ca.cases:1466'
     dataset_id: '1466'
     state_id: '257'
     sources:
@@ -3297,7 +3298,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1467'
+  - '@id': 'urn:covid:consensas:ca.cases:1467'
     dataset_id: '1467'
     state_id: '258'
     sources:
@@ -3309,7 +3310,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1468'
+  - '@id': 'urn:covid:consensas:ca.cases:1468'
     dataset_id: '1468'
     state_id: '259'
     sources:
@@ -3321,7 +3322,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2050'
+  - '@id': 'urn:covid:consensas:ca.cases:2050'
     dataset_id: '2050'
     state_id: '260'
     sources:
@@ -3333,7 +3334,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2051'
+  - '@id': 'urn:covid:consensas:ca.cases:2051'
     dataset_id: '2051'
     state_id: '261'
     sources:
@@ -3345,7 +3346,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2052'
+  - '@id': 'urn:covid:consensas:ca.cases:2052'
     dataset_id: '2052'
     state_id: '262'
     sources:
@@ -3357,7 +3358,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2053'
+  - '@id': 'urn:covid:consensas:ca.cases:2053'
     dataset_id: '2053'
     state_id: '263'
     sources:
@@ -3369,7 +3370,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2054'
+  - '@id': 'urn:covid:consensas:ca.cases:2054'
     dataset_id: '2054'
     state_id: '264'
     sources:
@@ -3381,7 +3382,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2055'
+  - '@id': 'urn:covid:consensas:ca.cases:2055'
     dataset_id: '2055'
     state_id: '265'
     sources:
@@ -3393,7 +3394,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2056'
+  - '@id': 'urn:covid:consensas:ca.cases:2056'
     dataset_id: '2056'
     state_id: '266'
     sources:
@@ -3405,7 +3406,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2057'
+  - '@id': 'urn:covid:consensas:ca.cases:2057'
     dataset_id: '2057'
     state_id: '267'
     sources:
@@ -3417,7 +3418,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2058'
+  - '@id': 'urn:covid:consensas:ca.cases:2058'
     dataset_id: '2058'
     state_id: '268'
     sources:
@@ -3429,7 +3430,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2059'
+  - '@id': 'urn:covid:consensas:ca.cases:2059'
     dataset_id: '2059'
     state_id: '269'
     sources:
@@ -3441,7 +3442,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2060'
+  - '@id': 'urn:covid:consensas:ca.cases:2060'
     dataset_id: '2060'
     state_id: '270'
     sources:
@@ -3453,7 +3454,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2061'
+  - '@id': 'urn:covid:consensas:ca.cases:2061'
     dataset_id: '2061'
     state_id: '271'
     sources:
@@ -3465,7 +3466,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2062'
+  - '@id': 'urn:covid:consensas:ca.cases:2062'
     dataset_id: '2062'
     state_id: '272'
     sources:
@@ -3477,7 +3478,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2063'
+  - '@id': 'urn:covid:consensas:ca.cases:2063'
     dataset_id: '2063'
     state_id: '273'
     sources:
@@ -3489,7 +3490,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2064'
+  - '@id': 'urn:covid:consensas:ca.cases:2064'
     dataset_id: '2064'
     state_id: '274'
     sources:
@@ -3501,7 +3502,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2065'
+  - '@id': 'urn:covid:consensas:ca.cases:2065'
     dataset_id: '2065'
     state_id: '275'
     sources:
@@ -3513,7 +3514,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2066'
+  - '@id': 'urn:covid:consensas:ca.cases:2066'
     dataset_id: '2066'
     state_id: '276'
     sources:
@@ -3525,7 +3526,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2067'
+  - '@id': 'urn:covid:consensas:ca.cases:2067'
     dataset_id: '2067'
     state_id: '277'
     sources:
@@ -3537,7 +3538,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2068'
+  - '@id': 'urn:covid:consensas:ca.cases:2068'
     dataset_id: '2068'
     state_id: '278'
     sources:
@@ -3549,7 +3550,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2069'
+  - '@id': 'urn:covid:consensas:ca.cases:2069'
     dataset_id: '2069'
     state_id: '279'
     sources:
@@ -3561,7 +3562,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2070'
+  - '@id': 'urn:covid:consensas:ca.cases:2070'
     dataset_id: '2070'
     state_id: '280'
     sources:
@@ -3573,7 +3574,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2071'
+  - '@id': 'urn:covid:consensas:ca.cases:2071'
     dataset_id: '2071'
     state_id: '281'
     sources:
@@ -3585,7 +3586,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2072'
+  - '@id': 'urn:covid:consensas:ca.cases:2072'
     dataset_id: '2072'
     state_id: '282'
     sources:
@@ -3597,7 +3598,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2073'
+  - '@id': 'urn:covid:consensas:ca.cases:2073'
     dataset_id: '2073'
     state_id: '283'
     sources:
@@ -3609,7 +3610,7 @@ cases:
     sex: null
     health_region: Calgary
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2074'
+  - '@id': 'urn:covid:consensas:ca.cases:2074'
     dataset_id: '2074'
     state_id: '284'
     sources:
@@ -3621,7 +3622,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2075'
+  - '@id': 'urn:covid:consensas:ca.cases:2075'
     dataset_id: '2075'
     state_id: '285'
     sources:
@@ -3633,7 +3634,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2076'
+  - '@id': 'urn:covid:consensas:ca.cases:2076'
     dataset_id: '2076'
     state_id: '286'
     sources:
@@ -3645,7 +3646,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2077'
+  - '@id': 'urn:covid:consensas:ca.cases:2077'
     dataset_id: '2077'
     state_id: '287'
     sources:
@@ -3657,7 +3658,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2078'
+  - '@id': 'urn:covid:consensas:ca.cases:2078'
     dataset_id: '2078'
     state_id: '288'
     sources:
@@ -3669,7 +3670,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2079'
+  - '@id': 'urn:covid:consensas:ca.cases:2079'
     dataset_id: '2079'
     state_id: '289'
     sources:
@@ -3681,7 +3682,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2080'
+  - '@id': 'urn:covid:consensas:ca.cases:2080'
     dataset_id: '2080'
     state_id: '290'
     sources:
@@ -3693,7 +3694,7 @@ cases:
     sex: null
     health_region: Central
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2081'
+  - '@id': 'urn:covid:consensas:ca.cases:2081'
     dataset_id: '2081'
     state_id: '291'
     sources:
@@ -3705,7 +3706,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2082'
+  - '@id': 'urn:covid:consensas:ca.cases:2082'
     dataset_id: '2082'
     state_id: '292'
     sources:
@@ -3717,7 +3718,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2083'
+  - '@id': 'urn:covid:consensas:ca.cases:2083'
     dataset_id: '2083'
     state_id: '293'
     sources:
@@ -3729,7 +3730,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2084'
+  - '@id': 'urn:covid:consensas:ca.cases:2084'
     dataset_id: '2084'
     state_id: '294'
     sources:
@@ -3741,7 +3742,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2085'
+  - '@id': 'urn:covid:consensas:ca.cases:2085'
     dataset_id: '2085'
     state_id: '295'
     sources:
@@ -3753,7 +3754,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2086'
+  - '@id': 'urn:covid:consensas:ca.cases:2086'
     dataset_id: '2086'
     state_id: '296'
     sources:
@@ -3765,7 +3766,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2087'
+  - '@id': 'urn:covid:consensas:ca.cases:2087'
     dataset_id: '2087'
     state_id: '297'
     sources:
@@ -3777,7 +3778,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2088'
+  - '@id': 'urn:covid:consensas:ca.cases:2088'
     dataset_id: '2088'
     state_id: '298'
     sources:
@@ -3789,7 +3790,7 @@ cases:
     sex: null
     health_region: Edmonton
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2089'
+  - '@id': 'urn:covid:consensas:ca.cases:2089'
     dataset_id: '2089'
     state_id: '299'
     sources:
@@ -3801,7 +3802,7 @@ cases:
     sex: null
     health_region: North
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2090'
+  - '@id': 'urn:covid:consensas:ca.cases:2090'
     dataset_id: '2090'
     state_id: '300'
     sources:
@@ -3813,7 +3814,7 @@ cases:
     sex: null
     health_region: South
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2091'
+  - '@id': 'urn:covid:consensas:ca.cases:2091'
     dataset_id: '2091'
     state_id: '301'
     sources:

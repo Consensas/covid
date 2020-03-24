@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: BC
 key: ca-bc
 cases:
-  - id: 'urn:covid:ca.cases:3'
+  - '@id': 'urn:covid:consensas:ca.cases:3'
     dataset_id: '3'
     state_id: '1'
     sources:
@@ -11,10 +12,10 @@ cases:
     week_reported: '2020-01-26'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:5'
+  - '@id': 'urn:covid:consensas:ca.cases:5'
     dataset_id: '5'
     state_id: '2'
     sources:
@@ -23,11 +24,11 @@ cases:
     week_reported: '2020-02-02'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:6'
+  - '@id': 'urn:covid:consensas:ca.cases:6'
     dataset_id: '6'
     state_id: '3'
     sources:
@@ -36,10 +37,10 @@ cases:
     week_reported: '2020-02-02'
     is_travel: true
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:7'
+  - '@id': 'urn:covid:consensas:ca.cases:7'
     dataset_id: '7'
     state_id: '4'
     sources:
@@ -48,10 +49,10 @@ cases:
     week_reported: '2020-02-02'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:8'
+  - '@id': 'urn:covid:consensas:ca.cases:8'
     dataset_id: '8'
     state_id: '5'
     sources:
@@ -62,10 +63,10 @@ cases:
     week_reported: '2020-02-09'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:9'
+  - '@id': 'urn:covid:consensas:ca.cases:9'
     dataset_id: '9'
     state_id: '6'
     sources:
@@ -76,10 +77,10 @@ cases:
     week_reported: '2020-02-16'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:12'
+  - '@id': 'urn:covid:consensas:ca.cases:12'
     dataset_id: '12'
     state_id: '7'
     sources:
@@ -88,11 +89,11 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:20'
+  - '@id': 'urn:covid:consensas:ca.cases:20'
     dataset_id: '20'
     state_id: '8'
     sources:
@@ -101,10 +102,10 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:30'
+  - '@id': 'urn:covid:consensas:ca.cases:30'
     dataset_id: '30'
     state_id: '9'
     sources:
@@ -113,10 +114,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:31'
+  - '@id': 'urn:covid:consensas:ca.cases:31'
     dataset_id: '31'
     state_id: '10'
     sources:
@@ -125,10 +126,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:32'
+  - '@id': 'urn:covid:consensas:ca.cases:32'
     dataset_id: '32'
     state_id: '11'
     sources:
@@ -137,10 +138,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: null
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:33'
+  - '@id': 'urn:covid:consensas:ca.cases:33'
     dataset_id: '33'
     state_id: '12'
     sources:
@@ -149,10 +150,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:34'
+  - '@id': 'urn:covid:consensas:ca.cases:34'
     dataset_id: '34'
     state_id: '13'
     sources:
@@ -161,10 +162,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 80-89
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:39'
+  - '@id': 'urn:covid:consensas:ca.cases:39'
     dataset_id: '39'
     state_id: '14'
     sources:
@@ -173,11 +174,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 20-29
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:40'
+  - '@id': 'urn:covid:consensas:ca.cases:40'
     dataset_id: '40'
     state_id: '15'
     sources:
@@ -186,11 +187,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:41'
+  - '@id': 'urn:covid:consensas:ca.cases:41'
     dataset_id: '41'
     state_id: '16'
     sources:
@@ -199,11 +200,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:42'
+  - '@id': 'urn:covid:consensas:ca.cases:42'
     dataset_id: '42'
     state_id: '17'
     sources:
@@ -212,11 +213,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:43'
+  - '@id': 'urn:covid:consensas:ca.cases:43'
     dataset_id: '43'
     state_id: '18'
     sources:
@@ -225,10 +226,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:44'
+  - '@id': 'urn:covid:consensas:ca.cases:44'
     dataset_id: '44'
     state_id: '19'
     sources:
@@ -237,10 +238,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:45'
+  - '@id': 'urn:covid:consensas:ca.cases:45'
     dataset_id: '45'
     state_id: '20'
     sources:
@@ -249,10 +250,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:46'
+  - '@id': 'urn:covid:consensas:ca.cases:46'
     dataset_id: '46'
     state_id: '21'
     sources:
@@ -261,11 +262,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:55'
+  - '@id': 'urn:covid:consensas:ca.cases:55'
     dataset_id: '55'
     state_id: '22'
     sources:
@@ -274,10 +275,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:56'
+  - '@id': 'urn:covid:consensas:ca.cases:56'
     dataset_id: '56'
     state_id: '23'
     sources:
@@ -286,10 +287,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:57'
+  - '@id': 'urn:covid:consensas:ca.cases:57'
     dataset_id: '57'
     state_id: '24'
     sources:
@@ -298,10 +299,10 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:58'
+  - '@id': 'urn:covid:consensas:ca.cases:58'
     dataset_id: '58'
     state_id: '25'
     sources:
@@ -310,11 +311,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:59'
+  - '@id': 'urn:covid:consensas:ca.cases:59'
     dataset_id: '59'
     state_id: '26'
     sources:
@@ -323,11 +324,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 70-79
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:60'
+  - '@id': 'urn:covid:consensas:ca.cases:60'
     dataset_id: '60'
     state_id: '27'
     sources:
@@ -336,11 +337,11 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 80-89
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:70'
+  - '@id': 'urn:covid:consensas:ca.cases:70'
     dataset_id: '70'
     state_id: '28'
     sources:
@@ -349,11 +350,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 10-19
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:71'
+  - '@id': 'urn:covid:consensas:ca.cases:71'
     dataset_id: '71'
     state_id: '29'
     sources:
@@ -362,11 +363,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:72'
+  - '@id': 'urn:covid:consensas:ca.cases:72'
     dataset_id: '72'
     state_id: '30'
     sources:
@@ -375,11 +376,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:73'
+  - '@id': 'urn:covid:consensas:ca.cases:73'
     dataset_id: '73'
     state_id: '31'
     sources:
@@ -388,10 +389,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:74'
+  - '@id': 'urn:covid:consensas:ca.cases:74'
     dataset_id: '74'
     state_id: '32'
     sources:
@@ -400,10 +401,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:88'
+  - '@id': 'urn:covid:consensas:ca.cases:88'
     dataset_id: '88'
     state_id: '33'
     sources:
@@ -412,11 +413,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:89'
+  - '@id': 'urn:covid:consensas:ca.cases:89'
     dataset_id: '89'
     state_id: '34'
     sources:
@@ -425,11 +426,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:90'
+  - '@id': 'urn:covid:consensas:ca.cases:90'
     dataset_id: '90'
     state_id: '35'
     sources:
@@ -438,10 +439,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:91'
+  - '@id': 'urn:covid:consensas:ca.cases:91'
     dataset_id: '91'
     state_id: '36'
     sources:
@@ -450,10 +451,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 90-99
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:92'
+  - '@id': 'urn:covid:consensas:ca.cases:92'
     dataset_id: '92'
     state_id: '37'
     sources:
@@ -462,10 +463,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:93'
+  - '@id': 'urn:covid:consensas:ca.cases:93'
     dataset_id: '93'
     state_id: '38'
     sources:
@@ -474,11 +475,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 90-99
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:94'
+  - '@id': 'urn:covid:consensas:ca.cases:94'
     dataset_id: '94'
     state_id: '39'
     sources:
@@ -487,11 +488,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:109'
+  - '@id': 'urn:covid:consensas:ca.cases:109'
     dataset_id: '109'
     state_id: '40'
     sources:
@@ -500,11 +501,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:110'
+  - '@id': 'urn:covid:consensas:ca.cases:110'
     dataset_id: '110'
     state_id: '41'
     sources:
@@ -513,11 +514,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:111'
+  - '@id': 'urn:covid:consensas:ca.cases:111'
     dataset_id: '111'
     state_id: '42'
     sources:
@@ -526,10 +527,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:112'
+  - '@id': 'urn:covid:consensas:ca.cases:112'
     dataset_id: '112'
     state_id: '43'
     sources:
@@ -538,10 +539,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:113'
+  - '@id': 'urn:covid:consensas:ca.cases:113'
     dataset_id: '113'
     state_id: '44'
     sources:
@@ -550,11 +551,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:114'
+  - '@id': 'urn:covid:consensas:ca.cases:114'
     dataset_id: '114'
     state_id: '45'
     sources:
@@ -563,11 +564,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:115'
+  - '@id': 'urn:covid:consensas:ca.cases:115'
     dataset_id: '115'
     state_id: '46'
     sources:
@@ -576,10 +577,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:149'
+  - '@id': 'urn:covid:consensas:ca.cases:149'
     dataset_id: '149'
     state_id: '47'
     sources:
@@ -590,11 +591,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 90-99
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:150'
+  - '@id': 'urn:covid:consensas:ca.cases:150'
     dataset_id: '150'
     state_id: '48'
     sources:
@@ -607,11 +608,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:151'
+  - '@id': 'urn:covid:consensas:ca.cases:151'
     dataset_id: '151'
     state_id: '49'
     sources:
@@ -624,11 +625,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Fraser
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:152'
+  - '@id': 'urn:covid:consensas:ca.cases:152'
     dataset_id: '152'
     state_id: '50'
     sources:
@@ -639,10 +640,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:153'
+  - '@id': 'urn:covid:consensas:ca.cases:153'
     dataset_id: '153'
     state_id: '51'
     sources:
@@ -653,10 +654,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:154'
+  - '@id': 'urn:covid:consensas:ca.cases:154'
     dataset_id: '154'
     state_id: '52'
     sources:
@@ -667,10 +668,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:155'
+  - '@id': 'urn:covid:consensas:ca.cases:155'
     dataset_id: '155'
     state_id: '53'
     sources:
@@ -681,11 +682,11 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: M
+    sex: Male
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:186'
+  - '@id': 'urn:covid:consensas:ca.cases:186'
     dataset_id: '186'
     state_id: '54'
     sources:
@@ -698,7 +699,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:187'
+  - '@id': 'urn:covid:consensas:ca.cases:187'
     dataset_id: '187'
     state_id: '55'
     sources:
@@ -711,7 +712,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:188'
+  - '@id': 'urn:covid:consensas:ca.cases:188'
     dataset_id: '188'
     state_id: '56'
     sources:
@@ -724,7 +725,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:189'
+  - '@id': 'urn:covid:consensas:ca.cases:189'
     dataset_id: '189'
     state_id: '57'
     sources:
@@ -737,7 +738,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:190'
+  - '@id': 'urn:covid:consensas:ca.cases:190'
     dataset_id: '190'
     state_id: '58'
     sources:
@@ -749,7 +750,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:191'
+  - '@id': 'urn:covid:consensas:ca.cases:191'
     dataset_id: '191'
     state_id: '59'
     sources:
@@ -761,7 +762,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:192'
+  - '@id': 'urn:covid:consensas:ca.cases:192'
     dataset_id: '192'
     state_id: '60'
     sources:
@@ -773,7 +774,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:193'
+  - '@id': 'urn:covid:consensas:ca.cases:193'
     dataset_id: '193'
     state_id: '61'
     sources:
@@ -785,7 +786,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:194'
+  - '@id': 'urn:covid:consensas:ca.cases:194'
     dataset_id: '194'
     state_id: '62'
     sources:
@@ -797,7 +798,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:195'
+  - '@id': 'urn:covid:consensas:ca.cases:195'
     dataset_id: '195'
     state_id: '63'
     sources:
@@ -810,7 +811,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:196'
+  - '@id': 'urn:covid:consensas:ca.cases:196'
     dataset_id: '196'
     state_id: '64'
     sources:
@@ -823,7 +824,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_community: true
-  - id: 'urn:covid:ca.cases:239'
+  - '@id': 'urn:covid:consensas:ca.cases:239'
     dataset_id: '239'
     state_id: '65'
     sources:
@@ -838,7 +839,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:240'
+  - '@id': 'urn:covid:consensas:ca.cases:240'
     dataset_id: '240'
     state_id: '66'
     sources:
@@ -853,7 +854,7 @@ cases:
     health_region: Vancouver Coastal
     acquired_country: CA
     acquired_close_contact: true
-  - id: 'urn:covid:ca.cases:241'
+  - '@id': 'urn:covid:consensas:ca.cases:241'
     dataset_id: '241'
     state_id: '67'
     sources:
@@ -867,7 +868,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:242'
+  - '@id': 'urn:covid:consensas:ca.cases:242'
     dataset_id: '242'
     state_id: '68'
     sources:
@@ -881,7 +882,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:243'
+  - '@id': 'urn:covid:consensas:ca.cases:243'
     dataset_id: '243'
     state_id: '69'
     sources:
@@ -895,7 +896,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:244'
+  - '@id': 'urn:covid:consensas:ca.cases:244'
     dataset_id: '244'
     state_id: '70'
     sources:
@@ -909,7 +910,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:245'
+  - '@id': 'urn:covid:consensas:ca.cases:245'
     dataset_id: '245'
     state_id: '71'
     sources:
@@ -923,7 +924,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:246'
+  - '@id': 'urn:covid:consensas:ca.cases:246'
     dataset_id: '246'
     state_id: '72'
     sources:
@@ -937,7 +938,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:247'
+  - '@id': 'urn:covid:consensas:ca.cases:247'
     dataset_id: '247'
     state_id: '73'
     sources:
@@ -951,7 +952,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:388'
+  - '@id': 'urn:covid:consensas:ca.cases:388'
     dataset_id: '388'
     state_id: '74'
     sources:
@@ -963,7 +964,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:389'
+  - '@id': 'urn:covid:consensas:ca.cases:389'
     dataset_id: '389'
     state_id: '75'
     sources:
@@ -975,7 +976,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:390'
+  - '@id': 'urn:covid:consensas:ca.cases:390'
     dataset_id: '390'
     state_id: '76'
     sources:
@@ -987,7 +988,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:391'
+  - '@id': 'urn:covid:consensas:ca.cases:391'
     dataset_id: '391'
     state_id: '77'
     sources:
@@ -999,7 +1000,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:392'
+  - '@id': 'urn:covid:consensas:ca.cases:392'
     dataset_id: '392'
     state_id: '78'
     sources:
@@ -1011,7 +1012,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:393'
+  - '@id': 'urn:covid:consensas:ca.cases:393'
     dataset_id: '393'
     state_id: '79'
     sources:
@@ -1023,7 +1024,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:394'
+  - '@id': 'urn:covid:consensas:ca.cases:394'
     dataset_id: '394'
     state_id: '80'
     sources:
@@ -1035,7 +1036,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:395'
+  - '@id': 'urn:covid:consensas:ca.cases:395'
     dataset_id: '395'
     state_id: '81'
     sources:
@@ -1047,7 +1048,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:396'
+  - '@id': 'urn:covid:consensas:ca.cases:396'
     dataset_id: '396'
     state_id: '82'
     sources:
@@ -1059,7 +1060,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:397'
+  - '@id': 'urn:covid:consensas:ca.cases:397'
     dataset_id: '397'
     state_id: '83'
     sources:
@@ -1071,7 +1072,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:398'
+  - '@id': 'urn:covid:consensas:ca.cases:398'
     dataset_id: '398'
     state_id: '84'
     sources:
@@ -1083,7 +1084,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:399'
+  - '@id': 'urn:covid:consensas:ca.cases:399'
     dataset_id: '399'
     state_id: '85'
     sources:
@@ -1095,7 +1096,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:400'
+  - '@id': 'urn:covid:consensas:ca.cases:400'
     dataset_id: '400'
     state_id: '86'
     sources:
@@ -1107,7 +1108,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:401'
+  - '@id': 'urn:covid:consensas:ca.cases:401'
     dataset_id: '401'
     state_id: '87'
     sources:
@@ -1119,7 +1120,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:402'
+  - '@id': 'urn:covid:consensas:ca.cases:402'
     dataset_id: '402'
     state_id: '88'
     sources:
@@ -1131,7 +1132,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:403'
+  - '@id': 'urn:covid:consensas:ca.cases:403'
     dataset_id: '403'
     state_id: '89'
     sources:
@@ -1143,7 +1144,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:404'
+  - '@id': 'urn:covid:consensas:ca.cases:404'
     dataset_id: '404'
     state_id: '90'
     sources:
@@ -1155,7 +1156,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:405'
+  - '@id': 'urn:covid:consensas:ca.cases:405'
     dataset_id: '405'
     state_id: '91'
     sources:
@@ -1167,7 +1168,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:406'
+  - '@id': 'urn:covid:consensas:ca.cases:406'
     dataset_id: '406'
     state_id: '92'
     sources:
@@ -1179,7 +1180,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:407'
+  - '@id': 'urn:covid:consensas:ca.cases:407'
     dataset_id: '407'
     state_id: '93'
     sources:
@@ -1191,7 +1192,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:408'
+  - '@id': 'urn:covid:consensas:ca.cases:408'
     dataset_id: '408'
     state_id: '94'
     sources:
@@ -1203,7 +1204,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:409'
+  - '@id': 'urn:covid:consensas:ca.cases:409'
     dataset_id: '409'
     state_id: '95'
     sources:
@@ -1215,7 +1216,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:410'
+  - '@id': 'urn:covid:consensas:ca.cases:410'
     dataset_id: '410'
     state_id: '96'
     sources:
@@ -1227,7 +1228,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:411'
+  - '@id': 'urn:covid:consensas:ca.cases:411'
     dataset_id: '411'
     state_id: '97'
     sources:
@@ -1239,7 +1240,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:412'
+  - '@id': 'urn:covid:consensas:ca.cases:412'
     dataset_id: '412'
     state_id: '98'
     sources:
@@ -1251,7 +1252,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:413'
+  - '@id': 'urn:covid:consensas:ca.cases:413'
     dataset_id: '413'
     state_id: '99'
     sources:
@@ -1263,7 +1264,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:414'
+  - '@id': 'urn:covid:consensas:ca.cases:414'
     dataset_id: '414'
     state_id: '100'
     sources:
@@ -1275,7 +1276,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:415'
+  - '@id': 'urn:covid:consensas:ca.cases:415'
     dataset_id: '415'
     state_id: '101'
     sources:
@@ -1287,7 +1288,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:416'
+  - '@id': 'urn:covid:consensas:ca.cases:416'
     dataset_id: '416'
     state_id: '102'
     sources:
@@ -1299,7 +1300,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:417'
+  - '@id': 'urn:covid:consensas:ca.cases:417'
     dataset_id: '417'
     state_id: '103'
     sources:
@@ -1311,7 +1312,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:508'
+  - '@id': 'urn:covid:consensas:ca.cases:508'
     dataset_id: '508'
     state_id: '104'
     sources:
@@ -1324,7 +1325,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:509'
+  - '@id': 'urn:covid:consensas:ca.cases:509'
     dataset_id: '509'
     state_id: '105'
     sources:
@@ -1337,7 +1338,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:510'
+  - '@id': 'urn:covid:consensas:ca.cases:510'
     dataset_id: '510'
     state_id: '106'
     sources:
@@ -1350,7 +1351,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:511'
+  - '@id': 'urn:covid:consensas:ca.cases:511'
     dataset_id: '511'
     state_id: '107'
     sources:
@@ -1363,7 +1364,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:512'
+  - '@id': 'urn:covid:consensas:ca.cases:512'
     dataset_id: '512'
     state_id: '108'
     sources:
@@ -1376,7 +1377,7 @@ cases:
     sex: null
     health_region: Northern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:513'
+  - '@id': 'urn:covid:consensas:ca.cases:513'
     dataset_id: '513'
     state_id: '109'
     sources:
@@ -1389,7 +1390,7 @@ cases:
     sex: null
     health_region: Northern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:514'
+  - '@id': 'urn:covid:consensas:ca.cases:514'
     dataset_id: '514'
     state_id: '110'
     sources:
@@ -1402,7 +1403,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:515'
+  - '@id': 'urn:covid:consensas:ca.cases:515'
     dataset_id: '515'
     state_id: '111'
     sources:
@@ -1415,7 +1416,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:516'
+  - '@id': 'urn:covid:consensas:ca.cases:516'
     dataset_id: '516'
     state_id: '112'
     sources:
@@ -1428,7 +1429,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:517'
+  - '@id': 'urn:covid:consensas:ca.cases:517'
     dataset_id: '517'
     state_id: '113'
     sources:
@@ -1441,7 +1442,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:518'
+  - '@id': 'urn:covid:consensas:ca.cases:518'
     dataset_id: '518'
     state_id: '114'
     sources:
@@ -1454,7 +1455,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:519'
+  - '@id': 'urn:covid:consensas:ca.cases:519'
     dataset_id: '519'
     state_id: '115'
     sources:
@@ -1467,7 +1468,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:520'
+  - '@id': 'urn:covid:consensas:ca.cases:520'
     dataset_id: '520'
     state_id: '116'
     sources:
@@ -1480,7 +1481,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:521'
+  - '@id': 'urn:covid:consensas:ca.cases:521'
     dataset_id: '521'
     state_id: '117'
     sources:
@@ -1493,7 +1494,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:522'
+  - '@id': 'urn:covid:consensas:ca.cases:522'
     dataset_id: '522'
     state_id: '118'
     sources:
@@ -1506,7 +1507,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:523'
+  - '@id': 'urn:covid:consensas:ca.cases:523'
     dataset_id: '523'
     state_id: '119'
     sources:
@@ -1519,7 +1520,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:524'
+  - '@id': 'urn:covid:consensas:ca.cases:524'
     dataset_id: '524'
     state_id: '120'
     sources:
@@ -1532,7 +1533,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:525'
+  - '@id': 'urn:covid:consensas:ca.cases:525'
     dataset_id: '525'
     state_id: '121'
     sources:
@@ -1545,7 +1546,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:526'
+  - '@id': 'urn:covid:consensas:ca.cases:526'
     dataset_id: '526'
     state_id: '122'
     sources:
@@ -1558,7 +1559,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:527'
+  - '@id': 'urn:covid:consensas:ca.cases:527'
     dataset_id: '527'
     state_id: '123'
     sources:
@@ -1571,7 +1572,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:528'
+  - '@id': 'urn:covid:consensas:ca.cases:528'
     dataset_id: '528'
     state_id: '124'
     sources:
@@ -1584,7 +1585,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:529'
+  - '@id': 'urn:covid:consensas:ca.cases:529'
     dataset_id: '529'
     state_id: '125'
     sources:
@@ -1597,7 +1598,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:530'
+  - '@id': 'urn:covid:consensas:ca.cases:530'
     dataset_id: '530'
     state_id: '126'
     sources:
@@ -1610,7 +1611,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:531'
+  - '@id': 'urn:covid:consensas:ca.cases:531'
     dataset_id: '531'
     state_id: '127'
     sources:
@@ -1623,7 +1624,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:532'
+  - '@id': 'urn:covid:consensas:ca.cases:532'
     dataset_id: '532'
     state_id: '128'
     sources:
@@ -1636,7 +1637,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:533'
+  - '@id': 'urn:covid:consensas:ca.cases:533'
     dataset_id: '533'
     state_id: '129'
     sources:
@@ -1649,7 +1650,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:534'
+  - '@id': 'urn:covid:consensas:ca.cases:534'
     dataset_id: '534'
     state_id: '130'
     sources:
@@ -1662,7 +1663,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:535'
+  - '@id': 'urn:covid:consensas:ca.cases:535'
     dataset_id: '535'
     state_id: '131'
     sources:
@@ -1675,7 +1676,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:536'
+  - '@id': 'urn:covid:consensas:ca.cases:536'
     dataset_id: '536'
     state_id: '132'
     sources:
@@ -1688,7 +1689,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:537'
+  - '@id': 'urn:covid:consensas:ca.cases:537'
     dataset_id: '537'
     state_id: '133'
     sources:
@@ -1701,7 +1702,7 @@ cases:
     sex: null
     health_region: Northern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:538'
+  - '@id': 'urn:covid:consensas:ca.cases:538'
     dataset_id: '538'
     state_id: '134'
     sources:
@@ -1714,7 +1715,7 @@ cases:
     sex: null
     health_region: Northern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:539'
+  - '@id': 'urn:covid:consensas:ca.cases:539'
     dataset_id: '539'
     state_id: '135'
     sources:
@@ -1727,7 +1728,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:540'
+  - '@id': 'urn:covid:consensas:ca.cases:540'
     dataset_id: '540'
     state_id: '136'
     sources:
@@ -1740,7 +1741,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:541'
+  - '@id': 'urn:covid:consensas:ca.cases:541'
     dataset_id: '541'
     state_id: '137'
     sources:
@@ -1753,7 +1754,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:542'
+  - '@id': 'urn:covid:consensas:ca.cases:542'
     dataset_id: '542'
     state_id: '138'
     sources:
@@ -1766,7 +1767,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:543'
+  - '@id': 'urn:covid:consensas:ca.cases:543'
     dataset_id: '543'
     state_id: '139'
     sources:
@@ -1779,7 +1780,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:544'
+  - '@id': 'urn:covid:consensas:ca.cases:544'
     dataset_id: '544'
     state_id: '140'
     sources:
@@ -1792,7 +1793,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:545'
+  - '@id': 'urn:covid:consensas:ca.cases:545'
     dataset_id: '545'
     state_id: '141'
     sources:
@@ -1805,7 +1806,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:546'
+  - '@id': 'urn:covid:consensas:ca.cases:546'
     dataset_id: '546'
     state_id: '142'
     sources:
@@ -1818,7 +1819,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:547'
+  - '@id': 'urn:covid:consensas:ca.cases:547'
     dataset_id: '547'
     state_id: '143'
     sources:
@@ -1831,7 +1832,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:548'
+  - '@id': 'urn:covid:consensas:ca.cases:548'
     dataset_id: '548'
     state_id: '144'
     sources:
@@ -1844,7 +1845,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:549'
+  - '@id': 'urn:covid:consensas:ca.cases:549'
     dataset_id: '549'
     state_id: '145'
     sources:
@@ -1857,7 +1858,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:550'
+  - '@id': 'urn:covid:consensas:ca.cases:550'
     dataset_id: '550'
     state_id: '146'
     sources:
@@ -1870,7 +1871,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:551'
+  - '@id': 'urn:covid:consensas:ca.cases:551'
     dataset_id: '551'
     state_id: '147'
     sources:
@@ -1883,7 +1884,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:552'
+  - '@id': 'urn:covid:consensas:ca.cases:552'
     dataset_id: '552'
     state_id: '148'
     sources:
@@ -1896,7 +1897,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:553'
+  - '@id': 'urn:covid:consensas:ca.cases:553'
     dataset_id: '553'
     state_id: '149'
     sources:
@@ -1909,7 +1910,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:554'
+  - '@id': 'urn:covid:consensas:ca.cases:554'
     dataset_id: '554'
     state_id: '150'
     sources:
@@ -1922,7 +1923,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:555'
+  - '@id': 'urn:covid:consensas:ca.cases:555'
     dataset_id: '555'
     state_id: '151'
     sources:
@@ -1935,7 +1936,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:556'
+  - '@id': 'urn:covid:consensas:ca.cases:556'
     dataset_id: '556'
     state_id: '152'
     sources:
@@ -1948,7 +1949,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:557'
+  - '@id': 'urn:covid:consensas:ca.cases:557'
     dataset_id: '557'
     state_id: '153'
     sources:
@@ -1961,7 +1962,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:558'
+  - '@id': 'urn:covid:consensas:ca.cases:558'
     dataset_id: '558'
     state_id: '154'
     sources:
@@ -1974,7 +1975,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:559'
+  - '@id': 'urn:covid:consensas:ca.cases:559'
     dataset_id: '559'
     state_id: '155'
     sources:
@@ -1987,7 +1988,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:560'
+  - '@id': 'urn:covid:consensas:ca.cases:560'
     dataset_id: '560'
     state_id: '156'
     sources:
@@ -2000,7 +2001,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:561'
+  - '@id': 'urn:covid:consensas:ca.cases:561'
     dataset_id: '561'
     state_id: '157'
     sources:
@@ -2013,7 +2014,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:562'
+  - '@id': 'urn:covid:consensas:ca.cases:562'
     dataset_id: '562'
     state_id: '158'
     sources:
@@ -2026,7 +2027,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:563'
+  - '@id': 'urn:covid:consensas:ca.cases:563'
     dataset_id: '563'
     state_id: '159'
     sources:
@@ -2039,7 +2040,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:564'
+  - '@id': 'urn:covid:consensas:ca.cases:564'
     dataset_id: '564'
     state_id: '160'
     sources:
@@ -2052,7 +2053,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:565'
+  - '@id': 'urn:covid:consensas:ca.cases:565'
     dataset_id: '565'
     state_id: '161'
     sources:
@@ -2065,7 +2066,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:566'
+  - '@id': 'urn:covid:consensas:ca.cases:566'
     dataset_id: '566'
     state_id: '162'
     sources:
@@ -2078,7 +2079,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:567'
+  - '@id': 'urn:covid:consensas:ca.cases:567'
     dataset_id: '567'
     state_id: '163'
     sources:
@@ -2091,7 +2092,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:568'
+  - '@id': 'urn:covid:consensas:ca.cases:568'
     dataset_id: '568'
     state_id: '164'
     sources:
@@ -2104,7 +2105,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:569'
+  - '@id': 'urn:covid:consensas:ca.cases:569'
     dataset_id: '569'
     state_id: '165'
     sources:
@@ -2117,7 +2118,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:570'
+  - '@id': 'urn:covid:consensas:ca.cases:570'
     dataset_id: '570'
     state_id: '166'
     sources:
@@ -2130,7 +2131,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:571'
+  - '@id': 'urn:covid:consensas:ca.cases:571'
     dataset_id: '571'
     state_id: '167'
     sources:
@@ -2143,7 +2144,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:572'
+  - '@id': 'urn:covid:consensas:ca.cases:572'
     dataset_id: '572'
     state_id: '168'
     sources:
@@ -2156,7 +2157,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:573'
+  - '@id': 'urn:covid:consensas:ca.cases:573'
     dataset_id: '573'
     state_id: '169'
     sources:
@@ -2169,7 +2170,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:574'
+  - '@id': 'urn:covid:consensas:ca.cases:574'
     dataset_id: '574'
     state_id: '170'
     sources:
@@ -2182,7 +2183,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:575'
+  - '@id': 'urn:covid:consensas:ca.cases:575'
     dataset_id: '575'
     state_id: '171'
     sources:
@@ -2195,7 +2196,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:576'
+  - '@id': 'urn:covid:consensas:ca.cases:576'
     dataset_id: '576'
     state_id: '172'
     sources:
@@ -2208,7 +2209,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:577'
+  - '@id': 'urn:covid:consensas:ca.cases:577'
     dataset_id: '577'
     state_id: '173'
     sources:
@@ -2221,7 +2222,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:578'
+  - '@id': 'urn:covid:consensas:ca.cases:578'
     dataset_id: '578'
     state_id: '174'
     sources:
@@ -2234,7 +2235,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:579'
+  - '@id': 'urn:covid:consensas:ca.cases:579'
     dataset_id: '579'
     state_id: '175'
     sources:
@@ -2247,7 +2248,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:580'
+  - '@id': 'urn:covid:consensas:ca.cases:580'
     dataset_id: '580'
     state_id: '176'
     sources:
@@ -2260,7 +2261,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:581'
+  - '@id': 'urn:covid:consensas:ca.cases:581'
     dataset_id: '581'
     state_id: '177'
     sources:
@@ -2273,7 +2274,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:582'
+  - '@id': 'urn:covid:consensas:ca.cases:582'
     dataset_id: '582'
     state_id: '178'
     sources:
@@ -2286,7 +2287,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:583'
+  - '@id': 'urn:covid:consensas:ca.cases:583'
     dataset_id: '583'
     state_id: '179'
     sources:
@@ -2299,7 +2300,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:584'
+  - '@id': 'urn:covid:consensas:ca.cases:584'
     dataset_id: '584'
     state_id: '180'
     sources:
@@ -2312,7 +2313,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:585'
+  - '@id': 'urn:covid:consensas:ca.cases:585'
     dataset_id: '585'
     state_id: '181'
     sources:
@@ -2325,7 +2326,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:586'
+  - '@id': 'urn:covid:consensas:ca.cases:586'
     dataset_id: '586'
     state_id: '182'
     sources:
@@ -2338,7 +2339,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:587'
+  - '@id': 'urn:covid:consensas:ca.cases:587'
     dataset_id: '587'
     state_id: '183'
     sources:
@@ -2351,7 +2352,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:588'
+  - '@id': 'urn:covid:consensas:ca.cases:588'
     dataset_id: '588'
     state_id: '184'
     sources:
@@ -2364,7 +2365,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:589'
+  - '@id': 'urn:covid:consensas:ca.cases:589'
     dataset_id: '589'
     state_id: '185'
     sources:
@@ -2377,7 +2378,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:590'
+  - '@id': 'urn:covid:consensas:ca.cases:590'
     dataset_id: '590'
     state_id: '186'
     sources:
@@ -2390,7 +2391,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:657'
+  - '@id': 'urn:covid:consensas:ca.cases:657'
     dataset_id: '657'
     state_id: '187'
     sources:
@@ -2403,7 +2404,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:658'
+  - '@id': 'urn:covid:consensas:ca.cases:658'
     dataset_id: '658'
     state_id: '188'
     sources:
@@ -2416,7 +2417,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:659'
+  - '@id': 'urn:covid:consensas:ca.cases:659'
     dataset_id: '659'
     state_id: '189'
     sources:
@@ -2429,7 +2430,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:660'
+  - '@id': 'urn:covid:consensas:ca.cases:660'
     dataset_id: '660'
     state_id: '190'
     sources:
@@ -2442,7 +2443,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:661'
+  - '@id': 'urn:covid:consensas:ca.cases:661'
     dataset_id: '661'
     state_id: '191'
     sources:
@@ -2455,7 +2456,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:662'
+  - '@id': 'urn:covid:consensas:ca.cases:662'
     dataset_id: '662'
     state_id: '192'
     sources:
@@ -2468,7 +2469,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:663'
+  - '@id': 'urn:covid:consensas:ca.cases:663'
     dataset_id: '663'
     state_id: '193'
     sources:
@@ -2481,7 +2482,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:664'
+  - '@id': 'urn:covid:consensas:ca.cases:664'
     dataset_id: '664'
     state_id: '194'
     sources:
@@ -2494,7 +2495,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:665'
+  - '@id': 'urn:covid:consensas:ca.cases:665'
     dataset_id: '665'
     state_id: '195'
     sources:
@@ -2507,7 +2508,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:666'
+  - '@id': 'urn:covid:consensas:ca.cases:666'
     dataset_id: '666'
     state_id: '196'
     sources:
@@ -2520,7 +2521,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:667'
+  - '@id': 'urn:covid:consensas:ca.cases:667'
     dataset_id: '667'
     state_id: '197'
     sources:
@@ -2533,7 +2534,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:668'
+  - '@id': 'urn:covid:consensas:ca.cases:668'
     dataset_id: '668'
     state_id: '198'
     sources:
@@ -2546,7 +2547,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:669'
+  - '@id': 'urn:covid:consensas:ca.cases:669'
     dataset_id: '669'
     state_id: '199'
     sources:
@@ -2559,7 +2560,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:670'
+  - '@id': 'urn:covid:consensas:ca.cases:670'
     dataset_id: '670'
     state_id: '200'
     sources:
@@ -2572,7 +2573,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:671'
+  - '@id': 'urn:covid:consensas:ca.cases:671'
     dataset_id: '671'
     state_id: '201'
     sources:
@@ -2585,7 +2586,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:672'
+  - '@id': 'urn:covid:consensas:ca.cases:672'
     dataset_id: '672'
     state_id: '202'
     sources:
@@ -2598,7 +2599,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:673'
+  - '@id': 'urn:covid:consensas:ca.cases:673'
     dataset_id: '673'
     state_id: '203'
     sources:
@@ -2611,7 +2612,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:674'
+  - '@id': 'urn:covid:consensas:ca.cases:674'
     dataset_id: '674'
     state_id: '204'
     sources:
@@ -2624,7 +2625,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:675'
+  - '@id': 'urn:covid:consensas:ca.cases:675'
     dataset_id: '675'
     state_id: '205'
     sources:
@@ -2637,7 +2638,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:676'
+  - '@id': 'urn:covid:consensas:ca.cases:676'
     dataset_id: '676'
     state_id: '206'
     sources:
@@ -2650,7 +2651,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:677'
+  - '@id': 'urn:covid:consensas:ca.cases:677'
     dataset_id: '677'
     state_id: '207'
     sources:
@@ -2663,7 +2664,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:678'
+  - '@id': 'urn:covid:consensas:ca.cases:678'
     dataset_id: '678'
     state_id: '208'
     sources:
@@ -2676,7 +2677,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:679'
+  - '@id': 'urn:covid:consensas:ca.cases:679'
     dataset_id: '679'
     state_id: '209'
     sources:
@@ -2689,7 +2690,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:680'
+  - '@id': 'urn:covid:consensas:ca.cases:680'
     dataset_id: '680'
     state_id: '210'
     sources:
@@ -2702,7 +2703,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:681'
+  - '@id': 'urn:covid:consensas:ca.cases:681'
     dataset_id: '681'
     state_id: '211'
     sources:
@@ -2715,7 +2716,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:682'
+  - '@id': 'urn:covid:consensas:ca.cases:682'
     dataset_id: '682'
     state_id: '212'
     sources:
@@ -2728,7 +2729,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:683'
+  - '@id': 'urn:covid:consensas:ca.cases:683'
     dataset_id: '683'
     state_id: '213'
     sources:
@@ -2741,7 +2742,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:684'
+  - '@id': 'urn:covid:consensas:ca.cases:684'
     dataset_id: '684'
     state_id: '214'
     sources:
@@ -2754,7 +2755,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:685'
+  - '@id': 'urn:covid:consensas:ca.cases:685'
     dataset_id: '685'
     state_id: '215'
     sources:
@@ -2767,7 +2768,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:686'
+  - '@id': 'urn:covid:consensas:ca.cases:686'
     dataset_id: '686'
     state_id: '216'
     sources:
@@ -2780,7 +2781,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:687'
+  - '@id': 'urn:covid:consensas:ca.cases:687'
     dataset_id: '687'
     state_id: '217'
     sources:
@@ -2793,7 +2794,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:688'
+  - '@id': 'urn:covid:consensas:ca.cases:688'
     dataset_id: '688'
     state_id: '218'
     sources:
@@ -2806,7 +2807,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:689'
+  - '@id': 'urn:covid:consensas:ca.cases:689'
     dataset_id: '689'
     state_id: '219'
     sources:
@@ -2819,7 +2820,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:690'
+  - '@id': 'urn:covid:consensas:ca.cases:690'
     dataset_id: '690'
     state_id: '220'
     sources:
@@ -2832,7 +2833,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:691'
+  - '@id': 'urn:covid:consensas:ca.cases:691'
     dataset_id: '691'
     state_id: '221'
     sources:
@@ -2845,7 +2846,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:692'
+  - '@id': 'urn:covid:consensas:ca.cases:692'
     dataset_id: '692'
     state_id: '222'
     sources:
@@ -2858,7 +2859,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:693'
+  - '@id': 'urn:covid:consensas:ca.cases:693'
     dataset_id: '693'
     state_id: '223'
     sources:
@@ -2871,7 +2872,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:694'
+  - '@id': 'urn:covid:consensas:ca.cases:694'
     dataset_id: '694'
     state_id: '224'
     sources:
@@ -2884,7 +2885,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:695'
+  - '@id': 'urn:covid:consensas:ca.cases:695'
     dataset_id: '695'
     state_id: '225'
     sources:
@@ -2897,7 +2898,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:696'
+  - '@id': 'urn:covid:consensas:ca.cases:696'
     dataset_id: '696'
     state_id: '226'
     sources:
@@ -2910,7 +2911,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:697'
+  - '@id': 'urn:covid:consensas:ca.cases:697'
     dataset_id: '697'
     state_id: '227'
     sources:
@@ -2923,7 +2924,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:698'
+  - '@id': 'urn:covid:consensas:ca.cases:698'
     dataset_id: '698'
     state_id: '228'
     sources:
@@ -2936,7 +2937,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:699'
+  - '@id': 'urn:covid:consensas:ca.cases:699'
     dataset_id: '699'
     state_id: '229'
     sources:
@@ -2949,7 +2950,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:700'
+  - '@id': 'urn:covid:consensas:ca.cases:700'
     dataset_id: '700'
     state_id: '230'
     sources:
@@ -2962,7 +2963,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:701'
+  - '@id': 'urn:covid:consensas:ca.cases:701'
     dataset_id: '701'
     state_id: '231'
     sources:
@@ -2975,7 +2976,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:834'
+  - '@id': 'urn:covid:consensas:ca.cases:834'
     dataset_id: '834'
     state_id: '232'
     sources:
@@ -2988,7 +2989,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:835'
+  - '@id': 'urn:covid:consensas:ca.cases:835'
     dataset_id: '835'
     state_id: '233'
     sources:
@@ -3001,7 +3002,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:836'
+  - '@id': 'urn:covid:consensas:ca.cases:836'
     dataset_id: '836'
     state_id: '234'
     sources:
@@ -3014,7 +3015,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:837'
+  - '@id': 'urn:covid:consensas:ca.cases:837'
     dataset_id: '837'
     state_id: '235'
     sources:
@@ -3027,7 +3028,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:838'
+  - '@id': 'urn:covid:consensas:ca.cases:838'
     dataset_id: '838'
     state_id: '236'
     sources:
@@ -3040,7 +3041,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:839'
+  - '@id': 'urn:covid:consensas:ca.cases:839'
     dataset_id: '839'
     state_id: '237'
     sources:
@@ -3053,7 +3054,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:840'
+  - '@id': 'urn:covid:consensas:ca.cases:840'
     dataset_id: '840'
     state_id: '238'
     sources:
@@ -3066,7 +3067,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:841'
+  - '@id': 'urn:covid:consensas:ca.cases:841'
     dataset_id: '841'
     state_id: '239'
     sources:
@@ -3079,7 +3080,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:842'
+  - '@id': 'urn:covid:consensas:ca.cases:842'
     dataset_id: '842'
     state_id: '240'
     sources:
@@ -3092,7 +3093,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:843'
+  - '@id': 'urn:covid:consensas:ca.cases:843'
     dataset_id: '843'
     state_id: '241'
     sources:
@@ -3105,7 +3106,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:844'
+  - '@id': 'urn:covid:consensas:ca.cases:844'
     dataset_id: '844'
     state_id: '242'
     sources:
@@ -3118,7 +3119,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:845'
+  - '@id': 'urn:covid:consensas:ca.cases:845'
     dataset_id: '845'
     state_id: '243'
     sources:
@@ -3131,7 +3132,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:846'
+  - '@id': 'urn:covid:consensas:ca.cases:846'
     dataset_id: '846'
     state_id: '244'
     sources:
@@ -3144,7 +3145,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:847'
+  - '@id': 'urn:covid:consensas:ca.cases:847'
     dataset_id: '847'
     state_id: '245'
     sources:
@@ -3157,7 +3158,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:848'
+  - '@id': 'urn:covid:consensas:ca.cases:848'
     dataset_id: '848'
     state_id: '246'
     sources:
@@ -3170,7 +3171,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:849'
+  - '@id': 'urn:covid:consensas:ca.cases:849'
     dataset_id: '849'
     state_id: '247'
     sources:
@@ -3183,7 +3184,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:850'
+  - '@id': 'urn:covid:consensas:ca.cases:850'
     dataset_id: '850'
     state_id: '248'
     sources:
@@ -3196,7 +3197,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:851'
+  - '@id': 'urn:covid:consensas:ca.cases:851'
     dataset_id: '851'
     state_id: '249'
     sources:
@@ -3209,7 +3210,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:852'
+  - '@id': 'urn:covid:consensas:ca.cases:852'
     dataset_id: '852'
     state_id: '250'
     sources:
@@ -3222,7 +3223,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:853'
+  - '@id': 'urn:covid:consensas:ca.cases:853'
     dataset_id: '853'
     state_id: '251'
     sources:
@@ -3235,7 +3236,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:854'
+  - '@id': 'urn:covid:consensas:ca.cases:854'
     dataset_id: '854'
     state_id: '252'
     sources:
@@ -3248,7 +3249,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:855'
+  - '@id': 'urn:covid:consensas:ca.cases:855'
     dataset_id: '855'
     state_id: '253'
     sources:
@@ -3261,7 +3262,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:856'
+  - '@id': 'urn:covid:consensas:ca.cases:856'
     dataset_id: '856'
     state_id: '254'
     sources:
@@ -3274,7 +3275,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:857'
+  - '@id': 'urn:covid:consensas:ca.cases:857'
     dataset_id: '857'
     state_id: '255'
     sources:
@@ -3287,7 +3288,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:858'
+  - '@id': 'urn:covid:consensas:ca.cases:858'
     dataset_id: '858'
     state_id: '256'
     sources:
@@ -3300,7 +3301,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:859'
+  - '@id': 'urn:covid:consensas:ca.cases:859'
     dataset_id: '859'
     state_id: '257'
     sources:
@@ -3313,7 +3314,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:860'
+  - '@id': 'urn:covid:consensas:ca.cases:860'
     dataset_id: '860'
     state_id: '258'
     sources:
@@ -3326,7 +3327,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:861'
+  - '@id': 'urn:covid:consensas:ca.cases:861'
     dataset_id: '861'
     state_id: '259'
     sources:
@@ -3339,7 +3340,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:862'
+  - '@id': 'urn:covid:consensas:ca.cases:862'
     dataset_id: '862'
     state_id: '260'
     sources:
@@ -3352,7 +3353,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:863'
+  - '@id': 'urn:covid:consensas:ca.cases:863'
     dataset_id: '863'
     state_id: '261'
     sources:
@@ -3365,7 +3366,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:864'
+  - '@id': 'urn:covid:consensas:ca.cases:864'
     dataset_id: '864'
     state_id: '262'
     sources:
@@ -3378,7 +3379,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:865'
+  - '@id': 'urn:covid:consensas:ca.cases:865'
     dataset_id: '865'
     state_id: '263'
     sources:
@@ -3391,7 +3392,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:866'
+  - '@id': 'urn:covid:consensas:ca.cases:866'
     dataset_id: '866'
     state_id: '264'
     sources:
@@ -3404,7 +3405,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:867'
+  - '@id': 'urn:covid:consensas:ca.cases:867'
     dataset_id: '867'
     state_id: '265'
     sources:
@@ -3417,7 +3418,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:868'
+  - '@id': 'urn:covid:consensas:ca.cases:868'
     dataset_id: '868'
     state_id: '266'
     sources:
@@ -3430,7 +3431,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:869'
+  - '@id': 'urn:covid:consensas:ca.cases:869'
     dataset_id: '869'
     state_id: '267'
     sources:
@@ -3443,7 +3444,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:870'
+  - '@id': 'urn:covid:consensas:ca.cases:870'
     dataset_id: '870'
     state_id: '268'
     sources:
@@ -3456,7 +3457,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:871'
+  - '@id': 'urn:covid:consensas:ca.cases:871'
     dataset_id: '871'
     state_id: '269'
     sources:
@@ -3469,7 +3470,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:872'
+  - '@id': 'urn:covid:consensas:ca.cases:872'
     dataset_id: '872'
     state_id: '270'
     sources:
@@ -3482,7 +3483,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:873'
+  - '@id': 'urn:covid:consensas:ca.cases:873'
     dataset_id: '873'
     state_id: '271'
     sources:
@@ -3495,7 +3496,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:962'
+  - '@id': 'urn:covid:consensas:ca.cases:962'
     dataset_id: '962'
     state_id: '272'
     sources:
@@ -3508,7 +3509,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:963'
+  - '@id': 'urn:covid:consensas:ca.cases:963'
     dataset_id: '963'
     state_id: '273'
     sources:
@@ -3521,7 +3522,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:964'
+  - '@id': 'urn:covid:consensas:ca.cases:964'
     dataset_id: '964'
     state_id: '274'
     sources:
@@ -3534,7 +3535,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:965'
+  - '@id': 'urn:covid:consensas:ca.cases:965'
     dataset_id: '965'
     state_id: '275'
     sources:
@@ -3547,7 +3548,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:966'
+  - '@id': 'urn:covid:consensas:ca.cases:966'
     dataset_id: '966'
     state_id: '276'
     sources:
@@ -3560,7 +3561,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:967'
+  - '@id': 'urn:covid:consensas:ca.cases:967'
     dataset_id: '967'
     state_id: '277'
     sources:
@@ -3573,7 +3574,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:968'
+  - '@id': 'urn:covid:consensas:ca.cases:968'
     dataset_id: '968'
     state_id: '278'
     sources:
@@ -3586,7 +3587,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:969'
+  - '@id': 'urn:covid:consensas:ca.cases:969'
     dataset_id: '969'
     state_id: '279'
     sources:
@@ -3599,7 +3600,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:970'
+  - '@id': 'urn:covid:consensas:ca.cases:970'
     dataset_id: '970'
     state_id: '280'
     sources:
@@ -3612,7 +3613,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:971'
+  - '@id': 'urn:covid:consensas:ca.cases:971'
     dataset_id: '971'
     state_id: '281'
     sources:
@@ -3625,7 +3626,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:972'
+  - '@id': 'urn:covid:consensas:ca.cases:972'
     dataset_id: '972'
     state_id: '282'
     sources:
@@ -3638,7 +3639,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:973'
+  - '@id': 'urn:covid:consensas:ca.cases:973'
     dataset_id: '973'
     state_id: '283'
     sources:
@@ -3651,7 +3652,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:974'
+  - '@id': 'urn:covid:consensas:ca.cases:974'
     dataset_id: '974'
     state_id: '284'
     sources:
@@ -3664,7 +3665,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:975'
+  - '@id': 'urn:covid:consensas:ca.cases:975'
     dataset_id: '975'
     state_id: '285'
     sources:
@@ -3677,7 +3678,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:976'
+  - '@id': 'urn:covid:consensas:ca.cases:976'
     dataset_id: '976'
     state_id: '286'
     sources:
@@ -3690,7 +3691,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:977'
+  - '@id': 'urn:covid:consensas:ca.cases:977'
     dataset_id: '977'
     state_id: '287'
     sources:
@@ -3703,7 +3704,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:978'
+  - '@id': 'urn:covid:consensas:ca.cases:978'
     dataset_id: '978'
     state_id: '288'
     sources:
@@ -3716,7 +3717,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:979'
+  - '@id': 'urn:covid:consensas:ca.cases:979'
     dataset_id: '979'
     state_id: '289'
     sources:
@@ -3729,7 +3730,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:980'
+  - '@id': 'urn:covid:consensas:ca.cases:980'
     dataset_id: '980'
     state_id: '290'
     sources:
@@ -3742,7 +3743,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:981'
+  - '@id': 'urn:covid:consensas:ca.cases:981'
     dataset_id: '981'
     state_id: '291'
     sources:
@@ -3755,7 +3756,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:982'
+  - '@id': 'urn:covid:consensas:ca.cases:982'
     dataset_id: '982'
     state_id: '292'
     sources:
@@ -3768,7 +3769,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:983'
+  - '@id': 'urn:covid:consensas:ca.cases:983'
     dataset_id: '983'
     state_id: '293'
     sources:
@@ -3781,7 +3782,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:984'
+  - '@id': 'urn:covid:consensas:ca.cases:984'
     dataset_id: '984'
     state_id: '294'
     sources:
@@ -3794,7 +3795,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:985'
+  - '@id': 'urn:covid:consensas:ca.cases:985'
     dataset_id: '985'
     state_id: '295'
     sources:
@@ -3807,7 +3808,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:986'
+  - '@id': 'urn:covid:consensas:ca.cases:986'
     dataset_id: '986'
     state_id: '296'
     sources:
@@ -3820,7 +3821,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:987'
+  - '@id': 'urn:covid:consensas:ca.cases:987'
     dataset_id: '987'
     state_id: '297'
     sources:
@@ -3833,7 +3834,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:988'
+  - '@id': 'urn:covid:consensas:ca.cases:988'
     dataset_id: '988'
     state_id: '298'
     sources:
@@ -3846,7 +3847,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:989'
+  - '@id': 'urn:covid:consensas:ca.cases:989'
     dataset_id: '989'
     state_id: '299'
     sources:
@@ -3859,7 +3860,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:990'
+  - '@id': 'urn:covid:consensas:ca.cases:990'
     dataset_id: '990'
     state_id: '300'
     sources:
@@ -3872,7 +3873,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:991'
+  - '@id': 'urn:covid:consensas:ca.cases:991'
     dataset_id: '991'
     state_id: '301'
     sources:
@@ -3885,7 +3886,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:992'
+  - '@id': 'urn:covid:consensas:ca.cases:992'
     dataset_id: '992'
     state_id: '302'
     sources:
@@ -3898,7 +3899,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:993'
+  - '@id': 'urn:covid:consensas:ca.cases:993'
     dataset_id: '993'
     state_id: '303'
     sources:
@@ -3911,7 +3912,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:994'
+  - '@id': 'urn:covid:consensas:ca.cases:994'
     dataset_id: '994'
     state_id: '304'
     sources:
@@ -3924,7 +3925,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:995'
+  - '@id': 'urn:covid:consensas:ca.cases:995'
     dataset_id: '995'
     state_id: '305'
     sources:
@@ -3937,7 +3938,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:996'
+  - '@id': 'urn:covid:consensas:ca.cases:996'
     dataset_id: '996'
     state_id: '306'
     sources:
@@ -3950,7 +3951,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:997'
+  - '@id': 'urn:covid:consensas:ca.cases:997'
     dataset_id: '997'
     state_id: '307'
     sources:
@@ -3963,7 +3964,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:998'
+  - '@id': 'urn:covid:consensas:ca.cases:998'
     dataset_id: '998'
     state_id: '308'
     sources:
@@ -3976,7 +3977,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:999'
+  - '@id': 'urn:covid:consensas:ca.cases:999'
     dataset_id: '999'
     state_id: '309'
     sources:
@@ -3989,7 +3990,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1000'
+  - '@id': 'urn:covid:consensas:ca.cases:1000'
     dataset_id: '1000'
     state_id: '310'
     sources:
@@ -4002,7 +4003,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1001'
+  - '@id': 'urn:covid:consensas:ca.cases:1001'
     dataset_id: '1001'
     state_id: '311'
     sources:
@@ -4015,7 +4016,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1002'
+  - '@id': 'urn:covid:consensas:ca.cases:1002'
     dataset_id: '1002'
     state_id: '312'
     sources:
@@ -4028,7 +4029,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1003'
+  - '@id': 'urn:covid:consensas:ca.cases:1003'
     dataset_id: '1003'
     state_id: '313'
     sources:
@@ -4041,7 +4042,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1004'
+  - '@id': 'urn:covid:consensas:ca.cases:1004'
     dataset_id: '1004'
     state_id: '314'
     sources:
@@ -4054,7 +4055,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1005'
+  - '@id': 'urn:covid:consensas:ca.cases:1005'
     dataset_id: '1005'
     state_id: '315'
     sources:
@@ -4067,7 +4068,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1006'
+  - '@id': 'urn:covid:consensas:ca.cases:1006'
     dataset_id: '1006'
     state_id: '316'
     sources:
@@ -4080,7 +4081,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1007'
+  - '@id': 'urn:covid:consensas:ca.cases:1007'
     dataset_id: '1007'
     state_id: '317'
     sources:
@@ -4093,7 +4094,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1008'
+  - '@id': 'urn:covid:consensas:ca.cases:1008'
     dataset_id: '1008'
     state_id: '318'
     sources:
@@ -4106,7 +4107,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1009'
+  - '@id': 'urn:covid:consensas:ca.cases:1009'
     dataset_id: '1009'
     state_id: '319'
     sources:
@@ -4119,7 +4120,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1010'
+  - '@id': 'urn:covid:consensas:ca.cases:1010'
     dataset_id: '1010'
     state_id: '320'
     sources:
@@ -4132,7 +4133,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1011'
+  - '@id': 'urn:covid:consensas:ca.cases:1011'
     dataset_id: '1011'
     state_id: '321'
     sources:
@@ -4145,7 +4146,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1012'
+  - '@id': 'urn:covid:consensas:ca.cases:1012'
     dataset_id: '1012'
     state_id: '322'
     sources:
@@ -4158,7 +4159,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1013'
+  - '@id': 'urn:covid:consensas:ca.cases:1013'
     dataset_id: '1013'
     state_id: '323'
     sources:
@@ -4171,7 +4172,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1014'
+  - '@id': 'urn:covid:consensas:ca.cases:1014'
     dataset_id: '1014'
     state_id: '324'
     sources:
@@ -4184,7 +4185,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1015'
+  - '@id': 'urn:covid:consensas:ca.cases:1015'
     dataset_id: '1015'
     state_id: '325'
     sources:
@@ -4197,7 +4198,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1016'
+  - '@id': 'urn:covid:consensas:ca.cases:1016'
     dataset_id: '1016'
     state_id: '326'
     sources:
@@ -4210,7 +4211,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1017'
+  - '@id': 'urn:covid:consensas:ca.cases:1017'
     dataset_id: '1017'
     state_id: '327'
     sources:
@@ -4223,7 +4224,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1018'
+  - '@id': 'urn:covid:consensas:ca.cases:1018'
     dataset_id: '1018'
     state_id: '328'
     sources:
@@ -4236,7 +4237,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1019'
+  - '@id': 'urn:covid:consensas:ca.cases:1019'
     dataset_id: '1019'
     state_id: '329'
     sources:
@@ -4249,7 +4250,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1020'
+  - '@id': 'urn:covid:consensas:ca.cases:1020'
     dataset_id: '1020'
     state_id: '330'
     sources:
@@ -4262,7 +4263,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1021'
+  - '@id': 'urn:covid:consensas:ca.cases:1021'
     dataset_id: '1021'
     state_id: '331'
     sources:
@@ -4275,7 +4276,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1022'
+  - '@id': 'urn:covid:consensas:ca.cases:1022'
     dataset_id: '1022'
     state_id: '332'
     sources:
@@ -4288,7 +4289,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1023'
+  - '@id': 'urn:covid:consensas:ca.cases:1023'
     dataset_id: '1023'
     state_id: '333'
     sources:
@@ -4301,7 +4302,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1024'
+  - '@id': 'urn:covid:consensas:ca.cases:1024'
     dataset_id: '1024'
     state_id: '334'
     sources:
@@ -4314,7 +4315,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1025'
+  - '@id': 'urn:covid:consensas:ca.cases:1025'
     dataset_id: '1025'
     state_id: '335'
     sources:
@@ -4327,7 +4328,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1026'
+  - '@id': 'urn:covid:consensas:ca.cases:1026'
     dataset_id: '1026'
     state_id: '336'
     sources:
@@ -4340,7 +4341,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1027'
+  - '@id': 'urn:covid:consensas:ca.cases:1027'
     dataset_id: '1027'
     state_id: '337'
     sources:
@@ -4353,7 +4354,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1028'
+  - '@id': 'urn:covid:consensas:ca.cases:1028'
     dataset_id: '1028'
     state_id: '338'
     sources:
@@ -4366,7 +4367,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1029'
+  - '@id': 'urn:covid:consensas:ca.cases:1029'
     dataset_id: '1029'
     state_id: '339'
     sources:
@@ -4379,7 +4380,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1030'
+  - '@id': 'urn:covid:consensas:ca.cases:1030'
     dataset_id: '1030'
     state_id: '340'
     sources:
@@ -4392,7 +4393,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1031'
+  - '@id': 'urn:covid:consensas:ca.cases:1031'
     dataset_id: '1031'
     state_id: '341'
     sources:
@@ -4405,7 +4406,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1032'
+  - '@id': 'urn:covid:consensas:ca.cases:1032'
     dataset_id: '1032'
     state_id: '342'
     sources:
@@ -4418,7 +4419,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1033'
+  - '@id': 'urn:covid:consensas:ca.cases:1033'
     dataset_id: '1033'
     state_id: '343'
     sources:
@@ -4431,7 +4432,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1034'
+  - '@id': 'urn:covid:consensas:ca.cases:1034'
     dataset_id: '1034'
     state_id: '344'
     sources:
@@ -4444,7 +4445,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1035'
+  - '@id': 'urn:covid:consensas:ca.cases:1035'
     dataset_id: '1035'
     state_id: '345'
     sources:
@@ -4457,7 +4458,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1036'
+  - '@id': 'urn:covid:consensas:ca.cases:1036'
     dataset_id: '1036'
     state_id: '346'
     sources:
@@ -4470,7 +4471,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1037'
+  - '@id': 'urn:covid:consensas:ca.cases:1037'
     dataset_id: '1037'
     state_id: '347'
     sources:
@@ -4483,7 +4484,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1038'
+  - '@id': 'urn:covid:consensas:ca.cases:1038'
     dataset_id: '1038'
     state_id: '348'
     sources:
@@ -4496,7 +4497,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1205'
+  - '@id': 'urn:covid:consensas:ca.cases:1205'
     dataset_id: '1205'
     state_id: '349'
     sources:
@@ -4508,7 +4509,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1206'
+  - '@id': 'urn:covid:consensas:ca.cases:1206'
     dataset_id: '1206'
     state_id: '350'
     sources:
@@ -4520,7 +4521,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1207'
+  - '@id': 'urn:covid:consensas:ca.cases:1207'
     dataset_id: '1207'
     state_id: '351'
     sources:
@@ -4533,7 +4534,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1208'
+  - '@id': 'urn:covid:consensas:ca.cases:1208'
     dataset_id: '1208'
     state_id: '352'
     sources:
@@ -4546,7 +4547,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1209'
+  - '@id': 'urn:covid:consensas:ca.cases:1209'
     dataset_id: '1209'
     state_id: '353'
     sources:
@@ -4559,7 +4560,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1210'
+  - '@id': 'urn:covid:consensas:ca.cases:1210'
     dataset_id: '1210'
     state_id: '354'
     sources:
@@ -4572,7 +4573,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1211'
+  - '@id': 'urn:covid:consensas:ca.cases:1211'
     dataset_id: '1211'
     state_id: '355'
     sources:
@@ -4585,7 +4586,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1212'
+  - '@id': 'urn:covid:consensas:ca.cases:1212'
     dataset_id: '1212'
     state_id: '356'
     sources:
@@ -4598,7 +4599,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1213'
+  - '@id': 'urn:covid:consensas:ca.cases:1213'
     dataset_id: '1213'
     state_id: '357'
     sources:
@@ -4611,7 +4612,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1214'
+  - '@id': 'urn:covid:consensas:ca.cases:1214'
     dataset_id: '1214'
     state_id: '358'
     sources:
@@ -4624,7 +4625,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1215'
+  - '@id': 'urn:covid:consensas:ca.cases:1215'
     dataset_id: '1215'
     state_id: '359'
     sources:
@@ -4637,7 +4638,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1216'
+  - '@id': 'urn:covid:consensas:ca.cases:1216'
     dataset_id: '1216'
     state_id: '360'
     sources:
@@ -4650,7 +4651,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1217'
+  - '@id': 'urn:covid:consensas:ca.cases:1217'
     dataset_id: '1217'
     state_id: '361'
     sources:
@@ -4663,7 +4664,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1218'
+  - '@id': 'urn:covid:consensas:ca.cases:1218'
     dataset_id: '1218'
     state_id: '362'
     sources:
@@ -4676,7 +4677,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1219'
+  - '@id': 'urn:covid:consensas:ca.cases:1219'
     dataset_id: '1219'
     state_id: '363'
     sources:
@@ -4689,7 +4690,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1220'
+  - '@id': 'urn:covid:consensas:ca.cases:1220'
     dataset_id: '1220'
     state_id: '364'
     sources:
@@ -4702,7 +4703,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1221'
+  - '@id': 'urn:covid:consensas:ca.cases:1221'
     dataset_id: '1221'
     state_id: '365'
     sources:
@@ -4715,7 +4716,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1222'
+  - '@id': 'urn:covid:consensas:ca.cases:1222'
     dataset_id: '1222'
     state_id: '366'
     sources:
@@ -4728,7 +4729,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1223'
+  - '@id': 'urn:covid:consensas:ca.cases:1223'
     dataset_id: '1223'
     state_id: '367'
     sources:
@@ -4741,7 +4742,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1224'
+  - '@id': 'urn:covid:consensas:ca.cases:1224'
     dataset_id: '1224'
     state_id: '368'
     sources:
@@ -4754,7 +4755,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1225'
+  - '@id': 'urn:covid:consensas:ca.cases:1225'
     dataset_id: '1225'
     state_id: '369'
     sources:
@@ -4767,7 +4768,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1226'
+  - '@id': 'urn:covid:consensas:ca.cases:1226'
     dataset_id: '1226'
     state_id: '370'
     sources:
@@ -4780,7 +4781,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1227'
+  - '@id': 'urn:covid:consensas:ca.cases:1227'
     dataset_id: '1227'
     state_id: '371'
     sources:
@@ -4793,7 +4794,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1228'
+  - '@id': 'urn:covid:consensas:ca.cases:1228'
     dataset_id: '1228'
     state_id: '372'
     sources:
@@ -4806,7 +4807,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1229'
+  - '@id': 'urn:covid:consensas:ca.cases:1229'
     dataset_id: '1229'
     state_id: '373'
     sources:
@@ -4819,7 +4820,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1230'
+  - '@id': 'urn:covid:consensas:ca.cases:1230'
     dataset_id: '1230'
     state_id: '374'
     sources:
@@ -4832,7 +4833,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1231'
+  - '@id': 'urn:covid:consensas:ca.cases:1231'
     dataset_id: '1231'
     state_id: '375'
     sources:
@@ -4845,7 +4846,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1232'
+  - '@id': 'urn:covid:consensas:ca.cases:1232'
     dataset_id: '1232'
     state_id: '376'
     sources:
@@ -4858,7 +4859,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1233'
+  - '@id': 'urn:covid:consensas:ca.cases:1233'
     dataset_id: '1233'
     state_id: '377'
     sources:
@@ -4871,7 +4872,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1234'
+  - '@id': 'urn:covid:consensas:ca.cases:1234'
     dataset_id: '1234'
     state_id: '378'
     sources:
@@ -4884,7 +4885,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1235'
+  - '@id': 'urn:covid:consensas:ca.cases:1235'
     dataset_id: '1235'
     state_id: '379'
     sources:
@@ -4897,7 +4898,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1236'
+  - '@id': 'urn:covid:consensas:ca.cases:1236'
     dataset_id: '1236'
     state_id: '380'
     sources:
@@ -4910,7 +4911,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1237'
+  - '@id': 'urn:covid:consensas:ca.cases:1237'
     dataset_id: '1237'
     state_id: '381'
     sources:
@@ -4923,7 +4924,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1238'
+  - '@id': 'urn:covid:consensas:ca.cases:1238'
     dataset_id: '1238'
     state_id: '382'
     sources:
@@ -4936,7 +4937,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1239'
+  - '@id': 'urn:covid:consensas:ca.cases:1239'
     dataset_id: '1239'
     state_id: '383'
     sources:
@@ -4949,7 +4950,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1240'
+  - '@id': 'urn:covid:consensas:ca.cases:1240'
     dataset_id: '1240'
     state_id: '384'
     sources:
@@ -4962,7 +4963,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1241'
+  - '@id': 'urn:covid:consensas:ca.cases:1241'
     dataset_id: '1241'
     state_id: '385'
     sources:
@@ -4975,7 +4976,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1242'
+  - '@id': 'urn:covid:consensas:ca.cases:1242'
     dataset_id: '1242'
     state_id: '386'
     sources:
@@ -4988,7 +4989,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1243'
+  - '@id': 'urn:covid:consensas:ca.cases:1243'
     dataset_id: '1243'
     state_id: '387'
     sources:
@@ -5001,7 +5002,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1244'
+  - '@id': 'urn:covid:consensas:ca.cases:1244'
     dataset_id: '1244'
     state_id: '388'
     sources:
@@ -5014,7 +5015,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1245'
+  - '@id': 'urn:covid:consensas:ca.cases:1245'
     dataset_id: '1245'
     state_id: '389'
     sources:
@@ -5027,7 +5028,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1246'
+  - '@id': 'urn:covid:consensas:ca.cases:1246'
     dataset_id: '1246'
     state_id: '390'
     sources:
@@ -5040,7 +5041,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1247'
+  - '@id': 'urn:covid:consensas:ca.cases:1247'
     dataset_id: '1247'
     state_id: '391'
     sources:
@@ -5053,7 +5054,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1248'
+  - '@id': 'urn:covid:consensas:ca.cases:1248'
     dataset_id: '1248'
     state_id: '392'
     sources:
@@ -5066,7 +5067,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1249'
+  - '@id': 'urn:covid:consensas:ca.cases:1249'
     dataset_id: '1249'
     state_id: '393'
     sources:
@@ -5079,7 +5080,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1250'
+  - '@id': 'urn:covid:consensas:ca.cases:1250'
     dataset_id: '1250'
     state_id: '394'
     sources:
@@ -5092,7 +5093,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1251'
+  - '@id': 'urn:covid:consensas:ca.cases:1251'
     dataset_id: '1251'
     state_id: '395'
     sources:
@@ -5105,7 +5106,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1252'
+  - '@id': 'urn:covid:consensas:ca.cases:1252'
     dataset_id: '1252'
     state_id: '396'
     sources:
@@ -5118,7 +5119,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1253'
+  - '@id': 'urn:covid:consensas:ca.cases:1253'
     dataset_id: '1253'
     state_id: '397'
     sources:
@@ -5131,7 +5132,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1254'
+  - '@id': 'urn:covid:consensas:ca.cases:1254'
     dataset_id: '1254'
     state_id: '398'
     sources:
@@ -5144,7 +5145,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1255'
+  - '@id': 'urn:covid:consensas:ca.cases:1255'
     dataset_id: '1255'
     state_id: '399'
     sources:
@@ -5157,7 +5158,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1256'
+  - '@id': 'urn:covid:consensas:ca.cases:1256'
     dataset_id: '1256'
     state_id: '400'
     sources:
@@ -5170,7 +5171,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1257'
+  - '@id': 'urn:covid:consensas:ca.cases:1257'
     dataset_id: '1257'
     state_id: '401'
     sources:
@@ -5183,7 +5184,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1258'
+  - '@id': 'urn:covid:consensas:ca.cases:1258'
     dataset_id: '1258'
     state_id: '402'
     sources:
@@ -5196,7 +5197,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1259'
+  - '@id': 'urn:covid:consensas:ca.cases:1259'
     dataset_id: '1259'
     state_id: '403'
     sources:
@@ -5209,7 +5210,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1260'
+  - '@id': 'urn:covid:consensas:ca.cases:1260'
     dataset_id: '1260'
     state_id: '404'
     sources:
@@ -5222,7 +5223,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1261'
+  - '@id': 'urn:covid:consensas:ca.cases:1261'
     dataset_id: '1261'
     state_id: '405'
     sources:
@@ -5235,7 +5236,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1262'
+  - '@id': 'urn:covid:consensas:ca.cases:1262'
     dataset_id: '1262'
     state_id: '406'
     sources:
@@ -5248,7 +5249,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1263'
+  - '@id': 'urn:covid:consensas:ca.cases:1263'
     dataset_id: '1263'
     state_id: '407'
     sources:
@@ -5261,7 +5262,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1264'
+  - '@id': 'urn:covid:consensas:ca.cases:1264'
     dataset_id: '1264'
     state_id: '408'
     sources:
@@ -5274,7 +5275,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1265'
+  - '@id': 'urn:covid:consensas:ca.cases:1265'
     dataset_id: '1265'
     state_id: '409'
     sources:
@@ -5287,7 +5288,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1266'
+  - '@id': 'urn:covid:consensas:ca.cases:1266'
     dataset_id: '1266'
     state_id: '410'
     sources:
@@ -5300,7 +5301,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1267'
+  - '@id': 'urn:covid:consensas:ca.cases:1267'
     dataset_id: '1267'
     state_id: '411'
     sources:
@@ -5313,7 +5314,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1268'
+  - '@id': 'urn:covid:consensas:ca.cases:1268'
     dataset_id: '1268'
     state_id: '412'
     sources:
@@ -5326,7 +5327,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1269'
+  - '@id': 'urn:covid:consensas:ca.cases:1269'
     dataset_id: '1269'
     state_id: '413'
     sources:
@@ -5339,7 +5340,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1270'
+  - '@id': 'urn:covid:consensas:ca.cases:1270'
     dataset_id: '1270'
     state_id: '414'
     sources:
@@ -5352,7 +5353,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1271'
+  - '@id': 'urn:covid:consensas:ca.cases:1271'
     dataset_id: '1271'
     state_id: '415'
     sources:
@@ -5365,7 +5366,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1272'
+  - '@id': 'urn:covid:consensas:ca.cases:1272'
     dataset_id: '1272'
     state_id: '416'
     sources:
@@ -5378,7 +5379,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1273'
+  - '@id': 'urn:covid:consensas:ca.cases:1273'
     dataset_id: '1273'
     state_id: '417'
     sources:
@@ -5391,7 +5392,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1274'
+  - '@id': 'urn:covid:consensas:ca.cases:1274'
     dataset_id: '1274'
     state_id: '418'
     sources:
@@ -5404,7 +5405,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1275'
+  - '@id': 'urn:covid:consensas:ca.cases:1275'
     dataset_id: '1275'
     state_id: '419'
     sources:
@@ -5417,7 +5418,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1276'
+  - '@id': 'urn:covid:consensas:ca.cases:1276'
     dataset_id: '1276'
     state_id: '420'
     sources:
@@ -5430,7 +5431,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1277'
+  - '@id': 'urn:covid:consensas:ca.cases:1277'
     dataset_id: '1277'
     state_id: '421'
     sources:
@@ -5443,7 +5444,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1278'
+  - '@id': 'urn:covid:consensas:ca.cases:1278'
     dataset_id: '1278'
     state_id: '422'
     sources:
@@ -5456,7 +5457,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1279'
+  - '@id': 'urn:covid:consensas:ca.cases:1279'
     dataset_id: '1279'
     state_id: '423'
     sources:
@@ -5469,7 +5470,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1280'
+  - '@id': 'urn:covid:consensas:ca.cases:1280'
     dataset_id: '1280'
     state_id: '424'
     sources:
@@ -5482,7 +5483,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1973'
+  - '@id': 'urn:covid:consensas:ca.cases:1973'
     dataset_id: '1973'
     state_id: '425'
     sources:
@@ -5495,7 +5496,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1974'
+  - '@id': 'urn:covid:consensas:ca.cases:1974'
     dataset_id: '1974'
     state_id: '426'
     sources:
@@ -5508,7 +5509,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1975'
+  - '@id': 'urn:covid:consensas:ca.cases:1975'
     dataset_id: '1975'
     state_id: '427'
     sources:
@@ -5521,7 +5522,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1976'
+  - '@id': 'urn:covid:consensas:ca.cases:1976'
     dataset_id: '1976'
     state_id: '428'
     sources:
@@ -5534,7 +5535,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1977'
+  - '@id': 'urn:covid:consensas:ca.cases:1977'
     dataset_id: '1977'
     state_id: '429'
     sources:
@@ -5547,7 +5548,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1978'
+  - '@id': 'urn:covid:consensas:ca.cases:1978'
     dataset_id: '1978'
     state_id: '430'
     sources:
@@ -5560,7 +5561,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1979'
+  - '@id': 'urn:covid:consensas:ca.cases:1979'
     dataset_id: '1979'
     state_id: '431'
     sources:
@@ -5573,7 +5574,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1980'
+  - '@id': 'urn:covid:consensas:ca.cases:1980'
     dataset_id: '1980'
     state_id: '432'
     sources:
@@ -5586,7 +5587,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1981'
+  - '@id': 'urn:covid:consensas:ca.cases:1981'
     dataset_id: '1981'
     state_id: '433'
     sources:
@@ -5599,7 +5600,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1982'
+  - '@id': 'urn:covid:consensas:ca.cases:1982'
     dataset_id: '1982'
     state_id: '434'
     sources:
@@ -5612,7 +5613,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1983'
+  - '@id': 'urn:covid:consensas:ca.cases:1983'
     dataset_id: '1983'
     state_id: '435'
     sources:
@@ -5625,7 +5626,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1984'
+  - '@id': 'urn:covid:consensas:ca.cases:1984'
     dataset_id: '1984'
     state_id: '436'
     sources:
@@ -5638,7 +5639,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1985'
+  - '@id': 'urn:covid:consensas:ca.cases:1985'
     dataset_id: '1985'
     state_id: '437'
     sources:
@@ -5651,7 +5652,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1986'
+  - '@id': 'urn:covid:consensas:ca.cases:1986'
     dataset_id: '1986'
     state_id: '438'
     sources:
@@ -5664,7 +5665,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1987'
+  - '@id': 'urn:covid:consensas:ca.cases:1987'
     dataset_id: '1987'
     state_id: '439'
     sources:
@@ -5677,7 +5678,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1988'
+  - '@id': 'urn:covid:consensas:ca.cases:1988'
     dataset_id: '1988'
     state_id: '440'
     sources:
@@ -5690,7 +5691,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1989'
+  - '@id': 'urn:covid:consensas:ca.cases:1989'
     dataset_id: '1989'
     state_id: '441'
     sources:
@@ -5703,7 +5704,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1990'
+  - '@id': 'urn:covid:consensas:ca.cases:1990'
     dataset_id: '1990'
     state_id: '442'
     sources:
@@ -5716,7 +5717,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1991'
+  - '@id': 'urn:covid:consensas:ca.cases:1991'
     dataset_id: '1991'
     state_id: '443'
     sources:
@@ -5729,7 +5730,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1992'
+  - '@id': 'urn:covid:consensas:ca.cases:1992'
     dataset_id: '1992'
     state_id: '444'
     sources:
@@ -5742,7 +5743,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1993'
+  - '@id': 'urn:covid:consensas:ca.cases:1993'
     dataset_id: '1993'
     state_id: '445'
     sources:
@@ -5755,7 +5756,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1994'
+  - '@id': 'urn:covid:consensas:ca.cases:1994'
     dataset_id: '1994'
     state_id: '446'
     sources:
@@ -5768,7 +5769,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1995'
+  - '@id': 'urn:covid:consensas:ca.cases:1995'
     dataset_id: '1995'
     state_id: '447'
     sources:
@@ -5781,7 +5782,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1996'
+  - '@id': 'urn:covid:consensas:ca.cases:1996'
     dataset_id: '1996'
     state_id: '448'
     sources:
@@ -5794,7 +5795,7 @@ cases:
     sex: null
     health_region: Fraser
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1997'
+  - '@id': 'urn:covid:consensas:ca.cases:1997'
     dataset_id: '1997'
     state_id: '449'
     sources:
@@ -5807,7 +5808,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1998'
+  - '@id': 'urn:covid:consensas:ca.cases:1998'
     dataset_id: '1998'
     state_id: '450'
     sources:
@@ -5820,7 +5821,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1999'
+  - '@id': 'urn:covid:consensas:ca.cases:1999'
     dataset_id: '1999'
     state_id: '451'
     sources:
@@ -5833,7 +5834,7 @@ cases:
     sex: null
     health_region: Interior
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2000'
+  - '@id': 'urn:covid:consensas:ca.cases:2000'
     dataset_id: '2000'
     state_id: '452'
     sources:
@@ -5846,7 +5847,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2001'
+  - '@id': 'urn:covid:consensas:ca.cases:2001'
     dataset_id: '2001'
     state_id: '453'
     sources:
@@ -5859,7 +5860,7 @@ cases:
     sex: null
     health_region: Island
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2002'
+  - '@id': 'urn:covid:consensas:ca.cases:2002'
     dataset_id: '2002'
     state_id: '454'
     sources:
@@ -5872,7 +5873,7 @@ cases:
     sex: null
     health_region: Northern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2003'
+  - '@id': 'urn:covid:consensas:ca.cases:2003'
     dataset_id: '2003'
     state_id: '455'
     sources:
@@ -5885,7 +5886,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2004'
+  - '@id': 'urn:covid:consensas:ca.cases:2004'
     dataset_id: '2004'
     state_id: '456'
     sources:
@@ -5898,7 +5899,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2005'
+  - '@id': 'urn:covid:consensas:ca.cases:2005'
     dataset_id: '2005'
     state_id: '457'
     sources:
@@ -5911,7 +5912,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2006'
+  - '@id': 'urn:covid:consensas:ca.cases:2006'
     dataset_id: '2006'
     state_id: '458'
     sources:
@@ -5924,7 +5925,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2007'
+  - '@id': 'urn:covid:consensas:ca.cases:2007'
     dataset_id: '2007'
     state_id: '459'
     sources:
@@ -5937,7 +5938,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2008'
+  - '@id': 'urn:covid:consensas:ca.cases:2008'
     dataset_id: '2008'
     state_id: '460'
     sources:
@@ -5950,7 +5951,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2009'
+  - '@id': 'urn:covid:consensas:ca.cases:2009'
     dataset_id: '2009'
     state_id: '461'
     sources:
@@ -5963,7 +5964,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2010'
+  - '@id': 'urn:covid:consensas:ca.cases:2010'
     dataset_id: '2010'
     state_id: '462'
     sources:
@@ -5976,7 +5977,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2011'
+  - '@id': 'urn:covid:consensas:ca.cases:2011'
     dataset_id: '2011'
     state_id: '463'
     sources:
@@ -5989,7 +5990,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2012'
+  - '@id': 'urn:covid:consensas:ca.cases:2012'
     dataset_id: '2012'
     state_id: '464'
     sources:
@@ -6002,7 +6003,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2013'
+  - '@id': 'urn:covid:consensas:ca.cases:2013'
     dataset_id: '2013'
     state_id: '465'
     sources:
@@ -6015,7 +6016,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2014'
+  - '@id': 'urn:covid:consensas:ca.cases:2014'
     dataset_id: '2014'
     state_id: '466'
     sources:
@@ -6028,7 +6029,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2015'
+  - '@id': 'urn:covid:consensas:ca.cases:2015'
     dataset_id: '2015'
     state_id: '467'
     sources:
@@ -6041,7 +6042,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2016'
+  - '@id': 'urn:covid:consensas:ca.cases:2016'
     dataset_id: '2016'
     state_id: '468'
     sources:
@@ -6054,7 +6055,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2017'
+  - '@id': 'urn:covid:consensas:ca.cases:2017'
     dataset_id: '2017'
     state_id: '469'
     sources:
@@ -6067,7 +6068,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2018'
+  - '@id': 'urn:covid:consensas:ca.cases:2018'
     dataset_id: '2018'
     state_id: '470'
     sources:
@@ -6080,7 +6081,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2019'
+  - '@id': 'urn:covid:consensas:ca.cases:2019'
     dataset_id: '2019'
     state_id: '471'
     sources:
@@ -6093,7 +6094,7 @@ cases:
     sex: null
     health_region: Vancouver Coastal
     acquired_country: null
-  - id: 'urn:covid:ca.cases:2020'
+  - '@id': 'urn:covid:consensas:ca.cases:2020'
     dataset_id: '2020'
     state_id: '472'
     sources:

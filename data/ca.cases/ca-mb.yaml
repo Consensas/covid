@@ -1,8 +1,9 @@
+'@context': 'https://consensas.world/m/covid'
 country: CA
 state: MB
 key: ca-mb
 cases:
-  - id: 'urn:covid:ca.cases:134'
+  - '@id': 'urn:covid:consensas:ca.cases:134'
     dataset_id: '134'
     state_id: '1'
     sources:
@@ -11,10 +12,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:176'
+  - '@id': 'urn:covid:consensas:ca.cases:176'
     dataset_id: '176'
     state_id: '2'
     sources:
@@ -25,10 +26,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:177'
+  - '@id': 'urn:covid:consensas:ca.cases:177'
     dataset_id: '177'
     state_id: '3'
     sources:
@@ -39,10 +40,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:185'
+  - '@id': 'urn:covid:consensas:ca.cases:185'
     dataset_id: '185'
     state_id: '4'
     sources:
@@ -53,10 +54,10 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:293'
+  - '@id': 'urn:covid:consensas:ca.cases:293'
     dataset_id: '293'
     state_id: '5'
     sources:
@@ -66,10 +67,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:294'
+  - '@id': 'urn:covid:consensas:ca.cases:294'
     dataset_id: '294'
     state_id: '6'
     sources:
@@ -79,10 +80,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: F
+    sex: Female
     health_region: Interlake-Eastern
     acquired_country: null
-  - id: 'urn:covid:ca.cases:295'
+  - '@id': 'urn:covid:consensas:ca.cases:295'
     dataset_id: '295'
     state_id: '7'
     sources:
@@ -92,10 +93,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:423'
+  - '@id': 'urn:covid:consensas:ca.cases:423'
     dataset_id: '423'
     state_id: '8'
     sources:
@@ -104,10 +105,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 80-89
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:591'
+  - '@id': 'urn:covid:consensas:ca.cases:591'
     dataset_id: '591'
     state_id: '9'
     sources:
@@ -116,10 +117,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 60-69
-    sex: M
+    sex: Male
     health_region: Southern Health
     acquired_country: null
-  - id: 'urn:covid:ca.cases:592'
+  - '@id': 'urn:covid:consensas:ca.cases:592'
     dataset_id: '592'
     state_id: '10'
     sources:
@@ -128,10 +129,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Southern Health
     acquired_country: null
-  - id: 'urn:covid:ca.cases:593'
+  - '@id': 'urn:covid:consensas:ca.cases:593'
     dataset_id: '593'
     state_id: '11'
     sources:
@@ -140,10 +141,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 60-69
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:594'
+  - '@id': 'urn:covid:consensas:ca.cases:594'
     dataset_id: '594'
     state_id: '12'
     sources:
@@ -152,10 +153,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:595'
+  - '@id': 'urn:covid:consensas:ca.cases:595'
     dataset_id: '595'
     state_id: '13'
     sources:
@@ -164,10 +165,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 40-49
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:596'
+  - '@id': 'urn:covid:consensas:ca.cases:596'
     dataset_id: '596'
     state_id: '14'
     sources:
@@ -176,10 +177,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 30-39
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:597'
+  - '@id': 'urn:covid:consensas:ca.cases:597'
     dataset_id: '597'
     state_id: '15'
     sources:
@@ -188,10 +189,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:726'
+  - '@id': 'urn:covid:consensas:ca.cases:726'
     dataset_id: '726'
     state_id: '16'
     sources:
@@ -200,10 +201,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:727'
+  - '@id': 'urn:covid:consensas:ca.cases:727'
     dataset_id: '727'
     state_id: '17'
     sources:
@@ -212,10 +213,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1197'
+  - '@id': 'urn:covid:consensas:ca.cases:1197'
     dataset_id: '1197'
     state_id: '18'
     sources:
@@ -224,10 +225,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1330'
+  - '@id': 'urn:covid:consensas:ca.cases:1330'
     dataset_id: '1330'
     state_id: '19'
     sources:
@@ -236,10 +237,10 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: F
+    sex: Female
     health_region: Winnipeg
     acquired_country: null
-  - id: 'urn:covid:ca.cases:1470'
+  - '@id': 'urn:covid:consensas:ca.cases:1470'
     dataset_id: '1470'
     state_id: '20'
     sources:
@@ -249,6 +250,6 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: M
+    sex: Male
     health_region: Winnipeg
     acquired_country: null
