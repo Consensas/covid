@@ -1,5 +1,5 @@
 #
-#   BUILD_2.sh
+#   data/world.jhu-csse/BUILD_3.sh
 #
 #   David Janes
 #   Consensas
@@ -11,5 +11,5 @@
 
 cd $(dirname $0)
 
-node primary.js
+node pull.js
 git commit -am "new raw data"

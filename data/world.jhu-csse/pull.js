@@ -1,5 +1,5 @@
 /*
- *  data/raw/primary.js
+ *  data/world.jhu-csse/primary.js
  *
  *  David Janes
  *  Consensas
@@ -27,6 +27,8 @@ const fs = require("iotdb-fs")
 const fetch = require("iotdb-fetch")
 const xlsx = require("iotdb-xlsx")
 
+const path = require("path")
+
 const sources = [
     {
         name: "confirmed",
@@ -52,7 +54,10 @@ const _download = _.promise((self, done) => {
         .then(fetch.document.get(self.source.url))
         .then(xlsx.load.csv)
         .add("jsons:json")
-        .then(fs.write.yaml.p(`${self.source.name}.yaml`, null))
+        .add("path", path.join(__dirname, "raw", `${self.source.name}.yaml`))
+        .then(fs.make.directory.parent)
+        .then(fs.write.yaml)
+        .log("path", "path")
 
         .end(done, self, _download)
 })

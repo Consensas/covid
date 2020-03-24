@@ -41,7 +41,7 @@ const _cook = _.promise((self, done) => {
     _.promise.validate(self, _cook)
 
     _.promise(self)
-        .then(fs.read.yaml.p(path.join(__dirname, "..", "raw", `${self.name}.yaml`)))
+        .then(fs.read.yaml.p(path.join(__dirname, "..", "world.jhu-csse", "raw", `${self.name}.yaml`)))
 
         // add country
         .make(sd => {
