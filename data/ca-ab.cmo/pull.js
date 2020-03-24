@@ -58,72 +58,13 @@ const _pull = _.promise((self, done) => {
 
             const $ = cheerio.load(self.document)
 
-            const _table = $n => {
-                const rows = []
-
-                $n.find("tr").each((x, etr) => {
-                    const row = []
-                    $(etr).find("td,th").each((y, etd) => {
-                        row.push($(etd).text())
-                    })
-                    if (row.length) {
-                        rows.push(row)
-                    }
-                })
-
-                return rows
-            }
-
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
-            
             $("table").each((x, e) => {
-                const rows = _util.normalize.object(_util.cheerio.table($, $(e)))
-                if (rows.length < 2) {
-                    return
-                }
-
-                let cases_x = -1
-                let deaths_x = -1
-
-                rows.forEach((row, rx) => {
-                    if (rx === 0) {
-                        row.forEach((cell, cx) => {
-                            if (cell.startsWith("deaths")) {
-                                deaths_x = cx
-                            }
-
-                            const match = cell.match(/^confirmed cases ([a-z]+ \d+)/)
-                            if (!match) {
-                                return
-                            }
-
-                            const date = parse(`${match[1]} 2020`, "MMM dd yyyy", new Date())
-                            if (!_.is.Date(date)) {
-                                return 
-                            }
-
-                            sd.json.date = date.toISOString().substring(0, 10)
-                            cases_x = cx
-                        })
-                    } else if (row[0].indexOf("alberta") > -1) {
-                        console.log(row, cases_x, deaths_x)
-                        if ((cases_x > -1) && _.is.Integer(row[cases_x])) {
-                            sd.json.tests_positive = row[cases_x]
-                        }
-                        if ((deaths_x > -1) && _.is.Integer(row[deaths_x])) {
-                            sd.json.deaths = row[deaths_x]
-                        }
-                    }
-                })
-            })
-
-            $("table").each((x, e) => {
-                const table = _table($(e))
+                const table = _util.normalize.object(_util.cheerio.table($, $(e)))
                 if (table.length < 2) {
                     return
                 }
 
-                if (table[0][0] !== "Test results") {
+                if (table[0][0] !== "test results") {
                     return
                 }
 
@@ -141,9 +82,9 @@ const _pull = _.promise((self, done) => {
 
                 table[0].forEach((column, x) => {
                     if (column.toLowerCase().startsWith("pos")) {
-                        sd.json.tests_positive = _integer(table[1][x])
+                        sd.json.tests_positive = table[1][x]
                     } else if (column.toLowerCase().startsWith("neg")) {
-                        sd.json.tests_negative = _integer(table[1][x])
+                        sd.json.tests_negative = table[1][x]
                     }
                 })
 
@@ -158,6 +99,10 @@ const _pull = _.promise((self, done) => {
                         sd.json.date = new Date(e.attribs.content).toISOString().substring(0, 10)
                     }
                 })
+            }
+
+            if (ad.verbose) {
+                console.log("-", "json", sd.json)
             }
 
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
@@ -204,7 +149,8 @@ if (ad._.length) {
         .except(_.error.log)
 } else {
     _.promise()
-        .then(fetch.document.get("https://www.alberta.ca/coronavirus-info-for-albertans.aspx"))
+        // .then(fetch.document.get("https://www.alberta.ca/coronavirus-info-for-albertans.aspx"))
+        .then(fetch.document.get("https://www.alberta.ca/covid-19-alberta-data.aspx"))
         .then(_pull)
         .except(_.error.log)
 }
