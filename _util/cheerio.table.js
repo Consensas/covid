@@ -1,9 +1,9 @@
 /*
- *  _util/index.js
+ *  _util/cheerio.table.js
  *
  *  David Janes
  *  Consensas
- *  2020-03-24
+ *  2020-03-23
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -22,13 +22,29 @@
 
 "use strict"
 
-module.exports = {
-    normalize: {
-        text: require("./normalize.text"),
-        integer: require("./normalize.integer"),
-        object: require("./normalize.object"),
-    },
-    cheerio: {
-        table: require("./cheerio.table"),
-    },
+const _ = require("iotdb-helpers")
+
+/**
+ */
+const cheerio_table = ($, $table) => {
+    const rows = []
+
+    $table.find("tr").each((x, etr) => {
+        const row = []
+
+        $(etr).find("td,th").each((y, etd) => {
+            row.push($(etd).text())
+        })
+
+        if (rows.length) {
+            row.push(rows)
+        }
+    })
+
+    return rows
 }
+
+/**
+ *  API
+ */
+module.exports = cheerio_table
