@@ -83,6 +83,8 @@ const _pull = _.promise((self, done) => {
                 if (table.length < 2) {
                     return
                 }
+
+                console.log(table)
                 if (table[0][0] !== "Test results") {
                     return
                 }

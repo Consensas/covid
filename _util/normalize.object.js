@@ -1,0 +1,59 @@
+/*
+ *  _util/normalize.object.js
+ *
+ *  David Janes
+ *  Consensas
+ *  2020-03-24
+ *
+ *  Copyright (2013-2020) David P. Janes
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
+
+"use strict"
+
+const _ = require("iotdb-helpers")
+
+/**
+ */
+const normalize_object = value => {
+    const _util = require("..")
+
+    if (_.is.Dictionary(value)) {
+        const nd = {}
+
+        _.mapObject(value, (v, k) => {
+            nd[normalize_object(k)] = normalize_object(v)
+        })
+
+        return nd
+    } else if (_.is.Array(value)) {
+        return value.map(v => normalize_object(v))
+    } else if (_.is.Boolean(value)) {
+        return value
+    } else if (_.is.Number(value)) {
+        return value
+    } else if (_.is.String(value)) {
+        const i = _util.normalize.integer(value)
+        if (!_.is.Null(i)) {
+            return i
+        } else {
+            return _util.normalize.text(value)
+        }
+    }
+}
+
+/**
+ *  API
+ */
+module.exports = normalize_object
