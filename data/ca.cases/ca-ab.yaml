@@ -13,7 +13,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:54'
@@ -27,7 +27,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:63'
@@ -40,7 +40,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:64'
@@ -53,7 +53,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -69,7 +69,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:76'
@@ -84,7 +84,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:77'
@@ -99,7 +99,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:81'
@@ -112,7 +112,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:82'
@@ -125,7 +125,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:83'
@@ -138,7 +138,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:84'
@@ -151,7 +151,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:85'
@@ -164,7 +164,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:86'
@@ -177,7 +177,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:87'
@@ -190,7 +190,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:104'
@@ -203,7 +203,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:105'
@@ -216,7 +216,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:106'
@@ -229,7 +229,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:107'
@@ -242,7 +242,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:108'
@@ -255,7 +255,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:141'
@@ -270,7 +270,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: '2'
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:142'
@@ -283,7 +283,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:143'
@@ -296,7 +296,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:144'
@@ -309,7 +309,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:178'
@@ -322,7 +322,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: Male
+    gender: Male
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:179'
@@ -335,7 +335,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:180'
@@ -348,7 +348,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -362,7 +362,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -376,7 +376,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -390,7 +390,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -406,7 +406,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: 60-69
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:230'
@@ -419,7 +419,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:231'
@@ -432,7 +432,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:232'
@@ -445,7 +445,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:233'
@@ -458,7 +458,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:234'
@@ -471,7 +471,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:235'
@@ -486,7 +486,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: 60-69
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:236'
@@ -499,7 +499,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:237'
@@ -512,7 +512,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:238'
@@ -525,7 +525,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:321'
@@ -540,7 +540,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:322'
@@ -555,7 +555,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:323'
@@ -572,7 +572,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: CA
     acquired_community: true
@@ -588,7 +588,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -604,7 +604,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -620,7 +620,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -636,7 +636,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -652,7 +652,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -668,7 +668,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -684,7 +684,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_close_contact: true
@@ -702,7 +702,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: CA
     acquired_community: true
@@ -718,7 +718,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:333'
@@ -733,7 +733,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:334'
@@ -748,7 +748,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:335'
@@ -763,7 +763,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:336'
@@ -778,7 +778,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:337'
@@ -793,7 +793,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:424'
@@ -806,7 +806,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:425'
@@ -819,7 +819,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:426'
@@ -832,7 +832,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:427'
@@ -845,7 +845,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:428'
@@ -858,7 +858,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:429'
@@ -871,7 +871,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:430'
@@ -884,7 +884,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:431'
@@ -897,7 +897,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:432'
@@ -910,7 +910,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:433'
@@ -923,7 +923,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:434'
@@ -936,7 +936,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:435'
@@ -949,7 +949,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:436'
@@ -962,7 +962,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:437'
@@ -975,7 +975,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:438'
@@ -988,7 +988,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:439'
@@ -1001,7 +1001,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:440'
@@ -1014,7 +1014,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:441'
@@ -1027,7 +1027,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:485'
@@ -1040,7 +1040,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:486'
@@ -1053,7 +1053,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:487'
@@ -1066,7 +1066,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:488'
@@ -1079,7 +1079,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:489'
@@ -1092,7 +1092,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:490'
@@ -1105,7 +1105,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:491'
@@ -1118,7 +1118,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:492'
@@ -1131,7 +1131,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:493'
@@ -1144,7 +1144,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:494'
@@ -1157,7 +1157,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:495'
@@ -1170,7 +1170,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:496'
@@ -1183,7 +1183,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:497'
@@ -1196,7 +1196,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:498'
@@ -1209,7 +1209,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:499'
@@ -1222,7 +1222,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:500'
@@ -1235,7 +1235,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:501'
@@ -1248,7 +1248,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:502'
@@ -1261,7 +1261,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:503'
@@ -1274,7 +1274,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:504'
@@ -1287,7 +1287,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:505'
@@ -1300,7 +1300,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:506'
@@ -1313,7 +1313,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:507'
@@ -1326,7 +1326,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:702'
@@ -1339,7 +1339,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:703'
@@ -1352,7 +1352,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:704'
@@ -1365,7 +1365,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:705'
@@ -1378,7 +1378,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:706'
@@ -1391,7 +1391,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:707'
@@ -1404,7 +1404,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:708'
@@ -1417,7 +1417,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:709'
@@ -1430,7 +1430,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:710'
@@ -1443,7 +1443,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:711'
@@ -1456,7 +1456,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:712'
@@ -1469,7 +1469,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:713'
@@ -1482,7 +1482,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:714'
@@ -1495,7 +1495,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:715'
@@ -1508,7 +1508,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:716'
@@ -1521,7 +1521,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:717'
@@ -1534,7 +1534,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:718'
@@ -1547,7 +1547,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:719'
@@ -1560,7 +1560,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:720'
@@ -1573,7 +1573,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:721'
@@ -1586,7 +1586,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:722'
@@ -1599,7 +1599,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:723'
@@ -1612,7 +1612,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:807'
@@ -1625,7 +1625,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:808'
@@ -1638,7 +1638,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:809'
@@ -1651,7 +1651,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:810'
@@ -1664,7 +1664,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:811'
@@ -1677,7 +1677,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:812'
@@ -1690,7 +1690,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:813'
@@ -1703,7 +1703,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:814'
@@ -1716,7 +1716,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:815'
@@ -1729,7 +1729,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:816'
@@ -1742,7 +1742,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:817'
@@ -1755,7 +1755,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:818'
@@ -1768,7 +1768,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:819'
@@ -1781,7 +1781,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:820'
@@ -1794,7 +1794,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:821'
@@ -1807,7 +1807,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:822'
@@ -1820,7 +1820,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:823'
@@ -1833,7 +1833,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:824'
@@ -1846,7 +1846,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:825'
@@ -1859,7 +1859,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:826'
@@ -1872,7 +1872,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:827'
@@ -1885,7 +1885,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:828'
@@ -1898,7 +1898,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:829'
@@ -1911,7 +1911,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:830'
@@ -1924,7 +1924,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:831'
@@ -1937,7 +1937,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:832'
@@ -1950,7 +1950,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:833'
@@ -1963,7 +1963,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1039'
@@ -1975,7 +1975,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1040'
@@ -1987,7 +1987,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1041'
@@ -1999,7 +1999,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1042'
@@ -2011,7 +2011,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1043'
@@ -2023,7 +2023,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1044'
@@ -2035,7 +2035,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1045'
@@ -2047,7 +2047,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1046'
@@ -2059,7 +2059,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1047'
@@ -2071,7 +2071,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1048'
@@ -2083,7 +2083,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1049'
@@ -2095,7 +2095,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1050'
@@ -2107,7 +2107,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1051'
@@ -2119,7 +2119,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1052'
@@ -2131,7 +2131,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1053'
@@ -2143,7 +2143,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1054'
@@ -2155,7 +2155,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1055'
@@ -2167,7 +2167,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1056'
@@ -2179,7 +2179,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1057'
@@ -2191,7 +2191,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1058'
@@ -2203,7 +2203,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1059'
@@ -2215,7 +2215,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1060'
@@ -2227,7 +2227,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1061'
@@ -2239,7 +2239,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1062'
@@ -2251,7 +2251,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1063'
@@ -2263,7 +2263,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1064'
@@ -2275,7 +2275,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1065'
@@ -2287,7 +2287,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1066'
@@ -2299,7 +2299,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1067'
@@ -2311,7 +2311,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1068'
@@ -2323,7 +2323,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1069'
@@ -2335,7 +2335,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1070'
@@ -2347,7 +2347,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1071'
@@ -2359,7 +2359,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1072'
@@ -2371,7 +2371,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1073'
@@ -2383,7 +2383,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1074'
@@ -2395,7 +2395,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1075'
@@ -2407,7 +2407,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1076'
@@ -2419,7 +2419,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1077'
@@ -2431,7 +2431,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1078'
@@ -2443,7 +2443,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1079'
@@ -2455,7 +2455,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1080'
@@ -2467,7 +2467,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1081'
@@ -2479,7 +2479,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1082'
@@ -2491,7 +2491,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1083'
@@ -2503,7 +2503,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1084'
@@ -2515,7 +2515,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1085'
@@ -2527,7 +2527,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1086'
@@ -2539,7 +2539,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1087'
@@ -2551,7 +2551,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1281'
@@ -2563,7 +2563,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1282'
@@ -2575,7 +2575,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1283'
@@ -2587,7 +2587,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1284'
@@ -2599,7 +2599,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1285'
@@ -2611,7 +2611,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1286'
@@ -2623,7 +2623,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1287'
@@ -2635,7 +2635,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1288'
@@ -2647,7 +2647,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1289'
@@ -2659,7 +2659,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1290'
@@ -2671,7 +2671,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1291'
@@ -2683,7 +2683,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1292'
@@ -2695,7 +2695,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1293'
@@ -2707,7 +2707,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1294'
@@ -2719,7 +2719,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1295'
@@ -2731,7 +2731,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1296'
@@ -2743,7 +2743,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1297'
@@ -2755,7 +2755,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1298'
@@ -2767,7 +2767,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1299'
@@ -2779,7 +2779,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1300'
@@ -2791,7 +2791,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1301'
@@ -2803,7 +2803,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1302'
@@ -2815,7 +2815,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1303'
@@ -2827,7 +2827,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1304'
@@ -2839,7 +2839,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1305'
@@ -2851,7 +2851,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1306'
@@ -2863,7 +2863,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1307'
@@ -2875,7 +2875,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1308'
@@ -2887,7 +2887,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1309'
@@ -2899,7 +2899,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1310'
@@ -2911,7 +2911,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1311'
@@ -2923,7 +2923,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1436'
@@ -2935,7 +2935,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1437'
@@ -2947,7 +2947,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1438'
@@ -2959,7 +2959,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1439'
@@ -2971,7 +2971,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1440'
@@ -2983,7 +2983,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1441'
@@ -2995,7 +2995,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1442'
@@ -3007,7 +3007,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1443'
@@ -3019,7 +3019,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1444'
@@ -3031,7 +3031,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1445'
@@ -3043,7 +3043,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1446'
@@ -3055,7 +3055,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1447'
@@ -3067,7 +3067,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1448'
@@ -3079,7 +3079,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1449'
@@ -3091,7 +3091,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1450'
@@ -3103,7 +3103,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1451'
@@ -3115,7 +3115,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1452'
@@ -3127,7 +3127,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1453'
@@ -3139,7 +3139,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1454'
@@ -3151,7 +3151,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1455'
@@ -3163,7 +3163,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1456'
@@ -3175,7 +3175,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1457'
@@ -3187,7 +3187,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1458'
@@ -3199,7 +3199,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1459'
@@ -3211,7 +3211,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1460'
@@ -3223,7 +3223,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1461'
@@ -3235,7 +3235,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1462'
@@ -3247,7 +3247,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1463'
@@ -3259,7 +3259,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1464'
@@ -3271,7 +3271,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1465'
@@ -3283,7 +3283,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1466'
@@ -3295,7 +3295,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1467'
@@ -3307,7 +3307,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1468'
@@ -3319,7 +3319,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2050'
@@ -3331,7 +3331,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2051'
@@ -3343,7 +3343,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2052'
@@ -3355,7 +3355,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2053'
@@ -3367,7 +3367,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2054'
@@ -3379,7 +3379,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2055'
@@ -3391,7 +3391,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2056'
@@ -3403,7 +3403,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2057'
@@ -3415,7 +3415,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2058'
@@ -3427,7 +3427,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2059'
@@ -3439,7 +3439,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2060'
@@ -3451,7 +3451,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2061'
@@ -3463,7 +3463,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2062'
@@ -3475,7 +3475,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2063'
@@ -3487,7 +3487,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2064'
@@ -3499,7 +3499,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2065'
@@ -3511,7 +3511,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2066'
@@ -3523,7 +3523,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2067'
@@ -3535,7 +3535,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2068'
@@ -3547,7 +3547,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2069'
@@ -3559,7 +3559,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2070'
@@ -3571,7 +3571,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2071'
@@ -3583,7 +3583,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2072'
@@ -3595,7 +3595,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2073'
@@ -3607,7 +3607,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Calgary
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2074'
@@ -3619,7 +3619,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2075'
@@ -3631,7 +3631,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2076'
@@ -3643,7 +3643,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2077'
@@ -3655,7 +3655,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2078'
@@ -3667,7 +3667,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2079'
@@ -3679,7 +3679,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2080'
@@ -3691,7 +3691,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2081'
@@ -3703,7 +3703,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2082'
@@ -3715,7 +3715,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2083'
@@ -3727,7 +3727,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2084'
@@ -3739,7 +3739,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2085'
@@ -3751,7 +3751,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2086'
@@ -3763,7 +3763,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2087'
@@ -3775,7 +3775,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2088'
@@ -3787,7 +3787,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Edmonton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2089'
@@ -3799,7 +3799,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2090'
@@ -3811,7 +3811,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2091'
@@ -3823,6 +3823,6 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null

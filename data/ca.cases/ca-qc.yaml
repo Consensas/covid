@@ -17,7 +17,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:35'
@@ -32,7 +32,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:51'
@@ -48,7 +48,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:62'
@@ -62,7 +62,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: Female
+    gender: Female
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:79'
@@ -77,7 +77,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: Male
+    gender: Male
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:100'
@@ -91,7 +91,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:101'
@@ -105,7 +105,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:102'
@@ -119,7 +119,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:135'
@@ -133,7 +133,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:136'
@@ -147,7 +147,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:137'
@@ -161,7 +161,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:138'
@@ -175,7 +175,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:139'
@@ -189,7 +189,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:145'
@@ -201,7 +201,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:146'
@@ -213,7 +213,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:147'
@@ -225,7 +225,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:148'
@@ -237,7 +237,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:222'
@@ -250,7 +250,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:223'
@@ -263,7 +263,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:224'
@@ -276,7 +276,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:225'
@@ -289,7 +289,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:226'
@@ -302,7 +302,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:227'
@@ -315,7 +315,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:228'
@@ -328,7 +328,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:299'
@@ -341,7 +341,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:300'
@@ -354,7 +354,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:301'
@@ -367,7 +367,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:302'
@@ -380,7 +380,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:303'
@@ -393,7 +393,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:304'
@@ -406,7 +406,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:305'
@@ -419,7 +419,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:306'
@@ -432,7 +432,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:307'
@@ -445,7 +445,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:308'
@@ -458,7 +458,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:309'
@@ -471,7 +471,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:338'
@@ -483,7 +483,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:339'
@@ -495,7 +495,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:340'
@@ -507,7 +507,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:341'
@@ -519,7 +519,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:374'
@@ -532,7 +532,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:375'
@@ -545,7 +545,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:379'
@@ -558,7 +558,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:380'
@@ -571,7 +571,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:381'
@@ -584,7 +584,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:382'
@@ -597,7 +597,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:383'
@@ -610,7 +610,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:384'
@@ -623,7 +623,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:385'
@@ -636,7 +636,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:386'
@@ -649,7 +649,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:387'
@@ -662,7 +662,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:453'
@@ -675,7 +675,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:454'
@@ -688,7 +688,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:455'
@@ -701,7 +701,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:456'
@@ -714,7 +714,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:457'
@@ -727,7 +727,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:458'
@@ -740,7 +740,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:459'
@@ -753,7 +753,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:460'
@@ -766,7 +766,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:461'
@@ -779,7 +779,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:462'
@@ -792,7 +792,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:463'
@@ -805,7 +805,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:464'
@@ -818,7 +818,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:465'
@@ -831,7 +831,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:466'
@@ -844,7 +844,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:467'
@@ -857,7 +857,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:468'
@@ -870,7 +870,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:469'
@@ -883,7 +883,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:470'
@@ -896,7 +896,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:471'
@@ -909,7 +909,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:472'
@@ -922,7 +922,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:473'
@@ -935,7 +935,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:474'
@@ -948,7 +948,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:475'
@@ -961,7 +961,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:476'
@@ -974,7 +974,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:621'
@@ -986,7 +986,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:622'
@@ -998,7 +998,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:623'
@@ -1010,7 +1010,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:624'
@@ -1022,7 +1022,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:625'
@@ -1034,7 +1034,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:626'
@@ -1046,7 +1046,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:627'
@@ -1058,7 +1058,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:628'
@@ -1070,7 +1070,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:629'
@@ -1082,7 +1082,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:630'
@@ -1094,7 +1094,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:631'
@@ -1106,7 +1106,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:632'
@@ -1118,7 +1118,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:633'
@@ -1130,7 +1130,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:634'
@@ -1142,7 +1142,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:635'
@@ -1154,7 +1154,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:636'
@@ -1166,7 +1166,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:637'
@@ -1178,7 +1178,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:638'
@@ -1190,7 +1190,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:639'
@@ -1202,7 +1202,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:640'
@@ -1214,7 +1214,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:771'
@@ -1227,7 +1227,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Bas-Saint-Laurent
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:772'
@@ -1240,7 +1240,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:773'
@@ -1253,7 +1253,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:774'
@@ -1266,7 +1266,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:775'
@@ -1279,7 +1279,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:776'
@@ -1292,7 +1292,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:777'
@@ -1305,7 +1305,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:778'
@@ -1318,7 +1318,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:779'
@@ -1331,7 +1331,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:780'
@@ -1344,7 +1344,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:781'
@@ -1357,7 +1357,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:782'
@@ -1370,7 +1370,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:783'
@@ -1383,7 +1383,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:784'
@@ -1396,7 +1396,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:785'
@@ -1409,7 +1409,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:786'
@@ -1422,7 +1422,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:787'
@@ -1435,7 +1435,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:788'
@@ -1448,7 +1448,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:789'
@@ -1461,7 +1461,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:790'
@@ -1474,7 +1474,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:791'
@@ -1487,7 +1487,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:792'
@@ -1500,7 +1500,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:793'
@@ -1513,7 +1513,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:794'
@@ -1526,7 +1526,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:795'
@@ -1539,7 +1539,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:796'
@@ -1552,7 +1552,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:797'
@@ -1565,7 +1565,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:924'
@@ -1578,7 +1578,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:925'
@@ -1591,7 +1591,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:926'
@@ -1604,7 +1604,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:927'
@@ -1617,7 +1617,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:928'
@@ -1630,7 +1630,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:929'
@@ -1643,7 +1643,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:930'
@@ -1656,7 +1656,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:931'
@@ -1669,7 +1669,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Nord-du-Québec
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:932'
@@ -1682,7 +1682,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:933'
@@ -1695,7 +1695,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:934'
@@ -1708,7 +1708,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:935'
@@ -1721,7 +1721,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:936'
@@ -1734,7 +1734,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:937'
@@ -1747,7 +1747,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:938'
@@ -1760,7 +1760,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:939'
@@ -1773,7 +1773,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:940'
@@ -1786,7 +1786,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:941'
@@ -1799,7 +1799,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1147'
@@ -1812,7 +1812,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saguenay
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1148'
@@ -1825,7 +1825,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1149'
@@ -1838,7 +1838,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1150'
@@ -1851,7 +1851,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1151'
@@ -1864,7 +1864,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1152'
@@ -1877,7 +1877,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1153'
@@ -1890,7 +1890,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1154'
@@ -1903,7 +1903,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1155'
@@ -1916,7 +1916,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1156'
@@ -1929,7 +1929,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1157'
@@ -1942,7 +1942,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1158'
@@ -1955,7 +1955,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1159'
@@ -1968,7 +1968,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1160'
@@ -1981,7 +1981,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1161'
@@ -1994,7 +1994,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1162'
@@ -2007,7 +2007,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1163'
@@ -2020,7 +2020,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1164'
@@ -2033,7 +2033,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1165'
@@ -2046,7 +2046,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1166'
@@ -2059,7 +2059,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1167'
@@ -2072,7 +2072,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1168'
@@ -2085,7 +2085,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1169'
@@ -2098,7 +2098,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1170'
@@ -2111,7 +2111,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1171'
@@ -2124,7 +2124,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1172'
@@ -2137,7 +2137,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1173'
@@ -2150,7 +2150,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1174'
@@ -2163,7 +2163,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1175'
@@ -2176,7 +2176,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1176'
@@ -2189,7 +2189,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1177'
@@ -2202,7 +2202,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1178'
@@ -2215,7 +2215,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1179'
@@ -2228,7 +2228,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1180'
@@ -2241,7 +2241,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1181'
@@ -2254,7 +2254,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1182'
@@ -2267,7 +2267,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1183'
@@ -2280,7 +2280,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1184'
@@ -2293,7 +2293,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1185'
@@ -2306,7 +2306,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1186'
@@ -2319,7 +2319,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1187'
@@ -2332,7 +2332,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1188'
@@ -2345,7 +2345,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1379'
@@ -2358,7 +2358,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1380'
@@ -2371,7 +2371,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1381'
@@ -2384,7 +2384,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1382'
@@ -2397,7 +2397,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1383'
@@ -2410,7 +2410,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1384'
@@ -2423,7 +2423,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1385'
@@ -2436,7 +2436,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1386'
@@ -2449,7 +2449,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1387'
@@ -2462,7 +2462,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1388'
@@ -2475,7 +2475,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1389'
@@ -2488,7 +2488,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1390'
@@ -2501,7 +2501,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1391'
@@ -2514,7 +2514,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1392'
@@ -2527,7 +2527,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1393'
@@ -2540,7 +2540,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1394'
@@ -2553,7 +2553,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1395'
@@ -2566,7 +2566,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1396'
@@ -2579,7 +2579,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1397'
@@ -2592,7 +2592,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1398'
@@ -2605,7 +2605,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1399'
@@ -2618,7 +2618,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1400'
@@ -2631,7 +2631,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1401'
@@ -2644,7 +2644,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1402'
@@ -2657,7 +2657,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1403'
@@ -2670,7 +2670,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1404'
@@ -2683,7 +2683,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1405'
@@ -2696,7 +2696,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1406'
@@ -2709,7 +2709,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1407'
@@ -2722,7 +2722,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1408'
@@ -2735,7 +2735,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1409'
@@ -2748,7 +2748,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1410'
@@ -2761,7 +2761,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1411'
@@ -2774,7 +2774,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1412'
@@ -2787,7 +2787,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1413'
@@ -2800,7 +2800,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1414'
@@ -2813,7 +2813,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1415'
@@ -2826,7 +2826,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1416'
@@ -2839,7 +2839,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1564'
@@ -2852,7 +2852,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Bas-Saint-Laurent
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1565'
@@ -2865,7 +2865,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Bas-Saint-Laurent
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1566'
@@ -2878,7 +2878,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1567'
@@ -2891,7 +2891,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1568'
@@ -2904,7 +2904,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1569'
@@ -2917,7 +2917,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1570'
@@ -2930,7 +2930,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1571'
@@ -2943,7 +2943,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1572'
@@ -2956,7 +2956,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1573'
@@ -2969,7 +2969,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1574'
@@ -2982,7 +2982,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1575'
@@ -2995,7 +2995,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1576'
@@ -3008,7 +3008,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1577'
@@ -3021,7 +3021,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1578'
@@ -3034,7 +3034,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1579'
@@ -3047,7 +3047,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1580'
@@ -3060,7 +3060,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1581'
@@ -3073,7 +3073,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1582'
@@ -3086,7 +3086,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1583'
@@ -3099,7 +3099,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1584'
@@ -3112,7 +3112,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1585'
@@ -3125,7 +3125,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Capitale-Nationale
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1586'
@@ -3138,7 +3138,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1587'
@@ -3151,7 +3151,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Chaudière-Appalaches
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1588'
@@ -3164,7 +3164,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1589'
@@ -3177,7 +3177,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1590'
@@ -3190,7 +3190,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1591'
@@ -3203,7 +3203,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1592'
@@ -3216,7 +3216,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1593'
@@ -3229,7 +3229,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1594'
@@ -3242,7 +3242,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1595'
@@ -3255,7 +3255,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1596'
@@ -3268,7 +3268,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1597'
@@ -3281,7 +3281,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1598'
@@ -3294,7 +3294,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1599'
@@ -3307,7 +3307,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1600'
@@ -3320,7 +3320,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1601'
@@ -3333,7 +3333,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1602'
@@ -3346,7 +3346,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1603'
@@ -3359,7 +3359,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1604'
@@ -3372,7 +3372,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1605'
@@ -3385,7 +3385,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Estrie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1606'
@@ -3398,7 +3398,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1607'
@@ -3411,7 +3411,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1608'
@@ -3424,7 +3424,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1609'
@@ -3437,7 +3437,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1610'
@@ -3450,7 +3450,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1611'
@@ -3463,7 +3463,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1612'
@@ -3476,7 +3476,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1613'
@@ -3489,7 +3489,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1614'
@@ -3502,7 +3502,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1615'
@@ -3515,7 +3515,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1616'
@@ -3528,7 +3528,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1617'
@@ -3541,7 +3541,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1618'
@@ -3554,7 +3554,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1619'
@@ -3567,7 +3567,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1620'
@@ -3580,7 +3580,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1621'
@@ -3593,7 +3593,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1622'
@@ -3606,7 +3606,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1623'
@@ -3619,7 +3619,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1624'
@@ -3632,7 +3632,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1625'
@@ -3645,7 +3645,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1626'
@@ -3658,7 +3658,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1627'
@@ -3671,7 +3671,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1628'
@@ -3684,7 +3684,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1629'
@@ -3697,7 +3697,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1630'
@@ -3710,7 +3710,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1631'
@@ -3723,7 +3723,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1632'
@@ -3736,7 +3736,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1633'
@@ -3749,7 +3749,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1634'
@@ -3762,7 +3762,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1635'
@@ -3775,7 +3775,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1636'
@@ -3788,7 +3788,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1637'
@@ -3801,7 +3801,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1638'
@@ -3814,7 +3814,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1639'
@@ -3827,7 +3827,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1640'
@@ -3840,7 +3840,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Lanaudière
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1641'
@@ -3853,7 +3853,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1642'
@@ -3866,7 +3866,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1643'
@@ -3879,7 +3879,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1644'
@@ -3892,7 +3892,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1645'
@@ -3905,7 +3905,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1646'
@@ -3918,7 +3918,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1647'
@@ -3931,7 +3931,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1648'
@@ -3944,7 +3944,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1649'
@@ -3957,7 +3957,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1650'
@@ -3970,7 +3970,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1651'
@@ -3983,7 +3983,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1652'
@@ -3996,7 +3996,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1653'
@@ -4009,7 +4009,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laurentides
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1654'
@@ -4022,7 +4022,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1655'
@@ -4035,7 +4035,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1656'
@@ -4048,7 +4048,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1657'
@@ -4061,7 +4061,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1658'
@@ -4074,7 +4074,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1659'
@@ -4087,7 +4087,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1660'
@@ -4100,7 +4100,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1661'
@@ -4113,7 +4113,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1662'
@@ -4126,7 +4126,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1663'
@@ -4139,7 +4139,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1664'
@@ -4152,7 +4152,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1665'
@@ -4165,7 +4165,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1666'
@@ -4178,7 +4178,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1667'
@@ -4191,7 +4191,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1668'
@@ -4204,7 +4204,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1669'
@@ -4217,7 +4217,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1670'
@@ -4230,7 +4230,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Laval
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1671'
@@ -4243,7 +4243,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1672'
@@ -4256,7 +4256,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1673'
@@ -4269,7 +4269,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1674'
@@ -4282,7 +4282,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1675'
@@ -4295,7 +4295,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1676'
@@ -4308,7 +4308,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1677'
@@ -4321,7 +4321,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1678'
@@ -4334,7 +4334,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1679'
@@ -4347,7 +4347,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Mauricie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1680'
@@ -4360,7 +4360,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1681'
@@ -4373,7 +4373,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1682'
@@ -4386,7 +4386,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1683'
@@ -4399,7 +4399,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1684'
@@ -4412,7 +4412,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1685'
@@ -4425,7 +4425,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1686'
@@ -4438,7 +4438,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1687'
@@ -4451,7 +4451,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1688'
@@ -4464,7 +4464,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1689'
@@ -4477,7 +4477,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1690'
@@ -4490,7 +4490,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1691'
@@ -4503,7 +4503,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1692'
@@ -4516,7 +4516,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1693'
@@ -4529,7 +4529,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1694'
@@ -4542,7 +4542,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1695'
@@ -4555,7 +4555,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1696'
@@ -4568,7 +4568,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1697'
@@ -4581,7 +4581,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1698'
@@ -4594,7 +4594,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1699'
@@ -4607,7 +4607,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1700'
@@ -4620,7 +4620,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1701'
@@ -4633,7 +4633,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1702'
@@ -4646,7 +4646,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1703'
@@ -4659,7 +4659,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1704'
@@ -4672,7 +4672,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1705'
@@ -4685,7 +4685,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montérégie
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1706'
@@ -4698,7 +4698,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1707'
@@ -4711,7 +4711,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1708'
@@ -4724,7 +4724,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1709'
@@ -4737,7 +4737,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1710'
@@ -4750,7 +4750,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1711'
@@ -4763,7 +4763,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1712'
@@ -4776,7 +4776,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1713'
@@ -4789,7 +4789,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1714'
@@ -4802,7 +4802,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1715'
@@ -4815,7 +4815,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1716'
@@ -4828,7 +4828,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1717'
@@ -4841,7 +4841,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1718'
@@ -4854,7 +4854,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1719'
@@ -4867,7 +4867,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1720'
@@ -4880,7 +4880,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1721'
@@ -4893,7 +4893,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1722'
@@ -4906,7 +4906,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1723'
@@ -4919,7 +4919,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1724'
@@ -4932,7 +4932,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1725'
@@ -4945,7 +4945,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1726'
@@ -4958,7 +4958,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1727'
@@ -4971,7 +4971,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1728'
@@ -4984,7 +4984,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1729'
@@ -4997,7 +4997,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1730'
@@ -5010,7 +5010,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1731'
@@ -5023,7 +5023,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1732'
@@ -5036,7 +5036,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1733'
@@ -5049,7 +5049,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1734'
@@ -5062,7 +5062,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1735'
@@ -5075,7 +5075,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1736'
@@ -5088,7 +5088,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1737'
@@ -5101,7 +5101,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1738'
@@ -5114,7 +5114,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1739'
@@ -5127,7 +5127,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1740'
@@ -5140,7 +5140,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1741'
@@ -5153,7 +5153,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1742'
@@ -5166,7 +5166,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1743'
@@ -5179,7 +5179,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1744'
@@ -5192,7 +5192,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1745'
@@ -5205,7 +5205,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1746'
@@ -5218,7 +5218,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1747'
@@ -5231,7 +5231,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1748'
@@ -5244,7 +5244,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1749'
@@ -5257,7 +5257,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1750'
@@ -5270,7 +5270,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1751'
@@ -5283,7 +5283,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1752'
@@ -5296,7 +5296,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1753'
@@ -5309,7 +5309,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1754'
@@ -5322,7 +5322,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1755'
@@ -5335,7 +5335,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1756'
@@ -5348,7 +5348,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1757'
@@ -5361,7 +5361,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1758'
@@ -5374,7 +5374,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1759'
@@ -5387,7 +5387,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1760'
@@ -5400,7 +5400,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1761'
@@ -5413,7 +5413,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1762'
@@ -5426,7 +5426,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1763'
@@ -5439,7 +5439,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1764'
@@ -5452,7 +5452,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1765'
@@ -5465,7 +5465,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1766'
@@ -5478,7 +5478,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1767'
@@ -5491,7 +5491,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1768'
@@ -5504,7 +5504,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1769'
@@ -5517,7 +5517,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1770'
@@ -5530,7 +5530,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1771'
@@ -5543,7 +5543,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1772'
@@ -5556,7 +5556,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1773'
@@ -5569,7 +5569,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1774'
@@ -5582,7 +5582,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1775'
@@ -5595,7 +5595,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1776'
@@ -5608,7 +5608,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1777'
@@ -5621,7 +5621,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1778'
@@ -5634,7 +5634,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1779'
@@ -5647,7 +5647,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1780'
@@ -5660,7 +5660,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1781'
@@ -5673,7 +5673,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1782'
@@ -5686,7 +5686,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1783'
@@ -5699,7 +5699,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1784'
@@ -5712,7 +5712,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1785'
@@ -5725,7 +5725,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1786'
@@ -5738,7 +5738,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1787'
@@ -5751,7 +5751,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1788'
@@ -5764,7 +5764,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1789'
@@ -5777,7 +5777,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1790'
@@ -5790,7 +5790,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1791'
@@ -5803,7 +5803,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1792'
@@ -5816,7 +5816,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1793'
@@ -5829,7 +5829,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1794'
@@ -5842,7 +5842,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1795'
@@ -5855,7 +5855,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1796'
@@ -5868,7 +5868,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1797'
@@ -5881,7 +5881,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1798'
@@ -5894,7 +5894,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1799'
@@ -5907,7 +5907,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1800'
@@ -5920,7 +5920,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1801'
@@ -5933,7 +5933,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1802'
@@ -5946,7 +5946,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1803'
@@ -5959,7 +5959,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1804'
@@ -5972,7 +5972,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1805'
@@ -5985,7 +5985,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1806'
@@ -5998,7 +5998,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1807'
@@ -6011,7 +6011,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1808'
@@ -6024,7 +6024,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1809'
@@ -6037,7 +6037,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1810'
@@ -6050,7 +6050,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1811'
@@ -6063,7 +6063,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1812'
@@ -6076,7 +6076,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1813'
@@ -6089,7 +6089,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1814'
@@ -6102,7 +6102,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1815'
@@ -6115,7 +6115,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1816'
@@ -6128,7 +6128,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1817'
@@ -6141,7 +6141,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1818'
@@ -6154,7 +6154,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1819'
@@ -6167,7 +6167,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1820'
@@ -6180,7 +6180,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1821'
@@ -6193,7 +6193,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1822'
@@ -6206,7 +6206,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1823'
@@ -6219,7 +6219,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1824'
@@ -6232,7 +6232,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1825'
@@ -6245,7 +6245,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1826'
@@ -6258,7 +6258,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1827'
@@ -6271,7 +6271,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1828'
@@ -6284,7 +6284,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1829'
@@ -6297,7 +6297,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1830'
@@ -6310,7 +6310,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1831'
@@ -6323,7 +6323,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1832'
@@ -6336,7 +6336,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1833'
@@ -6349,7 +6349,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1834'
@@ -6362,7 +6362,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1835'
@@ -6375,7 +6375,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1836'
@@ -6388,7 +6388,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1837'
@@ -6401,7 +6401,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1838'
@@ -6414,7 +6414,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1839'
@@ -6427,7 +6427,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1840'
@@ -6440,7 +6440,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1841'
@@ -6453,7 +6453,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1842'
@@ -6466,7 +6466,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1843'
@@ -6479,7 +6479,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1844'
@@ -6492,7 +6492,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1845'
@@ -6505,7 +6505,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1846'
@@ -6518,7 +6518,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1847'
@@ -6531,7 +6531,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1848'
@@ -6544,7 +6544,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1849'
@@ -6557,7 +6557,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1850'
@@ -6570,7 +6570,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1851'
@@ -6583,7 +6583,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1852'
@@ -6596,7 +6596,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1853'
@@ -6609,7 +6609,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1854'
@@ -6622,7 +6622,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1855'
@@ -6635,7 +6635,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1856'
@@ -6648,7 +6648,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1857'
@@ -6661,7 +6661,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1858'
@@ -6674,7 +6674,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1859'
@@ -6687,7 +6687,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1860'
@@ -6700,7 +6700,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1861'
@@ -6713,7 +6713,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1862'
@@ -6726,7 +6726,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1863'
@@ -6739,7 +6739,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1864'
@@ -6752,7 +6752,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1865'
@@ -6765,7 +6765,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1866'
@@ -6778,7 +6778,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1867'
@@ -6791,7 +6791,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1868'
@@ -6804,7 +6804,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1869'
@@ -6817,7 +6817,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1870'
@@ -6830,7 +6830,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1871'
@@ -6843,7 +6843,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1872'
@@ -6856,7 +6856,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1873'
@@ -6869,7 +6869,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1874'
@@ -6882,7 +6882,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1875'
@@ -6895,7 +6895,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1876'
@@ -6908,7 +6908,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1877'
@@ -6921,7 +6921,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1878'
@@ -6934,7 +6934,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1879'
@@ -6947,7 +6947,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1880'
@@ -6960,7 +6960,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1881'
@@ -6973,7 +6973,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1882'
@@ -6986,7 +6986,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1883'
@@ -6999,7 +6999,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1884'
@@ -7012,7 +7012,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1885'
@@ -7025,7 +7025,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1886'
@@ -7038,7 +7038,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1887'
@@ -7051,7 +7051,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1888'
@@ -7064,7 +7064,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1889'
@@ -7077,7 +7077,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1890'
@@ -7090,7 +7090,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1891'
@@ -7103,7 +7103,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1892'
@@ -7116,7 +7116,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1893'
@@ -7129,7 +7129,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1894'
@@ -7142,7 +7142,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1895'
@@ -7155,7 +7155,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1896'
@@ -7168,7 +7168,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1897'
@@ -7181,7 +7181,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1898'
@@ -7194,7 +7194,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1899'
@@ -7207,7 +7207,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1900'
@@ -7220,7 +7220,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1901'
@@ -7233,7 +7233,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1902'
@@ -7246,7 +7246,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1903'
@@ -7259,7 +7259,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1904'
@@ -7272,7 +7272,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1905'
@@ -7285,7 +7285,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1906'
@@ -7298,7 +7298,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1907'
@@ -7311,7 +7311,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1908'
@@ -7324,7 +7324,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1909'
@@ -7337,7 +7337,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1910'
@@ -7350,7 +7350,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1911'
@@ -7363,7 +7363,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1912'
@@ -7376,7 +7376,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1913'
@@ -7389,7 +7389,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1914'
@@ -7402,7 +7402,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1915'
@@ -7415,7 +7415,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1916'
@@ -7428,7 +7428,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1917'
@@ -7441,7 +7441,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1918'
@@ -7454,7 +7454,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1919'
@@ -7467,7 +7467,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1920'
@@ -7480,7 +7480,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1921'
@@ -7493,7 +7493,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1922'
@@ -7506,7 +7506,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1923'
@@ -7519,7 +7519,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1924'
@@ -7532,7 +7532,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Montréal
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1925'
@@ -7545,7 +7545,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1926'
@@ -7558,7 +7558,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1927'
@@ -7571,7 +7571,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1928'
@@ -7584,7 +7584,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1929'
@@ -7597,7 +7597,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1930'
@@ -7610,7 +7610,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1931'
@@ -7623,7 +7623,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1932'
@@ -7636,7 +7636,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1933'
@@ -7649,7 +7649,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1934'
@@ -7662,7 +7662,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1935'
@@ -7675,7 +7675,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1936'
@@ -7688,7 +7688,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1937'
@@ -7701,7 +7701,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1938'
@@ -7714,7 +7714,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1939'
@@ -7727,7 +7727,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1940'
@@ -7740,7 +7740,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1941'
@@ -7753,7 +7753,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1942'
@@ -7766,7 +7766,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1943'
@@ -7779,7 +7779,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1944'
@@ -7792,7 +7792,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1945'
@@ -7805,7 +7805,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1946'
@@ -7818,7 +7818,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1947'
@@ -7831,7 +7831,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1948'
@@ -7844,7 +7844,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1949'
@@ -7857,7 +7857,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1950'
@@ -7870,7 +7870,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1951'
@@ -7883,7 +7883,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1952'
@@ -7896,7 +7896,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1953'
@@ -7909,7 +7909,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1954'
@@ -7922,7 +7922,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1955'
@@ -7935,7 +7935,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1956'
@@ -7948,7 +7948,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1957'
@@ -7961,7 +7961,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1958'
@@ -7974,7 +7974,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1959'
@@ -7987,7 +7987,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1960'
@@ -8000,7 +8000,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1961'
@@ -8013,7 +8013,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1962'
@@ -8026,7 +8026,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1963'
@@ -8039,7 +8039,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1964'
@@ -8052,7 +8052,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1965'
@@ -8065,7 +8065,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1966'
@@ -8078,7 +8078,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Outaouais
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1967'
@@ -8091,7 +8091,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Abitibi-Témiscamingue
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1968'
@@ -8104,7 +8104,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Abitibi-Témiscamingue
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1969'
@@ -8117,7 +8117,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Abitibi-Témiscamingue
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1970'
@@ -8130,7 +8130,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Gaspésie-Îles-de-la-Madeleine
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1971'
@@ -8143,7 +8143,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Gaspésie-Îles-de-la-Madeleine
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1972'
@@ -8156,6 +8156,6 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Gaspésie-Îles-de-la-Madeleine
     acquired_country: null

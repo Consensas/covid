@@ -13,7 +13,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:184'
@@ -26,7 +26,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:310'
@@ -39,7 +39,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:311'
@@ -52,7 +52,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:312'
@@ -65,7 +65,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: CA
     acquired_close_contact: true
@@ -79,7 +79,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:418'
@@ -92,7 +92,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:478'
@@ -105,7 +105,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:649'
@@ -118,7 +118,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 30-39
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:650'
@@ -131,7 +131,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: null
+    gender: null
     health_region: North
     acquired_country: CA
     acquired_close_contact: true
@@ -145,7 +145,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:652'
@@ -158,7 +158,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:653'
@@ -171,7 +171,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:654'
@@ -184,7 +184,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:655'
@@ -197,7 +197,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:656'
@@ -210,7 +210,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:802'
@@ -223,7 +223,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:803'
@@ -238,7 +238,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:804'
@@ -251,7 +251,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: CA
     acquired_close_contact: true
@@ -265,7 +265,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:944'
@@ -278,7 +278,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:945'
@@ -291,7 +291,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:946'
@@ -304,7 +304,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:947'
@@ -317,7 +317,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:948'
@@ -330,7 +330,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:949'
@@ -343,7 +343,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 60-69
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1312'
@@ -356,7 +356,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1313'
@@ -369,7 +369,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1314'
@@ -382,7 +382,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1315'
@@ -395,7 +395,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1316'
@@ -408,7 +408,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1317'
@@ -421,7 +421,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1318'
@@ -434,7 +434,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1319'
@@ -447,7 +447,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1320'
@@ -460,7 +460,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1321'
@@ -473,7 +473,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1322'
@@ -486,7 +486,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1323'
@@ -499,7 +499,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1324'
@@ -512,7 +512,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1325'
@@ -525,7 +525,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1326'
@@ -538,7 +538,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1327'
@@ -551,7 +551,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1328'
@@ -564,7 +564,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1329'
@@ -577,7 +577,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1427'
@@ -590,7 +590,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1428'
@@ -603,7 +603,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1429'
@@ -616,7 +616,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1430'
@@ -629,7 +629,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1431'
@@ -642,7 +642,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1432'
@@ -655,7 +655,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1433'
@@ -668,7 +668,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1434'
@@ -681,7 +681,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: South
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2036'
@@ -694,7 +694,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2037'
@@ -707,7 +707,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2038'
@@ -720,7 +720,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2039'
@@ -733,7 +733,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2040'
@@ -746,7 +746,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2041'
@@ -759,7 +759,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2042'
@@ -772,7 +772,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2043'
@@ -785,7 +785,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2044'
@@ -798,7 +798,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2045'
@@ -811,7 +811,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2046'
@@ -824,7 +824,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2047'
@@ -837,7 +837,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2048'
@@ -850,7 +850,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Saskatoon
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2049'
@@ -863,6 +863,6 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Regina
     acquired_country: null

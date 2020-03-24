@@ -139,7 +139,7 @@ const _one = _.promise((self, done) => {
                 week_reported: _date(sd.json.report_week),
                 is_travel: _boolean(sd.json.travel_yn),
                 age_range: _age(sd.json.age),
-                sex: _sex(sd.json.sex),
+                gender: _sex(sd.json.sex),
                 health_region: _health_region(sd.json.health_region),
                 acquired_country: null,
             }

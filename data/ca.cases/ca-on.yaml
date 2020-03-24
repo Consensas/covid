@@ -15,7 +15,7 @@ cases:
     week_reported: '2020-01-19'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2'
@@ -29,7 +29,7 @@ cases:
     week_reported: '2020-01-26'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4'
@@ -43,7 +43,7 @@ cases:
     week_reported: '2020-01-26'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:10'
@@ -58,7 +58,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:11'
@@ -73,7 +73,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:13'
@@ -88,7 +88,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -102,7 +102,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:16'
@@ -115,7 +115,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:17'
@@ -128,7 +128,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:18'
@@ -141,7 +141,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:19'
@@ -154,7 +154,7 @@ cases:
     week_reported: '2020-02-23'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: CA
     acquired_close_contact: true
@@ -170,7 +170,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:22'
@@ -183,7 +183,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:23'
@@ -196,7 +196,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:24'
@@ -209,7 +209,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:25'
@@ -222,7 +222,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:26'
@@ -235,7 +235,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:27'
@@ -248,7 +248,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:28'
@@ -263,7 +263,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:29'
@@ -278,7 +278,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:36'
@@ -293,7 +293,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:37'
@@ -306,7 +306,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:38'
@@ -323,7 +323,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:48'
@@ -336,7 +336,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:49'
@@ -349,7 +349,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:50'
@@ -364,7 +364,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:52'
@@ -377,7 +377,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:53'
@@ -390,7 +390,7 @@ cases:
     week_reported: '2020-03-01'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:61'
@@ -403,7 +403,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:65'
@@ -416,7 +416,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:66'
@@ -429,7 +429,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:67'
@@ -442,7 +442,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:68'
@@ -454,7 +454,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:69'
@@ -466,7 +466,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:78'
@@ -479,7 +479,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -493,7 +493,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:95'
@@ -506,7 +506,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Sudbury
     acquired_country: CA
     acquired_community: true
@@ -519,7 +519,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:97'
@@ -531,7 +531,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:98'
@@ -545,7 +545,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:99'
@@ -559,7 +559,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:103'
@@ -572,7 +572,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:116'
@@ -584,7 +584,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:117'
@@ -596,7 +596,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: <18
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -609,7 +609,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -622,7 +622,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:120'
@@ -634,7 +634,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:121'
@@ -646,7 +646,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:122'
@@ -658,7 +658,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:123'
@@ -670,7 +670,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:124'
@@ -682,7 +682,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:125'
@@ -696,7 +696,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: <1
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -709,7 +709,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -722,7 +722,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:128'
@@ -734,7 +734,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:129'
@@ -746,7 +746,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:130'
@@ -758,7 +758,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:131'
@@ -770,7 +770,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:132'
@@ -782,7 +782,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:156'
@@ -794,7 +794,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:157'
@@ -806,7 +806,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -819,7 +819,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:159'
@@ -831,7 +831,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:160'
@@ -843,7 +843,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:161'
@@ -855,7 +855,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:162'
@@ -867,7 +867,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:163'
@@ -879,7 +879,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Niagara
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:164'
@@ -891,7 +891,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:165'
@@ -903,7 +903,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:166'
@@ -915,7 +915,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:167'
@@ -927,7 +927,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -940,7 +940,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:169'
@@ -952,7 +952,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:170'
@@ -964,7 +964,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:171'
@@ -976,7 +976,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:172'
@@ -988,7 +988,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:173'
@@ -1000,7 +1000,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:174'
@@ -1012,7 +1012,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:175'
@@ -1024,7 +1024,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:197'
@@ -1036,7 +1036,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:198'
@@ -1048,7 +1048,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:199'
@@ -1060,7 +1060,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:200'
@@ -1072,7 +1072,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:201'
@@ -1084,7 +1084,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:202'
@@ -1096,7 +1096,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:203'
@@ -1108,7 +1108,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:204'
@@ -1120,7 +1120,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:205'
@@ -1132,7 +1132,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:206'
@@ -1144,7 +1144,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:207'
@@ -1156,7 +1156,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:208'
@@ -1168,7 +1168,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:209'
@@ -1181,7 +1181,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:210'
@@ -1193,7 +1193,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:211'
@@ -1205,7 +1205,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:212'
@@ -1217,7 +1217,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:213'
@@ -1229,7 +1229,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:214'
@@ -1241,7 +1241,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:215'
@@ -1253,7 +1253,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Huron Perth
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:216'
@@ -1265,7 +1265,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:217'
@@ -1277,7 +1277,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:218'
@@ -1289,7 +1289,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:219'
@@ -1303,7 +1303,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: null
-    sex: null
+    gender: null
     health_region: Northwestern
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:220'
@@ -1315,7 +1315,7 @@ cases:
     week_reported: '2020-03-08'
     is_travel: true
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Eastern
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:254'
@@ -1327,7 +1327,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:255'
@@ -1339,7 +1339,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:256'
@@ -1351,7 +1351,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:257'
@@ -1363,7 +1363,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:258'
@@ -1375,7 +1375,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:259'
@@ -1387,7 +1387,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:260'
@@ -1399,7 +1399,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:261'
@@ -1411,7 +1411,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:262'
@@ -1423,7 +1423,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:263'
@@ -1435,7 +1435,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:264'
@@ -1447,7 +1447,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:265'
@@ -1459,7 +1459,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:266'
@@ -1471,7 +1471,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:267'
@@ -1483,7 +1483,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:268'
@@ -1495,7 +1495,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Niagara
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:269'
@@ -1507,7 +1507,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:270'
@@ -1519,7 +1519,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:271'
@@ -1531,7 +1531,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:272'
@@ -1543,7 +1543,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:273'
@@ -1555,7 +1555,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:274'
@@ -1567,7 +1567,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:275'
@@ -1579,7 +1579,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:276'
@@ -1591,7 +1591,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:277'
@@ -1603,7 +1603,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:278'
@@ -1615,7 +1615,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:279'
@@ -1627,7 +1627,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:280'
@@ -1639,7 +1639,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:281'
@@ -1651,7 +1651,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:282'
@@ -1663,7 +1663,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:283'
@@ -1675,7 +1675,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:284'
@@ -1687,7 +1687,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:285'
@@ -1699,7 +1699,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:286'
@@ -1711,7 +1711,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:287'
@@ -1723,7 +1723,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:288'
@@ -1735,7 +1735,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:289'
@@ -1747,7 +1747,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:290'
@@ -1759,7 +1759,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:291'
@@ -1771,7 +1771,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:292'
@@ -1783,7 +1783,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:318'
@@ -1795,7 +1795,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Grey Bruce
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:319'
@@ -1807,7 +1807,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Grey Bruce
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:320'
@@ -1819,7 +1819,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Peterborough
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:342'
@@ -1831,7 +1831,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:343'
@@ -1843,7 +1843,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:344'
@@ -1855,7 +1855,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:345'
@@ -1867,7 +1867,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Wellington Dufferin Guelph
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:346'
@@ -1879,7 +1879,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Sudbury
     acquired_country: CA
     acquired_close_contact: true
@@ -1892,7 +1892,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:348'
@@ -1904,7 +1904,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:349'
@@ -1916,7 +1916,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:350'
@@ -1928,7 +1928,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Niagara
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:351'
@@ -1940,7 +1940,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:352'
@@ -1952,7 +1952,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:353'
@@ -1964,7 +1964,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:354'
@@ -1976,7 +1976,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:355'
@@ -1988,7 +1988,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:356'
@@ -2000,7 +2000,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:357'
@@ -2012,7 +2012,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:358'
@@ -2024,7 +2024,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:359'
@@ -2036,7 +2036,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:360'
@@ -2048,7 +2048,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:361'
@@ -2060,7 +2060,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:362'
@@ -2072,7 +2072,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:363'
@@ -2084,7 +2084,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:364'
@@ -2096,7 +2096,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:365'
@@ -2108,7 +2108,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:366'
@@ -2120,7 +2120,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:367'
@@ -2132,7 +2132,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:368'
@@ -2144,7 +2144,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:369'
@@ -2156,7 +2156,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:370'
@@ -2168,7 +2168,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:371'
@@ -2180,7 +2180,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:372'
@@ -2192,7 +2192,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:373'
@@ -2204,7 +2204,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:442'
@@ -2216,7 +2216,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:443'
@@ -2228,7 +2228,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:444'
@@ -2240,7 +2240,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:445'
@@ -2252,7 +2252,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:446'
@@ -2264,7 +2264,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:447'
@@ -2276,7 +2276,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:448'
@@ -2288,7 +2288,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:449'
@@ -2300,7 +2300,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:477'
@@ -2314,7 +2314,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Simcoe Muskoka
     acquired_country: CA
     acquired_close_contact: true
@@ -2327,7 +2327,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Kingston Frontenac Lennox & Addington
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:480'
@@ -2339,7 +2339,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Kingston Frontenac Lennox & Addington
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:481'
@@ -2351,7 +2351,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Kingston Frontenac Lennox & Addington
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:598'
@@ -2363,7 +2363,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:599'
@@ -2375,7 +2375,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
@@ -2388,7 +2388,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:601'
@@ -2400,7 +2400,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:602'
@@ -2412,7 +2412,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:603'
@@ -2424,7 +2424,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:604'
@@ -2436,7 +2436,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:605'
@@ -2448,7 +2448,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -2461,7 +2461,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:607'
@@ -2473,7 +2473,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:608'
@@ -2485,7 +2485,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:609'
@@ -2497,7 +2497,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:610'
@@ -2509,7 +2509,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:611'
@@ -2521,7 +2521,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:612'
@@ -2533,7 +2533,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:613'
@@ -2545,7 +2545,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Chatham-Kent
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:614'
@@ -2557,7 +2557,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Grey Bruce
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:615'
@@ -2569,7 +2569,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:616'
@@ -2581,7 +2581,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Brant
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:617'
@@ -2593,7 +2593,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Algoma
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:618'
@@ -2605,7 +2605,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:619'
@@ -2617,7 +2617,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:620'
@@ -2629,7 +2629,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:724'
@@ -2641,7 +2641,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Niagara
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:725'
@@ -2653,7 +2653,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 80-89
-    sex: Female
+    gender: Female
     health_region: Chatham-Kent
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:728'
@@ -2665,7 +2665,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:729'
@@ -2677,7 +2677,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:730'
@@ -2689,7 +2689,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Eastern
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:731'
@@ -2701,7 +2701,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:732'
@@ -2713,7 +2713,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:733'
@@ -2725,7 +2725,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:734'
@@ -2737,7 +2737,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:735'
@@ -2749,7 +2749,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:736'
@@ -2761,7 +2761,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:737'
@@ -2773,7 +2773,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:738'
@@ -2785,7 +2785,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: CA
     acquired_close_contact: true
@@ -2798,7 +2798,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:740'
@@ -2810,7 +2810,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:741'
@@ -2822,7 +2822,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:742'
@@ -2834,7 +2834,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:743'
@@ -2846,7 +2846,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:744'
@@ -2858,7 +2858,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:745'
@@ -2870,7 +2870,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:746'
@@ -2882,7 +2882,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:747'
@@ -2894,7 +2894,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:748'
@@ -2906,7 +2906,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:749'
@@ -2918,7 +2918,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:750'
@@ -2930,7 +2930,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:751'
@@ -2942,7 +2942,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:752'
@@ -2954,7 +2954,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:753'
@@ -2966,7 +2966,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:754'
@@ -2978,7 +2978,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:755'
@@ -2990,7 +2990,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:756'
@@ -3002,7 +3002,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:757'
@@ -3014,7 +3014,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:758'
@@ -3026,7 +3026,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:759'
@@ -3038,7 +3038,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:760'
@@ -3050,7 +3050,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:761'
@@ -3062,7 +3062,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:762'
@@ -3074,7 +3074,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:763'
@@ -3086,7 +3086,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:764'
@@ -3098,7 +3098,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:765'
@@ -3110,7 +3110,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:766'
@@ -3122,7 +3122,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:767'
@@ -3134,7 +3134,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:768'
@@ -3146,7 +3146,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:769'
@@ -3158,7 +3158,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:770'
@@ -3170,7 +3170,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:806'
@@ -3185,7 +3185,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Halton
     acquired_country: CA
     acquired_community: true
@@ -3198,7 +3198,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:875'
@@ -3210,7 +3210,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Peterborough
     acquired_country: CA
     acquired_close_contact: true
@@ -3223,7 +3223,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:877'
@@ -3235,7 +3235,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:878'
@@ -3247,7 +3247,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:879'
@@ -3259,7 +3259,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Hastings Prince Edward
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:880'
@@ -3273,7 +3273,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:881'
@@ -3287,7 +3287,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 90-99
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:882'
@@ -3301,7 +3301,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 80-89
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:883'
@@ -3315,7 +3315,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:884'
@@ -3327,7 +3327,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:885'
@@ -3339,7 +3339,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: CA
     acquired_close_contact: true
@@ -3352,7 +3352,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: CA
     acquired_close_contact: true
@@ -3365,7 +3365,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:888'
@@ -3377,7 +3377,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:889'
@@ -3389,7 +3389,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -3402,7 +3402,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -3415,7 +3415,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:892'
@@ -3427,7 +3427,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: CA
     acquired_close_contact: true
@@ -3440,7 +3440,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:894'
@@ -3452,7 +3452,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Waterloo
     acquired_country: CA
     acquired_close_contact: true
@@ -3465,7 +3465,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -3478,7 +3478,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: CA
     acquired_close_contact: true
@@ -3491,7 +3491,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:898'
@@ -3503,7 +3503,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:899'
@@ -3515,7 +3515,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:900'
@@ -3527,7 +3527,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:901'
@@ -3539,7 +3539,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:902'
@@ -3551,7 +3551,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:903'
@@ -3563,7 +3563,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:904'
@@ -3575,7 +3575,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:905'
@@ -3587,7 +3587,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:906'
@@ -3599,7 +3599,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:907'
@@ -3611,7 +3611,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:908'
@@ -3623,7 +3623,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:909'
@@ -3635,7 +3635,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:910'
@@ -3647,7 +3647,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:911'
@@ -3659,7 +3659,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:912'
@@ -3671,7 +3671,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:913'
@@ -3683,7 +3683,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:914'
@@ -3695,7 +3695,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:915'
@@ -3707,7 +3707,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:916'
@@ -3719,7 +3719,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:917'
@@ -3731,7 +3731,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:918'
@@ -3743,7 +3743,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:919'
@@ -3755,7 +3755,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:920'
@@ -3767,7 +3767,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:921'
@@ -3779,7 +3779,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:922'
@@ -3791,7 +3791,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:923'
@@ -3803,7 +3803,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:952'
@@ -3815,7 +3815,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:953'
@@ -3827,7 +3827,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:954'
@@ -3839,7 +3839,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:955'
@@ -3851,7 +3851,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:956'
@@ -3863,7 +3863,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:957'
@@ -3875,7 +3875,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: Middlesex-London
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:958'
@@ -3889,7 +3889,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:959'
@@ -3903,7 +3903,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 90-99
-    sex: Female
+    gender: Female
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:960'
@@ -3917,7 +3917,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:961'
@@ -3929,7 +3929,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Porcupine
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1088'
@@ -3941,7 +3941,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Hastings Prince Edward
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1089'
@@ -3953,7 +3953,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: CA
     acquired_close_contact: true
@@ -3966,7 +3966,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1091'
@@ -3978,7 +3978,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1092'
@@ -3990,7 +3990,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1093'
@@ -4002,7 +4002,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: <18
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
@@ -4015,7 +4015,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1095'
@@ -4027,7 +4027,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1096'
@@ -4039,7 +4039,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1097'
@@ -4051,7 +4051,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -4064,7 +4064,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1099'
@@ -4076,7 +4076,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1100'
@@ -4088,7 +4088,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1101'
@@ -4100,7 +4100,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1102'
@@ -4112,7 +4112,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1103'
@@ -4124,7 +4124,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
@@ -4137,7 +4137,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: CA
     acquired_close_contact: true
@@ -4150,7 +4150,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1106'
@@ -4162,7 +4162,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1107'
@@ -4174,7 +4174,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1108'
@@ -4186,7 +4186,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1109'
@@ -4198,7 +4198,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1110'
@@ -4210,7 +4210,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1111'
@@ -4222,7 +4222,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1112'
@@ -4234,7 +4234,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1113'
@@ -4246,7 +4246,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1114'
@@ -4258,7 +4258,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1115'
@@ -4270,7 +4270,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1116'
@@ -4282,7 +4282,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1117'
@@ -4294,7 +4294,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1118'
@@ -4306,7 +4306,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1119'
@@ -4318,7 +4318,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1120'
@@ -4330,7 +4330,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1121'
@@ -4342,7 +4342,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1122'
@@ -4354,7 +4354,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1123'
@@ -4366,7 +4366,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1124'
@@ -4378,7 +4378,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1125'
@@ -4390,7 +4390,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1126'
@@ -4402,7 +4402,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1127'
@@ -4414,7 +4414,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1128'
@@ -4426,7 +4426,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1129'
@@ -4438,7 +4438,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1130'
@@ -4450,7 +4450,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1131'
@@ -4462,7 +4462,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1132'
@@ -4474,7 +4474,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1133'
@@ -4486,7 +4486,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1134'
@@ -4498,7 +4498,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1135'
@@ -4510,7 +4510,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1136'
@@ -4522,7 +4522,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1137'
@@ -4534,7 +4534,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1138'
@@ -4546,7 +4546,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1139'
@@ -4558,7 +4558,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1140'
@@ -4570,7 +4570,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1141'
@@ -4582,7 +4582,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1142'
@@ -4594,7 +4594,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1143'
@@ -4606,7 +4606,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1144'
@@ -4618,7 +4618,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1145'
@@ -4630,7 +4630,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1146'
@@ -4642,7 +4642,7 @@ cases:
     week_reported: '2020-03-15'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1332'
@@ -4654,7 +4654,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1333'
@@ -4666,7 +4666,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Eastern
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1334'
@@ -4678,7 +4678,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1335'
@@ -4690,7 +4690,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Waterloo
     acquired_country: CA
     acquired_close_contact: true
@@ -4703,7 +4703,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1337'
@@ -4715,7 +4715,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Windsor-Essex
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1338'
@@ -4727,7 +4727,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1339'
@@ -4739,7 +4739,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1340'
@@ -4751,7 +4751,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1341'
@@ -4763,7 +4763,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1342'
@@ -4775,7 +4775,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1343'
@@ -4787,7 +4787,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1344'
@@ -4799,7 +4799,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1345'
@@ -4811,7 +4811,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1346'
@@ -4823,7 +4823,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1347'
@@ -4835,7 +4835,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1348'
@@ -4847,7 +4847,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1349'
@@ -4859,7 +4859,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1350'
@@ -4871,7 +4871,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1351'
@@ -4883,7 +4883,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1352'
@@ -4895,7 +4895,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1353'
@@ -4907,7 +4907,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1354'
@@ -4919,7 +4919,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1355'
@@ -4931,7 +4931,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1356'
@@ -4943,7 +4943,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1357'
@@ -4955,7 +4955,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1358'
@@ -4967,7 +4967,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1359'
@@ -4979,7 +4979,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1360'
@@ -4991,7 +4991,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1361'
@@ -5003,7 +5003,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1362'
@@ -5015,7 +5015,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1363'
@@ -5027,7 +5027,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1364'
@@ -5039,7 +5039,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1365'
@@ -5051,7 +5051,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1366'
@@ -5063,7 +5063,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1367'
@@ -5075,7 +5075,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1368'
@@ -5087,7 +5087,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1369'
@@ -5099,7 +5099,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1370'
@@ -5111,7 +5111,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1371'
@@ -5123,7 +5123,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1372'
@@ -5135,7 +5135,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1373'
@@ -5147,7 +5147,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1374'
@@ -5159,7 +5159,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1375'
@@ -5171,7 +5171,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1376'
@@ -5183,7 +5183,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1377'
@@ -5195,7 +5195,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1378'
@@ -5207,7 +5207,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1469'
@@ -5219,7 +5219,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1473'
@@ -5231,7 +5231,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1474'
@@ -5243,7 +5243,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
@@ -5256,7 +5256,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
@@ -5269,7 +5269,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Hastings Prince Edward
     acquired_country: CA
     acquired_close_contact: true
@@ -5282,7 +5282,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -5295,7 +5295,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1479'
@@ -5307,7 +5307,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1480'
@@ -5319,7 +5319,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1481'
@@ -5331,7 +5331,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Sudbury
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1482'
@@ -5343,7 +5343,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: <18
-    sex: Female
+    gender: Female
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1483'
@@ -5355,7 +5355,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1484'
@@ -5367,7 +5367,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Simcoe Muskoka
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1485'
@@ -5379,7 +5379,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: null
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -5392,7 +5392,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1487'
@@ -5404,7 +5404,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1488'
@@ -5416,7 +5416,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1489'
@@ -5428,7 +5428,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Halton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1490'
@@ -5440,7 +5440,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 90-99
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1491'
@@ -5452,7 +5452,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: Wellington Dufferin Guelph
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1492'
@@ -5464,7 +5464,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Hamilton
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1493'
@@ -5476,7 +5476,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1494'
@@ -5488,7 +5488,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 20-29
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1495'
@@ -5500,7 +5500,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 80-89
-    sex: Female
+    gender: Female
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1496'
@@ -5512,7 +5512,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -5525,7 +5525,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1498'
@@ -5537,7 +5537,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 80-89
-    sex: Male
+    gender: Male
     health_region: Haliburton Kawartha Pineridge
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1499'
@@ -5549,7 +5549,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Waterloo
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1500'
@@ -5561,7 +5561,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 50-59
-    sex: Female
+    gender: Female
     health_region: Ottawa
     acquired_country: CA
     acquired_close_contact: true
@@ -5574,7 +5574,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1502'
@@ -5586,7 +5586,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 90-99
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1503'
@@ -5598,7 +5598,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 40-49
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1504'
@@ -5610,7 +5610,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: Eastern
     acquired_country: CA
     acquired_close_contact: true
@@ -5623,7 +5623,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1506'
@@ -5635,7 +5635,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 60-69
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
@@ -5648,7 +5648,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Kingston Frontenac Lennox & Addington
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1508'
@@ -5660,7 +5660,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 30-39
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1509'
@@ -5672,7 +5672,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 50-59
-    sex: Male
+    gender: Male
     health_region: Ottawa
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1510'
@@ -5684,7 +5684,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 90-99
-    sex: null
+    gender: null
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1511'
@@ -5696,7 +5696,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1512'
@@ -5708,7 +5708,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 30-39
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1513'
@@ -5720,7 +5720,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Peel
     acquired_country: CA
     acquired_close_contact: true
@@ -5733,7 +5733,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -5746,7 +5746,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 20-29
-    sex: Female
+    gender: Female
     health_region: Toronto
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1516'
@@ -5758,7 +5758,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: York
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1517'
@@ -5770,7 +5770,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 60-69
-    sex: Female
+    gender: Female
     health_region: York
     acquired_country: CA
     acquired_close_contact: true
@@ -5783,7 +5783,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Hamilton
     acquired_country: CA
     acquired_close_contact: true
@@ -5796,7 +5796,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 70-79
-    sex: Female
+    gender: Female
     health_region: Hamilton
     acquired_country: CA
     acquired_close_contact: true
@@ -5809,7 +5809,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 70-79
-    sex: Male
+    gender: Male
     health_region: Durham
     acquired_country: CA
     acquired_close_contact: true
@@ -5822,7 +5822,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: true
     age_range: 40-49
-    sex: Male
+    gender: Male
     health_region: Toronto
     acquired_country: CA
     acquired_close_contact: true
@@ -5835,7 +5835,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1523'
@@ -5847,7 +5847,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1524'
@@ -5859,7 +5859,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1525'
@@ -5871,7 +5871,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1526'
@@ -5883,7 +5883,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1527'
@@ -5895,7 +5895,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1528'
@@ -5907,7 +5907,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1529'
@@ -5919,7 +5919,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1530'
@@ -5931,7 +5931,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1531'
@@ -5943,7 +5943,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1532'
@@ -5955,7 +5955,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1533'
@@ -5967,7 +5967,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1534'
@@ -5979,7 +5979,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1535'
@@ -5991,7 +5991,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1536'
@@ -6003,7 +6003,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1537'
@@ -6015,7 +6015,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1538'
@@ -6027,7 +6027,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1539'
@@ -6039,7 +6039,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1540'
@@ -6051,7 +6051,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1541'
@@ -6063,7 +6063,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1542'
@@ -6075,7 +6075,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1543'
@@ -6087,7 +6087,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1544'
@@ -6099,7 +6099,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1545'
@@ -6111,7 +6111,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1546'
@@ -6123,7 +6123,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1547'
@@ -6135,7 +6135,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1548'
@@ -6147,7 +6147,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1549'
@@ -6159,7 +6159,7 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1550'
@@ -6171,6 +6171,6 @@ cases:
     week_reported: '2020-03-22'
     is_travel: null
     age_range: null
-    sex: null
+    gender: null
     health_region: null
     acquired_country: null
