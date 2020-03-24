@@ -36,8 +36,8 @@ const cheerio_table = ($, $table) => {
             row.push($(etd).text())
         })
 
-        if (rows.length) {
-            row.push(rows)
+        if (row.length) {
+            rows.push(row)
         }
     })
 

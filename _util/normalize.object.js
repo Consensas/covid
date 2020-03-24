@@ -27,7 +27,7 @@ const _ = require("iotdb-helpers")
 /**
  */
 const normalize_object = value => {
-    const _util = require("..")
+    const _util = require(".")
 
     if (_.is.Dictionary(value)) {
         const nd = {}

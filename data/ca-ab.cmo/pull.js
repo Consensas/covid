@@ -27,6 +27,8 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 const fetch = require("iotdb-fetch")
 
+const _util = require("../../_util")
+
 const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
@@ -58,6 +60,7 @@ const _pull = _.promise((self, done) => {
 
             const _table = $n => {
                 const rows = []
+
                 $n.find("tr").each((x, etr) => {
                     const row = []
                     $(etr).find("td,th").each((y, etd) => {
@@ -67,15 +70,51 @@ const _pull = _.promise((self, done) => {
                         rows.push(row)
                     }
                 })
+
                 return rows
             }
 
             const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
             
-            $("meta[name='published']").each((x, e) => {
-                if (e.attribs.content) {
-                    sd.json.date = new Date(e.attribs.content).toISOString().substring(0, 10)
+            $("table").each((x, e) => {
+                const rows = _util.normalize.object(_util.cheerio.table($, $(e)))
+                if (rows.length < 2) {
+                    return
                 }
+
+                let cases_x = -1
+                let deaths_x = -1
+
+                rows.forEach((row, rx) => {
+                    if (rx === 0) {
+                        row.forEach((cell, cx) => {
+                            if (cell.startsWith("deaths")) {
+                                deaths_x = cx
+                            }
+
+                            const match = cell.match(/^confirmed cases ([a-z]+ \d+)/)
+                            if (!match) {
+                                return
+                            }
+
+                            const date = parse(`${match[1]} 2020`, "MMM dd yyyy", new Date())
+                            if (!_.is.Date(date)) {
+                                return 
+                            }
+
+                            sd.json.date = date.toISOString().substring(0, 10)
+                            cases_x = cx
+                        })
+                    } else if (row[0].indexOf("alberta") > -1) {
+                        console.log(row, cases_x, deaths_x)
+                        if ((cases_x > -1) && _.is.Integer(row[cases_x])) {
+                            sd.json.tests_positive = row[cases_x]
+                        }
+                        if ((deaths_x > -1) && _.is.Integer(row[deaths_x])) {
+                            sd.json.deaths = row[deaths_x]
+                        }
+                    }
+                })
             })
 
             $("table").each((x, e) => {
@@ -84,7 +123,6 @@ const _pull = _.promise((self, done) => {
                     return
                 }
 
-                console.log(table)
                 if (table[0][0] !== "Test results") {
                     return
                 }
@@ -113,6 +151,14 @@ const _pull = _.promise((self, done) => {
                     sd.json.tests = sd.json.tests_positive + sd.json.tests_negative
                 }
             })
+
+            if (!_.is.Empty(sd.json) && !sd.json.date) {
+                $("meta[name='published']").each((x, e) => {
+                    if (e.attribs.content) {
+                        sd.json.date = new Date(e.attribs.content).toISOString().substring(0, 10)
+                    }
+                })
+            }
 
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
