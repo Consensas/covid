@@ -26,6 +26,8 @@
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
+const _util = require("../../_util")
+
 const path = require("path")
 
 /**
@@ -107,10 +109,18 @@ const _cook = _.promise((self, done) => {
             sd.json.forEach(row => {
                 const key = row._state ? `${row._country.toLowerCase()}-${row._state.toLowerCase()}` : row._country.toLowerCase()
                 const result = sd.results[key] = sd.results[key] || {
+                    "@context": _util.context,
+                    "@id": null,
+                    key: key,
                     country: row._country,
                     state: row._state || null,
-                    key: key,
                     items: {},
+                }
+
+                if (result.state) {
+                    result["@id"] = `urn:covid:jhe.edu:csse:${result.country}-${result.state}`.toLowerCase()
+                } else {
+                    result["@id"] = `urn:covid:jhe.edu:csse:${result.country}`.toLowerCase()
                 }
 
                 _.keys(row)
@@ -121,17 +131,21 @@ const _cook = _.promise((self, done) => {
                         const m = match[1]
                         const d = match[2]
                         const y = match[3]
-                        const key = `${_year(y)}-${_month(m)}-${_day(d)}`
+                        const date = `${_year(y)}-${_month(m)}-${_day(d)}`
 
-                        result.items[key] = result.items[key] || {
-                            date: key,
+                        result.items[date] = result.items[date] || {
+                            "@id": `${result["@id"]}:${date}`,
+                            "date": date,
                         }
-                        result.items[key][sd.name] = row[o]
+                        result.items[date][sd.name] = row[o]
                     })
                 
+                result.items = _.values(result.items)
+                result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
                 // console.log(result)
                 // process.exit()
             })
+
         })
 
         .end(done, self, _cook)
@@ -237,8 +251,10 @@ _.promise({
     .make(sd => {
         sd.jsons = _.values(sd.results)
         sd.jsons.forEach(result => {
+            /*
             result.items = _.values(result.items)
             result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+            */
         })
     })
 

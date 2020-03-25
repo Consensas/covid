@@ -1,252 +1,564 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:jhe.edu:csse:it'
+key: it
 country: IT
 state: null
-key: it
 items:
-  - date: '2020-01-22'
-    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-22'
+    date: '2020-01-22'
     confirmed: 0
-    recovered: 0
-  - date: '2020-01-23'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-22'
+    date: '2020-01-22'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-22'
+    date: '2020-01-22'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-23'
+    date: '2020-01-23'
     confirmed: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-23'
+    date: '2020-01-23'
     recovered: 0
-  - date: '2020-01-24'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-23'
+    date: '2020-01-23'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-24'
+    date: '2020-01-24'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-24'
+    date: '2020-01-24'
+    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-24'
+    date: '2020-01-24'
     confirmed: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-25'
+    date: '2020-01-25'
     recovered: 0
-  - date: '2020-01-25'
-    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-25'
+    date: '2020-01-25'
     confirmed: 0
-    recovered: 0
-  - date: '2020-01-26'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-25'
+    date: '2020-01-25'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-26'
+    date: '2020-01-26'
     confirmed: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-26'
+    date: '2020-01-26'
     recovered: 0
-  - date: '2020-01-27'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-26'
+    date: '2020-01-26'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-27'
+    date: '2020-01-27'
+    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-27'
+    date: '2020-01-27'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-27'
+    date: '2020-01-27'
     confirmed: 0
-    recovered: 0
-  - date: '2020-01-28'
-    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-28'
+    date: '2020-01-28'
     confirmed: 0
-    recovered: 0
-  - date: '2020-01-29'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-28'
+    date: '2020-01-28'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-28'
+    date: '2020-01-28'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-29'
+    date: '2020-01-29'
+    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-29'
+    date: '2020-01-29'
     confirmed: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-29'
+    date: '2020-01-29'
     recovered: 0
-  - date: '2020-01-30'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-30'
+    date: '2020-01-30'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-30'
+    date: '2020-01-30'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-30'
+    date: '2020-01-30'
     confirmed: 0
-    recovered: 0
-  - date: '2020-01-31'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-31'
+    date: '2020-01-31'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-31'
+    date: '2020-01-31'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-01-31'
+    date: '2020-01-31'
     confirmed: 2
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-01'
+    date: '2020-02-01'
     recovered: 0
-  - date: '2020-02-01'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-01'
+    date: '2020-02-01'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-01'
+    date: '2020-02-01'
     confirmed: 2
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-02'
+    date: '2020-02-02'
     recovered: 0
-  - date: '2020-02-02'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-02'
+    date: '2020-02-02'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-02'
+    date: '2020-02-02'
     confirmed: 2
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-03'
+    date: '2020-02-03'
     recovered: 0
-  - date: '2020-02-03'
-    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-03'
+    date: '2020-02-03'
     confirmed: 2
-    recovered: 0
-  - date: '2020-02-04'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-03'
+    date: '2020-02-03'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-04'
+    date: '2020-02-04'
     confirmed: 2
-    recovered: 0
-  - date: '2020-02-05'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-04'
+    date: '2020-02-04'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-04'
+    date: '2020-02-04'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-05'
+    date: '2020-02-05'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-05'
+    date: '2020-02-05'
     confirmed: 2
-    recovered: 0
-  - date: '2020-02-06'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-05'
+    date: '2020-02-05'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-06'
+    date: '2020-02-06'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-06'
+    date: '2020-02-06'
+    deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-06'
+    date: '2020-02-06'
     confirmed: 2
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-07'
+    date: '2020-02-07'
     recovered: 0
-  - date: '2020-02-07'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-07'
+    date: '2020-02-07'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-07'
+    date: '2020-02-07'
     confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-08'
+    date: '2020-02-08'
     recovered: 0
-  - date: '2020-02-08'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-08'
+    date: '2020-02-08'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-08'
+    date: '2020-02-08'
     confirmed: 3
-    recovered: 0
-  - date: '2020-02-09'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-09'
+    date: '2020-02-09'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-09'
+    date: '2020-02-09'
     confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-09'
+    date: '2020-02-09'
     recovered: 0
-  - date: '2020-02-10'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-10'
+    date: '2020-02-10'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-10'
+    date: '2020-02-10'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-10'
+    date: '2020-02-10'
     confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-11'
+    date: '2020-02-11'
+    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-11'
+    date: '2020-02-11'
     recovered: 0
-  - date: '2020-02-11'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-11'
+    date: '2020-02-11'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-12'
+    date: '2020-02-12'
     confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-12'
+    date: '2020-02-12'
     recovered: 0
-  - date: '2020-02-12'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-12'
+    date: '2020-02-12'
     deaths: 0
-    confirmed: 3
-    recovered: 0
-  - date: '2020-02-13'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-13'
+    date: '2020-02-13'
     deaths: 0
-    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-13'
+    date: '2020-02-13'
     recovered: 0
-  - date: '2020-02-14'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-13'
+    date: '2020-02-13'
+    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-14'
+    date: '2020-02-14'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-14'
+    date: '2020-02-14'
+    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-14'
+    date: '2020-02-14'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-15'
+    date: '2020-02-15'
     confirmed: 3
-    recovered: 0
-  - date: '2020-02-15'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-15'
+    date: '2020-02-15'
     deaths: 0
-    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-15'
+    date: '2020-02-15'
     recovered: 0
-  - date: '2020-02-16'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-16'
+    date: '2020-02-16'
     deaths: 0
-    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-16'
+    date: '2020-02-16'
     recovered: 0
-  - date: '2020-02-17'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-16'
+    date: '2020-02-16'
+    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-17'
+    date: '2020-02-17'
+    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-17'
+    date: '2020-02-17'
+    recovered: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-17'
+    date: '2020-02-17'
     deaths: 0
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-18'
+    date: '2020-02-18'
     confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-18'
+    date: '2020-02-18'
     recovered: 0
-  - date: '2020-02-18'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-18'
+    date: '2020-02-18'
     deaths: 0
-    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-19'
+    date: '2020-02-19'
     recovered: 0
-  - date: '2020-02-19'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-19'
+    date: '2020-02-19'
+    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-19'
+    date: '2020-02-19'
     deaths: 0
-    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-20'
+    date: '2020-02-20'
     recovered: 0
-  - date: '2020-02-20'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-20'
+    date: '2020-02-20'
+    confirmed: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-20'
+    date: '2020-02-20'
     deaths: 0
-    confirmed: 3
-    recovered: 0
-  - date: '2020-02-21'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-21'
+    date: '2020-02-21'
     deaths: 1
-    confirmed: 20
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-21'
+    date: '2020-02-21'
     recovered: 0
-  - date: '2020-02-22'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-21'
+    date: '2020-02-21'
+    confirmed: 20
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-22'
+    date: '2020-02-22'
     deaths: 2
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-22'
+    date: '2020-02-22'
     confirmed: 62
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-22'
+    date: '2020-02-22'
     recovered: 1
-  - date: '2020-02-23'
-    deaths: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-23'
+    date: '2020-02-23'
     confirmed: 155
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-23'
+    date: '2020-02-23'
+    deaths: 3
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-23'
+    date: '2020-02-23'
     recovered: 2
-  - date: '2020-02-24'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-24'
+    date: '2020-02-24'
     deaths: 7
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-24'
+    date: '2020-02-24'
     confirmed: 229
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-24'
+    date: '2020-02-24'
     recovered: 1
-  - date: '2020-02-25'
-    deaths: 10
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-25'
+    date: '2020-02-25'
+    recovered: 1
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-25'
+    date: '2020-02-25'
     confirmed: 322
-    recovered: 1
-  - date: '2020-02-26'
-    deaths: 12
-    confirmed: 453
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-25'
+    date: '2020-02-25'
+    deaths: 10
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-26'
+    date: '2020-02-26'
     recovered: 3
-  - date: '2020-02-27'
-    deaths: 17
-    confirmed: 655
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-26'
+    date: '2020-02-26'
+    confirmed: 453
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-26'
+    date: '2020-02-26'
+    deaths: 12
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-27'
+    date: '2020-02-27'
     recovered: 45
-  - date: '2020-02-28'
-    deaths: 21
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-27'
+    date: '2020-02-27'
+    deaths: 17
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-27'
+    date: '2020-02-27'
+    confirmed: 655
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-28'
+    date: '2020-02-28'
+    recovered: 46
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-28'
+    date: '2020-02-28'
     confirmed: 888
-    recovered: 46
-  - date: '2020-02-29'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-28'
+    date: '2020-02-28'
+    deaths: 21
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-29'
+    date: '2020-02-29'
     deaths: 29
-    confirmed: 1128
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-29'
+    date: '2020-02-29'
     recovered: 46
-  - date: '2020-03-01'
-    deaths: 34
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-02-29'
+    date: '2020-02-29'
+    confirmed: 1128
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-01'
+    date: '2020-03-01'
     confirmed: 1694
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-01'
+    date: '2020-03-01'
+    deaths: 34
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-01'
+    date: '2020-03-01'
     recovered: 83
-  - date: '2020-03-02'
-    deaths: 52
-    confirmed: 2036
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-02'
+    date: '2020-03-02'
     recovered: 149
-  - date: '2020-03-03'
-    deaths: 79
-    confirmed: 2502
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-02'
+    date: '2020-03-02'
+    deaths: 52
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-02'
+    date: '2020-03-02'
+    confirmed: 2036
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-03'
+    date: '2020-03-03'
     recovered: 160
-  - date: '2020-03-04'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-03'
+    date: '2020-03-03'
+    deaths: 79
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-03'
+    date: '2020-03-03'
+    confirmed: 2502
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-04'
+    date: '2020-03-04'
     deaths: 107
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-04'
+    date: '2020-03-04'
     confirmed: 3089
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-04'
+    date: '2020-03-04'
     recovered: 276
-  - date: '2020-03-05'
-    deaths: 148
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-05'
+    date: '2020-03-05'
     confirmed: 3858
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-05'
+    date: '2020-03-05'
+    deaths: 148
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-05'
+    date: '2020-03-05'
     recovered: 414
-  - date: '2020-03-06'
-    deaths: 197
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-06'
+    date: '2020-03-06'
     confirmed: 4636
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-06'
+    date: '2020-03-06'
+    deaths: 197
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-06'
+    date: '2020-03-06'
     recovered: 523
-  - date: '2020-03-07'
-    deaths: 233
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-07'
+    date: '2020-03-07'
     confirmed: 5883
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-07'
+    date: '2020-03-07'
+    deaths: 233
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-07'
+    date: '2020-03-07'
     recovered: 589
-  - date: '2020-03-08'
-    deaths: 366
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-08'
+    date: '2020-03-08'
     confirmed: 7375
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-08'
+    date: '2020-03-08'
     recovered: 622
-  - date: '2020-03-09'
-    deaths: 463
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-08'
+    date: '2020-03-08'
+    deaths: 366
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-09'
+    date: '2020-03-09'
+    recovered: 724
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-09'
+    date: '2020-03-09'
     confirmed: 9172
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-09'
+    date: '2020-03-09'
+    deaths: 463
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-10'
+    date: '2020-03-10'
     recovered: 724
-  - date: '2020-03-10'
-    deaths: 631
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-10'
+    date: '2020-03-10'
     confirmed: 10149
-    recovered: 724
-  - date: '2020-03-11'
-    deaths: 827
-    confirmed: 12462
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-10'
+    date: '2020-03-10'
+    deaths: 631
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-11'
+    date: '2020-03-11'
     recovered: 1045
-  - date: '2020-03-12'
-    deaths: 827
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-11'
+    date: '2020-03-11'
     confirmed: 12462
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-11'
+    date: '2020-03-11'
+    deaths: 827
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-12'
+    date: '2020-03-12'
+    confirmed: 12462
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-12'
+    date: '2020-03-12'
     recovered: 1045
-  - date: '2020-03-13'
-    deaths: 1266
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-12'
+    date: '2020-03-12'
+    deaths: 827
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-13'
+    date: '2020-03-13'
     confirmed: 17660
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-13'
+    date: '2020-03-13'
+    deaths: 1266
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-13'
+    date: '2020-03-13'
     recovered: 1439
-  - date: '2020-03-14'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-14'
+    date: '2020-03-14'
     deaths: 1441
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-14'
+    date: '2020-03-14'
     confirmed: 21157
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-14'
+    date: '2020-03-14'
     recovered: 1966
-  - date: '2020-03-15'
-    deaths: 1809
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-15'
+    date: '2020-03-15'
     confirmed: 24747
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-15'
+    date: '2020-03-15'
+    deaths: 1809
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-15'
+    date: '2020-03-15'
     recovered: 2335
-  - date: '2020-03-16'
-    deaths: 2158
-    confirmed: 27980
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-16'
+    date: '2020-03-16'
     recovered: 2749
-  - date: '2020-03-17'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-16'
+    date: '2020-03-16'
+    confirmed: 27980
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-16'
+    date: '2020-03-16'
+    deaths: 2158
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-17'
+    date: '2020-03-17'
     deaths: 2503
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-17'
+    date: '2020-03-17'
     confirmed: 31506
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-17'
+    date: '2020-03-17'
     recovered: 2941
-  - date: '2020-03-18'
-    deaths: 2978
-    confirmed: 35713
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-18'
+    date: '2020-03-18'
     recovered: 4025
-  - date: '2020-03-19'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-18'
+    date: '2020-03-18'
+    confirmed: 35713
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-18'
+    date: '2020-03-18'
+    deaths: 2978
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-19'
+    date: '2020-03-19'
+    recovered: 4440
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-19'
+    date: '2020-03-19'
     deaths: 3405
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-19'
+    date: '2020-03-19'
     confirmed: 41035
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-20'
+    date: '2020-03-20'
     recovered: 4440
-  - date: '2020-03-20'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-20'
+    date: '2020-03-20'
     deaths: 4032
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-20'
+    date: '2020-03-20'
     confirmed: 47021
-    recovered: 4440
-  - date: '2020-03-21'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-21'
+    date: '2020-03-21'
     deaths: 4825
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-21'
+    date: '2020-03-21'
     confirmed: 53578
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-21'
+    date: '2020-03-21'
     recovered: 6072
-  - date: '2020-03-22'
-    deaths: 5476
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-22'
+    date: '2020-03-22'
     confirmed: 59138
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-22'
+    date: '2020-03-22'
+    deaths: 5476
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-22'
+    date: '2020-03-22'
     recovered: 7024
-  - date: '2020-03-23'
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-23'
+    date: '2020-03-23'
     deaths: 5476
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-23'
+    date: '2020-03-23'
     confirmed: 59138
+  - '@id': 'urn:covid:jhe.edu:csse:it:2020-03-23'
+    date: '2020-03-23'
     recovered: 7024
