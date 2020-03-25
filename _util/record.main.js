@@ -34,14 +34,14 @@ const record_main = (...ds) => {
     }
 
     ds.forEach(d => {
-        if (d.addressRegion) {
-            result.state = d.addressRegion.toUpperCase()
+        if (d.region) {
+            result.state = d.region.toUpperCase()
         }
-        if (d.addressCountry) {
-            result.country = d.addressCountry.toUpperCase()
+        if (d.country) {
+            result.country = d.country.toUpperCase()
         }
-        if (d.addressLocality) {
-            result.locality = d.addressLocality
+        if (d.locality) {
+            result.locality = d.locality
         }
     })
 

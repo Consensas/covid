@@ -34,6 +34,7 @@ module.exports = {
     record: {
         main: require("./record.main"),
         urn: require("./record.urn"),
+        filename: require("./record.filename"),
     },
     context: "https://consensas.world/m/covid",
 }

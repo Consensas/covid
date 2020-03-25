@@ -30,20 +30,20 @@ const record_urn = (...ds) => {
     const _util = require(".")
 
     const side = {
-        addressCountry: "",
-        addressLocality: "",
-        addressRegion: null,
+        country: "",
+        locality: "",
+        region: null,
     }
 
     ds.forEach(d => {
-        if (d.addressRegion) {
-            side.addressRegion = d.addressRegion.toLowerCase()
+        if (d.region) {
+            side.region = d.region.toLowerCase()
         }
-        if (d.addressCountry) {
-            side.addressCountry = d.addressCountry.toLowerCase()
+        if (d.country) {
+            side.country = d.country.toLowerCase()
         }
-        if (d.addressLocality) {
-            side.addressLocality = d.addressLocality.toLowerCase().replace(/[^a-z]/g, "-").replace(/-+/g, "-")
+        if (d.locality) {
+            side.locality = d.locality.toLowerCase().replace(/[^a-z]/g, "-").replace(/-+/g, "-")
         }
         if (d.authority) {
             side.authority = d.authority.toLowerCase()
@@ -57,9 +57,9 @@ const record_urn = (...ds) => {
     })
 
     if (side.authority && side.dataset) {
-        let result = `urn:covid19:${side.authority}:${side.dataset}:${side.addressCountry}-${side.addressRegion}`
-        if (side.addressLocality) {
-            result += `-${side.addressLocality}`
+        let result = `urn:covid19:${side.authority}:${side.dataset}:${side.country}-${side.region}`
+        if (side.locality) {
+            result += `-${side.locality}`
         }
         if (side.date) {
             result += `:${side.date}`
