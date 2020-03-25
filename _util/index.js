@@ -33,6 +33,7 @@ module.exports = {
     },
     record: {
         main: require("./record.main"),
+        urn: require("./record.urn"),
     },
     context: "https://consensas.world/m/covid",
 }

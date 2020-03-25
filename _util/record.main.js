@@ -33,9 +33,6 @@ const record_main = (...ds) => {
         "@id": null,
     }
 
-    const side = {
-    }
-
     ds.forEach(d => {
         if (d.addressRegion) {
             result.state = d.addressRegion.toUpperCase()
@@ -44,19 +41,11 @@ const record_main = (...ds) => {
             result.country = d.addressCountry.toUpperCase()
         }
         if (d.addressLocality) {
-            result.locality = d.addressLocality.toUpperCase()
-        }
-        if (d.authority) {
-            side.authority = d.authority.toLowerCase()
-        }
-        if (d.dataset) {
-            side.dataset = d.dataset.toLowerCase()
+            result.locality = d.addressLocality
         }
     })
 
-    if (!result["@id"] && side.authority && side.dataset) {
-        result["@id"] = `urn:covid:${side.authority}:${side.dataset}`
-    }
+    result["@id"] = _util.record.urn(...ds)
 
     return result
 }
