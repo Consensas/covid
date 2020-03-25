@@ -117,6 +117,10 @@ const _cook = _.promise((self, done) => {
                     items: {},
                 }
 
+                if (([ "CA", "US", "AU" ].indexOf(result.country) > -1) && result.state) {
+                    result.state = result.state.toUpperCase()
+                }
+
                 if (result.state) {
                     result["@id"] = `urn:covid:jhe.edu:csse:${result.country}-${result.state}`.toLowerCase()
                 } else {
@@ -139,11 +143,6 @@ const _cook = _.promise((self, done) => {
                         }
                         result.items[date][sd.name] = row[o]
                     })
-                
-                result.items = _.values(result.items)
-                result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
-                // console.log(result)
-                // process.exit()
             })
 
         })
@@ -161,10 +160,10 @@ _cook.requires = {
         au: _.is.Array,
         us: _.is.Array,
     },
-    results: {
-    }
+    results: _.is.Dictionary,
 }
 _cook.produces = {
+    results: _.is.Dictionary,
 }
 
 /**
@@ -195,6 +194,84 @@ _load_dataset.params = {
     dataset: _.p.normal,
 }
 _load_dataset.p = _.p(_load_dataset)
+
+/**
+ */
+const _fix = _.promise(self => {
+    _.promise.validate(self, _fix)
+
+    _.values(self.results)
+        .forEach(result => {
+            result.items = _.values(result.items)
+            result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+        })
+})
+
+_fix.method = "_fix"
+_fix.description = ``
+_fix.requires = {
+    results: _.is.Dictionary,
+}
+_fix.accepts = {
+}
+_fix.produces = {
+    results: _.is.Dictionary,
+}
+
+/**
+ */
+const _aggregate = _.promise(self => {
+    _.promise.validate(self, _aggregate)
+
+    const cdd = {}
+
+    _.values(self.results)
+        .filter(result => result.state)
+        .forEach(result => {
+            const cd = cdd[result.country] = cdd[result.country] || {
+                "@context": _util.context,
+                "@id": `urn:covid:jhe.edu:csse:${result.country}`.toLowerCase(),
+                country: result.country,
+                state: null,
+                key: result.country.toLowerCase(),
+                items: [],
+            }
+
+            cd.items = [].concat(cd.items, result.items)
+        })
+
+    _.values(cdd)
+        .forEach(result => {
+            const idd = {}
+
+            result.items.forEach(oitem => {
+                const id = idd[oitem.date] = idd[oitem.date]  || {
+                    "@id": `urn:covid:jhe.edu:csse:${result.country}:${oitem.date}`.toLowerCase(),
+                    "date": oitem.date,
+                }
+
+                id.deaths = (id.deaths || 0) + (oitem.deaths || 0)
+                id.confirmed = (id.confirmed || 0) + (oitem.confirmed || 0)
+                id.recovered = (id.recovered || 0) + (oitem.recovered || 0)
+            })
+
+            result.items = _.values(idd)
+            result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+
+            self.results[result.country] = result
+        })
+})
+
+_aggregate.method = "_aggregate"
+_aggregate.description = ``
+_aggregate.requires = {
+    results: _.is.Dictionary,
+}
+_aggregate.accepts = {
+}
+_aggregate.produces = {
+    results: _.is.Dictionary,
+}
 
 /**
  */
@@ -246,19 +323,15 @@ _.promise({
         method: _cook,
         inputs: "names:name",
     })
+    .then(_fix)
 
-    // cleanup
-    .make(sd => {
-        sd.jsons = _.values(sd.results)
-        sd.jsons.forEach(result => {
-            /*
-            result.items = _.values(result.items)
-            result.items.sort((a, b) => _.is.unsorted(a.date, b.date))
-            */
-        })
-    })
+    // CA, AU, US
+    .then(_aggregate)
 
     // write each file
+    .make(sd => {
+        sd.jsons = _.values(sd.results)
+    })
     .each({
         method: _write,
         inputs: "jsons:json",
