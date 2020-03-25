@@ -1,3 +1,5 @@
-#
+# JSU CSS
 
-Data comes from: https://github.com/CSSEGISandData/COVID-19
+Johns Hopkins CSEE data
+
+https://github.com/CSSEGISandData/COVID-19
