@@ -33,6 +33,7 @@ const record_urn = (...ds) => {
         country: "",
         locality: "",
         region: null,
+        record_id: null,
     }
 
     ds.forEach(d => {
@@ -54,15 +55,21 @@ const record_urn = (...ds) => {
         if (d.date) {
             side.date = d.date
         }
+        if (d.record_id) {
+            side.record_id = d.record_id
+        }
     })
 
     if (side.authority && side.dataset) {
-        let result = `urn:covid19:${side.authority}:${side.dataset}:${side.country}-${side.region}`
+        let result = `urn:covid:${side.authority}:${side.dataset}:${side.country}-${side.region}`
         if (side.locality) {
             result += `-${side.locality}`
         }
         if (side.date) {
             result += `:${side.date}`
+        }
+        if (side.record_id) {
+            result += `:${side.record_id}`
         }
 
         return result

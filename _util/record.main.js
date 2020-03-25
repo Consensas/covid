@@ -43,6 +43,9 @@ const record_main = (...ds) => {
         if (d.locality) {
             result.locality = d.locality
         }
+        if (d.source) {
+            result.source = d.source
+        }
     })
 
     result["@id"] = _util.record.urn(...ds)

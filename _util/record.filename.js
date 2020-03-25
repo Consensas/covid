@@ -32,9 +32,14 @@ const record_urn = (...ds) => {
     const side = {
         country: "",
         region: null,
+        suffix: "",
     }
 
     ds.forEach(d => {
+        if (_.is.String(d)) {
+            side.suffix = d
+            return
+        }
         if (d.region) {
             side.region = d.region.toLowerCase()
         }
@@ -43,7 +48,7 @@ const record_urn = (...ds) => {
         }
     })
 
-    return `${side.country}-${side.region}.yaml`
+    return `${side.country}-${side.region}${side.suffix}.yaml`
 }
 
 /**

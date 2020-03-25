@@ -37,7 +37,7 @@ _.promise({
     .then(fs.read.yaml)
     .add("json:settings")
 
-    .add("settings/source:url")
+    .add("settings/url")
     .then(fetch.document.get())
     .then(xlsx.load.csv)
     .add("jsons:json")
