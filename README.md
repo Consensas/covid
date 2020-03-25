@@ -23,7 +23,7 @@ Sign up for our daily assessments, which provide analysis on the Canadian COVID-
 
 Code is a demonstration of Pipe Oriented Programming in NodeJS.
 
-Think of it as an attempt to do a "Wolfram Language" type hyper-compatible set of libraries for working with data and the world. Look at the code in `data/datasets` for getting a sense of what it does.
+Think of it as a hyper-compatible set of libraries for working with data and the world. Look at the code in `data/datasets` for getting a sense of what it does.
 
 [Consensas](https://www.consensas.com/) is our startup, credit to them / us for taking time away from that to work on this. **Our goal during the pandemic is to create a public, normalized, semantically well-defined dataset. Our concern is a lack of data, loss of data**
 
