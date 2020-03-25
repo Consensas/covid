@@ -31,5 +31,8 @@ module.exports = {
     cheerio: {
         table: require("./cheerio.table"),
     },
+    record: {
+        main: require("./record.main"),
+    },
     context: "https://consensas.world/m/covid",
 }
