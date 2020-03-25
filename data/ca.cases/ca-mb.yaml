@@ -253,3 +253,15 @@ cases:
     gender: Male
     health_region: Winnipeg
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2177'
+    dataset_id: '2177'
+    state_id: '21'
+    sources:
+      - 'https://www.gov.mb.ca/covid19/index.html'
+    date: '2020-03-24'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 40-49
+    gender: Male
+    health_region: Winnipeg
+    acquired_country: null

@@ -223,3 +223,15 @@ cases:
     health_region: Zone 2 (Saint John area)
     acquired_country: CA
     acquired_close_contact: true
+  - '@id': 'urn:covid:consensas:ca.cases:2584'
+    dataset_id: '2584'
+    state_id: '18'
+    sources:
+      - 'https://globalnews.ca/news/6724129/n-b-coronavirus-update-march-24/'
+    date: '2020-03-24'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: 20-29
+    gender: Female
+    health_region: Zone 1 (Moncton Area)
+    acquired_country: null
