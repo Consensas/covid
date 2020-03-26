@@ -12,7 +12,7 @@ items:
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-01-23'
     date: '2020-01-23'
     deaths: 0
-    confirmed: 1
+    confirmed: 2
     recovered: 0
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-01-24'
     date: '2020-01-24'
@@ -82,7 +82,7 @@ items:
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-02-06'
     date: '2020-02-06'
     deaths: 0
-    confirmed: 45
+    confirmed: 22
     recovered: 1
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-02-07'
     date: '2020-02-07'
@@ -277,7 +277,7 @@ items:
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-03-16'
     date: '2020-03-16'
     deaths: 27
-    confirmed: 825
+    confirmed: 839
     recovered: 144
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-03-17'
     date: '2020-03-17'
@@ -306,11 +306,20 @@ items:
     recovered: 232
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-03-22'
     date: '2020-03-22'
-    deaths: 40
-    confirmed: 1086
+    deaths: 41
+    confirmed: 1101
     recovered: 235
   - '@id': 'urn:covid:jhe.edu:csse:jp:2020-03-23'
     date: '2020-03-23'
-    deaths: 40
-    confirmed: 1086
+    deaths: 42
+    confirmed: 1128
     recovered: 235
+  - '@id': 'urn:covid:jhe.edu:csse:jp:2020-03-24'
+    date: '2020-03-24'
+    deaths: 43
+    confirmed: 1193
+    recovered: 285
+  - '@id': 'urn:covid:jhe.edu:csse:jp:2020-03-25'
+    date: '2020-03-25'
+    deaths: 45
+    confirmed: 1307
