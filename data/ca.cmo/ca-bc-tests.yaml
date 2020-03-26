@@ -30,8 +30,16 @@
       date: '2020-02-09'
       tests_positive: 4
       confirmed: 4
+    - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-02-12'
+      date: '2020-02-12'
+      tests_positive: 4
+      confirmed: 4
     - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-02-13'
       date: '2020-02-13'
+      tests_positive: 4
+      confirmed: 4
+    - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-02-14'
+      date: '2020-02-14'
       tests_positive: 4
       confirmed: 4
     - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-02-15'
@@ -60,6 +68,10 @@
       confirmed: 6
     - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-02-25'
       date: '2020-02-25'
+      tests_positive: 7
+      confirmed: 7
+    - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-02-26'
+      date: '2020-02-26'
       tests_positive: 7
       confirmed: 7
     - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-02-27'
@@ -170,12 +182,24 @@
       tests_probable: 0
       deaths: 9
       confirmed: 348
-    - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-03-23'
-      date: '2020-03-23'
+    - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-03-22'
+      date: '2020-03-22'
       tests_positive: 424
       tests_probable: 0
       deaths: 10
       confirmed: 424
+    - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-03-23'
+      date: '2020-03-23'
+      tests_positive: 472
+      tests_probable: 0
+      deaths: 13
+      confirmed: 472
+    - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-03-24'
+      date: '2020-03-24'
+      tests_positive: 617
+      tests_probable: 0
+      deaths: 13
+      confirmed: 617
     - '@id': 'urn:covid:consensas:ca-bc:cmo:2020-03-25'
       date: '2020-03-25'
       tests_positive: 659

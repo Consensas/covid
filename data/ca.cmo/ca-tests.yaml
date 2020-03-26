@@ -18,11 +18,23 @@
       tests_positive: 7
       tests: 198
       confirmed: 7
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-12'
+      date: '2020-02-12'
+      tests_negative: 191
+      tests_positive: 7
+      tests: 198
+      confirmed: 7
     - '@id': 'urn:covid:consensas:ca:cmo:2020-02-13'
       date: '2020-02-13'
       tests_negative: 191
       tests_positive: 7
       tests: 198
+      confirmed: 7
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-14'
+      date: '2020-02-14'
+      tests_negative: 350
+      tests_positive: 7
+      tests: 357
       confirmed: 7
     - '@id': 'urn:covid:consensas:ca:cmo:2020-02-15'
       date: '2020-02-15'
@@ -62,6 +74,12 @@
       confirmed: 10
     - '@id': 'urn:covid:consensas:ca:cmo:2020-02-25'
       date: '2020-02-25'
+      tests_negative: 474
+      tests_positive: 11
+      tests: 485
+      confirmed: 11
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-02-26'
+      date: '2020-02-26'
       tests_negative: 474
       tests_positive: 11
       tests: 485
@@ -206,16 +224,28 @@
       confirmed: 975
     - '@id': 'urn:covid:consensas:ca:cmo:2020-03-21'
       date: '2020-03-21'
-      tests: 76814
-      tests_positive: 975
-      tests_negative: 65673
-      confirmed: 975
+      tests: 88883
+      tests_positive: 1176
+      tests_negative: 77383
+      confirmed: 1176
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-22'
+      date: '2020-03-22'
+      tests: 98824
+      tests_positive: 1377
+      tests_negative: 86800
+      confirmed: 1377
     - '@id': 'urn:covid:consensas:ca:cmo:2020-03-23'
       date: '2020-03-23'
-      tests: 102803
-      tests_positive: 1512
-      tests_negative: 90819
-      confirmed: 1512
+      tests: 107147
+      tests_positive: 1584
+      tests_negative: 95500
+      confirmed: 1584
+    - '@id': 'urn:covid:consensas:ca:cmo:2020-03-24'
+      date: '2020-03-24'
+      tests: 125062
+      tests_positive: 2247
+      tests_negative: 108743
+      confirmed: 2247
     - '@id': 'urn:covid:consensas:ca:cmo:2020-03-25'
       date: '2020-03-25'
       tests: 142154
