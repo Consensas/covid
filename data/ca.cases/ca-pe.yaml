@@ -41,3 +41,29 @@ cases:
     gender: Female
     health_region: Prince Edward Island
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:3291'
+    dataset_id: '3291'
+    state_id: '4'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
+    date: '2020-03-25'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: 30-39
+    gender: Male
+    health_region: Prince Edward Island
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:3292'
+    dataset_id: '3292'
+    state_id: '5'
+    sources:
+      - >-
+        https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
+    date: '2020-03-25'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: 30-39
+    gender: Male
+    health_region: Prince Edward Island
+    acquired_country: null

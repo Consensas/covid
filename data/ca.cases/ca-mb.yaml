@@ -255,13 +255,181 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2177'
     dataset_id: '2177'
-    state_id: '21'
+    state_id: '22'
     sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-24'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: 40-49
+    gender: Male
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2910'
+    dataset_id: '2910'
+    state_id: '23'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 30-39
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2911'
+    dataset_id: '2911'
+    state_id: '24'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: <10
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2912'
+    dataset_id: '2912'
+    state_id: '25'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 40-49
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2913'
+    dataset_id: '2913'
+    state_id: '26'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 30-39
+    gender: Male
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2914'
+    dataset_id: '2914'
+    state_id: '27'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 60-69
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2915'
+    dataset_id: '2915'
+    state_id: '28'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 60-69
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2916'
+    dataset_id: '2916'
+    state_id: '29'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
     week_reported: '2020-03-22'
     is_travel: null
     age_range: 40-49
     gender: Male
     health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2917'
+    dataset_id: '2917'
+    state_id: '30'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 30-39
+    gender: Female
+    health_region: Southern Health
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2918'
+    dataset_id: '2918'
+    state_id: '31'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 40-49
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2919'
+    dataset_id: '2919'
+    state_id: '32'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 60-69
+    gender: Male
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2920'
+    dataset_id: '2920'
+    state_id: '33'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 60-69
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2921'
+    dataset_id: '2921'
+    state_id: '34'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 50-59
+    gender: Female
+    health_region: Southern Health
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2922'
+    dataset_id: '2922'
+    state_id: '35'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 20-29
+    gender: Female
+    health_region: Winnipeg
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:2923'
+    dataset_id: '2923'
+    state_id: '36'
+    sources:
+      - 'https://news.gov.mb.ca/news/index.html?item=47237'
+    date: '2020-03-25'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Prairie Mountain
     acquired_country: null
