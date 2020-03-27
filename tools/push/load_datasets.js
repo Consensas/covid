@@ -35,7 +35,7 @@ const _load_dataset = _.promise((self, done) => {
     _.promise(self)
         .validate(_load_dataset)
 
-        .add("path", path.join(__dirname, "../../data/cooked", self.dataset))
+        .add("path", path.join(__dirname, "../../data", self.dataset))
         .then(fs.read.json.magic)
 
         .make(sd => {

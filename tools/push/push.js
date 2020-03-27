@@ -36,8 +36,12 @@ const ad = minimist(process.argv.slice(2), {
         "google",
     ],
     string: [
+        "settings",
     ],
     alias: {
+    },
+    default: {
+        settings: path.join(__dirname, "settings.yaml"),
     },
 })
 
@@ -46,7 +50,7 @@ const ad = minimist(process.argv.slice(2), {
 _.promise({
 })
     // load settings
-    .then(fs.read.yaml.p(path.join(__dirname, "settings.yaml")))
+    .then(fs.read.yaml.p(ad.settings))
     .add("json:settings")
 
     .then(push.load_datasets)

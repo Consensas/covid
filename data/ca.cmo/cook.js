@@ -54,12 +54,12 @@ const _one = _.promise((self, done) => {
             if (_.is.Empty(PROVINCE)) {
                 sd.json["@id"] = `urn:covid:consensas:${COUNTRY}:cmo`
                 sd.json.key = `${COUNTRY}`.toLowerCase()
-                sd.path = path.join(__dirname, `${COUNTRY}-tests.yaml`.toLowerCase())
+                sd.path = path.join(__dirname, "cooked", `${COUNTRY}-tests.yaml`.toLowerCase())
             } else {
                 sd.json["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`.toLowerCase()
                 sd.json.key = `${COUNTRY}-${PROVINCE}`.toLowerCase()
                 sd.json.state = PROVINCE
-                sd.path = path.join(__dirname, `${COUNTRY}-${PROVINCE}-tests.yaml`.toLowerCase())
+                sd.path = path.join(__dirname, "cooked", `${COUNTRY}-${PROVINCE}-tests.yaml`.toLowerCase())
             }
 
             sd.items
