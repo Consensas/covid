@@ -14,5 +14,5 @@ cd $(dirname $0)
 node pull.js
 node cook.js
 git add raw/*.yaml
-git add ca-*.yaml
+git add cooked/ca-*.yaml
 git commit -am "new raw data"

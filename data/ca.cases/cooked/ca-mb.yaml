@@ -433,3 +433,15 @@ cases:
     gender: null
     health_region: Prairie Mountain
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:3580'
+    dataset_id: '3580'
+    state_id: '37'
+    sources:
+      - 'https://news.gov.mb.ca/news/?archive=&item=47277'
+    date: '2020-03-26'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: 20-29
+    gender: Male
+    health_region: Winnipeg
+    acquired_country: null
