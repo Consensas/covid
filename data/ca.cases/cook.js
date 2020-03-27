@@ -184,7 +184,7 @@ const _write = _.promise((self, done) => {
     _.promise(self)
         .validate(_write)
 
-        .add("path", path.join(__dirname, `${self.json.key}.yaml`))
+        .add("path", path.join(__dirname, "cooked", `${self.json.key}.yaml`))
         .then(fs.write.yaml)
         .log("path", "path")
 
