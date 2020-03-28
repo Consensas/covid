@@ -30,6 +30,8 @@ const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
 
+const _util = require("../../_util")
+
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
@@ -51,47 +53,61 @@ const _pull = _.promise((self, done) => {
         .validate(_pull)
         .make(sd => {
             sd.json = {
-                date: null,
             }
 
             const $ = cheerio.load(self.document)
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
 
             $("li").each((x, e) => {
-                const text = $(e).text().replace(/\s+/, " ")
+                let match
+
+                const text = _util.normalize.text($(e).text())
                 if (ad.verbose) {
-                    console.log("-", "text", text)
+                    console.log("-", "li.text", text)
                 }
 
-                const t_match = text.match(/([\d,]+).tests.complete.*(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d+),\s+(202\d)/) 
-                if (t_match) {
-                    const date = parse(`${t_match[2]} ${t_match[3]} ${t_match[4]}`, "MMMM dd yyyy", new Date())
+                if (match = text.match(/([\d,]+).tests.complete.*(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d+),\s+(202\d)/)) {
+                    const date = parse(`${match[2]} ${match[3]} ${match[4]}`, "MMMM dd yyyy", new Date())
                     if (_.is.Date(date)) {
                         sd.json.date = date.toISOString().substring(0, 10)
                     }
 
-                    const value = _integer(t_match[1])
+                    const value = _util.normalize.integer(match[1])
                     if (value) {
-                        sd.json.value = value
+                        sd.json.tests = value
                     }
-                }
-
-                const c_match = text.match(/([\d,]+) confirmed/)
-                if (c_match) {
-                    const value = _integer(c_match[1])
+                } else if (match = text.match(/^([\d,]+) tests complete/)) {
+                    const value = _util.normalize.integer(match[1])
                     if (value) {
-                        sd.json.confirmed = value
+                        sd.json.tests = value
+                    }
+                } else if (match = text.match(/([\d,]+) confirmed/)) {
+                    const value = _util.normalize.integer(match[1])
+                    if (value) {
+                        sd.json.tests_positive = value
+                    }
+                } else if (match = text.match(/([\d,]+) deaths in bc/)) {
+                    const value = _util.normalize.integer(match[1])
+                    if (value) {
+                        sd.json.deaths = value
+                    }
+                } else if (match = text.match(/([\d,]+) recovered in bc/)) {
+                    const value = _util.normalize.integer(match[1])
+                    if (value) {
+                        sd.json.recovered = value
                     }
                 }
             })
 
-            $("p.phsa-rteElement-Paragraph").each((x, e) => {
-                const text = $(e).text()
+            $("p").each((x, e) => {
+                const text = _util.normalize.text($(e).text())
                 if (ad.verbose) {
-                    console.log("-", "text", text)
+                    console.log("-", "p.text", text)
                 }
 
-                const match = text.match(/([\d,]+).individuals.*as.of.([A-Za-z]*).(\d+),.(\d+)/)
+                let match = text.match(/([\d,]+).individuals.*as.of.([A-Za-z]*) (\d+) (\d+)/)
+                if (!match) {
+                    match = text.match(/([\d,]+) confirmed cases as of ([a-z]*) (\d+) (\d+)/)
+                }
                 if (!match) {
                     return
                 }
@@ -106,7 +122,7 @@ const _pull = _.promise((self, done) => {
                     return
                 }
 
-                sd.json.value = value
+                sd.json.tests_positive = value
                 sd.json.date = date.toISOString().substring(0, 10)
             })
 
@@ -114,7 +130,7 @@ const _pull = _.promise((self, done) => {
                 console.log("-", "json", sd.json)
             }
 
-            if (_.is.Empty(sd.json.date)) {
+            if (_.size(sd.json) < 2) {
                 console.log("#", "no data for", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }

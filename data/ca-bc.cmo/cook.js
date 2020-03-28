@@ -51,7 +51,7 @@ _.promise()
         }
 
         sd.jsons
-            .filter(json => json.date && json.value)
+            .filter(json => json.date)
             .forEach(json => {
                 const item = {
                     "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${json.date}`,
@@ -61,8 +61,14 @@ _.promise()
                 if (json.value) {
                     item.tests = json.value
                 }
+                if (json.tests) {
+                    item.tests = json.tests
+                }
                 if (json.confirmed) {
                     item.tests_positive = json.confirmed
+                }
+                if (json.tests_positive) {
+                    item.tests_positive = json.tests_positive 
                 }
                 if (item.tests && item.tests_positive) {
                     item.tests_negative = item.tests - item.tests_positive
