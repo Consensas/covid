@@ -78,6 +78,9 @@ const _pull = _.promise((self, done) => {
             let next 
             $("p").each((x, e) => {
                 const text = _util.normalize.text($(e).text())
+                if (ad.verbose) {
+                    console.log("-", "p.text", text)
+                }
                 let match
 
                 if (next) {
@@ -93,7 +96,7 @@ const _pull = _.promise((self, done) => {
                     next = "tests_negative"
                 } else if (text.indexOf("case") > -1) {
                     next = null
-                } else if (match = text.match(/^tests conducted ([\d,]+)/)) {
+                } else if (match = text.match(/^tests conducted[^\d]+([\d,]+)/)) {
                     sd.json.tests = _util.normalize.integer(match[1])
                 } else {
                     next = null
