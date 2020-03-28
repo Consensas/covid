@@ -30,7 +30,7 @@ const normalize_text = text =>
     _.coerce.to.String(text)
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
-        .replace(/\s+/g, " ")
+        .replace(/\s\s+/g, " ")
         .trim()
         .toLowerCase()
         .replace(/[^a-z0-9 ]/g, "");

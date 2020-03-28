@@ -31,6 +31,8 @@ const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
 
+const _util = require("../../_util")
+
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
@@ -56,7 +58,6 @@ const _pull = _.promise((self, done) => {
 
             const $ = cheerio.load(self.document)
 
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
             const _contains = (a, b) => (a || "").toLowerCase().indexOf(b.toLowerCase()) > -1
             
             $("a[href='#']").each((x, e) => {
@@ -76,10 +77,11 @@ const _pull = _.promise((self, done) => {
 
             let next 
             $("p").each((x, e) => {
-                const text = $(e).text().toLowerCase()
+                const text = _util.normalize.text($(e).text())
+                let match
 
                 if (next) {
-                    sd.json[next] = _integer(text)
+                    sd.json[next] = _util.normalize.integer(text)
                     next = null
                 } else if (text.startsWith("confirmed case")) {
                     next = "tests_positive"
@@ -91,15 +93,21 @@ const _pull = _.promise((self, done) => {
                     next = "tests_negative"
                 } else if (text.indexOf("case") > -1) {
                     next = null
+                } else if (match = text.match(/^tests conducted ([\d,]+)/)) {
+                    sd.json.tests = _util.normalize.integer(match[1])
                 } else {
                     next = null
                 }
             })
 
+            if (ad.verbose) {
+                console.log("-", "json", sd.json)
+            }
+
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
-            if (_.is.Empty(sd.json.date)) {
-                console.log("#", "no data for", COUNTRY, PROVINCE)
+            if (_.size(sd.json) < 2) {
+                console.log("#", "ca/da-nb.cmo/cmo", "no/missing data for:", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
 

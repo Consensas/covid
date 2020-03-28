@@ -52,10 +52,12 @@ _.promise()
 
         sd.json.items.forEach(item => {
             item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
-            item.tests = 
-                (item.tests_positive || 0) +
-                (item.tests_negative || 0) +
-                (item.tests_probable || 0)
+            if (!item.tests) {
+                item.tests = 
+                    (item.tests_positive || 0) +
+                    (item.tests_negative || 0) +
+                    (item.tests_probable || 0)
+            }
         })
 
         sd.json = [ sd.json ]
