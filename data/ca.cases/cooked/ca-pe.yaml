@@ -119,3 +119,29 @@ cases:
     gender: Male
     health_region: Prince Edward Island
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4623'
+    dataset_id: '4623'
+    state_id: '10'
+    sources:
+      - >-
+        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: 20-29
+    gender: Female
+    health_region: Prince Edward Island
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4624'
+    dataset_id: '4624'
+    state_id: '11'
+    sources:
+      - >-
+        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: true
+    age_range: 50-59
+    gender: Female
+    health_region: Prince Edward Island
+    acquired_country: null

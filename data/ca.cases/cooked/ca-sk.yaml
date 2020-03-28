@@ -40,7 +40,7 @@ cases:
     is_travel: true
     age_range: 30-39
     gender: null
-    health_region: North
+    health_region: Far North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:311'
     dataset_id: '311'
@@ -132,7 +132,7 @@ cases:
     is_travel: true
     age_range: 40-49
     gender: null
-    health_region: North
+    health_region: Far North
     acquired_country: CA
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:651'
@@ -266,7 +266,7 @@ cases:
     is_travel: true
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:944'
     dataset_id: '944'
@@ -318,7 +318,7 @@ cases:
     is_travel: true
     age_range: 60-69
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:948'
     dataset_id: '948'
@@ -331,7 +331,7 @@ cases:
     is_travel: true
     age_range: 60-69
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:949'
     dataset_id: '949'
@@ -357,7 +357,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1313'
     dataset_id: '1313'
@@ -591,7 +591,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: North
+    health_region: Far North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1428'
     dataset_id: '1428'
@@ -682,7 +682,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: South
+    health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2036'
     dataset_id: '2036'
@@ -695,7 +695,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2037'
     dataset_id: '2037'
@@ -708,7 +708,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2038'
     dataset_id: '2038'
@@ -721,7 +721,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2039'
     dataset_id: '2039'
@@ -734,7 +734,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2040'
     dataset_id: '2040'
@@ -1046,7 +1046,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: South
+    health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3301'
     dataset_id: '3301'
@@ -1059,7 +1059,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: South
+    health_region: Central
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3302'
     dataset_id: '3302'
@@ -1137,7 +1137,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3899'
     dataset_id: '3899'
@@ -1150,7 +1150,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3900'
     dataset_id: '3900'
@@ -1163,7 +1163,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3901'
     dataset_id: '3901'
@@ -1176,7 +1176,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3902'
     dataset_id: '3902'
@@ -1189,7 +1189,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Central
+    health_region: North
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3903'
     dataset_id: '3903'
@@ -1242,4 +1242,121 @@ cases:
     age_range: null
     gender: null
     health_region: Saskatoon
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4625'
+    dataset_id: '4625'
+    state_id: '96'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Saskatoon
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4626'
+    dataset_id: '4626'
+    state_id: '97'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Saskatoon
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4627'
+    dataset_id: '4627'
+    state_id: '98'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Saskatoon
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4628'
+    dataset_id: '4628'
+    state_id: '99'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Saskatoon
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4629'
+    dataset_id: '4629'
+    state_id: '100'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Central
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4630'
+    dataset_id: '4630'
+    state_id: '101'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Central
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4631'
+    dataset_id: '4631'
+    state_id: '102'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Central
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4632'
+    dataset_id: '4632'
+    state_id: '103'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Central
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:4633'
+    dataset_id: '4633'
+    state_id: '104'
+    sources:
+      - >-
+        https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
+    date: '2020-03-27'
+    week_reported: '2020-03-22'
+    is_travel: null
+    age_range: null
+    gender: null
+    health_region: Central
     acquired_country: null
