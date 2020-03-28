@@ -207,18 +207,44 @@ items:
   - date: '2020-03-22'
     deaths: 0
     confirmed: 9
+    source: >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
+    tests_positive: 9
+    tests_negative: 961
+    tests: 970
+    '@id': 'urn:covid:consensas:ca-nl:2020-03-22'
   - date: '2020-03-23'
     deaths: 0
     confirmed: 24
   - date: '2020-03-24'
     deaths: 0
     confirmed: 35
+    source: >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507980
+    tests_positive: 24
+    tests_probable: 11
+    tests_negative: 1096
+    tests: 1131
+    '@id': 'urn:covid:consensas:ca-nl:2020-03-24'
   - date: '2020-03-25'
     deaths: 0
     confirmed: 35
+    source: >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-janice-fitzgerald-wednesday-march-25-update-1.5509291
+    tests_positive: 35
+    tests_probable: 32
+    tests_negative: 1269
+    tests: 1336
+    '@id': 'urn:covid:consensas:ca-nl:2020-03-25'
   - date: '2020-03-26'
     deaths: 0
     confirmed: 82
+    source: >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-janice-fitzgerald-wednesday-march-25-update-1.5509291
+    tests_positive: 102
+    tests_negative: 1587
+    tests: 1684
+    '@id': 'urn:covid:consensas:ca-nl:2020-03-26'
   - date: '2020-03-27'
     deaths: 0
     confirmed: 102
