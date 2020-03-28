@@ -26,17 +26,23 @@ const _ = require("iotdb-helpers")
 
 /**
  */
-const normalize_text = text => 
-    _.coerce.to.String(text)
+const normalize_text = text => {
+    return _.coerce.to.String(text)
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
         .replace(/\xa0/g, " ")
-        .replace(/[\s][\s]+/g, " ")
         .trim()
         .toLowerCase()
-        .replace(/[^a-z0-9 ]/g, "");
+        .replace(/[^a-z0-9 ]/g, "")
+        .replace(/[\s][\s]+/g, " ")
+}
 
 /**
  *  API
  */
 module.exports = normalize_text
+
+/*
+const t = "tests conducted  2019"
+console.log(normalize_text(t))
+*/
