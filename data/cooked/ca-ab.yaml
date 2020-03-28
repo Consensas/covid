@@ -287,9 +287,11 @@ items:
     tests: 36660
     '@id': 'urn:covid:consensas:ca-ab:2020-03-26'
   - date: '2020-03-27'
-    tests_negative: 36174
-    tests_positive: 486
-    tests: 36660
+    deaths: 2
+    confirmed: 542
+    tests_negative: 37673
+    tests_positive: 542
+    tests: 38215
     '@id': 'urn:covid:consensas:ca-ab:2020-03-27'
 icu_hospitals: 16
 icu_beds: 292

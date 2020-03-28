@@ -430,12 +430,14 @@ items:
     tests: 158598
     tests_positive: 3731
     tests_negative: 142161
-  - '@id': 'urn:covid:consensas:ca:cmo:2020-03-27'
-    date: '2020-03-27'
-    tests: 164564
-    tests_positive: 4285
-    tests_negative: 147405
-    confirmed: 4285
+  - date: '2020-03-27'
+    deaths: 0
+    confirmed: 4516
+    recovered: 256
+    '@id': 'urn:covid:consensas:ca:cmo:2020-03-27'
+    tests: 170644
+    tests_positive: 4516
+    tests_negative: 153735
 '@context': 'https://consensas.world/m/covid'
 '@id': 'urn:covid:consensas:ca:cmo'
 source: >-
