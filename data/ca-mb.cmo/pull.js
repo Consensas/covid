@@ -112,12 +112,6 @@ const _pull = _.promise((self, done) => {
                 _.promise.bail(sd)
             }
 
-            if (_.is.Number(item.tests_positive) && 
-                _.is.Number(item.tests_probable) && 
-                _.is.Number(item.tests)) {
-                item.tests_negative = item.tests - item.tests_positive - item.tests_probable
-            }
-
             if (ad.verbose) {
                 console.log("-", "item", item)
             }

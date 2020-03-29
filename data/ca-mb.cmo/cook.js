@@ -32,7 +32,16 @@ const COUNTRY = "ca"
 const PROVINCE = "mb"
 const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
 
-_.promise()
+const _util = require("../../_util")
+
+_.promise({
+    settings: {
+        authority: "consensas",
+        dataset: "cmo",
+        region: "MB",
+        country: "CA",
+    },
+})
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
         method: fs.read.json.magic,
@@ -41,23 +50,29 @@ _.promise()
         output_selector: sd => sd.json,
     })
     .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            region: PROVINCE.toUpperCase(),
-            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
-            items: sd.jsons.filter(json => json.date)
-        }
+        sd.json = _util.record.main(sd.settings)
+        sd.json.items = sd.jsons
+            .filter(item => item.date)
+            .map(item => Object.assign({
+                "@id": `${sd.json["@id"]}:${item.date}`,
+                date: null,
+            }, item))
 
-        sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
-        })
+        sd.json.items
+            .filter(item => _.is.Nullish(item.tests_negative))
+            .forEach(item => {
+                if (_.is.Number(item.tests_positive) && 
+                    _.is.Number(item.tests_probable) && 
+                    _.is.Number(item.tests)) {
+                    item.tests_negative = item.tests - item.tests_positive - item.tests_probable
+                }
+            })
 
         sd.json = [ sd.json ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
-    .add("path", path.join(__dirname, NAME))
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
 

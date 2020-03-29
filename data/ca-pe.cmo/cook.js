@@ -61,6 +61,7 @@ _.promise({
         sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
 
