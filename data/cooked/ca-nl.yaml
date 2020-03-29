@@ -253,6 +253,19 @@ items:
   - date: '2020-03-28'
     deaths: 0
     confirmed: 120
+    source: >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-nl-march-29-update-1.5513997
+    tests_positive: 120
+    tests_negative: 1807
+    tests: 1927
+    '@id': 'urn:covid:consensas:ca-nl:2020-03-28'
+  - date: '2020-03-29'
+    source: >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-nl-march-29-update-1.5513997
+    tests_positive: 135
+    tests_negative: 1972
+    tests: 2107
+    '@id': 'urn:covid:consensas:ca-nl:2020-03-29'
 state: NL
 icu_hospitals: 14
 icu_beds: 98
