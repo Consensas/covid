@@ -438,12 +438,14 @@ items:
     tests: 170644
     tests_positive: 4516
     tests_negative: 153735
-  - '@id': 'urn:covid:consensas:ca:cmo:2020-03-28'
-    date: '2020-03-28'
+  - date: '2020-03-28'
+    deaths: 0
+    confirmed: 5153
+    recovered: 466
+    '@id': 'urn:covid:consensas:ca:cmo:2020-03-28'
     tests: 184201
     tests_positive: 5153
     tests_negative: 166621
-    confirmed: 5153
 '@context': 'https://consensas.world/m/covid'
 '@id': 'urn:covid:consensas:ca:cmo'
 source: >-
