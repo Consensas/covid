@@ -1,11 +1,11 @@
 '@context': 'https://consensas.world/m/covid'
 country: CA
-state: SK
+region: SK
 key: ca-sk
 cases:
   - '@id': 'urn:covid:consensas:ca.cases:133'
     dataset_id: '133'
-    state_id: '1'
+    region_id: '1'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/12/confirmed-case-covid-19
@@ -18,7 +18,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:184'
     dataset_id: '184'
-    state_id: '2'
+    region_id: '2'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/13/second-case-of-covid-19
@@ -31,7 +31,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:310'
     dataset_id: '310'
-    state_id: '3'
+    region_id: '3'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/14/more-cases-of-covid-19
@@ -44,7 +44,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:311'
     dataset_id: '311'
-    state_id: '4'
+    region_id: '4'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/14/more-cases-of-covid-19
@@ -57,7 +57,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:312'
     dataset_id: '312'
-    state_id: '5'
+    region_id: '5'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/14/more-cases-of-covid-19
@@ -71,7 +71,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:313'
     dataset_id: '313'
-    state_id: '6'
+    region_id: '6'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/14/more-cases-of-covid-19
@@ -84,7 +84,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:418'
     dataset_id: '418'
-    state_id: '7'
+    region_id: '7'
     sources:
       - >-
         https://regina.ctvnews.ca/seventh-covid-19-case-in-sask-province-announces-school-closures-effective-march-20-1.4854588
@@ -97,7 +97,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:478'
     dataset_id: '478'
-    state_id: '8'
+    region_id: '8'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/17/covid-19-case-8
@@ -110,7 +110,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:649'
     dataset_id: '649'
-    state_id: '9'
+    region_id: '9'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -123,7 +123,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:650'
     dataset_id: '650'
-    state_id: '10'
+    region_id: '10'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -137,7 +137,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:651'
     dataset_id: '651'
-    state_id: '11'
+    region_id: '11'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -150,7 +150,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:652'
     dataset_id: '652'
-    state_id: '12'
+    region_id: '12'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -163,7 +163,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:653'
     dataset_id: '653'
-    state_id: '13'
+    region_id: '13'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -176,7 +176,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:654'
     dataset_id: '654'
-    state_id: '14'
+    region_id: '14'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -189,7 +189,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:655'
     dataset_id: '655'
-    state_id: '15'
+    region_id: '15'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -202,7 +202,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:656'
     dataset_id: '656'
-    state_id: '16'
+    region_id: '16'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/18/covid-19-update-8-new-cases
@@ -215,7 +215,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:802'
     dataset_id: '802'
-    state_id: '17'
+    region_id: '17'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
@@ -228,7 +228,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:803'
     dataset_id: '803'
-    state_id: '18'
+    region_id: '18'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
@@ -243,7 +243,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:804'
     dataset_id: '804'
-    state_id: '19'
+    region_id: '19'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
@@ -257,7 +257,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:805'
     dataset_id: '805'
-    state_id: '20'
+    region_id: '20'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/19/covid-19-update-march-19
@@ -270,7 +270,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:944'
     dataset_id: '944'
-    state_id: '21'
+    region_id: '21'
     sources:
       - >-
         https://regina.ctvnews.ca/mandatory-self-isolation-after-travel-now-law-as-sask-announces-6-more-covid-19-cases-1.4861706
@@ -283,7 +283,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:945'
     dataset_id: '945'
-    state_id: '22'
+    region_id: '22'
     sources:
       - >-
         https://regina.ctvnews.ca/mandatory-self-isolation-after-travel-now-law-as-sask-announces-6-more-covid-19-cases-1.4861706
@@ -296,7 +296,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:946'
     dataset_id: '946'
-    state_id: '23'
+    region_id: '23'
     sources:
       - >-
         https://regina.ctvnews.ca/mandatory-self-isolation-after-travel-now-law-as-sask-announces-6-more-covid-19-cases-1.4861706
@@ -309,7 +309,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:947'
     dataset_id: '947'
-    state_id: '24'
+    region_id: '24'
     sources:
       - >-
         https://regina.ctvnews.ca/mandatory-self-isolation-after-travel-now-law-as-sask-announces-6-more-covid-19-cases-1.4861706
@@ -322,7 +322,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:948'
     dataset_id: '948'
-    state_id: '25'
+    region_id: '25'
     sources:
       - >-
         https://regina.ctvnews.ca/mandatory-self-isolation-after-travel-now-law-as-sask-announces-6-more-covid-19-cases-1.4861706
@@ -335,7 +335,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:949'
     dataset_id: '949'
-    state_id: '26'
+    region_id: '26'
     sources:
       - >-
         https://regina.ctvnews.ca/mandatory-self-isolation-after-travel-now-law-as-sask-announces-6-more-covid-19-cases-1.4861706
@@ -348,7 +348,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1312'
     dataset_id: '1312'
-    state_id: '27'
+    region_id: '27'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -361,7 +361,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1313'
     dataset_id: '1313'
-    state_id: '28'
+    region_id: '28'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -374,7 +374,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1314'
     dataset_id: '1314'
-    state_id: '29'
+    region_id: '29'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -387,7 +387,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1315'
     dataset_id: '1315'
-    state_id: '30'
+    region_id: '30'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -400,7 +400,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1316'
     dataset_id: '1316'
-    state_id: '31'
+    region_id: '31'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -413,7 +413,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1317'
     dataset_id: '1317'
-    state_id: '32'
+    region_id: '32'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -426,7 +426,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1318'
     dataset_id: '1318'
-    state_id: '33'
+    region_id: '33'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -439,7 +439,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1319'
     dataset_id: '1319'
-    state_id: '34'
+    region_id: '34'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -452,7 +452,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1320'
     dataset_id: '1320'
-    state_id: '35'
+    region_id: '35'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -465,7 +465,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1321'
     dataset_id: '1321'
-    state_id: '36'
+    region_id: '36'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -478,7 +478,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1322'
     dataset_id: '1322'
-    state_id: '37'
+    region_id: '37'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -491,7 +491,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1323'
     dataset_id: '1323'
-    state_id: '38'
+    region_id: '38'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -504,7 +504,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1324'
     dataset_id: '1324'
-    state_id: '39'
+    region_id: '39'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -517,7 +517,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1325'
     dataset_id: '1325'
-    state_id: '40'
+    region_id: '40'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -530,7 +530,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1326'
     dataset_id: '1326'
-    state_id: '41'
+    region_id: '41'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -543,7 +543,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1327'
     dataset_id: '1327'
-    state_id: '42'
+    region_id: '42'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -556,7 +556,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1328'
     dataset_id: '1328'
-    state_id: '43'
+    region_id: '43'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -569,7 +569,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1329'
     dataset_id: '1329'
-    state_id: '44'
+    region_id: '44'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -582,7 +582,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1427'
     dataset_id: '1427'
-    state_id: '45'
+    region_id: '45'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -595,7 +595,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1428'
     dataset_id: '1428'
-    state_id: '46'
+    region_id: '46'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -608,7 +608,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1429'
     dataset_id: '1429'
-    state_id: '47'
+    region_id: '47'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -621,7 +621,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1430'
     dataset_id: '1430'
-    state_id: '48'
+    region_id: '48'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -634,7 +634,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1431'
     dataset_id: '1431'
-    state_id: '49'
+    region_id: '49'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -647,7 +647,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1432'
     dataset_id: '1432'
-    state_id: '50'
+    region_id: '50'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -660,7 +660,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1433'
     dataset_id: '1433'
-    state_id: '51'
+    region_id: '51'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -673,7 +673,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1434'
     dataset_id: '1434'
-    state_id: '52'
+    region_id: '52'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -686,7 +686,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2036'
     dataset_id: '2036'
-    state_id: '53'
+    region_id: '53'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -699,7 +699,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2037'
     dataset_id: '2037'
-    state_id: '54'
+    region_id: '54'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -712,7 +712,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2038'
     dataset_id: '2038'
-    state_id: '55'
+    region_id: '55'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -725,7 +725,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2039'
     dataset_id: '2039'
-    state_id: '56'
+    region_id: '56'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -738,7 +738,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2040'
     dataset_id: '2040'
-    state_id: '57'
+    region_id: '57'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -751,7 +751,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2041'
     dataset_id: '2041'
-    state_id: '58'
+    region_id: '58'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -764,7 +764,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2042'
     dataset_id: '2042'
-    state_id: '59'
+    region_id: '59'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -777,7 +777,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2043'
     dataset_id: '2043'
-    state_id: '60'
+    region_id: '60'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -790,7 +790,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2044'
     dataset_id: '2044'
-    state_id: '61'
+    region_id: '61'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -803,7 +803,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2045'
     dataset_id: '2045'
-    state_id: '62'
+    region_id: '62'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -816,7 +816,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2046'
     dataset_id: '2046'
-    state_id: '63'
+    region_id: '63'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -829,7 +829,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2047'
     dataset_id: '2047'
-    state_id: '64'
+    region_id: '64'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -842,7 +842,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2048'
     dataset_id: '2048'
-    state_id: '65'
+    region_id: '65'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -855,7 +855,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2049'
     dataset_id: '2049'
-    state_id: '66'
+    region_id: '66'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -868,7 +868,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2585'
     dataset_id: '2585'
-    state_id: '67'
+    region_id: '67'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -881,7 +881,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2586'
     dataset_id: '2586'
-    state_id: '68'
+    region_id: '68'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -894,7 +894,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2587'
     dataset_id: '2587'
-    state_id: '69'
+    region_id: '69'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -907,7 +907,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2588'
     dataset_id: '2588'
-    state_id: '70'
+    region_id: '70'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -920,7 +920,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2589'
     dataset_id: '2589'
-    state_id: '71'
+    region_id: '71'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -933,7 +933,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2590'
     dataset_id: '2590'
-    state_id: '72'
+    region_id: '72'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -946,7 +946,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3293'
     dataset_id: '3293'
-    state_id: '73'
+    region_id: '73'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -959,7 +959,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3294'
     dataset_id: '3294'
-    state_id: '74'
+    region_id: '74'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -972,7 +972,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3295'
     dataset_id: '3295'
-    state_id: '75'
+    region_id: '75'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -985,7 +985,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3296'
     dataset_id: '3296'
-    state_id: '76'
+    region_id: '76'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -998,7 +998,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3297'
     dataset_id: '3297'
-    state_id: '77'
+    region_id: '77'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1011,7 +1011,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3298'
     dataset_id: '3298'
-    state_id: '78'
+    region_id: '78'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1024,7 +1024,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3299'
     dataset_id: '3299'
-    state_id: '79'
+    region_id: '79'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1037,7 +1037,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3300'
     dataset_id: '3300'
-    state_id: '80'
+    region_id: '80'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1050,7 +1050,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3301'
     dataset_id: '3301'
-    state_id: '81'
+    region_id: '81'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1063,7 +1063,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3302'
     dataset_id: '3302'
-    state_id: '82'
+    region_id: '82'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1076,7 +1076,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3303'
     dataset_id: '3303'
-    state_id: '83'
+    region_id: '83'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1089,7 +1089,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3304'
     dataset_id: '3304'
-    state_id: '84'
+    region_id: '84'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1102,7 +1102,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3305'
     dataset_id: '3305'
-    state_id: '85'
+    region_id: '85'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1115,7 +1115,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3306'
     dataset_id: '3306'
-    state_id: '86'
+    region_id: '86'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1128,7 +1128,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3898'
     dataset_id: '3898'
-    state_id: '87'
+    region_id: '87'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1141,7 +1141,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3899'
     dataset_id: '3899'
-    state_id: '88'
+    region_id: '88'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1154,7 +1154,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3900'
     dataset_id: '3900'
-    state_id: '89'
+    region_id: '89'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1167,7 +1167,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3901'
     dataset_id: '3901'
-    state_id: '90'
+    region_id: '90'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1180,7 +1180,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3902'
     dataset_id: '3902'
-    state_id: '91'
+    region_id: '91'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1193,7 +1193,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3903'
     dataset_id: '3903'
-    state_id: '92'
+    region_id: '92'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1206,7 +1206,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3904'
     dataset_id: '3904'
-    state_id: '93'
+    region_id: '93'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1219,7 +1219,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3905'
     dataset_id: '3905'
-    state_id: '94'
+    region_id: '94'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1232,7 +1232,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3906'
     dataset_id: '3906'
-    state_id: '95'
+    region_id: '95'
     sources:
       - >-
         https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan
@@ -1245,7 +1245,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4625'
     dataset_id: '4625'
-    state_id: '96'
+    region_id: '96'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1258,7 +1258,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4626'
     dataset_id: '4626'
-    state_id: '97'
+    region_id: '97'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1271,7 +1271,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4627'
     dataset_id: '4627'
-    state_id: '98'
+    region_id: '98'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1284,7 +1284,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4628'
     dataset_id: '4628'
-    state_id: '99'
+    region_id: '99'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1297,7 +1297,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4629'
     dataset_id: '4629'
-    state_id: '100'
+    region_id: '100'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1310,7 +1310,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4630'
     dataset_id: '4630'
-    state_id: '101'
+    region_id: '101'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1323,7 +1323,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4631'
     dataset_id: '4631'
-    state_id: '102'
+    region_id: '102'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1336,7 +1336,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4632'
     dataset_id: '4632'
-    state_id: '103'
+    region_id: '103'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1349,7 +1349,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4633'
     dataset_id: '4633'
-    state_id: '104'
+    region_id: '104'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/27/covid-19-update-mach-27
@@ -1362,7 +1362,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5455'
     dataset_id: '5455'
-    state_id: '105'
+    region_id: '105'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1375,7 +1375,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5456'
     dataset_id: '5456'
-    state_id: '106'
+    region_id: '106'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1388,7 +1388,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5457'
     dataset_id: '5457'
-    state_id: '107'
+    region_id: '107'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1401,7 +1401,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5458'
     dataset_id: '5458'
-    state_id: '108'
+    region_id: '108'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1414,7 +1414,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5459'
     dataset_id: '5459'
-    state_id: '109'
+    region_id: '109'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1427,7 +1427,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5460'
     dataset_id: '5460'
-    state_id: '110'
+    region_id: '110'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1440,7 +1440,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5461'
     dataset_id: '5461'
-    state_id: '111'
+    region_id: '111'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1453,7 +1453,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5462'
     dataset_id: '5462'
-    state_id: '112'
+    region_id: '112'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1466,7 +1466,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5463'
     dataset_id: '5463'
-    state_id: '113'
+    region_id: '113'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1479,7 +1479,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5464'
     dataset_id: '5464'
-    state_id: '114'
+    region_id: '114'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1492,7 +1492,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5465'
     dataset_id: '5465'
-    state_id: '115'
+    region_id: '115'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1505,7 +1505,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5466'
     dataset_id: '5466'
-    state_id: '116'
+    region_id: '116'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1518,7 +1518,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5467'
     dataset_id: '5467'
-    state_id: '117'
+    region_id: '117'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1531,7 +1531,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5468'
     dataset_id: '5468'
-    state_id: '118'
+    region_id: '118'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1544,7 +1544,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5469'
     dataset_id: '5469'
-    state_id: '119'
+    region_id: '119'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1557,7 +1557,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5470'
     dataset_id: '5470'
-    state_id: '120'
+    region_id: '120'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1570,7 +1570,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5471'
     dataset_id: '5471'
-    state_id: '121'
+    region_id: '121'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1583,7 +1583,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5472'
     dataset_id: '5472'
-    state_id: '122'
+    region_id: '122'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1596,7 +1596,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5473'
     dataset_id: '5473'
-    state_id: '123'
+    region_id: '123'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1609,7 +1609,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5474'
     dataset_id: '5474'
-    state_id: '124'
+    region_id: '124'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1622,7 +1622,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5475'
     dataset_id: '5475'
-    state_id: '125'
+    region_id: '125'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1635,7 +1635,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5476'
     dataset_id: '5476'
-    state_id: '126'
+    region_id: '126'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1648,7 +1648,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5477'
     dataset_id: '5477'
-    state_id: '127'
+    region_id: '127'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1661,7 +1661,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5478'
     dataset_id: '5478'
-    state_id: '128'
+    region_id: '128'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1674,7 +1674,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5479'
     dataset_id: '5479'
-    state_id: '129'
+    region_id: '129'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1687,7 +1687,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5480'
     dataset_id: '5480'
-    state_id: '130'
+    region_id: '130'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1700,7 +1700,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5481'
     dataset_id: '5481'
-    state_id: '131'
+    region_id: '131'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1713,7 +1713,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5482'
     dataset_id: '5482'
-    state_id: '132'
+    region_id: '132'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1726,7 +1726,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5483'
     dataset_id: '5483'
-    state_id: '133'
+    region_id: '133'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28
@@ -1739,7 +1739,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5484'
     dataset_id: '5484'
-    state_id: '134'
+    region_id: '134'
     sources:
       - >-
         https://www.saskatchewan.ca/government/news-and-media/2020/march/28/covid-19-update-march-28

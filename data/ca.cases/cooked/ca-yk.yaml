@@ -1,11 +1,11 @@
 '@context': 'https://consensas.world/m/covid'
 country: CA
-state: YK
+region: YK
 key: ca-yk
 cases:
   - '@id': 'urn:covid:consensas:ca.cases:1471'
     dataset_id: '1471'
-    state_id: '1'
+    region_id: '1'
     sources:
       - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
     date: '2020-03-22'
@@ -17,7 +17,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1472'
     dataset_id: '1472'
-    state_id: '2'
+    region_id: '2'
     sources:
       - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
     date: '2020-03-22'
@@ -29,7 +29,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3282'
     dataset_id: '3282'
-    state_id: '3'
+    region_id: '3'
     sources:
       - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
     date: '2020-03-25'
@@ -41,7 +41,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4690'
     dataset_id: '4690'
-    state_id: '4'
+    region_id: '4'
     sources:
       - >-
         https://yukon.ca/en/news/march-27-2020-yukons-chief-medical-officer-health-provides-update-covid-19

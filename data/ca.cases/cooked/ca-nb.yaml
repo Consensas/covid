@@ -1,11 +1,11 @@
 '@context': 'https://consensas.world/m/covid'
 country: CA
-state: NB
+region: NB
 key: ca-nb
 cases:
   - '@id': 'urn:covid:consensas:ca.cases:140'
     dataset_id: '140'
-    state_id: '1'
+    region_id: '1'
     sources:
       - >-
         https://atlantic.ctvnews.ca/covid-19-arrives-in-maritimes-as-n-b-reports-first-presumptive-case-1.4848961
@@ -20,7 +20,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:221'
     dataset_id: '221'
-    state_id: '2'
+    region_id: '2'
     sources:
       - >-
         https://www.cbc.ca/news/canada/new-brunswick/nb-chief-medical-officer-health-covid-19-1.5497971
@@ -34,7 +34,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:314'
     dataset_id: '314'
-    state_id: '3'
+    region_id: '3'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
     date: '2020-03-15'
@@ -47,7 +47,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:315'
     dataset_id: '315'
-    state_id: '4'
+    region_id: '4'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
     date: '2020-03-15'
@@ -60,7 +60,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:316'
     dataset_id: '316'
-    state_id: '5'
+    region_id: '5'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
     date: '2020-03-15'
@@ -73,7 +73,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:317'
     dataset_id: '317'
-    state_id: '6'
+    region_id: '6'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
     date: '2020-03-15'
@@ -86,7 +86,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:378'
     dataset_id: '378'
-    state_id: '7'
+    region_id: '7'
     sources:
       - 'https://globalnews.ca/news/6683869/covid-19-nb-update-monday/'
     date: '2020-03-16'
@@ -98,7 +98,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:452'
     dataset_id: '452'
-    state_id: '8'
+    region_id: '8'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0132.html'
     date: '2020-03-17'
@@ -111,7 +111,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:646'
     dataset_id: '646'
-    state_id: '9'
+    region_id: '9'
     sources:
       - >-
         https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
@@ -124,7 +124,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:647'
     dataset_id: '647'
-    state_id: '10'
+    region_id: '10'
     sources:
       - >-
         https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
@@ -138,7 +138,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:648'
     dataset_id: '648'
-    state_id: '11'
+    region_id: '11'
     sources:
       - >-
         https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
@@ -151,7 +151,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1199'
     dataset_id: '1199'
-    state_id: '12'
+    region_id: '12'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
     date: '2020-03-21'
@@ -163,7 +163,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1200'
     dataset_id: '1200'
-    state_id: '13'
+    region_id: '13'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
     date: '2020-03-21'
@@ -176,7 +176,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:1201'
     dataset_id: '1201'
-    state_id: '14'
+    region_id: '14'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
     date: '2020-03-21'
@@ -188,7 +188,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1202'
     dataset_id: '1202'
-    state_id: '15'
+    region_id: '15'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
     date: '2020-03-21'
@@ -200,7 +200,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1203'
     dataset_id: '1203'
-    state_id: '16'
+    region_id: '16'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
     date: '2020-03-21'
@@ -212,7 +212,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1204'
     dataset_id: '1204'
-    state_id: '17'
+    region_id: '17'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
     date: '2020-03-21'
@@ -225,7 +225,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2584'
     dataset_id: '2584'
-    state_id: '18'
+    region_id: '18'
     sources:
       - 'https://globalnews.ca/news/6724129/n-b-coronavirus-update-march-24/'
     date: '2020-03-24'
@@ -237,7 +237,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3283'
     dataset_id: '3283'
-    state_id: '19'
+    region_id: '19'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867847
@@ -250,7 +250,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3284'
     dataset_id: '3284'
-    state_id: '20'
+    region_id: '20'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867848
@@ -263,7 +263,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3285'
     dataset_id: '3285'
-    state_id: '21'
+    region_id: '21'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867849
@@ -276,7 +276,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3286'
     dataset_id: '3286'
-    state_id: '22'
+    region_id: '22'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867850
@@ -289,7 +289,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3287'
     dataset_id: '3287'
-    state_id: '23'
+    region_id: '23'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867851
@@ -302,7 +302,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3288'
     dataset_id: '3288'
-    state_id: '24'
+    region_id: '24'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
@@ -316,7 +316,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:3289'
     dataset_id: '3289'
-    state_id: '25'
+    region_id: '25'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
@@ -329,7 +329,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3290'
     dataset_id: '3290'
-    state_id: '26'
+    region_id: '26'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
@@ -342,7 +342,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3891'
     dataset_id: '3891'
-    state_id: '27'
+    region_id: '27'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
@@ -355,7 +355,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3892'
     dataset_id: '3892'
-    state_id: '28'
+    region_id: '28'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
@@ -368,7 +368,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3893'
     dataset_id: '3893'
-    state_id: '29'
+    region_id: '29'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
@@ -381,7 +381,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3894'
     dataset_id: '3894'
-    state_id: '30'
+    region_id: '30'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
@@ -394,7 +394,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3895'
     dataset_id: '3895'
-    state_id: '31'
+    region_id: '31'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
@@ -407,7 +407,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3896'
     dataset_id: '3896'
-    state_id: '32'
+    region_id: '32'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
@@ -420,7 +420,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3897'
     dataset_id: '3897'
-    state_id: '33'
+    region_id: '33'
     sources:
       - >-
         https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
@@ -433,7 +433,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4611'
     dataset_id: '4611'
-    state_id: '34'
+    region_id: '34'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -445,7 +445,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4612'
     dataset_id: '4612'
-    state_id: '35'
+    region_id: '35'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -457,7 +457,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4613'
     dataset_id: '4613'
-    state_id: '36'
+    region_id: '36'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -469,7 +469,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4614'
     dataset_id: '4614'
-    state_id: '37'
+    region_id: '37'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -481,7 +481,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4615'
     dataset_id: '4615'
-    state_id: '38'
+    region_id: '38'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -493,7 +493,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4616'
     dataset_id: '4616'
-    state_id: '39'
+    region_id: '39'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -505,7 +505,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4617'
     dataset_id: '4617'
-    state_id: '40'
+    region_id: '40'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -517,7 +517,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4618'
     dataset_id: '4618'
-    state_id: '41'
+    region_id: '41'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -529,7 +529,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4619'
     dataset_id: '4619'
-    state_id: '42'
+    region_id: '42'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -541,7 +541,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4620'
     dataset_id: '4620'
-    state_id: '43'
+    region_id: '43'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -553,7 +553,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4621'
     dataset_id: '4621'
-    state_id: '44'
+    region_id: '44'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -565,7 +565,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4622'
     dataset_id: '4622'
-    state_id: '45'
+    region_id: '45'
     sources:
       - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
     date: '2020-03-27'
@@ -577,7 +577,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5429'
     dataset_id: '5429'
-    state_id: '46'
+    region_id: '46'
     sources:
       - >-
         https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
@@ -590,7 +590,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5430'
     dataset_id: '5430'
-    state_id: '47'
+    region_id: '47'
     sources:
       - >-
         https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
@@ -603,7 +603,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5431'
     dataset_id: '5431'
-    state_id: '48'
+    region_id: '48'
     sources:
       - >-
         https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
@@ -616,7 +616,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5432'
     dataset_id: '5432'
-    state_id: '49'
+    region_id: '49'
     sources:
       - >-
         https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
@@ -629,7 +629,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5433'
     dataset_id: '5433'
-    state_id: '50'
+    region_id: '50'
     sources:
       - >-
         https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
@@ -642,7 +642,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5434'
     dataset_id: '5434'
-    state_id: '51'
+    region_id: '51'
     sources:
       - >-
         https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588

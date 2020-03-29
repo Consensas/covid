@@ -1,11 +1,11 @@
 '@context': 'https://consensas.world/m/covid'
 country: CA
-state: AB
+region: AB
 key: ca-ab
 cases:
   - '@id': 'urn:covid:consensas:ca.cases:47'
     dataset_id: '47'
-    state_id: '1'
+    region_id: '1'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-s-first-presumptive-coronavirus-case-in-calgary-zone-1.4841023
@@ -18,7 +18,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:54'
     dataset_id: '54'
-    state_id: '2'
+    region_id: '2'
     sources:
       - >-
         https://calgary.ctvnews.ca/2-calgary-banks-closed-in-connection-with-presumptive-case-of-covid-19-1.4842654
@@ -32,7 +32,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:63'
     dataset_id: '63'
-    state_id: '3'
+    region_id: '3'
     sources:
       - >-
         https://globalnews.ca/news/6647035/new-presumptive-cases-covid-19-in-alberta/
@@ -45,7 +45,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:64'
     dataset_id: '64'
-    state_id: '4'
+    region_id: '4'
     sources:
       - >-
         https://globalnews.ca/news/6647035/new-presumptive-cases-covid-19-in-alberta/
@@ -59,7 +59,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:75'
     dataset_id: '75'
-    state_id: '5'
+    region_id: '5'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68769850EF253-A8A2-2BB1-D69F6DB8EB774E91
@@ -74,7 +74,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:76'
     dataset_id: '76'
-    state_id: '6'
+    region_id: '6'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68769850EF253-A8A2-2BB1-D69F6DB8EB774E91
@@ -89,7 +89,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:77'
     dataset_id: '77'
-    state_id: '7'
+    region_id: '7'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68769850EF253-A8A2-2BB1-D69F6DB8EB774E91
@@ -104,7 +104,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:81'
     dataset_id: '81'
-    state_id: '8'
+    region_id: '8'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
@@ -117,7 +117,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:82'
     dataset_id: '82'
-    state_id: '9'
+    region_id: '9'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
@@ -130,7 +130,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:83'
     dataset_id: '83'
-    state_id: '10'
+    region_id: '10'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
@@ -143,7 +143,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:84'
     dataset_id: '84'
-    state_id: '11'
+    region_id: '11'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
@@ -156,7 +156,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:85'
     dataset_id: '85'
-    state_id: '12'
+    region_id: '12'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
@@ -169,7 +169,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:86'
     dataset_id: '86'
-    state_id: '13'
+    region_id: '13'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
@@ -182,7 +182,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:87'
     dataset_id: '87'
-    state_id: '14'
+    region_id: '14'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=68785BC512E26-9FA2-3419-4CE138D698874736
@@ -195,7 +195,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:104'
     dataset_id: '104'
-    state_id: '15'
+    region_id: '15'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
@@ -208,7 +208,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:105'
     dataset_id: '105'
-    state_id: '16'
+    region_id: '16'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
@@ -221,7 +221,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:106'
     dataset_id: '106'
-    state_id: '17'
+    region_id: '17'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
@@ -234,7 +234,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:107'
     dataset_id: '107'
-    state_id: '18'
+    region_id: '18'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
@@ -247,7 +247,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:108'
     dataset_id: '108'
-    state_id: '19'
+    region_id: '19'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69794F2A6C8D3-FDF0-1D58-5A0EC2D18A47BC96
@@ -260,7 +260,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:141'
     dataset_id: '141'
-    state_id: '20'
+    region_id: '20'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
@@ -275,7 +275,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:142'
     dataset_id: '142'
-    state_id: '21'
+    region_id: '21'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
@@ -288,7 +288,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:143'
     dataset_id: '143'
-    state_id: '22'
+    region_id: '22'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
@@ -301,7 +301,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:144'
     dataset_id: '144'
-    state_id: '23'
+    region_id: '23'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=6980324A5B1B0-BC2C-40A8-A6AD9E30E3189425
@@ -314,7 +314,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:178'
     dataset_id: '178'
-    state_id: '24'
+    region_id: '24'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
@@ -327,7 +327,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:179'
     dataset_id: '179'
-    state_id: '25'
+    region_id: '25'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
@@ -340,7 +340,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:180'
     dataset_id: '180'
-    state_id: '26'
+    region_id: '26'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
@@ -354,7 +354,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:181'
     dataset_id: '181'
-    state_id: '27'
+    region_id: '27'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
@@ -368,7 +368,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:182'
     dataset_id: '182'
-    state_id: '28'
+    region_id: '28'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
@@ -382,7 +382,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:183'
     dataset_id: '183'
-    state_id: '29'
+    region_id: '29'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698095C2869CC-F664-6E12-2ADF3D4DC0E40808
@@ -396,7 +396,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:229'
     dataset_id: '229'
-    state_id: '30'
+    region_id: '30'
     sources:
       - >-
         https://edmontonjournal.com/news/local-news/covid-19-10-new-cases-in-alberta-brings-provincial-total-to-39/
@@ -411,7 +411,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:230'
     dataset_id: '230'
-    state_id: '31'
+    region_id: '31'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -424,7 +424,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:231'
     dataset_id: '231'
-    state_id: '32'
+    region_id: '32'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -437,7 +437,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:232'
     dataset_id: '232'
-    state_id: '33'
+    region_id: '33'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -450,7 +450,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:233'
     dataset_id: '233'
-    state_id: '34'
+    region_id: '34'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -463,7 +463,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:234'
     dataset_id: '234'
-    state_id: '35'
+    region_id: '35'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -476,7 +476,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:235'
     dataset_id: '235'
-    state_id: '36'
+    region_id: '36'
     sources:
       - >-
         https://edmontonjournal.com/news/local-news/covid-19-10-new-cases-in-alberta-brings-provincial-total-to-39/
@@ -491,7 +491,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:236'
     dataset_id: '236'
-    state_id: '37'
+    region_id: '37'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -504,7 +504,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:237'
     dataset_id: '237'
-    state_id: '38'
+    region_id: '38'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -517,7 +517,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:238'
     dataset_id: '238'
-    state_id: '39'
+    region_id: '39'
     sources:
       - >-
         https://www.youtube.com/watch?list=PLvrD8tiHIX1L5LKwB0kl-4aJjkK4OuE-l&time_continue=28&v=ifJPjDr5Jak&feature=emb_title
@@ -530,7 +530,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:321'
     dataset_id: '321'
-    state_id: '40'
+    region_id: '40'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -545,7 +545,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:322'
     dataset_id: '322'
-    state_id: '41'
+    region_id: '41'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -560,7 +560,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:323'
     dataset_id: '323'
-    state_id: '42'
+    region_id: '42'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -578,7 +578,7 @@ cases:
     acquired_community: true
   - '@id': 'urn:covid:consensas:ca.cases:324'
     dataset_id: '324'
-    state_id: '43'
+    region_id: '43'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -594,7 +594,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:325'
     dataset_id: '325'
-    state_id: '44'
+    region_id: '44'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -610,7 +610,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:326'
     dataset_id: '326'
-    state_id: '45'
+    region_id: '45'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -626,7 +626,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:327'
     dataset_id: '327'
-    state_id: '46'
+    region_id: '46'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -642,7 +642,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:328'
     dataset_id: '328'
-    state_id: '47'
+    region_id: '47'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -658,7 +658,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:329'
     dataset_id: '329'
-    state_id: '48'
+    region_id: '48'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -674,7 +674,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:330'
     dataset_id: '330'
-    state_id: '49'
+    region_id: '49'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -690,7 +690,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:331'
     dataset_id: '331'
-    state_id: '50'
+    region_id: '50'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -708,7 +708,7 @@ cases:
     acquired_community: true
   - '@id': 'urn:covid:consensas:ca.cases:332'
     dataset_id: '332'
-    state_id: '51'
+    region_id: '51'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -723,7 +723,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:333'
     dataset_id: '333'
-    state_id: '52'
+    region_id: '52'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -738,7 +738,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:334'
     dataset_id: '334'
-    state_id: '53'
+    region_id: '53'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -753,7 +753,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:335'
     dataset_id: '335'
-    state_id: '54'
+    region_id: '54'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -768,7 +768,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:336'
     dataset_id: '336'
-    state_id: '55'
+    region_id: '55'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -783,7 +783,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:337'
     dataset_id: '337'
-    state_id: '56'
+    region_id: '56'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69818C355F188-C2A3-F5C6-875A2A33929D5C05
@@ -798,7 +798,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:424'
     dataset_id: '424'
-    state_id: '57'
+    region_id: '57'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -811,7 +811,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:425'
     dataset_id: '425'
-    state_id: '58'
+    region_id: '58'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -824,7 +824,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:426'
     dataset_id: '426'
-    state_id: '59'
+    region_id: '59'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -837,7 +837,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:427'
     dataset_id: '427'
-    state_id: '60'
+    region_id: '60'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -850,7 +850,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:428'
     dataset_id: '428'
-    state_id: '61'
+    region_id: '61'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -863,7 +863,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:429'
     dataset_id: '429'
-    state_id: '62'
+    region_id: '62'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -876,7 +876,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:430'
     dataset_id: '430'
-    state_id: '63'
+    region_id: '63'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -889,7 +889,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:431'
     dataset_id: '431'
-    state_id: '64'
+    region_id: '64'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -902,7 +902,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:432'
     dataset_id: '432'
-    state_id: '65'
+    region_id: '65'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -915,7 +915,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:433'
     dataset_id: '433'
-    state_id: '66'
+    region_id: '66'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -928,7 +928,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:434'
     dataset_id: '434'
-    state_id: '67'
+    region_id: '67'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -941,7 +941,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:435'
     dataset_id: '435'
-    state_id: '68'
+    region_id: '68'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -954,7 +954,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:436'
     dataset_id: '436'
-    state_id: '69'
+    region_id: '69'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -967,7 +967,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:437'
     dataset_id: '437'
-    state_id: '70'
+    region_id: '70'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -980,7 +980,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:438'
     dataset_id: '438'
-    state_id: '71'
+    region_id: '71'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -993,7 +993,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:439'
     dataset_id: '439'
-    state_id: '72'
+    region_id: '72'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -1006,7 +1006,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:440'
     dataset_id: '440'
-    state_id: '73'
+    region_id: '73'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -1019,7 +1019,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:441'
     dataset_id: '441'
-    state_id: '74'
+    region_id: '74'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69824F7F2458A-DEF9-DF5F-5D30179FC782386D
@@ -1032,7 +1032,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:485'
     dataset_id: '485'
-    state_id: '75'
+    region_id: '75'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1045,7 +1045,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:486'
     dataset_id: '486'
-    state_id: '76'
+    region_id: '76'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1058,7 +1058,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:487'
     dataset_id: '487'
-    state_id: '77'
+    region_id: '77'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1071,7 +1071,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:488'
     dataset_id: '488'
-    state_id: '78'
+    region_id: '78'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1084,7 +1084,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:489'
     dataset_id: '489'
-    state_id: '79'
+    region_id: '79'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1097,7 +1097,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:490'
     dataset_id: '490'
-    state_id: '80'
+    region_id: '80'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1110,7 +1110,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:491'
     dataset_id: '491'
-    state_id: '81'
+    region_id: '81'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1123,7 +1123,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:492'
     dataset_id: '492'
-    state_id: '82'
+    region_id: '82'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1136,7 +1136,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:493'
     dataset_id: '493'
-    state_id: '83'
+    region_id: '83'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1149,7 +1149,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:494'
     dataset_id: '494'
-    state_id: '84'
+    region_id: '84'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1162,7 +1162,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:495'
     dataset_id: '495'
-    state_id: '85'
+    region_id: '85'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1175,7 +1175,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:496'
     dataset_id: '496'
-    state_id: '86'
+    region_id: '86'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1188,7 +1188,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:497'
     dataset_id: '497'
-    state_id: '87'
+    region_id: '87'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1201,7 +1201,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:498'
     dataset_id: '498'
-    state_id: '88'
+    region_id: '88'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1214,7 +1214,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:499'
     dataset_id: '499'
-    state_id: '89'
+    region_id: '89'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1227,7 +1227,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:500'
     dataset_id: '500'
-    state_id: '90'
+    region_id: '90'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1240,7 +1240,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:501'
     dataset_id: '501'
-    state_id: '91'
+    region_id: '91'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1253,7 +1253,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:502'
     dataset_id: '502'
-    state_id: '92'
+    region_id: '92'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1266,7 +1266,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:503'
     dataset_id: '503'
-    state_id: '93'
+    region_id: '93'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1279,7 +1279,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:504'
     dataset_id: '504'
-    state_id: '94'
+    region_id: '94'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1292,7 +1292,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:505'
     dataset_id: '505'
-    state_id: '95'
+    region_id: '95'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1305,7 +1305,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:506'
     dataset_id: '506'
-    state_id: '96'
+    region_id: '96'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1318,7 +1318,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:507'
     dataset_id: '507'
-    state_id: '97'
+    region_id: '97'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=69830284041BB-FA70-03ED-82D4516CFE1CEA01
@@ -1331,7 +1331,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:702'
     dataset_id: '702'
-    state_id: '98'
+    region_id: '98'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1344,7 +1344,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:703'
     dataset_id: '703'
-    state_id: '99'
+    region_id: '99'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1357,7 +1357,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:704'
     dataset_id: '704'
-    state_id: '100'
+    region_id: '100'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1370,7 +1370,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:705'
     dataset_id: '705'
-    state_id: '101'
+    region_id: '101'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1383,7 +1383,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:706'
     dataset_id: '706'
-    state_id: '102'
+    region_id: '102'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1396,7 +1396,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:707'
     dataset_id: '707'
-    state_id: '103'
+    region_id: '103'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1409,7 +1409,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:708'
     dataset_id: '708'
-    state_id: '104'
+    region_id: '104'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1422,7 +1422,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:709'
     dataset_id: '709'
-    state_id: '105'
+    region_id: '105'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1435,7 +1435,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:710'
     dataset_id: '710'
-    state_id: '106'
+    region_id: '106'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1448,7 +1448,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:711'
     dataset_id: '711'
-    state_id: '107'
+    region_id: '107'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1461,7 +1461,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:712'
     dataset_id: '712'
-    state_id: '108'
+    region_id: '108'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1474,7 +1474,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:713'
     dataset_id: '713'
-    state_id: '109'
+    region_id: '109'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1487,7 +1487,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:714'
     dataset_id: '714'
-    state_id: '110'
+    region_id: '110'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1500,7 +1500,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:715'
     dataset_id: '715'
-    state_id: '111'
+    region_id: '111'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1513,7 +1513,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:716'
     dataset_id: '716'
-    state_id: '112'
+    region_id: '112'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1526,7 +1526,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:717'
     dataset_id: '717'
-    state_id: '113'
+    region_id: '113'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1539,7 +1539,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:718'
     dataset_id: '718'
-    state_id: '114'
+    region_id: '114'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1552,7 +1552,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:719'
     dataset_id: '719'
-    state_id: '115'
+    region_id: '115'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1565,7 +1565,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:720'
     dataset_id: '720'
-    state_id: '116'
+    region_id: '116'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1578,7 +1578,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:721'
     dataset_id: '721'
-    state_id: '117'
+    region_id: '117'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1591,7 +1591,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:722'
     dataset_id: '722'
-    state_id: '118'
+    region_id: '118'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1604,7 +1604,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:723'
     dataset_id: '723'
-    state_id: '119'
+    region_id: '119'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698465DFE6D5B-D11C-F9AF-7BDE6039E992C905
@@ -1617,7 +1617,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:807'
     dataset_id: '807'
-    state_id: '120'
+    region_id: '120'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1630,7 +1630,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:808'
     dataset_id: '808'
-    state_id: '121'
+    region_id: '121'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1643,7 +1643,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:809'
     dataset_id: '809'
-    state_id: '122'
+    region_id: '122'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1656,7 +1656,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:810'
     dataset_id: '810'
-    state_id: '123'
+    region_id: '123'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1669,7 +1669,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:811'
     dataset_id: '811'
-    state_id: '124'
+    region_id: '124'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1682,7 +1682,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:812'
     dataset_id: '812'
-    state_id: '125'
+    region_id: '125'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1695,7 +1695,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:813'
     dataset_id: '813'
-    state_id: '126'
+    region_id: '126'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1708,7 +1708,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:814'
     dataset_id: '814'
-    state_id: '127'
+    region_id: '127'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1721,7 +1721,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:815'
     dataset_id: '815'
-    state_id: '128'
+    region_id: '128'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1734,7 +1734,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:816'
     dataset_id: '816'
-    state_id: '129'
+    region_id: '129'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1747,7 +1747,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:817'
     dataset_id: '817'
-    state_id: '130'
+    region_id: '130'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1760,7 +1760,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:818'
     dataset_id: '818'
-    state_id: '131'
+    region_id: '131'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1773,7 +1773,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:819'
     dataset_id: '819'
-    state_id: '132'
+    region_id: '132'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1786,7 +1786,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:820'
     dataset_id: '820'
-    state_id: '133'
+    region_id: '133'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1799,7 +1799,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:821'
     dataset_id: '821'
-    state_id: '134'
+    region_id: '134'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1812,7 +1812,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:822'
     dataset_id: '822'
-    state_id: '135'
+    region_id: '135'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1825,7 +1825,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:823'
     dataset_id: '823'
-    state_id: '136'
+    region_id: '136'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1838,7 +1838,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:824'
     dataset_id: '824'
-    state_id: '137'
+    region_id: '137'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1851,7 +1851,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:825'
     dataset_id: '825'
-    state_id: '138'
+    region_id: '138'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1864,7 +1864,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:826'
     dataset_id: '826'
-    state_id: '139'
+    region_id: '139'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1877,7 +1877,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:827'
     dataset_id: '827'
-    state_id: '140'
+    region_id: '140'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1890,7 +1890,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:828'
     dataset_id: '828'
-    state_id: '141'
+    region_id: '141'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1903,7 +1903,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:829'
     dataset_id: '829'
-    state_id: '142'
+    region_id: '142'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1916,7 +1916,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:830'
     dataset_id: '830'
-    state_id: '143'
+    region_id: '143'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1929,7 +1929,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:831'
     dataset_id: '831'
-    state_id: '144'
+    region_id: '144'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1942,7 +1942,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:832'
     dataset_id: '832'
-    state_id: '145'
+    region_id: '145'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1955,7 +1955,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:833'
     dataset_id: '833'
-    state_id: '146'
+    region_id: '146'
     sources:
       - >-
         https://www.alberta.ca/release.cfm?xID=698598FD49BE6-A75F-12A2-4D2142F8F43DFEC3
@@ -1968,7 +1968,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1039'
     dataset_id: '1039'
-    state_id: '147'
+    region_id: '147'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -1980,7 +1980,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1040'
     dataset_id: '1040'
-    state_id: '148'
+    region_id: '148'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -1992,7 +1992,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1041'
     dataset_id: '1041'
-    state_id: '149'
+    region_id: '149'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2004,7 +2004,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1042'
     dataset_id: '1042'
-    state_id: '150'
+    region_id: '150'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2016,7 +2016,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1043'
     dataset_id: '1043'
-    state_id: '151'
+    region_id: '151'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2028,7 +2028,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1044'
     dataset_id: '1044'
-    state_id: '152'
+    region_id: '152'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2040,7 +2040,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1045'
     dataset_id: '1045'
-    state_id: '153'
+    region_id: '153'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2052,7 +2052,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1046'
     dataset_id: '1046'
-    state_id: '154'
+    region_id: '154'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2064,7 +2064,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1047'
     dataset_id: '1047'
-    state_id: '155'
+    region_id: '155'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2076,7 +2076,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1048'
     dataset_id: '1048'
-    state_id: '156'
+    region_id: '156'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2088,7 +2088,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1049'
     dataset_id: '1049'
-    state_id: '157'
+    region_id: '157'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2100,7 +2100,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1050'
     dataset_id: '1050'
-    state_id: '158'
+    region_id: '158'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2112,7 +2112,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1051'
     dataset_id: '1051'
-    state_id: '159'
+    region_id: '159'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2124,7 +2124,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1052'
     dataset_id: '1052'
-    state_id: '160'
+    region_id: '160'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2136,7 +2136,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1053'
     dataset_id: '1053'
-    state_id: '161'
+    region_id: '161'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2148,7 +2148,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1054'
     dataset_id: '1054'
-    state_id: '162'
+    region_id: '162'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2160,7 +2160,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1055'
     dataset_id: '1055'
-    state_id: '163'
+    region_id: '163'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2172,7 +2172,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1056'
     dataset_id: '1056'
-    state_id: '164'
+    region_id: '164'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2184,7 +2184,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1057'
     dataset_id: '1057'
-    state_id: '165'
+    region_id: '165'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2196,7 +2196,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1058'
     dataset_id: '1058'
-    state_id: '166'
+    region_id: '166'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2208,7 +2208,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1059'
     dataset_id: '1059'
-    state_id: '167'
+    region_id: '167'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2220,7 +2220,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1060'
     dataset_id: '1060'
-    state_id: '168'
+    region_id: '168'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2232,7 +2232,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1061'
     dataset_id: '1061'
-    state_id: '169'
+    region_id: '169'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2244,7 +2244,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1062'
     dataset_id: '1062'
-    state_id: '170'
+    region_id: '170'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2256,7 +2256,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1063'
     dataset_id: '1063'
-    state_id: '171'
+    region_id: '171'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2268,7 +2268,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1064'
     dataset_id: '1064'
-    state_id: '172'
+    region_id: '172'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2280,7 +2280,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1065'
     dataset_id: '1065'
-    state_id: '173'
+    region_id: '173'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2292,7 +2292,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1066'
     dataset_id: '1066'
-    state_id: '174'
+    region_id: '174'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2304,7 +2304,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1067'
     dataset_id: '1067'
-    state_id: '175'
+    region_id: '175'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2316,7 +2316,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1068'
     dataset_id: '1068'
-    state_id: '176'
+    region_id: '176'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2328,7 +2328,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1069'
     dataset_id: '1069'
-    state_id: '177'
+    region_id: '177'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2340,7 +2340,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1070'
     dataset_id: '1070'
-    state_id: '178'
+    region_id: '178'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2352,7 +2352,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1071'
     dataset_id: '1071'
-    state_id: '179'
+    region_id: '179'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2364,7 +2364,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1072'
     dataset_id: '1072'
-    state_id: '180'
+    region_id: '180'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2376,7 +2376,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1073'
     dataset_id: '1073'
-    state_id: '181'
+    region_id: '181'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2388,7 +2388,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1074'
     dataset_id: '1074'
-    state_id: '182'
+    region_id: '182'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2400,7 +2400,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1075'
     dataset_id: '1075'
-    state_id: '183'
+    region_id: '183'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2412,7 +2412,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1076'
     dataset_id: '1076'
-    state_id: '184'
+    region_id: '184'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2424,7 +2424,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1077'
     dataset_id: '1077'
-    state_id: '185'
+    region_id: '185'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2436,7 +2436,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1078'
     dataset_id: '1078'
-    state_id: '186'
+    region_id: '186'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2448,7 +2448,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1079'
     dataset_id: '1079'
-    state_id: '187'
+    region_id: '187'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2460,7 +2460,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1080'
     dataset_id: '1080'
-    state_id: '188'
+    region_id: '188'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2472,7 +2472,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1081'
     dataset_id: '1081'
-    state_id: '189'
+    region_id: '189'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2484,7 +2484,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1082'
     dataset_id: '1082'
-    state_id: '190'
+    region_id: '190'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2496,7 +2496,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1083'
     dataset_id: '1083'
-    state_id: '191'
+    region_id: '191'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2508,7 +2508,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1084'
     dataset_id: '1084'
-    state_id: '192'
+    region_id: '192'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2520,7 +2520,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1085'
     dataset_id: '1085'
-    state_id: '193'
+    region_id: '193'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2532,7 +2532,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1086'
     dataset_id: '1086'
-    state_id: '194'
+    region_id: '194'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2544,7 +2544,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1087'
     dataset_id: '1087'
-    state_id: '195'
+    region_id: '195'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-20'
@@ -2556,7 +2556,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1281'
     dataset_id: '1281'
-    state_id: '196'
+    region_id: '196'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2568,7 +2568,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1282'
     dataset_id: '1282'
-    state_id: '197'
+    region_id: '197'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2580,7 +2580,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1283'
     dataset_id: '1283'
-    state_id: '198'
+    region_id: '198'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2592,7 +2592,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1284'
     dataset_id: '1284'
-    state_id: '199'
+    region_id: '199'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2604,7 +2604,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1285'
     dataset_id: '1285'
-    state_id: '200'
+    region_id: '200'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2616,7 +2616,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1286'
     dataset_id: '1286'
-    state_id: '201'
+    region_id: '201'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2628,7 +2628,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1287'
     dataset_id: '1287'
-    state_id: '202'
+    region_id: '202'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2640,7 +2640,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1288'
     dataset_id: '1288'
-    state_id: '203'
+    region_id: '203'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2652,7 +2652,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1289'
     dataset_id: '1289'
-    state_id: '204'
+    region_id: '204'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2664,7 +2664,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1290'
     dataset_id: '1290'
-    state_id: '205'
+    region_id: '205'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2676,7 +2676,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1291'
     dataset_id: '1291'
-    state_id: '206'
+    region_id: '206'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2688,7 +2688,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1292'
     dataset_id: '1292'
-    state_id: '207'
+    region_id: '207'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2700,7 +2700,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1293'
     dataset_id: '1293'
-    state_id: '208'
+    region_id: '208'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2712,7 +2712,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1294'
     dataset_id: '1294'
-    state_id: '209'
+    region_id: '209'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2724,7 +2724,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1295'
     dataset_id: '1295'
-    state_id: '210'
+    region_id: '210'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2736,7 +2736,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1296'
     dataset_id: '1296'
-    state_id: '211'
+    region_id: '211'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2748,7 +2748,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1297'
     dataset_id: '1297'
-    state_id: '212'
+    region_id: '212'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2760,7 +2760,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1298'
     dataset_id: '1298'
-    state_id: '213'
+    region_id: '213'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2772,7 +2772,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1299'
     dataset_id: '1299'
-    state_id: '214'
+    region_id: '214'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2784,7 +2784,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1300'
     dataset_id: '1300'
-    state_id: '215'
+    region_id: '215'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2796,7 +2796,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1301'
     dataset_id: '1301'
-    state_id: '216'
+    region_id: '216'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2808,7 +2808,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1302'
     dataset_id: '1302'
-    state_id: '217'
+    region_id: '217'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2820,7 +2820,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1303'
     dataset_id: '1303'
-    state_id: '218'
+    region_id: '218'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2832,7 +2832,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1304'
     dataset_id: '1304'
-    state_id: '219'
+    region_id: '219'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2844,7 +2844,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1305'
     dataset_id: '1305'
-    state_id: '220'
+    region_id: '220'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2856,7 +2856,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1306'
     dataset_id: '1306'
-    state_id: '221'
+    region_id: '221'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2868,7 +2868,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1307'
     dataset_id: '1307'
-    state_id: '222'
+    region_id: '222'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2880,7 +2880,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1308'
     dataset_id: '1308'
-    state_id: '223'
+    region_id: '223'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2892,7 +2892,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1309'
     dataset_id: '1309'
-    state_id: '224'
+    region_id: '224'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2904,7 +2904,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1310'
     dataset_id: '1310'
-    state_id: '225'
+    region_id: '225'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2916,7 +2916,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1311'
     dataset_id: '1311'
-    state_id: '226'
+    region_id: '226'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-21'
@@ -2928,7 +2928,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1436'
     dataset_id: '1436'
-    state_id: '227'
+    region_id: '227'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -2940,7 +2940,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1437'
     dataset_id: '1437'
-    state_id: '228'
+    region_id: '228'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -2952,7 +2952,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1438'
     dataset_id: '1438'
-    state_id: '229'
+    region_id: '229'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -2964,7 +2964,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1439'
     dataset_id: '1439'
-    state_id: '230'
+    region_id: '230'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -2976,7 +2976,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1440'
     dataset_id: '1440'
-    state_id: '231'
+    region_id: '231'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -2988,7 +2988,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1441'
     dataset_id: '1441'
-    state_id: '232'
+    region_id: '232'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3000,7 +3000,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1442'
     dataset_id: '1442'
-    state_id: '233'
+    region_id: '233'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3012,7 +3012,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1443'
     dataset_id: '1443'
-    state_id: '234'
+    region_id: '234'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3024,7 +3024,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1444'
     dataset_id: '1444'
-    state_id: '235'
+    region_id: '235'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3036,7 +3036,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1445'
     dataset_id: '1445'
-    state_id: '236'
+    region_id: '236'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3048,7 +3048,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1446'
     dataset_id: '1446'
-    state_id: '237'
+    region_id: '237'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3060,7 +3060,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1447'
     dataset_id: '1447'
-    state_id: '238'
+    region_id: '238'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3072,7 +3072,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1448'
     dataset_id: '1448'
-    state_id: '239'
+    region_id: '239'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3084,7 +3084,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1449'
     dataset_id: '1449'
-    state_id: '240'
+    region_id: '240'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3096,7 +3096,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1450'
     dataset_id: '1450'
-    state_id: '241'
+    region_id: '241'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3108,7 +3108,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1451'
     dataset_id: '1451'
-    state_id: '242'
+    region_id: '242'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3120,7 +3120,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1452'
     dataset_id: '1452'
-    state_id: '243'
+    region_id: '243'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3132,7 +3132,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1453'
     dataset_id: '1453'
-    state_id: '244'
+    region_id: '244'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3144,7 +3144,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1454'
     dataset_id: '1454'
-    state_id: '245'
+    region_id: '245'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3156,7 +3156,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1455'
     dataset_id: '1455'
-    state_id: '246'
+    region_id: '246'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3168,7 +3168,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1456'
     dataset_id: '1456'
-    state_id: '247'
+    region_id: '247'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3180,7 +3180,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1457'
     dataset_id: '1457'
-    state_id: '248'
+    region_id: '248'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3192,7 +3192,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1458'
     dataset_id: '1458'
-    state_id: '249'
+    region_id: '249'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3204,7 +3204,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1459'
     dataset_id: '1459'
-    state_id: '250'
+    region_id: '250'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3216,7 +3216,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1460'
     dataset_id: '1460'
-    state_id: '251'
+    region_id: '251'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3228,7 +3228,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1461'
     dataset_id: '1461'
-    state_id: '252'
+    region_id: '252'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3240,7 +3240,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1462'
     dataset_id: '1462'
-    state_id: '253'
+    region_id: '253'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3252,7 +3252,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1463'
     dataset_id: '1463'
-    state_id: '254'
+    region_id: '254'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3264,7 +3264,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1464'
     dataset_id: '1464'
-    state_id: '255'
+    region_id: '255'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3276,7 +3276,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1465'
     dataset_id: '1465'
-    state_id: '256'
+    region_id: '256'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3288,7 +3288,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1466'
     dataset_id: '1466'
-    state_id: '257'
+    region_id: '257'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3300,7 +3300,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1467'
     dataset_id: '1467'
-    state_id: '258'
+    region_id: '258'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3312,7 +3312,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1468'
     dataset_id: '1468'
-    state_id: '259'
+    region_id: '259'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-22'
@@ -3324,7 +3324,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2050'
     dataset_id: '2050'
-    state_id: '260'
+    region_id: '260'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3336,7 +3336,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2051'
     dataset_id: '2051'
-    state_id: '261'
+    region_id: '261'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3348,7 +3348,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2052'
     dataset_id: '2052'
-    state_id: '262'
+    region_id: '262'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3360,7 +3360,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2053'
     dataset_id: '2053'
-    state_id: '263'
+    region_id: '263'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3372,7 +3372,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2054'
     dataset_id: '2054'
-    state_id: '264'
+    region_id: '264'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3384,7 +3384,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2055'
     dataset_id: '2055'
-    state_id: '265'
+    region_id: '265'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3396,7 +3396,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2056'
     dataset_id: '2056'
-    state_id: '266'
+    region_id: '266'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3408,7 +3408,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2057'
     dataset_id: '2057'
-    state_id: '267'
+    region_id: '267'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3420,7 +3420,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2058'
     dataset_id: '2058'
-    state_id: '268'
+    region_id: '268'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3432,7 +3432,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2059'
     dataset_id: '2059'
-    state_id: '269'
+    region_id: '269'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3444,7 +3444,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2060'
     dataset_id: '2060'
-    state_id: '270'
+    region_id: '270'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3456,7 +3456,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2061'
     dataset_id: '2061'
-    state_id: '271'
+    region_id: '271'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3468,7 +3468,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2062'
     dataset_id: '2062'
-    state_id: '272'
+    region_id: '272'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3480,7 +3480,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2063'
     dataset_id: '2063'
-    state_id: '273'
+    region_id: '273'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3492,7 +3492,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2064'
     dataset_id: '2064'
-    state_id: '274'
+    region_id: '274'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3504,7 +3504,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2065'
     dataset_id: '2065'
-    state_id: '275'
+    region_id: '275'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3516,7 +3516,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2066'
     dataset_id: '2066'
-    state_id: '276'
+    region_id: '276'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3528,7 +3528,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2067'
     dataset_id: '2067'
-    state_id: '277'
+    region_id: '277'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3540,7 +3540,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2068'
     dataset_id: '2068'
-    state_id: '278'
+    region_id: '278'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3552,7 +3552,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2069'
     dataset_id: '2069'
-    state_id: '279'
+    region_id: '279'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3564,7 +3564,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2070'
     dataset_id: '2070'
-    state_id: '280'
+    region_id: '280'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3576,7 +3576,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2071'
     dataset_id: '2071'
-    state_id: '281'
+    region_id: '281'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3588,7 +3588,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2072'
     dataset_id: '2072'
-    state_id: '282'
+    region_id: '282'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3600,7 +3600,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2073'
     dataset_id: '2073'
-    state_id: '283'
+    region_id: '283'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3612,7 +3612,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2074'
     dataset_id: '2074'
-    state_id: '284'
+    region_id: '284'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3624,7 +3624,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2075'
     dataset_id: '2075'
-    state_id: '285'
+    region_id: '285'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3636,7 +3636,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2076'
     dataset_id: '2076'
-    state_id: '286'
+    region_id: '286'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3648,7 +3648,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2077'
     dataset_id: '2077'
-    state_id: '287'
+    region_id: '287'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3660,7 +3660,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2078'
     dataset_id: '2078'
-    state_id: '288'
+    region_id: '288'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3672,7 +3672,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2079'
     dataset_id: '2079'
-    state_id: '289'
+    region_id: '289'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3684,7 +3684,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2080'
     dataset_id: '2080'
-    state_id: '290'
+    region_id: '290'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3696,7 +3696,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2081'
     dataset_id: '2081'
-    state_id: '291'
+    region_id: '291'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3708,7 +3708,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2082'
     dataset_id: '2082'
-    state_id: '292'
+    region_id: '292'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3720,7 +3720,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2083'
     dataset_id: '2083'
-    state_id: '293'
+    region_id: '293'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3732,7 +3732,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2084'
     dataset_id: '2084'
-    state_id: '294'
+    region_id: '294'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3744,7 +3744,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2085'
     dataset_id: '2085'
-    state_id: '295'
+    region_id: '295'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3756,7 +3756,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2086'
     dataset_id: '2086'
-    state_id: '296'
+    region_id: '296'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3768,7 +3768,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2087'
     dataset_id: '2087'
-    state_id: '297'
+    region_id: '297'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3780,7 +3780,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2088'
     dataset_id: '2088'
-    state_id: '298'
+    region_id: '298'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3792,7 +3792,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2089'
     dataset_id: '2089'
-    state_id: '299'
+    region_id: '299'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3804,7 +3804,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2090'
     dataset_id: '2090'
-    state_id: '300'
+    region_id: '300'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3816,7 +3816,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2091'
     dataset_id: '2091'
-    state_id: '301'
+    region_id: '301'
     sources:
       - 'https://covid19stats.alberta.ca/'
     date: '2020-03-23'
@@ -3828,7 +3828,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2591'
     dataset_id: '2591'
-    state_id: '302'
+    region_id: '302'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866241
@@ -3841,7 +3841,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2592'
     dataset_id: '2592'
-    state_id: '303'
+    region_id: '303'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866242
@@ -3854,7 +3854,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2593'
     dataset_id: '2593'
-    state_id: '304'
+    region_id: '304'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866243
@@ -3867,7 +3867,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2594'
     dataset_id: '2594'
-    state_id: '305'
+    region_id: '305'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866244
@@ -3880,7 +3880,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2595'
     dataset_id: '2595'
-    state_id: '306'
+    region_id: '306'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866245
@@ -3893,7 +3893,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2596'
     dataset_id: '2596'
-    state_id: '307'
+    region_id: '307'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866246
@@ -3906,7 +3906,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2597'
     dataset_id: '2597'
-    state_id: '308'
+    region_id: '308'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866247
@@ -3919,7 +3919,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2598'
     dataset_id: '2598'
-    state_id: '309'
+    region_id: '309'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866248
@@ -3932,7 +3932,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2599'
     dataset_id: '2599'
-    state_id: '310'
+    region_id: '310'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866249
@@ -3945,7 +3945,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2600'
     dataset_id: '2600'
-    state_id: '311'
+    region_id: '311'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866250
@@ -3958,7 +3958,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2601'
     dataset_id: '2601'
-    state_id: '312'
+    region_id: '312'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866251
@@ -3971,7 +3971,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2602'
     dataset_id: '2602'
-    state_id: '313'
+    region_id: '313'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866252
@@ -3984,7 +3984,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2603'
     dataset_id: '2603'
-    state_id: '314'
+    region_id: '314'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866253
@@ -3997,7 +3997,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2604'
     dataset_id: '2604'
-    state_id: '315'
+    region_id: '315'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866254
@@ -4010,7 +4010,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2605'
     dataset_id: '2605'
-    state_id: '316'
+    region_id: '316'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866255
@@ -4023,7 +4023,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2606'
     dataset_id: '2606'
-    state_id: '317'
+    region_id: '317'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866256
@@ -4036,7 +4036,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2607'
     dataset_id: '2607'
-    state_id: '318'
+    region_id: '318'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866257
@@ -4049,7 +4049,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2608'
     dataset_id: '2608'
-    state_id: '319'
+    region_id: '319'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866258
@@ -4062,7 +4062,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2609'
     dataset_id: '2609'
-    state_id: '320'
+    region_id: '320'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866259
@@ -4075,7 +4075,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2610'
     dataset_id: '2610'
-    state_id: '321'
+    region_id: '321'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866260
@@ -4088,7 +4088,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2611'
     dataset_id: '2611'
-    state_id: '322'
+    region_id: '322'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866261
@@ -4101,7 +4101,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2612'
     dataset_id: '2612'
-    state_id: '323'
+    region_id: '323'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866262
@@ -4114,7 +4114,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2613'
     dataset_id: '2613'
-    state_id: '324'
+    region_id: '324'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866263
@@ -4127,7 +4127,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2614'
     dataset_id: '2614'
-    state_id: '325'
+    region_id: '325'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866264
@@ -4140,7 +4140,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2615'
     dataset_id: '2615'
-    state_id: '326'
+    region_id: '326'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866265
@@ -4153,7 +4153,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2616'
     dataset_id: '2616'
-    state_id: '327'
+    region_id: '327'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866266
@@ -4166,7 +4166,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2617'
     dataset_id: '2617'
-    state_id: '328'
+    region_id: '328'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866267
@@ -4179,7 +4179,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2618'
     dataset_id: '2618'
-    state_id: '329'
+    region_id: '329'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866268
@@ -4192,7 +4192,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2619'
     dataset_id: '2619'
-    state_id: '330'
+    region_id: '330'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866269
@@ -4205,7 +4205,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2620'
     dataset_id: '2620'
-    state_id: '331'
+    region_id: '331'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866270
@@ -4218,7 +4218,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2621'
     dataset_id: '2621'
-    state_id: '332'
+    region_id: '332'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866271
@@ -4231,7 +4231,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2622'
     dataset_id: '2622'
-    state_id: '333'
+    region_id: '333'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866272
@@ -4244,7 +4244,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2623'
     dataset_id: '2623'
-    state_id: '334'
+    region_id: '334'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866273
@@ -4257,7 +4257,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2624'
     dataset_id: '2624'
-    state_id: '335'
+    region_id: '335'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866274
@@ -4270,7 +4270,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2625'
     dataset_id: '2625'
-    state_id: '336'
+    region_id: '336'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866275
@@ -4283,7 +4283,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2626'
     dataset_id: '2626'
-    state_id: '337'
+    region_id: '337'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866276
@@ -4296,7 +4296,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2627'
     dataset_id: '2627'
-    state_id: '338'
+    region_id: '338'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866277
@@ -4309,7 +4309,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2628'
     dataset_id: '2628'
-    state_id: '339'
+    region_id: '339'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866278
@@ -4322,7 +4322,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2629'
     dataset_id: '2629'
-    state_id: '340'
+    region_id: '340'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866279
@@ -4335,7 +4335,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2630'
     dataset_id: '2630'
-    state_id: '341'
+    region_id: '341'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866280
@@ -4348,7 +4348,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2631'
     dataset_id: '2631'
-    state_id: '342'
+    region_id: '342'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866281
@@ -4361,7 +4361,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2632'
     dataset_id: '2632'
-    state_id: '343'
+    region_id: '343'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866282
@@ -4374,7 +4374,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2633'
     dataset_id: '2633'
-    state_id: '344'
+    region_id: '344'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866283
@@ -4387,7 +4387,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2634'
     dataset_id: '2634'
-    state_id: '345'
+    region_id: '345'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866284
@@ -4400,7 +4400,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2635'
     dataset_id: '2635'
-    state_id: '346'
+    region_id: '346'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866285
@@ -4413,7 +4413,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2636'
     dataset_id: '2636'
-    state_id: '347'
+    region_id: '347'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866286
@@ -4426,7 +4426,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2637'
     dataset_id: '2637'
-    state_id: '348'
+    region_id: '348'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866287
@@ -4439,7 +4439,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2638'
     dataset_id: '2638'
-    state_id: '349'
+    region_id: '349'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866288
@@ -4452,7 +4452,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2639'
     dataset_id: '2639'
-    state_id: '350'
+    region_id: '350'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866289
@@ -4465,7 +4465,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2640'
     dataset_id: '2640'
-    state_id: '351'
+    region_id: '351'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866290
@@ -4478,7 +4478,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2641'
     dataset_id: '2641'
-    state_id: '352'
+    region_id: '352'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866291
@@ -4491,7 +4491,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2642'
     dataset_id: '2642'
-    state_id: '353'
+    region_id: '353'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866292
@@ -4504,7 +4504,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2643'
     dataset_id: '2643'
-    state_id: '354'
+    region_id: '354'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866293
@@ -4517,7 +4517,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2644'
     dataset_id: '2644'
-    state_id: '355'
+    region_id: '355'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866294
@@ -4530,7 +4530,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2645'
     dataset_id: '2645'
-    state_id: '356'
+    region_id: '356'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866295
@@ -4543,7 +4543,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2646'
     dataset_id: '2646'
-    state_id: '357'
+    region_id: '357'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866296
@@ -4556,7 +4556,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2647'
     dataset_id: '2647'
-    state_id: '358'
+    region_id: '358'
     sources:
       - >-
         https://edmonton.ctvnews.ca/alberta-confirms-57-new-covid-19-cases-second-death-1.4866297
@@ -4569,7 +4569,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3307'
     dataset_id: '3307'
-    state_id: '359'
+    region_id: '359'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4581,7 +4581,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3308'
     dataset_id: '3308'
-    state_id: '360'
+    region_id: '360'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4593,7 +4593,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3309'
     dataset_id: '3309'
-    state_id: '361'
+    region_id: '361'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4605,7 +4605,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3310'
     dataset_id: '3310'
-    state_id: '362'
+    region_id: '362'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4617,7 +4617,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3311'
     dataset_id: '3311'
-    state_id: '363'
+    region_id: '363'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4629,7 +4629,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3312'
     dataset_id: '3312'
-    state_id: '364'
+    region_id: '364'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4641,7 +4641,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3313'
     dataset_id: '3313'
-    state_id: '365'
+    region_id: '365'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4653,7 +4653,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3314'
     dataset_id: '3314'
-    state_id: '366'
+    region_id: '366'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4665,7 +4665,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3315'
     dataset_id: '3315'
-    state_id: '367'
+    region_id: '367'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4677,7 +4677,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3316'
     dataset_id: '3316'
-    state_id: '368'
+    region_id: '368'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4689,7 +4689,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3317'
     dataset_id: '3317'
-    state_id: '369'
+    region_id: '369'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4701,7 +4701,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3318'
     dataset_id: '3318'
-    state_id: '370'
+    region_id: '370'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4713,7 +4713,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3319'
     dataset_id: '3319'
-    state_id: '371'
+    region_id: '371'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4725,7 +4725,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3320'
     dataset_id: '3320'
-    state_id: '372'
+    region_id: '372'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4737,7 +4737,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3321'
     dataset_id: '3321'
-    state_id: '373'
+    region_id: '373'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4749,7 +4749,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3322'
     dataset_id: '3322'
-    state_id: '374'
+    region_id: '374'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4761,7 +4761,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3323'
     dataset_id: '3323'
-    state_id: '375'
+    region_id: '375'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4773,7 +4773,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3324'
     dataset_id: '3324'
-    state_id: '376'
+    region_id: '376'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4785,7 +4785,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3325'
     dataset_id: '3325'
-    state_id: '377'
+    region_id: '377'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4797,7 +4797,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3326'
     dataset_id: '3326'
-    state_id: '378'
+    region_id: '378'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4809,7 +4809,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3327'
     dataset_id: '3327'
-    state_id: '379'
+    region_id: '379'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4821,7 +4821,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3328'
     dataset_id: '3328'
-    state_id: '380'
+    region_id: '380'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4833,7 +4833,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3329'
     dataset_id: '3329'
-    state_id: '381'
+    region_id: '381'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4845,7 +4845,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3330'
     dataset_id: '3330'
-    state_id: '382'
+    region_id: '382'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4857,7 +4857,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3331'
     dataset_id: '3331'
-    state_id: '383'
+    region_id: '383'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4869,7 +4869,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3332'
     dataset_id: '3332'
-    state_id: '384'
+    region_id: '384'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4881,7 +4881,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3333'
     dataset_id: '3333'
-    state_id: '385'
+    region_id: '385'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4893,7 +4893,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3334'
     dataset_id: '3334'
-    state_id: '386'
+    region_id: '386'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4905,7 +4905,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3335'
     dataset_id: '3335'
-    state_id: '387'
+    region_id: '387'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4917,7 +4917,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3336'
     dataset_id: '3336'
-    state_id: '388'
+    region_id: '388'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4929,7 +4929,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3337'
     dataset_id: '3337'
-    state_id: '389'
+    region_id: '389'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4941,7 +4941,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3338'
     dataset_id: '3338'
-    state_id: '390'
+    region_id: '390'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4953,7 +4953,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3339'
     dataset_id: '3339'
-    state_id: '391'
+    region_id: '391'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4965,7 +4965,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3340'
     dataset_id: '3340'
-    state_id: '392'
+    region_id: '392'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4977,7 +4977,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3341'
     dataset_id: '3341'
-    state_id: '393'
+    region_id: '393'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -4989,7 +4989,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3342'
     dataset_id: '3342'
-    state_id: '394'
+    region_id: '394'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5001,7 +5001,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3343'
     dataset_id: '3343'
-    state_id: '395'
+    region_id: '395'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5013,7 +5013,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3344'
     dataset_id: '3344'
-    state_id: '396'
+    region_id: '396'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5025,7 +5025,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3345'
     dataset_id: '3345'
-    state_id: '397'
+    region_id: '397'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5037,7 +5037,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3346'
     dataset_id: '3346'
-    state_id: '398'
+    region_id: '398'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5049,7 +5049,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3347'
     dataset_id: '3347'
-    state_id: '399'
+    region_id: '399'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5061,7 +5061,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3348'
     dataset_id: '3348'
-    state_id: '400'
+    region_id: '400'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5073,7 +5073,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3349'
     dataset_id: '3349'
-    state_id: '401'
+    region_id: '401'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5085,7 +5085,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3350'
     dataset_id: '3350'
-    state_id: '402'
+    region_id: '402'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5097,7 +5097,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3351'
     dataset_id: '3351'
-    state_id: '403'
+    region_id: '403'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5109,7 +5109,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3352'
     dataset_id: '3352'
-    state_id: '404'
+    region_id: '404'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5121,7 +5121,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3353'
     dataset_id: '3353'
-    state_id: '405'
+    region_id: '405'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5133,7 +5133,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3354'
     dataset_id: '3354'
-    state_id: '406'
+    region_id: '406'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5145,7 +5145,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3355'
     dataset_id: '3355'
-    state_id: '407'
+    region_id: '407'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5157,7 +5157,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3356'
     dataset_id: '3356'
-    state_id: '408'
+    region_id: '408'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5169,7 +5169,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3357'
     dataset_id: '3357'
-    state_id: '409'
+    region_id: '409'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5181,7 +5181,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3358'
     dataset_id: '3358'
-    state_id: '410'
+    region_id: '410'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5193,7 +5193,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3359'
     dataset_id: '3359'
-    state_id: '411'
+    region_id: '411'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5205,7 +5205,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3360'
     dataset_id: '3360'
-    state_id: '412'
+    region_id: '412'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5217,7 +5217,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3361'
     dataset_id: '3361'
-    state_id: '413'
+    region_id: '413'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5229,7 +5229,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3362'
     dataset_id: '3362'
-    state_id: '414'
+    region_id: '414'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5241,7 +5241,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3363'
     dataset_id: '3363'
-    state_id: '415'
+    region_id: '415'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5253,7 +5253,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3364'
     dataset_id: '3364'
-    state_id: '416'
+    region_id: '416'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5265,7 +5265,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3365'
     dataset_id: '3365'
-    state_id: '417'
+    region_id: '417'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5277,7 +5277,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3366'
     dataset_id: '3366'
-    state_id: '418'
+    region_id: '418'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5289,7 +5289,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3367'
     dataset_id: '3367'
-    state_id: '419'
+    region_id: '419'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-25'
@@ -5301,7 +5301,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3907'
     dataset_id: '3907'
-    state_id: '420'
+    region_id: '420'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5313,7 +5313,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3908'
     dataset_id: '3908'
-    state_id: '421'
+    region_id: '421'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5325,7 +5325,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3909'
     dataset_id: '3909'
-    state_id: '422'
+    region_id: '422'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5337,7 +5337,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3910'
     dataset_id: '3910'
-    state_id: '423'
+    region_id: '423'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5349,7 +5349,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3911'
     dataset_id: '3911'
-    state_id: '424'
+    region_id: '424'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5361,7 +5361,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3912'
     dataset_id: '3912'
-    state_id: '425'
+    region_id: '425'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5373,7 +5373,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3913'
     dataset_id: '3913'
-    state_id: '426'
+    region_id: '426'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5385,7 +5385,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3914'
     dataset_id: '3914'
-    state_id: '427'
+    region_id: '427'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5397,7 +5397,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3915'
     dataset_id: '3915'
-    state_id: '428'
+    region_id: '428'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5409,7 +5409,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3916'
     dataset_id: '3916'
-    state_id: '429'
+    region_id: '429'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5421,7 +5421,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3917'
     dataset_id: '3917'
-    state_id: '430'
+    region_id: '430'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5433,7 +5433,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3918'
     dataset_id: '3918'
-    state_id: '431'
+    region_id: '431'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5445,7 +5445,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3919'
     dataset_id: '3919'
-    state_id: '432'
+    region_id: '432'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5457,7 +5457,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3920'
     dataset_id: '3920'
-    state_id: '433'
+    region_id: '433'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5469,7 +5469,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3921'
     dataset_id: '3921'
-    state_id: '434'
+    region_id: '434'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5481,7 +5481,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3922'
     dataset_id: '3922'
-    state_id: '435'
+    region_id: '435'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5493,7 +5493,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3923'
     dataset_id: '3923'
-    state_id: '436'
+    region_id: '436'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5505,7 +5505,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3924'
     dataset_id: '3924'
-    state_id: '437'
+    region_id: '437'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5517,7 +5517,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3925'
     dataset_id: '3925'
-    state_id: '438'
+    region_id: '438'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5529,7 +5529,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3926'
     dataset_id: '3926'
-    state_id: '439'
+    region_id: '439'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5541,7 +5541,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3927'
     dataset_id: '3927'
-    state_id: '440'
+    region_id: '440'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5553,7 +5553,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3928'
     dataset_id: '3928'
-    state_id: '441'
+    region_id: '441'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5565,7 +5565,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3929'
     dataset_id: '3929'
-    state_id: '442'
+    region_id: '442'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5577,7 +5577,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3930'
     dataset_id: '3930'
-    state_id: '443'
+    region_id: '443'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5589,7 +5589,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3931'
     dataset_id: '3931'
-    state_id: '444'
+    region_id: '444'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5601,7 +5601,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3932'
     dataset_id: '3932'
-    state_id: '445'
+    region_id: '445'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5613,7 +5613,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3933'
     dataset_id: '3933'
-    state_id: '446'
+    region_id: '446'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5625,7 +5625,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3934'
     dataset_id: '3934'
-    state_id: '447'
+    region_id: '447'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5637,7 +5637,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3935'
     dataset_id: '3935'
-    state_id: '448'
+    region_id: '448'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5649,7 +5649,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3936'
     dataset_id: '3936'
-    state_id: '449'
+    region_id: '449'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5661,7 +5661,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3937'
     dataset_id: '3937'
-    state_id: '450'
+    region_id: '450'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5673,7 +5673,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3938'
     dataset_id: '3938'
-    state_id: '451'
+    region_id: '451'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5685,7 +5685,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3939'
     dataset_id: '3939'
-    state_id: '452'
+    region_id: '452'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5697,7 +5697,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3940'
     dataset_id: '3940'
-    state_id: '453'
+    region_id: '453'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5709,7 +5709,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3941'
     dataset_id: '3941'
-    state_id: '454'
+    region_id: '454'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5721,7 +5721,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3942'
     dataset_id: '3942'
-    state_id: '455'
+    region_id: '455'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5733,7 +5733,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3943'
     dataset_id: '3943'
-    state_id: '456'
+    region_id: '456'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5745,7 +5745,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3944'
     dataset_id: '3944'
-    state_id: '457'
+    region_id: '457'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5757,7 +5757,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3945'
     dataset_id: '3945'
-    state_id: '458'
+    region_id: '458'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5769,7 +5769,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3946'
     dataset_id: '3946'
-    state_id: '459'
+    region_id: '459'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5781,7 +5781,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3947'
     dataset_id: '3947'
-    state_id: '460'
+    region_id: '460'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5793,7 +5793,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3948'
     dataset_id: '3948'
-    state_id: '461'
+    region_id: '461'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5805,7 +5805,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3949'
     dataset_id: '3949'
-    state_id: '462'
+    region_id: '462'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5817,7 +5817,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3950'
     dataset_id: '3950'
-    state_id: '463'
+    region_id: '463'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5829,7 +5829,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3951'
     dataset_id: '3951'
-    state_id: '464'
+    region_id: '464'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5841,7 +5841,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3952'
     dataset_id: '3952'
-    state_id: '465'
+    region_id: '465'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5853,7 +5853,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3953'
     dataset_id: '3953'
-    state_id: '466'
+    region_id: '466'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5865,7 +5865,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3954'
     dataset_id: '3954'
-    state_id: '467'
+    region_id: '467'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5877,7 +5877,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3955'
     dataset_id: '3955'
-    state_id: '468'
+    region_id: '468'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5889,7 +5889,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3956'
     dataset_id: '3956'
-    state_id: '469'
+    region_id: '469'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5901,7 +5901,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3957'
     dataset_id: '3957'
-    state_id: '470'
+    region_id: '470'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5913,7 +5913,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3958'
     dataset_id: '3958'
-    state_id: '471'
+    region_id: '471'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5925,7 +5925,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3959'
     dataset_id: '3959'
-    state_id: '472'
+    region_id: '472'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5937,7 +5937,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3960'
     dataset_id: '3960'
-    state_id: '473'
+    region_id: '473'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5949,7 +5949,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3961'
     dataset_id: '3961'
-    state_id: '474'
+    region_id: '474'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5961,7 +5961,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3962'
     dataset_id: '3962'
-    state_id: '475'
+    region_id: '475'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5973,7 +5973,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3963'
     dataset_id: '3963'
-    state_id: '476'
+    region_id: '476'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5985,7 +5985,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3964'
     dataset_id: '3964'
-    state_id: '477'
+    region_id: '477'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -5997,7 +5997,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3965'
     dataset_id: '3965'
-    state_id: '478'
+    region_id: '478'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6009,7 +6009,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3966'
     dataset_id: '3966'
-    state_id: '479'
+    region_id: '479'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6021,7 +6021,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3967'
     dataset_id: '3967'
-    state_id: '480'
+    region_id: '480'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6033,7 +6033,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3968'
     dataset_id: '3968'
-    state_id: '481'
+    region_id: '481'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6045,7 +6045,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3969'
     dataset_id: '3969'
-    state_id: '482'
+    region_id: '482'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6057,7 +6057,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3970'
     dataset_id: '3970'
-    state_id: '483'
+    region_id: '483'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6069,7 +6069,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3971'
     dataset_id: '3971'
-    state_id: '484'
+    region_id: '484'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6081,7 +6081,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3972'
     dataset_id: '3972'
-    state_id: '485'
+    region_id: '485'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6093,7 +6093,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3973'
     dataset_id: '3973'
-    state_id: '486'
+    region_id: '486'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-26'
@@ -6105,7 +6105,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4634'
     dataset_id: '4634'
-    state_id: '487'
+    region_id: '487'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6117,7 +6117,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4635'
     dataset_id: '4635'
-    state_id: '488'
+    region_id: '488'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6129,7 +6129,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4636'
     dataset_id: '4636'
-    state_id: '489'
+    region_id: '489'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6141,7 +6141,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4637'
     dataset_id: '4637'
-    state_id: '490'
+    region_id: '490'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6153,7 +6153,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4638'
     dataset_id: '4638'
-    state_id: '491'
+    region_id: '491'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6165,7 +6165,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4639'
     dataset_id: '4639'
-    state_id: '492'
+    region_id: '492'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6177,7 +6177,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4640'
     dataset_id: '4640'
-    state_id: '493'
+    region_id: '493'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6189,7 +6189,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4641'
     dataset_id: '4641'
-    state_id: '494'
+    region_id: '494'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6201,7 +6201,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4642'
     dataset_id: '4642'
-    state_id: '495'
+    region_id: '495'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6213,7 +6213,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4643'
     dataset_id: '4643'
-    state_id: '496'
+    region_id: '496'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6225,7 +6225,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4644'
     dataset_id: '4644'
-    state_id: '497'
+    region_id: '497'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6237,7 +6237,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4645'
     dataset_id: '4645'
-    state_id: '498'
+    region_id: '498'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6249,7 +6249,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4646'
     dataset_id: '4646'
-    state_id: '499'
+    region_id: '499'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6261,7 +6261,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4647'
     dataset_id: '4647'
-    state_id: '500'
+    region_id: '500'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6273,7 +6273,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4648'
     dataset_id: '4648'
-    state_id: '501'
+    region_id: '501'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6285,7 +6285,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4649'
     dataset_id: '4649'
-    state_id: '502'
+    region_id: '502'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6297,7 +6297,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4650'
     dataset_id: '4650'
-    state_id: '503'
+    region_id: '503'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6309,7 +6309,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4651'
     dataset_id: '4651'
-    state_id: '504'
+    region_id: '504'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6321,7 +6321,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4652'
     dataset_id: '4652'
-    state_id: '505'
+    region_id: '505'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6333,7 +6333,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4653'
     dataset_id: '4653'
-    state_id: '506'
+    region_id: '506'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6345,7 +6345,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4654'
     dataset_id: '4654'
-    state_id: '507'
+    region_id: '507'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6357,7 +6357,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4655'
     dataset_id: '4655'
-    state_id: '508'
+    region_id: '508'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6369,7 +6369,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4656'
     dataset_id: '4656'
-    state_id: '509'
+    region_id: '509'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6381,7 +6381,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4657'
     dataset_id: '4657'
-    state_id: '510'
+    region_id: '510'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6393,7 +6393,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4658'
     dataset_id: '4658'
-    state_id: '511'
+    region_id: '511'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6405,7 +6405,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4659'
     dataset_id: '4659'
-    state_id: '512'
+    region_id: '512'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6417,7 +6417,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4660'
     dataset_id: '4660'
-    state_id: '513'
+    region_id: '513'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6429,7 +6429,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4661'
     dataset_id: '4661'
-    state_id: '514'
+    region_id: '514'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6441,7 +6441,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4662'
     dataset_id: '4662'
-    state_id: '515'
+    region_id: '515'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6453,7 +6453,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4663'
     dataset_id: '4663'
-    state_id: '516'
+    region_id: '516'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6465,7 +6465,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4664'
     dataset_id: '4664'
-    state_id: '517'
+    region_id: '517'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6477,7 +6477,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4665'
     dataset_id: '4665'
-    state_id: '518'
+    region_id: '518'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6489,7 +6489,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4666'
     dataset_id: '4666'
-    state_id: '519'
+    region_id: '519'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6501,7 +6501,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4667'
     dataset_id: '4667'
-    state_id: '520'
+    region_id: '520'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6513,7 +6513,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4668'
     dataset_id: '4668'
-    state_id: '521'
+    region_id: '521'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6525,7 +6525,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4669'
     dataset_id: '4669'
-    state_id: '522'
+    region_id: '522'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6537,7 +6537,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4670'
     dataset_id: '4670'
-    state_id: '523'
+    region_id: '523'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6549,7 +6549,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4671'
     dataset_id: '4671'
-    state_id: '524'
+    region_id: '524'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6561,7 +6561,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4672'
     dataset_id: '4672'
-    state_id: '525'
+    region_id: '525'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6573,7 +6573,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4673'
     dataset_id: '4673'
-    state_id: '526'
+    region_id: '526'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6585,7 +6585,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4674'
     dataset_id: '4674'
-    state_id: '527'
+    region_id: '527'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6597,7 +6597,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4675'
     dataset_id: '4675'
-    state_id: '528'
+    region_id: '528'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6609,7 +6609,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4676'
     dataset_id: '4676'
-    state_id: '529'
+    region_id: '529'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6621,7 +6621,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4677'
     dataset_id: '4677'
-    state_id: '530'
+    region_id: '530'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6633,7 +6633,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4678'
     dataset_id: '4678'
-    state_id: '531'
+    region_id: '531'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6645,7 +6645,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4679'
     dataset_id: '4679'
-    state_id: '532'
+    region_id: '532'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6657,7 +6657,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4680'
     dataset_id: '4680'
-    state_id: '533'
+    region_id: '533'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6669,7 +6669,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4681'
     dataset_id: '4681'
-    state_id: '534'
+    region_id: '534'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6681,7 +6681,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4682'
     dataset_id: '4682'
-    state_id: '535'
+    region_id: '535'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6693,7 +6693,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4683'
     dataset_id: '4683'
-    state_id: '536'
+    region_id: '536'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6705,7 +6705,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4684'
     dataset_id: '4684'
-    state_id: '537'
+    region_id: '537'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6717,7 +6717,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4685'
     dataset_id: '4685'
-    state_id: '538'
+    region_id: '538'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6729,7 +6729,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4686'
     dataset_id: '4686'
-    state_id: '539'
+    region_id: '539'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6741,7 +6741,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4687'
     dataset_id: '4687'
-    state_id: '540'
+    region_id: '540'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6753,7 +6753,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4688'
     dataset_id: '4688'
-    state_id: '541'
+    region_id: '541'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6765,7 +6765,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4689'
     dataset_id: '4689'
-    state_id: '542'
+    region_id: '542'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-27'
@@ -6777,7 +6777,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5577'
     dataset_id: '5577'
-    state_id: '543'
+    region_id: '543'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6789,7 +6789,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5578'
     dataset_id: '5578'
-    state_id: '544'
+    region_id: '544'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6801,7 +6801,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5579'
     dataset_id: '5579'
-    state_id: '545'
+    region_id: '545'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6813,7 +6813,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5580'
     dataset_id: '5580'
-    state_id: '546'
+    region_id: '546'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6825,7 +6825,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5581'
     dataset_id: '5581'
-    state_id: '547'
+    region_id: '547'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6837,7 +6837,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5582'
     dataset_id: '5582'
-    state_id: '548'
+    region_id: '548'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6849,7 +6849,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5583'
     dataset_id: '5583'
-    state_id: '549'
+    region_id: '549'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6861,7 +6861,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5584'
     dataset_id: '5584'
-    state_id: '550'
+    region_id: '550'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6873,7 +6873,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5585'
     dataset_id: '5585'
-    state_id: '551'
+    region_id: '551'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6885,7 +6885,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5586'
     dataset_id: '5586'
-    state_id: '552'
+    region_id: '552'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6897,7 +6897,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5587'
     dataset_id: '5587'
-    state_id: '553'
+    region_id: '553'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6909,7 +6909,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5588'
     dataset_id: '5588'
-    state_id: '554'
+    region_id: '554'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6921,7 +6921,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5589'
     dataset_id: '5589'
-    state_id: '555'
+    region_id: '555'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6933,7 +6933,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5590'
     dataset_id: '5590'
-    state_id: '556'
+    region_id: '556'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6945,7 +6945,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5591'
     dataset_id: '5591'
-    state_id: '557'
+    region_id: '557'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6957,7 +6957,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5592'
     dataset_id: '5592'
-    state_id: '558'
+    region_id: '558'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6969,7 +6969,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5593'
     dataset_id: '5593'
-    state_id: '559'
+    region_id: '559'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6981,7 +6981,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5594'
     dataset_id: '5594'
-    state_id: '560'
+    region_id: '560'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -6993,7 +6993,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5595'
     dataset_id: '5595'
-    state_id: '561'
+    region_id: '561'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7005,7 +7005,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5596'
     dataset_id: '5596'
-    state_id: '562'
+    region_id: '562'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7017,7 +7017,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5597'
     dataset_id: '5597'
-    state_id: '563'
+    region_id: '563'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7029,7 +7029,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5598'
     dataset_id: '5598'
-    state_id: '564'
+    region_id: '564'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7041,7 +7041,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5599'
     dataset_id: '5599'
-    state_id: '565'
+    region_id: '565'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7053,7 +7053,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5600'
     dataset_id: '5600'
-    state_id: '566'
+    region_id: '566'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7065,7 +7065,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5601'
     dataset_id: '5601'
-    state_id: '567'
+    region_id: '567'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7077,7 +7077,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5602'
     dataset_id: '5602'
-    state_id: '568'
+    region_id: '568'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7089,7 +7089,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5603'
     dataset_id: '5603'
-    state_id: '569'
+    region_id: '569'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7101,7 +7101,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5604'
     dataset_id: '5604'
-    state_id: '570'
+    region_id: '570'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7113,7 +7113,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5605'
     dataset_id: '5605'
-    state_id: '571'
+    region_id: '571'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7125,7 +7125,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5606'
     dataset_id: '5606'
-    state_id: '572'
+    region_id: '572'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7137,7 +7137,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5607'
     dataset_id: '5607'
-    state_id: '573'
+    region_id: '573'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7149,7 +7149,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5608'
     dataset_id: '5608'
-    state_id: '574'
+    region_id: '574'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7161,7 +7161,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5609'
     dataset_id: '5609'
-    state_id: '575'
+    region_id: '575'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7173,7 +7173,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5610'
     dataset_id: '5610'
-    state_id: '576'
+    region_id: '576'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7185,7 +7185,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5611'
     dataset_id: '5611'
-    state_id: '577'
+    region_id: '577'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7197,7 +7197,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5612'
     dataset_id: '5612'
-    state_id: '578'
+    region_id: '578'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7209,7 +7209,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5613'
     dataset_id: '5613'
-    state_id: '579'
+    region_id: '579'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7221,7 +7221,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5614'
     dataset_id: '5614'
-    state_id: '580'
+    region_id: '580'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7233,7 +7233,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5615'
     dataset_id: '5615'
-    state_id: '581'
+    region_id: '581'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7245,7 +7245,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5616'
     dataset_id: '5616'
-    state_id: '582'
+    region_id: '582'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7257,7 +7257,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5617'
     dataset_id: '5617'
-    state_id: '583'
+    region_id: '583'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7269,7 +7269,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5618'
     dataset_id: '5618'
-    state_id: '584'
+    region_id: '584'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7281,7 +7281,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5619'
     dataset_id: '5619'
-    state_id: '585'
+    region_id: '585'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7293,7 +7293,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5620'
     dataset_id: '5620'
-    state_id: '586'
+    region_id: '586'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7305,7 +7305,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5621'
     dataset_id: '5621'
-    state_id: '587'
+    region_id: '587'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7317,7 +7317,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5622'
     dataset_id: '5622'
-    state_id: '588'
+    region_id: '588'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7329,7 +7329,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5623'
     dataset_id: '5623'
-    state_id: '589'
+    region_id: '589'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7341,7 +7341,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5624'
     dataset_id: '5624'
-    state_id: '590'
+    region_id: '590'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7353,7 +7353,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5625'
     dataset_id: '5625'
-    state_id: '591'
+    region_id: '591'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7365,7 +7365,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5626'
     dataset_id: '5626'
-    state_id: '592'
+    region_id: '592'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7377,7 +7377,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5627'
     dataset_id: '5627'
-    state_id: '593'
+    region_id: '593'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7389,7 +7389,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5628'
     dataset_id: '5628'
-    state_id: '594'
+    region_id: '594'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7401,7 +7401,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5629'
     dataset_id: '5629'
-    state_id: '595'
+    region_id: '595'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7413,7 +7413,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5630'
     dataset_id: '5630'
-    state_id: '596'
+    region_id: '596'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7425,7 +7425,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5631'
     dataset_id: '5631'
-    state_id: '597'
+    region_id: '597'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7437,7 +7437,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5632'
     dataset_id: '5632'
-    state_id: '598'
+    region_id: '598'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7449,7 +7449,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5633'
     dataset_id: '5633'
-    state_id: '599'
+    region_id: '599'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7461,7 +7461,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5634'
     dataset_id: '5634'
-    state_id: '600'
+    region_id: '600'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7473,7 +7473,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5635'
     dataset_id: '5635'
-    state_id: '601'
+    region_id: '601'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7485,7 +7485,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5636'
     dataset_id: '5636'
-    state_id: '602'
+    region_id: '602'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7497,7 +7497,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5637'
     dataset_id: '5637'
-    state_id: '603'
+    region_id: '603'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7509,7 +7509,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5638'
     dataset_id: '5638'
-    state_id: '604'
+    region_id: '604'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7521,7 +7521,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5639'
     dataset_id: '5639'
-    state_id: '605'
+    region_id: '605'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7533,7 +7533,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5640'
     dataset_id: '5640'
-    state_id: '606'
+    region_id: '606'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7545,7 +7545,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5641'
     dataset_id: '5641'
-    state_id: '607'
+    region_id: '607'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7557,7 +7557,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5642'
     dataset_id: '5642'
-    state_id: '608'
+    region_id: '608'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7569,7 +7569,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5643'
     dataset_id: '5643'
-    state_id: '609'
+    region_id: '609'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7581,7 +7581,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5644'
     dataset_id: '5644'
-    state_id: '610'
+    region_id: '610'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7593,7 +7593,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5645'
     dataset_id: '5645'
-    state_id: '611'
+    region_id: '611'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7605,7 +7605,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5646'
     dataset_id: '5646'
-    state_id: '612'
+    region_id: '612'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7617,7 +7617,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5647'
     dataset_id: '5647'
-    state_id: '613'
+    region_id: '613'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7629,7 +7629,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5648'
     dataset_id: '5648'
-    state_id: '614'
+    region_id: '614'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7641,7 +7641,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5649'
     dataset_id: '5649'
-    state_id: '615'
+    region_id: '615'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7653,7 +7653,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5650'
     dataset_id: '5650'
-    state_id: '616'
+    region_id: '616'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7665,7 +7665,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5651'
     dataset_id: '5651'
-    state_id: '617'
+    region_id: '617'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7677,7 +7677,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5652'
     dataset_id: '5652'
-    state_id: '618'
+    region_id: '618'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7689,7 +7689,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5653'
     dataset_id: '5653'
-    state_id: '619'
+    region_id: '619'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7701,7 +7701,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5654'
     dataset_id: '5654'
-    state_id: '620'
+    region_id: '620'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'
@@ -7713,7 +7713,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5655'
     dataset_id: '5655'
-    state_id: '621'
+    region_id: '621'
     sources:
       - 'https://www.alberta.ca/covid-19-alberta-data.aspx'
     date: '2020-03-28'

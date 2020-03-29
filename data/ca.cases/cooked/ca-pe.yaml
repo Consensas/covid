@@ -1,11 +1,11 @@
 '@context': 'https://consensas.world/m/covid'
 country: CA
-state: PE
+region: PE
 key: ca-pe
 cases:
   - '@id': 'urn:covid:consensas:ca.cases:248'
     dataset_id: '248'
-    state_id: '1'
+    region_id: '1'
     sources:
       - >-
         https://atlantic.ctvnews.ca/p-e-i-confirms-first-case-of-covid-19-1.4853291
@@ -18,7 +18,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:800'
     dataset_id: '800'
-    state_id: '2'
+    region_id: '2'
     sources:
       - 'https://globalnews.ca/news/6702858/pei-second-covid-case/'
     date: '2020-03-19'
@@ -30,7 +30,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1435'
     dataset_id: '1435'
-    state_id: '3'
+    region_id: '3'
     sources:
       - >-
         https://atlantic.ctvnews.ca/p-e-i-identifies-third-case-of-covid-19-1.4863509
@@ -43,7 +43,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3291'
     dataset_id: '3291'
-    state_id: '4'
+    region_id: '4'
     sources:
       - >-
         https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
@@ -56,7 +56,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3292'
     dataset_id: '3292'
-    state_id: '5'
+    region_id: '5'
     sources:
       - >-
         https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
@@ -69,7 +69,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4040'
     dataset_id: '4040'
-    state_id: '6'
+    region_id: '6'
     sources:
       - >-
         https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
@@ -82,7 +82,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4041'
     dataset_id: '4041'
-    state_id: '7'
+    region_id: '7'
     sources:
       - >-
         https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
@@ -95,7 +95,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4042'
     dataset_id: '4042'
-    state_id: '8'
+    region_id: '8'
     sources:
       - >-
         https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
@@ -108,7 +108,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4043'
     dataset_id: '4043'
-    state_id: '9'
+    region_id: '9'
     sources:
       - >-
         https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
@@ -121,7 +121,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4623'
     dataset_id: '4623'
-    state_id: '10'
+    region_id: '10'
     sources:
       - >-
         https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases
@@ -134,7 +134,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4624'
     dataset_id: '4624'
-    state_id: '11'
+    region_id: '11'
     sources:
       - >-
         https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases

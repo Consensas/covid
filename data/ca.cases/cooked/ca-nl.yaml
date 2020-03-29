@@ -1,11 +1,11 @@
 '@context': 'https://consensas.world/m/covid'
 country: CA
-state: NL
+region: NL
 key: ca-nl
 cases:
   - '@id': 'urn:covid:consensas:ca.cases:249'
     dataset_id: '249'
-    state_id: '1'
+    region_id: '1'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/newfoundland-and-labrador-reports-its-first-presumptive-case-of-covid-19-1.4853495
@@ -20,7 +20,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:450'
     dataset_id: '450'
-    state_id: '2'
+    region_id: '2'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
@@ -35,7 +35,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:451'
     dataset_id: '451'
-    state_id: '3'
+    region_id: '3'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
@@ -50,7 +50,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:943'
     dataset_id: '943'
-    state_id: '4'
+    region_id: '4'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-20-nl-1.5504154
@@ -63,7 +63,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1195'
     dataset_id: '1195'
-    state_id: '5'
+    region_id: '5'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
@@ -76,7 +76,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1196'
     dataset_id: '1196'
-    state_id: '6'
+    region_id: '6'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
@@ -89,7 +89,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1424'
     dataset_id: '1424'
-    state_id: '7'
+    region_id: '7'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
@@ -102,7 +102,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1425'
     dataset_id: '1425'
-    state_id: '8'
+    region_id: '8'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
@@ -115,7 +115,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1426'
     dataset_id: '1426'
-    state_id: '9'
+    region_id: '9'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
@@ -128,7 +128,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2021'
     dataset_id: '2021'
-    state_id: '10'
+    region_id: '10'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -141,7 +141,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2022'
     dataset_id: '2022'
-    state_id: '11'
+    region_id: '11'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -154,7 +154,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2023'
     dataset_id: '2023'
-    state_id: '12'
+    region_id: '12'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -167,7 +167,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2024'
     dataset_id: '2024'
-    state_id: '13'
+    region_id: '13'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -181,7 +181,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2025'
     dataset_id: '2025'
-    state_id: '14'
+    region_id: '14'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -195,7 +195,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2026'
     dataset_id: '2026'
-    state_id: '15'
+    region_id: '15'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -209,7 +209,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2027'
     dataset_id: '2027'
-    state_id: '16'
+    region_id: '16'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -223,7 +223,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2028'
     dataset_id: '2028'
-    state_id: '17'
+    region_id: '17'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -237,7 +237,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2029'
     dataset_id: '2029'
-    state_id: '18'
+    region_id: '18'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -251,7 +251,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2030'
     dataset_id: '2030'
-    state_id: '19'
+    region_id: '19'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -265,7 +265,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2031'
     dataset_id: '2031'
-    state_id: '20'
+    region_id: '20'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -279,7 +279,7 @@ cases:
     acquired_close_contact: true
   - '@id': 'urn:covid:consensas:ca.cases:2032'
     dataset_id: '2032'
-    state_id: '21'
+    region_id: '21'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -292,7 +292,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2033'
     dataset_id: '2033'
-    state_id: '22'
+    region_id: '22'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -305,7 +305,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2034'
     dataset_id: '2034'
-    state_id: '23'
+    region_id: '23'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -318,7 +318,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2035'
     dataset_id: '2035'
-    state_id: '24'
+    region_id: '24'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
@@ -331,7 +331,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2573'
     dataset_id: '2573'
-    state_id: '25'
+    region_id: '25'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507980
@@ -344,7 +344,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2574'
     dataset_id: '2574'
-    state_id: '26'
+    region_id: '26'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507981
@@ -357,7 +357,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2575'
     dataset_id: '2575'
-    state_id: '27'
+    region_id: '27'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507982
@@ -370,7 +370,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2576'
     dataset_id: '2576'
-    state_id: '28'
+    region_id: '28'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507983
@@ -383,7 +383,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2577'
     dataset_id: '2577'
-    state_id: '29'
+    region_id: '29'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507984
@@ -396,7 +396,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2578'
     dataset_id: '2578'
-    state_id: '30'
+    region_id: '30'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507985
@@ -409,7 +409,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2579'
     dataset_id: '2579'
-    state_id: '31'
+    region_id: '31'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507986
@@ -422,7 +422,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2580'
     dataset_id: '2580'
-    state_id: '32'
+    region_id: '32'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507987
@@ -435,7 +435,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2581'
     dataset_id: '2581'
-    state_id: '33'
+    region_id: '33'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507988
@@ -448,7 +448,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2582'
     dataset_id: '2582'
-    state_id: '34'
+    region_id: '34'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507989
@@ -461,7 +461,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2583'
     dataset_id: '2583'
-    state_id: '35'
+    region_id: '35'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507990
@@ -474,7 +474,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3250'
     dataset_id: '3250'
-    state_id: '36'
+    region_id: '36'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -487,7 +487,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3251'
     dataset_id: '3251'
-    state_id: '37'
+    region_id: '37'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -500,7 +500,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3252'
     dataset_id: '3252'
-    state_id: '38'
+    region_id: '38'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -513,7 +513,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3253'
     dataset_id: '3253'
-    state_id: '39'
+    region_id: '39'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -526,7 +526,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3254'
     dataset_id: '3254'
-    state_id: '40'
+    region_id: '40'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -539,7 +539,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3255'
     dataset_id: '3255'
-    state_id: '41'
+    region_id: '41'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -552,7 +552,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3256'
     dataset_id: '3256'
-    state_id: '42'
+    region_id: '42'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -565,7 +565,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3257'
     dataset_id: '3257'
-    state_id: '43'
+    region_id: '43'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -578,7 +578,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3258'
     dataset_id: '3258'
-    state_id: '44'
+    region_id: '44'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -591,7 +591,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3259'
     dataset_id: '3259'
-    state_id: '45'
+    region_id: '45'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -604,7 +604,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3260'
     dataset_id: '3260'
-    state_id: '46'
+    region_id: '46'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -617,7 +617,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3261'
     dataset_id: '3261'
-    state_id: '47'
+    region_id: '47'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -630,7 +630,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3262'
     dataset_id: '3262'
-    state_id: '48'
+    region_id: '48'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -643,7 +643,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3263'
     dataset_id: '3263'
-    state_id: '49'
+    region_id: '49'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -656,7 +656,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3264'
     dataset_id: '3264'
-    state_id: '50'
+    region_id: '50'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -669,7 +669,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3265'
     dataset_id: '3265'
-    state_id: '51'
+    region_id: '51'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -682,7 +682,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3266'
     dataset_id: '3266'
-    state_id: '52'
+    region_id: '52'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -695,7 +695,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3267'
     dataset_id: '3267'
-    state_id: '53'
+    region_id: '53'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -708,7 +708,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3268'
     dataset_id: '3268'
-    state_id: '54'
+    region_id: '54'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -721,7 +721,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3269'
     dataset_id: '3269'
-    state_id: '55'
+    region_id: '55'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -734,7 +734,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3270'
     dataset_id: '3270'
-    state_id: '56'
+    region_id: '56'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -747,7 +747,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3271'
     dataset_id: '3271'
-    state_id: '57'
+    region_id: '57'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -760,7 +760,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3272'
     dataset_id: '3272'
-    state_id: '58'
+    region_id: '58'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -773,7 +773,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3273'
     dataset_id: '3273'
-    state_id: '59'
+    region_id: '59'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -786,7 +786,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3274'
     dataset_id: '3274'
-    state_id: '60'
+    region_id: '60'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -799,7 +799,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3275'
     dataset_id: '3275'
-    state_id: '61'
+    region_id: '61'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -812,7 +812,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3276'
     dataset_id: '3276'
-    state_id: '62'
+    region_id: '62'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -825,7 +825,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3277'
     dataset_id: '3277'
-    state_id: '63'
+    region_id: '63'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -838,7 +838,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3278'
     dataset_id: '3278'
-    state_id: '64'
+    region_id: '64'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -851,7 +851,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3279'
     dataset_id: '3279'
-    state_id: '65'
+    region_id: '65'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -864,7 +864,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3280'
     dataset_id: '3280'
-    state_id: '66'
+    region_id: '66'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -877,7 +877,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3281'
     dataset_id: '3281'
-    state_id: '67'
+    region_id: '67'
     sources:
       - >-
         https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
@@ -890,7 +890,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3876'
     dataset_id: '3876'
-    state_id: '68'
+    region_id: '68'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -903,7 +903,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3877'
     dataset_id: '3877'
-    state_id: '69'
+    region_id: '69'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -916,7 +916,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3878'
     dataset_id: '3878'
-    state_id: '70'
+    region_id: '70'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -929,7 +929,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3879'
     dataset_id: '3879'
-    state_id: '71'
+    region_id: '71'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -942,7 +942,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3880'
     dataset_id: '3880'
-    state_id: '72'
+    region_id: '72'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -955,7 +955,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3881'
     dataset_id: '3881'
-    state_id: '73'
+    region_id: '73'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -968,7 +968,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3882'
     dataset_id: '3882'
-    state_id: '74'
+    region_id: '74'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -981,7 +981,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3883'
     dataset_id: '3883'
-    state_id: '75'
+    region_id: '75'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -994,7 +994,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3884'
     dataset_id: '3884'
-    state_id: '76'
+    region_id: '76'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -1007,7 +1007,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3885'
     dataset_id: '3885'
-    state_id: '77'
+    region_id: '77'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -1020,7 +1020,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3886'
     dataset_id: '3886'
-    state_id: '78'
+    region_id: '78'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -1033,7 +1033,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3887'
     dataset_id: '3887'
-    state_id: '79'
+    region_id: '79'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -1046,7 +1046,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3888'
     dataset_id: '3888'
-    state_id: '80'
+    region_id: '80'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -1059,7 +1059,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3889'
     dataset_id: '3889'
-    state_id: '81'
+    region_id: '81'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -1072,7 +1072,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3890'
     dataset_id: '3890'
-    state_id: '82'
+    region_id: '82'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
@@ -1085,7 +1085,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4591'
     dataset_id: '4591'
-    state_id: '83'
+    region_id: '83'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1098,7 +1098,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4592'
     dataset_id: '4592'
-    state_id: '84'
+    region_id: '84'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1111,7 +1111,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4593'
     dataset_id: '4593'
-    state_id: '85'
+    region_id: '85'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1124,7 +1124,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4594'
     dataset_id: '4594'
-    state_id: '86'
+    region_id: '86'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1137,7 +1137,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4595'
     dataset_id: '4595'
-    state_id: '87'
+    region_id: '87'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1150,7 +1150,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4596'
     dataset_id: '4596'
-    state_id: '88'
+    region_id: '88'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1163,7 +1163,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4597'
     dataset_id: '4597'
-    state_id: '89'
+    region_id: '89'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1176,7 +1176,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4598'
     dataset_id: '4598'
-    state_id: '90'
+    region_id: '90'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1189,7 +1189,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4599'
     dataset_id: '4599'
-    state_id: '91'
+    region_id: '91'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1202,7 +1202,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4600'
     dataset_id: '4600'
-    state_id: '92'
+    region_id: '92'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1215,7 +1215,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4601'
     dataset_id: '4601'
-    state_id: '93'
+    region_id: '93'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1228,7 +1228,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4602'
     dataset_id: '4602'
-    state_id: '94'
+    region_id: '94'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1241,7 +1241,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4603'
     dataset_id: '4603'
-    state_id: '95'
+    region_id: '95'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1254,7 +1254,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4604'
     dataset_id: '4604'
-    state_id: '96'
+    region_id: '96'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1267,7 +1267,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4605'
     dataset_id: '4605'
-    state_id: '97'
+    region_id: '97'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1280,7 +1280,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4606'
     dataset_id: '4606'
-    state_id: '98'
+    region_id: '98'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1293,7 +1293,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4607'
     dataset_id: '4607'
-    state_id: '99'
+    region_id: '99'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1306,7 +1306,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4608'
     dataset_id: '4608'
-    state_id: '100'
+    region_id: '100'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1319,7 +1319,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4609'
     dataset_id: '4609'
-    state_id: '101'
+    region_id: '101'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1332,7 +1332,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4610'
     dataset_id: '4610'
-    state_id: '102'
+    region_id: '102'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
@@ -1345,7 +1345,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5411'
     dataset_id: '5411'
-    state_id: '103'
+    region_id: '103'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513599
@@ -1358,7 +1358,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5412'
     dataset_id: '5412'
-    state_id: '104'
+    region_id: '104'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513600
@@ -1371,7 +1371,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5413'
     dataset_id: '5413'
-    state_id: '105'
+    region_id: '105'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513601
@@ -1384,7 +1384,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5414'
     dataset_id: '5414'
-    state_id: '106'
+    region_id: '106'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513602
@@ -1397,7 +1397,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5415'
     dataset_id: '5415'
-    state_id: '107'
+    region_id: '107'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513603
@@ -1410,7 +1410,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5416'
     dataset_id: '5416'
-    state_id: '108'
+    region_id: '108'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513604
@@ -1423,7 +1423,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5417'
     dataset_id: '5417'
-    state_id: '109'
+    region_id: '109'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513605
@@ -1436,7 +1436,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5418'
     dataset_id: '5418'
-    state_id: '110'
+    region_id: '110'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513606
@@ -1449,7 +1449,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5419'
     dataset_id: '5419'
-    state_id: '111'
+    region_id: '111'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513607
@@ -1462,7 +1462,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5420'
     dataset_id: '5420'
-    state_id: '112'
+    region_id: '112'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513608
@@ -1475,7 +1475,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5421'
     dataset_id: '5421'
-    state_id: '113'
+    region_id: '113'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513609
@@ -1488,7 +1488,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5422'
     dataset_id: '5422'
-    state_id: '114'
+    region_id: '114'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513610
@@ -1501,7 +1501,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5423'
     dataset_id: '5423'
-    state_id: '115'
+    region_id: '115'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513611
@@ -1514,7 +1514,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5424'
     dataset_id: '5424'
-    state_id: '116'
+    region_id: '116'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513612
@@ -1527,7 +1527,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5425'
     dataset_id: '5425'
-    state_id: '117'
+    region_id: '117'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513613
@@ -1540,7 +1540,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5426'
     dataset_id: '5426'
-    state_id: '118'
+    region_id: '118'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513614
@@ -1553,7 +1553,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:5427'
     dataset_id: '5427'
-    state_id: '119'
+    region_id: '119'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513615
@@ -1567,7 +1567,7 @@ cases:
     acquired_community: true
   - '@id': 'urn:covid:consensas:ca.cases:5428'
     dataset_id: '5428'
-    state_id: '120'
+    region_id: '120'
     sources:
       - >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513599

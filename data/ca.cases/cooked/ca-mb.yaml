@@ -1,11 +1,11 @@
 '@context': 'https://consensas.world/m/covid'
 country: CA
-state: MB
+region: MB
 key: ca-mb
 cases:
   - '@id': 'urn:covid:consensas:ca.cases:134'
     dataset_id: '134'
-    state_id: '1'
+    region_id: '1'
     sources:
       - 'https://winnipeg.ctvnews.ca/video?clipId=1920424'
     date: '2020-03-12'
@@ -17,7 +17,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:176'
     dataset_id: '176'
-    state_id: '2'
+    region_id: '2'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=46931'
       - >-
@@ -31,7 +31,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:177'
     dataset_id: '177'
-    state_id: '3'
+    region_id: '3'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=46931'
       - >-
@@ -45,7 +45,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:185'
     dataset_id: '185'
-    state_id: '4'
+    region_id: '4'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=46934&posted=2020-03-13'
       - >-
@@ -59,7 +59,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:293'
     dataset_id: '293'
-    state_id: '5'
+    region_id: '5'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
       - 'https://news.gov.mb.ca/news/index.html?item=46958'
@@ -72,7 +72,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:294'
     dataset_id: '294'
-    state_id: '6'
+    region_id: '6'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
       - 'https://news.gov.mb.ca/news/index.html?item=46958'
@@ -85,7 +85,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:295'
     dataset_id: '295'
-    state_id: '7'
+    region_id: '7'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
       - 'https://news.gov.mb.ca/news/index.html?item=46958'
@@ -98,7 +98,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:423'
     dataset_id: '423'
-    state_id: '8'
+    region_id: '8'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=46997&posted=2020-03-16'
     date: '2020-03-16'
@@ -110,7 +110,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:591'
     dataset_id: '591'
-    state_id: '9'
+    region_id: '9'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
     date: '2020-03-17'
@@ -122,7 +122,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:592'
     dataset_id: '592'
-    state_id: '10'
+    region_id: '10'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
     date: '2020-03-17'
@@ -134,7 +134,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:593'
     dataset_id: '593'
-    state_id: '11'
+    region_id: '11'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
     date: '2020-03-17'
@@ -146,7 +146,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:594'
     dataset_id: '594'
-    state_id: '12'
+    region_id: '12'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
     date: '2020-03-17'
@@ -158,7 +158,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:595'
     dataset_id: '595'
-    state_id: '13'
+    region_id: '13'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
     date: '2020-03-17'
@@ -170,7 +170,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:596'
     dataset_id: '596'
-    state_id: '14'
+    region_id: '14'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
     date: '2020-03-17'
@@ -182,7 +182,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:597'
     dataset_id: '597'
-    state_id: '15'
+    region_id: '15'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
     date: '2020-03-17'
@@ -194,7 +194,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:726'
     dataset_id: '726'
-    state_id: '16'
+    region_id: '16'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47077'
     date: '2020-03-18'
@@ -206,7 +206,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:727'
     dataset_id: '727'
-    state_id: '17'
+    region_id: '17'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47077'
     date: '2020-03-18'
@@ -218,7 +218,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1197'
     dataset_id: '1197'
-    state_id: '18'
+    region_id: '18'
     sources:
       - 'https://news.gov.mb.ca/news/?archive=&item=47157'
     date: '2020-03-21'
@@ -230,7 +230,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1330'
     dataset_id: '1330'
-    state_id: '19'
+    region_id: '19'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47159&posted=2020-03-21'
     date: '2020-03-21'
@@ -242,7 +242,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:1470'
     dataset_id: '1470'
-    state_id: '20'
+    region_id: '20'
     sources:
       - >-
         https://winnipegsun.com/news/news-news/covid-19-cases-hold-at-20-manitoba-warns-against-out-of-province-travel
@@ -255,7 +255,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2177'
     dataset_id: '2177'
-    state_id: '21'
+    region_id: '21'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-24'
@@ -267,7 +267,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2910'
     dataset_id: '2910'
-    state_id: '22'
+    region_id: '22'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -279,7 +279,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2911'
     dataset_id: '2911'
-    state_id: '23'
+    region_id: '23'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -291,7 +291,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2912'
     dataset_id: '2912'
-    state_id: '24'
+    region_id: '24'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -303,7 +303,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2913'
     dataset_id: '2913'
-    state_id: '25'
+    region_id: '25'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -315,7 +315,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2914'
     dataset_id: '2914'
-    state_id: '26'
+    region_id: '26'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -327,7 +327,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2915'
     dataset_id: '2915'
-    state_id: '27'
+    region_id: '27'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -339,7 +339,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2916'
     dataset_id: '2916'
-    state_id: '28'
+    region_id: '28'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -351,7 +351,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2917'
     dataset_id: '2917'
-    state_id: '29'
+    region_id: '29'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -363,7 +363,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2918'
     dataset_id: '2918'
-    state_id: '30'
+    region_id: '30'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -375,7 +375,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2919'
     dataset_id: '2919'
-    state_id: '31'
+    region_id: '31'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -387,7 +387,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2920'
     dataset_id: '2920'
-    state_id: '32'
+    region_id: '32'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -399,7 +399,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2921'
     dataset_id: '2921'
-    state_id: '33'
+    region_id: '33'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -411,7 +411,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2922'
     dataset_id: '2922'
-    state_id: '34'
+    region_id: '34'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -423,7 +423,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:2923'
     dataset_id: '2923'
-    state_id: '35'
+    region_id: '35'
     sources:
       - 'https://news.gov.mb.ca/news/index.html?item=47237'
     date: '2020-03-25'
@@ -435,7 +435,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:3580'
     dataset_id: '3580'
-    state_id: '36'
+    region_id: '36'
     sources:
       - 'https://news.gov.mb.ca/news/?archive=&item=47277'
     date: '2020-03-26'
@@ -447,7 +447,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4179'
     dataset_id: '4179'
-    state_id: '37'
+    region_id: '37'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-27'
@@ -459,7 +459,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4180'
     dataset_id: '4180'
-    state_id: '38'
+    region_id: '38'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-27'
@@ -471,7 +471,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4181'
     dataset_id: '4181'
-    state_id: '39'
+    region_id: '39'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-27'
@@ -483,7 +483,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4758'
     dataset_id: '4758'
-    state_id: '40'
+    region_id: '40'
     sources:
       - 'https://news.gov.mb.ca/news/?archive=&item=47297'
     date: '2020-03-28'
@@ -495,7 +495,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4759'
     dataset_id: '4759'
-    state_id: '41'
+    region_id: '41'
     sources:
       - 'https://news.gov.mb.ca/news/?archive=&item=47297'
     date: '2020-03-28'
@@ -507,7 +507,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4760'
     dataset_id: '4760'
-    state_id: '42'
+    region_id: '42'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -519,7 +519,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4761'
     dataset_id: '4761'
-    state_id: '43'
+    region_id: '43'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -531,7 +531,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4762'
     dataset_id: '4762'
-    state_id: '44'
+    region_id: '44'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -543,7 +543,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4763'
     dataset_id: '4763'
-    state_id: '45'
+    region_id: '45'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -555,7 +555,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4764'
     dataset_id: '4764'
-    state_id: '46'
+    region_id: '46'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -567,7 +567,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4765'
     dataset_id: '4765'
-    state_id: '47'
+    region_id: '47'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -579,7 +579,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4766'
     dataset_id: '4766'
-    state_id: '48'
+    region_id: '48'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -591,7 +591,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4767'
     dataset_id: '4767'
-    state_id: '49'
+    region_id: '49'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -603,7 +603,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4768'
     dataset_id: '4768'
-    state_id: '50'
+    region_id: '50'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -615,7 +615,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4769'
     dataset_id: '4769'
-    state_id: '51'
+    region_id: '51'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -627,7 +627,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4770'
     dataset_id: '4770'
-    state_id: '52'
+    region_id: '52'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -639,7 +639,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4771'
     dataset_id: '4771'
-    state_id: '53'
+    region_id: '53'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -651,7 +651,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4772'
     dataset_id: '4772'
-    state_id: '54'
+    region_id: '54'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -663,7 +663,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4773'
     dataset_id: '4773'
-    state_id: '55'
+    region_id: '55'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -675,7 +675,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4774'
     dataset_id: '4774'
-    state_id: '56'
+    region_id: '56'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -687,7 +687,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4775'
     dataset_id: '4775'
-    state_id: '57'
+    region_id: '57'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -699,7 +699,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4776'
     dataset_id: '4776'
-    state_id: '58'
+    region_id: '58'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -711,7 +711,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4777'
     dataset_id: '4777'
-    state_id: '59'
+    region_id: '59'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -723,7 +723,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4778'
     dataset_id: '4778'
-    state_id: '60'
+    region_id: '60'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -735,7 +735,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4779'
     dataset_id: '4779'
-    state_id: '61'
+    region_id: '61'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -747,7 +747,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4780'
     dataset_id: '4780'
-    state_id: '62'
+    region_id: '62'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -759,7 +759,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4781'
     dataset_id: '4781'
-    state_id: '63'
+    region_id: '63'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
@@ -771,7 +771,7 @@ cases:
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:4782'
     dataset_id: '4782'
-    state_id: '64'
+    region_id: '64'
     sources:
       - 'https://www.gov.mb.ca/covid19/index.html'
     date: '2020-03-28'
