@@ -10,4 +10,4 @@
 
 cd $(dirname $0)
 
-## node push.js --google
+node push.js --google
