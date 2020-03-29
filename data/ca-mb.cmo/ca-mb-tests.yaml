@@ -31,6 +31,10 @@
     - tests: 6203
       date: '2020-03-25'
       '@id': 'urn:covid:consensas:ca-mb:2020-03-25'
-    - tests: 7147
+    - tests_positive: 69
+      tests_probable: 3
+      deaths: 1
+      tests: 7147
       date: '2020-03-27'
+      tests_negative: 7075
       '@id': 'urn:covid:consensas:ca-mb:2020-03-27'
