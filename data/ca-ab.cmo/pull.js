@@ -52,6 +52,8 @@ const _pull = _.promise((self, done) => {
     _.promise(self)
         .validate(_pull)
         .make(sd => {
+            let match
+
             sd.json = {
                 date: null,
             }
@@ -64,34 +66,45 @@ const _pull = _.promise((self, done) => {
                     return
                 }
 
-                if (table[0][0] !== "test results") {
-                    return
-                }
+                if (_.is.Equal(table[0], [ "test results" ])) {
 
-                table.forEach(row => {
-                    const match = row[0].match(/[(]as of ([A-Za-z]* \d+)[)]/)
-                    if (match) {
-                        const date = parse(`${match[1]} 2020`, "MMMM dd yyyy", new Date())
-                        if (!_.is.Date(date)) {
-                            return 
+                    table.forEach(row => {
+                        if (match = row[0].match(/as of ([A-Za-z]* \d+)/)) {
+                            const date = parse(`${match[1]} 2020`, "MMMM dd yyyy", new Date())
+                            if (!_.is.Date(date)) {
+                                return 
+                            }
+
+                            sd.json.date = date.toISOString().substring(0, 10)
                         }
+                    })
 
-                        sd.json.date = date.toISOString().substring(0, 10)
+                    table.forEach(row => {
+                        if (row[0].startsWith("completed tests")) {
+                            sd.json.tests = row[1]
+                        }
+                    })
+
+                    table[0].forEach((column, x) => {
+                        if (column.startsWith("pos")) {
+                            sd.json.tests_positive = table[1][x]
+                        } else if (column.startsWith("neg")) {
+                            sd.json.tests_negative = table[1][x]
+                        }
+                    })
+
+                    if (_.is.Integer(sd.json.tests_positive) && _.is.Integer(sd.json.tests_negative) && !sd.json.tests) {
+                        sd.json.tests = sd.json.tests_positive + sd.json.tests_negative
                     }
-                })
-
-                table[0].forEach((column, x) => {
-                    if (column.toLowerCase().startsWith("pos")) {
-                        sd.json.tests_positive = table[1][x]
-                    } else if (column.toLowerCase().startsWith("neg")) {
-                        sd.json.tests_negative = table[1][x]
-                    }
-                })
-
-                if (_.is.Integer(sd.json.tests_positive) && _.is.Integer(sd.json.tests_negative)) {
-                    sd.json.tests = sd.json.tests_positive + sd.json.tests_negative
+                } else if (_.is.Equal(table[0], [ 'location', 'confirmed cases', 'deaths' ])) { 
+                    table.forEach(row => {
+                        if (row[0] === "in alberta") {
+                            sd.json.tests_positive = row[1]
+                            sd.json.deaths = row[2]
+                        }
+                    })
                 }
-            })
+            }) 
 
             if (!_.is.Empty(sd.json) && !sd.json.date) {
                 $("meta[name='published']").each((x, e) => {
@@ -107,7 +120,7 @@ const _pull = _.promise((self, done) => {
 
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
-            if (_.is.Empty(sd.json.date)) {
+            if (_.size(sd.json) < 2) {
                 console.log("#", "no data for", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
