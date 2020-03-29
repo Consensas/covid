@@ -28,6 +28,8 @@ const fs = require("iotdb-fs")
 
 const path = require("path")
 
+const _util = require("../../_util")
+
 /**
  */
 const _find = (_items, _name) => (_items || []).find(item => item.name.toLowerCase() === _name.toLowerCase()) || null
@@ -106,12 +108,16 @@ const _cook = _.promise((self, done) => {
         .make(sd => {
             sd.json.forEach(row => {
                 const key = row._region ? `${row._country.toLowerCase()}-${row._region.toLowerCase()}` : row._country.toLowerCase()
-                const result = sd.results[key] = sd.results[key] || {
-                    country: row._country,
-                    region: row._region || null,
-                    key: key,
-                    items: {},
+                if (!sd.results[key]) {
+                    sd.results[key] = _util.record.main({
+                        authority: "consensas",
+                        dataset: "aggregate",
+                        country: row._country,
+                        region: row._region || null,
+                    })
+                    sd.results[key].items = {}
                 }
+                const result = sd.results[key]
 
                 _.keys(row)
                     .map(row => row.match(/^(\d+)_(\d+)_(\d+)$/))
@@ -128,9 +134,6 @@ const _cook = _.promise((self, done) => {
                         }
                         result.items[key][sd.name] = row[o]
                     })
-                
-                // console.log(result)
-                // process.exit()
             })
         })
 

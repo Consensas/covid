@@ -1,5 +1,7 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-qc:cmo'
+region: QC
 country: CA
-state: QC
 key: ca-qc
 items:
   - date: '2020-01-22'
@@ -325,6 +327,7 @@ items:
   - date: '2020-03-28'
     deaths: 22
     confirmed: 2498
+state: QC
 icu_hospitals: 87
 icu_beds: 885
 icu_ventalators: 1197
@@ -380,5 +383,3 @@ event_close_stores: '2020-03-23'
 event_close_libraries: '2020-03-15'
 event_ban_groups_250: '2020-03-12'
 event_ban_groups_all: '2020-03-23'
-'@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-qc:cmo'

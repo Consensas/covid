@@ -1,5 +1,7 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-bc:cmo'
+region: BC
 country: CA
-state: BC
 key: ca-bc
 items:
   - date: '2020-01-22'
@@ -243,6 +245,7 @@ items:
     tests: 38697
     tests_positive: 884
     tests_negative: 37813
+state: BC
 icu_hospitals: 34
 icu_beds: 304
 icu_ventalators: 460
@@ -294,5 +297,3 @@ event_close_school_public: '2020-03-17'
 event_ban_groups_250: '2020-03-12'
 event_ban_groups_50: '2020-03-16'
 event_emergency: '2020-03-18'
-'@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-bc:cmo'

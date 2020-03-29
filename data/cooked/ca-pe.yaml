@@ -1,5 +1,7 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-pe:cmo'
+region: PE
 country: CA
-state: PE
 key: ca-pe
 items:
   - date: '2020-01-22'
@@ -258,6 +260,7 @@ items:
   - date: '2020-03-28'
     deaths: 0
     confirmed: 11
+state: PE
 icu_hospitals: 2
 icu_beds: 18
 icu_ventalators: 22
@@ -306,5 +309,3 @@ poli_covid_url: 'https://www.princeedwardisland.ca/en/topic/covid-19'
 event_close_bars: '2020-03-17'
 event_close_restaurants: '2020-03-17'
 event_close_postsecondary: '2020-03-16'
-'@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-pe:cmo'

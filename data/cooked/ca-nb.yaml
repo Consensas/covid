@@ -1,5 +1,7 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-nb:cmo'
+region: NB
 country: CA
-state: NB
 key: ca-nb
 items:
   - date: '2020-01-22'
@@ -260,6 +262,10 @@ items:
     confirmed: 51
     tests: 2605
     '@id': 'urn:covid:consensas:ca-nb:2020-03-28'
+  - date: '2020-03-29'
+    tests: 2605
+    '@id': 'urn:covid:consensas:ca-nb:2020-03-29'
+state: NB
 icu_hospitals: 9
 icu_beds: 103
 icu_ventalators: 113
@@ -316,5 +322,3 @@ event_close_stores: '2020-03-16'
 event_close_libraries: '2020-03-16'
 event_ban_groups_150: '2020-03-12'
 event_emergency: '2020-03-19'
-'@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-nb:cmo'

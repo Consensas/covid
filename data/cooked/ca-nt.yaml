@@ -1,5 +1,7 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:aggregate:ca-nt'
+region: NT
 country: CA
-state: NT
 key: ca-nt
 items:
   - date: '2020-01-22'
@@ -203,6 +205,7 @@ items:
   - date: '2020-03-28'
     deaths: 0
     confirmed: 1
+state: NT
 population: 44826
 age_0_4: 3064
 age_5_9: 3048

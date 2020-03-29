@@ -1,5 +1,7 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-mb:cmo'
+region: MB
 country: CA
-state: MB
 key: ca-mb
 items:
   - date: '2020-01-22'
@@ -225,6 +227,7 @@ items:
   - date: '2020-03-28'
     deaths: 1
     confirmed: 64
+state: MB
 icu_hospitals: 10
 icu_beds: 93
 icu_ventalators: 151
@@ -273,5 +276,3 @@ poli_covid_url: 'https://manitoba.ca/covid19/'
 event_close_school_public: '2020-03-23'
 event_close_daycare: '2020-03-20'
 event_ban_groups_250: '2020-03-15'
-'@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-mb:cmo'

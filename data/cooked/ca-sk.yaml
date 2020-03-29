@@ -1,5 +1,7 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:consensas:ca-sk:cmo'
+region: SK
 country: CA
-state: SK
 key: ca-sk
 items:
   - date: '2020-01-22'
@@ -268,6 +270,7 @@ items:
     tests_negative: 7797
     tests: 8248
     '@id': 'urn:covid:consensas:ca-sk:2020-03-28'
+state: SK
 icu_hospitals: 13
 icu_beds: 108
 icu_ventalators: 235
@@ -317,5 +320,3 @@ poli_covid_url: >-
 event_close_school_public: '2020-03-20'
 event_ban_groups_250: '2020-03-16'
 event_emergency: '2020-03-18'
-'@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-sk:cmo'
