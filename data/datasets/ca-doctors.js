@@ -44,7 +44,7 @@ _.promise()
         _.mapObject(sd.jsons[0], (doctors_ptp, province) => {
             sd.json.push({
                 country: "CA",
-                state: province.toUpperCase(),
+                region: province.toUpperCase(),
                 key: `CA-${province}`.toLowerCase(),
                 doctors_pp: doctors_ptp / 100000,
             })

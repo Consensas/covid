@@ -36,7 +36,7 @@ _.promise()
         sd.json = sd.json
             .map(row => ({
                 country: "CA",
-                state: row.short,
+                region: row.short,
                 key: `CA-${row.short}`.toLowerCase(),
                 population: row.population,
             }))

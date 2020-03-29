@@ -69,7 +69,7 @@ _.promise()
                     .forEach(province => {
                         pd[province] = pd[province] || {
                             country: "CA",
-                            state: province.toUpperCase(),
+                            region: province.toUpperCase(),
                             key: `CA-${province}`.toLowerCase(),
                         }
 

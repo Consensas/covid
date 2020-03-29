@@ -67,7 +67,7 @@ const generate_timeseries = _.promise(self => {
         // header
         header.push([
             // dataset.locality,
-            dataset.state,
+            dataset.region,
             // dataset.country,
         ].filter(p => p).join(", "))
     })

@@ -123,14 +123,14 @@ const _one = _.promise((self, done) => {
 
         .then(fs.read.json.magic)
         .make(sd => {
-            const state = _normalize_province(sd.json.province)
+            const region = _normalize_province(sd.json.province)
             sd.record = {
                 "@id": `urn:covid:consensas:ca.cases:${_integer(sd.json.case_id)}`,
                 dataset_id: sd.json.case_id,
-                state_id: sd.json.provincial_case_id,
+                region_id: sd.json.provincial_case_id,
                 country: "CA",
-                state: state,
-                key: `CA-${state}`.toLowerCase(),
+                region: region,
+                key: `CA-${region}`.toLowerCase(),
                 sources: sd.json.case_source
                     .split(";")
                     .map(x => x.replace(/^.*http/, "http"))
@@ -225,14 +225,14 @@ _.promise({
                 const rd = {
                     "@context": "https://consensas.world/m/covid",
                     country: rs[0].country,
-                    state: rs[0].state,
+                    region: rs[0].region,
                     key: rs[0].key,
                     cases: [],
                 }
 
                 rs.forEach(r => {
                     delete r.country
-                    delete r.state
+                    delete r.region
                     delete r.key
 
                     rd.cases.push(r)

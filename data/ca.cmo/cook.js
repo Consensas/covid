@@ -54,7 +54,7 @@ const _one = _.promise((self, done) => {
     _.promise(self)
         .validate(_one)
         .make(sd => {
-            const PROVINCE = sd.items[0].state ? sd.items[0].state : null
+            const PROVINCE = sd.items[0].region ? sd.items[0].region : null
 
             sd.json = _util.record.main(sd.settings, {
                 region: PROVINCE,
@@ -116,15 +116,15 @@ _.promise()
 
         sd.json
             .map(record => ({
-                state: mapping[record.prname] || null,
+                region: mapping[record.prname] || null,
                 date: (d => `${d.substring(6, 10)}-${d.substring(3, 5)}-${d.substring(0, 2)}`)(record.date),
                 tests_positive: _.coerce.to.Integer(record.numconf, null),
                 tests_probable: _.coerce.to.Integer(record.numprob, null),
                 deaths: _.coerce.to.Integer(record.numdeaths, null),
             }))
             .forEach(record => {
-                rsd[record.state] = rsd[record.state] || []
-                rsd[record.state].push(record)
+                rsd[record.region] = rsd[record.region] || []
+                rsd[record.region].push(record)
             })
 
         sd.rss = _.values(rsd)

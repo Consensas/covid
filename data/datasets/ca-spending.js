@@ -38,7 +38,7 @@ _.promise()
         sd.json = _.pairs(sd.json)
             .map(row => ({
                 country: "CA",
-                state: row[0],
+                region: row[0],
                 key: `CA-${row[0]}`.toLowerCase(),
                 spending_pp: row[1],
             }))

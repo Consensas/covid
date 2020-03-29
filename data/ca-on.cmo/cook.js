@@ -44,7 +44,7 @@ _.promise()
             "@context": "https://consensas.world/m/covid",
             "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
             country: COUNTRY.toUpperCase(),
-            state: PROVINCE.toUpperCase(),
+            region: PROVINCE.toUpperCase(),
             key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
             items: [],
         }

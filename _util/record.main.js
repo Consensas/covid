@@ -35,7 +35,7 @@ const record_main = (...ds) => {
 
     ds.forEach(d => {
         if (d.region) {
-            result.state = d.region.toUpperCase()
+            result.region = d.region.toUpperCase()
         }
         if (d.country) {
             result.country = d.country.toUpperCase()

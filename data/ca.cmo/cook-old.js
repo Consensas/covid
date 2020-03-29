@@ -45,12 +45,12 @@ const _one = _.promise((self, done) => {
                 "@id": null,
                 "source": URL,
                 country: COUNTRY.toUpperCase(),
-                state: null,
+                region: null,
                 key: null,
                 items: [],
             }
 
-            const PROVINCE = sd.items[0].state
+            const PROVINCE = sd.items[0].region
             if (_.is.Empty(PROVINCE)) {
                 sd.json["@id"] = `urn:covid:consensas:${COUNTRY}:cmo`
                 sd.json.key = `${COUNTRY}`.toLowerCase()
@@ -58,7 +58,7 @@ const _one = _.promise((self, done) => {
             } else {
                 sd.json["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`.toLowerCase()
                 sd.json.key = `${COUNTRY}-${PROVINCE}`.toLowerCase()
-                sd.json.state = PROVINCE
+                sd.json.region = PROVINCE
                 sd.path = path.join(__dirname, "cooked", `${COUNTRY}-${PROVINCE}-tests.yaml`.toLowerCase())
             }
 
@@ -165,17 +165,17 @@ _.promise()
                 }
             })
 
-            _.mapObject(data, (value, state) => {
+            _.mapObject(data, (value, region) => {
                 records.push(Object.assign({
                     date: json.date,
-                    state: state,
+                    region: region,
                 }, value))
             })
         })
 
         sd.itemss = []
-        _.uniq(records.map(r => r.state)).forEach(state => {
-            sd.itemss.push(records.filter(record => record.state === state))
+        _.uniq(records.map(r => r.region)).forEach(region => {
+            sd.itemss.push(records.filter(record => record.region === region))
         })
     })
     .each({

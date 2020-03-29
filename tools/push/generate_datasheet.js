@@ -58,7 +58,7 @@ const generate_datasheet = _.promise(self => {
                 if (vx === 0) {
                     header.push([
                         // dataset.locality,
-                        dataset.state,
+                        dataset.region,
                         // dataset.country,
                     ].filter(p => p).join(", "))
                 }

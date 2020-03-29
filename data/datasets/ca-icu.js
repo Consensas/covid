@@ -48,7 +48,7 @@ _.promise()
                     })
 
                 row.country = "CA"
-                row.key = `CA-${row.state}`.toLowerCase()
+                row.key = `CA-${row.region}`.toLowerCase()
                 delete row.province
 
             })

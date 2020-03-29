@@ -60,7 +60,7 @@ _.promise()
                 sd.json.push(Object.assign(
                     {
                         country: "CA",
-                        state: province.toUpperCase(),
+                        region: province.toUpperCase(),
                         key: `ca-${province}`.toLowerCase(),
                     },
                     pdd[province],

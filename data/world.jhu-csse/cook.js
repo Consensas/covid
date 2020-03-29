@@ -60,10 +60,10 @@ const _cook = _.promise((self, done) => {
             })
         })
 
-        // add state
+        // add region
         .make(sd => {
             sd.json.forEach(row => {
-                row._state = ""
+                row._region = ""
 
                 if (!row.province_state) {
                     return
@@ -76,29 +76,29 @@ const _cook = _.promise((self, done) => {
 
                 const province_state = row.province_state.replace(/^.*, /, "")
 
-                const state = _find(state_data, province_state)
-                if (state) {
-                    row._state = state.value
+                const region = _find(state_data, province_state)
+                if (region) {
+                    row._region = region.value
                     return
                 }
 
                 if ((row._country === "US") && (province_state.length === 2)) {
-                    row._state = province_state
+                    row._region = province_state
                     return
                 }
 
                 switch (row.province_state) {
-                case "From Diamond Princess": row._state = "XXDP"; return
-                case "Quebec": row._state = "QC"; return
-                case "Diamond Princess": row._state = "XXDP"; return
-                case "Grand Princess": row._state = "XXGP"; return
-                case "Washington, D.C.": row._state = "DC"; return
-                case "Virgin Islands, U.S.": row._state = "VI"; return
-                case "United States Virgin Islands": row._state = "VI"; return
+                case "From Diamond Princess": row._region = "XXDP"; return
+                case "Quebec": row._region = "QC"; return
+                case "Diamond Princess": row._region = "XXDP"; return
+                case "Grand Princess": row._region = "XXGP"; return
+                case "Washington, D.C.": row._region = "DC"; return
+                case "Virgin Islands, U.S.": row._region = "VI"; return
+                case "United States Virgin Islands": row._region = "VI"; return
                 }
 
-                if (!row._state) {
-                    console.log("#", "data/cooked/cook", "unknown state:", row.province_state)
+                if (!row._region) {
+                    console.log("#", "data/cooked/cook", "unknown region:", row.province_state)
                     return
                 }
             })
@@ -107,28 +107,28 @@ const _cook = _.promise((self, done) => {
         // build rows
         .make(sd => {
             sd.json.forEach(row => {
-                const key = row._state ? `${row._country.toLowerCase()}-${row._state.toLowerCase()}` : row._country.toLowerCase()
+                const key = row._region ? `${row._country.toLowerCase()}-${row._region.toLowerCase()}` : row._country.toLowerCase()
                 const result = sd.results[key] = sd.results[key] || {
                     "@context": _util.context,
                     "@id": null,
                     key: key,
                     country: row._country,
-                    state: row._state || null,
+                    region: row._region || null,
                     items: {},
                 }
 
-                if (([ "CA", "US", "AU" ].indexOf(result.country) > -1) && result.state) {
-                    result.state = result.state.toUpperCase()
+                if (([ "CA", "US", "AU" ].indexOf(result.country) > -1) && result.region) {
+                    result.region = result.region.toUpperCase()
                 }
 
-                if (result.state) {
-                    result["@id"] = `urn:covid:jhe.edu:csse:${result.country}-${result.state}`.toLowerCase()
+                if (result.region) {
+                    result["@id"] = `urn:covid:jhe.edu:csse:${result.country}-${result.region}`.toLowerCase()
                 } else {
                     result["@id"] = `urn:covid:jhe.edu:csse:${result.country}`.toLowerCase()
                 }
 
                 /*
-                if (result.state === "ON") {
+                if (result.region === "ON") {
                     console.log(row)
                     process.exit()
                 }
@@ -233,13 +233,13 @@ const _aggregate = _.promise(self => {
     const cdd = {}
 
     _.values(self.results)
-        .filter(result => result.state)
+        .filter(result => result.region)
         .forEach(result => {
             const cd = cdd[result.country] = cdd[result.country] || {
                 "@context": _util.context,
                 "@id": `urn:covid:jhe.edu:csse:${result.country}`.toLowerCase(),
                 country: result.country,
-                state: null,
+                region: null,
                 key: result.country.toLowerCase(),
                 items: [],
             }
@@ -305,7 +305,7 @@ _write.requires = {
 }
 _write.accepts = {
     json: {
-        state: _.is.String,
+        region: _.is.String,
     }
 }
 _write.produces = {
