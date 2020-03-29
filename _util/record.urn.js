@@ -61,7 +61,10 @@ const record_urn = (...ds) => {
     })
 
     if (side.authority && side.dataset) {
-        let result = `urn:covid:${side.authority}:${side.dataset}:${side.country}-${side.region}`
+        let result = `urn:covid:${side.authority}:${side.dataset}:${side.country||""}`
+        if (side.region) {
+            result += `-${side.region}`
+        }
         if (side.locality) {
             result += `-${side.locality}`
         }

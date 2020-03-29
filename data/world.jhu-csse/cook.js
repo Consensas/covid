@@ -127,6 +127,13 @@ const _cook = _.promise((self, done) => {
                     result["@id"] = `urn:covid:jhe.edu:csse:${result.country}`.toLowerCase()
                 }
 
+                /*
+                if (result.state === "ON") {
+                    console.log(row)
+                    process.exit()
+                }
+                */
+
                 _.keys(row)
                     .map(row => row.match(/^(\d+)_(\d+)_(\d+)$/))
                     .filter(match => match)

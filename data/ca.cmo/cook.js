@@ -3,7 +3,7 @@
  *
  *  David Janes
  *  Consensas
- *  2020-03-23
+ *  2020-03-29
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -25,14 +25,28 @@
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
-const parse = require("date-fns/parse")
-const fr_locale = require('date-fns/locale/fr')
+const _util = require("../../_util")
 
 const path = require("path")
 
-const COUNTRY = "ca"
-const URL = "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html"
-
+const mapping = {
+    "Alberta": "AB",
+    "British Columbia": "BC",
+    "Canada": "",
+    "Manitoba": "MB",
+    "New Brunswick": "NB",
+    "Newfoundland and Labrador": "NL",
+    "Northwest Territories": "NT",
+    "Nova Scotia": "NS",
+    "Nunavut": "NU",
+    "Ontario": "ON",
+    "Prince Edward Island": "PE",
+    "Quebec": "QC",
+    "Repatriated Travellers": "XXTR",
+    "Repatriated travellers": "XXTR",
+    "Saskatchewan": "SK",
+    "Yukon": "YK",
+}
 
 /**
  */
@@ -40,34 +54,24 @@ const _one = _.promise((self, done) => {
     _.promise(self)
         .validate(_one)
         .make(sd => {
-            sd.json = {
-                "@context": "https://consensas.world/m/covid",
-                "@id": null,
-                "source": URL,
-                country: COUNTRY.toUpperCase(),
-                state: null,
-                key: null,
-                items: [],
-            }
+            const PROVINCE = sd.items[0].state ? sd.items[0].state : null
 
-            const PROVINCE = sd.items[0].state
-            if (_.is.Empty(PROVINCE)) {
-                sd.json["@id"] = `urn:covid:consensas:${COUNTRY}:cmo`
-                sd.json.key = `${COUNTRY}`.toLowerCase()
-                sd.path = path.join(__dirname, "cooked", `${COUNTRY}-tests.yaml`.toLowerCase())
-            } else {
-                sd.json["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`.toLowerCase()
-                sd.json.key = `${COUNTRY}-${PROVINCE}`.toLowerCase()
-                sd.json.state = PROVINCE
-                sd.path = path.join(__dirname, "cooked", `${COUNTRY}-${PROVINCE}-tests.yaml`.toLowerCase())
-            }
+            sd.json = _util.record.main(sd.settings, {
+                region: PROVINCE,
+            })
+            sd.json.items = []
+            sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings, {
+                region: PROVINCE,
+            }))
 
             sd.items
                 .filter(item => item.date)
                 .forEach(_item => {
-                    const item = {
-                        "@id": `${sd.json["@id"]}:${_item.date}`,
-                    }
+                    const item = {}
+                    item["@id"] = _util.record.urn(sd.settings, {
+                        region: PROVINCE,
+                        date: _item.date,
+                    })
 
                     _.mapObject(_item, (value, key) => {
                         if (_.is.Integer(value) || (key === "date")) {
@@ -75,7 +79,7 @@ const _one = _.promise((self, done) => {
                         }
                     })
 
-                    if (item.tests_positive) {
+                    if (_.is.Integer(item.tests_positive)) {
                         item.confirmed = item.tests_positive
                     }
 
@@ -101,90 +105,33 @@ _one.accepts = {
 _one.produces = {
 }
 
-/**
- */
 _.promise()
     .add("path", path.join(__dirname, "settings.yaml"))
     .then(fs.read.yaml)
     .add("json:settings")
 
-    .add({
-        path: path.join(__dirname, "raw"),
-        fs$filter_name: name => name.match(/^[\d-]+[.]yaml$/)
-    })
-    .then(fs.make.directory)
-    .then(fs.list)
-    .each({
-        method: fs.read.json.magic,
-        inputs: "paths:path",
-        outputs: "jsons",
-        output_selector: sd => sd.json,
-    })
+    .then(fs.read.yaml.p(path.join(__dirname, "raw", "data.yaml")))
     .make(sd => {
-        const records = []
+        const rsd = {}
 
-        sd.jsons.forEach(json => {
-            const data = {}
-
-            json.tables.forEach(rows => {
-                rows = rows.map(row => row.map(cell => sd.settings.mapping[cell] || cell))
-                const header = rows.shift()
-
-                let table = []
-                rows.forEach(row => {
-                    table.push(_.object(header, row))
-                })
-
-                if (header[0] === "province") {
-                    table.forEach(row => {
-                        const province = row.province || "xxxx"
-                        if (province !== province.toUpperCase()) {
-                            return
-                        }
-
-                        const d = data[province] || {}
-                        data[province] = d
-
-                        _.mapObject(row, (value, key) => {
-                            if (_.is.Number(value)) {
-                                d[key] = value
-                            }
-                        })
-                    })
-                } else {
-                    const row = table[0]
-                    const province = ""
-                    const d = data[province] || {}
-                    data[province] = d
-
-                    _.mapObject(table[0], (value, key) => {
-                        if (_.is.Number(value)) {
-                            d[key] = value
-                        }
-                    })
-                }
+        sd.json
+            .map(record => ({
+                state: mapping[record.prname] || null,
+                date: (d => `${d.substring(6, 10)}-${d.substring(3, 5)}-${d.substring(0, 2)}`)(record.date),
+                tests_positive: _.coerce.to.Integer(record.numconf, null),
+                tests_probable: _.coerce.to.Integer(record.numprob, null),
+                deaths: _.coerce.to.Integer(record.numdeaths, null),
+            }))
+            .forEach(record => {
+                rsd[record.state] = rsd[record.state] || []
+                rsd[record.state].push(record)
             })
 
-            _.mapObject(data, (value, state) => {
-                records.push(Object.assign({
-                    date: json.date,
-                    state: state,
-                }, value))
-            })
-        })
-
-        sd.itemss = []
-        _.uniq(records.map(r => r.state)).forEach(state => {
-            sd.itemss.push(records.filter(record => record.state === state))
-        })
+        sd.rss = _.values(rsd)
     })
     .each({
         method: _one,
-        inputs: "itemss:items",
+        inputs: "rss:items",
     })
-
-    /*
-    */
-
+    
     .except(_.error.log)
-

@@ -32,6 +32,7 @@ const record_urn = (...ds) => {
     const side = {
         country: "",
         region: null,
+        locality: null,
         suffix: "",
     }
 
@@ -43,12 +44,32 @@ const record_urn = (...ds) => {
         if (d.region) {
             side.region = d.region.toLowerCase()
         }
+        if (d.locality) {
+            side.locality = d.locality.toLowerCase().replace(/[^a-z]/g, "-").replace(/-+/g, "-")
+        }
         if (d.country) {
             side.country = d.country.toLowerCase()
         }
     })
 
-    return `${side.country}-${side.region}${side.suffix}.yaml`
+    let p = ""
+    if (side.country) {
+        p += side.country
+    }
+    if (side.region) {
+        p += "-"
+        p += side.region
+    }
+    if (side.locality) {
+        p += "-"
+        p += side.locality
+    }
+    if (side.suffix) {
+        p += side.suffix
+    }
+    p += ".yaml"
+
+    return p
 }
 
 /**

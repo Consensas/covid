@@ -50,6 +50,16 @@ const record_main = (...ds) => {
 
     result["@id"] = _util.record.urn(...ds)
 
+    // hack … will be deleted
+    result.key = ""
+    if (result.country) {
+        result.key += result.country.toLowerCase()
+    }
+    if (result.region) {
+        result.key += "-"
+        result.key += result.region.toLowerCase()
+    }
+
     return result
 }
 

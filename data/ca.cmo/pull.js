@@ -1,9 +1,9 @@
 /*
- *  data/ca.cmo/pull.js
+ *  data/world.jhu-csse/primary.js
  *
  *  David Janes
  *  Consensas
- *  2020-03-23
+ *  2020-03-29
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -25,123 +25,34 @@
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 const fetch = require("iotdb-fetch")
+const xlsx = require("iotdb-xlsx")
+const document = require("iotdb-document")
+
+const _util = require("../../_util")
 
 const path = require("path")
-const cheerio = require("cheerio")
-const parse = require("date-fns/parse")
-
-const minimist = require("minimist")
-const ad = minimist(process.argv.slice(2), {
-    boolean: [
-    ],
-    string: [
-    ],
-    alias: {
-    },
-})
-
-const COUNTRY = "ca"
 
 /**
  */
-const _pull = _.promise((self, done) => {
-    _.promise(self)
-        .validate(_pull)
-        .make(sd => {
-            sd.json = {
-                date: null,
-                tables: [],
-            }
-
-            const $ = cheerio.load(self.document)
-
-            const _table = $n => {
-                const rows = []
-                $n.find("tr").each((x, etr) => {
-                    const row = []
-                    $(etr).find("td,th").each((y, etd) => {
-                        const value = $(etd)
-                            .text()
-                            .replace(/\s+/g, " ")
-                            .trim()
-                            .toLowerCase()
-                            .replace(/[^a-z0-9 ]/g, "")
-
-                        row.push(_.coerce.to.Integer(value, value))
-                    })
-
-                    if (row.length) {
-                        rows.push(row)
-                    }
-                })
-                return rows
-            }
-
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
-            
-            $("meta[name='dcterms.issued']").each((x, e) => {
-                if (e.attribs.content) {
-                    sd.json.date = new Date(e.attribs.content).toISOString().substring(0, 10)
-                }
-            })
-
-            $("table").each((x, e) => {
-                const rows = _table($(e))
-                if (rows.length <= 1) {
-                    return
-                }
-
-                if (_.is.Equal(rows[0], [ 'title', 'date' ])) {
-                    return
-                }
-
-                sd.json.tables.push(rows)
-            })
-            
-            sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
-
-            if (_.is.Empty(sd.json.date)) {
-                console.log("#", "no data for", COUNTRY)
-                _.promise.bail(sd)
-            }
-        })
-        .then(fs.make.directory.parent)
-        .then(fs.write.yaml)
-        .log("wrote", "path")
-
-        .end(done, self, _pull)
+_.promise({
 })
+    .add("path", path.join(__dirname, "settings.yaml"))
+    .then(fs.read.yaml)
+    .add("json:settings")
 
-_pull.method = "_pull"
-_pull.description = ``
-_pull.requires = {
-}
-_pull.accepts = {
-}
-_pull.produces = {
-}
+    .add("settings/url")
+    .then(fetch.document.get())
+    .then(document.to.string.utf8)
+    .then(xlsx.load.csv)
+    .add("jsons:json")
 
-if (ad._.length) {
-    _.promise({
-        paths: ad._,
+    .add("path", path.join(__dirname, "raw", `data.yaml`))
+    .then(fs.make.directory.parent)
+    .then(fs.write.yaml)
+    .log("path", "path")
+    
+    .except(error => {
+        console.log("#", "data/ca.cmo/pull.js", "could not download:", error.self.source.url)
+        throw error
     })
-        .each({
-            method: fs.read.utf8,
-            inputs: "paths:path",
-            outputs: "documents",
-            output_selector: sd => sd.document,
-            error: error => {
-                console.log("#", _.error.message(error))
-            },
-        })
-        .each({
-            method: _pull,
-            inputs: "documents:document",
-        })
-        .except(_.error.log)
-} else {
-    _.promise()
-        .then(fetch.document.get("https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html"))
-        .then(_pull)
-        .except(_.error.log)
-}
+    .except(_.error.log)
