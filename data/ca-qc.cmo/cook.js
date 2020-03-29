@@ -89,6 +89,7 @@ _.promise({
                     const month = {
                         "janvier": "January",
                         "février": "February",
+                        "févrie": "February",
                         "mars": "March",
                         "avril": "April",
                         "mai": "May",
@@ -102,10 +103,18 @@ _.promise({
                     }[match[2]];
 
                     const date$ = `${day} ${month} 2020`
+                    if (ad.verbose) {
+                        console.log("-", "date$", date$)
+                    }
                     let date = parse(`${day} ${month} 2020`, "d MMMM yyyy", new Date())
                     if (_.is.Date(date)) {
-                        date = date.toISOString().substring(0, 10)
-                        item.date = date
+                        try {
+                            date = date.toISOString().substring(0, 10)
+                            item.date = date
+                        } catch (x) {
+                            console.log("#", "data/ca-qc.cmo/cook", _.error.message(x), date$)
+                            return
+                        }
                     }
                 } else {
                     item.tweet = json.full_text
