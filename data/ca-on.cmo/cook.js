@@ -26,12 +26,16 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
 const path = require("path")
+const _util = require("../../_util")
 
-const COUNTRY = "ca"
-const PROVINCE = "on"
-const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
-
-_.promise()
+_.promise({
+    settings: {
+        authority: "consensas",
+        dataset: "cmo",
+        region: "ON",
+        country: "CA",
+    },
+})
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
         method: fs.read.json.magic,
@@ -40,24 +44,16 @@ _.promise()
         output_selector: sd => sd.json,
     })
     .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            region: PROVINCE.toUpperCase(),
-            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
-            items: [],
-        }
+        sd.json = _util.record.main(sd.settings)
+        sd.json.items = []
 
         sd.jsons
             .filter(json => json.date && json.status)
             .forEach(json => {
                 const item = {
+                    "@id": `${sd.json["@id"]}:${json.date}`,
                     date: json.date,
                 }
-
-                // console.log(json.status)
-                // process.exit()
                 
                 json.status.forEach(tuple => {
                     const number = _.coerce.to.Integer(tuple[1].replace(/,/g, ""), null)
@@ -81,14 +77,11 @@ _.promise()
                 sd.json.items.push(item)
             })
 
-        sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
-        })
-
         sd.json = [ sd.json ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
-    .add("path", path.join(__dirname, NAME))
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
 
