@@ -31,6 +31,8 @@ const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
 
+const _util = require("../../_util")
+
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
@@ -79,9 +81,17 @@ const _pull = _.promise((self, done) => {
                 sd.json.tests = _integer(tests_match[1])
             }
 
-            const date_match = text.match(/SUMMARY . ([A-Za-z]+ \d+, 20\d\d)/)
-            if (date_match) {
-                const date = parse(`${date_match[1]}`, "MMMM dd, yyyy", new Date())
+            let match
+            if (match = text.match(/SUMMARY . ([A-Za-z]+ \d+, 20\d\d)/)) {
+                const date = parse(`${match[1]}`, "MMMM dd, yyyy", new Date())
+                if (!_.is.Date(date)) {
+                    return 
+                }
+
+                sd.json.date = date.toISOString().substring(0, 10)
+            }
+            if (match = text.match(/[(]as of ([A-Za-z]+ \d+, 20\d\d)[)]/)) {
+                const date = parse(`${match[1]}`, "MMMM dd, yyyy", new Date())
                 if (!_.is.Date(date)) {
                     return 
                 }
@@ -90,18 +100,40 @@ const _pull = _.promise((self, done) => {
             }
 
             $("table.compacttable").each((x, e) => {
-                const table = _table($(e))
+                const table = _util.normalize.object(_util.cheerio.table($, $(e)))
                 if (table.length < 2) {
                     return
                 }
 
-                table
-                    .filter(row => row.length === 5)
-                    .filter(row => row[0] === 'Total Saskatchewan')
-                    .forEach(row => {
-                        sd.json.tests_positive = _integer(row[2])
-                        sd.json.tests_probable = _integer(row[3])
-                    })
+                if (_.is.Equal(table[0], [
+                    'region',
+                    'of patients with tests ordered',
+                    'of patients with tests pending',
+                    'patients presumptive postive',
+                    'patients confirmed postive',
+                    'patients confirmed negative',
+                    'total of tests performed'
+                ])) {
+                    const row = table[table.length - 1]
+                    sd.json.tests_ordered = row[1]
+                    sd.json.tests_pending = row[2]
+                    sd.json.tests_probable = row[3]
+                    sd.json.tests_positive = row[4]
+                    sd.json.tests_negative = row[5]
+                    sd.json.tests = row[6]
+                } else {
+                    table
+                        .filter(row => row.length === 5)
+                        .filter(row => row[0] === 'total saskatchewan')
+                        .forEach(row => {
+                            sd.json.tests_positive = row[2]
+                            sd.json.tests_probable = row[3]
+                        })
+
+                    if (sd.json.tests && sd.json.tests_positive) {
+                        sd.json.tests_negative = sd.json.tests - sd.json.tests_positive - (sd.json.tests_probable || 0)
+                    }
+                }
             })
 
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
@@ -111,9 +143,6 @@ const _pull = _.promise((self, done) => {
                 _.promise.bail(sd)
             }
 
-            if (sd.json.tests && sd.json.tests_positive) {
-                sd.json.tests_negative = sd.json.tests - sd.json.tests_positive - (sd.json.tests_probable || 0)
-            }
 
         })
         .then(fs.make.directory.parent)
