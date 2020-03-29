@@ -1,0 +1,24 @@
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:consensas:cmo:ca-qc'
+  region: QC
+  country: CA
+  key: ca-qc
+  items:
+    - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-27'
+      date: '2020-03-27'
+      tests_positive: 2021
+      tests_ordered: 7236
+      tests_negative: 32335
+      tests: 34356
+    - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-28'
+      date: '2020-03-28'
+      tests_positive: 2498
+      tests_ordered: 6757
+      tests_negative: 43589
+      tests: 46087
+    - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-29'
+      date: '2020-03-29'
+      tests_positive: 2840
+      tests_ordered: 6313
+      tests_negative: 49364
+      tests: 52204

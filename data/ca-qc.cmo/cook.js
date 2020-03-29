@@ -30,11 +30,27 @@ const fr_locale = require('date-fns/locale/fr')
 
 const path = require("path")
 
-const COUNTRY = "ca"
-const PROVINCE = "qc"
-const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
+const _util = require("../../_util")
 
-_.promise()
+const minimist = require("minimist")
+const ad = minimist(process.argv.slice(2), {
+    boolean: [
+        "verbose",
+    ],
+    string: [
+    ],
+    alias: {
+    },
+})
+
+_.promise({
+    settings: {
+        authority: "consensas",
+        dataset: "cmo",
+        region: "QC",
+        country: "CA",
+    },
+})
     .add({
         path: path.join(__dirname, "raw"),
         fs$filter_name: name => name.match(/^\d+[.]yaml$/)
@@ -48,28 +64,28 @@ _.promise()
         output_selector: sd => sd.json,
     })
     .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            region: PROVINCE.toUpperCase(),
-            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
-            items: [],
-        }
-
-        const _integer = x => _.coerce.to.Integer(x.replace(/[, ]/g, ""), null)
+        sd.json = _util.record.main(sd.settings)
+        sd.json.items = []
 
         sd.jsons
-            .filter(json => json.full_text.startsWith("#COVID19 – Au Québec"))
+            .filter(json => json.full_text.match(/#COVID19.*Au.Québec/))
             .forEach(json => {
+                let match 
+
                 const tweet = json.full_text
                 const item = {
-                    // tweet: json.full_text,
+                    "@id": null,
                 }
 
-                const date_match = tweet.match(/en date du (\d+) ([^\s,.]+)/)
-                if (date_match) {
-                    const day = date_match[1]
+                if (ad.verbose) {
+                    console.log("----")
+                    console.log(tweet)
+
+                    item.tweet = tweet
+                }
+
+                if (match = tweet.match(/en date du (\d+) ([^\s,.]+)/)) {
+                    const day = match[1]
                     const month = {
                         "janvier": "January",
                         "février": "February",
@@ -83,7 +99,7 @@ _.promise()
                         "octobre": "October",
                         "novembre": "November",
                         "décembre": "December",
-                    }[date_match[2]];
+                    }[match[2]];
 
                     const date$ = `${day} ${month} 2020`
                     let date = parse(`${day} ${month} 2020`, "d MMMM yyyy", new Date())
@@ -95,34 +111,36 @@ _.promise()
                     item.tweet = json.full_text
                 }
 
-                const positive_match = tweet.match(/[➡➡️]\s*([\d, ]+) cas conf/)
-                if (positive_match) {
-                    item.tests_positive = _integer(positive_match[1])
+                if (match = tweet.match(/\s*([\d, ]+) cas conf/)) {
+                    item.tests_positive = _util.normalize.integer(match[1])
                 }
 
-                const testing_match = tweet.match(/[➡➡️]\s*([\d, ]+) personnes s/)
-                if (testing_match) {
-                    item.tests_ordered = _integer(testing_match[1])
+                if (match = tweet.match(/\s*([\d, ]+) personnes s/)) {
+                    item.tests_ordered = _util.normalize.integer(match[1])
                 }
 
-                const negative_match = tweet.match(/[➡➡️]\s*([\d, ]+) analyses n/)
-                if (negative_match) {
-                    item.tests_negative = _integer(negative_match[1])
+                if (match = tweet.match(/\s*([\d, ]+) analyses n/)) {
+                    item.tests_negative = _util.normalize.integer(match[1])
                 }
 
                 item.tests = (item.tests_negative || 0) + (item.tests_positive || 0)
+                
+                if (ad.verbose) {
+                    console.log("-", "item", item)
+                }
 
                 sd.json.items.push(item)
             })
 
         sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
+            item["@id"] = `${sd.json["@id"]}:${item.date}`
         })
 
         sd.json = [ sd.json ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
-    .add("path", path.join(__dirname, NAME))
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
 
