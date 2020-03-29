@@ -30,6 +30,8 @@ const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
 
+const _util = require("../../_util")
+
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
@@ -49,38 +51,35 @@ const _pull = _.promise((self, done) => {
     _.promise(self)
         .validate(_pull)
         .make(sd => {
-            sd.json = {
-                tests: null,
-                date: null,
-            }
+            const item = {}
 
             const $ = cheerio.load(self.document)
 
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
-            const _table = $n => {
-                const rows = []
-                $n.find("tr").each((x, etr) => {
-                    const row = []
-                    $(etr).find("td,th").each((y, etd) => {
-                        row.push($(etd).text().trim())
-                    })
-                    if (row.length) {
-                        rows.push(row)
-                    }
-                })
-                return rows
-            }
-
             $("table").each((x, e) => {
-                const table = _table($(e))
-                table.forEach(row => {
-                    if (row[0].startsWith("Confirmed Pos")) {
-                        sd.json.tests_positive = _integer(row[1])
+                const table = _util.normalize.object(_util.cheerio.table($, $(e)))
+                if (ad.verbose) {
+                    console.log("-", "verbose", table)
+                }
+
+                if (_.is.Equal(table[0], [ 'regions', 'total cases', 'confirmed positive', 'probable positive', 'deaths' ])) {
+                    const row = table.find(row => row[0] === "totals")
+                    if (!row) {
+                        return
                     }
-                    if (row[0].startsWith("Probable Pos")) {
-                        sd.json.tests_probable = _integer(row[1])
-                    }
-                })
+
+                    item.tests_positive = row[2]
+                    item.tests_probable = row[3]
+                    item.deaths = row[4]
+                } else {
+                    table.forEach(row => {
+                        if (row[0].startsWith("confirmed pos")) {
+                            item.tests_positive = row[1]
+                        }
+                        if (row[0].startsWith("probable pos")) {
+                            item.tests_probable = row[1]
+                        }
+                    })
+                }
             })
 
             $("p").each((x, e) => {
@@ -104,17 +103,26 @@ const _pull = _.promise((self, done) => {
                     return
                 }
 
-                sd.json.tests = value
-                sd.json.date = date.toISOString().substring(0, 10)
+                item.tests = value
+                item.date = date.toISOString().substring(0, 10)
             })
 
-
-
-            if (!sd.json.date || !sd.json.tests) {
-                console.log("#", "no data for", COUNTRY, PROVINCE)
+            if (!item.date || (_.size(item) < 2)) {
+                console.log("#", "no data for", COUNTRY, PROVINCE, item)
                 _.promise.bail(sd)
             }
 
+            if (_.is.Number(item.tests_positive) && 
+                _.is.Number(item.tests_probable) && 
+                _.is.Number(item.tests)) {
+                item.tests_negative = item.tests - item.tests_positive - item.tests_probable
+            }
+
+            if (ad.verbose) {
+                console.log("-", "item", item)
+            }
+
+            sd.json = item
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
         })
         .then(fs.make.directory.parent)
