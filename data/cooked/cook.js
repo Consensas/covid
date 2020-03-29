@@ -279,7 +279,7 @@ _.promise({
     })
 
     // core data
-    .add("names", [ "deaths", "confirmed", "recovered", ])
+    .add("names", [ "deaths", "tests_positive", "recovered", ])
     .each({
         method: _cook,
         inputs: "names:name",

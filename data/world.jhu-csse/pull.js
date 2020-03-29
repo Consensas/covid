@@ -31,7 +31,7 @@ const path = require("path")
 
 const sources = [
     {
-        name: "confirmed",
+        name: "tests_positive",
         _url: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv",
         url: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv",
     },

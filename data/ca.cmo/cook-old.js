@@ -75,10 +75,6 @@ const _one = _.promise((self, done) => {
                         }
                     })
 
-                    if (item.tests_positive) {
-                        item.confirmed = item.tests_positive
-                    }
-
                     sd.json.items.push(item)
                 })
 

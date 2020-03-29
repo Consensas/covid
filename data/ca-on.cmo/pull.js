@@ -90,13 +90,13 @@ const _pull = _.promise((self, done) => {
             const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
 
             $("#pagebody").each((x, e) => {
-                let region = "start"
+                let state = "start"
 
                 e.childNodes.forEach(n => {
                     const $n = $(n)
                     switch (n.tagName) {
                     case "p":
-                        if (region === "status") {
+                        if (state === "status") {
                             const text = $n.text()
                             if (text.startsWith("Last updated:")) {
                                 sd.result.date = _date(text)
@@ -105,17 +105,17 @@ const _pull = _.promise((self, done) => {
                         break
 
                     case "table":
-                        sd.result[region] = _table($n)
+                        sd.result[state] = _table($n)
                         break
                         
                     case "h2":
                     case "h3":
                         if ($n.text() === "Status of cases in Ontario") {
-                            region = "status"
+                            state = "status"
                         } else if ($n.text() === "New confirmed positive cases") {
-                            region = "cases"
+                            state = "cases"
                         } else {
-                            region = "unknown"
+                            state = "unknown"
                         }
                         break
                     }

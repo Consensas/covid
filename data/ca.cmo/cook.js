@@ -79,10 +79,6 @@ const _one = _.promise((self, done) => {
                         }
                     })
 
-                    if (_.is.Integer(item.tests_positive)) {
-                        item.confirmed = item.tests_positive
-                    }
-
                     sd.json.items.push(item)
                 })
 

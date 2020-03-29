@@ -247,7 +247,7 @@ const _aggregate = _.promise(self => {
                 }
 
                 id.deaths = (id.deaths || 0) + (oitem.deaths || 0)
-                id.confirmed = (id.confirmed || 0) + (oitem.confirmed || 0)
+                id.tests_positive = (id.tests_positive || 0) + (oitem.tests_positive || 0)
                 id.recovered = (id.recovered || 0) + (oitem.recovered || 0)
             })
 
@@ -314,7 +314,7 @@ _.promise({
     })
 
     // core data
-    .add("names", [ "deaths", "confirmed", "recovered", ])
+    .add("names", [ "deaths", "tests_positive", "recovered", ])
     .each({
         method: _cook,
         inputs: "names:name",
