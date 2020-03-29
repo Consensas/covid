@@ -1,130 +1,131 @@
 - '@context': 'https://consensas.world/m/covid'
-  '@id': 'urn:covid:consensas:ca-ab:cmo'
-  country: CA
+  '@id': 'urn:covid:consensas:cmo:ca-ab'
   state: AB
+  country: CA
+  source: 'https://www.alberta.ca/covid-19-alberta-data.aspx'
   key: ca-ab
   items:
     - date: '2020-02-14'
       tests_negative: 76
       tests_positive: 0
       tests: 76
-      '@id': 'urn:covid:consensas:ca-ab:2020-02-14'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-14'
     - date: '2020-02-23'
       tests_negative: 117
       tests_positive: 0
       tests: 117
-      '@id': 'urn:covid:consensas:ca-ab:2020-02-23'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-23'
     - date: '2020-02-26'
       tests_negative: 117
       tests_positive: 0
       tests: 117
-      '@id': 'urn:covid:consensas:ca-ab:2020-02-26'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-26'
     - date: '2020-02-27'
       tests_negative: 117
       tests_positive: 0
       tests: 117
-      '@id': 'urn:covid:consensas:ca-ab:2020-02-27'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-27'
     - date: '2020-03-04'
       tests_negative: 173
       tests_positive: 0
       tests: 173
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-04'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-04'
     - date: '2020-03-08'
       tests_negative: 375
       tests_positive: 4
       tests: 379
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-08'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-08'
     - date: '2020-03-09'
       tests_negative: 1452
       tests_positive: 7
       tests: 1459
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-09'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-09'
     - date: '2020-03-10'
       tests_negative: 1452
       tests_positive: 7
       tests: 1459
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-10'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-10'
     - date: '2020-03-11'
       tests_negative: 2600
       tests_positive: 19
       tests: 2619
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-11'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-11'
     - date: '2020-03-12'
       tests_negative: 4265
       tests_positive: 23
       tests: 4288
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-12'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-12'
     - date: '2020-03-13'
       tests_negative: 5429
       tests_positive: 29
       tests: 5458
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-13'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-13'
     - date: '2020-03-14'
       tests_negative: 7069
       tests_positive: 39
       tests: 7108
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-14'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-14'
     - date: '2020-03-16'
       tests_negative: 10524
       tests_positive: 74
       tests: 10598
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-16'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-16'
     - date: '2020-03-17'
       tests_negative: 14447
       tests_positive: 119
       tests: 14566
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-17'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-17'
     - date: '2020-03-18'
       tests_negative: 14447
       tests_positive: 119
       tests: 14566
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-18'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-18'
     - date: '2020-03-19'
       tests_negative: 16867
       tests_positive: 146
       tests: 17013
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-19'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-19'
     - date: '2020-03-20'
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-20'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-20'
     - date: '2020-03-21'
       tests_negative: 23516
       tests_positive: 226
       tests: 23742
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-21'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-21'
     - date: '2020-03-22'
       tests_negative: 26740
       tests_positive: 259
       tests: 26999
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-22'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-22'
     - date: '2020-03-23'
       tests_negative: 29757
       tests_positive: 301
       tests: 30058
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-23'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-23'
     - date: '2020-03-24'
       tests_negative: 32418
       tests_positive: 358
       tests: 32776
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-24'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-24'
     - date: '2020-03-25'
       tests_negative: 35089
       tests_positive: 419
       tests: 35508
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-25'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-25'
     - date: '2020-03-26'
       tests_negative: 36174
       tests_positive: 486
       tests: 36660
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-26'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-26'
     - date: '2020-03-27'
       tests_negative: 37673
       tests_positive: 542
       tests: 38215
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-27'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-27'
     - date: '2020-03-28'
-      tests_negative: 37673
-      tests_positive: 542
-      tests: 38215
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-28'
+      tests_positive: 621
+      deaths: 2
+      tests: 42527
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-28'
     - date: '2020-03-29'
-      '@id': 'urn:covid:consensas:ca-ab:2020-03-29'
+      '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-29'

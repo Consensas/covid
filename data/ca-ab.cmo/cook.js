@@ -26,6 +26,8 @@
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
+const _util = require("../../_util")
+
 const path = require("path")
 
 const COUNTRY = "ca"
@@ -33,6 +35,10 @@ const PROVINCE = "ab"
 const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
 
 _.promise()
+    .add("path", path.join(__dirname, "settings.yaml"))
+    .then(fs.read.yaml)
+    .add("json:settings")
+
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
         method: fs.read.json.magic,
@@ -41,23 +47,21 @@ _.promise()
         output_selector: sd => sd.json,
     })
     .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            state: PROVINCE.toUpperCase(),
-            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
-            items: sd.jsons.filter(json => json.date)
-        }
+        sd.json = _util.record.main(sd.settings)
+        sd.json.key = `${sd.settings.country}-${sd.settings.region}`.toLowerCase()
+        sd.json.items = sd.jsons.filter(json => json.date)
 
         sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
+            item["@id"] = _util.record.urn(sd.settings, {
+                date: item.date,
+            })
         })
 
         sd.json = [ sd.json ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
-    .add("path", path.join(__dirname, NAME))
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
     
