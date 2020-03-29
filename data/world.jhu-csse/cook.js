@@ -108,31 +108,20 @@ const _cook = _.promise((self, done) => {
         .make(sd => {
             sd.json.forEach(row => {
                 const key = row._region ? `${row._country.toLowerCase()}-${row._region.toLowerCase()}` : row._country.toLowerCase()
-                const result = sd.results[key] = sd.results[key] || {
-                    "@context": _util.context,
-                    "@id": null,
-                    key: key,
-                    country: row._country,
-                    region: row._region || null,
-                    items: {},
+                if (!sd.results[key]) {
+                    sd.results[key] = _util.record.main({
+                        authority: "jhe.edu",
+                        dataset: "csse",
+                        country: row._country,
+                        region: row._region || null,
+                    })
+                    sd.results[key].items = {}
                 }
+                const result = sd.results[key]
 
                 if (([ "CA", "US", "AU" ].indexOf(result.country) > -1) && result.region) {
                     result.region = result.region.toUpperCase()
                 }
-
-                if (result.region) {
-                    result["@id"] = `urn:covid:jhe.edu:csse:${result.country}-${result.region}`.toLowerCase()
-                } else {
-                    result["@id"] = `urn:covid:jhe.edu:csse:${result.country}`.toLowerCase()
-                }
-
-                /*
-                if (result.region === "ON") {
-                    console.log(row)
-                    process.exit()
-                }
-                */
 
                 _.keys(row)
                     .map(row => row.match(/^(\d+)_(\d+)_(\d+)$/))
