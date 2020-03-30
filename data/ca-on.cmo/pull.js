@@ -28,6 +28,7 @@ const fetch = require("iotdb-fetch")
 
 const path = require("path")
 const cheerio = require("cheerio")
+const _util = require("../../_util")
 
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
@@ -48,12 +49,7 @@ const _pull = _.promise((self, done) => {
     _.promise(self)
         .validate(_pull)
         .make(sd => {
-            sd.cases = []
-            sd.result = {
-                cases: null,
-                status: null,
-                date: null,
-            }
+            const item = {}
 
             const $ = cheerio.load(self.document)
 
@@ -74,12 +70,7 @@ const _pull = _.promise((self, done) => {
             const _date = text => {
                 const parse = require("date-fns/parse")
 
-                const match = text.match(/Last updated: ([A-Z][a-z]+ \d+, \d+)/)
-                if (!match) {
-                    return null
-                }
-
-                const date = parse(match[1], "MMMM dd, yyyy", new Date())
+                const date = parse(text, "MMMM dd yyyy", new Date())
                 if (!_.is.Date(date)) {
                     return null
                 }
@@ -87,34 +78,40 @@ const _pull = _.promise((self, done) => {
                 return date.toISOString().substring(0, 10)
             }
 
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
-
             $("#pagebody").each((x, e) => {
                 let state = "start"
+                let match
 
                 e.childNodes.forEach(n => {
                     const $n = $(n)
+                    const text$ = _util.normalize.text($n.text())
+
                     switch (n.tagName) {
                     case "p":
                         if (state === "status") {
-                            const text = $n.text()
-                            if (text.startsWith("Last updated:")) {
-                                sd.result.date = _date(text)
+                            if (match = text$.match(/epidemiologic summa.*to ([a-z]+ \d+ 202\d)/)) {
+                                item.date = _date(match[1])
+                            } else if (match = text$.match(/last updated ([a-z]+ \d+ 202\d+)/)) {
+                                item.date = _date(match[1])
                             }
                         }
                         break
 
                     case "table":
-                        sd.result[state] = _table($n)
+                        item[state] = _table($n)
                         break
                         
+                    case "h1":
                     case "h2":
                     case "h3":
-                        if ($n.text() === "Status of cases in Ontario") {
+                        if (text$ === "status of cases in ontario") {
                             state = "status"
-                        } else if ($n.text() === "New confirmed positive cases") {
+                        } else if (text$ === "new confirmed positive cases") {
                             state = "cases"
                         } else {
+                            if (ad.verbose) {
+                                console.log("-", "unknown header:", n.tagName, text$)
+                            }
                             state = "unknown"
                         }
                         break
@@ -122,13 +119,17 @@ const _pull = _.promise((self, done) => {
                 })
             })
 
-            sd.path = path.join(__dirname, "raw", `${sd.result.date}.yaml`)
-            sd.json = sd.result
+            if (ad.verbose) {
+                console.log("-", "item", item)
+            }
 
-            if (_.is.Empty(sd.json.date)) {
-                console.log("#", "no data for", COUNTRY, PROVINCE)
+            if (!item.date || (_.size(item) < 2)) {
+                console.log("#", "no data for", COUNTRY, PROVINCE, item)
                 _.promise.bail(sd)
             }
+
+            sd.path = path.join(__dirname, "raw", `${item.date}.yaml`)
+            sd.json = item
 
         })
         .then(fs.make.directory.parent)
@@ -145,7 +146,6 @@ _pull.requires = {
 _pull.accepts = {
 }
 _pull.produces = {
-    result: _.is.Dictionary,
 }
 
 

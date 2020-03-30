@@ -8,18 +8,22 @@
   under_investigation: 11
   presumptive_positive: 1
   confirmed_positive: 1
+  total_cases: 1
 - reported_date: '2020-01-30'
   under_investigation: 27
   presumptive_positive: 0
   confirmed_positive: 2
+  total_cases: 2
 - reported_date: '2020-01-31'
   under_investigation: 17
   presumptive_positive: 0
   confirmed_positive: 2
+  total_cases: 2
 - reported_date: '2020-02-03'
   under_investigation: 29
   presumptive_positive: 0
   confirmed_positive: 3
+  total_cases: 3
 - reported_date: '2020-02-04'
   confirmed_negative: 90
   presumptive_negative: 12
@@ -27,6 +31,7 @@
   presumptive_positive: 0
   confirmed_positive: 3
   total_patients_approved_for_testing_as_of_reporting_date: 139
+  total_cases: 3
 - reported_date: '2020-02-05'
   confirmed_negative: 96
   presumptive_negative: 8
@@ -34,6 +39,7 @@
   presumptive_positive: 0
   confirmed_positive: 3
   total_patients_approved_for_testing_as_of_reporting_date: 150
+  total_cases: 3
 - reported_date: '2020-02-06'
   confirmed_negative: 104
   presumptive_negative: 0
@@ -41,6 +47,7 @@
   presumptive_positive: 0
   confirmed_positive: 3
   total_patients_approved_for_testing_as_of_reporting_date: 169
+  total_cases: 3
 - reported_date: '2020-02-08'
   confirmed_negative: 130
   presumptive_negative: 25
@@ -48,6 +55,7 @@
   presumptive_positive: 0
   confirmed_positive: 3
   total_patients_approved_for_testing_as_of_reporting_date: 197
+  total_cases: 3
 - reported_date: '2020-02-10'
   confirmed_negative: 167
   presumptive_negative: 81
@@ -55,6 +63,7 @@
   presumptive_positive: 0
   confirmed_positive: 3
   total_patients_approved_for_testing_as_of_reporting_date: 259
+  total_cases: 3
 - reported_date: '2020-02-11'
   confirmed_negative: 184
   presumptive_negative: 79
@@ -62,6 +71,7 @@
   presumptive_positive: 0
   confirmed_positive: 3
   total_patients_approved_for_testing_as_of_reporting_date: 285
+  total_cases: 3
 - reported_date: '2020-02-12'
   confirmed_negative: 257
   presumptive_negative: 44
@@ -70,6 +80,7 @@
   confirmed_positive: 2
   resolved: 1
   total_patients_approved_for_testing_as_of_reporting_date: 313
+  total_cases: 3
 - reported_date: '2020-02-13'
   confirmed_negative: 306
   presumptive_negative: 16
@@ -78,6 +89,7 @@
   confirmed_positive: 2
   resolved: 1
   total_patients_approved_for_testing_as_of_reporting_date: 340
+  total_cases: 3
 - reported_date: '2020-02-14'
   confirmed_negative: 353
   presumptive_negative: 0
@@ -86,6 +98,7 @@
   confirmed_positive: 2
   resolved: 1
   total_patients_approved_for_testing_as_of_reporting_date: 364
+  total_cases: 3
 - reported_date: '2020-02-17'
   confirmed_negative: 399
   presumptive_negative: 0
@@ -94,6 +107,7 @@
   confirmed_positive: 2
   resolved: 1
   total_patients_approved_for_testing_as_of_reporting_date: 402
+  total_cases: 3
 - reported_date: '2020-02-18'
   confirmed_negative: 418
   presumptive_negative: 0
@@ -102,6 +116,7 @@
   confirmed_positive: 2
   resolved: 1
   total_patients_approved_for_testing_as_of_reporting_date: 421
+  total_cases: 3
 - reported_date: '2020-02-19'
   confirmed_negative: 436
   presumptive_negative: 0
@@ -110,6 +125,7 @@
   confirmed_positive: 2
   resolved: 1
   total_patients_approved_for_testing_as_of_reporting_date: 456
+  total_cases: 3
 - reported_date: '2020-02-20'
   confirmed_negative: 462
   under_investigation: 14
@@ -117,6 +133,7 @@
   confirmed_positive: 1
   resolved: 2
   total_patients_approved_for_testing_as_of_reporting_date: 479
+  total_cases: 3
 - reported_date: '2020-02-21'
   confirmed_negative: 483
   under_investigation: 12
@@ -124,6 +141,7 @@
   confirmed_positive: 0
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 498
+  total_cases: 3
 - reported_date: '2020-02-24'
   confirmed_negative: 540
   under_investigation: 9
@@ -131,6 +149,7 @@
   confirmed_positive: 1
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 553
+  total_cases: 4
 - reported_date: '2020-02-25'
   confirmed_negative: 568
   under_investigation: 21
@@ -138,6 +157,7 @@
   confirmed_positive: 1
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 593
+  total_cases: 4
 - reported_date: '2020-02-26'
   confirmed_negative: 610
   under_investigation: 14
@@ -145,6 +165,7 @@
   confirmed_positive: 1
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 629
+  total_cases: 4
 - reported_date: '2020-02-27'
   confirmed_negative: 672
   under_investigation: 21
@@ -152,6 +173,7 @@
   confirmed_positive: 2
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 699
+  total_cases: 5
 - reported_date: '2020-02-28'
   confirmed_negative: 739
   under_investigation: 22
@@ -159,96 +181,112 @@
   confirmed_positive: 3
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 768
+  total_cases: 6
 - reported_date: '2020-03-02'
   confirmed_negative: 975
   under_investigation: 12
   confirmed_positive: 15
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 1005
+  total_cases: 18
 - reported_date: '2020-03-03'
   confirmed_negative: 1061
   under_investigation: 45
   confirmed_positive: 17
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 1126
+  total_cases: 20
 - reported_date: '2020-03-04'
   confirmed_negative: 1216
   under_investigation: 102
   confirmed_positive: 17
   resolved: 3
   total_patients_approved_for_testing_as_of_reporting_date: 1338
+  total_cases: 20
 - reported_date: '2020-03-05'
   confirmed_negative: 1466
   under_investigation: 78
   confirmed_positive: 18
   resolved: 4
   total_patients_approved_for_testing_as_of_reporting_date: 1566
+  total_cases: 22
 - reported_date: '2020-03-06'
   confirmed_negative: 1665
   under_investigation: 72
   confirmed_positive: 22
   resolved: 4
   total_patients_approved_for_testing_as_of_reporting_date: 1763
+  total_cases: 26
 - reported_date: '2020-03-07'
   confirmed_negative: 1918
   under_investigation: 36
   confirmed_positive: 24
   resolved: 4
   total_patients_approved_for_testing_as_of_reporting_date: 1982
+  total_cases: 28
 - reported_date: '2020-03-08'
   confirmed_negative: 2094
   under_investigation: 55
   confirmed_positive: 25
   resolved: 4
   total_patients_approved_for_testing_as_of_reporting_date: 2178
+  total_cases: 29
 - reported_date: '2020-03-09'
   confirmed_negative: 2347
   under_investigation: 22
   confirmed_positive: 31
   resolved: 4
   total_patients_approved_for_testing_as_of_reporting_date: 2404
+  total_cases: 35
 - reported_date: '2020-03-10'
   confirmed_negative: 2599
   under_investigation: 112
   confirmed_positive: 31
   resolved: 5
   total_patients_approved_for_testing_as_of_reporting_date: 2747
+  total_cases: 36
 - reported_date: '2020-03-11'
   confirmed_negative: 2888
   under_investigation: 465
   confirmed_positive: 37
   resolved: 5
   total_patients_approved_for_testing_as_of_reporting_date: 3395
+  total_cases: 42
 - reported_date: '2020-03-12'
   confirmed_negative: 3590
   under_investigation: 536
   confirmed_positive: 54
   resolved: 5
   total_patients_approved_for_testing_as_of_reporting_date: 4185
+  total_cases: 59
 - reported_date: '2020-03-13'
   confirmed_negative: 4470
   under_investigation: 580
   confirmed_positive: 74
   resolved: 5
   total_patients_approved_for_testing_as_of_reporting_date: 5129
+  total_cases: 79
 - reported_date: '2020-03-14'
   confirmed_negative: 5606
   under_investigation: 939
   confirmed_positive: 98
   resolved: 5
   total_patients_approved_for_testing_as_of_reporting_date: 6648
+  total_cases: 103
 - reported_date: '2020-03-15'
   confirmed_negative: 7004
   under_investigation: 11316
   confirmed_positive: 140
   resolved: 5
   total_patients_approved_for_testing_as_of_reporting_date: 8465
+  total_cases: 145
 - reported_date: '2020-03-16'
   confirmed_negative: 8464
   under_investigation: 1537
   confirmed_positive: 172
   resolved: 5
   total_patients_approved_for_testing_as_of_reporting_date: 10178
+  total_cases: 177
 - reported_date: '2020-03-17'
   confirmed_negative: 9415
   under_investigation: 1567
@@ -256,6 +294,7 @@
   resolved: 5
   deaths: 1
   total_patients_approved_for_testing_as_of_reporting_date: 11171
+  total_cases: 189
 - reported_date: '2020-03-18'
   confirmed_negative: 10305
   under_investigation: 3378
@@ -263,6 +302,7 @@
   resolved: 5
   deaths: 1
   total_patients_approved_for_testing_as_of_reporting_date: 13897
+  total_cases: 214
 - reported_date: '2020-03-19'
   confirmed_negative: 12421
   under_investigation: 3971
@@ -270,6 +310,7 @@
   resolved: 5
   deaths: 2
   total_patients_approved_for_testing_as_of_reporting_date: 16650
+  total_cases: 258
 - reported_date: '2020-03-20'
   confirmed_negative: 13718
   under_investigation: 5475
@@ -277,6 +318,7 @@
   resolved: 5
   deaths: 2
   total_patients_approved_for_testing_as_of_reporting_date: 19511
+  total_cases: 318
 - reported_date: '2020-03-21'
   confirmed_negative: 15768
   under_investigation: 7239
@@ -284,6 +326,7 @@
   resolved: 6
   deaths: 2
   total_patients_approved_for_testing_as_of_reporting_date: 23384
+  total_cases: 377
 - reported_date: '2020-03-22'
   confirmed_negative: 17634
   under_investigation: 8361
@@ -291,6 +334,7 @@
   resolved: 8
   deaths: 5
   total_patients_approved_for_testing_as_of_reporting_date: 26420
+  total_cases: 425
 - reported_date: '2020-03-23'
   confirmed_negative: 19586
   under_investigation: 8417
@@ -298,6 +342,7 @@
   resolved: 8
   deaths: 6
   total_patients_approved_for_testing_as_of_reporting_date: 28506
+  total_cases: 503
 - reported_date: '2020-03-24'
   confirmed_negative: 21795
   under_investigation: 10074
@@ -305,10 +350,49 @@
   resolved: 8
   deaths: 8
   total_patients_approved_for_testing_as_of_reporting_date: 32457
+  total_cases: 588
 - reported_date: '2020-03-25'
   confirmed_negative: 24458
   under_investigation: 10489
-  confirmed_positive: 671
+  confirmed_positive: 667
   resolved: 8
-  deaths: 9
+  deaths: 13
   total_patients_approved_for_testing_as_of_reporting_date: 35635
+  total_cases: 688
+- reported_date: '2020-03-26'
+  confirmed_negative: 26727
+  under_investigation: 10965
+  confirmed_positive: 835
+  resolved: 8
+  deaths: 15
+  total_patients_approved_for_testing_as_of_reporting_date: 38550
+  total_cases: 858
+- reported_date: '2020-03-27'
+  confirmed_negative: 29967
+  under_investigation: 10074
+  confirmed_positive: 967
+  resolved: 8
+  deaths: 18
+  total_patients_approved_for_testing_as_of_reporting_date: 41032
+  total_cases: 993
+- reported_date: '2020-03-28'
+  confirmed_negative: 33240
+  under_investigation: 8690
+  confirmed_positive: 1117
+  resolved: 8
+  deaths: 19
+  total_patients_approved_for_testing_as_of_reporting_date: 43072
+  total_cases: 1144
+- reported_date: '2020-03-29'
+  confirmed_negative: 40630
+  under_investigation: 7203
+  confirmed_positive: 1324
+  resolved: 8
+  deaths: 23
+  total_patients_approved_for_testing_as_of_reporting_date: 49186
+  total_cases: 1355
+- reported_date: '2020-03-30'
+  active_cases: 1252
+  resolved: 431
+  deaths: 23
+  total_cases: 1706

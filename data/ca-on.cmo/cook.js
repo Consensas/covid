@@ -56,19 +56,23 @@ _.promise({
                 }
                 
                 json.status.forEach(tuple => {
-                    const number = _.coerce.to.Integer(tuple[1].replace(/,/g, ""), null)
-                    if (tuple[0].startsWith("Total number")) {
+                    const number = _util.normalize.integer(tuple[1])
+                    const key = _util.normalize.text(tuple[0])
+
+                    if (key.startsWith("total number") || key.startsWith("total tested")) {
                         item.tests_ordered = number
-                    } else if (tuple[0].startsWith("Confirmed neg") || tuple[0].startsWith("Neg")) {
+                    } else if (key.startsWith("confirmed neg") || key.startsWith("neg")) {
                         item.tests_negative = number
-                    } else if (tuple[0].startsWith("Presumptive neg")) {
+                    } else if (key.startsWith("presumptive neg")) {
                         // item.tests_xxx = number
-                    } else if (tuple[0].startsWith("Confirmed p") || tuple[0].startsWith("Pos")) {
+                    } else if (key.startsWith("confirmed p") || key.startsWith("pos")) {
                         item.tests_positive = number
-                    } else if (tuple[0].startsWith("Presumptive p")) {
+                    } else if (key.startsWith("presumptive p")) {
                         // item.tests_xxx = number
-                    } else if (tuple[0].startsWith("Resolved")) {
+                    } else if (key.startsWith("resolved")) {
                         item.tests_resolved = number
+                    } else {
+                        console.log("-", "key", key)
                     }
                 })
 

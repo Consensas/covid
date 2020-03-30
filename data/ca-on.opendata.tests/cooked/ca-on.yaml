@@ -1,8 +1,9 @@
 '@context': 'https://consensas.world/m/covid'
 '@id': 'urn:covid:data.ontario.ca:tests:ca-on'
-state: 'ON'
+region: 'ON'
 country: CA
 source: 'https://data.ontario.ca/en/dataset/status-of-covid-19-cases-in-ontario'
+key: ca-on
 items:
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-01-26'
     date: '2020-01-26'
@@ -10,7 +11,7 @@ items:
     tests_investigation: 9
     tests_positive: null
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: null
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-01-27'
     date: '2020-01-27'
@@ -18,7 +19,7 @@ items:
     tests_investigation: 19
     tests_positive: null
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: null
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-01-28'
     date: '2020-01-28'
@@ -26,7 +27,7 @@ items:
     tests_investigation: 11
     tests_positive: 1
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: null
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-01-30'
     date: '2020-01-30'
@@ -34,7 +35,7 @@ items:
     tests_investigation: 27
     tests_positive: 2
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: null
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-01-31'
     date: '2020-01-31'
@@ -42,7 +43,7 @@ items:
     tests_investigation: 17
     tests_positive: 2
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: null
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-03'
     date: '2020-02-03'
@@ -50,7 +51,7 @@ items:
     tests_investigation: 29
     tests_positive: 3
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: null
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-04'
     date: '2020-02-04'
@@ -58,7 +59,7 @@ items:
     tests_investigation: 34
     tests_positive: 3
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: 139
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-05'
     date: '2020-02-05'
@@ -66,7 +67,7 @@ items:
     tests_investigation: 43
     tests_positive: 3
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: 150
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-06'
     date: '2020-02-06'
@@ -74,7 +75,7 @@ items:
     tests_investigation: 62
     tests_positive: 3
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: 169
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-08'
     date: '2020-02-08'
@@ -82,7 +83,7 @@ items:
     tests_investigation: 39
     tests_positive: 3
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: 197
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-10'
     date: '2020-02-10'
@@ -90,7 +91,7 @@ items:
     tests_investigation: 8
     tests_positive: 3
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: 259
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-11'
     date: '2020-02-11'
@@ -98,7 +99,7 @@ items:
     tests_investigation: 19
     tests_positive: 3
     tests_resolved: null
-    tests_deaths: null
+    deaths: null
     tests_approved: 285
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-12'
     date: '2020-02-12'
@@ -106,7 +107,7 @@ items:
     tests_investigation: 9
     tests_positive: 2
     tests_resolved: 1
-    tests_deaths: null
+    deaths: null
     tests_approved: 313
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-13'
     date: '2020-02-13'
@@ -114,7 +115,7 @@ items:
     tests_investigation: 15
     tests_positive: 2
     tests_resolved: 1
-    tests_deaths: null
+    deaths: null
     tests_approved: 340
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-14'
     date: '2020-02-14'
@@ -122,7 +123,7 @@ items:
     tests_investigation: 8
     tests_positive: 2
     tests_resolved: 1
-    tests_deaths: null
+    deaths: null
     tests_approved: 364
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-17'
     date: '2020-02-17'
@@ -130,7 +131,7 @@ items:
     tests_investigation: 0
     tests_positive: 2
     tests_resolved: 1
-    tests_deaths: null
+    deaths: null
     tests_approved: 402
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-18'
     date: '2020-02-18'
@@ -138,7 +139,7 @@ items:
     tests_investigation: 0
     tests_positive: 2
     tests_resolved: 1
-    tests_deaths: null
+    deaths: null
     tests_approved: 421
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-19'
     date: '2020-02-19'
@@ -146,7 +147,7 @@ items:
     tests_investigation: 17
     tests_positive: 2
     tests_resolved: 1
-    tests_deaths: null
+    deaths: null
     tests_approved: 456
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-20'
     date: '2020-02-20'
@@ -154,7 +155,7 @@ items:
     tests_investigation: 14
     tests_positive: 1
     tests_resolved: 2
-    tests_deaths: null
+    deaths: null
     tests_approved: 479
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-21'
     date: '2020-02-21'
@@ -162,7 +163,7 @@ items:
     tests_investigation: 12
     tests_positive: 0
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 498
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-24'
     date: '2020-02-24'
@@ -170,7 +171,7 @@ items:
     tests_investigation: 9
     tests_positive: 1
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 553
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-25'
     date: '2020-02-25'
@@ -178,7 +179,7 @@ items:
     tests_investigation: 21
     tests_positive: 1
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 593
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-26'
     date: '2020-02-26'
@@ -186,7 +187,7 @@ items:
     tests_investigation: 14
     tests_positive: 1
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 629
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-27'
     date: '2020-02-27'
@@ -194,7 +195,7 @@ items:
     tests_investigation: 21
     tests_positive: 2
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 699
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-02-28'
     date: '2020-02-28'
@@ -202,7 +203,7 @@ items:
     tests_investigation: 22
     tests_positive: 3
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 768
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-02'
     date: '2020-03-02'
@@ -210,7 +211,7 @@ items:
     tests_investigation: 12
     tests_positive: 15
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 1005
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-03'
     date: '2020-03-03'
@@ -218,7 +219,7 @@ items:
     tests_investigation: 45
     tests_positive: 17
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 1126
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-04'
     date: '2020-03-04'
@@ -226,7 +227,7 @@ items:
     tests_investigation: 102
     tests_positive: 17
     tests_resolved: 3
-    tests_deaths: null
+    deaths: null
     tests_approved: 1338
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-05'
     date: '2020-03-05'
@@ -234,7 +235,7 @@ items:
     tests_investigation: 78
     tests_positive: 18
     tests_resolved: 4
-    tests_deaths: null
+    deaths: null
     tests_approved: 1566
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-06'
     date: '2020-03-06'
@@ -242,7 +243,7 @@ items:
     tests_investigation: 72
     tests_positive: 22
     tests_resolved: 4
-    tests_deaths: null
+    deaths: null
     tests_approved: 1763
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-07'
     date: '2020-03-07'
@@ -250,7 +251,7 @@ items:
     tests_investigation: 36
     tests_positive: 24
     tests_resolved: 4
-    tests_deaths: null
+    deaths: null
     tests_approved: 1982
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-08'
     date: '2020-03-08'
@@ -258,7 +259,7 @@ items:
     tests_investigation: 55
     tests_positive: 25
     tests_resolved: 4
-    tests_deaths: null
+    deaths: null
     tests_approved: 2178
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-09'
     date: '2020-03-09'
@@ -266,7 +267,7 @@ items:
     tests_investigation: 22
     tests_positive: 31
     tests_resolved: 4
-    tests_deaths: null
+    deaths: null
     tests_approved: 2404
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-10'
     date: '2020-03-10'
@@ -274,7 +275,7 @@ items:
     tests_investigation: 112
     tests_positive: 31
     tests_resolved: 5
-    tests_deaths: null
+    deaths: null
     tests_approved: 2747
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-11'
     date: '2020-03-11'
@@ -282,7 +283,7 @@ items:
     tests_investigation: 465
     tests_positive: 37
     tests_resolved: 5
-    tests_deaths: null
+    deaths: null
     tests_approved: 3395
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-12'
     date: '2020-03-12'
@@ -290,7 +291,7 @@ items:
     tests_investigation: 536
     tests_positive: 54
     tests_resolved: 5
-    tests_deaths: null
+    deaths: null
     tests_approved: 4185
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-13'
     date: '2020-03-13'
@@ -298,7 +299,7 @@ items:
     tests_investigation: 580
     tests_positive: 74
     tests_resolved: 5
-    tests_deaths: null
+    deaths: null
     tests_approved: 5129
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-14'
     date: '2020-03-14'
@@ -306,7 +307,7 @@ items:
     tests_investigation: 939
     tests_positive: 98
     tests_resolved: 5
-    tests_deaths: null
+    deaths: null
     tests_approved: 6648
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-15'
     date: '2020-03-15'
@@ -314,7 +315,7 @@ items:
     tests_investigation: 11316
     tests_positive: 140
     tests_resolved: 5
-    tests_deaths: null
+    deaths: null
     tests_approved: 8465
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-16'
     date: '2020-03-16'
@@ -322,7 +323,7 @@ items:
     tests_investigation: 1537
     tests_positive: 172
     tests_resolved: 5
-    tests_deaths: null
+    deaths: null
     tests_approved: 10178
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-17'
     date: '2020-03-17'
@@ -330,7 +331,7 @@ items:
     tests_investigation: 1567
     tests_positive: 183
     tests_resolved: 5
-    tests_deaths: 1
+    deaths: 1
     tests_approved: 11171
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-18'
     date: '2020-03-18'
@@ -338,7 +339,7 @@ items:
     tests_investigation: 3378
     tests_positive: 208
     tests_resolved: 5
-    tests_deaths: 1
+    deaths: 1
     tests_approved: 13897
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-19'
     date: '2020-03-19'
@@ -346,7 +347,7 @@ items:
     tests_investigation: 3971
     tests_positive: 251
     tests_resolved: 5
-    tests_deaths: 2
+    deaths: 2
     tests_approved: 16650
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-20'
     date: '2020-03-20'
@@ -354,7 +355,7 @@ items:
     tests_investigation: 5475
     tests_positive: 311
     tests_resolved: 5
-    tests_deaths: 2
+    deaths: 2
     tests_approved: 19511
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-21'
     date: '2020-03-21'
@@ -362,7 +363,7 @@ items:
     tests_investigation: 7239
     tests_positive: 369
     tests_resolved: 6
-    tests_deaths: 2
+    deaths: 2
     tests_approved: 23384
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-22'
     date: '2020-03-22'
@@ -370,7 +371,7 @@ items:
     tests_investigation: 8361
     tests_positive: 412
     tests_resolved: 8
-    tests_deaths: 5
+    deaths: 5
     tests_approved: 26420
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-23'
     date: '2020-03-23'
@@ -378,7 +379,7 @@ items:
     tests_investigation: 8417
     tests_positive: 489
     tests_resolved: 8
-    tests_deaths: 6
+    deaths: 6
     tests_approved: 28506
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-24'
     date: '2020-03-24'
@@ -386,13 +387,53 @@ items:
     tests_investigation: 10074
     tests_positive: 572
     tests_resolved: 8
-    tests_deaths: 8
+    deaths: 8
     tests_approved: 32457
   - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-25'
     date: '2020-03-25'
     tests_negative: 24458
     tests_investigation: 10489
-    tests_positive: 671
+    tests_positive: 667
     tests_resolved: 8
-    tests_deaths: 9
+    deaths: 13
     tests_approved: 35635
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-26'
+    date: '2020-03-26'
+    tests_negative: 26727
+    tests_investigation: 10965
+    tests_positive: 835
+    tests_resolved: 8
+    deaths: 15
+    tests_approved: 38550
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-27'
+    date: '2020-03-27'
+    tests_negative: 29967
+    tests_investigation: 10074
+    tests_positive: 967
+    tests_resolved: 8
+    deaths: 18
+    tests_approved: 41032
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-28'
+    date: '2020-03-28'
+    tests_negative: 33240
+    tests_investigation: 8690
+    tests_positive: 1117
+    tests_resolved: 8
+    deaths: 19
+    tests_approved: 43072
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-29'
+    date: '2020-03-29'
+    tests_negative: 40630
+    tests_investigation: 7203
+    tests_positive: 1324
+    tests_resolved: 8
+    deaths: 23
+    tests_approved: 49186
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-30'
+    date: '2020-03-30'
+    tests_negative: null
+    tests_investigation: null
+    tests_positive: null
+    tests_resolved: 431
+    deaths: 23
+    tests_approved: null
