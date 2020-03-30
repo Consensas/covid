@@ -52,7 +52,7 @@ _.promise()
             "@id": _util.record.urn(sd.settings, { date: item.reported_date }),
             date: item.reported_date,
             tests_negative: _.coerce.to.Integer(item.confirmed_negative, null),
-            tests_investigation: _.coerce.to.Integer(item.under_investigation, null),
+            tests_pending: _.coerce.to.Integer(item.under_investigation, null),
             tests_positive: _.coerce.to.Integer(item.confirmed_positive, null),
             tests_resolved: _.coerce.to.Integer(item.resolved, null),
             deaths: _.coerce.to.Integer(item.deaths, null),
