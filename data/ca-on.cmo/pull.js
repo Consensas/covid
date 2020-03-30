@@ -20,6 +20,9 @@
  *  limitations under the License.
  */
 
+console.log("discontinued")
+process.exit()
+
 "use strict"
 
 const _ = require("iotdb-helpers")

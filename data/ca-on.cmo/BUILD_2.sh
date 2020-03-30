@@ -6,8 +6,11 @@
 #   2020-03-17
 #   ☘️o
 #
-#   Update local database
+#   Discontinued:
+#   see "../ca-on.opendata.tests"
 #
+
+exit 0
 
 set -e
 cd $(dirname $0)

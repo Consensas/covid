@@ -1,3 +1,9 @@
+Discontinued
+
+See ../ca-on.opendata.cases
+
+----
+
 This page is responsible for pulling data from
 
 https://www.ontario.ca/page/2019-novel-coronavirus
