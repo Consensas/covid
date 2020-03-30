@@ -12,4 +12,6 @@
 cd $(dirname $0)
 
 node pull.js
+node cook.js
+git add cooked/*.yaml
 git commit -am "new raw data"
