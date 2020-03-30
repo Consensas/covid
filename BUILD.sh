@@ -19,7 +19,9 @@ for COUNT in 3 2 1 0
 do
     for FILE in $(find "$ROOT" -name "BUILD_$COUNT.sh")
     do
+        echo "===="
         echo $FILE
+        echo "===="
         bash $FILE
     done
 done
