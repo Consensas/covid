@@ -330,10 +330,11 @@ items:
     tests_resolved: 8
     tests_ordered: 43072
     tests: 34365
-  - '@id': 'urn:covid:consensas:cmo:ca-on:2020-03-29'
-    date: '2020-03-29'
-    tests_negative: 40630
+  - date: '2020-03-29'
+    deaths: 21
     tests_positive: 1324
+    '@id': 'urn:covid:consensas:cmo:ca-on:2020-03-29'
+    tests_negative: 40630
     tests_resolved: 8
     tests_ordered: 49186
     tests: 41962
