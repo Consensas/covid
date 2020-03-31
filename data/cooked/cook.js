@@ -220,7 +220,7 @@ const _merge_data = _.promise((self, done) => {
 
         .then(fs.read.yaml.p(path.join(__dirname, "..", self.dataset)))
         .make(sd => {
-            sd.json
+            _.coerce.list(sd.json)
                 .filter(row => row.key)
                 .filter(row => sd.results[row.key])
                 .map(nrow => {
@@ -290,6 +290,8 @@ _.promise({
         method: _merge_data,
         inputs: "settings/merge:dataset",
     })
+
+    // .make(sd => { process.exit() })
 
     // cleanup
     .make(sd => {

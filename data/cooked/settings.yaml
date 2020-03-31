@@ -16,6 +16,7 @@ data:
 
 ## these augment the core datasets
 merge:
+
 - datasets/ca-icu.yaml
 - datasets/ca-age.yaml
 - datasets/ca-spending.yaml
@@ -25,7 +26,7 @@ merge:
 
 - ca.cmo/cooked/ca.yaml
 
-- ca-on.opendata.tests/cooked/ca-on-cases.yaml
+- ca-on.opendata.tests/cooked/ca-on.yaml
 - ca-bc.cmo/ca-bc-tests.yaml
 - ca-ab.cmo/cooked/ca-ab.yaml
 - ca-sk.cmo/ca-sk-tests.yaml
