@@ -50,6 +50,12 @@ sheets:
   date: date
   value: tests_positive
 
+- name: Test Pending
+  type: timeseries
+  timeseries: items
+  date: date
+  value: tests_pending
+
 - name: Medical
   type: datasheet
   values:
