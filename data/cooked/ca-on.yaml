@@ -390,7 +390,7 @@ items:
     tests_positive: 140
     '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-15'
     tests_negative: 7004
-    tests_pending: 11316
+    tests_pending: 1316
     tests_resolved: 5
     tests_approved: 8465
     tests: 7144
@@ -522,12 +522,20 @@ items:
     tests: 41954
   - date: '2020-03-30'
     deaths: 23
-    tests_positive: null
+    tests_positive: 1252
     '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-30'
     tests_negative: null
-    tests_pending: null
+    tests_pending: 5651
     tests_resolved: 431
-    tests_approved: null
+    tests_approved: 48461
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-31'
+    date: '2020-03-31'
+    tests_negative: null
+    tests_pending: 4280
+    tests_positive: 1399
+    tests_resolved: 534
+    deaths: 33
+    tests_approved: 51629
 state: 'ON'
 icu_hospitals: 84
 icu_beds: 1122
