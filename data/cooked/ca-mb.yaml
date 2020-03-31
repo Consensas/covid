@@ -232,11 +232,11 @@ items:
   - date: '2020-03-29'
     deaths: 1
     tests_positive: 72
-  - '@id': 'urn:covid:consensas:cmo:ca-mb:2020-03-30'
-    date: '2020-03-30'
-    tests_positive: 83
-    tests_probable: 13
+  - date: '2020-03-30'
     deaths: 1
+    tests_positive: 83
+    '@id': 'urn:covid:consensas:cmo:ca-mb:2020-03-30'
+    tests_probable: 13
     tests: 8550
     tests_negative: 8454
 state: MB
