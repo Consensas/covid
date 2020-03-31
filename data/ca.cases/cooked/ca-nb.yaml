@@ -677,7 +677,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Zone 3 (Fredericton area)
+    health_region: Zone 2 (Saint John area)
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:6231'
     dataset_id: '6231'
@@ -690,7 +690,7 @@ cases:
     is_travel: null
     age_range: null
     gender: null
-    health_region: Zone 3 (Fredericton area)
+    health_region: Zone 2 (Saint John area)
     acquired_country: null
   - '@id': 'urn:covid:consensas:ca.cases:6232'
     dataset_id: '6232'
@@ -847,4 +847,30 @@ cases:
     age_range: null
     gender: null
     health_region: Zone 5 (Campbellton area)
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:7287'
+    dataset_id: '7287'
+    region_id: '67'
+    sources:
+      - >-
+        https://www2.gnb.ca/content/gnb/en/departments/health/news/news_release.2020.03.0166.html
+    date: '2020-03-30'
+    week_reported: '2020-03-29'
+    is_travel: null
+    age_range: 30-39
+    gender: null
+    health_region: Zone 2 (Saint John area)
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:7288'
+    dataset_id: '7288'
+    region_id: '68'
+    sources:
+      - >-
+        https://www2.gnb.ca/content/gnb/en/departments/health/news/news_release.2020.03.0166.html
+    date: '2020-03-30'
+    week_reported: '2020-03-29'
+    is_travel: null
+    age_range: 60-69
+    gender: null
+    health_region: Zone 3 (Fredericton area)
     acquired_country: null
