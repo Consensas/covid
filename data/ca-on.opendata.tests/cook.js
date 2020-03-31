@@ -58,6 +58,11 @@ _.promise()
             deaths: _.coerce.to.Integer(item.deaths, null),
             tests_approved: _.coerce.to.Integer(item.total_patients_approved_for_testing_as_of_reporting_date, null),
         }))
+        sd.json.items.forEach(item => {
+            if (_.is.Integer(item.tests_negative) && _.is.Integer(item.tests_positive)) {
+                item.tests = item.tests_negative + item.tests_positive
+            }
+        })
 
         sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
