@@ -26,8 +26,13 @@ const _ = require("iotdb-helpers")
 
 /**
  */
-const normalize_integer = value => 
-    _.coerce.to.Integer(value.replace(/[, ]/g, ""), null)
+const normalize_integer = value => {
+    if (_.is.String(value)) {
+        return _.coerce.to.Integer(value.replace(/[, ]/g, ""), null)
+    } else {
+        return _.coerce.to.Integer(value, null)
+    }
+}
 
 /**
  *  API
