@@ -32,6 +32,8 @@ const COUNTRY = "ca"
 const PROVINCE = "nl"
 const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
 
+const _oki = _.is.Integer
+
 _.promise()
     // load settings
     .add("path", path.join(__dirname, "settings.yaml"))
@@ -45,25 +47,40 @@ _.promise()
     // cook
     .make(sd => {
         const items = sd.json
-        // console.log(sd.json)
 
-        sd.json = _util.record.main(sd.settings)
-        sd.json.items = items.map(item => ({
-            "@id": _util.record.urn(sd.settings, { date: item.reported_date }),
-            date: item.reported_date,
-            tests_negative: _.coerce.to.Integer(item.confirmed_negative, null),
-            tests_pending: _.coerce.to.Integer(item.under_investigation, null),
-            tests_positive: _.coerce.to.Integer(item.confirmed_positive, null),
-            tests_resolved: _.coerce.to.Integer(item.resolved, null),
-            deaths: _.coerce.to.Integer(item.deaths, null),
-            tests_approved: _.coerce.to.Integer(item.total_patients_approved_for_testing_as_of_reporting_date, null),
-        }))
-        sd.json.items.forEach(item => {
-            if (_.is.Integer(item.tests_negative) && _.is.Integer(item.tests_positive)) {
+        const record = _util.record.main(sd.settings)
+        record.items = items.map(_item => {
+            const item = {
+                "@id": _util.record.urn(sd.settings, { date: _item.reported_date }),
+                date: _item.reported_date,
+                deaths: _util.normalize.integer(_item.deaths, null),
+                tests: null,
+                tests_positive: _util.normalize.integer(_item.total_cases, null),
+                tests_negative: null,
+                tests_confirmed: _util.normalize.integer(_item.confirmed_positive, null),
+                tests_probable: null,
+                tests_pending: _util.normalize.integer(_item.under_investigation, null),
+                tests_resolved: _util.normalize.integer(_item.resolved, null),
+                tests_approved: _util.normalize.integer(_item.total_patients_approved_for_testing_as_of_reporting_date, null),
+            }
+
+            if (!_oki(item.tests) && _oki(item.tests_approved) && _oki(item.tests_pending)) {
+                item.tests = item.tests_approved - item.tests_pending
+            }
+            if (!_oki(item.tests) && _oki(item.tests_negative) && _oki(item.tests_positive)) {
                 item.tests = item.tests_negative + item.tests_positive
             }
+            if (!_oki(item.tests_pending) && _oki(item.tests_positive) && _oki(item.tests_confirmed)) {
+                item.tests_pending = item.tests_positive - item.tests_confirmed
+            }
+            if (!_oki(item.tests_negative) && _oki(item.tests_positive) && _oki(item.tests)) {
+                item.tests_negative = item.tests - item.tests_positive
+            }
+
+            return item
         })
 
+        sd.json = record
         sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
