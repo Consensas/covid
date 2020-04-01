@@ -26,33 +26,26 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
 const path = require("path")
+const _util = require("../../_util")
 
-const COUNTRY = "ca"
-const PROVINCE = "nl"
-const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
-
-_.promise()
+_.promise({
+    settings: {
+        authority: "consensas",
+        dataset: "cmo",
+        region: "nl",
+        country: "ca",
+    },
+})
     .then(fs.read.yaml.p(path.join(__dirname, "manual.yaml")))
     .make(sd => {
-        const items = sd.json
+        const record = _util.record.main(sd.settings)
+        record.items = sd.json
 
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            region: PROVINCE.toUpperCase(),
-            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
-            items: items
-        }
-
-        sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
-        })
-
-        sd.json = [ sd.json ]
+        sd.json = [ record ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
-    .add("path", path.join(__dirname, NAME))
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
 

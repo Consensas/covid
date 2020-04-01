@@ -27,12 +27,21 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
 const path = require("path")
+const _util = require("../../_util")
 
 const COUNTRY = "ca"
 const PROVINCE = "nb"
 const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
 
-_.promise()
+_.promise({
+    settings: {
+        authority: "consensas",
+        dataset: "cmo",
+        country: "ca",
+        region: "nb",
+    },
+})
+    // scraped data
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
         method: fs.read.json.magic,
@@ -40,30 +49,42 @@ _.promise()
         outputs: "jsons",
         output_selector: sd => sd.json,
     })
-    .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            region: PROVINCE.toUpperCase(),
-            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
-            items: sd.jsons.filter(json => json.date)
-        }
 
-        sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
-            if (!item.tests) {
-                item.tests = 
-                    (item.tests_positive || 0) +
-                    (item.tests_negative || 0) +
+    // manual data
+    .then(fs.read.yaml.p(path.join(__dirname, "manual.yaml")))
+    .make(sd => {
+        const d = {};
+        [].concat(sd.jsons, sd.json)
+            .filter(item => item.date)
+            .forEach(item => {
+                d[item.date] = Object.assign({ "@id": null, }, d[item.date] || {}, item)
+            })
+
+        sd.items = _.values(d)
+        sd.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+    })
+
+    .make(sd => {
+        const record = _util.record.main(sd.settings)
+        record.items = sd.items
+
+        record.items.forEach(item => {
+            item["@id"] = `${record["@id"]}:${item.date}`
+            if (!item.tests_positive && _.is.Integer(item.tests_confirmed)) {
+                item.tests_positive = 
+                    (item.tests_confirmed || 0) +
                     (item.tests_probable || 0)
+            }
+            if (_.is.Integer(item.tests_positive) && _.is.Integer(item.tests)) {
+                item.tests_negative = item.tests - item.tests_positive
             }
         })
 
-        sd.json = [ sd.json ]
+        sd.json = [ record ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
-    .add("path", path.join(__dirname, NAME))
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
     

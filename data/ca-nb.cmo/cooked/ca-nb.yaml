@@ -1,0 +1,96 @@
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:consensas:cmo:ca-nb'
+  region: NB
+  country: CA
+  key: ca-nb
+  items:
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-13'
+      date: '2020-03-13'
+      tests_confirmed: 1
+      tests_probable: 0
+      tests_negative: 18
+      tests_positive: 1
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-14'
+      date: '2020-03-14'
+      tests_confirmed: 1
+      tests_probable: 1
+      tests_negative: 18
+      tests_positive: 2
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-17'
+      date: '2020-03-17'
+      tests_probable: 6
+      tests_confirmed: 2
+      tests_positive: 8
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-18'
+      date: '2020-03-18'
+      tests_probable: 9
+      tests_confirmed: 2
+      tests_positive: 11
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-19'
+      date: '2020-03-19'
+      tests_probable: 4
+      tests_confirmed: 7
+      tests_positive: 11
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-20'
+      date: '2020-03-20'
+      tests_negative: 509
+      tests_probable: 4
+      tests_confirmed: 7
+      tests_positive: 11
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-21'
+      date: '2020-03-21'
+      tests_negative: 771
+      tests_probable: 8
+      tests_confirmed: 9
+      tests_positive: 17
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-22'
+      date: '2020-03-22'
+      tests_negative: 841
+      tests_probable: 9
+      tests_confirmed: 8
+      tests_positive: 17
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-23'
+      date: '2020-03-23'
+      tests_negative: 1079
+      tests_confirmed: 17
+      tests_positive: 17
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-24'
+      date: '2020-03-24'
+      tests_negative: 1237
+      tests_confirmed: 18
+      tests_positive: 18
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-25'
+      date: '2020-03-25'
+      tests_negative: 1524
+      tests_confirmed: 26
+      tests_positive: 26
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-26'
+      date: '2020-03-26'
+      tests_negative: 1795
+      tests_confirmed: 33
+      tests_positive: 33
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-27'
+      date: '2020-03-27'
+      tests: 2019
+      tests_positive: 45
+      tests_negative: 1974
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-28'
+      date: '2020-03-28'
+      tests: 2605
+      tests_positive: 51
+      tests_negative: 2554
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-29'
+      date: '2020-03-29'
+      tests: 2931
+      tests_positive: 66
+      tests_negative: 2865
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-30'
+      date: '2020-03-30'
+      tests: 3234
+      tests_positive: 68
+      tests_negative: 3166
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-31'
+      date: '2020-03-31'
+      tests: 3234
+      tests_positive: 70
+      tests_negative: 3164

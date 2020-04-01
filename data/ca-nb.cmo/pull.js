@@ -87,7 +87,7 @@ const _pull = _.promise((self, done) => {
                     sd.json[next] = _util.normalize.integer(text)
                     next = null
                 } else if (text.startsWith("confirmed case")) {
-                    next = "tests_positive"
+                    next = "tests_confirmed"
                 } else if (text.startsWith("probable case")) {
                     next = "tests_probable"
                 } else if (text.startsWith("presumptive case")) {

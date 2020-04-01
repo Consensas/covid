@@ -1,7 +1,7 @@
 - '@context': 'https://consensas.world/m/covid'
-  '@id': 'urn:covid:consensas:ca-nl:cmo'
-  country: CA
+  '@id': 'urn:covid:consensas:cmo:ca-nl'
   region: NL
+  country: CA
   key: ca-nl
   items:
     - date: '2020-03-15'
@@ -10,33 +10,28 @@
       tests_positive: 1
       tests_negative: 105
       tests: 161
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-15'
     - date: '2020-03-17'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
       tests_positive: 3
       tests: 494
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-17'
     - date: '2020-03-19'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-update-john-haggie-march-19-1.5502805
       tests_positive: 3
       tests: 684
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-19'
     - date: '2020-03-21'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
       tests_positive: 6
       tests_negative: 895
       tests: 901
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-21'
     - date: '2020-03-22'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
       tests_positive: 9
       tests_negative: 961
       tests: 970
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-22'
     - date: '2020-03-24'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507980
@@ -44,7 +39,6 @@
       tests_probable: 11
       tests_negative: 1096
       tests: 1131
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-24'
     - date: '2020-03-25'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-janice-fitzgerald-wednesday-march-25-update-1.5509291
@@ -52,25 +46,33 @@
       tests_probable: 32
       tests_negative: 1269
       tests: 1336
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-25'
     - date: '2020-03-26'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-janice-fitzgerald-wednesday-march-25-update-1.5509291
       tests_positive: 102
       tests_negative: 1587
       tests: 1684
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-26'
     - date: '2020-03-28'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-nl-march-29-update-1.5513997
       tests_positive: 120
       tests_negative: 1807
       tests: 1927
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-28'
     - date: '2020-03-29'
       source: >-
         https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-nl-march-29-update-1.5513997
       tests_positive: 135
       tests_negative: 1972
       tests: 2107
-      '@id': 'urn:covid:consensas:ca-nl:2020-03-29'
+    - date: '2020-03-30'
+      source: >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+      tests_positive: 148
+      tests_negative: 2184
+      tests: 2332
+    - date: '2020-03-31'
+      source: >-
+        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
+      tests_positive: 152
+      tests_negative: 2423
+      tests: 2575
