@@ -1,5 +1,5 @@
 '@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-nb:cmo'
+'@id': 'urn:covid:consensas:cmo:ca-nb'
 region: NB
 country: CA
 key: ca-nb
@@ -160,17 +160,17 @@ items:
   - date: '2020-03-13'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-13'
+    tests_confirmed: 1
     tests_probable: 0
     tests_negative: 18
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-13'
-    tests: 19
   - date: '2020-03-14'
     deaths: 0
-    tests_positive: 1
+    tests_positive: 2
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-14'
+    tests_confirmed: 1
     tests_probable: 1
     tests_negative: 18
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-14'
-    tests: 20
   - date: '2020-03-15'
     deaths: 0
     tests_positive: 2
@@ -179,92 +179,97 @@ items:
     tests_positive: 6
   - date: '2020-03-17'
     deaths: 0
-    tests_positive: 2
+    tests_positive: 8
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-17'
     tests_probable: 6
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-17'
-    tests: 8
+    tests_confirmed: 2
   - date: '2020-03-18'
     deaths: 0
-    tests_positive: 2
+    tests_positive: 11
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-18'
     tests_probable: 9
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-18'
-    tests: 11
+    tests_confirmed: 2
   - date: '2020-03-19'
     deaths: 0
-    tests_positive: 7
+    tests_positive: 11
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-19'
     tests_probable: 4
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-19'
-    tests: 11
+    tests_confirmed: 7
   - date: '2020-03-20'
     deaths: 0
-    tests_positive: 7
+    tests_positive: 11
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-20'
     tests_negative: 509
     tests_probable: 4
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-20'
-    tests: 520
+    tests_confirmed: 7
   - date: '2020-03-21'
     deaths: 0
-    tests_positive: 9
+    tests_positive: 17
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-21'
     tests_negative: 771
     tests_probable: 8
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-21'
-    tests: 788
+    tests_confirmed: 9
   - date: '2020-03-22'
     deaths: 0
-    tests_positive: 8
+    tests_positive: 17
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-22'
     tests_negative: 841
     tests_probable: 9
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-22'
-    tests: 858
+    tests_confirmed: 8
   - date: '2020-03-23'
     deaths: 0
     tests_positive: 17
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-23'
     tests_negative: 1079
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-23'
-    tests: 1096
+    tests_confirmed: 17
   - date: '2020-03-24'
     deaths: 0
     tests_positive: 18
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-24'
     tests_negative: 1237
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-24'
-    tests: 1255
+    tests_confirmed: 18
   - date: '2020-03-25'
     deaths: 0
     tests_positive: 26
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-25'
     tests_negative: 1524
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-25'
-    tests: 1550
+    tests_confirmed: 26
   - date: '2020-03-26'
     deaths: 0
     tests_positive: 33
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-26'
     tests_negative: 1795
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-26'
-    tests: 1828
+    tests_confirmed: 33
   - date: '2020-03-27'
     deaths: 0
     tests_positive: 45
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-27'
     tests: 2019
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-27'
+    tests_negative: 1974
   - date: '2020-03-28'
     deaths: 0
     tests_positive: 51
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-28'
     tests: 2605
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-28'
+    tests_negative: 2554
   - date: '2020-03-29'
     deaths: 0
     tests_positive: 66
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-29'
     tests: 2931
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-29'
+    tests_negative: 2865
   - date: '2020-03-30'
     deaths: 0
     tests_positive: 68
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-30'
     tests: 3234
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-30'
+    tests_negative: 3166
   - date: '2020-03-31'
     deaths: 0
     tests_positive: 70
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-31'
     tests: 3234
-    '@id': 'urn:covid:consensas:ca-nb:2020-03-31'
+    tests_negative: 3164
 state: NB
 icu_hospitals: 9
 icu_beds: 103
