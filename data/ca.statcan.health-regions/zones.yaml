@@ -5,9 +5,10 @@
 #   Consensas
 #   2020-04-01
 #
-#   This has been manually made from
+#   This has been (mostly) manually made from
 #   https://www150.statcan.gc.ca/n1/pub/82-402-x/2015001/app-ann/ap-an1-eng.htm
 #
+
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-nl:1011'
   country: CA
   region: NL
@@ -696,30 +697,41 @@
   region: MB
   identifier: '4601'
   name: Winnipeg Regional Health Authority
+  fragments:
+  - winnipeg
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-mb:4602'
   country: CA
   region: MB
   identifier: '4602'
   name: Prairie Mountain Health
+  fragments:
+  - prairie mountain
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-mb:4603'
   country: CA
   region: MB
   identifier: '4603'
   name: Interlake-Eastern Regional Health
+  fragments:
+  - interlake
+  - interlake-eastern
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-mb:4604'
   country: CA
   region: MB
   identifier: '4604'
   name: Northern Regional Health Authority
+  fragments:
+  - northern
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-mb:4605'
   country: CA
   region: MB
   identifier: '4605'
   name: Southern Health
+  fragments:
+  - southern
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-sk:4701'
   country: CA

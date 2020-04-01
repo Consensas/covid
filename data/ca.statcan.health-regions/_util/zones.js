@@ -7,16 +7,10 @@ _.promise()
     .make(sd => {
         const zones = []
 
-        sd.json.forEach(region => {
-            if (region.zones.length <= 1) {
-                region.zones.fragments = region.zones.fragments || []
-                return
-            }
-
-            region.zones.forEach(zone => {
+        sd.json.forEach(zone => {
                 if (!zone.fragments) {
                     let fragment 
-                    switch (region.region) {
+                    switch (zone.region) {
                     case "NS":
                         fragment = zone.name
                             .toLowerCase()
@@ -72,6 +66,14 @@ _.promise()
                             .replace(/ zone$/, "")
                         break
 
+                    case "MB":
+                        fragment = zone.name
+                            .toLowerCase()
+                            .replace(/ regional health$/, "")
+                            .replace(/ regional health authority$/, "")
+                            .replace(/ health$/, "")
+                        break
+
                     case "SK":
                         fragment = zone.name
                             .toLowerCase()
@@ -93,7 +95,7 @@ _.promise()
                 zone = {
                     "@id": zone["@id"],
                     country: "CA",
-                    region: region.region,
+                    region: zone.region,
                     identifier: `${zone.id}`,
                     ...zone,
                 }
@@ -106,7 +108,6 @@ _.promise()
                     console.log(zone)
                 }
                 */
-            })
         })
 
         sd.json = zones
