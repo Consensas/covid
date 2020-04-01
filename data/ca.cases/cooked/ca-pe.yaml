@@ -236,3 +236,42 @@ cases:
     gender: Male
     health_region: Prince Edward Island
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:8461'
+    dataset_id: '8461'
+    region_id: '19'
+    sources:
+      - >-
+        https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
+    date: '2020-03-31'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: 20-29
+    gender: Male
+    health_region: Prince Edward Island
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:8462'
+    dataset_id: '8462'
+    region_id: '20'
+    sources:
+      - >-
+        https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
+    date: '2020-03-31'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: 30-39
+    gender: Female
+    health_region: Prince Edward Island
+    acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:8463'
+    dataset_id: '8463'
+    region_id: '21'
+    sources:
+      - >-
+        https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
+    date: '2020-03-31'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: 40-49
+    gender: Female
+    health_region: Prince Edward Island
+    acquired_country: null
