@@ -259,10 +259,11 @@ items:
     tests: 769
     tests_negative: 590
     tests_pending: 161
-  - '@id': 'urn:covid:consensas:cmo:ca-pe:2020-03-31'
-    date: '2020-03-31'
-    tests: 838
+  - date: '2020-03-31'
+    deaths: 0
     tests_positive: 21
+    '@id': 'urn:covid:consensas:cmo:ca-pe:2020-03-31'
+    tests: 838
     tests_negative: 662
     tests_pending: 155
 state: PE

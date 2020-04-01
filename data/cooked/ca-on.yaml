@@ -528,13 +528,13 @@ items:
     tests_pending: 5651
     tests_resolved: 431
     tests_approved: 48461
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-31'
-    date: '2020-03-31'
+  - date: '2020-03-31'
+    deaths: 33
+    tests_positive: 1399
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-03-31'
     tests_negative: null
     tests_pending: 4280
-    tests_positive: 1399
     tests_resolved: 534
-    deaths: 33
     tests_approved: 51629
 state: 'ON'
 icu_hospitals: 84

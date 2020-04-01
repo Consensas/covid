@@ -353,9 +353,10 @@ items:
     tests_ordered: 6200
     tests_negative: 56285
     tests: 59715
-  - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-31'
-    date: '2020-03-31'
+  - date: '2020-03-31'
+    deaths: 31
     tests_positive: 4162
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-31'
     tests_ordered: 5601
     tests_negative: 63378
     tests: 67540
