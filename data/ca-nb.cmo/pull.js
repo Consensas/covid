@@ -110,7 +110,7 @@ const _pull = _.promise((self, done) => {
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
             if (_.size(sd.json) < 2) {
-                console.log("#", "ca/da-nb.cmo/cmo", "no/missing data for:", COUNTRY, PROVINCE)
+                console.log("#", "ca/ca-nb.cmo/cmo", "no/missing data for:", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
 

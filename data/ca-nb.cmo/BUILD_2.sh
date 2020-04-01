@@ -12,7 +12,7 @@
 set -e
 cd $(dirname $0)
 
-node pull.js
-## node cook.js
+## node pull.js
+node cook.js
 ## git add raw/*.yaml
 git commit -am "new raw data"
