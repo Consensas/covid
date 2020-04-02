@@ -64,3 +64,15 @@ cases:
     gender: null
     health_region: Yukon
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:9252'
+    dataset_id: '9252'
+    region_id: '6'
+    sources:
+      - 'https://yukon.ca/en/coronavirus-updates'
+    date: '2020-04-01'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: null
+    gender: null
+    health_region: Yukon
+    acquired_country: null

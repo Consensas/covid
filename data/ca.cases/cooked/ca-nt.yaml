@@ -16,3 +16,16 @@ cases:
     gender: null
     health_region: NWT
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:9125'
+    dataset_id: '9125'
+    region_id: '2'
+    sources:
+      - >-
+        https://www.hss.gov.nt.ca/en/newsroom/second-confirmed-case-covid-19-northwest-territories
+    date: '2020-04-01'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: null
+    gender: null
+    health_region: NWT
+    acquired_country: null
