@@ -40,8 +40,8 @@
       tests_ordered: 8
       tests_negative: 104
       tests: 105
-    - '@id': 'urn:covid:consensas:cmo:ca-qc:undefined'
-      tweet: "#COVID19 - Au Québec, en date du 1er mars 2020, à 12 h, la situation est la suivante : \n\U0001F5391 cas confirmé\n\U0001F5390 cas probable\n\U0001F53910 personnes sous investigation\n\U0001F539138 analyses négatives (cas infirmés)\n\nPour + d'info: https://t.co/yETVR481Go #santéquébec"
+    - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-01'
+      date: '2020-03-01'
       tests_positive: 1
       tests_ordered: 10
       tests_negative: 138
@@ -256,18 +256,8 @@
       tests_ordered: 5601
       tests_negative: 63378
       tests: 67540
-    - '@id': 'urn:covid:consensas:cmo:ca-qc:undefined'
-      tweet: >-
-        #COVID19 - Au Québec, en date du 1er avril 2020 à 13 h, la situation est
-        la suivante :
-
-        4 611 cas confirmés
-
-        33 décès
-
-        5 770 personnes sous investigation
-
-        65 082 analyses négatives (cas infirmés)
+    - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-01'
+      date: '2020-04-01'
       tests_positive: 4611
       tests_ordered: 5770
       tests_negative: 65082

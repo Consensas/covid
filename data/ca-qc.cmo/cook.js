@@ -84,7 +84,7 @@ _.promise({
                     item.tweet = tweet
                 }
 
-                if (match = tweet.match(/en date du (\d+) ([^\s,.]+)/)) {
+                if (match = tweet.match(/en date du (\d+)(?:er)? ([^\s,.]+)/)) {
                     const day = match[1]
                     const month = {
                         "janvier": "January",
