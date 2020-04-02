@@ -246,11 +246,11 @@ items:
     tests_probable: 12
     tests: 8914
     tests_negative: 8811
-  - '@id': 'urn:covid:consensas:cmo:ca-mb:2020-04-01'
-    date: '2020-04-01'
-    tests_positive: 109
-    tests_probable: 18
+  - date: '2020-04-01'
     deaths: 1
+    tests_positive: 109
+    '@id': 'urn:covid:consensas:cmo:ca-mb:2020-04-01'
+    tests_probable: 18
     tests: 10044
     tests_negative: 9917
 state: MB
