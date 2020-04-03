@@ -1,5 +1,5 @@
 /*
- *  data/ca.cmo/pull.js
+ *  data/ca.cmo/pull-tests.js
  *
  *  David Janes
  *  Consensas
@@ -30,6 +30,8 @@ const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
 
+const _util = require("../../_util")
+
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
@@ -39,8 +41,6 @@ const ad = minimist(process.argv.slice(2), {
     alias: {
     },
 })
-
-const COUNTRY = "ca"
 
 /**
  */
@@ -55,30 +55,6 @@ const _pull = _.promise((self, done) => {
 
             const $ = cheerio.load(self.document)
 
-            const _table = $n => {
-                const rows = []
-                $n.find("tr").each((x, etr) => {
-                    const row = []
-                    $(etr).find("td,th").each((y, etd) => {
-                        const value = $(etd)
-                            .text()
-                            .replace(/\s+/g, " ")
-                            .trim()
-                            .toLowerCase()
-                            .replace(/[^a-z0-9 ]/g, "")
-
-                        row.push(_.coerce.to.Integer(value, value))
-                    })
-
-                    if (row.length) {
-                        rows.push(row)
-                    }
-                })
-                return rows
-            }
-
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
-            
             $("meta[name='dcterms.issued']").each((x, e) => {
                 if (e.attribs.content) {
                     sd.json.date = new Date(e.attribs.content).toISOString().substring(0, 10)
@@ -86,7 +62,7 @@ const _pull = _.promise((self, done) => {
             })
 
             $("table").each((x, e) => {
-                const rows = _table($(e))
+                const rows = _util.normalize.object(_util.cheerio.table($, $(e)))
                 if (rows.length <= 1) {
                     return
                 }
@@ -97,11 +73,11 @@ const _pull = _.promise((self, done) => {
 
                 sd.json.tables.push(rows)
             })
-            
+
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
             if (_.is.Empty(sd.json.date)) {
-                console.log("#", "no data for", COUNTRY)
+                console.log("#", "data/ca.cmo", "no date", sd.json)
                 _.promise.bail(sd)
             }
         })
