@@ -1,9 +1,9 @@
 /*
- *  data/nl-cmo/cook.js
+ *  data/ca-cyyz.flights/pull-arrival.js
  *
  *  David Janes
  *  Consensas
- *  2020-03-22
+ *  2020-04-04
  *
  *  Copyright (2013-2020) Consenas
  *
@@ -24,29 +24,23 @@
 
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
+const fetch = require("iotdb-fetch")
 
 const path = require("path")
 const _util = require("../../_util")
 
-_.promise({
-    settings: {
-        authority: "consensas",
-        dataset: "cmo",
-        region: "nl",
-        country: "ca",
-    },
-})
-    .then(fs.read.yaml.p(path.join(__dirname, "manual.yaml")))
+_.promise()
     .make(sd => {
-        const record = _util.record.main(sd.settings)
-        record.items = sd.json
-
-        sd.json = [ record ]
-        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
+        const date = _.timestamp.make().substring(0, 10)
+        sd.path = path.join(__dirname, "raw", `${date}.arr.yaml`)
     })
+    .then(fs.exists)
+    .conditional(sd => sd.exists, _.promise.bail)
 
+    .then(fetch.json.get("https://gtaa-fl-prod.azureedge.net/api/flights/list?type=ARR&day=today&useScheduleTimeOnly=false"))
     .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
 
-    .except(_.error.log)
+    .except(_.promise.unbail)
+    .catch(_.error.log)
