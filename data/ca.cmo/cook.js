@@ -49,6 +49,72 @@ const mapping = {
 }
 
 /**
+ *  The number of tests performed is scraped
+ */
+const _read_tests = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_read_tests)
+
+        .add({
+            path: path.join(__dirname, "raw"),
+            fs$filter_name: name => name.match(/^[\d-]+[.]yaml$/)
+        })
+        .then(fs.make.directory)
+        .then(fs.list)
+        .each({
+            method: fs.read.json.magic,
+            inputs: "paths:path",
+            outputs: "jsons",
+            output_selector: sd => sd.json,
+        })
+        .make(sd => {
+            sd.testd = {}
+            sd.jsons
+                .filter(json => json.date && json.tables && json.tables.length)
+                .forEach(json => {
+                    let tests = -1
+
+                    json.tables 
+                        .filter(table => table[0][0].indexOf("province") === -1)
+                        .forEach(table => {
+                            let testx = -1
+                            const header = table.shift()
+                            if (_.is.Equal(header, [
+                                'total number of patients tested in canada',
+                                'total positive',
+                                'total negative' ])) {
+                                testx = 0
+                            } else if (_.is.Equal(header, [ 'negative', 'positive', 'total' ])) {
+                                testx = 2
+                            }
+
+                            table.forEach(row => {
+                                if ((tests === -1) && (testx !== -1) && _.is.Integer(row[testx])) {
+                                    tests = row[testx]
+                                }
+                            })
+                        })
+
+                    if (tests !== -1) {
+                        sd.testd[json.date] = tests
+                    }
+                })
+        })
+
+        .end(done, self, _read_tests)
+})
+
+_read_tests.method = "_read_tests"
+_read_tests.description = ``
+_read_tests.requires = {
+}
+_read_tests.accepts = {
+}
+_read_tests.produces = {
+    testd: _.is.Dictionary,
+}
+
+/**
  */
 const _one = _.promise((self, done) => {
     _.promise(self)
@@ -79,6 +145,11 @@ const _one = _.promise((self, done) => {
                         }
                     })
 
+                    // we have total number
+                    if (_.is.Nullish(PROVINCE) && sd.testd[item.date]) {
+                        item.tests = sd.testd[item.date]
+                    }
+
                     sd.json.items.push(item)
                 })
 
@@ -105,6 +176,8 @@ _.promise()
     .add("path", path.join(__dirname, "settings.yaml"))
     .then(fs.read.yaml)
     .add("json:settings")
+
+    .then(_read_tests)
 
     .then(fs.read.yaml.p(path.join(__dirname, "raw", "data.yaml")))
     .make(sd => {

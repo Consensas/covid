@@ -81,8 +81,10 @@ const _one = _.promise((self, done) => {
             sd.json = [ sd.json ]
         })
 
+        /*
         .then(fs.write.yaml)
         .log("wrote", "path")
+        */
 
         .end(done, self, _one)
 })
@@ -117,70 +119,35 @@ _.promise()
         output_selector: sd => sd.json,
     })
     .make(sd => {
-        const records = []
+        sd.jsons
+            .filter(json => json.date && json.tables && json.tables.length)
+            .forEach(json => {
+                let tests = -1
 
-        sd.jsons.forEach(json => {
-            const data = {}
-
-            json.tables.forEach(rows => {
-                rows = rows.map(row => row.map(cell => sd.settings.mapping[cell] || cell))
-                const header = rows.shift()
-
-                let table = []
-                rows.forEach(row => {
-                    table.push(_.object(header, row))
-                })
-
-                if (header[0] === "province") {
-                    table.forEach(row => {
-                        const province = row.province || "xxxx"
-                        if (province !== province.toUpperCase()) {
-                            return
+                json.tables 
+                    .filter(table => table[0][0].indexOf("province") === -1)
+                    .forEach(table => {
+                        let testx = -1
+                        const header = table.shift()
+                        if (_.is.Equal(header, [
+                            'total number of patients tested in canada',
+                            'total positive',
+                            'total negative' ])) {
+                            testx = 0
+                        } else if (_.is.Equal(header, [ 'negative', 'positive', 'total' ])) {
+                            testx = 2
                         }
 
-                        const d = data[province] || {}
-                        data[province] = d
-
-                        _.mapObject(row, (value, key) => {
-                            if (_.is.Number(value)) {
-                                d[key] = value
+                        table.forEach(row => {
+                            if ((tests === -1) && (testx !== -1) && _.is.Integer(row[testx])) {
+                                tests = row[testx]
                             }
                         })
                     })
-                } else {
-                    const row = table[0]
-                    const province = ""
-                    const d = data[province] || {}
-                    data[province] = d
 
-                    _.mapObject(table[0], (value, key) => {
-                        if (_.is.Number(value)) {
-                            d[key] = value
-                        }
-                    })
-                }
+                console.log(json.date, tests)
             })
-
-            _.mapObject(data, (value, region) => {
-                records.push(Object.assign({
-                    date: json.date,
-                    region: region,
-                }, value))
-            })
-        })
-
-        sd.itemss = []
-        _.uniq(records.map(r => r.region)).forEach(region => {
-            sd.itemss.push(records.filter(record => record.region === region))
-        })
     })
-    .each({
-        method: _one,
-        inputs: "itemss:items",
-    })
-
-    /*
-    */
 
     .except(_.error.log)
 
