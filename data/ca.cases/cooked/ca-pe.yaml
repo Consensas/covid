@@ -275,3 +275,16 @@ cases:
     gender: Female
     health_region: Prince Edward Island
     acquired_country: null
+  - '@id': 'urn:covid:consensas:ca.cases:11126'
+    dataset_id: '11126'
+    region_id: '22'
+    sources:
+      - >-
+        https://atlantic.ctvnews.ca/p-e-i-reports-1-new-case-of-covid-19-bringing-total-number-of-cases-to-22-1.4879454
+    date: '2020-04-02'
+    week_reported: '2020-03-29'
+    is_travel: true
+    age_range: 50-59
+    gender: Male
+    health_region: Prince Edward Island
+    acquired_country: null
