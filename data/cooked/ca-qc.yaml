@@ -150,6 +150,10 @@ items:
   - date: '2020-03-01'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-01'
+    tests_ordered: 10
+    tests_negative: 138
+    tests: 139
   - date: '2020-03-02'
     deaths: 0
     tests_positive: 1
@@ -363,9 +367,14 @@ items:
   - date: '2020-04-01'
     deaths: 33
     tests_positive: 4611
-  - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-02'
-    date: '2020-04-02'
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-01'
+    tests_ordered: 5770
+    tests_negative: 65082
+    tests: 69693
+  - date: '2020-04-02'
+    deaths: 36
     tests_positive: 5518
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-02'
     tests_ordered: 4871
     tests_negative: 69024
     tests: 74542

@@ -665,11 +665,11 @@ items:
     tests_pending: 3135
     tests_resolved: 674
     tests_approved: 57874
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-04-02'
-    date: '2020-04-02'
+  - date: '2020-04-02'
     deaths: 53
-    tests: 60681
     tests_positive: 2793
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-04-02'
+    tests: 60681
     tests_negative: 57888
     tests_confirmed: 1909
     tests_probable: null
