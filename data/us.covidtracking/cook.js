@@ -26,11 +26,18 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
 const path = require("path")
+const _util = require("../../_util")
 
 const COUNTRY = "us"
 const NAME = `${COUNTRY}-tests.yaml`
 
-_.promise()
+_.promise({
+    settings: {
+        authority: "covidtracking.com",
+        dataset: "cases",
+        country: "us",
+    },
+})
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
         method: fs.read.json.magic,
@@ -39,30 +46,26 @@ _.promise()
         output_selector: sd => sd.json,
     })
     .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:covidtracking.com:${COUNTRY}:cases:cmo`,
-            country: COUNTRY.toUpperCase(),
-            key: `${COUNTRY}`.toLowerCase(),
-            items: sd.jsons.map(_item => {
-                const date = `${_item.date}`.replace(/^(....)(..)(..)$/, "$1-$2-$3")
-                const item = {
-                    "@id": `urn:covid:covidtracking.com:${COUNTRY}:cases:${date}`,
-                    date: date,
-                    tests: _.d.first(_item, "total", null),
-                    tests_positive: _.d.first(_item, "positive", null),
-                    tests_negative: _.d.first(_item, "negative", null),
-                    tests_pending: _.d.first(_item, "pending", null),
-                }
+        const record = _util.record.main(sd.settings)
+        record.items = sd.jsons.map(_item => {
+            const date = `${_item.date}`.replace(/^(....)(..)(..)$/, "$1-$2-$3")
+            const item = {
+                "@id": `${record["@id"]}:${date}`,
+                date: date,
+                tests: _.d.first(_item, "total", null),
+                tests_positive: _.d.first(_item, "positive", null),
+                tests_negative: _.d.first(_item, "negative", null),
+                tests_pending: _.d.first(_item, "pending", null),
+            }
+            
+            return item
+        })
 
-                return item
-            }),
-        }
-
-        sd.json = [ sd.json ]
+        sd.json = record
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
 
-    .add("path", path.join(__dirname, NAME))
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
     
