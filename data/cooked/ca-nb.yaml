@@ -285,7 +285,11 @@ items:
     tests_negative: 4224
   - date: '2020-04-03'
     deaths: 0
-    tests_positive: 91
+    tests_positive: 95
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-03'
+    tests: 4315
+    recovered: 25
+    tests_negative: 4220
 state: NB
 icu_hospitals: 9
 icu_beds: 103
