@@ -66,6 +66,10 @@ const _pull = _.promise((self, done) => {
                     return
                 }
 
+                if (ad.verbose) {
+                    console.log("-", table)
+                }
+
                 if (_.is.Equal(table[0], [ "test results" ])) {
 
                     table.forEach(row => {
@@ -101,6 +105,15 @@ const _pull = _.promise((self, done) => {
                         if (row[0] === "in alberta") {
                             sd.json.tests_positive = row[1]
                             sd.json.deaths = row[2]
+                        }
+                    })
+                } else if (_.is.Equal(table[0], [ 'location', 'confirmed cases', 'deaths', 'recoverd cases', 'completed tests' ])) {
+                    table.forEach(row => {
+                        if (row[0] === "in alberta") {
+                            sd.json.tests_positive = row[1]
+                            sd.json.deaths = row[2]
+                            sd.json.recovered = row[3]
+                            sd.json.tests = row[4]
                         }
                     })
                 }
