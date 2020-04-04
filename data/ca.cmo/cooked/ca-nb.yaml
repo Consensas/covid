@@ -6,6 +6,11 @@
   region: NB
   key: ca-nb
   items:
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-11'
+      date: '2020-03-11'
+      tests_positive: 0
+      tests_probable: 0
+      deaths: 0
     - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-03-12'
       date: '2020-03-12'
       tests_positive: 0
@@ -114,5 +119,10 @@
     - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-02'
       date: '2020-04-02'
       tests_positive: 91
+      tests_probable: 0
+      deaths: 0
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-03'
+      date: '2020-04-03'
+      tests_positive: 95
       tests_probable: 0
       deaths: 0
