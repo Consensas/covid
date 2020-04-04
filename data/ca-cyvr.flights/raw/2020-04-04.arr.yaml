@@ -1,0 +1,895 @@
+odata.metadata: 'http://www.yvr.ca/_api/$metadata#Flights'
+value:
+  - FlightStatus: No op
+    FlightRemarksAdjusted: No op
+    FlightScheduledTime: '2020-04-04T12:50:00'
+    FlightEstimatedTime: '2020-04-04T12:50:00'
+    FlightNumber: 9M563
+    FlightAirlineName: Central Mountain Air
+    FlightAircraftType: BE1
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: S
+    FlightCarrier: 9M
+    FlightCity: Quesnel
+    FlightType: A
+    FlightAirportCode: YQZ
+    FlightGate: ''
+    FlightRemarks: No op
+    FlightID: 303049918
+    FlightQuickConnect: ''
+  - FlightStatus: No op
+    FlightRemarksAdjusted: No op
+    FlightScheduledTime: '2020-04-04T12:50:00'
+    FlightEstimatedTime: '2020-04-04T12:50:00'
+    FlightNumber: 9M555
+    FlightAirlineName: Central Mountain Air
+    FlightAircraftType: BE1
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: S
+    FlightCarrier: 9M
+    FlightCity: Williams Lake
+    FlightType: A
+    FlightAirportCode: YWL
+    FlightGate: ''
+    FlightRemarks: No op
+    FlightID: 303049909
+    FlightQuickConnect: ''
+  - FlightStatus: Arrived
+    FlightRemarksAdjusted: Arrived
+    FlightScheduledTime: '2020-04-04T13:00:00'
+    FlightEstimatedTime: '2020-04-04T12:49:00'
+    FlightNumber: WS125
+    FlightAirlineName: WestJet
+    FlightAircraftType: '736'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '1'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Calgary
+    FlightType: A
+    FlightAirportCode: YYC
+    FlightGate: C44
+    FlightRemarks: Completed
+    FlightID: 303048713
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T13:01:00'
+    FlightEstimatedTime: '2020-04-04T13:01:00'
+    FlightNumber: WS3323
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Kelowna
+    FlightType: A
+    FlightAirportCode: YLW
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303049581
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T13:04:00'
+    FlightEstimatedTime: '2020-04-04T13:04:00'
+    FlightNumber: WS3354
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Victoria
+    FlightType: A
+    FlightAirportCode: YYJ
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303049333
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T13:22:00'
+    FlightEstimatedTime: '2020-04-04T13:22:00'
+    FlightNumber: WS3282
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Prince George
+    FlightType: A
+    FlightAirportCode: YXS
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303049088
+    FlightQuickConnect: ''
+  - FlightStatus: Arrived
+    FlightRemarksAdjusted: Arrived
+    FlightScheduledTime: '2020-04-04T13:55:00'
+    FlightEstimatedTime: '2020-04-04T13:36:00'
+    FlightNumber: AC8573
+    FlightAirlineName: Air Canada
+    FlightAircraftType: CR9
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Regina
+    FlightType: A
+    FlightAirportCode: YQR
+    FlightGate: C29
+    FlightRemarks: Completed
+    FlightID: 303048851
+    FlightQuickConnect: ''
+  - FlightStatus: Arrived
+    FlightRemarksAdjusted: Arrived
+    FlightScheduledTime: '2020-04-04T14:07:00'
+    FlightEstimatedTime: '2020-04-04T13:28:00'
+    FlightNumber: AC8843
+    FlightAirlineName: Air Canada
+    FlightAircraftType: CR9
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '25'
+    FlightRange: T
+    FlightCarrier: AC
+    FlightCity: San Francisco
+    FlightType: A
+    FlightAirportCode: SFO
+    FlightGate: E84
+    FlightRemarks: Completed
+    FlightID: 303049175
+    FlightQuickConnect: ''
+  - FlightStatus: Arrived
+    FlightRemarksAdjusted: Arrived
+    FlightScheduledTime: '2020-04-04T14:59:00'
+    FlightEstimatedTime: '2020-04-04T14:34:00'
+    FlightNumber: AC297
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '319'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Winnipeg
+    FlightType: A
+    FlightAirportCode: YWG
+    FlightGate: C48
+    FlightRemarks: Arrived
+    FlightID: 303049969
+    FlightQuickConnect: ''
+  - FlightStatus: Delayed
+    FlightRemarksAdjusted: Delayed
+    FlightScheduledTime: '2020-04-04T15:09:00'
+    FlightEstimatedTime: '2020-04-04T15:24:00'
+    FlightNumber: WS3106
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '0'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Terrace
+    FlightType: A
+    FlightAirportCode: YXT
+    FlightGate: C42
+    FlightRemarks: Delayed
+    FlightID: 303049411
+    FlightQuickConnect: ''
+  - FlightStatus: No op
+    FlightRemarksAdjusted: No op
+    FlightScheduledTime: '2020-04-04T15:15:00'
+    FlightEstimatedTime: '2020-04-04T15:15:00'
+    FlightNumber: 9M591
+    FlightAirlineName: Central Mountain Air
+    FlightAircraftType: BE1
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: S
+    FlightCarrier: 9M
+    FlightCity: Campbell Riv
+    FlightType: A
+    FlightAirportCode: YBL
+    FlightGate: ''
+    FlightRemarks: No op
+    FlightID: 303049938
+    FlightQuickConnect: ''
+  - FlightStatus: Arrived
+    FlightRemarksAdjusted: Arrived
+    FlightScheduledTime: '2020-04-04T15:24:00'
+    FlightEstimatedTime: '2020-04-04T15:06:00'
+    FlightNumber: WS3203
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '0'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Ft St John
+    FlightType: A
+    FlightAirportCode: YXJ
+    FlightGate: C40
+    FlightRemarks: Arrived
+    FlightID: 303049570
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T15:26:00'
+    FlightEstimatedTime: '2020-04-04T15:26:00'
+    FlightNumber: AC573
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '319'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: T
+    FlightCarrier: AC
+    FlightCity: Los Angeles
+    FlightType: A
+    FlightAirportCode: LAX
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303048822
+    FlightQuickConnect: ''
+  - FlightStatus: Arrived
+    FlightRemarksAdjusted: Arrived
+    FlightScheduledTime: '2020-04-04T15:40:00'
+    FlightEstimatedTime: '2020-04-04T15:15:00'
+    FlightNumber: AC855
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '789'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '24'
+    FlightRange: I
+    FlightCarrier: AC
+    FlightCity: London
+    FlightType: A
+    FlightAirportCode: LHR
+    FlightGate: D54
+    FlightRemarks: Arrived
+    FlightID: 303049117
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T16:00:00'
+    FlightEstimatedTime: '2020-04-04T15:36:00'
+    FlightNumber: AC221
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '319'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Calgary
+    FlightType: A
+    FlightAirportCode: YYC
+    FlightGate: C49
+    FlightRemarks: Early
+    FlightID: 303049697
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T16:30:00'
+    FlightEstimatedTime: '2020-04-04T16:30:00'
+    FlightNumber: WS131
+    FlightAirlineName: WestJet
+    FlightAircraftType: 73W
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Calgary
+    FlightType: A
+    FlightAirportCode: YYC
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303049233
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T16:35:00'
+    FlightEstimatedTime: '2020-04-04T15:59:00'
+    FlightNumber: AC115
+    FlightAirlineName: Air Canada
+    FlightAircraftType: 77L
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '5'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Toronto
+    FlightType: A
+    FlightAirportCode: YYZ
+    FlightGate: C52
+    FlightRemarks: Early
+    FlightID: 303049958
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T17:01:00'
+    FlightEstimatedTime: '2020-04-04T16:47:00'
+    FlightNumber: WS3325
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '0'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Kelowna
+    FlightType: A
+    FlightAirportCode: YLW
+    FlightGate: C41
+    FlightRemarks: Early
+    FlightID: 303048742
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T17:12:00'
+    FlightEstimatedTime: '2020-04-04T17:12:00'
+    FlightNumber: NCB2200
+    FlightAirlineName: Northern Cariboo Air
+    FlightAircraftType: BEH
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: S
+    FlightCarrier: NCB
+    FlightCity: Calgary
+    FlightType: A
+    FlightAirportCode: YYC
+    FlightGate: ''
+    FlightRemarks: ''
+    FlightID: 303049059
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T17:37:00'
+    FlightEstimatedTime: '2020-04-04T17:37:00'
+    FlightNumber: WS3284
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Prince George
+    FlightType: A
+    FlightAirportCode: YXS
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303049858
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T17:48:00'
+    FlightEstimatedTime: '2020-04-04T17:51:00'
+    FlightNumber: AC119
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '320'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '5'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Toronto
+    FlightType: A
+    FlightAirportCode: YYZ
+    FlightGate: C31
+    FlightRemarks: ''
+    FlightID: 303049811
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T18:15:00'
+    FlightEstimatedTime: '2020-04-04T17:47:00'
+    FlightNumber: WS711
+    FlightAirlineName: WestJet
+    FlightAircraftType: 73W
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '1'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Toronto
+    FlightType: A
+    FlightAirportCode: YYZ
+    FlightGate: C43
+    FlightRemarks: Early
+    FlightID: 303049510
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T18:20:00'
+    FlightEstimatedTime: '2020-04-04T18:20:00'
+    FlightNumber: AC8268
+    FlightAirlineName: Air Canada
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Nanaimo
+    FlightType: A
+    FlightAirportCode: YCD
+    FlightGate: C37
+    FlightRemarks: ''
+    FlightID: 303049898
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T18:20:00'
+    FlightEstimatedTime: '2020-04-04T18:20:00'
+    FlightNumber: AC8076
+    FlightAirlineName: Air Canada
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Victoria
+    FlightType: A
+    FlightAirportCode: YYJ
+    FlightGate: C36
+    FlightRemarks: ''
+    FlightID: 303048682
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T18:30:00'
+    FlightEstimatedTime: '2020-04-04T18:30:00'
+    FlightNumber: WS133
+    FlightAirlineName: WestJet
+    FlightAircraftType: 73H
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '1'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Calgary
+    FlightType: A
+    FlightAirportCode: YYC
+    FlightGate: C44
+    FlightRemarks: ''
+    FlightID: 303049344
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T18:37:00'
+    FlightEstimatedTime: '2020-04-04T18:36:00'
+    FlightNumber: WS199
+    FlightAirlineName: WestJet
+    FlightAircraftType: 73W
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '0'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Edmonton
+    FlightType: A
+    FlightAirportCode: YEG
+    FlightGate: C39
+    FlightRemarks: ''
+    FlightID: 303049400
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T19:11:00'
+    FlightEstimatedTime: '2020-04-04T19:11:00'
+    FlightNumber: AC8421
+    FlightAirlineName: Air Canada
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Kelowna
+    FlightType: A
+    FlightAirportCode: YLW
+    FlightGate: C38
+    FlightRemarks: ''
+    FlightID: 303049708
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T19:18:00'
+    FlightEstimatedTime: '2020-04-04T19:18:00'
+    FlightNumber: AC8890
+    FlightAirlineName: Air Canada
+    FlightAircraftType: CR9
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Whitehorse
+    FlightType: A
+    FlightAirportCode: YXY
+    FlightGate: C29
+    FlightRemarks: ''
+    FlightID: 303048918
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T19:21:00'
+    FlightEstimatedTime: '2020-04-04T19:21:00'
+    FlightNumber: AC8094
+    FlightAirlineName: Air Canada
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '33'
+    FlightRange: T
+    FlightCarrier: AC
+    FlightCity: Seattle
+    FlightType: A
+    FlightAirportCode: SEA
+    FlightGate: E83
+    FlightRemarks: ''
+    FlightID: 303049291
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T19:24:00'
+    FlightEstimatedTime: '2020-04-04T19:24:00'
+    FlightNumber: WS3184
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '0'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Victoria
+    FlightType: A
+    FlightAirportCode: YYJ
+    FlightGate: C42
+    FlightRemarks: ''
+    FlightID: 303049262
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T19:25:00'
+    FlightEstimatedTime: '2020-04-04T19:13:00'
+    FlightNumber: SQ5810
+    FlightAirlineName: Singapore Airlines
+    FlightAircraftType: '789'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '22'
+    FlightRange: I
+    FlightCarrier: SQ
+    FlightCity: Taipei
+    FlightType: A
+    FlightAirportCode: TPE
+    FlightGate: D70
+    FlightRemarks: Early
+    FlightID: 303049483
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T19:25:00'
+    FlightEstimatedTime: '2020-04-04T19:13:00'
+    FlightNumber: TG6344
+    FlightAirlineName: Thai Airways
+    FlightAircraftType: '789'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '22'
+    FlightRange: I
+    FlightCarrier: TG
+    FlightCity: Taipei
+    FlightType: A
+    FlightAirportCode: TPE
+    FlightGate: D70
+    FlightRemarks: Early
+    FlightID: 303049490
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T19:25:00'
+    FlightEstimatedTime: '2020-04-04T19:13:00'
+    FlightNumber: BR10
+    FlightAirlineName: EVA Air
+    FlightAircraftType: '789'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '22'
+    FlightRange: I
+    FlightCarrier: BR
+    FlightCity: Taipei
+    FlightType: A
+    FlightAirportCode: TPE
+    FlightGate: D70
+    FlightRemarks: Early
+    FlightID: 303049478
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T19:50:00'
+    FlightEstimatedTime: '2020-04-04T19:50:00'
+    FlightNumber: DL4474
+    FlightAirlineName: Delta Air Lines
+    FlightAircraftType: E75
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '34'
+    FlightRange: T
+    FlightCarrier: DL
+    FlightCity: Seattle
+    FlightType: A
+    FlightAirportCode: SEA
+    FlightGate: ''
+    FlightRemarks: ''
+    FlightID: 303049023
+    FlightQuickConnect: ''
+  - FlightStatus: Delayed
+    FlightRemarksAdjusted: Delayed
+    FlightScheduledTime: '2020-04-04T19:50:00'
+    FlightEstimatedTime: '2020-04-04T20:25:00'
+    FlightNumber: AC225
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '319'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Calgary
+    FlightType: A
+    FlightAirportCode: YYC
+    FlightGate: C47
+    FlightRemarks: Delayed
+    FlightID: 303049012
+    FlightQuickConnect: ''
+  - FlightStatus: Early
+    FlightRemarksAdjusted: Early
+    FlightScheduledTime: '2020-04-04T20:05:00'
+    FlightEstimatedTime: '2020-04-04T19:30:00'
+    FlightNumber: AC125
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '789'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '5'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Toronto
+    FlightType: A
+    FlightAirportCode: YYZ
+    FlightGate: C50
+    FlightRemarks: Early
+    FlightID: 303049164
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T20:06:00'
+    FlightEstimatedTime: '2020-04-04T20:06:00'
+    FlightNumber: AC8343
+    FlightAirlineName: Air Canada
+    FlightAircraftType: CR9
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Edmonton
+    FlightType: A
+    FlightAirportCode: YEG
+    FlightGate: C30
+    FlightRemarks: ''
+    FlightID: 303074352
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T20:06:00'
+    FlightEstimatedTime: '2020-04-04T20:06:00'
+    FlightNumber: AC253
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '320'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Edmonton
+    FlightType: A
+    FlightAirportCode: YEG
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303049947
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T20:13:00'
+    FlightEstimatedTime: '2020-04-04T20:13:00'
+    FlightNumber: AC8245
+    FlightAirlineName: Air Canada
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Terrace
+    FlightType: A
+    FlightAirportCode: YXT
+    FlightGate: C34
+    FlightRemarks: ''
+    FlightID: 303048880
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T21:02:00'
+    FlightEstimatedTime: '2020-04-04T21:02:00'
+    FlightNumber: WS3298
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '0'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Prince George
+    FlightType: A
+    FlightAirportCode: YXS
+    FlightGate: C40
+    FlightRemarks: ''
+    FlightID: 303049878
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T21:04:00'
+    FlightEstimatedTime: '2020-04-04T21:04:00'
+    FlightNumber: AC309
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '320'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '4'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Montreal
+    FlightType: A
+    FlightAirportCode: YUL
+    FlightGate: C48
+    FlightRemarks: ''
+    FlightID: 303049677
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T21:09:00'
+    FlightEstimatedTime: '2020-04-04T21:09:00'
+    FlightNumber: WS3108
+    FlightAirlineName: WestJet
+    FlightAircraftType: DH4
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Terrace
+    FlightType: A
+    FlightAirportCode: YXT
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303049311
+    FlightQuickConnect: ''
+  - FlightStatus: Cancelled
+    FlightRemarksAdjusted: Cancelled
+    FlightScheduledTime: '2020-04-04T21:59:00'
+    FlightEstimatedTime: '2020-04-04T21:59:00'
+    FlightNumber: AC569
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '319'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: ''
+    FlightRange: T
+    FlightCarrier: AC
+    FlightCity: San Francisco
+    FlightType: A
+    FlightAirportCode: SFO
+    FlightGate: ''
+    FlightRemarks: Cancelled
+    FlightID: 303048653
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T21:59:00'
+    FlightEstimatedTime: '2020-04-04T21:59:00'
+    FlightNumber: AC8845
+    FlightAirlineName: Air Canada
+    FlightAircraftType: CR9
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '25'
+    FlightRange: T
+    FlightCarrier: AC
+    FlightCity: San Francisco
+    FlightType: A
+    FlightAirportCode: SFO
+    FlightGate: E84
+    FlightRemarks: ''
+    FlightID: 303074409
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T22:00:00'
+    FlightEstimatedTime: '2020-04-04T22:00:00'
+    FlightNumber: AC187
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '319'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '5'
+    FlightRange: D
+    FlightCarrier: AC
+    FlightCity: Toronto
+    FlightType: A
+    FlightAirportCode: YYZ
+    FlightGate: C30
+    FlightRemarks: ''
+    FlightID: 303048771
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T23:00:00'
+    FlightEstimatedTime: '2020-04-04T23:00:00'
+    FlightNumber: WS137
+    FlightAirlineName: WestJet
+    FlightAircraftType: '736'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '1'
+    FlightRange: D
+    FlightCarrier: WS
+    FlightCity: Calgary
+    FlightType: A
+    FlightAirportCode: YYC
+    FlightGate: C43
+    FlightRemarks: ''
+    FlightID: 303049077
+    FlightQuickConnect: ''
+  - FlightStatus: On Time
+    FlightRemarksAdjusted: STR_ON_TIME
+    FlightScheduledTime: '2020-04-04T23:12:00'
+    FlightEstimatedTime: '2020-04-04T23:12:00'
+    FlightNumber: AC559
+    FlightAirlineName: Air Canada
+    FlightAircraftType: '319'
+    FlightDeskTo: ''
+    FlightDeskFrom: ''
+    FlightCarousel: '25'
+    FlightRange: T
+    FlightCarrier: AC
+    FlightCity: Los Angeles
+    FlightType: A
+    FlightAirportCode: LAX
+    FlightGate: E82
+    FlightRemarks: ''
+    FlightID: 303048811
+    FlightQuickConnect: ''
