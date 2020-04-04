@@ -1012,3 +1012,32 @@
   name: Northeast Health Service Delivery Area
   fragments:
   - northeast
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-pe:1100'
+  country: CA
+  region: PE
+  identifier: '1100'
+  name: Prince Edward Island
+  aliases: []
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-yt:6001'
+  country: CA
+  region: YT
+  identifier: '6001'
+  name: Yukon
+  aliases: []
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-nt:6101'
+  country: CA
+  region: NT
+  identifier: '6101'
+  name: Northwest Territories
+  aliases: []
+
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-nu:6201'
+  country: CA
+  region: NU
+  identifier: '6201'
+  name: Nunavut
+  aliases: []

@@ -28,6 +28,10 @@ module.exports = {
         integer: require("./normalize.integer"),
         object: require("./normalize.object"),
     },
+    zone: {
+        exact: require("./zone.exact"),
+        fuzzy: require("./zone.fuzzy"),
+    },
     cheerio: {
         table: require("./cheerio.table"),
     },
