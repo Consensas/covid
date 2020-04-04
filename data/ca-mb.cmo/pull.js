@@ -156,7 +156,8 @@ if (ad._.length) {
         .except(_.error.log)
 } else {
     _.promise()
-        .then(fetch.document.get("http://www.manitoba.ca/covid19/"))
+        // .then(fetch.document.get("http://www.manitoba.ca/covid19/"))
+        .then(fetch.document.get("http://www.manitoba.ca/covid19/updates/index.html"))
         .then(_pull)
         .except(_.error.log)
 }
