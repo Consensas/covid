@@ -1,78 +1,97 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: YK
-key: ca-yk
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:1471'
-    dataset_id: '1471'
-    region_id: '1'
-    sources:
-      - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Yukon
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1472'
-    dataset_id: '1472'
-    region_id: '2'
-    sources:
-      - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Yukon
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3282'
-    dataset_id: '3282'
-    region_id: '3'
-    sources:
-      - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Yukon
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4690'
-    dataset_id: '4690'
-    region_id: '4'
-    sources:
-      - >-
-        https://yukon.ca/en/news/march-27-2020-yukons-chief-medical-officer-health-provides-update-covid-19
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Yukon
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7448'
-    dataset_id: '7448'
-    region_id: '5'
-    sources:
-      - 'https://yukon.ca/en/novel-coronavirus'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Yukon
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9252'
-    dataset_id: '9252'
-    region_id: '6'
-    sources:
-      - 'https://yukon.ca/en/coronavirus-updates'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Yukon
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-yk:1471'
+  country: CA
+  region: YK
+  key: ca-yk
+  dataset_id: '1471'
+  region_id: '1'
+  sources:
+    - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Yukon
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-yk:1472'
+  country: CA
+  region: YK
+  key: ca-yk
+  dataset_id: '1472'
+  region_id: '2'
+  sources:
+    - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Yukon
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-yk:3282'
+  country: CA
+  region: YK
+  key: ca-yk
+  dataset_id: '3282'
+  region_id: '3'
+  sources:
+    - 'https://yukon.ca/en/information-about-novel-coronavirus-yukoners'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Yukon
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-yk:4690'
+  country: CA
+  region: YK
+  key: ca-yk
+  dataset_id: '4690'
+  region_id: '4'
+  sources:
+    - >-
+      https://yukon.ca/en/news/march-27-2020-yukons-chief-medical-officer-health-provides-update-covid-19
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Yukon
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-yk:7448'
+  country: CA
+  region: YK
+  key: ca-yk
+  dataset_id: '7448'
+  region_id: '5'
+  sources:
+    - 'https://yukon.ca/en/novel-coronavirus'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Yukon
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-yk:9252'
+  country: CA
+  region: YK
+  key: ca-yk
+  dataset_id: '9252'
+  region_id: '6'
+  sources:
+    - 'https://yukon.ca/en/coronavirus-updates'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Yukon
+  acquired_country: null

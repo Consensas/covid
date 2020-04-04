@@ -1,31 +1,34 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: NT
-key: ca-nt
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:1198'
-    dataset_id: '1198'
-    region_id: '1'
-    sources:
-      - >-
-        https://www.gov.nt.ca/sites/flagship/files/documents/pha_-confirmed_case_of_covid-19_in_nwt.pdf
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: NWT
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9125'
-    dataset_id: '9125'
-    region_id: '2'
-    sources:
-      - >-
-        https://www.hss.gov.nt.ca/en/newsroom/second-confirmed-case-covid-19-northwest-territories
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: NWT
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nt:1198'
+  country: CA
+  region: NT
+  key: ca-nt
+  dataset_id: '1198'
+  region_id: '1'
+  sources:
+    - >-
+      https://www.gov.nt.ca/sites/flagship/files/documents/pha_-confirmed_case_of_covid-19_in_nwt.pdf
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: NWT
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nt:9125'
+  country: CA
+  region: NT
+  key: ca-nt
+  dataset_id: '9125'
+  region_id: '2'
+  sources:
+    - >-
+      https://www.hss.gov.nt.ca/en/newsroom/second-confirmed-case-covid-19-northwest-territories
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: NWT
+  acquired_country: null

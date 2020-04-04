@@ -1,290 +1,373 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: PE
-key: ca-pe
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:248'
-    dataset_id: '248'
-    region_id: '1'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/p-e-i-confirms-first-case-of-covid-19-1.4853291
-    date: '2020-03-14'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:800'
-    dataset_id: '800'
-    region_id: '2'
-    sources:
-      - 'https://globalnews.ca/news/6702858/pei-second-covid-case/'
-    date: '2020-03-19'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 40-49
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1435'
-    dataset_id: '1435'
-    region_id: '3'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/p-e-i-identifies-third-case-of-covid-19-1.4863509
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 20-29
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3291'
-    dataset_id: '3291'
-    region_id: '4'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 30-39
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3292'
-    dataset_id: '3292'
-    region_id: '5'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 30-39
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4040'
-    dataset_id: '4040'
-    region_id: '6'
-    sources:
-      - >-
-        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4041'
-    dataset_id: '4041'
-    region_id: '7'
-    sources:
-      - >-
-        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4042'
-    dataset_id: '4042'
-    region_id: '8'
-    sources:
-      - >-
-        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4043'
-    dataset_id: '4043'
-    region_id: '9'
-    sources:
-      - >-
-        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4623'
-    dataset_id: '4623'
-    region_id: '10'
-    sources:
-      - >-
-        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 20-29
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4624'
-    dataset_id: '4624'
-    region_id: '11'
-    sources:
-      - >-
-        https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7280'
-    dataset_id: '7280'
-    region_id: '12'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7281'
-    dataset_id: '7281'
-    region_id: '13'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7282'
-    dataset_id: '7282'
-    region_id: '14'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7283'
-    dataset_id: '7283'
-    region_id: '15'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7284'
-    dataset_id: '7284'
-    region_id: '16'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7285'
-    dataset_id: '7285'
-    region_id: '17'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7286'
-    dataset_id: '7286'
-    region_id: '18'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8461'
-    dataset_id: '8461'
-    region_id: '19'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: 20-29
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8462'
-    dataset_id: '8462'
-    region_id: '20'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: 30-39
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8463'
-    dataset_id: '8463'
-    region_id: '21'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: 40-49
-    gender: Female
-    health_region: Prince Edward Island
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11126'
-    dataset_id: '11126'
-    region_id: '22'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/p-e-i-reports-1-new-case-of-covid-19-bringing-total-number-of-cases-to-22-1.4879454
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: 50-59
-    gender: Male
-    health_region: Prince Edward Island
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:248'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '248'
+  region_id: '1'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/p-e-i-confirms-first-case-of-covid-19-1.4853291
+  date: '2020-03-14'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:800'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '800'
+  region_id: '2'
+  sources:
+    - 'https://globalnews.ca/news/6702858/pei-second-covid-case/'
+  date: '2020-03-19'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 40-49
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:1435'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '1435'
+  region_id: '3'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/p-e-i-identifies-third-case-of-covid-19-1.4863509
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 20-29
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:3291'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '3291'
+  region_id: '4'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 30-39
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:3292'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '3292'
+  region_id: '5'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-premier-5-om-wednesday-update-covid-19-1.5509868
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 30-39
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:4040'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '4040'
+  region_id: '6'
+  sources:
+    - >-
+      https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:4041'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '4041'
+  region_id: '7'
+  sources:
+    - >-
+      https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:4042'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '4042'
+  region_id: '8'
+  sources:
+    - >-
+      https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:4043'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '4043'
+  region_id: '9'
+  sources:
+    - >-
+      https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-four-more-covid-19-cases
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:4623'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '4623'
+  region_id: '10'
+  sources:
+    - >-
+      https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 20-29
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:4624'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '4624'
+  region_id: '11'
+  sources:
+    - >-
+      https://www.princeedwardisland.ca/en/news/prince-edward-island-confirms-two-more-covid-19-cases
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:7280'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '7280'
+  region_id: '12'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:7281'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '7281'
+  region_id: '13'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:7282'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '7282'
+  region_id: '14'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:7283'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '7283'
+  region_id: '15'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:7284'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '7284'
+  region_id: '16'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:7285'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '7285'
+  region_id: '17'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:7286'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '7286'
+  region_id: '18'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/prince-edward-island/pei-monday-march-30-afternoon-briefing-covid-19-1.5514698
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:8461'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '8461'
+  region_id: '19'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: 20-29
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:8462'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '8462'
+  region_id: '20'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: 30-39
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:8463'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '8463'
+  region_id: '21'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/three-new-cases-of-covid-19-confirmed-on-p-e-i-21-total-1.4875955
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: 40-49
+  gender: Female
+  health_region: Prince Edward Island
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-pe:11126'
+  country: CA
+  region: PE
+  key: ca-pe
+  dataset_id: '11126'
+  region_id: '22'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/p-e-i-reports-1-new-case-of-covid-19-bringing-total-number-of-cases-to-22-1.4879454
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: 50-59
+  gender: Male
+  health_region: Prince Edward Island
+  acquired_country: null

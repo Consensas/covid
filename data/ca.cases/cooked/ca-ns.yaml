@@ -1,2361 +1,3128 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: NS
-key: ca-ns
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:296'
-    dataset_id: '296'
-    region_id: '1'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200315002'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: '61'
-    gender: Female
-    health_region: Zone 1 - Western
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:297'
-    dataset_id: '297'
-    region_id: '2'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200315002'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: '50'
-    gender: Male
-    health_region: Zone 4 - Central
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:298'
-    dataset_id: '298'
-    region_id: '3'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200315002'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 30-39
-    gender: Male
-    health_region: Zone 4 - Central
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:376'
-    dataset_id: '376'
-    region_id: '4'
-    sources:
-      - >-
-        https://globalnews.ca/news/6683327/2-new-presumptive-cases-coronavirus-nova-scotia-covid-19/
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Male
-    health_region: Zone 4 - Central
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:377'
-    dataset_id: '377'
-    region_id: '5'
-    sources:
-      - >-
-        https://globalnews.ca/news/6683327/2-new-presumptive-cases-coronavirus-nova-scotia-covid-19/
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Zone 4 - Central
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:482'
-    dataset_id: '482'
-    region_id: '6'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200317001'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:483'
-    dataset_id: '483'
-    region_id: '7'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200317001'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:641'
-    dataset_id: '641'
-    region_id: '8'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200318001'
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:642'
-    dataset_id: '642'
-    region_id: '9'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200318001'
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:643'
-    dataset_id: '643'
-    region_id: '10'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200318001'
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:644'
-    dataset_id: '644'
-    region_id: '11'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200318001'
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:645'
-    dataset_id: '645'
-    region_id: '12'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200318001'
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:798'
-    dataset_id: '798'
-    region_id: '13'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200319003'
-    date: '2020-03-19'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:799'
-    dataset_id: '799'
-    region_id: '14'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200319003'
-    date: '2020-03-19'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:942'
-    dataset_id: '942'
-    region_id: '15'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200320001'
-      - 'https://globalnews.ca/news/6707726/coronavirus-update-march-20/'
-      - 'https://www.youtube.com/watch?v=veJm1ts_FN4'
-    date: '2020-03-20'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1189'
-    dataset_id: '1189'
-    region_id: '16'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200321001'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1190'
-    dataset_id: '1190'
-    region_id: '17'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200321001'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1191'
-    dataset_id: '1191'
-    region_id: '18'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200321001'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1192'
-    dataset_id: '1192'
-    region_id: '19'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200321001'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1193'
-    dataset_id: '1193'
-    region_id: '20'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200321001'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1194'
-    dataset_id: '1194'
-    region_id: '21'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200321001'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1417'
-    dataset_id: '1417'
-    region_id: '22'
-    sources:
-      - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1418'
-    dataset_id: '1418'
-    region_id: '23'
-    sources:
-      - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1419'
-    dataset_id: '1419'
-    region_id: '24'
-    sources:
-      - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1420'
-    dataset_id: '1420'
-    region_id: '25'
-    sources:
-      - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1421'
-    dataset_id: '1421'
-    region_id: '26'
-    sources:
-      - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1422'
-    dataset_id: '1422'
-    region_id: '27'
-    sources:
-      - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1423'
-    dataset_id: '1423'
-    region_id: '28'
-    sources:
-      - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1551'
-    dataset_id: '1551'
-    region_id: '29'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: <10
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1552'
-    dataset_id: '1552'
-    region_id: '30'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1553'
-    dataset_id: '1553'
-    region_id: '31'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1554'
-    dataset_id: '1554'
-    region_id: '32'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1555'
-    dataset_id: '1555'
-    region_id: '33'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1556'
-    dataset_id: '1556'
-    region_id: '34'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1557'
-    dataset_id: '1557'
-    region_id: '35'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1558'
-    dataset_id: '1558'
-    region_id: '36'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1559'
-    dataset_id: '1559'
-    region_id: '37'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1560'
-    dataset_id: '1560'
-    region_id: '38'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1561'
-    dataset_id: '1561'
-    region_id: '39'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1562'
-    dataset_id: '1562'
-    region_id: '40'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1563'
-    dataset_id: '1563'
-    region_id: '41'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200323001'
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2563'
-    dataset_id: '2563'
-    region_id: '42'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2564'
-    dataset_id: '2564'
-    region_id: '43'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2565'
-    dataset_id: '2565'
-    region_id: '44'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2566'
-    dataset_id: '2566'
-    region_id: '45'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2567'
-    dataset_id: '2567'
-    region_id: '46'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2568'
-    dataset_id: '2568'
-    region_id: '47'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2569'
-    dataset_id: '2569'
-    region_id: '48'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2570'
-    dataset_id: '2570'
-    region_id: '49'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2571'
-    dataset_id: '2571'
-    region_id: '50'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2572'
-    dataset_id: '2572'
-    region_id: '51'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2893'
-    dataset_id: '2893'
-    region_id: '52'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2894'
-    dataset_id: '2894'
-    region_id: '53'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2895'
-    dataset_id: '2895'
-    region_id: '54'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2896'
-    dataset_id: '2896'
-    region_id: '55'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2897'
-    dataset_id: '2897'
-    region_id: '56'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2898'
-    dataset_id: '2898'
-    region_id: '57'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2899'
-    dataset_id: '2899'
-    region_id: '58'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2900'
-    dataset_id: '2900'
-    region_id: '59'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2901'
-    dataset_id: '2901'
-    region_id: '60'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2902'
-    dataset_id: '2902'
-    region_id: '61'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2903'
-    dataset_id: '2903'
-    region_id: '62'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2904'
-    dataset_id: '2904'
-    region_id: '63'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2905'
-    dataset_id: '2905'
-    region_id: '64'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2906'
-    dataset_id: '2906'
-    region_id: '65'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2907'
-    dataset_id: '2907'
-    region_id: '66'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2908'
-    dataset_id: '2908'
-    region_id: '67'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2909'
-    dataset_id: '2909'
-    region_id: '68'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3581'
-    dataset_id: '3581'
-    region_id: '69'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3582'
-    dataset_id: '3582'
-    region_id: '70'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3583'
-    dataset_id: '3583'
-    region_id: '71'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3584'
-    dataset_id: '3584'
-    region_id: '72'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3585'
-    dataset_id: '3585'
-    region_id: '73'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4574'
-    dataset_id: '4574'
-    region_id: '74'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4575'
-    dataset_id: '4575'
-    region_id: '75'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4576'
-    dataset_id: '4576'
-    region_id: '76'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4577'
-    dataset_id: '4577'
-    region_id: '77'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4578'
-    dataset_id: '4578'
-    region_id: '78'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4579'
-    dataset_id: '4579'
-    region_id: '79'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4580'
-    dataset_id: '4580'
-    region_id: '80'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4581'
-    dataset_id: '4581'
-    region_id: '81'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4582'
-    dataset_id: '4582'
-    region_id: '82'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4583'
-    dataset_id: '4583'
-    region_id: '83'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4584'
-    dataset_id: '4584'
-    region_id: '84'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4585'
-    dataset_id: '4585'
-    region_id: '85'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4586'
-    dataset_id: '4586'
-    region_id: '86'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4587'
-    dataset_id: '4587'
-    region_id: '87'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4588'
-    dataset_id: '4588'
-    region_id: '88'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4589'
-    dataset_id: '4589'
-    region_id: '89'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4590'
-    dataset_id: '4590'
-    region_id: '90'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200327003'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5435'
-    dataset_id: '5435'
-    region_id: '91'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5436'
-    dataset_id: '5436'
-    region_id: '92'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5437'
-    dataset_id: '5437'
-    region_id: '93'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5438'
-    dataset_id: '5438'
-    region_id: '94'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5439'
-    dataset_id: '5439'
-    region_id: '95'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5440'
-    dataset_id: '5440'
-    region_id: '96'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5441'
-    dataset_id: '5441'
-    region_id: '97'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5442'
-    dataset_id: '5442'
-    region_id: '98'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5443'
-    dataset_id: '5443'
-    region_id: '99'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5444'
-    dataset_id: '5444'
-    region_id: '100'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5445'
-    dataset_id: '5445'
-    region_id: '101'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5446'
-    dataset_id: '5446'
-    region_id: '102'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5447'
-    dataset_id: '5447'
-    region_id: '103'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5448'
-    dataset_id: '5448'
-    region_id: '104'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5449'
-    dataset_id: '5449'
-    region_id: '105'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5450'
-    dataset_id: '5450'
-    region_id: '106'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5451'
-    dataset_id: '5451'
-    region_id: '107'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5452'
-    dataset_id: '5452'
-    region_id: '108'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5453'
-    dataset_id: '5453'
-    region_id: '109'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5454'
-    dataset_id: '5454'
-    region_id: '110'
-    sources:
-      - 'https://novascotia.ca/coronavirus/#cases'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5867'
-    dataset_id: '5867'
-    region_id: '111'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5868'
-    dataset_id: '5868'
-    region_id: '112'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5869'
-    dataset_id: '5869'
-    region_id: '113'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5870'
-    dataset_id: '5870'
-    region_id: '114'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5871'
-    dataset_id: '5871'
-    region_id: '115'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5872'
-    dataset_id: '5872'
-    region_id: '116'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5873'
-    dataset_id: '5873'
-    region_id: '117'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5874'
-    dataset_id: '5874'
-    region_id: '118'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5875'
-    dataset_id: '5875'
-    region_id: '119'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5876'
-    dataset_id: '5876'
-    region_id: '120'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5877'
-    dataset_id: '5877'
-    region_id: '121'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5878'
-    dataset_id: '5878'
-    region_id: '122'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200329001'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6672'
-    dataset_id: '6672'
-    region_id: '123'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200330003'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: CA
-    acquired_community: true
-  - '@id': 'urn:covid:consensas:ca.cases:6673'
-    dataset_id: '6673'
-    region_id: '124'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200330003'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6674'
-    dataset_id: '6674'
-    region_id: '125'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200330003'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6675'
-    dataset_id: '6675'
-    region_id: '126'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200330003'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6676'
-    dataset_id: '6676'
-    region_id: '127'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200330003'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7709'
-    dataset_id: '7709'
-    region_id: '128'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7710'
-    dataset_id: '7710'
-    region_id: '129'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7711'
-    dataset_id: '7711'
-    region_id: '130'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7712'
-    dataset_id: '7712'
-    region_id: '131'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7713'
-    dataset_id: '7713'
-    region_id: '132'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7714'
-    dataset_id: '7714'
-    region_id: '133'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7715'
-    dataset_id: '7715'
-    region_id: '134'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7716'
-    dataset_id: '7716'
-    region_id: '135'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7717'
-    dataset_id: '7717'
-    region_id: '136'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7718'
-    dataset_id: '7718'
-    region_id: '137'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7719'
-    dataset_id: '7719'
-    region_id: '138'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7720'
-    dataset_id: '7720'
-    region_id: '139'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7721'
-    dataset_id: '7721'
-    region_id: '140'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7722'
-    dataset_id: '7722'
-    region_id: '141'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7723'
-    dataset_id: '7723'
-    region_id: '142'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7724'
-    dataset_id: '7724'
-    region_id: '143'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7725'
-    dataset_id: '7725'
-    region_id: '144'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7726'
-    dataset_id: '7726'
-    region_id: '145'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7727'
-    dataset_id: '7727'
-    region_id: '146'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7728'
-    dataset_id: '7728'
-    region_id: '147'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200331001'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9041'
-    dataset_id: '9041'
-    region_id: '148'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9042'
-    dataset_id: '9042'
-    region_id: '149'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9043'
-    dataset_id: '9043'
-    region_id: '150'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9044'
-    dataset_id: '9044'
-    region_id: '151'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9045'
-    dataset_id: '9045'
-    region_id: '152'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9046'
-    dataset_id: '9046'
-    region_id: '153'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9047'
-    dataset_id: '9047'
-    region_id: '154'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9048'
-    dataset_id: '9048'
-    region_id: '155'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9049'
-    dataset_id: '9049'
-    region_id: '156'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9050'
-    dataset_id: '9050'
-    region_id: '157'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9051'
-    dataset_id: '9051'
-    region_id: '158'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9052'
-    dataset_id: '9052'
-    region_id: '159'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9053'
-    dataset_id: '9053'
-    region_id: '160'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9054'
-    dataset_id: '9054'
-    region_id: '161'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9055'
-    dataset_id: '9055'
-    region_id: '162'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9056'
-    dataset_id: '9056'
-    region_id: '163'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9057'
-    dataset_id: '9057'
-    region_id: '164'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9058'
-    dataset_id: '9058'
-    region_id: '165'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9059'
-    dataset_id: '9059'
-    region_id: '166'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9060'
-    dataset_id: '9060'
-    region_id: '167'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9061'
-    dataset_id: '9061'
-    region_id: '168'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9062'
-    dataset_id: '9062'
-    region_id: '169'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9063'
-    dataset_id: '9063'
-    region_id: '170'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9064'
-    dataset_id: '9064'
-    region_id: '171'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9065'
-    dataset_id: '9065'
-    region_id: '172'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9066'
-    dataset_id: '9066'
-    region_id: '173'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200401001'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10199'
-    dataset_id: '10199'
-    region_id: '174'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10200'
-    dataset_id: '10200'
-    region_id: '175'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10201'
-    dataset_id: '10201'
-    region_id: '176'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10202'
-    dataset_id: '10202'
-    region_id: '177'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10203'
-    dataset_id: '10203'
-    region_id: '178'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10204'
-    dataset_id: '10204'
-    region_id: '179'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10205'
-    dataset_id: '10205'
-    region_id: '180'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10206'
-    dataset_id: '10206'
-    region_id: '181'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10207'
-    dataset_id: '10207'
-    region_id: '182'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10208'
-    dataset_id: '10208'
-    region_id: '183'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10209'
-    dataset_id: '10209'
-    region_id: '184'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10210'
-    dataset_id: '10210'
-    region_id: '185'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10211'
-    dataset_id: '10211'
-    region_id: '186'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10212'
-    dataset_id: '10212'
-    region_id: '187'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10213'
-    dataset_id: '10213'
-    region_id: '188'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10214'
-    dataset_id: '10214'
-    region_id: '189'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10215'
-    dataset_id: '10215'
-    region_id: '190'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10216'
-    dataset_id: '10216'
-    region_id: '191'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10217'
-    dataset_id: '10217'
-    region_id: '192'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10218'
-    dataset_id: '10218'
-    region_id: '193'
-    sources:
-      - 'https://novascotia.ca/news/release/?id=20200402003'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:296'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '296'
+  region_id: '1'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200315002'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: '61'
+  gender: Female
+  health_region: Zone 1 - Western
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:297'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '297'
+  region_id: '2'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200315002'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: '50'
+  gender: Male
+  health_region: Zone 4 - Central
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:298'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '298'
+  region_id: '3'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200315002'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 30-39
+  gender: Male
+  health_region: Zone 4 - Central
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:376'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '376'
+  region_id: '4'
+  sources:
+    - >-
+      https://globalnews.ca/news/6683327/2-new-presumptive-cases-coronavirus-nova-scotia-covid-19/
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Male
+  health_region: Zone 4 - Central
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:377'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '377'
+  region_id: '5'
+  sources:
+    - >-
+      https://globalnews.ca/news/6683327/2-new-presumptive-cases-coronavirus-nova-scotia-covid-19/
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Zone 4 - Central
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:482'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '482'
+  region_id: '6'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200317001'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:483'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '483'
+  region_id: '7'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200317001'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:641'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '641'
+  region_id: '8'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200318001'
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:642'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '642'
+  region_id: '9'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200318001'
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:643'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '643'
+  region_id: '10'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200318001'
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:644'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '644'
+  region_id: '11'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200318001'
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:645'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '645'
+  region_id: '12'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200318001'
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:798'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '798'
+  region_id: '13'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200319003'
+  date: '2020-03-19'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:799'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '799'
+  region_id: '14'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200319003'
+  date: '2020-03-19'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:942'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '942'
+  region_id: '15'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200320001'
+    - 'https://globalnews.ca/news/6707726/coronavirus-update-march-20/'
+    - 'https://www.youtube.com/watch?v=veJm1ts_FN4'
+  date: '2020-03-20'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1189'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1189'
+  region_id: '16'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200321001'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1190'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1190'
+  region_id: '17'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200321001'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1191'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1191'
+  region_id: '18'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200321001'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1192'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1192'
+  region_id: '19'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200321001'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1193'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1193'
+  region_id: '20'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200321001'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1194'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1194'
+  region_id: '21'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200321001'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1417'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1417'
+  region_id: '22'
+  sources:
+    - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1418'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1418'
+  region_id: '23'
+  sources:
+    - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1419'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1419'
+  region_id: '24'
+  sources:
+    - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1420'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1420'
+  region_id: '25'
+  sources:
+    - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1421'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1421'
+  region_id: '26'
+  sources:
+    - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1422'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1422'
+  region_id: '27'
+  sources:
+    - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1423'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1423'
+  region_id: '28'
+  sources:
+    - 'https://globalnews.ca/news/6714640/coronavirus-update-nova-scotia/'
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1551'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1551'
+  region_id: '29'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: <10
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1552'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1552'
+  region_id: '30'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1553'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1553'
+  region_id: '31'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1554'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1554'
+  region_id: '32'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1555'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1555'
+  region_id: '33'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1556'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1556'
+  region_id: '34'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1557'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1557'
+  region_id: '35'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1558'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1558'
+  region_id: '36'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1559'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1559'
+  region_id: '37'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1560'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1560'
+  region_id: '38'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1561'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1561'
+  region_id: '39'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1562'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1562'
+  region_id: '40'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:1563'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '1563'
+  region_id: '41'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200323001'
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2563'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2563'
+  region_id: '42'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2564'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2564'
+  region_id: '43'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2565'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2565'
+  region_id: '44'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2566'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2566'
+  region_id: '45'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2567'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2567'
+  region_id: '46'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2568'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2568'
+  region_id: '47'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2569'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2569'
+  region_id: '48'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2570'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2570'
+  region_id: '49'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2571'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2571'
+  region_id: '50'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2572'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2572'
+  region_id: '51'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/nova-scotia-confirms-10-new-covid-19-cases-bringing-total-to-51-1.4866023
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2893'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2893'
+  region_id: '52'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2894'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2894'
+  region_id: '53'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2895'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2895'
+  region_id: '54'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2896'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2896'
+  region_id: '55'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2897'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2897'
+  region_id: '56'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2898'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2898'
+  region_id: '57'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2899'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2899'
+  region_id: '58'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2900'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2900'
+  region_id: '59'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2901'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2901'
+  region_id: '60'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2902'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2902'
+  region_id: '61'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2903'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2903'
+  region_id: '62'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2904'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2904'
+  region_id: '63'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2905'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2905'
+  region_id: '64'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2906'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2906'
+  region_id: '65'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2907'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2907'
+  region_id: '66'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2908'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2908'
+  region_id: '67'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:2909'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '2909'
+  region_id: '68'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-confirms-17-new-cases-of-covid-19-total-at-68-1.4867703
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:3581'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '3581'
+  region_id: '69'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:3582'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '3582'
+  region_id: '70'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:3583'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '3583'
+  region_id: '71'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:3584'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '3584'
+  region_id: '72'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:3585'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '3585'
+  region_id: '73'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/n-s-reports-5-new-covid-19-cases-including-one-with-no-apparent-link-to-travel-1.4869432
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4574'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4574'
+  region_id: '74'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4575'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4575'
+  region_id: '75'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4576'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4576'
+  region_id: '76'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4577'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4577'
+  region_id: '77'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4578'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4578'
+  region_id: '78'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4579'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4579'
+  region_id: '79'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4580'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4580'
+  region_id: '80'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4581'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4581'
+  region_id: '81'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4582'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4582'
+  region_id: '82'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4583'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4583'
+  region_id: '83'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4584'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4584'
+  region_id: '84'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4585'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4585'
+  region_id: '85'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4586'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4586'
+  region_id: '86'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4587'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4587'
+  region_id: '87'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4588'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4588'
+  region_id: '88'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4589'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4589'
+  region_id: '89'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:4590'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '4590'
+  region_id: '90'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200327003'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5435'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5435'
+  region_id: '91'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5436'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5436'
+  region_id: '92'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5437'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5437'
+  region_id: '93'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5438'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5438'
+  region_id: '94'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5439'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5439'
+  region_id: '95'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5440'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5440'
+  region_id: '96'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5441'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5441'
+  region_id: '97'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5442'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5442'
+  region_id: '98'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5443'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5443'
+  region_id: '99'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5444'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5444'
+  region_id: '100'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5445'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5445'
+  region_id: '101'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5446'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5446'
+  region_id: '102'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5447'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5447'
+  region_id: '103'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5448'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5448'
+  region_id: '104'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5449'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5449'
+  region_id: '105'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5450'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5450'
+  region_id: '106'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5451'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5451'
+  region_id: '107'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5452'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5452'
+  region_id: '108'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5453'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5453'
+  region_id: '109'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5454'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5454'
+  region_id: '110'
+  sources:
+    - 'https://novascotia.ca/coronavirus/#cases'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5867'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5867'
+  region_id: '111'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5868'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5868'
+  region_id: '112'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5869'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5869'
+  region_id: '113'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5870'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5870'
+  region_id: '114'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5871'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5871'
+  region_id: '115'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5872'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5872'
+  region_id: '116'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5873'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5873'
+  region_id: '117'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5874'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5874'
+  region_id: '118'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5875'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5875'
+  region_id: '119'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5876'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5876'
+  region_id: '120'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5877'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5877'
+  region_id: '121'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:5878'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '5878'
+  region_id: '122'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200329001'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:6672'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '6672'
+  region_id: '123'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200330003'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: CA
+  acquired_community: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:6673'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '6673'
+  region_id: '124'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200330003'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:6674'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '6674'
+  region_id: '125'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200330003'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:6675'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '6675'
+  region_id: '126'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200330003'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:6676'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '6676'
+  region_id: '127'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200330003'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7709'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7709'
+  region_id: '128'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7710'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7710'
+  region_id: '129'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7711'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7711'
+  region_id: '130'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7712'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7712'
+  region_id: '131'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7713'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7713'
+  region_id: '132'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7714'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7714'
+  region_id: '133'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7715'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7715'
+  region_id: '134'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7716'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7716'
+  region_id: '135'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7717'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7717'
+  region_id: '136'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7718'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7718'
+  region_id: '137'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7719'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7719'
+  region_id: '138'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7720'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7720'
+  region_id: '139'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7721'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7721'
+  region_id: '140'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7722'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7722'
+  region_id: '141'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7723'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7723'
+  region_id: '142'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7724'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7724'
+  region_id: '143'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7725'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7725'
+  region_id: '144'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7726'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7726'
+  region_id: '145'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7727'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7727'
+  region_id: '146'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:7728'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '7728'
+  region_id: '147'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200331001'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9041'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9041'
+  region_id: '148'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9042'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9042'
+  region_id: '149'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9043'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9043'
+  region_id: '150'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9044'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9044'
+  region_id: '151'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9045'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9045'
+  region_id: '152'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9046'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9046'
+  region_id: '153'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9047'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9047'
+  region_id: '154'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9048'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9048'
+  region_id: '155'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9049'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9049'
+  region_id: '156'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9050'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9050'
+  region_id: '157'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9051'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9051'
+  region_id: '158'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9052'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9052'
+  region_id: '159'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9053'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9053'
+  region_id: '160'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9054'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9054'
+  region_id: '161'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9055'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9055'
+  region_id: '162'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9056'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9056'
+  region_id: '163'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9057'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9057'
+  region_id: '164'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9058'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9058'
+  region_id: '165'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9059'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9059'
+  region_id: '166'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9060'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9060'
+  region_id: '167'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9061'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9061'
+  region_id: '168'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9062'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9062'
+  region_id: '169'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9063'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9063'
+  region_id: '170'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9064'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9064'
+  region_id: '171'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9065'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9065'
+  region_id: '172'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:9066'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '9066'
+  region_id: '173'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200401001'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10199'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10199'
+  region_id: '174'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10200'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10200'
+  region_id: '175'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10201'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10201'
+  region_id: '176'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10202'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10202'
+  region_id: '177'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10203'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10203'
+  region_id: '178'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10204'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10204'
+  region_id: '179'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10205'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10205'
+  region_id: '180'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10206'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10206'
+  region_id: '181'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10207'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10207'
+  region_id: '182'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10208'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10208'
+  region_id: '183'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10209'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10209'
+  region_id: '184'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10210'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10210'
+  region_id: '185'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10211'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10211'
+  region_id: '186'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10212'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10212'
+  region_id: '187'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10213'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10213'
+  region_id: '188'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10214'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10214'
+  region_id: '189'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10215'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10215'
+  region_id: '190'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10216'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10216'
+  region_id: '191'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10217'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10217'
+  region_id: '192'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-ns:10218'
+  country: CA
+  region: NS
+  key: ca-ns
+  dataset_id: '10218'
+  region_id: '193'
+  sources:
+    - 'https://novascotia.ca/news/release/?id=20200402003'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null

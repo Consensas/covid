@@ -1,2019 +1,2682 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: MB
-key: ca-mb
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:134'
-    dataset_id: '134'
-    region_id: '1'
-    sources:
-      - 'https://winnipeg.ctvnews.ca/video?clipId=1920424'
-    date: '2020-03-12'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: 40-49
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:176'
-    dataset_id: '176'
-    region_id: '2'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=46931'
-      - >-
-        https://globalnews.ca/news/6669210/manitoba-confirms-two-additional-presumptive-cases-of-covid-19-coronavirus/
-    date: '2020-03-13'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: 30-39
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:177'
-    dataset_id: '177'
-    region_id: '3'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=46931'
-      - >-
-        https://globalnews.ca/news/6669210/manitoba-confirms-two-additional-presumptive-cases-of-covid-19-coronavirus/
-    date: '2020-03-13'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: 30-39
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:185'
-    dataset_id: '185'
-    region_id: '4'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=46934&posted=2020-03-13'
-      - >-
-        https://winnipeg.ctvnews.ca/fourth-presumptive-covid-19-case-confirmed-in-manitoba-1.4852527
-    date: '2020-03-13'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: 40-49
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:293'
-    dataset_id: '293'
-    region_id: '5'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
-      - 'https://news.gov.mb.ca/news/index.html?item=46958'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 70-79
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:294'
-    dataset_id: '294'
-    region_id: '6'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
-      - 'https://news.gov.mb.ca/news/index.html?item=46958'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 70-79
-    gender: Female
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:295'
-    dataset_id: '295'
-    region_id: '7'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
-      - 'https://news.gov.mb.ca/news/index.html?item=46958'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:423'
-    dataset_id: '423'
-    region_id: '8'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=46997&posted=2020-03-16'
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 80-89
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:591'
-    dataset_id: '591'
-    region_id: '9'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: null
-    age_range: 60-69
-    gender: Male
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:592'
-    dataset_id: '592'
-    region_id: '10'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: null
-    age_range: 60-69
-    gender: Female
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:593'
-    dataset_id: '593'
-    region_id: '11'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: null
-    age_range: 60-69
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:594'
-    dataset_id: '594'
-    region_id: '12'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: null
-    age_range: 50-59
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:595'
-    dataset_id: '595'
-    region_id: '13'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: null
-    age_range: 40-49
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:596'
-    dataset_id: '596'
-    region_id: '14'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: null
-    age_range: 30-39
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:597'
-    dataset_id: '597'
-    region_id: '15'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: null
-    age_range: 50-59
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:726'
-    dataset_id: '726'
-    region_id: '16'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47077'
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:727'
-    dataset_id: '727'
-    region_id: '17'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47077'
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 70-79
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1197'
-    dataset_id: '1197'
-    region_id: '18'
-    sources:
-      - 'https://news.gov.mb.ca/news/?archive=&item=47157'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1330'
-    dataset_id: '1330'
-    region_id: '19'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47159&posted=2020-03-21'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 30-39
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1470'
-    dataset_id: '1470'
-    region_id: '20'
-    sources:
-      - >-
-        https://winnipegsun.com/news/news-news/covid-19-cases-hold-at-20-manitoba-warns-against-out-of-province-travel
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 50-59
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2177'
-    dataset_id: '2177'
-    region_id: '21'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 40-49
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2910'
-    dataset_id: '2910'
-    region_id: '22'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 30-39
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2911'
-    dataset_id: '2911'
-    region_id: '23'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: <10
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2912'
-    dataset_id: '2912'
-    region_id: '24'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 40-49
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2913'
-    dataset_id: '2913'
-    region_id: '25'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 30-39
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2914'
-    dataset_id: '2914'
-    region_id: '26'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 60-69
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2915'
-    dataset_id: '2915'
-    region_id: '27'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 60-69
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2916'
-    dataset_id: '2916'
-    region_id: '28'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 40-49
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2917'
-    dataset_id: '2917'
-    region_id: '29'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 30-39
-    gender: Female
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2918'
-    dataset_id: '2918'
-    region_id: '30'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 40-49
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2919'
-    dataset_id: '2919'
-    region_id: '31'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 60-69
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2920'
-    dataset_id: '2920'
-    region_id: '32'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 60-69
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2921'
-    dataset_id: '2921'
-    region_id: '33'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 50-59
-    gender: Female
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2922'
-    dataset_id: '2922'
-    region_id: '34'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: Female
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2923'
-    dataset_id: '2923'
-    region_id: '35'
-    sources:
-      - 'https://news.gov.mb.ca/news/index.html?item=47237'
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3580'
-    dataset_id: '3580'
-    region_id: '36'
-    sources:
-      - 'https://news.gov.mb.ca/news/?archive=&item=47277'
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: Male
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4179'
-    dataset_id: '4179'
-    region_id: '37'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4180'
-    dataset_id: '4180'
-    region_id: '38'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4181'
-    dataset_id: '4181'
-    region_id: '39'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4758'
-    dataset_id: '4758'
-    region_id: '40'
-    sources:
-      - 'https://news.gov.mb.ca/news/?archive=&item=47297'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4759'
-    dataset_id: '4759'
-    region_id: '41'
-    sources:
-      - 'https://news.gov.mb.ca/news/?archive=&item=47297'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4760'
-    dataset_id: '4760'
-    region_id: '42'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4761'
-    dataset_id: '4761'
-    region_id: '43'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4762'
-    dataset_id: '4762'
-    region_id: '44'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4763'
-    dataset_id: '4763'
-    region_id: '45'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4764'
-    dataset_id: '4764'
-    region_id: '46'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4765'
-    dataset_id: '4765'
-    region_id: '47'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4766'
-    dataset_id: '4766'
-    region_id: '48'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4767'
-    dataset_id: '4767'
-    region_id: '49'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4768'
-    dataset_id: '4768'
-    region_id: '50'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4769'
-    dataset_id: '4769'
-    region_id: '51'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4770'
-    dataset_id: '4770'
-    region_id: '52'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4771'
-    dataset_id: '4771'
-    region_id: '53'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4772'
-    dataset_id: '4772'
-    region_id: '54'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4773'
-    dataset_id: '4773'
-    region_id: '55'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4774'
-    dataset_id: '4774'
-    region_id: '56'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4775'
-    dataset_id: '4775'
-    region_id: '57'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4776'
-    dataset_id: '4776'
-    region_id: '58'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4777'
-    dataset_id: '4777'
-    region_id: '59'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4778'
-    dataset_id: '4778'
-    region_id: '60'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4779'
-    dataset_id: '4779'
-    region_id: '61'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4780'
-    dataset_id: '4780'
-    region_id: '62'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4781'
-    dataset_id: '4781'
-    region_id: '63'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4782'
-    dataset_id: '4782'
-    region_id: '64'
-    sources:
-      - 'https://www.gov.mb.ca/covid19/index.html'
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6221'
-    dataset_id: '6221'
-    region_id: '65'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6222'
-    dataset_id: '6222'
-    region_id: '66'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6223'
-    dataset_id: '6223'
-    region_id: '67'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6224'
-    dataset_id: '6224'
-    region_id: '68'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6225'
-    dataset_id: '6225'
-    region_id: '69'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6226'
-    dataset_id: '6226'
-    region_id: '70'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6227'
-    dataset_id: '6227'
-    region_id: '71'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6228'
-    dataset_id: '6228'
-    region_id: '72'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7289'
-    dataset_id: '7289'
-    region_id: '73'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Northern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7290'
-    dataset_id: '7290'
-    region_id: '74'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7291'
-    dataset_id: '7291'
-    region_id: '75'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7292'
-    dataset_id: '7292'
-    region_id: '76'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7293'
-    dataset_id: '7293'
-    region_id: '77'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7294'
-    dataset_id: '7294'
-    region_id: '78'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7295'
-    dataset_id: '7295'
-    region_id: '79'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7296'
-    dataset_id: '7296'
-    region_id: '80'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7297'
-    dataset_id: '7297'
-    region_id: '81'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7298'
-    dataset_id: '7298'
-    region_id: '82'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7299'
-    dataset_id: '7299'
-    region_id: '83'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7300'
-    dataset_id: '7300'
-    region_id: '84'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7301'
-    dataset_id: '7301'
-    region_id: '85'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7302'
-    dataset_id: '7302'
-    region_id: '86'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7303'
-    dataset_id: '7303'
-    region_id: '87'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7304'
-    dataset_id: '7304'
-    region_id: '88'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7305'
-    dataset_id: '7305'
-    region_id: '89'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7306'
-    dataset_id: '7306'
-    region_id: '90'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7307'
-    dataset_id: '7307'
-    region_id: '91'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7308'
-    dataset_id: '7308'
-    region_id: '92'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7309'
-    dataset_id: '7309'
-    region_id: '93'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7310'
-    dataset_id: '7310'
-    region_id: '94'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7311'
-    dataset_id: '7311'
-    region_id: '95'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7312'
-    dataset_id: '7312'
-    region_id: '96'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8466'
-    dataset_id: '8466'
-    region_id: '97'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8467'
-    dataset_id: '8467'
-    region_id: '98'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8468'
-    dataset_id: '8468'
-    region_id: '99'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8469'
-    dataset_id: '8469'
-    region_id: '100'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8470'
-    dataset_id: '8470'
-    region_id: '101'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8471'
-    dataset_id: '8471'
-    region_id: '102'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8472'
-    dataset_id: '8472'
-    region_id: '103'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9067'
-    dataset_id: '9067'
-    region_id: '104'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9068'
-    dataset_id: '9068'
-    region_id: '105'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9069'
-    dataset_id: '9069'
-    region_id: '106'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9070'
-    dataset_id: '9070'
-    region_id: '107'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9071'
-    dataset_id: '9071'
-    region_id: '108'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9072'
-    dataset_id: '9072'
-    region_id: '109'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9073'
-    dataset_id: '9073'
-    region_id: '110'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9074'
-    dataset_id: '9074'
-    region_id: '111'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9075'
-    dataset_id: '9075'
-    region_id: '112'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9076'
-    dataset_id: '9076'
-    region_id: '113'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9077'
-    dataset_id: '9077'
-    region_id: '114'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9078'
-    dataset_id: '9078'
-    region_id: '115'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9079'
-    dataset_id: '9079'
-    region_id: '116'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9080'
-    dataset_id: '9080'
-    region_id: '117'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9081'
-    dataset_id: '9081'
-    region_id: '118'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9082'
-    dataset_id: '9082'
-    region_id: '119'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9083'
-    dataset_id: '9083'
-    region_id: '120'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9084'
-    dataset_id: '9084'
-    region_id: '121'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9085'
-    dataset_id: '9085'
-    region_id: '122'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9086'
-    dataset_id: '9086'
-    region_id: '123'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9087'
-    dataset_id: '9087'
-    region_id: '124'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9088'
-    dataset_id: '9088'
-    region_id: '125'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9089'
-    dataset_id: '9089'
-    region_id: '126'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9090'
-    dataset_id: '9090'
-    region_id: '127'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11137'
-    dataset_id: '11137'
-    region_id: '128'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11138'
-    dataset_id: '11138'
-    region_id: '129'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11139'
-    dataset_id: '11139'
-    region_id: '130'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11140'
-    dataset_id: '11140'
-    region_id: '131'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Interlake-Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11141'
-    dataset_id: '11141'
-    region_id: '132'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Northern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11142'
-    dataset_id: '11142'
-    region_id: '133'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11143'
-    dataset_id: '11143'
-    region_id: '134'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Prairie Mountain
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11144'
-    dataset_id: '11144'
-    region_id: '135'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11145'
-    dataset_id: '11145'
-    region_id: '136'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11146'
-    dataset_id: '11146'
-    region_id: '137'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11147'
-    dataset_id: '11147'
-    region_id: '138'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11148'
-    dataset_id: '11148'
-    region_id: '139'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11149'
-    dataset_id: '11149'
-    region_id: '140'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11150'
-    dataset_id: '11150'
-    region_id: '141'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Southern Health
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11151'
-    dataset_id: '11151'
-    region_id: '142'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11152'
-    dataset_id: '11152'
-    region_id: '143'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11153'
-    dataset_id: '11153'
-    region_id: '144'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11154'
-    dataset_id: '11154'
-    region_id: '145'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11155'
-    dataset_id: '11155'
-    region_id: '146'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11156'
-    dataset_id: '11156'
-    region_id: '147'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11157'
-    dataset_id: '11157'
-    region_id: '148'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11158'
-    dataset_id: '11158'
-    region_id: '149'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11159'
-    dataset_id: '11159'
-    region_id: '150'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11160'
-    dataset_id: '11160'
-    region_id: '151'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11161'
-    dataset_id: '11161'
-    region_id: '152'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11162'
-    dataset_id: '11162'
-    region_id: '153'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11163'
-    dataset_id: '11163'
-    region_id: '154'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11164'
-    dataset_id: '11164'
-    region_id: '155'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11165'
-    dataset_id: '11165'
-    region_id: '156'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11166'
-    dataset_id: '11166'
-    region_id: '157'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11167'
-    dataset_id: '11167'
-    region_id: '158'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11168'
-    dataset_id: '11168'
-    region_id: '159'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11169'
-    dataset_id: '11169'
-    region_id: '160'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11170'
-    dataset_id: '11170'
-    region_id: '161'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11171'
-    dataset_id: '11171'
-    region_id: '162'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11172'
-    dataset_id: '11172'
-    region_id: '163'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11173'
-    dataset_id: '11173'
-    region_id: '164'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11174'
-    dataset_id: '11174'
-    region_id: '165'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11175'
-    dataset_id: '11175'
-    region_id: '166'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11176'
-    dataset_id: '11176'
-    region_id: '167'
-    sources:
-      - 'https://manitoba.ca/covid19/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Winnipeg
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:134'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '134'
+  region_id: '1'
+  sources:
+    - 'https://winnipeg.ctvnews.ca/video?clipId=1920424'
+  date: '2020-03-12'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: 40-49
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:176'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '176'
+  region_id: '2'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=46931'
+    - >-
+      https://globalnews.ca/news/6669210/manitoba-confirms-two-additional-presumptive-cases-of-covid-19-coronavirus/
+  date: '2020-03-13'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: 30-39
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:177'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '177'
+  region_id: '3'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=46931'
+    - >-
+      https://globalnews.ca/news/6669210/manitoba-confirms-two-additional-presumptive-cases-of-covid-19-coronavirus/
+  date: '2020-03-13'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: 30-39
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:185'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '185'
+  region_id: '4'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=46934&posted=2020-03-13'
+    - >-
+      https://winnipeg.ctvnews.ca/fourth-presumptive-covid-19-case-confirmed-in-manitoba-1.4852527
+  date: '2020-03-13'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: 40-49
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:293'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '293'
+  region_id: '5'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
+    - 'https://news.gov.mb.ca/news/index.html?item=46958'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 70-79
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:294'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '294'
+  region_id: '6'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
+    - 'https://news.gov.mb.ca/news/index.html?item=46958'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 70-79
+  gender: Female
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:295'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '295'
+  region_id: '7'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=46957&posted=2020-03-15'
+    - 'https://news.gov.mb.ca/news/index.html?item=46958'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:423'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '423'
+  region_id: '8'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=46997&posted=2020-03-16'
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 80-89
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:591'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '591'
+  region_id: '9'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: null
+  age_range: 60-69
+  gender: Male
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:592'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '592'
+  region_id: '10'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: null
+  age_range: 60-69
+  gender: Female
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:593'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '593'
+  region_id: '11'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: null
+  age_range: 60-69
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:594'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '594'
+  region_id: '12'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: null
+  age_range: 50-59
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:595'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '595'
+  region_id: '13'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: null
+  age_range: 40-49
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:596'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '596'
+  region_id: '14'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: null
+  age_range: 30-39
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:597'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '597'
+  region_id: '15'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47038&posted=2020-03-17'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: null
+  age_range: 50-59
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:726'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '726'
+  region_id: '16'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47077'
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:727'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '727'
+  region_id: '17'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47077'
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 70-79
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:1197'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '1197'
+  region_id: '18'
+  sources:
+    - 'https://news.gov.mb.ca/news/?archive=&item=47157'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:1330'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '1330'
+  region_id: '19'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47159&posted=2020-03-21'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 30-39
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:1470'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '1470'
+  region_id: '20'
+  sources:
+    - >-
+      https://winnipegsun.com/news/news-news/covid-19-cases-hold-at-20-manitoba-warns-against-out-of-province-travel
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 50-59
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2177'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2177'
+  region_id: '21'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 40-49
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2910'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2910'
+  region_id: '22'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 30-39
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2911'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2911'
+  region_id: '23'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: <10
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2912'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2912'
+  region_id: '24'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 40-49
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2913'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2913'
+  region_id: '25'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 30-39
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2914'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2914'
+  region_id: '26'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 60-69
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2915'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2915'
+  region_id: '27'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 60-69
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2916'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2916'
+  region_id: '28'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 40-49
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2917'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2917'
+  region_id: '29'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 30-39
+  gender: Female
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2918'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2918'
+  region_id: '30'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 40-49
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2919'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2919'
+  region_id: '31'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 60-69
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2920'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2920'
+  region_id: '32'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 60-69
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2921'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2921'
+  region_id: '33'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 50-59
+  gender: Female
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2922'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2922'
+  region_id: '34'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: Female
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:2923'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '2923'
+  region_id: '35'
+  sources:
+    - 'https://news.gov.mb.ca/news/index.html?item=47237'
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:3580'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '3580'
+  region_id: '36'
+  sources:
+    - 'https://news.gov.mb.ca/news/?archive=&item=47277'
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: Male
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4179'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4179'
+  region_id: '37'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4180'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4180'
+  region_id: '38'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4181'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4181'
+  region_id: '39'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4758'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4758'
+  region_id: '40'
+  sources:
+    - 'https://news.gov.mb.ca/news/?archive=&item=47297'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4759'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4759'
+  region_id: '41'
+  sources:
+    - 'https://news.gov.mb.ca/news/?archive=&item=47297'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4760'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4760'
+  region_id: '42'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4761'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4761'
+  region_id: '43'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4762'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4762'
+  region_id: '44'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4763'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4763'
+  region_id: '45'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4764'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4764'
+  region_id: '46'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4765'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4765'
+  region_id: '47'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4766'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4766'
+  region_id: '48'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4767'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4767'
+  region_id: '49'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4768'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4768'
+  region_id: '50'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4769'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4769'
+  region_id: '51'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4770'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4770'
+  region_id: '52'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4771'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4771'
+  region_id: '53'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4772'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4772'
+  region_id: '54'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4773'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4773'
+  region_id: '55'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4774'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4774'
+  region_id: '56'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4775'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4775'
+  region_id: '57'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4776'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4776'
+  region_id: '58'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4777'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4777'
+  region_id: '59'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4778'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4778'
+  region_id: '60'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4779'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4779'
+  region_id: '61'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4780'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4780'
+  region_id: '62'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4781'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4781'
+  region_id: '63'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:4782'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '4782'
+  region_id: '64'
+  sources:
+    - 'https://www.gov.mb.ca/covid19/index.html'
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6221'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6221'
+  region_id: '65'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6222'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6222'
+  region_id: '66'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6223'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6223'
+  region_id: '67'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6224'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6224'
+  region_id: '68'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6225'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6225'
+  region_id: '69'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6226'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6226'
+  region_id: '70'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6227'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6227'
+  region_id: '71'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:6228'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '6228'
+  region_id: '72'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7289'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7289'
+  region_id: '73'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Northern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7290'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7290'
+  region_id: '74'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7291'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7291'
+  region_id: '75'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7292'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7292'
+  region_id: '76'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7293'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7293'
+  region_id: '77'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7294'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7294'
+  region_id: '78'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7295'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7295'
+  region_id: '79'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7296'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7296'
+  region_id: '80'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7297'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7297'
+  region_id: '81'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7298'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7298'
+  region_id: '82'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7299'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7299'
+  region_id: '83'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7300'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7300'
+  region_id: '84'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7301'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7301'
+  region_id: '85'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7302'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7302'
+  region_id: '86'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7303'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7303'
+  region_id: '87'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7304'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7304'
+  region_id: '88'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7305'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7305'
+  region_id: '89'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7306'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7306'
+  region_id: '90'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7307'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7307'
+  region_id: '91'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7308'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7308'
+  region_id: '92'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7309'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7309'
+  region_id: '93'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7310'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7310'
+  region_id: '94'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7311'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7311'
+  region_id: '95'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:7312'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '7312'
+  region_id: '96'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:8466'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '8466'
+  region_id: '97'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:8467'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '8467'
+  region_id: '98'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:8468'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '8468'
+  region_id: '99'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:8469'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '8469'
+  region_id: '100'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:8470'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '8470'
+  region_id: '101'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:8471'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '8471'
+  region_id: '102'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:8472'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '8472'
+  region_id: '103'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9067'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9067'
+  region_id: '104'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9068'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9068'
+  region_id: '105'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9069'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9069'
+  region_id: '106'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9070'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9070'
+  region_id: '107'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9071'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9071'
+  region_id: '108'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9072'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9072'
+  region_id: '109'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9073'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9073'
+  region_id: '110'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9074'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9074'
+  region_id: '111'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9075'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9075'
+  region_id: '112'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9076'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9076'
+  region_id: '113'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9077'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9077'
+  region_id: '114'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9078'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9078'
+  region_id: '115'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9079'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9079'
+  region_id: '116'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9080'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9080'
+  region_id: '117'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9081'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9081'
+  region_id: '118'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9082'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9082'
+  region_id: '119'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9083'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9083'
+  region_id: '120'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9084'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9084'
+  region_id: '121'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9085'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9085'
+  region_id: '122'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9086'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9086'
+  region_id: '123'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9087'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9087'
+  region_id: '124'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9088'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9088'
+  region_id: '125'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9089'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9089'
+  region_id: '126'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:9090'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '9090'
+  region_id: '127'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11137'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11137'
+  region_id: '128'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11138'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11138'
+  region_id: '129'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11139'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11139'
+  region_id: '130'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11140'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11140'
+  region_id: '131'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Interlake-Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11141'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11141'
+  region_id: '132'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Northern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11142'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11142'
+  region_id: '133'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11143'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11143'
+  region_id: '134'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Prairie Mountain
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11144'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11144'
+  region_id: '135'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11145'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11145'
+  region_id: '136'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11146'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11146'
+  region_id: '137'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11147'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11147'
+  region_id: '138'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11148'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11148'
+  region_id: '139'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11149'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11149'
+  region_id: '140'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11150'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11150'
+  region_id: '141'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Southern Health
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11151'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11151'
+  region_id: '142'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11152'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11152'
+  region_id: '143'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11153'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11153'
+  region_id: '144'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11154'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11154'
+  region_id: '145'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11155'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11155'
+  region_id: '146'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11156'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11156'
+  region_id: '147'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11157'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11157'
+  region_id: '148'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11158'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11158'
+  region_id: '149'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11159'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11159'
+  region_id: '150'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11160'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11160'
+  region_id: '151'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11161'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11161'
+  region_id: '152'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11162'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11162'
+  region_id: '153'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11163'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11163'
+  region_id: '154'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11164'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11164'
+  region_id: '155'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11165'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11165'
+  region_id: '156'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11166'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11166'
+  region_id: '157'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11167'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11167'
+  region_id: '158'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11168'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11168'
+  region_id: '159'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11169'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11169'
+  region_id: '160'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11170'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11170'
+  region_id: '161'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11171'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11171'
+  region_id: '162'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11172'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11172'
+  region_id: '163'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11173'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11173'
+  region_id: '164'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11174'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11174'
+  region_id: '165'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11175'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11175'
+  region_id: '166'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-mb:11176'
+  country: CA
+  region: MB
+  key: ca-mb
+  dataset_id: '11176'
+  region_id: '167'
+  sources:
+    - 'https://manitoba.ca/covid19/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Winnipeg
+  acquired_country: null

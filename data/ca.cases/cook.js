@@ -26,13 +26,7 @@ const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
 const path = require("path")
-
-const NAME = "ca-cases.yaml"
-
-const _normalize_text = v => _.coerce.to.String(v, v)
-    .toLowerCase()
-    .replace(/[^a-z0-9 ]/g, " ")
-    .replace(/\s+/, " ")
+const _util = require("../../_util")
 
 const _normalize_province = op => {
     const np = {
@@ -124,27 +118,30 @@ const _one = _.promise((self, done) => {
         .then(fs.read.json.magic)
         .make(sd => {
             const region = _normalize_province(sd.json.province)
-            sd.record = {
-                "@id": `urn:covid:consensas:ca.cases:${_integer(sd.json.case_id)}`,
-                dataset_id: sd.json.case_id,
-                region_id: sd.json.provincial_case_id,
-                country: "CA",
-                region: region,
-                key: `CA-${region}`.toLowerCase(),
-                sources: sd.json.case_source
-                    .split(";")
-                    .map(x => x.replace(/^.*http/, "http"))
-                    .map(x => x.trim()),
-                date: _date(sd.json.date_report),
-                week_reported: _date(sd.json.report_week),
-                is_travel: _boolean(sd.json.travel_yn),
-                age_range: _age(sd.json.age),
-                gender: _sex(sd.json.sex),
-                health_region: _health_region(sd.json.health_region),
-                acquired_country: null,
-            }
 
-            switch (_normalize_text(sd.json.locally_acquired)) {
+            sd.record = Object.assign(
+                _util.record.main(sd.settings, {
+                    record_id: sd.json.case_id,
+                }, {
+                    region: region,
+                }),
+                {
+                    dataset_id: sd.json.case_id,
+                    region_id: sd.json.provincial_case_id,
+                    sources: sd.json.case_source
+                        .split(";")
+                        .map(x => x.replace(/^.*http/, "http"))
+                        .map(x => x.trim()),
+                    date: _date(sd.json.date_report),
+                    week_reported: _date(sd.json.report_week),
+                    is_travel: _boolean(sd.json.travel_yn),
+                    age_range: _age(sd.json.age),
+                    gender: _sex(sd.json.sex),
+                    health_region: _health_region(sd.json.health_region),
+                    acquired_country: null,
+                })
+
+            switch (_util.normalize.text(sd.json.locally_acquired)) {
             case "":
                 break
 
@@ -184,7 +181,7 @@ const _write = _.promise((self, done) => {
     _.promise(self)
         .validate(_write)
 
-        .add("path", path.join(__dirname, "cooked", `${self.json.key}.yaml`))
+        .add("path", path.join(__dirname, "cooked", `${self.json[0].key}.yaml`))
         .then(fs.write.yaml)
         .log("path", "path")
 
@@ -194,7 +191,7 @@ const _write = _.promise((self, done) => {
 _write.method = "_write"
 _write.description = ``
 _write.requires = {
-    json: _.is.Dictionary,
+    json: _.is.Array,
 }
 _write.accepts = {
 }
@@ -204,6 +201,12 @@ _write.produces = {
 /**
  */
 _.promise({
+    settings: {
+        authority: "ishaberry",
+        dataset: "covid19canada",
+        country: "ca",
+        region: null,
+    },
 })
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
@@ -221,31 +224,20 @@ _.promise({
         })
 
         sd.rss = _.values(rsd)
-            .map(rs => {
-                const rd = {
-                    "@context": "https://consensas.world/m/covid",
-                    country: rs[0].country,
-                    region: rs[0].region,
-                    key: rs[0].key,
-                    cases: [],
-                }
-
-                rs.forEach(r => {
-                    delete r.country
-                    delete r.region
-                    delete r.key
-
-                    rd.cases.push(r)
-                })
-
-                return rd
-            })
-        
     })
     .each({
         method: _write,
         inputs: "rss:json",
     })
+
+    .make(sd => {
+        sd.json = _.uniqWith(sd.records.map(record => ({
+            region: record.region || null,
+            health_region: record.health_region || null,
+        })), _.is.Equal)
+        sd.path = "xxx.json"
+    })
+    .then(fs.write.json)
 
     .except(_.error.log)
 

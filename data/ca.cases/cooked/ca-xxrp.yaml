@@ -1,174 +1,221 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: XXRP
-key: ca-xxrp
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:250'
-    dataset_id: '250'
-    region_id: '1'
-    sources:
-      - >-
-        https://globalnews.ca/news/6660159/coronavirus-quarantine-cfb-trenton-update/
-    date: '2020-03-11'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:251'
-    dataset_id: '251'
-    region_id: '2'
-    sources:
-      - >-
-        https://globalnews.ca/news/6672900/2nd-coronavirus-confirmed-grand-princess-passengers/
-    date: '2020-03-13'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:252'
-    dataset_id: '252'
-    region_id: '3'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/the-latest-numbers-of-covid-19-cases-in-canada-as-of-march-14-2020-1.4853203
-    date: '2020-03-14'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:253'
-    dataset_id: '253'
-    region_id: '4'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/the-latest-numbers-of-covid-19-cases-in-canada-as-of-march-14-2020-1.4853203
-    date: '2020-03-14'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:419'
-    dataset_id: '419'
-    region_id: '5'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:420'
-    dataset_id: '420'
-    region_id: '6'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:421'
-    dataset_id: '421'
-    region_id: '7'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:422'
-    dataset_id: '422'
-    region_id: '8'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:484'
-    dataset_id: '484'
-    region_id: '9'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:801'
-    dataset_id: '801'
-    region_id: '10'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-19'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:950'
-    dataset_id: '950'
-    region_id: '11'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-20'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:951'
-    dataset_id: '951'
-    region_id: '12'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-20'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1331'
-    dataset_id: '1331'
-    region_id: '13'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: null
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:250'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '250'
+  region_id: '1'
+  sources:
+    - >-
+      https://globalnews.ca/news/6660159/coronavirus-quarantine-cfb-trenton-update/
+  date: '2020-03-11'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:251'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '251'
+  region_id: '2'
+  sources:
+    - >-
+      https://globalnews.ca/news/6672900/2nd-coronavirus-confirmed-grand-princess-passengers/
+  date: '2020-03-13'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:252'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '252'
+  region_id: '3'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/the-latest-numbers-of-covid-19-cases-in-canada-as-of-march-14-2020-1.4853203
+  date: '2020-03-14'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:253'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '253'
+  region_id: '4'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/the-latest-numbers-of-covid-19-cases-in-canada-as-of-march-14-2020-1.4853203
+  date: '2020-03-14'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:419'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '419'
+  region_id: '5'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:420'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '420'
+  region_id: '6'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:421'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '421'
+  region_id: '7'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:422'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '422'
+  region_id: '8'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:484'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '484'
+  region_id: '9'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:801'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '801'
+  region_id: '10'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-19'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:950'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '950'
+  region_id: '11'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-20'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:951'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '951'
+  region_id: '12'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-20'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-xxrp:1331'
+  country: CA
+  region: XXRP
+  key: ca-xxrp
+  dataset_id: '1331'
+  region_id: '13'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: null
+  acquired_country: null

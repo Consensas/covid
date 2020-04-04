@@ -1,2354 +1,3081 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: NL
-key: ca-nl
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:249'
-    dataset_id: '249'
-    region_id: '1'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/newfoundland-and-labrador-reports-its-first-presumptive-case-of-covid-19-1.4853495
-      - >-
-        https://vocm.com/2020/03/16/first-presumptive-case-is-in-labrador-grenfell-health-region/
-    date: '2020-03-14'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Labrador-Grenfell
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:450'
-    dataset_id: '450'
-    region_id: '2'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
-      - 'https://vocm.com/2020/03/17/covid-19-update-3/'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Labrador-Grenfell
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:451'
-    dataset_id: '451'
-    region_id: '3'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
-      - 'https://vocm.com/2020/03/17/covid-19-update-3/'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Labrador-Grenfell
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:943'
-    dataset_id: '943'
-    region_id: '4'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-20-nl-1.5504154
-    date: '2020-03-20'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: Male
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1195'
-    dataset_id: '1195'
-    region_id: '5'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1196'
-    dataset_id: '1196'
-    region_id: '6'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: null
-    gender: Female
-    health_region: Central
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1424'
-    dataset_id: '1424'
-    region_id: '7'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1425'
-    dataset_id: '1425'
-    region_id: '8'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1426'
-    dataset_id: '1426'
-    region_id: '9'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
-    date: '2020-03-22'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2021'
-    dataset_id: '2021'
-    region_id: '10'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Central
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2022'
-    dataset_id: '2022'
-    region_id: '11'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2023'
-    dataset_id: '2023'
-    region_id: '12'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2024'
-    dataset_id: '2024'
-    region_id: '13'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2025'
-    dataset_id: '2025'
-    region_id: '14'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2026'
-    dataset_id: '2026'
-    region_id: '15'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2027'
-    dataset_id: '2027'
-    region_id: '16'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2028'
-    dataset_id: '2028'
-    region_id: '17'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2029'
-    dataset_id: '2029'
-    region_id: '18'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2030'
-    dataset_id: '2030'
-    region_id: '19'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2031'
-    dataset_id: '2031'
-    region_id: '20'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2032'
-    dataset_id: '2032'
-    region_id: '21'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2033'
-    dataset_id: '2033'
-    region_id: '22'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2034'
-    dataset_id: '2034'
-    region_id: '23'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2035'
-    dataset_id: '2035'
-    region_id: '24'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
-    date: '2020-03-23'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2573'
-    dataset_id: '2573'
-    region_id: '25'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507980
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2574'
-    dataset_id: '2574'
-    region_id: '26'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507981
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2575'
-    dataset_id: '2575'
-    region_id: '27'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507982
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2576'
-    dataset_id: '2576'
-    region_id: '28'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507983
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2577'
-    dataset_id: '2577'
-    region_id: '29'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507984
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2578'
-    dataset_id: '2578'
-    region_id: '30'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507985
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2579'
-    dataset_id: '2579'
-    region_id: '31'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507986
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2580'
-    dataset_id: '2580'
-    region_id: '32'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507987
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2581'
-    dataset_id: '2581'
-    region_id: '33'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507988
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2582'
-    dataset_id: '2582'
-    region_id: '34'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507989
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:2583'
-    dataset_id: '2583'
-    region_id: '35'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507990
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3250'
-    dataset_id: '3250'
-    region_id: '36'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Western
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3251'
-    dataset_id: '3251'
-    region_id: '37'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3252'
-    dataset_id: '3252'
-    region_id: '38'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3253'
-    dataset_id: '3253'
-    region_id: '39'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3254'
-    dataset_id: '3254'
-    region_id: '40'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3255'
-    dataset_id: '3255'
-    region_id: '41'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3256'
-    dataset_id: '3256'
-    region_id: '42'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3257'
-    dataset_id: '3257'
-    region_id: '43'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3258'
-    dataset_id: '3258'
-    region_id: '44'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3259'
-    dataset_id: '3259'
-    region_id: '45'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3260'
-    dataset_id: '3260'
-    region_id: '46'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3261'
-    dataset_id: '3261'
-    region_id: '47'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3262'
-    dataset_id: '3262'
-    region_id: '48'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3263'
-    dataset_id: '3263'
-    region_id: '49'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3264'
-    dataset_id: '3264'
-    region_id: '50'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3265'
-    dataset_id: '3265'
-    region_id: '51'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3266'
-    dataset_id: '3266'
-    region_id: '52'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3267'
-    dataset_id: '3267'
-    region_id: '53'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3268'
-    dataset_id: '3268'
-    region_id: '54'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3269'
-    dataset_id: '3269'
-    region_id: '55'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3270'
-    dataset_id: '3270'
-    region_id: '56'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3271'
-    dataset_id: '3271'
-    region_id: '57'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3272'
-    dataset_id: '3272'
-    region_id: '58'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3273'
-    dataset_id: '3273'
-    region_id: '59'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3274'
-    dataset_id: '3274'
-    region_id: '60'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3275'
-    dataset_id: '3275'
-    region_id: '61'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3276'
-    dataset_id: '3276'
-    region_id: '62'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3277'
-    dataset_id: '3277'
-    region_id: '63'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3278'
-    dataset_id: '3278'
-    region_id: '64'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3279'
-    dataset_id: '3279'
-    region_id: '65'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3280'
-    dataset_id: '3280'
-    region_id: '66'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3281'
-    dataset_id: '3281'
-    region_id: '67'
-    sources:
-      - >-
-        https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3876'
-    dataset_id: '3876'
-    region_id: '68'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3877'
-    dataset_id: '3877'
-    region_id: '69'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3878'
-    dataset_id: '3878'
-    region_id: '70'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3879'
-    dataset_id: '3879'
-    region_id: '71'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3880'
-    dataset_id: '3880'
-    region_id: '72'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3881'
-    dataset_id: '3881'
-    region_id: '73'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3882'
-    dataset_id: '3882'
-    region_id: '74'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3883'
-    dataset_id: '3883'
-    region_id: '75'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3884'
-    dataset_id: '3884'
-    region_id: '76'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3885'
-    dataset_id: '3885'
-    region_id: '77'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3886'
-    dataset_id: '3886'
-    region_id: '78'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3887'
-    dataset_id: '3887'
-    region_id: '79'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3888'
-    dataset_id: '3888'
-    region_id: '80'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3889'
-    dataset_id: '3889'
-    region_id: '81'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3890'
-    dataset_id: '3890'
-    region_id: '82'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4591'
-    dataset_id: '4591'
-    region_id: '83'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Labrador-Grenfell
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4592'
-    dataset_id: '4592'
-    region_id: '84'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4593'
-    dataset_id: '4593'
-    region_id: '85'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4594'
-    dataset_id: '4594'
-    region_id: '86'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4595'
-    dataset_id: '4595'
-    region_id: '87'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4596'
-    dataset_id: '4596'
-    region_id: '88'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4597'
-    dataset_id: '4597'
-    region_id: '89'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4598'
-    dataset_id: '4598'
-    region_id: '90'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4599'
-    dataset_id: '4599'
-    region_id: '91'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4600'
-    dataset_id: '4600'
-    region_id: '92'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4601'
-    dataset_id: '4601'
-    region_id: '93'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4602'
-    dataset_id: '4602'
-    region_id: '94'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4603'
-    dataset_id: '4603'
-    region_id: '95'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4604'
-    dataset_id: '4604'
-    region_id: '96'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4605'
-    dataset_id: '4605'
-    region_id: '97'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4606'
-    dataset_id: '4606'
-    region_id: '98'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4607'
-    dataset_id: '4607'
-    region_id: '99'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4608'
-    dataset_id: '4608'
-    region_id: '100'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4609'
-    dataset_id: '4609'
-    region_id: '101'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4610'
-    dataset_id: '4610'
-    region_id: '102'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5411'
-    dataset_id: '5411'
-    region_id: '103'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513599
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5412'
-    dataset_id: '5412'
-    region_id: '104'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513600
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5413'
-    dataset_id: '5413'
-    region_id: '105'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513601
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5414'
-    dataset_id: '5414'
-    region_id: '106'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513602
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5415'
-    dataset_id: '5415'
-    region_id: '107'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513603
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5416'
-    dataset_id: '5416'
-    region_id: '108'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513604
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5417'
-    dataset_id: '5417'
-    region_id: '109'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513605
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5418'
-    dataset_id: '5418'
-    region_id: '110'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513606
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5419'
-    dataset_id: '5419'
-    region_id: '111'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513607
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5420'
-    dataset_id: '5420'
-    region_id: '112'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513608
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5421'
-    dataset_id: '5421'
-    region_id: '113'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513609
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5422'
-    dataset_id: '5422'
-    region_id: '114'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513610
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5423'
-    dataset_id: '5423'
-    region_id: '115'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513611
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5424'
-    dataset_id: '5424'
-    region_id: '116'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513612
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5425'
-    dataset_id: '5425'
-    region_id: '117'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513613
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5426'
-    dataset_id: '5426'
-    region_id: '118'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513614
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5427'
-    dataset_id: '5427'
-    region_id: '119'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513615
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Labrador-Grenfell
-    acquired_country: CA
-    acquired_community: true
-  - '@id': 'urn:covid:consensas:ca.cases:5428'
-    dataset_id: '5428'
-    region_id: '120'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513599
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: null
-    gender: null
-    health_region: Central
-    acquired_country: CA
-    acquired_community: true
-  - '@id': 'urn:covid:consensas:ca.cases:6244'
-    dataset_id: '6244'
-    region_id: '121'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6245'
-    dataset_id: '6245'
-    region_id: '122'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6246'
-    dataset_id: '6246'
-    region_id: '123'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6247'
-    dataset_id: '6247'
-    region_id: '124'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6248'
-    dataset_id: '6248'
-    region_id: '125'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6249'
-    dataset_id: '6249'
-    region_id: '126'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6250'
-    dataset_id: '6250'
-    region_id: '127'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6251'
-    dataset_id: '6251'
-    region_id: '128'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6252'
-    dataset_id: '6252'
-    region_id: '129'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6253'
-    dataset_id: '6253'
-    region_id: '130'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6254'
-    dataset_id: '6254'
-    region_id: '131'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6255'
-    dataset_id: '6255'
-    region_id: '132'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6256'
-    dataset_id: '6256'
-    region_id: '133'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6257'
-    dataset_id: '6257'
-    region_id: '134'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6258'
-    dataset_id: '6258'
-    region_id: '135'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/'
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6677'
-    dataset_id: '6677'
-    region_id: '136'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6678'
-    dataset_id: '6678'
-    region_id: '137'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6679'
-    dataset_id: '6679'
-    region_id: '138'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6680'
-    dataset_id: '6680'
-    region_id: '139'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6681'
-    dataset_id: '6681'
-    region_id: '140'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6682'
-    dataset_id: '6682'
-    region_id: '141'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6683'
-    dataset_id: '6683'
-    region_id: '142'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6684'
-    dataset_id: '6684'
-    region_id: '143'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6685'
-    dataset_id: '6685'
-    region_id: '144'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6686'
-    dataset_id: '6686'
-    region_id: '145'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6687'
-    dataset_id: '6687'
-    region_id: '146'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6688'
-    dataset_id: '6688'
-    region_id: '147'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6689'
-    dataset_id: '6689'
-    region_id: '148'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8473'
-    dataset_id: '8473'
-    region_id: '149'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8474'
-    dataset_id: '8474'
-    region_id: '150'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8475'
-    dataset_id: '8475'
-    region_id: '151'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8476'
-    dataset_id: '8476'
-    region_id: '152'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9102'
-    dataset_id: '9102'
-    region_id: '153'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9103'
-    dataset_id: '9103'
-    region_id: '154'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9104'
-    dataset_id: '9104'
-    region_id: '155'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9105'
-    dataset_id: '9105'
-    region_id: '156'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9106'
-    dataset_id: '9106'
-    region_id: '157'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9107'
-    dataset_id: '9107'
-    region_id: '158'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9108'
-    dataset_id: '9108'
-    region_id: '159'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9109'
-    dataset_id: '9109'
-    region_id: '160'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9110'
-    dataset_id: '9110'
-    region_id: '161'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9111'
-    dataset_id: '9111'
-    region_id: '162'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9112'
-    dataset_id: '9112'
-    region_id: '163'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9113'
-    dataset_id: '9113'
-    region_id: '164'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9114'
-    dataset_id: '9114'
-    region_id: '165'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9115'
-    dataset_id: '9115'
-    region_id: '166'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9116'
-    dataset_id: '9116'
-    region_id: '167'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9117'
-    dataset_id: '9117'
-    region_id: '168'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9118'
-    dataset_id: '9118'
-    region_id: '169'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9119'
-    dataset_id: '9119'
-    region_id: '170'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9120'
-    dataset_id: '9120'
-    region_id: '171'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9121'
-    dataset_id: '9121'
-    region_id: '172'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9122'
-    dataset_id: '9122'
-    region_id: '173'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9123'
-    dataset_id: '9123'
-    region_id: '174'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9124'
-    dataset_id: '9124'
-    region_id: '175'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10191'
-    dataset_id: '10191'
-    region_id: '176'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10192'
-    dataset_id: '10192'
-    region_id: '177'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10193'
-    dataset_id: '10193'
-    region_id: '178'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10194'
-    dataset_id: '10194'
-    region_id: '179'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10195'
-    dataset_id: '10195'
-    region_id: '180'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10196'
-    dataset_id: '10196'
-    region_id: '181'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10197'
-    dataset_id: '10197'
-    region_id: '182'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:10198'
-    dataset_id: '10198'
-    region_id: '183'
-    sources:
-      - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Eastern
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:249'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '249'
+  region_id: '1'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/newfoundland-and-labrador-reports-its-first-presumptive-case-of-covid-19-1.4853495
+    - >-
+      https://vocm.com/2020/03/16/first-presumptive-case-is-in-labrador-grenfell-health-region/
+  date: '2020-03-14'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Labrador-Grenfell
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:450'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '450'
+  region_id: '2'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
+    - 'https://vocm.com/2020/03/17/covid-19-update-3/'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Labrador-Grenfell
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:451'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '451'
+  region_id: '3'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-measures-to-continue-haggie-1.5500172
+    - 'https://vocm.com/2020/03/17/covid-19-update-3/'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Labrador-Grenfell
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:943'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '943'
+  region_id: '4'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-20-nl-1.5504154
+  date: '2020-03-20'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: Male
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:1195'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '1195'
+  region_id: '5'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:1196'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '1196'
+  region_id: '6'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-21-daily-update-1.5505568
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: null
+  gender: Female
+  health_region: Central
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:1424'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '1424'
+  region_id: '7'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:1425'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '1425'
+  region_id: '8'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:1426'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '1426'
+  region_id: '9'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-daily-update-for-march-22-2020-1.5505973
+  date: '2020-03-22'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2021'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2021'
+  region_id: '10'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Central
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2022'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2022'
+  region_id: '11'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2023'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2023'
+  region_id: '12'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2024'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2024'
+  region_id: '13'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2025'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2025'
+  region_id: '14'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2026'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2026'
+  region_id: '15'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2027'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2027'
+  region_id: '16'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2028'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2028'
+  region_id: '17'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2029'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2029'
+  region_id: '18'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2030'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2030'
+  region_id: '19'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2031'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2031'
+  region_id: '20'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2032'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2032'
+  region_id: '21'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2033'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2033'
+  region_id: '22'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2034'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2034'
+  region_id: '23'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2035'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2035'
+  region_id: '24'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/long-term-care-homes-closed-visitors-1.5506532
+  date: '2020-03-23'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2573'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2573'
+  region_id: '25'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507980
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2574'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2574'
+  region_id: '26'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507981
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2575'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2575'
+  region_id: '27'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507982
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2576'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2576'
+  region_id: '28'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507983
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2577'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2577'
+  region_id: '29'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507984
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2578'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2578'
+  region_id: '30'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507985
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2579'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2579'
+  region_id: '31'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507986
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2580'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2580'
+  region_id: '32'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507987
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2581'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2581'
+  region_id: '33'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507988
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2582'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2582'
+  region_id: '34'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507989
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:2583'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '2583'
+  region_id: '35'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-janice-fitzgerald-tuesday-march-24-1.5507990
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3250'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3250'
+  region_id: '36'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Western
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3251'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3251'
+  region_id: '37'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3252'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3252'
+  region_id: '38'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3253'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3253'
+  region_id: '39'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3254'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3254'
+  region_id: '40'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3255'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3255'
+  region_id: '41'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3256'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3256'
+  region_id: '42'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3257'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3257'
+  region_id: '43'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3258'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3258'
+  region_id: '44'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3259'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3259'
+  region_id: '45'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3260'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3260'
+  region_id: '46'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3261'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3261'
+  region_id: '47'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3262'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3262'
+  region_id: '48'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3263'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3263'
+  region_id: '49'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3264'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3264'
+  region_id: '50'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3265'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3265'
+  region_id: '51'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3266'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3266'
+  region_id: '52'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3267'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3267'
+  region_id: '53'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3268'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3268'
+  region_id: '54'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3269'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3269'
+  region_id: '55'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3270'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3270'
+  region_id: '56'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3271'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3271'
+  region_id: '57'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3272'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3272'
+  region_id: '58'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3273'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3273'
+  region_id: '59'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3274'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3274'
+  region_id: '60'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3275'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3275'
+  region_id: '61'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3276'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3276'
+  region_id: '62'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3277'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3277'
+  region_id: '63'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3278'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3278'
+  region_id: '64'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3279'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3279'
+  region_id: '65'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3280'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3280'
+  region_id: '66'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3281'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3281'
+  region_id: '67'
+  sources:
+    - >-
+      https://www.ctvnews.ca/health/coronavirus/n-l-announces-32-new-cases-of-covid-19-nearly-doubling-total-1.4867889
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3876'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3876'
+  region_id: '68'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3877'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3877'
+  region_id: '69'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3878'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3878'
+  region_id: '70'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3879'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3879'
+  region_id: '71'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3880'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3880'
+  region_id: '72'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3881'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3881'
+  region_id: '73'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3882'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3882'
+  region_id: '74'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3883'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3883'
+  region_id: '75'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3884'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3884'
+  region_id: '76'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3885'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3885'
+  region_id: '77'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3886'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3886'
+  region_id: '78'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3887'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3887'
+  region_id: '79'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3888'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3888'
+  region_id: '80'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3889'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3889'
+  region_id: '81'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:3890'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '3890'
+  region_id: '82'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-newfoundland-thursday-march-26-1.5510774
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4591'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4591'
+  region_id: '83'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Labrador-Grenfell
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4592'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4592'
+  region_id: '84'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4593'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4593'
+  region_id: '85'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4594'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4594'
+  region_id: '86'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4595'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4595'
+  region_id: '87'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4596'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4596'
+  region_id: '88'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4597'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4597'
+  region_id: '89'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4598'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4598'
+  region_id: '90'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4599'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4599'
+  region_id: '91'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4600'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4600'
+  region_id: '92'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4601'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4601'
+  region_id: '93'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4602'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4602'
+  region_id: '94'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4603'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4603'
+  region_id: '95'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4604'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4604'
+  region_id: '96'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4605'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4605'
+  region_id: '97'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4606'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4606'
+  region_id: '98'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4607'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4607'
+  region_id: '99'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4608'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4608'
+  region_id: '100'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4609'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4609'
+  region_id: '101'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:4610'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '4610'
+  region_id: '102'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march27-1.5512069
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5411'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5411'
+  region_id: '103'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513599
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5412'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5412'
+  region_id: '104'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513600
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5413'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5413'
+  region_id: '105'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513601
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5414'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5414'
+  region_id: '106'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513602
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5415'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5415'
+  region_id: '107'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513603
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5416'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5416'
+  region_id: '108'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513604
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5417'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5417'
+  region_id: '109'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513605
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5418'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5418'
+  region_id: '110'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513606
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5419'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5419'
+  region_id: '111'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513607
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5420'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5420'
+  region_id: '112'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513608
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5421'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5421'
+  region_id: '113'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513609
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5422'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5422'
+  region_id: '114'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513610
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5423'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5423'
+  region_id: '115'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513611
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5424'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5424'
+  region_id: '116'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513612
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5425'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5425'
+  region_id: '117'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513613
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5426'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5426'
+  region_id: '118'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513614
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5427'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5427'
+  region_id: '119'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513615
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Labrador-Grenfell
+  acquired_country: CA
+  acquired_community: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:5428'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '5428'
+  region_id: '120'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-march-28-update-1.5513599
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: Central
+  acquired_country: CA
+  acquired_community: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6244'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6244'
+  region_id: '121'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6245'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6245'
+  region_id: '122'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6246'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6246'
+  region_id: '123'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6247'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6247'
+  region_id: '124'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6248'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6248'
+  region_id: '125'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6249'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6249'
+  region_id: '126'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6250'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6250'
+  region_id: '127'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6251'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6251'
+  region_id: '128'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6252'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6252'
+  region_id: '129'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6253'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6253'
+  region_id: '130'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6254'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6254'
+  region_id: '131'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6255'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6255'
+  region_id: '132'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6256'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6256'
+  region_id: '133'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6257'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6257'
+  region_id: '134'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6258'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6258'
+  region_id: '135'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/'
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6677'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6677'
+  region_id: '136'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6678'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6678'
+  region_id: '137'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6679'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6679'
+  region_id: '138'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6680'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6680'
+  region_id: '139'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6681'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6681'
+  region_id: '140'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6682'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6682'
+  region_id: '141'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6683'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6683'
+  region_id: '142'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6684'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6684'
+  region_id: '143'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6685'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6685'
+  region_id: '144'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6686'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6686'
+  region_id: '145'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6687'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6687'
+  region_id: '146'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6688'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6688'
+  region_id: '147'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:6689'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '6689'
+  region_id: '148'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-first-nl-death-1.5514516
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:8473'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '8473'
+  region_id: '149'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:8474'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '8474'
+  region_id: '150'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:8475'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '8475'
+  region_id: '151'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:8476'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '8476'
+  region_id: '152'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/newfoundland-labrador/covid19-newfoundland-labrador-update-march-31-1.5515847
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9102'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9102'
+  region_id: '153'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9103'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9103'
+  region_id: '154'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9104'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9104'
+  region_id: '155'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9105'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9105'
+  region_id: '156'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9106'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9106'
+  region_id: '157'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9107'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9107'
+  region_id: '158'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9108'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9108'
+  region_id: '159'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9109'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9109'
+  region_id: '160'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9110'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9110'
+  region_id: '161'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9111'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9111'
+  region_id: '162'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9112'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9112'
+  region_id: '163'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9113'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9113'
+  region_id: '164'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9114'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9114'
+  region_id: '165'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9115'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9115'
+  region_id: '166'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9116'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9116'
+  region_id: '167'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9117'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9117'
+  region_id: '168'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9118'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9118'
+  region_id: '169'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9119'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9119'
+  region_id: '170'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9120'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9120'
+  region_id: '171'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9121'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9121'
+  region_id: '172'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9122'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9122'
+  region_id: '173'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9123'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9123'
+  region_id: '174'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:9124'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '9124'
+  region_id: '175'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10191'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10191'
+  region_id: '176'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10192'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10192'
+  region_id: '177'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10193'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10193'
+  region_id: '178'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10194'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10194'
+  region_id: '179'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10195'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10195'
+  region_id: '180'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10196'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10196'
+  region_id: '181'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10197'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10197'
+  region_id: '182'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:10198'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '10198'
+  region_id: '183'
+  sources:
+    - 'https://www.gov.nl.ca/covid-19/pandemic-update/'
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null

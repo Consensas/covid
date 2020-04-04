@@ -1,1173 +1,1532 @@
-'@context': 'https://consensas.world/m/covid'
-country: CA
-region: NB
-key: ca-nb
-cases:
-  - '@id': 'urn:covid:consensas:ca.cases:140'
-    dataset_id: '140'
-    region_id: '1'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/covid-19-arrives-in-maritimes-as-n-b-reports-first-presumptive-case-1.4848961
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-covid-19-1.5494328
-    date: '2020-03-12'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:221'
-    dataset_id: '221'
-    region_id: '2'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/nb-chief-medical-officer-health-covid-19-1.5497971
-    date: '2020-03-14'
-    week_reported: '2020-03-08'
-    is_travel: true
-    age_range: 50-59
-    gender: Male
-    health_region: Zone 1 (Moncton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:314'
-    dataset_id: '314'
-    region_id: '3'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 20-29
-    gender: Male
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:315'
-    dataset_id: '315'
-    region_id: '4'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 20-29
-    gender: Male
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:316'
-    dataset_id: '316'
-    region_id: '5'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:317'
-    dataset_id: '317'
-    region_id: '6'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
-    date: '2020-03-15'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Male
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:378'
-    dataset_id: '378'
-    region_id: '7'
-    sources:
-      - 'https://globalnews.ca/news/6683869/covid-19-nb-update-monday/'
-    date: '2020-03-16'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 20-29
-    gender: Female
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:452'
-    dataset_id: '452'
-    region_id: '8'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0132.html'
-    date: '2020-03-17'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: <10
-    gender: Male
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:646'
-    dataset_id: '646'
-    region_id: '9'
-    sources:
-      - >-
-        https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 60-69
-    gender: Female
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:647'
-    dataset_id: '647'
-    region_id: '10'
-    sources:
-      - >-
-        https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 60-69
-    gender: Male
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:648'
-    dataset_id: '648'
-    region_id: '11'
-    sources:
-      - >-
-        https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
-    date: '2020-03-18'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1199'
-    dataset_id: '1199'
-    region_id: '12'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 40-49
-    gender: Male
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1200'
-    dataset_id: '1200'
-    region_id: '13'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:1201'
-    dataset_id: '1201'
-    region_id: '14'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 40-49
-    gender: Female
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1202'
-    dataset_id: '1202'
-    region_id: '15'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 60-69
-    gender: Male
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1203'
-    dataset_id: '1203'
-    region_id: '16'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 50-59
-    gender: Female
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:1204'
-    dataset_id: '1204'
-    region_id: '17'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
-    date: '2020-03-21'
-    week_reported: '2020-03-15'
-    is_travel: true
-    age_range: 20-29
-    gender: Female
-    health_region: Zone 2 (Saint John area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:2584'
-    dataset_id: '2584'
-    region_id: '18'
-    sources:
-      - 'https://globalnews.ca/news/6724129/n-b-coronavirus-update-march-24/'
-    date: '2020-03-24'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 20-29
-    gender: Female
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3283'
-    dataset_id: '3283'
-    region_id: '19'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867847
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 50-59
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3284'
-    dataset_id: '3284'
-    region_id: '20'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867848
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 30-39
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3285'
-    dataset_id: '3285'
-    region_id: '21'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867849
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 60-69
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3286'
-    dataset_id: '3286'
-    region_id: '22'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867850
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 50-59
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3287'
-    dataset_id: '3287'
-    region_id: '23'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867851
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 10-19
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3288'
-    dataset_id: '3288'
-    region_id: '24'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 20-29
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: CA
-    acquired_close_contact: true
-  - '@id': 'urn:covid:consensas:ca.cases:3289'
-    dataset_id: '3289'
-    region_id: '25'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 30-39
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3290'
-    dataset_id: '3290'
-    region_id: '26'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
-    date: '2020-03-25'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 30-39
-    gender: null
-    health_region: Zone 4 (Edmundston area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3891'
-    dataset_id: '3891'
-    region_id: '27'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 20-29
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3892'
-    dataset_id: '3892'
-    region_id: '28'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 60-69
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3893'
-    dataset_id: '3893'
-    region_id: '29'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 60-69
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3894'
-    dataset_id: '3894'
-    region_id: '30'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 30-39
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3895'
-    dataset_id: '3895'
-    region_id: '31'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 50-59
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3896'
-    dataset_id: '3896'
-    region_id: '32'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 60-69
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:3897'
-    dataset_id: '3897'
-    region_id: '33'
-    sources:
-      - >-
-        https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
-    date: '2020-03-26'
-    week_reported: '2020-03-22'
-    is_travel: true
-    age_range: 60-69
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4611'
-    dataset_id: '4611'
-    region_id: '34'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 60-69
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4612'
-    dataset_id: '4612'
-    region_id: '35'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 70-79
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4613'
-    dataset_id: '4613'
-    region_id: '36'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 70-79
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4614'
-    dataset_id: '4614'
-    region_id: '37'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 30-39
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4615'
-    dataset_id: '4615'
-    region_id: '38'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4616'
-    dataset_id: '4616'
-    region_id: '39'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 30-39
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4617'
-    dataset_id: '4617'
-    region_id: '40'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: <10
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4618'
-    dataset_id: '4618'
-    region_id: '41'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: <10
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4619'
-    dataset_id: '4619'
-    region_id: '42'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 4 (Edmundston area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4620'
-    dataset_id: '4620'
-    region_id: '43'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 4 (Edmundston area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4621'
-    dataset_id: '4621'
-    region_id: '44'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 30-39
-    gender: null
-    health_region: Zone 4 (Edmundston area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:4622'
-    dataset_id: '4622'
-    region_id: '45'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
-    date: '2020-03-27'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5429'
-    dataset_id: '5429'
-    region_id: '46'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5430'
-    dataset_id: '5430'
-    region_id: '47'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 70-79
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5431'
-    dataset_id: '5431'
-    region_id: '48'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5432'
-    dataset_id: '5432'
-    region_id: '49'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5433'
-    dataset_id: '5433'
-    region_id: '50'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:5434'
-    dataset_id: '5434'
-    region_id: '51'
-    sources:
-      - >-
-        https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
-    date: '2020-03-28'
-    week_reported: '2020-03-22'
-    is_travel: null
-    age_range: 70-79
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6229'
-    dataset_id: '6229'
-    region_id: '52'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6230'
-    dataset_id: '6230'
-    region_id: '53'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6231'
-    dataset_id: '6231'
-    region_id: '54'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6232'
-    dataset_id: '6232'
-    region_id: '55'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6233'
-    dataset_id: '6233'
-    region_id: '56'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6234'
-    dataset_id: '6234'
-    region_id: '57'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6235'
-    dataset_id: '6235'
-    region_id: '58'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6236'
-    dataset_id: '6236'
-    region_id: '59'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6237'
-    dataset_id: '6237'
-    region_id: '60'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6238'
-    dataset_id: '6238'
-    region_id: '61'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6239'
-    dataset_id: '6239'
-    region_id: '62'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6240'
-    dataset_id: '6240'
-    region_id: '63'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6241'
-    dataset_id: '6241'
-    region_id: '64'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6242'
-    dataset_id: '6242'
-    region_id: '65'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:6243'
-    dataset_id: '6243'
-    region_id: '66'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-03-29'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: null
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7287'
-    dataset_id: '7287'
-    region_id: '67'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/health/news/news_release.2020.03.0166.html
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 30-39
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:7288'
-    dataset_id: '7288'
-    region_id: '68'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/health/news/news_release.2020.03.0166.html
-    date: '2020-03-30'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 60-69
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8464'
-    dataset_id: '8464'
-    region_id: '69'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0169.html'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 60-69
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:8465'
-    dataset_id: '8465'
-    region_id: '70'
-    sources:
-      - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0169.html'
-    date: '2020-03-31'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 4 (Edmundston area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9091'
-    dataset_id: '9091'
-    region_id: '71'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9092'
-    dataset_id: '9092'
-    region_id: '72'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 1 (Moncton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9093'
-    dataset_id: '9093'
-    region_id: '73'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 40-49
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9094'
-    dataset_id: '9094'
-    region_id: '74'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 60-69
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9095'
-    dataset_id: '9095'
-    region_id: '75'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9096'
-    dataset_id: '9096'
-    region_id: '76'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 30-39
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9097'
-    dataset_id: '9097'
-    region_id: '77'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 40-49
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9098'
-    dataset_id: '9098'
-    region_id: '78'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9099'
-    dataset_id: '9099'
-    region_id: '79'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9100'
-    dataset_id: '9100'
-    region_id: '80'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:9101'
-    dataset_id: '9101'
-    region_id: '81'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
-    date: '2020-04-01'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 60-69
-    gender: null
-    health_region: Zone 5 (Campbellton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11127'
-    dataset_id: '11127'
-    region_id: '82'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 7 (Miramichi area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11128'
-    dataset_id: '11128'
-    region_id: '83'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 70-79
-    gender: null
-    health_region: Zone 2 (Saint John area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11129'
-    dataset_id: '11129'
-    region_id: '84'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 20-29
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11130'
-    dataset_id: '11130'
-    region_id: '85'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 30-39
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11131'
-    dataset_id: '11131'
-    region_id: '86'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11132'
-    dataset_id: '11132'
-    region_id: '87'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 50-59
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11133'
-    dataset_id: '11133'
-    region_id: '88'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 60-69
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11134'
-    dataset_id: '11134'
-    region_id: '89'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 60-69
-    gender: null
-    health_region: Zone 3 (Fredericton area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11135'
-    dataset_id: '11135'
-    region_id: '90'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 70-79
-    gender: null
-    health_region: Zone 4 (Edmundston area)
-    acquired_country: null
-  - '@id': 'urn:covid:consensas:ca.cases:11136'
-    dataset_id: '11136'
-    region_id: '91'
-    sources:
-      - >-
-        https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
-    date: '2020-04-02'
-    week_reported: '2020-03-29'
-    is_travel: null
-    age_range: 70-79
-    gender: null
-    health_region: Zone 4 (Edmundston area)
-    acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:140'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '140'
+  region_id: '1'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/covid-19-arrives-in-maritimes-as-n-b-reports-first-presumptive-case-1.4848961
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-covid-19-1.5494328
+  date: '2020-03-12'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:221'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '221'
+  region_id: '2'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/nb-chief-medical-officer-health-covid-19-1.5497971
+  date: '2020-03-14'
+  week_reported: '2020-03-08'
+  is_travel: true
+  age_range: 50-59
+  gender: Male
+  health_region: Zone 1 (Moncton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:314'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '314'
+  region_id: '3'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 20-29
+  gender: Male
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:315'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '315'
+  region_id: '4'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 20-29
+  gender: Male
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:316'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '316'
+  region_id: '5'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:317'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '317'
+  region_id: '6'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0125.html'
+  date: '2020-03-15'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Male
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:378'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '378'
+  region_id: '7'
+  sources:
+    - 'https://globalnews.ca/news/6683869/covid-19-nb-update-monday/'
+  date: '2020-03-16'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 20-29
+  gender: Female
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:452'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '452'
+  region_id: '8'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0132.html'
+  date: '2020-03-17'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: <10
+  gender: Male
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:646'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '646'
+  region_id: '9'
+  sources:
+    - >-
+      https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 60-69
+  gender: Female
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:647'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '647'
+  region_id: '10'
+  sources:
+    - >-
+      https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 60-69
+  gender: Male
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:648'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '648'
+  region_id: '11'
+  sources:
+    - >-
+      https://globalnews.ca/news/6695595/new-brunswick-coronavirus-update-mar-18/
+  date: '2020-03-18'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:1199'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '1199'
+  region_id: '12'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 40-49
+  gender: Male
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:1200'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '1200'
+  region_id: '13'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:1201'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '1201'
+  region_id: '14'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 40-49
+  gender: Female
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:1202'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '1202'
+  region_id: '15'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 60-69
+  gender: Male
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:1203'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '1203'
+  region_id: '16'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 50-59
+  gender: Female
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:1204'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '1204'
+  region_id: '17'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0147.html'
+  date: '2020-03-21'
+  week_reported: '2020-03-15'
+  is_travel: true
+  age_range: 20-29
+  gender: Female
+  health_region: Zone 2 (Saint John area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:2584'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '2584'
+  region_id: '18'
+  sources:
+    - 'https://globalnews.ca/news/6724129/n-b-coronavirus-update-march-24/'
+  date: '2020-03-24'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 20-29
+  gender: Female
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3283'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3283'
+  region_id: '19'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867847
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 50-59
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3284'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3284'
+  region_id: '20'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867848
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 30-39
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3285'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3285'
+  region_id: '21'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867849
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 60-69
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3286'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3286'
+  region_id: '22'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867850
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 50-59
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3287'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3287'
+  region_id: '23'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867851
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 10-19
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3288'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3288'
+  region_id: '24'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 20-29
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: CA
+  acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3289'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3289'
+  region_id: '25'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 30-39
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3290'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3290'
+  region_id: '26'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-reports-eight-new-cases-of-covid-19-tightens-border-restrictions-1.4867852
+  date: '2020-03-25'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 30-39
+  gender: null
+  health_region: Zone 4 (Edmundston area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3891'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3891'
+  region_id: '27'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 20-29
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3892'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3892'
+  region_id: '28'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 60-69
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3893'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3893'
+  region_id: '29'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 60-69
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3894'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3894'
+  region_id: '30'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 30-39
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3895'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3895'
+  region_id: '31'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 50-59
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3896'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3896'
+  region_id: '32'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 60-69
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:3897'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '3897'
+  region_id: '33'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/new-brunswick-announces-seven-new-cases-of-covid-19-1.4869537
+  date: '2020-03-26'
+  week_reported: '2020-03-22'
+  is_travel: true
+  age_range: 60-69
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4611'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4611'
+  region_id: '34'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 60-69
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4612'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4612'
+  region_id: '35'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4613'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4613'
+  region_id: '36'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4614'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4614'
+  region_id: '37'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 30-39
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4615'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4615'
+  region_id: '38'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4616'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4616'
+  region_id: '39'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 30-39
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4617'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4617'
+  region_id: '40'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: <10
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4618'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4618'
+  region_id: '41'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: <10
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4619'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4619'
+  region_id: '42'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 4 (Edmundston area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4620'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4620'
+  region_id: '43'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 4 (Edmundston area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4621'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4621'
+  region_id: '44'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 30-39
+  gender: null
+  health_region: Zone 4 (Edmundston area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:4622'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '4622'
+  region_id: '45'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0159.html'
+  date: '2020-03-27'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:5429'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '5429'
+  region_id: '46'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:5430'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '5430'
+  region_id: '47'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:5431'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '5431'
+  region_id: '48'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:5432'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '5432'
+  region_id: '49'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:5433'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '5433'
+  region_id: '50'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:5434'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '5434'
+  region_id: '51'
+  sources:
+    - >-
+      https://www.cbc.ca/news/canada/new-brunswick/coronavirus-covid-19-pandemic-1.5513588
+  date: '2020-03-28'
+  week_reported: '2020-03-22'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6229'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6229'
+  region_id: '52'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6230'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6230'
+  region_id: '53'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6231'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6231'
+  region_id: '54'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6232'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6232'
+  region_id: '55'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6233'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6233'
+  region_id: '56'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6234'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6234'
+  region_id: '57'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6235'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6235'
+  region_id: '58'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6236'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6236'
+  region_id: '59'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6237'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6237'
+  region_id: '60'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6238'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6238'
+  region_id: '61'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6239'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6239'
+  region_id: '62'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6240'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6240'
+  region_id: '63'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6241'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6241'
+  region_id: '64'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6242'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6242'
+  region_id: '65'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:6243'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '6243'
+  region_id: '66'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-03-29'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:7287'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '7287'
+  region_id: '67'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/health/news/news_release.2020.03.0166.html
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 30-39
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:7288'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '7288'
+  region_id: '68'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/health/news/news_release.2020.03.0166.html
+  date: '2020-03-30'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 60-69
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:8464'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '8464'
+  region_id: '69'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0169.html'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 60-69
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:8465'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '8465'
+  region_id: '70'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.03.0169.html'
+  date: '2020-03-31'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 4 (Edmundston area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9091'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9091'
+  region_id: '71'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9092'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9092'
+  region_id: '72'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9093'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9093'
+  region_id: '73'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 40-49
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9094'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9094'
+  region_id: '74'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 60-69
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9095'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9095'
+  region_id: '75'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9096'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9096'
+  region_id: '76'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 30-39
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9097'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9097'
+  region_id: '77'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 40-49
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9098'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9098'
+  region_id: '78'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9099'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9099'
+  region_id: '79'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9100'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9100'
+  region_id: '80'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:9101'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '9101'
+  region_id: '81'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus.html
+  date: '2020-04-01'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 60-69
+  gender: null
+  health_region: Zone 5 (Campbellton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11127'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11127'
+  region_id: '82'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 7 (Miramichi area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11128'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11128'
+  region_id: '83'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 2 (Saint John area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11129'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11129'
+  region_id: '84'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11130'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11130'
+  region_id: '85'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 30-39
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11131'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11131'
+  region_id: '86'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11132'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11132'
+  region_id: '87'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11133'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11133'
+  region_id: '88'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 60-69
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11134'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11134'
+  region_id: '89'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 60-69
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11135'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11135'
+  region_id: '90'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 4 (Edmundston area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:11136'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '11136'
+  region_id: '91'
+  sources:
+    - >-
+      https://www2.gnb.ca/content/gnb/en/departments/ocmoh/cdc/content/respiratory_diseases/coronavirus/case-map.html
+  date: '2020-04-02'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 4 (Edmundston area)
+  acquired_country: null
