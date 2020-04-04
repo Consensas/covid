@@ -32,3 +32,36 @@
   gender: null
   health_region: NWT
   acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nt:12976'
+  country: CA
+  region: NT
+  key: ca-nt
+  dataset_id: '12976'
+  region_id: '3'
+  sources:
+    - 'https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19'
+  date: '2020-04-03'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: NWT
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nt:12977'
+  country: CA
+  region: NT
+  key: ca-nt
+  dataset_id: '12977'
+  region_id: '4'
+  sources:
+    - 'https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19'
+  date: '2020-04-03'
+  week_reported: '2020-03-29'
+  is_travel: true
+  age_range: null
+  gender: null
+  health_region: NWT
+  acquired_country: CA
+  acquired_close_contact: true
