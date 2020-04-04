@@ -85,7 +85,6 @@ const _read_tests = _.promise((self, done) => {
                                 'total negative' ])) {
                                 testx = 0
                             } else if (_.is.Equal(header, [ 'negative', 'positive', 'total' ])) {
-                                testx = 2
                             }
 
                             table.forEach(row => {
