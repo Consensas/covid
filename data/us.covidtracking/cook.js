@@ -52,10 +52,23 @@ _.promise({
             const item = {
                 "@id": `${record["@id"]}:${date}`,
                 date: date,
-                tests: _.d.first(_item, "total", null),
+                tests: _.d.first(_item, "total", null) || _.d.first(_item, "totalTestResults", null),
                 tests_positive: _.d.first(_item, "positive", null),
                 tests_negative: _.d.first(_item, "negative", null),
                 tests_pending: _.d.first(_item, "pending", null),
+                deaths: _.d.first(_item, "death", null),
+                recovered: _.d.first(_item, "recovered", null),
+
+                patients_hospital_current: _.d.first(_item, "hospitalizedCurrently"),
+                patients_hospital_cumulative: _.d.first(_item, "hospitalizedCumulative"),
+                patients_icu_current: _.d.first(_item, "inIcuCurrently"),
+                patients_icu_cumulative: _.d.first(_item, "inIcuCumulative"),
+                patients_venitlated_current: _.d.first(_item, "onVentilatorCurrently"),
+                patients_venitlated_cumulative: _.d.first(_item, "onVentilatorCumulative"),
+            }
+
+            if (_.is.Nullish(item.tests) && item.tests_positive && item.tests_negative) {
+                item.tests = item.tests_positive + item.tests_negative
             }
             
             return item

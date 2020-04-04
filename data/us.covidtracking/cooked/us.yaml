@@ -9,189 +9,445 @@ items:
     tests_positive: 118
     tests_negative: 748
     tests_pending: 103
+    deaths: 10
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-05'
     date: '2020-03-05'
     tests: 1326
     tests_positive: 176
     tests_negative: 953
     tests_pending: 197
+    deaths: 11
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-06'
     date: '2020-03-06'
     tests: 2252
     tests_positive: 223
     tests_negative: 1571
     tests_pending: 458
+    deaths: 14
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-07'
     date: '2020-03-07'
     tests: 2752
     tests_positive: 341
     tests_negative: 1809
     tests_pending: 602
+    deaths: 16
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-08'
     date: '2020-03-08'
     tests: 3099
     tests_positive: 417
     tests_negative: 2335
     tests_pending: 347
+    deaths: 18
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-09'
     date: '2020-03-09'
     tests: 4264
     tests_positive: 584
     tests_negative: 3367
     tests_pending: 313
+    deaths: 22
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-10'
     date: '2020-03-10'
     tests: 5054
     tests_positive: 778
     tests_negative: 3807
     tests_pending: 469
+    deaths: 24
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-11'
     date: '2020-03-11'
-    tests: 7617
-    tests_positive: 1053
-    tests_negative: 5978
+    tests: 7687
+    tests_positive: 1054
+    tests_negative: 6070
     tests_pending: 563
+    deaths: 27
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-12'
     date: '2020-03-12'
-    tests: 9966
+    tests: 10029
     tests_positive: 1315
-    tests_negative: 7949
+    tests_negative: 8041
     tests_pending: 673
+    deaths: 36
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-13'
     date: '2020-03-13'
     tests: 16665
     tests_positive: 1922
     tests_negative: 13613
     tests_pending: 1130
+    deaths: 39
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-14'
     date: '2020-03-14'
-    tests: 20789
+    tests: 20788
     tests_positive: 2450
     tests_negative: 17102
     tests_pending: 1236
+    deaths: 49
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-15'
     date: '2020-03-15'
-    tests: 27963
+    tests: 27966
     tests_positive: 3173
-    tests_negative: 22548
+    tests_negative: 22551
     tests_pending: 2242
+    deaths: 60
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-16'
     date: '2020-03-16'
-    tests: 41714
+    tests: 41814
     tests_positive: 4019
     tests_negative: 36104
     tests_pending: 1691
+    deaths: 71
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-17'
     date: '2020-03-17'
-    tests: 54957
-    tests_positive: 5723
+    tests: 55013
+    tests_positive: 5722
     tests_negative: 47604
     tests_pending: 1687
+    deaths: 90
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-18'
     date: '2020-03-18'
-    tests: 76495
-    tests_positive: 7731
+    tests: 76481
+    tests_positive: 7730
     tests_negative: 66225
-    tests_pending: 2538
+    tests_pending: 2526
+    deaths: 112
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-19'
     date: '2020-03-19'
-    tests: 103867
-    tests_positive: 11723
-    tests_negative: 89119
-    tests_pending: 3025
+    tests: 103888
+    tests_positive: 11719
+    tests_negative: 89153
+    tests_pending: 3016
+    deaths: 160
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-20'
     date: '2020-03-20'
-    tests: 138521
-    tests_positive: 17038
+    tests: 138507
+    tests_positive: 17033
     tests_negative: 118147
-    tests_pending: 3336
+    tests_pending: 3327
+    deaths: 219
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: null
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-21'
     date: '2020-03-21'
-    tests: 182589
-    tests_positive: 23203
+    tests: 182574
+    tests_positive: 23197
     tests_negative: 155909
-    tests_pending: 3477
+    tests_pending: 3468
+    deaths: 272
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: 1964
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-22'
     date: '2020-03-22'
-    tests: 228216
-    tests_positive: 31888
+    tests: 228184
+    tests_positive: 31879
     tests_negative: 193463
     tests_pending: 2842
+    deaths: 398
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: 2554
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-23'
     date: '2020-03-23'
-    tests: 294056
-    tests_positive: 42164
+    tests: 294044
+    tests_positive: 42152
     tests_negative: 237321
-    tests_pending: null
+    tests_pending: 14571
+    deaths: 471
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: 3325
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-24'
     date: '2020-03-24'
-    tests: 357907
-    tests_positive: 51601
-    tests_negative: 291873
-    tests_pending: null
+    tests: 359165
+    tests_positive: 51954
+    tests_negative: 292778
+    tests_pending: 14433
+    deaths: 675
+    recovered: null
+    patients_hospital_current: null
+    patients_hospital_cumulative: 4468
+    patients_icu_current: null
+    patients_icu_cumulative: null
+    patients_venitlated_current: null
+    patients_venitlated_cumulative: null
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-25'
     date: '2020-03-25'
-    tests: 433545
-    tests_positive: 63675
-    tests_negative: 355135
-    tests_pending: null
+    tests: 472767
+    tests_positive: 63928
+    tests_negative: 357604
+    tests_pending: 51235
+    deaths: 900
+    recovered: 147
+    patients_hospital_current: 96
+    patients_hospital_cumulative: 6136
+    patients_icu_current: null
+    patients_icu_cumulative: 74
+    patients_venitlated_current: 4
+    patients_venitlated_cumulative: 167
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-26'
     date: '2020-03-26'
-    tests: 432655
-    tests_positive: 65512
-    tests_negative: 367143
-    tests_pending: null
+    tests: 579589
+    tests_positive: 80735
+    tests_negative: 438603
+    tests_pending: 60251
+    deaths: 1163
+    recovered: 97
+    patients_hospital_current: 5441
+    patients_hospital_cumulative: 10131
+    patients_icu_current: 1299
+    patients_icu_cumulative: 1412
+    patients_venitlated_current: 19
+    patients_venitlated_cumulative: 258
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-27'
     date: '2020-03-27'
-    tests: 540718
-    tests_positive: 82286
-    tests_negative: 458432
-    tests_pending: null
+    tests: 686724
+    tests_positive: 99413
+    tests_negative: 527220
+    tests_pending: 60091
+    deaths: 1530
+    recovered: 2422
+    patients_hospital_current: 7532
+    patients_hospital_cumulative: 13408
+    patients_icu_current: 1792
+    patients_icu_cumulative: 1916
+    patients_venitlated_current: 54
+    patients_venitlated_cumulative: 324
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-28'
     date: '2020-03-28'
-    tests: 672449
-    tests_positive: 102143
-    tests_negative: 570306
-    tests_pending: null
+    tests: 801413
+    tests_positive: 118234
+    tests_negative: 617470
+    tests_pending: 65709
+    deaths: 1965
+    recovered: 3148
+    patients_hospital_current: 8725
+    patients_hospital_cumulative: 16363
+    patients_icu_current: 2174
+    patients_icu_cumulative: 2314
+    patients_venitlated_current: 54
+    patients_venitlated_cumulative: 390
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-29'
     date: '2020-03-29'
-    tests: 766761
-    tests_positive: 122157
-    tests_negative: 644604
-    tests_pending: null
+    tests: 896896
+    tests_positive: 139061
+    tests_negative: 692290
+    tests_pending: 65545
+    deaths: 2428
+    recovered: 4061
+    patients_hospital_current: 9922
+    patients_hospital_cumulative: 19401
+    patients_icu_current: 2456
+    patients_icu_cumulative: 2642
+    patients_venitlated_current: 59
+    patients_venitlated_cumulative: 440
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-30'
     date: '2020-03-30'
-    tests: 856546
-    tests_positive: 141950
-    tests_negative: 714596
-    tests_pending: null
+    tests: 1010223
+    tests_positive: 160530
+    tests_negative: 784324
+    tests_pending: 65369
+    deaths: 2939
+    recovered: 4560
+    patients_hospital_current: 12147
+    patients_hospital_cumulative: 22303
+    patients_icu_current: 2982
+    patients_icu_cumulative: 3177
+    patients_venitlated_current: 259
+    patients_venitlated_cumulative: 644
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-03-31'
     date: '2020-03-31'
-    tests: 964865
-    tests_positive: 163565
-    tests_negative: 801300
-    tests_pending: null
+    tests: 1108402
+    tests_positive: 184683
+    tests_negative: 864201
+    tests_pending: 59518
+    deaths: 3746
+    recovered: 5666
+    patients_hospital_current: 14236
+    patients_hospital_cumulative: 26660
+    patients_icu_current: 3402
+    patients_icu_cumulative: 3644
+    patients_venitlated_current: 69
+    patients_venitlated_cumulative: 507
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-04-01'
     date: '2020-04-01'
-    tests: 1064506
-    tests_positive: 187701
-    tests_negative: 876805
-    tests_pending: null
+    tests: 1209675
+    tests_positive: 210816
+    tests_negative: 939190
+    tests_pending: 59669
+    deaths: 4700
+    recovered: 7084
+    patients_hospital_current: 16223
+    patients_hospital_cumulative: 31142
+    patients_icu_current: 3837
+    patients_icu_cumulative: 4270
+    patients_venitlated_current: 71
+    patients_venitlated_cumulative: 676
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-04-02'
     date: '2020-04-02'
-    tests: 1179589
-    tests_positive: 214039
-    tests_negative: 965550
-    tests_pending: null
+    tests: 1329849
+    tests_positive: 239099
+    tests_negative: 1028649
+    tests_pending: 62101
+    deaths: 5784
+    recovered: 8586
+    patients_hospital_current: 17157
+    patients_hospital_cumulative: 32649
+    patients_icu_current: 4264
+    patients_icu_cumulative: 541
+    patients_venitlated_current: 67
+    patients_venitlated_cumulative: 661
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-04-03'
     date: '2020-04-03'
-    tests: 1350219
-    tests_positive: 241734
-    tests_negative: 1046279
-    tests_pending: 62206
+    tests: 1469324
+    tests_positive: 271988
+    tests_negative: 1135356
+    tests_pending: 61980
+    deaths: 6962
+    recovered: 10422
+    patients_hospital_current: 19926
+    patients_hospital_cumulative: 35991
+    patients_icu_current: 4686
+    patients_icu_cumulative: 593
+    patients_venitlated_current: 70
+    patients_venitlated_cumulative: 728
   - '@id': 'urn:covid:covidtracking.com:cases:us:2020-04-04'
     date: '2020-04-04'
     tests: 1500578
     tests_positive: 274316
     tests_negative: 1164139
     tests_pending: 62123
+    deaths: 7040
+    recovered: 10486
+    patients_hospital_current: 18998
+    patients_hospital_cumulative: 36256
+    patients_icu_current: 4686
+    patients_icu_cumulative: 594
+    patients_venitlated_current: 70
+    patients_venitlated_cumulative: 689
