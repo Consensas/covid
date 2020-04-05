@@ -33,6 +33,7 @@ const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
         "force",
+        "any-cert",
     ],
     string: [
         "url",
@@ -74,6 +75,10 @@ if (_.is.Empty(ad.url)) {
 }
 if (_.is.Empty(ad.path)) {
     help("--path argument is required")
+}
+
+if (ad["any-cert"]) {
+    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 }
 
 _.promise({
