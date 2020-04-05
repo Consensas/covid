@@ -1594,3 +1594,51 @@
   gender: null
   health_region: Zone 5 (Campbellton area)
   acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:13010'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '13010'
+  region_id: '96'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.04.0182.html'
+  date: '2020-04-04'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 20-29
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:13011'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '13011'
+  region_id: '97'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.04.0182.html'
+  date: '2020-04-04'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 30-39
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:13012'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '13012'
+  region_id: '98'
+  sources:
+    - 'https://www2.gnb.ca/content/gnb/en/news/news_release.2020.04.0182.html'
+  date: '2020-04-04'
+  week_reported: '2020-03-29'
+  is_travel: null
+  age_range: 50-59
+  gender: null
+  health_region: Zone 3 (Fredericton area)
+  acquired_country: null
