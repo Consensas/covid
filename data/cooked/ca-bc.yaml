@@ -273,10 +273,11 @@ items:
     '@id': 'urn:covid:consensas:ca-bc:2020-04-03'
     tests: 47352
     tests_negative: 46178
-  - '@id': 'urn:covid:consensas:ca-bc:2020-04-04'
-    date: '2020-04-04'
-    tests: 48508
+  - date: '2020-04-04'
+    deaths: 38
     tests_positive: 1203
+    '@id': 'urn:covid:consensas:ca-bc:2020-04-04'
+    tests: 48508
     tests_negative: 47305
 state: BC
 icu_hospitals: 34

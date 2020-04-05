@@ -385,9 +385,10 @@ items:
     tests_ordered: 4233
     tests_negative: 77469
     tests: 83570
-  - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-04'
-    date: '2020-04-04'
+  - date: '2020-04-04'
+    deaths: 61
     tests_positive: 6997
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-04'
     tests_ordered: 3879
     tests_negative: 83230
     tests: 90227

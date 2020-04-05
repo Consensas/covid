@@ -287,8 +287,10 @@ items:
     tests: 1077
     tests_negative: 813
     tests_pending: 264
-  - '@id': 'urn:covid:consensas:cmo:ca-pe:2020-04-04'
-    date: '2020-04-04'
+  - date: '2020-04-04'
+    deaths: 0
+    tests_positive: 22
+    '@id': 'urn:covid:consensas:cmo:ca-pe:2020-04-04'
     tests: 1246
     tests_negative: 982
     tests_pending: 264
