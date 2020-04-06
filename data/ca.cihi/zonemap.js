@@ -61,54 +61,47 @@ _.promise()
                 country: "CA",
             }, sd.zoneds)
 
-            if (!zoned) {
-                const zds = _util.zone.fuzzy({
-                    name: bed.health_region, 
-                    region: bed.province, 
-                    country: "CA",
-                }, sd.officials)
-                assert.ok(_.is.Array(zds))
-
-                if (zds.length === 1) {
-                    zoned = zds[0]
-                } else {
-                    console.log("#", bed.province, bed.health_region, zds)
-                }
+            if (zoned) {
+                return
             }
 
-            if (!zoned) {
+            const zds = _util.zone.fuzzy({
+                name: bed.health_region, 
+                region: bed.province, 
+                country: "CA",
+            }, sd.officials)
+
+            assert.ok(_.is.Array(zds))
+
+            if (zds.length === 1) {
+                const zd = zds[0]
+                
                 sd.zoneds.push({
-                    "@id": null,
-                    country: "CA",
-                    region: bed.province,
-                    name: bed.health_region,
-                    aliases: [],
+                    "country": "CA",
+                    "region": zd["region"],
+                    "name": zd["name"],
+                    "alias": [ bed.health_region ],
+                })
+            } else {
+                console.log("#", bed.province, bed.health_region, zds)
+
+                sd.zoneds.push({
+                    "country": "CA",
+                    "region": bed.province,
+                    "name": "",
+                    "alias": [ bed.health_region ],
+                    "maybes": zds.map(zd => ({
+                        "@id": zd["@id"],
+                        "name": zd["name"],
+                    }))
                 })
             }
         })
 
         sd.zoneds.sort((a, b) => _.is.unsorted(a.region, b.region) || _.is.unsorted(a.health_region, b.health_region))
-
-
-        // console.log(sd.zoneds)
+        sd.json = sd.zoneds
+        sd.path = path.join(__dirname, "zonemap.yaml")
     })
-    
-    /*
-    .then(fs.read.json.magic.p("../ca.statcan.health-regions/zones.yaml"))
-    .add("json:zones")
-
-    .add("datas", require("./xxx.json"))
-    .make(sd => {
-        sd.datas.forEach(d => {
-            console.log("")
-            const zones = sd.zones.filter(zone => zone.region === d.region)
-            const region = d.health_region.toLowerCase()
-            zones.forEach(zone => {
-                console.log(d.region, region, zone.fragments)
-            })
-        })
-    })
-    */
-
+    .then(fs.write.yaml)
 
     .except(_.error.log)
