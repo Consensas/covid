@@ -272,7 +272,11 @@ items:
     tests_negative: 12795
   - date: '2020-04-05'
     deaths: 2
-    tests_positive: 203
+    tests_positive: 190
+    '@id': 'urn:covid:consensas:cmo:ca-mb:2020-04-05'
+    tests_probable: 14
+    tests: 12998
+    tests_negative: 12794
 state: MB
 icu_hospitals: 10
 icu_beds: 93
