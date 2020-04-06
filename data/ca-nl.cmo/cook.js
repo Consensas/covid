@@ -36,10 +36,57 @@ _.promise({
         country: "ca",
     },
 })
+    /*
     .then(fs.read.yaml.p(path.join(__dirname, "manual.yaml")))
     .make(sd => {
         const record = _util.record.main(sd.settings)
         record.items = sd.json
+
+        sd.json = [ record ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
+    })
+    */
+    // scraped data
+    .then(fs.list.p(path.join(__dirname, "raw")))
+    .each({
+        method: fs.read.json.magic,
+        inputs: "paths:path",
+        outputs: "jsons",
+        output_selector: sd => ({
+            date: sd.json.date,
+            tests_positive: sd.json.total_cases_max || null,
+            deaths: sd.json.total_deaths_max || null,
+            recovered: sd.json.total_recovered_max || null,
+            tests: sd.json.total_tests_delivered_max || null,
+            patients_hospital_current: sd.json.total_hospitalized_max || null,
+        }),
+    })
+
+    // manual data
+    .then(fs.read.yaml.p(path.join(__dirname, "manual.yaml")))
+    .make(sd => {
+        const d = {};
+        [].concat(sd.jsons, sd.json)
+            .filter(item => item.date)
+            .forEach(item => {
+                d[item.date] = Object.assign({ "@id": null, }, d[item.date] || {}, item)
+            })
+
+        sd.items = _.values(d)
+        sd.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+    })
+
+    .make(sd => {
+        const record = _util.record.main(sd.settings)
+        record.items = sd.items
+
+        record.items.forEach(item => {
+            item["@id"] = `${record["@id"]}:${item.date}`
+
+            if (!_.is.Integer(item.tests_negative) && _.is.Integer(item.tests_positive) && _.is.Integer(item.tests)) {
+                item.tests_negative = item.tests - item.tests_positive
+            }
+        })
 
         sd.json = [ record ]
         sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
