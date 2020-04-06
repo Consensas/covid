@@ -83,12 +83,17 @@ const _pull = _.promise((self, done) => {
             })
 
             $("p").each((x, e) => {
+                let match
+
                 const text = $(e).text().trim()
                 if (_.is.Empty(text)) {
                     return
                 }
 
-                let match = text.match(/^As.*((January|February|March|April|May|June|July|August|September) \d+), ([\d,]+) test/)
+                match = text.match(/^NEW Last updated: *((January|February|March|April|May|June|July|August|September) \d+), ([\d,]+)/)
+                if (!match) {
+                    match = text.match(/^As.*((January|February|March|April|May|June|July|August|September) \d+), ([\d,]+) test/)
+                }
                 if (!match) {
                     return
                 }
