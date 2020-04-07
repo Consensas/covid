@@ -65,3 +65,19 @@
   health_region: NWT
   acquired_country: CA
   acquired_close_contact: true
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nt:16697'
+  country: CA
+  region: NT
+  key: ca-nt
+  dataset_id: '16697'
+  region_id: '5'
+  sources:
+    - 'https://www.hss.gov.nt.ca/en/services/coronavirus-disease-covid-19'
+  date: '2020-04-06'
+  week_reported: '2020-04-05'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: NWT
+  acquired_country: null

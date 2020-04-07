@@ -95,3 +95,19 @@
   gender: null
   health_region: Yukon
   acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-yk:16698'
+  country: CA
+  region: YK
+  key: ca-yk
+  dataset_id: '16698'
+  region_id: '7'
+  sources:
+    - 'https://yukon.ca/covid-19'
+  date: '2020-04-06'
+  week_reported: '2020-04-05'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Yukon
+  acquired_country: null
