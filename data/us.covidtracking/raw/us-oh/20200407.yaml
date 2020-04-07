@@ -1,6 +1,11 @@
-date: 20200407
 state: OH
 positive: 4782
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
 negative: 46056
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: 417
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: ee1be244efee5b29b0b3adc051423a9eba46f3f0
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 14:00'
+checkTimeEt: '4/07 16:48'
 death: 167
 hospitalized: 1354
 total: 50838
 totalTestResults: 50838
 posNeg: 50838
 fips: '39'
-deathIncrease: 25
-hospitalizedIncrease: 140
-negativeIncrease: 2128
-positiveIncrease: 332
-totalTestResultsIncrease: 2460
+dateModified: '2020-04-07T18:00:00Z'
+dateChecked: '2020-04-07T20:48:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 2ae5ce328d28246fff581cd3fb34fcbc316e5dc4
+date: 20200407

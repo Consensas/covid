@@ -1,6 +1,11 @@
-date: 20200407
 state: CA
 positive: 15865
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
 negative: 115364
 pending: 14100
 hospitalizedCurrently: 2611
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: a2ab1e862259b9e5f29fc83a735a7402bacc7da6
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 18:00'
+checkTimeEt: '4/07 17:04'
 death: 374
 hospitalized: null
 total: 145329
 totalTestResults: 131229
 posNeg: 131229
 fips: '06'
-deathIncrease: 31
-hospitalizedIncrease: 0
-negativeIncrease: 12269
-positiveIncrease: 1529
-totalTestResultsIncrease: 13798
+dateModified: '2020-04-07T22:00:00Z'
+dateChecked: '2020-04-07T21:04:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 2860c390ff7c360aa7da1797ecb199a505a3b751
+date: 20200407

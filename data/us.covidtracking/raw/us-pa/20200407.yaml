@@ -1,6 +1,11 @@
-date: 20200407
 state: PA
 positive: 14559
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 76719
 pending: null
 hospitalizedCurrently: 1665
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: 548
 onVentilatorCumulative: null
 recovered: null
-hash: 5f6c0c5a75d956d960f06c3bff2b90956af04cf5
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 13:00'
+checkTimeEt: '4/07 14:56'
 death: 240
 hospitalized: null
 total: 91278
 totalTestResults: 91278
 posNeg: 91278
 fips: '42'
-deathIncrease: 78
-hospitalizedIncrease: 0
-negativeIncrease: 5845
-positiveIncrease: 1579
-totalTestResultsIncrease: 7424
+dateModified: '2020-04-07T17:00:00Z'
+dateChecked: '2020-04-07T18:56:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 2f70ba9007211a52f1d12c9892acd591e9b55e47
+date: 20200407

@@ -1,6 +1,11 @@
-date: 20200407
 state: SD
 positive: 320
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 5948
 pending: 2
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: 98
-hash: 23329c2017a92fb927ed537c0f932b129bff88ec
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 18:00'
+checkTimeEt: '4/07 15:27'
 death: 6
 hospitalized: 23
 total: 6270
 totalTestResults: 6268
 posNeg: 6268
 fips: '46'
-deathIncrease: 2
-hospitalizedIncrease: 0
-negativeIncrease: 216
-positiveIncrease: 32
-totalTestResultsIncrease: 248
+dateModified: '2020-04-06T22:00:00Z'
+dateChecked: '2020-04-07T19:27:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 743ca7748cc49aa11c39003c79be177f3cfbe8b9
+date: 20200407

@@ -1,6 +1,11 @@
-date: 20200407
 state: PR
 positive: 573
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 3966
 pending: 968
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: f55b55c315376b7c321d3701606e48d766c257c6
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 07:00'
+checkTimeEt: '4/07 14:57'
 death: 23
 hospitalized: null
 total: 5507
 totalTestResults: 4539
 posNeg: 4539
 fips: '72'
-deathIncrease: 2
-hospitalizedIncrease: 0
-negativeIncrease: 534
-positiveIncrease: 60
-totalTestResultsIncrease: 594
+dateModified: '2020-04-07T11:00:00Z'
+dateChecked: '2020-04-07T18:57:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 9b8c417488fc8dbe9f8de23c245d2f54cec4db7a
+date: 20200407

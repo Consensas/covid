@@ -1,6 +1,11 @@
-date: 20200407
 state: MT
 positive: 319
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 6666
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 7397072f3dbcb6c5c091e5ab277d8f2c2f68f82d
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 13:28'
+checkTimeEt: '4/07 14:36'
 death: 6
 hospitalized: 28
 total: 6985
 totalTestResults: 6985
 posNeg: 6985
 fips: '30'
-deathIncrease: 0
-hospitalizedIncrease: 4
-negativeIncrease: 175
-positiveIncrease: 20
-totalTestResultsIncrease: 195
+dateModified: '2020-04-07T17:28:00Z'
+dateChecked: '2020-04-07T18:36:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 3b22f1350c7af3321a246a541eafba88d6d2a627
+date: 20200407

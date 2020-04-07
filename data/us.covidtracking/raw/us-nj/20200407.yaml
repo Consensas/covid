@@ -1,6 +1,11 @@
-date: 20200407
 state: NJ
 positive: 44416
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 50558
 pending: null
 hospitalizedCurrently: 7017
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: 1540
 onVentilatorCumulative: null
 recovered: null
-hash: cc2566fc957facb8d98c9cdcaafbb8235297c5e6
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 13:00'
+checkTimeEt: '4/07 14:18'
 death: 1232
 hospitalized: null
 total: 94974
 totalTestResults: 94974
 posNeg: 94974
 fips: '34'
-deathIncrease: 229
-hospitalizedIncrease: 0
-negativeIncrease: 2616
-positiveIncrease: 3326
-totalTestResultsIncrease: 5942
+dateModified: '2020-04-07T17:00:00Z'
+dateChecked: '2020-04-07T18:18:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 1ba5413855c1cb207fc3d4bfc1601832ec772caa
+date: 20200407

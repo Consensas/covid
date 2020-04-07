@@ -1,6 +1,11 @@
-date: 20200407
 state: FL
 positive: 14747
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 123415
 pending: 1407
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 14451271e31c6ef62ec1fed25030c8bbcadd8c83
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 16:36'
+checkTimeEt: '4/07 17:45'
 death: 296
 hospitalized: 1999
 total: 139569
 totalTestResults: 138162
 posNeg: 138162
 fips: '12'
-deathIncrease: 60
-hospitalizedIncrease: 317
-negativeIncrease: 13465
-positiveIncrease: 1423
-totalTestResultsIncrease: 14888
+dateModified: '2020-04-07T20:36:00Z'
+dateChecked: '2020-04-07T21:45:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 607daec5f3a2515db8bb4ab6a5f5b752c4f0e476
+date: 20200407

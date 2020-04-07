@@ -1,6 +1,11 @@
-date: 20200407
 state: AR
 positive: 946
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 12692
 pending: null
 hospitalizedCurrently: 74
@@ -10,16 +15,16 @@ inIcuCumulative: 43
 onVentilatorCurrently: 26
 onVentilatorCumulative: 39
 recovered: 142
-hash: 240d11629b40fe2655b0bcfd656d6fe9839df702
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 14:41'
+checkTimeEt: '4/07 15:57'
 death: 16
 hospitalized: 130
 total: 13638
 totalTestResults: 13638
 posNeg: 13638
 fips: '05'
-deathIncrease: 0
-hospitalizedIncrease: 0
-negativeIncrease: 722
-positiveIncrease: 71
-totalTestResultsIncrease: 793
+dateModified: '2020-04-07T18:41:00Z'
+dateChecked: '2020-04-07T19:57:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: f135804fc10c4048f25d5b4a1463a5716a721234
+date: 20200407

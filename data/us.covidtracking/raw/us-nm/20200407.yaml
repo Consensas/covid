@@ -1,6 +1,11 @@
-date: 20200407
 state: NM
 positive: 686
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 21139
 pending: null
 hospitalizedCurrently: 48
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: 18
 onVentilatorCumulative: null
 recovered: 133
-hash: 74b47d956a13a1210784d310796b4b88918963db
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 00:00'
+checkTimeEt: '4/07 14:12'
 death: 12
 hospitalized: null
 total: 21825
 totalTestResults: 21825
 posNeg: 21825
 fips: '35'
-deathIncrease: 0
-hospitalizedIncrease: 0
-negativeIncrease: 2627
-positiveIncrease: 62
-totalTestResultsIncrease: 2689
+dateModified: '2020-04-06T04:00:00Z'
+dateChecked: '2020-04-07T18:12:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 03c58754b87c09550170194fb86ad141b8055369
+date: 20200407

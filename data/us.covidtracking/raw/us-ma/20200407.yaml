@@ -1,6 +1,11 @@
-date: 20200407
 state: MA
 positive: 15202
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
 negative: 66142
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 480c678f573f195caec6a15c44dcfe844e95ef3c
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 12:30'
+checkTimeEt: '4/07 17:03'
 death: 356
 hospitalized: 1435
 total: 81344
 totalTestResults: 81344
 posNeg: 81344
 fips: '25'
-deathIncrease: 96
-hospitalizedIncrease: 194
-negativeIncrease: 3550
-positiveIncrease: 1365
-totalTestResultsIncrease: 4915
+dateModified: '2020-04-07T16:30:00Z'
+dateChecked: '2020-04-07T21:03:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 9b40d23cc688614c37bd6132368af178173e7b1d
+date: 20200407

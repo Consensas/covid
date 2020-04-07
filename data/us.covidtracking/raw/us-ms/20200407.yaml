@@ -1,6 +1,11 @@
-date: 20200407
 state: MS
 positive: 1915
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 18632
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 807ca25410f85d8883f0c8fe409f630d92091d1e
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 19:00'
+checkTimeEt: '4/07 14:43'
 death: 59
 hospitalized: 377
 total: 20547
 totalTestResults: 20547
 posNeg: 20547
 fips: '28'
-deathIncrease: 8
-hospitalizedIncrease: -98
-negativeIncrease: 0
-positiveIncrease: 177
-totalTestResultsIncrease: 177
+dateModified: '2020-04-07T23:00:00Z'
+dateChecked: '2020-04-07T18:43:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 5464a68d686c08aa93fe3e9cb78388aff2f579e5
+date: 20200407

@@ -1,6 +1,11 @@
-date: 20200407
 state: WA
 positive: 8384
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 83391
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: f9019f6fa9a2ec068873ccb09e6dadc7d755cc24
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 21:30'
+checkTimeEt: '4/07 15:18'
 death: 372
 hospitalized: null
 total: 91775
 totalTestResults: 91775
 posNeg: 91775
 fips: '53'
-deathIncrease: 34
-hospitalizedIncrease: 0
-negativeIncrease: 0
-positiveIncrease: 400
-totalTestResultsIncrease: 400
+dateModified: '2020-04-07T01:30:00Z'
+dateChecked: '2020-04-07T19:18:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 275828eacec827c632645f31414eb9df2f55fea4
+date: 20200407

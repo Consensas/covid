@@ -1,6 +1,11 @@
-date: 20200407
 state: ME
 positive: 519
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 6088
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: 176
-hash: af07f06f7bb91affb207dc39d20674e9ee2d4149
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 11:45'
+checkTimeEt: '4/07 17:04'
 death: 12
 hospitalized: 99
 total: 6607
 totalTestResults: 6607
 posNeg: 6607
 fips: '23'
-deathIncrease: 2
-hospitalizedIncrease: 7
-negativeIncrease: 0
-positiveIncrease: 20
-totalTestResultsIncrease: 20
+dateModified: '2020-04-07T15:45:00Z'
+dateChecked: '2020-04-07T21:04:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 78c484ad6ba397349638e63fe60e2a2e0a05623b
+date: 20200407

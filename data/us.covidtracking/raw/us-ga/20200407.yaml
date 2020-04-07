@@ -1,6 +1,11 @@
-date: 20200407
 state: GA
 positive: 8818
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 24895
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 7a0ffe5a1d036f2a779e0d14397523b71ac8241a
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 11:28'
+checkTimeEt: '4/07 14:42'
 death: 329
 hospitalized: 1774
 total: 33713
 totalTestResults: 33713
 posNeg: 33713
 fips: '13'
-deathIncrease: 100
-hospitalizedIncrease: 442
-negativeIncrease: -7803
-positiveIncrease: 1504
-totalTestResultsIncrease: -6299
+dateModified: '2020-04-07T15:28:00Z'
+dateChecked: '2020-04-07T18:42:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 4140be651e4a237d11d8a6f31744f9a49ae1a2c4
+date: 20200407

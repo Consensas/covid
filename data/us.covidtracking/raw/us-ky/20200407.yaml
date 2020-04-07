@@ -1,6 +1,11 @@
-date: 20200407
 state: KY
 positive: 1008
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 18947
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 11fc69bcf9e209378b83b650cd855946fcf47ca9
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 17:00'
+checkTimeEt: '4/07 15:48'
 death: 59
 hospitalized: null
 total: 19955
 totalTestResults: 19955
 posNeg: 19955
 fips: '21'
-deathIncrease: 14
-hospitalizedIncrease: 0
-negativeIncrease: 1135
-positiveIncrease: 53
-totalTestResultsIncrease: 1188
+dateModified: '2020-04-06T21:00:00Z'
+dateChecked: '2020-04-07T19:48:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 49e3bd8312dcfe9c422d7e22eedb741c6226dfa4
+date: 20200407

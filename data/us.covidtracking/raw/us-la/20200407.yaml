@@ -1,6 +1,11 @@
-date: 20200407
 state: LA
 positive: 16284
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 58371
 pending: null
 hospitalizedCurrently: 1996
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: 519
 onVentilatorCumulative: null
 recovered: null
-hash: 9139f6e23f09c887df221642ce10c85516944f49
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 13:00'
+checkTimeEt: '4/07 15:50'
 death: 582
 hospitalized: null
 total: 74655
 totalTestResults: 74655
 posNeg: 74655
 fips: '22'
-deathIncrease: 70
-hospitalizedIncrease: 0
-negativeIncrease: 4072
-positiveIncrease: 1417
-totalTestResultsIncrease: 5489
+dateModified: '2020-04-07T17:00:00Z'
+dateChecked: '2020-04-07T19:50:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: b337e090af9af8af336d67ca33c22ca0162ee959
+date: 20200407

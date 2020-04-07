@@ -1,6 +1,11 @@
-date: 20200407
 state: NY
 positive: 138863
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 201195
 pending: null
 hospitalizedCurrently: 17493
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: 14590
-hash: 15947b1c9ed54db71e224d5882c2e146b415b520
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 00:00'
+checkTimeEt: '4/07 17:41'
 death: 5489
 hospitalized: 32083
 total: 340058
 totalTestResults: 340058
 posNeg: 340058
 fips: '36'
-deathIncrease: 731
-hospitalizedIncrease: 1880
-negativeIncrease: 11073
-positiveIncrease: 8174
-totalTestResultsIncrease: 19247
+dateModified: '2020-04-06T04:00:00Z'
+dateChecked: '2020-04-07T21:41:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: b6e0e660004a4c1fd6de6213df3ca0b20c81ee0d
+date: 20200407

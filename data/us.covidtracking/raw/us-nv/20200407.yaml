@@ -1,6 +1,11 @@
-date: 20200407
 state: NV
 positive: 2087
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 16552
 pending: null
 hospitalizedCurrently: 282
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 4f4321d0926b598d47e2a920f8709e23c2b89e00
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 10:00'
+checkTimeEt: '4/07 16:23'
 death: 58
 hospitalized: null
 total: 18639
 totalTestResults: 18639
 posNeg: 18639
 fips: '32'
-deathIncrease: 12
-hospitalizedIncrease: 0
-negativeIncrease: 876
-positiveIncrease: 134
-totalTestResultsIncrease: 1010
+dateModified: '2020-04-07T14:00:00Z'
+dateChecked: '2020-04-07T20:23:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: ba9b6587528eeaa6ebba7b3f273af4c1318c5529
+date: 20200407

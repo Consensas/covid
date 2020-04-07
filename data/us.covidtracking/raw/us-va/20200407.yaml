@@ -1,6 +1,11 @@
-date: 20200407
 state: VA
 positive: 3333
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 25312
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: 145
 onVentilatorCurrently: null
 onVentilatorCumulative: 108
 recovered: null
-hash: 2d8926f55fc5c4e769e6556a7e790b9c759e84c1
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 17:00'
+checkTimeEt: '4/07 15:33'
 death: 63
 hospitalized: 563
 total: 28645
 totalTestResults: 28645
 posNeg: 28645
 fips: '51'
-deathIncrease: 9
-hospitalizedIncrease: 66
-negativeIncrease: 3669
-positiveIncrease: 455
-totalTestResultsIncrease: 4124
+dateModified: '2020-04-06T21:00:00Z'
+dateChecked: '2020-04-07T19:33:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 0e76a7bb2791d9c62e3a4ed7edc1c35f06b453c5
+date: 20200407

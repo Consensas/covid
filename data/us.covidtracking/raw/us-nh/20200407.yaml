@@ -1,6 +1,11 @@
-date: 20200407
 state: NH
 positive: 715
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 0
+grade: B
+score: 3
 negative: 8019
 pending: 49
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: 151
-hash: 9bdef844521f989a0ac01b4af374dcbb7368680b
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 09:00'
+checkTimeEt: '4/07 14:20'
 death: 9
 hospitalized: 103
 total: 8783
 totalTestResults: 8734
 posNeg: 8734
 fips: '33'
-deathIncrease: 0
-hospitalizedIncrease: 11
-negativeIncrease: 318
-positiveIncrease: 46
-totalTestResultsIncrease: 364
+dateModified: '2020-04-06T13:00:00Z'
+dateChecked: '2020-04-07T18:20:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: c561c89ca4558f4f707ffe2e41d6671523b23eeb
+date: 20200407

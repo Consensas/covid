@@ -1,6 +1,11 @@
-date: 20200407
 state: CO
 positive: 5172
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 21703
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: cc5011dfe2f777ddcd6f02065977b34d139adab5
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 18:00'
+checkTimeEt: '4/07 14:27'
 death: 150
 hospitalized: 994
 total: 26875
 totalTestResults: 26875
 posNeg: 26875
 fips: 08
-deathIncrease: 10
-hospitalizedIncrease: 70
-negativeIncrease: 880
-positiveIncrease: 222
-totalTestResultsIncrease: 1102
+dateModified: '2020-04-06T22:00:00Z'
+dateChecked: '2020-04-07T18:27:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 0009fb57e88b82813199cd151c872968f95f0836
+date: 20200407

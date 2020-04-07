@@ -1,6 +1,11 @@
-date: 20200407
 state: VT
 positive: 575
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 6554
 pending: null
 hospitalizedCurrently: 29
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: 15
-hash: 44493af709005398cd2f24b0c1c9f7cf96707f38
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 23:59'
+checkTimeEt: '4/07 15:20'
 death: 23
 hospitalized: 45
 total: 7129
 totalTestResults: 7129
 posNeg: 7129
 fips: '50'
-deathIncrease: 0
-hospitalizedIncrease: 0
-negativeIncrease: 464
-positiveIncrease: 32
-totalTestResultsIncrease: 496
+dateModified: '2020-04-07T03:59:00Z'
+dateChecked: '2020-04-07T19:20:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: cde2d0085f8f4be48c715d1560cf52c057fe399b
+date: 20200407

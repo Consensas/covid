@@ -1,6 +1,11 @@
-date: 20200407
 state: TX
 positive: 8262
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 80387
 pending: null
 hospitalizedCurrently: 1252
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: 38
-hash: cc8ef53ec9222fe4b8c2c5b0383d429085c6ad89
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 21:00'
+checkTimeEt: '4/07 15:01'
 death: 154
 hospitalized: null
 total: 88649
 totalTestResults: 88649
 posNeg: 88649
 fips: '48'
-deathIncrease: 14
-hospitalizedIncrease: 0
-negativeIncrease: 2306
-positiveIncrease: 986
-totalTestResultsIncrease: 3292
+dateModified: '2020-04-07T01:00:00Z'
+dateChecked: '2020-04-07T19:01:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 6bcb946ff136dcaf0ae6f2cc2759a29a0da36a31
+date: 20200407

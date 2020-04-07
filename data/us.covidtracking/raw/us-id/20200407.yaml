@@ -1,6 +1,11 @@
-date: 20200407
 state: ID
 positive: 1170
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 10076
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: 21
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 2223b4fd3b2130cde4c6e92876814d778ecc7ec7
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/06 19:00'
+checkTimeEt: '4/07 15:41'
 death: 13
 hospitalized: 83
 total: 11246
 totalTestResults: 11246
 posNeg: 11246
 fips: '16'
-deathIncrease: 3
-hospitalizedIncrease: 6
-negativeIncrease: 182
-positiveIncrease: 69
-totalTestResultsIncrease: 251
+dateModified: '2020-04-06T23:00:00Z'
+dateChecked: '2020-04-07T19:41:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 73521ef86361d42dd0eae7a7ba3b1203d41ed188
+date: 20200407

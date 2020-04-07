@@ -1,6 +1,11 @@
-date: 20200407
 state: NE
 positive: 447
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 6811
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 518ded644af5182eecdac1ec28f9dede5f3b98d8
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 14:38'
+checkTimeEt: '4/07 14:26'
 death: 10
 hospitalized: null
 total: 7258
 totalTestResults: 7258
 posNeg: 7258
 fips: '31'
-deathIncrease: 2
-hospitalizedIncrease: 0
-negativeIncrease: 433
-positiveIncrease: 38
-totalTestResultsIncrease: 471
+dateModified: '2020-04-07T18:38:00Z'
+dateChecked: '2020-04-07T18:26:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 7d214cced34456ab0eb8b5f1b3f362382dd07603
+date: 20200407

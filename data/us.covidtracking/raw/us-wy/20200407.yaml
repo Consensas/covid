@@ -1,6 +1,11 @@
-date: 20200407
 state: WY
 positive: 216
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 3789
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: 62
-hash: 4351947d4b6974eb2fd1a41c558fe95a0fdb44b1
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 10:57'
+checkTimeEt: '4/07 15:04'
 death: 0
 hospitalized: 33
 total: 4005
 totalTestResults: 4005
 posNeg: 4005
 fips: '56'
-deathIncrease: 0
-hospitalizedIncrease: 10
-negativeIncrease: 70
-positiveIncrease: 6
-totalTestResultsIncrease: 76
+dateModified: '2020-04-07T14:57:00Z'
+dateChecked: '2020-04-07T19:04:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 3d62eb261194eb6c6351d093e699470d200d70f9
+date: 20200407

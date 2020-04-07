@@ -1,6 +1,11 @@
-date: 20200407
 state: IL
 positive: 13549
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 55183
 pending: null
 hospitalizedCurrently: 3680
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: 821
 onVentilatorCumulative: null
 recovered: null
-hash: 01860afc01cd1aaca444ed3812a2f910c2871cf5
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 00:00'
+checkTimeEt: '4/07 17:23'
 death: 380
 hospitalized: null
 total: 68732
 totalTestResults: 68732
 posNeg: 68732
 fips: '17'
-deathIncrease: 73
-hospitalizedIncrease: 0
-negativeIncrease: 4503
-positiveIncrease: 1287
-totalTestResultsIncrease: 5790
+dateModified: '2020-04-07T04:00:00Z'
+dateChecked: '2020-04-07T21:23:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: e362abc72599312e1f8cf1c202c3806db3a98515
+date: 20200407

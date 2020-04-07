@@ -1,6 +1,11 @@
-date: 20200407
 state: AZ
 positive: 2575
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
 negative: 30800
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 943f82c1a910748ffe6ec553b93b7b964125cc38
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 00:00'
+checkTimeEt: '4/07 17:04'
 death: 73
 hospitalized: null
 total: 33375
 totalTestResults: 33375
 posNeg: 33375
 fips: '04'
-deathIncrease: 8
-hospitalizedIncrease: 0
-negativeIncrease: 722
-positiveIncrease: 119
-totalTestResultsIncrease: 841
+dateModified: '2020-04-07T04:00:00Z'
+dateChecked: '2020-04-07T21:04:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 8c337cc91f33782693595196bff5245d853d7725
+date: 20200407

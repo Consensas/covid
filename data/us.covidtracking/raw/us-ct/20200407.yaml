@@ -1,6 +1,11 @@
-date: 20200407
 state: CT
 positive: 7781
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
 negative: 21255
 pending: null
 hospitalizedCurrently: 1308
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: 824d1ebd3f4b1c49e597d77753df238341173130
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 04:00'
+checkTimeEt: '4/07 16:42'
 death: 277
 hospitalized: null
 total: 29036
 totalTestResults: 29036
 posNeg: 29036
 fips: 09
-deathIncrease: 71
-hospitalizedIncrease: 0
-negativeIncrease: 1475
-positiveIncrease: 875
-totalTestResultsIncrease: 2350
+dateModified: '2020-04-07T08:00:00Z'
+dateChecked: '2020-04-07T20:42:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 870740573a97f92e21169c25eda63628ddbbc103
+date: 20200407

@@ -1,6 +1,11 @@
-date: 20200407
 state: AL
 positive: 2119
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
 negative: 12797
 pending: null
 hospitalizedCurrently: null
@@ -10,16 +15,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-hash: bc437164edce7423a9a6a0095632666a06d512c4
-dateChecked: '2020-04-07T20:00:00Z'
+lastUpdateEt: '4/07 00:00'
+checkTimeEt: '4/07 17:07'
 death: 56
 hospitalized: 271
 total: 14916
 totalTestResults: 14916
 posNeg: 14916
 fips: '01'
-deathIncrease: 6
-hospitalizedIncrease: 31
-negativeIncrease: 0
-positiveIncrease: 151
-totalTestResultsIncrease: 151
+dateModified: '2020-04-07T04:00:00Z'
+dateChecked: '2020-04-07T21:07:00Z'
+notes: Please stop using the "total" field. Use "totalTestResults" instead.
+hash: 4065c3355517d11ed29a7cc21eaeba3444c8a90e
+date: 20200407
