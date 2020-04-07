@@ -5,9 +5,9 @@
     - Calgary Zone
 - country: CA
   region: AB
-  name: Central Zone
+  name: Edmonton Zone
   alias:
-    - Central Zone
+    - Edmonton Zone
 - country: CA
   region: AB
   name: North Zone
@@ -15,38 +15,40 @@
     - North Zone
 - country: CA
   region: AB
+  name: Central Zone
+  alias:
+    - Central Zone
+- country: CA
+  region: AB
   name: South Zone
   alias:
     - South Zone
 - country: CA
-  region: AB
-  name: Edmonton Zone
+  region: BC
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5930'
+  name: Vancouver Coastal Health Authority
   alias:
-    - Edmonton Zone
+    - Vancouver Coastal Health
 - country: CA
   region: BC
-  name: ''
-  alias:
-    - Fraser Health
-  maybes: []
-- country: CA
-  region: BC
-  name: ''
-  alias:
-    - Interior Health
-  maybes: []
-- country: CA
-  region: BC
-  name: ''
-  alias:
-    - Island Health
-  maybes: []
-- country: CA
-  region: BC
-  name: ''
+  name: Northern Health Authority
   alias:
     - Northern Health
-  maybes: []
+- country: CA
+  region: BC
+  name: Vancouver Island Health Authority
+  alias:
+    - Island Health
+- country: CA
+  region: BC
+  name: Interior Health Authority
+  alias:
+    - Interior Health
+- country: CA
+  region: BC
+  name: Fraser Health Authority
+  alias:
+    - Fraser Health
 - country: CA
   region: BC
   name: ''
@@ -54,10 +56,15 @@
     - Provincial Health Services Authority
   maybes: []
 - country: CA
-  region: BC
-  name: Vancouver Health Service Delivery Area
+  region: MB
+  name: Northern Regional Health Authority
   alias:
-    - Vancouver Coastal Health
+    - Northern Health Region
+- country: CA
+  region: MB
+  name: Prairie Mountain Health
+  alias:
+    - Prairie Mountain Health
 - country: CA
   region: MB
   name: Southern Health
@@ -74,25 +81,10 @@
   alias:
     - Interlake–Eastern Regional Health Authority
 - country: CA
-  region: MB
-  name: Northern Regional Health Authority
-  alias:
-    - Northern Health Region
-- country: CA
-  region: MB
-  name: Prairie Mountain Health
-  alias:
-    - Prairie Mountain Health
-- country: CA
   region: NB
-  name: Zone 2 (Saint John area)
+  name: Zone 5 (Campbellton area)
   alias:
-    - Zone 2 (Saint John Area)
-- country: CA
-  region: NB
-  name: Zone 3 (Fredericton area)
-  alias:
-    - Zone 3 (Fredericton Area)
+    - Zone 5 (Campbellton Area)
 - country: CA
   region: NB
   name: Zone 1 (Moncton area)
@@ -105,14 +97,19 @@
     - Zone 4 (Edmundston Area)
 - country: CA
   region: NB
-  name: Zone 5 (Campbellton area)
+  name: Zone 2 (Saint John area)
   alias:
-    - Zone 5 (Campbellton Area)
+    - Zone 2 (Saint John Area)
 - country: CA
   region: NB
   name: Zone 6 (Bathurst area)
   alias:
     - Zone 6 (Bathurst Area)
+- country: CA
+  region: NB
+  name: Zone 3 (Fredericton area)
+  alias:
+    - Zone 3 (Fredericton Area)
 - country: CA
   region: NB
   name: Zone 7 (Miramichi area)
@@ -140,6 +137,17 @@
     - Western Health
 - country: CA
   region: NS
+  name: ''
+  alias:
+    - IWK Health Centre
+  maybes: []
+- country: CA
+  region: NS
+  name: Zone 1 - Western
+  alias:
+    - Western Zone
+- country: CA
+  region: NS
   name: Zone 4 - Central
   alias:
     - Central Zone
@@ -150,25 +158,9 @@
     - Eastern Zone
 - country: CA
   region: NS
-  name: ''
-  alias:
-    - IWK Health Centre
-  maybes: []
-- country: CA
-  region: NS
   name: Zone 2 - Northern
   alias:
     - Northern Zone
-- country: CA
-  region: NS
-  name: Zone 1 - Western
-  alias:
-    - Western Zone
-- country: CA
-  region: NT
-  name: Northwest Territories
-  alias:
-    - Beaufort-Delta Health and Social Services Authority
 - country: CA
   region: NT
   name: Northwest Territories
@@ -185,10 +177,22 @@
   alias:
     - Stanton Territorial Health Authority
 - country: CA
-  region: 'ON'
-  name: South West
+  region: NT
+  name: Northwest Territories
   alias:
-    - South West LHIN
+    - Beaufort-Delta Health and Social Services Authority
+- country: CA
+  region: 'ON'
+  alias:
+    - North Simcoe Muskoka LHIN
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3512'
+  name: North Simcoe Muskoka
+- country: CA
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3504'
+  name: Hamilton Niagara Haldimand Brant
+  region: 'ON'
+  alias:
+    - Hamilton Niagara Haldimand Brant LHIN
 - country: CA
   region: 'ON'
   name: South East
@@ -196,10 +200,9 @@
     - South East LHIN
 - country: CA
   region: 'ON'
-  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3506'
-  name: Mississauga Halton
+  name: South West
   alias:
-    - Mississauga Halton LHIN
+    - South West LHIN
 - country: CA
   region: 'ON'
   name: North East
@@ -222,16 +225,15 @@
   alias:
     - Erie St. Clair LHIN
 - country: CA
-  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3504'
-  name: Hamilton Niagara Haldimand Brant
   region: 'ON'
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3506'
+  name: Mississauga Halton
   alias:
-    - Hamilton Niagara Haldimand Brant LHIN
+    - Mississauga Halton LHIN
 - country: CA
   region: 'ON'
   alias:
     - Toronto Central LHIN
-  maybes: null
   '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3507'
   name: Toronto Central
 - country: CA
@@ -253,12 +255,6 @@
   name: Central East
 - country: CA
   region: 'ON'
-  alias:
-    - North Simcoe Muskoka LHIN
-  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3512'
-  name: North Simcoe Muskoka
-- country: CA
-  region: 'ON'
   name: North West
   alias:
     - North West LHIN
@@ -269,24 +265,9 @@
     - Health PEI
 - country: CA
   region: SK
-  name: Prairie North Regional Health Authority
+  name: Mamawetan Churchill River Regional Health Authority
   alias:
-    - Prairie North Health Region
-- country: CA
-  region: SK
-  name: Cypress Regional Health Authority
-  alias:
-    - Cypress Health Region
-- country: CA
-  region: SK
-  name: Heartland Regional Health Authority
-  alias:
-    - Heartland Health Region
-- country: CA
-  region: SK
-  name: Keewatin Yatthé Regional Health Authority
-  alias:
-    - Keewatin Yatthé Health Region
+    - Mamawetan Churchill River Health Region
 - country: CA
   region: SK
   name: Kelsey Trail Regional Health Authority
@@ -294,29 +275,19 @@
     - Kelsey Trail Health Region
 - country: CA
   region: SK
-  name: Mamawetan Churchill River Regional Health Authority
+  name: Keewatin Yatthé Regional Health Authority
   alias:
-    - Mamawetan Churchill River Health Region
+    - Keewatin Yatthé Health Region
 - country: CA
   region: SK
-  name: Five Hills Regional Health Authority
+  name: Heartland Regional Health Authority
   alias:
-    - Five Hills Health Region
+    - Heartland Health Region
 - country: CA
   region: SK
-  name: Prince Albert Parkland Regional Health Authority
+  name: Prairie North Regional Health Authority
   alias:
-    - Prince Albert Parkland Health Region
-- country: CA
-  region: SK
-  name: Regina Qu'Appelle Regional Health Authority
-  alias:
-    - Regina Qu’Appelle Health Region
-- country: CA
-  region: SK
-  name: Saskatoon Regional Health Authority
-  alias:
-    - Saskatoon Health Region
+    - Prairie North Health Region
 - country: CA
   region: SK
   name: Sun Country Regional Health Authority
@@ -327,6 +298,31 @@
   name: Sunrise Regional Health Authority
   alias:
     - Sunrise Health Region
+- country: CA
+  region: SK
+  name: Saskatoon Regional Health Authority
+  alias:
+    - Saskatoon Health Region
+- country: CA
+  region: SK
+  name: Regina Qu'Appelle Regional Health Authority
+  alias:
+    - Regina Qu’Appelle Health Region
+- country: CA
+  region: SK
+  name: Prince Albert Parkland Regional Health Authority
+  alias:
+    - Prince Albert Parkland Health Region
+- country: CA
+  region: SK
+  name: Cypress Regional Health Authority
+  alias:
+    - Cypress Health Region
+- country: CA
+  region: SK
+  name: Five Hills Regional Health Authority
+  alias:
+    - Five Hills Health Region
 - country: CA
   region: YT
   name: Yukon
