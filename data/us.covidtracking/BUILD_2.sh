@@ -11,7 +11,8 @@
 set -e
 cd $(dirname $0)
 
-node pull.js
+node pull.js 
+node pull.js --states
 node cook.js
 (
     cd raw || exit 1
