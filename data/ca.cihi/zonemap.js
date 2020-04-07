@@ -54,7 +54,17 @@ _.promise()
     .add("json:beds")
 
     .make(sd => {
+        let seend = {}
+
+        sd.zoneds = sd.zoneds.filter(zd => !_.is.Empty(zd.name))
+
         sd.beds.forEach(bed => {
+            const key = `${bed.province}/${bed.health_region}`
+            if (seend[key]) {
+                return
+            }
+            seend[key] = true
+
             let zoned = _util.zone.exact({
                 name: bed.health_region, 
                 region: bed.province, 
