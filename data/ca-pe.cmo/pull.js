@@ -31,6 +31,7 @@ const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
 
+const _util = require("../../_util")
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
@@ -50,6 +51,8 @@ const _pull = _.promise((self, done) => {
     _.promise(self)
         .validate(_pull)
         .make(sd => {
+            let match
+
             sd.json = {
                 date: null,
             }
@@ -70,7 +73,6 @@ const _pull = _.promise((self, done) => {
                 return rows
             }
 
-            const _integer = x => _.coerce.to.Integer(x.replace(/,/g, ""), null)
             const _contains = (a, b) => (a || "").toLowerCase().indexOf(b.toLowerCase()) > -1
             
             /*
@@ -90,12 +92,34 @@ const _pull = _.promise((self, done) => {
                 if (sd.json.date) {
                     return
                 }
+                
+                if (ad.verbose) {
+                    console.log("-", "table", table)
+                }
 
-                console.log(table)
+                if (_.is.Equal(table[1], [
+                    'Total cases (including recovered cases)',
+                    'Negative results',
+                    'Persons under investigation (test results pending)',
+                    'Recovered cases'
+                ]) && (table.length === 3)) {
+                    if (match = table[0][0].match(/as of (\d+)[-\s]([A-Za-z]*) (2\d+)/)) {
+                        const date = parse(`${match[2]} ${match[1]} ${match[3]}`, "MMMM dd yyyy", new Date())
+                        if (_.is.Date(date)) {
+                            sd.json.date = date.toISOString().substring(0, 10)
+                        }
+                    }
+
+                    const row = table[2]
+                    sd.json.tests_positive = _util.normalize.integer(row[0])
+                    sd.json.tests_negative = _util.normalize.integer(row[1])
+                    sd.json.tests_pending = _util.normalize.integer(row[2])
+                    sd.json.recovered = _util.normalize.integer(row[3])
+                    return
+                }
 
                 table.forEach(row => {
-                    const match = row[0].match(/as of (\d+)[-\s]([A-Za-z]*) (2\d+)/)
-                    if (match) {
+                    if (match = row[0].match(/as of (\d+)[-\s]([A-Za-z]*) (2\d+)/)) {
                         const date = parse(`${match[2]} ${match[1]} ${match[3]}`, "MMMM dd yyyy", new Date())
                         if (!_.is.Date(date)) {
                             return 
@@ -111,22 +135,26 @@ const _pull = _.promise((self, done) => {
 
                     row[0] = row[0].toLowerCase()
                     if (row[0].startsWith("persons under in")) {
-                        sd.json.tests_pending = _integer(row[1])
+                        sd.json.tests_pending = _util.normalize.integer(row[1])
                     } else if (row[0] === "positive results") {
-                        sd.json.tests_positive = _integer(row[1])
+                        sd.json.tests_positive = _util.normalize.integer(row[1])
                     } else if (row[0] === "negative results") {
-                        sd.json.tests_negative = _integer(row[1])
+                        sd.json.tests_negative = _util.normalize.integer(row[1])
                     } else if (_contains(row[0], "negative")) {
-                        sd.json.tests_negative = _integer(row[1])
+                        sd.json.tests_negative = _util.normalize.integer(row[1])
                     } else if (_contains(row[0], "positive")) {
-                        sd.json.tests_positive = _integer(row[1])
+                        sd.json.tests_positive = _util.normalize.integer(row[1])
                     }
                 })
             })
 
+            if (ad.verbose) {
+                console.log("-", "json", sd.json)
+            }
+
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
-            if (_.is.Empty(sd.json.date)) {
+            if (_.is.Empty(sd.json.date) || (_.size(sd.json) < 2)) {
                 console.log("#", "no data for", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
