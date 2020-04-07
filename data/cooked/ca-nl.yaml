@@ -316,10 +316,10 @@ items:
       https://www.cbc.ca/news/canada/newfoundland-labrador/covid-19-april-5-1.5522453
     tests_negative: 3348
     tests: 3565
-  - '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-06'
-    date: '2020-04-06'
-    tests_positive: 226
+  - date: '2020-04-06'
     deaths: 2
+    tests_positive: 226
+    '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-06'
     recovered: 32
     tests: 3776
     patients_hospital_current: 8

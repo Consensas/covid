@@ -320,11 +320,17 @@ items:
     tests: 64806
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-05'
   - date: '2020-04-06'
-    tests_positive: 1250
     deaths: 23
+    tests_positive: 1250
     recovered: 279
     tests: 64806
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-06'
+  - date: '2020-04-07'
+    tests_positive: 1348
+    deaths: 24
+    recovered: 361
+    tests: 65914
+    '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-07'
 state: AB
 icu_hospitals: 16
 icu_beds: 292
