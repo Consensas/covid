@@ -28,17 +28,33 @@ const fs = require("iotdb-fs")
 const path = require("path")
 const _util = require("../../_util")
 
-const COUNTRY = "us"
-const NAME = `${COUNTRY}-tests.yaml`
-
-_.promise({
-    settings: {
-        authority: "covidtracking.com",
-        dataset: "cases",
-        country: "us",
+const minimist = require("minimist")
+const ad = minimist(process.argv.slice(2), {
+    boolean: [
+    ],
+    string: [
+        "state",
+    ],
+    alias: {
     },
 })
-    .then(fs.list.p(path.join(__dirname, "raw", "us")))
+
+const settings = {
+    authority: "covidtracking.com",
+    dataset: "cases",
+    country: "us",
+}
+
+let key = "us"
+if (ad.state) {
+    settings.region = ad.state.toUpperCase()
+    key = `us-${ad.state.toLowerCase()}`
+}
+
+_.promise({
+    settings: settings,
+})
+    .then(fs.list.p(path.join(__dirname, "raw", key)))
     .each({
         method: fs.read.json.magic,
         inputs: "paths:path",
@@ -59,12 +75,12 @@ _.promise({
                 deaths: _.d.first(_item, "death", null),
                 recovered: _.d.first(_item, "recovered", null),
 
-                patients_hospital_current: _.d.first(_item, "hospitalizedCurrently"),
-                patients_hospital_cumulative: _.d.first(_item, "hospitalizedCumulative"),
-                patients_icu_current: _.d.first(_item, "inIcuCurrently"),
-                patients_icu_cumulative: _.d.first(_item, "inIcuCumulative"),
-                patients_venitlated_current: _.d.first(_item, "onVentilatorCurrently"),
-                patients_venitlated_cumulative: _.d.first(_item, "onVentilatorCumulative"),
+                patients_hospital_current: _.d.first(_item, "hospitalizedCurrently", null),
+                patients_hospital_cumulative: _.d.first(_item, "hospitalizedCumulative", null),
+                patients_icu_current: _.d.first(_item, "inIcuCurrently", null),
+                patients_icu_cumulative: _.d.first(_item, "inIcuCumulative", null),
+                patients_venitlated_current: _.d.first(_item, "onVentilatorCurrently", null),
+                patients_venitlated_cumulative: _.d.first(_item, "onVentilatorCumulative", null),
             }
 
             if (_.is.Nullish(item.tests) && item.tests_positive && item.tests_negative) {
