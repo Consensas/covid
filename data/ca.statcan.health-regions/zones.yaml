@@ -886,6 +886,7 @@
   - north
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5911'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5911'
@@ -894,6 +895,7 @@
   - east kootenay
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5912'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5912'
@@ -902,6 +904,7 @@
   - kootenay-boundary
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5913'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5913'
@@ -910,6 +913,7 @@
   - okanagan
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5914'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5914'
@@ -918,6 +922,7 @@
   - thompson/cariboo
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5921'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5921'
@@ -926,6 +931,7 @@
   - fraser east
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5922'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5922'
@@ -934,6 +940,7 @@
   - fraser north
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5923'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5923'
@@ -942,6 +949,7 @@
   - fraser south
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5931'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5931'
@@ -950,6 +958,7 @@
   - richmond
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5932'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5932'
@@ -958,6 +967,7 @@
   - vancouver
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5933'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5933'
@@ -966,6 +976,7 @@
   - north shore/coast garibaldi
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5941'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5941'
@@ -974,6 +985,7 @@
   - south vancouver island
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5942'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5942'
@@ -982,6 +994,7 @@
   - central vancouver island
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5943'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5943'
@@ -990,6 +1003,7 @@
   - north vancouver island
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5951'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5951'
@@ -998,6 +1012,7 @@
   - northwest
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5952'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5952'
@@ -1006,6 +1021,7 @@
   - northern interior
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5953'
+  obsolete: true
   country: CA
   region: BC
   identifier: '5953'
@@ -1040,4 +1056,44 @@
   identifier: '6201'
   name: Nunavut
   aliases: []
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5910'
+  country: CA
+  region: BC
+  identifier: '5910'
+  name: Interior Health Authority
+  fragments:
+  - interior
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5920'
+  country: CA
+  region: BC
+  identifier: '5920'
+  name: Fraser Health Authority
+  fragments:
+  - fraser
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5930'
+  country: CA
+  region: BC
+  identifier: '5930'
+  name: Vancouver Coastal Health Authority
+  fragments:
+  - vancouver coastal
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5940'
+  country: CA
+  region: BC
+  identifier: '5940'
+  name: Vancouver Island Health Authority
+  fragments:
+  - vancouver island
+
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca-bc:5950'
+  country: CA
+  region: BC
+  identifier: '5950'
+  name: Northern Health Authority
+  fragments:
+  - northern
 
