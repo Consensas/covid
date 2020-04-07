@@ -113,7 +113,13 @@
       tests_negative: 4220
     - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-04'
       date: '2020-04-04'
-      tests_positive: 101
-      recovered: 28
       tests: 5543
       tests_negative: 5442
+      tests_positive: 101
+      recovered: 28
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-05'
+      date: '2020-04-05'
+      tests: 5808
+      tests_negative: 5705
+      tests_positive: 103
+      recovered: 30
