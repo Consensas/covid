@@ -34,6 +34,7 @@ const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
         "all",
+        "states",
     ],
     string: [
     ],
@@ -42,6 +43,39 @@ const ad = minimist(process.argv.slice(2), {
 })
 
 const COUNTRY = "us"
+
+/**
+ */
+const _write = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_write)
+
+        .make(sd => {
+            sd.path = path.join(
+                __dirname,
+                "raw",
+                sd.json.state ? `us-${sd.json.state.toLowerCase()}` : "us",
+                `${sd.json.date}.yaml`)
+        })
+
+        .then(fs.make.directory.parent)
+        .then(fs.write.yaml)
+        .log("wrote", "path")
+
+        .end(done, self, _write)
+})
+
+_write.method = "_write"
+_write.description = ``
+_write.requires = {
+    json: {
+        date: _.is.Integer,
+    },
+}
+_write.accepts = {
+}
+_write.produces = {
+}
 
 /**
  */
@@ -57,14 +91,7 @@ const _pull = _.promise((self, done) => {
             })
         })
         .each({
-            method: _.promise((sd, sdone) => {
-                _.promise(sd)
-                    .add("path", `raw/${sd.json.date}.yaml`)
-                    .then(fs.make.directory.parent)
-                    .then(fs.write.yaml)
-                    .log("wrote", "path")
-                    .end(sdone, sd)
-            }),
+            method: _write,
             inputs: "json:json"
         })
 
@@ -80,7 +107,6 @@ _pull.accepts = {
 }
 _pull.produces = {
 }
-
 
 _.promise()
     .add("url", ad.all ? "https://covidtracking.com/api/us/daily" : "https://covidtracking.com/api/us")
