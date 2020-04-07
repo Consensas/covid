@@ -38,7 +38,7 @@ _.promise({
         country: "us",
     },
 })
-    .then(fs.list.p(path.join(__dirname, "raw")))
+    .then(fs.list.p(path.join(__dirname, "raw", "us")))
     .each({
         method: fs.read.json.magic,
         inputs: "paths:path",
