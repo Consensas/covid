@@ -46,15 +46,15 @@ const COUNTRY = "us"
 
 /**
  */
-const _write = _.promise((self, done) => {
+const _do_date = _.promise((self, done) => {
     _.promise(self)
-        .validate(_write)
+        .validate(_do_date)
 
         .make(sd => {
             sd.path = path.join(
                 __dirname,
                 "raw",
-                sd.json.state ? `us-${sd.json.state.toLowerCase()}` : "us",
+                !_.is.Empty(sd.json.state) ? `us-${sd.json.state.toLowerCase()}` : "us",
                 `${sd.json.date}.yaml`)
         })
 
@@ -62,19 +62,40 @@ const _write = _.promise((self, done) => {
         .then(fs.write.yaml)
         .log("wrote", "path")
 
-        .end(done, self, _write)
+        .end(done, self, _do_date)
 })
 
-_write.method = "_write"
-_write.description = ``
-_write.requires = {
+_do_date.method = "_do_date"
+_do_date.description = ``
+_do_date.requires = {
     json: {
         date: _.is.Integer,
     },
 }
-_write.accepts = {
+_do_date.accepts = {
 }
-_write.produces = {
+
+/**
+ */
+const _do_state = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_do_state)
+
+        .each({
+            method: _do_date,
+            inputs: "state:json"
+        })
+
+        .end(done, self, _do_state)
+})
+
+_do_state.method = "_do_state"
+_do_state.description = ``
+_do_state.requires = {
+}
+_do_state.accepts = {
+}
+_do_state.produces = {
 }
 
 /**
@@ -85,14 +106,21 @@ const _pull = _.promise((self, done) => {
 
         .then(fetch.json.get())
         .make(sd => {
-            // HACK!
+            const stated = {}
+
             sd.json.forEach(d => {
                 d.date = d.date || _.coerce.to.Integer(_.timestamp.make().substring(0, 10).replace(/-/g, ""))
+                d.state = d.state || ""
+
+                stated[d.state] = stated[d.state] || []
+                stated[d.state].push(d)
             })
+
+            sd.states = _.values(stated)
         })
         .each({
-            method: _write,
-            inputs: "json:json"
+            method: _do_state,
+            inputs: "states:state"
         })
 
         .end(done, self, _pull)
@@ -108,7 +136,23 @@ _pull.accepts = {
 _pull.produces = {
 }
 
-_.promise()
-    .add("url", ad.all ? "https://covidtracking.com/api/us/daily" : "https://covidtracking.com/api/us")
+let url 
+if (ad.states) {
+    if (ad.all) {
+        url = "https://covidtracking.com/api/v1/states/daily.json"
+    } else {
+        url = "https://covidtracking.com/api/v1/states/current.json"
+    }
+} else {
+    if (ad.all) {
+        url = "https://covidtracking.com/api/us/daily"
+    } else {
+        url = "https://covidtracking.com/api/us"
+    }
+}
+
+_.promise({ 
+    url: url,
+})
     .then(_pull)
     .except(_.error.log)
