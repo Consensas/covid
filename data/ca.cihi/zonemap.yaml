@@ -10,11 +10,6 @@
     - Central Zone
 - country: CA
   region: AB
-  name: Edmonton Zone
-  alias:
-    - Edmonton Zone
-- country: CA
-  region: AB
   name: North Zone
   alias:
     - North Zone
@@ -24,11 +19,10 @@
   alias:
     - South Zone
 - country: CA
-  region: BC
-  name: ''
+  region: AB
+  name: Edmonton Zone
   alias:
-    - Provincial Health Services Authority
-  maybes: []
+    - Edmonton Zone
 - country: CA
   region: BC
   name: ''
@@ -43,11 +37,6 @@
   maybes: []
 - country: CA
   region: BC
-  name: Vancouver Health Service Delivery Area
-  alias:
-    - Vancouver Coastal Health
-- country: CA
-  region: BC
   name: ''
   alias:
     - Island Health
@@ -59,15 +48,16 @@
     - Northern Health
   maybes: []
 - country: CA
-  region: MB
-  name: Northern Regional Health Authority
+  region: BC
+  name: ''
   alias:
-    - Northern Health Region
+    - Provincial Health Services Authority
+  maybes: []
 - country: CA
-  region: MB
-  name: Prairie Mountain Health
+  region: BC
+  name: Vancouver Health Service Delivery Area
   alias:
-    - Prairie Mountain Health
+    - Vancouver Coastal Health
 - country: CA
   region: MB
   name: Southern Health
@@ -84,10 +74,15 @@
   alias:
     - Interlake–Eastern Regional Health Authority
 - country: CA
-  region: NB
-  name: Zone 1 (Moncton area)
+  region: MB
+  name: Northern Regional Health Authority
   alias:
-    - Zone 1 (Moncton Area)
+    - Northern Health Region
+- country: CA
+  region: MB
+  name: Prairie Mountain Health
+  alias:
+    - Prairie Mountain Health
 - country: CA
   region: NB
   name: Zone 2 (Saint John area)
@@ -100,9 +95,9 @@
     - Zone 3 (Fredericton Area)
 - country: CA
   region: NB
-  name: Zone 7 (Miramichi area)
+  name: Zone 1 (Moncton area)
   alias:
-    - Zone 7 (Miramichi Area)
+    - Zone 1 (Moncton Area)
 - country: CA
   region: NB
   name: Zone 4 (Edmundston area)
@@ -118,6 +113,11 @@
   name: Zone 6 (Bathurst area)
   alias:
     - Zone 6 (Bathurst Area)
+- country: CA
+  region: NB
+  name: Zone 7 (Miramichi area)
+  alias:
+    - Zone 7 (Miramichi Area)
 - country: CA
   region: NL
   name: Central Regional Integrated Health Authority
@@ -186,34 +186,20 @@
     - Stanton Territorial Health Authority
 - country: CA
   region: 'ON'
+  name: South West
+  alias:
+    - South West LHIN
+- country: CA
+  region: 'ON'
   name: South East
   alias:
     - South East LHIN
 - country: CA
   region: 'ON'
-  name: North West
-  alias:
-    - North West LHIN
-- country: CA
-  region: 'ON'
-  name: ''
-  alias:
-    - Hamilton Niagara Haldimand Brant LHIN
-  maybes:
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3504'
-      name: Hamilton Niagara Haldimand Brant
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3537'
-      name: City of Hamilton Health Unit
-- country: CA
-  region: 'ON'
-  name: ''
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3506'
+  name: Mississauga Halton
   alias:
     - Mississauga Halton LHIN
-  maybes:
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3506'
-      name: Mississauga Halton
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3536'
-      name: Halton Regional Health Unit
 - country: CA
   region: 'ON'
   name: North East
@@ -221,14 +207,10 @@
     - North East LHIN
 - country: CA
   region: 'ON'
-  name: ''
   alias:
     - Central West LHIN
-  maybes:
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3505'
-      name: Central West
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3508'
-      name: Central
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3505'
+  name: Central West
 - country: CA
   region: 'ON'
   name: Champlain
@@ -240,22 +222,18 @@
   alias:
     - Erie St. Clair LHIN
 - country: CA
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3504'
+  name: Hamilton Niagara Haldimand Brant
   region: 'ON'
-  name: South West
   alias:
-    - South West LHIN
+    - Hamilton Niagara Haldimand Brant LHIN
 - country: CA
   region: 'ON'
-  name: ''
   alias:
     - Toronto Central LHIN
-  maybes:
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3507'
-      name: Toronto Central
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3508'
-      name: Central
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3595'
-      name: City of Toronto Health Unit
+  maybes: null
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3507'
+  name: Toronto Central
 - country: CA
   region: 'ON'
   alias:
@@ -269,24 +247,21 @@
     - Central LHIN
 - country: CA
   region: 'ON'
-  name: ''
   alias:
     - Central East LHIN
-  maybes:
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3508'
-      name: Central
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3509'
-      name: Central East
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3509'
+  name: Central East
 - country: CA
   region: 'ON'
-  name: ''
   alias:
     - North Simcoe Muskoka LHIN
-  maybes:
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3512'
-      name: North Simcoe Muskoka
-    - '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3560'
-      name: Simcoe Muskoka District Health Unit
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca-on:3512'
+  name: North Simcoe Muskoka
+- country: CA
+  region: 'ON'
+  name: North West
+  alias:
+    - North West LHIN
 - country: CA
   region: PE
   name: Prince Edward Island
@@ -294,14 +269,14 @@
     - Health PEI
 - country: CA
   region: SK
+  name: Prairie North Regional Health Authority
+  alias:
+    - Prairie North Health Region
+- country: CA
+  region: SK
   name: Cypress Regional Health Authority
   alias:
     - Cypress Health Region
-- country: CA
-  region: SK
-  name: Five Hills Regional Health Authority
-  alias:
-    - Five Hills Health Region
 - country: CA
   region: SK
   name: Heartland Regional Health Authority
@@ -324,9 +299,9 @@
     - Mamawetan Churchill River Health Region
 - country: CA
   region: SK
-  name: Prairie North Regional Health Authority
+  name: Five Hills Regional Health Authority
   alias:
-    - Prairie North Health Region
+    - Five Hills Health Region
 - country: CA
   region: SK
   name: Prince Albert Parkland Regional Health Authority

@@ -37,7 +37,9 @@ const zone_exact = (matchd, zoneds) => {
             if (_.is.Equal(nname, _util.normalize.text(zoned.name))) {
                 return zoned
             } else {
-                return _.d.list(zoned, "aliases", []).find(alias => _.is.Equal(nname, _util.normalize.text(alias)))
+                return _.d.list(zoned, "alias", [])
+                    .map(alias => _util.normalize.text(alias))
+                    .find(alias => _.is.Equal(nname, alias))
             }
         }) || null
 }
