@@ -1722,3 +1722,37 @@
   gender: null
   health_region: Zone 1 (Moncton area)
   acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:17201'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '17201'
+  region_id: '104'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/two-new-cases-in-n-b-show-how-covid-19-can-strike-any-person-at-any-age-1.4886504
+  date: '2020-04-07'
+  week_reported: '2020-04-05'
+  is_travel: null
+  age_range: 10-19
+  gender: null
+  health_region: Zone 1 (Moncton area)
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nb:17202'
+  country: CA
+  region: NB
+  key: ca-nb
+  dataset_id: '17202'
+  region_id: '105'
+  sources:
+    - >-
+      https://atlantic.ctvnews.ca/two-new-cases-in-n-b-show-how-covid-19-can-strike-any-person-at-any-age-1.4886504
+  date: '2020-04-07'
+  week_reported: '2020-04-05'
+  is_travel: null
+  age_range: 70-79
+  gender: null
+  health_region: Zone 7 (Miramichi area)
+  acquired_country: null

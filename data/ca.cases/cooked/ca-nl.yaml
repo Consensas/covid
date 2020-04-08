@@ -3767,3 +3767,35 @@
   gender: null
   health_region: Eastern
   acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:17186'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '17186'
+  region_id: '227'
+  sources:
+    - 'https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/'
+  date: '2020-04-07'
+  week_reported: '2020-04-05'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Eastern
+  acquired_country: null
+- '@context': 'https://consensas.world/m/covid'
+  '@id': 'urn:covid:ishaberry:covid19canada:ca-nl:17187'
+  country: CA
+  region: NL
+  key: ca-nl
+  dataset_id: '17187'
+  region_id: '228'
+  sources:
+    - 'https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/'
+  date: '2020-04-07'
+  week_reported: '2020-04-05'
+  is_travel: null
+  age_range: null
+  gender: null
+  health_region: Central
+  acquired_country: null
