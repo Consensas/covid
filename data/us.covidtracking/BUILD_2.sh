@@ -14,6 +14,8 @@ cd $(dirname $0)
 node pull.js 
 node pull.js --states
 node cook.js
+node cook.js --state ny
+node cook.js --state ak
 (
     cd raw || exit 1
     for folder in *
