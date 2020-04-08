@@ -917,6 +917,20 @@ items:
     patients_hospital_current: 614
     patients_icu_current: 233
     patients_venitlated_current: 187
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-04-08'
+    date: '2020-04-08'
+    deaths: 174
+    tests: 83499
+    tests_positive: 5276
+    tests_negative: 78223
+    tests_confirmed: 3028
+    tests_probable: null
+    tests_pending: 1102
+    tests_resolved: 2074
+    tests_approved: 84601
+    patients_hospital_current: 605
+    patients_icu_current: 246
+    patients_venitlated_current: 195
 state: 'ON'
 icu_hospitals: 84
 icu_beds: 1122
