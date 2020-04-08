@@ -62,6 +62,10 @@ _.promise()
                 tests_pending: _util.normalize.integer(_item.under_investigation, null),
                 tests_resolved: _util.normalize.integer(_item.resolved, null),
                 tests_approved: _util.normalize.integer(_item.total_patients_approved_for_testing_as_of_reporting_date, null),
+
+                patients_hospital_current: _.d.first(_item, "number_of_patients_hospitalized_with_covid_19", null),
+                patients_icu_current: _.d.first(_item, "number_of_patients_in_icu_with_covid_19", null),
+                patients_venitlated_current: _.d.first(_item, "number_of_patients_in_icu_on_a_ventilator_with_covid_19", null),
             }
 
             if (!_oki(item.tests) && _oki(item.tests_approved) && _oki(item.tests_pending)) {
