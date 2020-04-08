@@ -299,14 +299,19 @@ items:
     recovered: 28
   - date: '2020-04-05'
     deaths: 0
-    tests_positive: 103
-    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-05'
-    tests: 5808
-    tests_negative: 5705
-    recovered: 30
+    tests_positive: 98
   - date: '2020-04-06'
     deaths: 0
-    tests_positive: 103
+    tests_positive: 105
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-06'
+    tests: 6112
+    recovered: 39
+    patients_hospital_current: 7
+    patients_icu_current: 4
+    tests_negative: 6007
+  - date: '2020-04-07'
+    deaths: 0
+    tests_positive: 105
 state: NB
 icu_hospitals: 9
 icu_beds: 103
