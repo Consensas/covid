@@ -313,10 +313,11 @@ items:
     tests_negative: 996
     tests_pending: 464
     recovered: 8
-  - '@id': 'urn:covid:consensas:cmo:ca-pe:2020-04-08'
-    date: '2020-04-08'
-    tests: 1575
+  - date: '2020-04-08'
+    deaths: 1
     tests_positive: 25
+    '@id': 'urn:covid:consensas:cmo:ca-pe:2020-04-08'
+    tests: 1575
     tests_negative: 1445
     tests_pending: 105
     recovered: 17
