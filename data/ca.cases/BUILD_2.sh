@@ -8,6 +8,7 @@
 #   Update local database
 #
 
+exit 0
 set -e
 cd $(dirname $0)
 
