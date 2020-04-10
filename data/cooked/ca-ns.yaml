@@ -1,5 +1,5 @@
 '@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-ns:cmo'
+'@id': 'urn:covid:consensas:cmo:ca-ns'
 region: NS
 country: CA
 key: ca-ns
@@ -157,9 +157,6 @@ items:
   - date: '2020-03-12'
     deaths: 0
     tests_positive: 0
-    tests_negative: 57
-    tests: 57
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-12'
   - date: '2020-03-13'
     deaths: 0
     tests_positive: 0
@@ -174,148 +171,76 @@ items:
     tests_positive: 5
   - date: '2020-03-17'
     deaths: 0
-    tests_positive: 1
-    tests_negative: 934
-    tests: 935
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-17'
+    tests_positive: 7
   - date: '2020-03-18'
     deaths: 0
-    tests_positive: 3
-    tests_negative: 1141
-    tests: 1144
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-18'
+    tests_positive: 12
   - date: '2020-03-19'
     deaths: 0
-    tests_positive: 5
-    tests_negative: 1373
-    tests: 1378
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-19'
+    tests_positive: 14
   - date: '2020-03-20'
     deaths: 0
-    tests_positive: 5
-    tests_negative: 1546
-    tests: 1551
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-20'
+    tests_positive: 15
   - date: '2020-03-21'
     deaths: 0
-    tests_positive: 9
-    tests_negative: 1826
-    tests: 1835
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-21'
+    tests_positive: 21
   - date: '2020-03-22'
     deaths: 0
-    tests_positive: 41
-    tests_negative: 2308
-    tests: 2349
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-22'
+    tests_positive: 28
   - date: '2020-03-23'
     deaths: 0
     tests_positive: 41
-    tests_negative: 2308
-    tests: 2349
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-23'
   - date: '2020-03-24'
     deaths: 0
     tests_positive: 51
-    tests_negative: 2474
-    tests: 2525
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-24'
   - date: '2020-03-25'
     deaths: 0
     tests_positive: 68
-    tests_negative: 2772
-    tests: 2840
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-25'
   - date: '2020-03-26'
     deaths: 0
     tests_positive: 73
-    tests_negative: 3201
-    tests: 3274
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-26'
   - date: '2020-03-27'
     deaths: 0
     tests_positive: 90
-    tests_negative: 3649
-    tests: 3739
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-27'
   - date: '2020-03-28'
     deaths: 0
     tests_positive: 110
-    tests_negative: 4031
-    tests: 4141
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-28'
   - date: '2020-03-29'
     deaths: 0
     tests_positive: 122
-    tests_negative: 4731
-    tests: 4853
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-29'
   - date: '2020-03-30'
     deaths: 0
-    tests_positive: 147
-    tests_negative: 5763
-    tests: 5910
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-30'
+    tests_positive: 127
   - date: '2020-03-31'
     deaths: 0
     tests_positive: 147
-    tests_negative: 5763
-    tests: 5910
-    '@id': 'urn:covid:consensas:ca-ns:2020-03-31'
   - date: '2020-04-01'
     deaths: 0
     tests_positive: 173
-    tests_negative: 6591
-    tests: 6764
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-01'
   - date: '2020-04-02'
     deaths: 0
     tests_positive: 193
-    tests_negative: 7446
-    tests: 7639
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-02'
   - date: '2020-04-03'
     deaths: 0
     tests_positive: 207
-    tests_negative: 8234
-    tests: 8441
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-03'
   - date: '2020-04-04'
     deaths: 0
     tests_positive: 236
-    tests_negative: 8964
-    tests: 9200
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-04'
   - date: '2020-04-05'
     deaths: 0
     tests_positive: 262
-    tests_negative: 9510
-    tests: 9772
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-05'
   - date: '2020-04-06'
     deaths: 0
     tests_positive: 293
-    tests_negative: 10218
-    tests: 10511
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-06'
   - date: '2020-04-07'
     deaths: 1
     tests_positive: 310
-    tests_negative: 10621
-    tests: 10931
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-07'
   - date: '2020-04-08'
     deaths: 1
-    tests_positive: 342
-    tests_negative: 11346
-    tests: 11688
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-08'
+    tests_positive: 310
   - date: '2020-04-09'
     deaths: 1
-    tests_positive: 373
-    tests_negative: 12177
-    tests: 12550
-    '@id': 'urn:covid:consensas:ca-ns:2020-04-09'
+    tests_positive: 342
 state: NS
 icu_hospitals: 14
 icu_beds: 141
