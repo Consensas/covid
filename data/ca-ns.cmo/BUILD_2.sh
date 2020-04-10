@@ -12,7 +12,12 @@
 set -e
 cd $(dirname $0)
 
-node pull.js
+##node pull.js
+node ../../tools/pull-csv \
+    --url "https://novascotia.ca/coronavirus/data/COVID-19-data.csv" \
+    --any-cert \
+    --force
+
 node cook.js
 git add raw/*.yaml
 git commit -am "new raw data"

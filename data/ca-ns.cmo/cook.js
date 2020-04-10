@@ -1,10 +1,9 @@
 /*
- *  data/ns-cmo/cook.js
+ *  data/ca-ns.cmo/cook.js
  *
  *  David Janes
  *  Consensas
- *  2020-03-17
- *  ☘️
+ *  2020-04-10
  *
  *  Copyright (2013-2020) David P. Janes
  *
@@ -26,38 +25,50 @@
 const _ = require("iotdb-helpers")
 const fs = require("iotdb-fs")
 
+const _util = require("../../_util")
+
 const path = require("path")
 
-const COUNTRY = "ca"
-const PROVINCE = "ns"
-const NAME = `${COUNTRY}-${PROVINCE}-tests.yaml`
-
-_.promise()
-    .then(fs.list.p(path.join(__dirname, "raw")))
-    .each({
-        method: fs.read.json.magic,
-        inputs: "paths:path",
-        outputs: "jsons",
-        output_selector: sd => sd.json,
-    })
+_.promise({
+    settings: {
+        authority: "consensas",
+        dataset: "cmo",
+        region: "ns",
+        country: "ca",
+    },
+})
+    .then(fs.read.yaml.p(path.join(__dirname, "raw", "data.yaml")))
     .make(sd => {
-        sd.json = {
-            "@context": "https://consensas.world/m/covid",
-            "@id": `urn:covid:consensas:${COUNTRY}-${PROVINCE}:cmo`,
-            country: COUNTRY.toUpperCase(),
-            region: PROVINCE.toUpperCase(),
-            key: `${COUNTRY}-${PROVINCE}`.toLowerCase(),
-            items: sd.jsons.filter(json => json.date)
+        const items = sd.json
+
+        sd.json = _util.record.main(sd.settings)
+        sd.json.items = items
+            .map(_item => {
+                if (!_.is.Integer(_item.total)) {
+                    return
+                }
+
+                const item = _util.record.main(sd.settings, {
+                    date: _item.reporting,
+                })
+                item.tests = _item.total
+                item.deaths = _item.new || null
+                item.tests_positive = _item.total_cases
+                item.tests_negative = _item.total - _item.total_cases
+                item.patients_hospital_current = _item.currently_hospitalized || null
+
+                return item
+            })
+            .filter(item => item)
+
+        if (sd.json.items.length === 0) {
+            console.log("#", "ca-ns.cmo: no items???")
         }
 
-        sd.json.items.forEach(item => {
-            item["@id"] = `urn:covid:consensas:${COUNTRY}-${PROVINCE}:${item.date}`
-        })
-
-        sd.json = [ sd.json ]
+        sd.path = path.join(__dirname, "cooked", _util.record.filename(sd.settings))
     })
-
-    .add("path", path.join(__dirname, NAME))
+    
+    .then(fs.make.directory.parent)
     .then(fs.write.yaml)
     .log("wrote", "path")
     
