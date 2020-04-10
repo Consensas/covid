@@ -94,9 +94,13 @@ _.promise()
     .then(fetch.document.get("https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/"))
     .make(sd => {
         const match = sd.document.match(/(services\d+[.]arcgis[.]com)(\/[^/]+\/arcgis\/rest\/services\/Covid19_ProvPublic\/FeatureServer\/0)/)
+        if (!match) {
+            // console.log("# ca-nl.cmo - no data")
+            // process.exit()
+        }
 
         const url = new URL(BASE)
-        url.host = match[1]
+        // url.host = match[1]
         // url.pathname = match[2]
         url.searchParams.set("outStatistics", QUERY)
 
