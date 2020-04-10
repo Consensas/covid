@@ -113,6 +113,12 @@
       tests_negative: 4220
     - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-04'
       date: '2020-04-04'
+      tests: 5003
+      tests_negative: 4905
+      tests_positive: 98
+      recovered: 28
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-05'
+      date: '2020-04-05'
       tests: 5543
       tests_negative: 5442
       tests_positive: 101
@@ -125,3 +131,11 @@
       patients_hospital_current: 7
       patients_icu_current: 4
       tests_negative: 6007
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-04-09'
+      date: '2020-04-09'
+      tests: 6930
+      tests_positive: 111
+      recovered: 53
+      patients_hospital_current: 5
+      patients_icu_current: 4
+      tests_negative: 6819
