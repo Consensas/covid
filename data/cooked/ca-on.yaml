@@ -931,11 +931,11 @@ items:
     patients_hospital_current: 605
     patients_icu_current: 246
     patients_venitlated_current: 195
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-04-09'
-    date: '2020-04-09'
+  - date: '2020-04-09'
     deaths: 200
-    tests: 87490
     tests_positive: 5759
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-04-09'
+    tests: 87490
     tests_negative: 81731
     tests_confirmed: 3254
     tests_probable: null
