@@ -51,6 +51,7 @@ _.promise({
                 const item = _util.record.main(sd.settings, {
                     date: _item.reporting,
                 })
+                item.date = _item.reporting
                 item.tests = _item.total
                 item.deaths = _item.new || null
                 item.tests_positive = _item.total_cases
@@ -59,7 +60,7 @@ _.promise({
 
                 return item
             })
-            .filter(item => item)
+            .filter(item => item && item.date)
 
         if (sd.json.items.length === 0) {
             console.log("#", "ca-ns.cmo: no items???")
