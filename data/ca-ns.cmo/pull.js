@@ -31,6 +31,7 @@ const document = require("iotdb-document")
 const path = require("path")
 const cheerio = require("cheerio")
 const parse = require("date-fns/parse")
+const _util = require("../../_util")
 
 const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
@@ -47,9 +48,9 @@ const PROVINCE = "ns"
 
 /**
  */
-const _pull = _.promise((self, done) => {
+const _old_pull = _.promise((self, done) => {
     _.promise(self)
-        .validate(_pull)
+        .validate(_old_pull)
         .make(sd => {
             sd.json = {
                 date: null,
@@ -111,7 +112,9 @@ const _pull = _.promise((self, done) => {
 
             $("#cases table").each((x, e) => {
                 const table = _table($(e))
-// console.log(table)
+                if (ad.verbose) {
+                    console.log("-", "table", sd.table)
+                }
 
                 table.forEach(row => {
                     if (!row.length === 2) {
@@ -135,10 +138,52 @@ const _pull = _.promise((self, done) => {
                 sd.json.tests = sd.json.tests_positive + sd.json.tests_negative
             }
 
-// console.log(sd.json)
+            if (ad.verbose) {
+                console.log("-", "json", sd.json)
+            }
+
             sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
 
             if (_.is.Empty(sd.json.date)) {
+                console.log("#", "no data for", COUNTRY, PROVINCE)
+                _.promise.bail(sd)
+            }
+        })
+        .then(fs.make.directory.parent)
+        .then(fs.write.yaml)
+        .log("wrote", "path")
+
+        .end(done, self, _old_pull)
+})
+
+/**
+ */
+const _pull = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_pull)
+        .make(sd => {
+            sd.json = {}
+
+            const $ = cheerio.load(self.document)
+
+            $("#testing-data table").each((x, e) => {
+                const table = _util.normalize.object(_util.cheerio.table($, $(e)))
+                if (table.length < 2) {
+                    return
+                }
+
+                if (ad.verbose) {
+                    console.log("-", "table", table)
+                }
+            })
+
+            if (ad.verbose) {
+                console.log("-", "json", sd.json)
+            }
+
+            sd.path = path.join(__dirname, "raw", `${sd.json.date}.yaml`)
+
+            if (_.is.Empty(sd.json.date) || (_.size(sd.json) < 2)) {
                 console.log("#", "no data for", COUNTRY, PROVINCE)
                 _.promise.bail(sd)
             }
@@ -181,7 +226,8 @@ if (ad._.length) {
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
     _.promise()
-        .then(fetch.document.get("https://novascotia.ca/coronavirus/"))
+        // .then(fetch.document.get("https://novascotia.ca/coronavirus/"))
+        .then(fetch.document.get("https://novascotia.ca/coronavirus/data/"))
         .then(document.to.string)
         .then(_pull)
         .catch(error => {
