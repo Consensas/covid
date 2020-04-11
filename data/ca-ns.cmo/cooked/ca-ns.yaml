@@ -301,3 +301,14 @@ items:
     tests_positive: 93
     tests_negative: 12921
     patients_hospital_current: 4
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-11'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-04-11'
+    tests: 13632
+    deaths: null
+    tests_positive: 95
+    tests_negative: 13537
+    patients_hospital_current: 4
