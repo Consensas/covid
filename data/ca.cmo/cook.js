@@ -189,6 +189,7 @@ _.promise()
                 tests_positive: _util.normalize.integer(record.numconf, null),
                 tests_probable: _util.normalize.integer(record.numprob, null),
                 deaths: _util.normalize.integer(record.numdeaths, null),
+                recovered: _util.normalize.integer(record.numrecover, null),
             }))
             .forEach(record => {
                 rsd[record.region] = rsd[record.region] || []
