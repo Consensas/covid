@@ -348,10 +348,10 @@ items:
     tests: 4390
     patients_hospital_current: 6
     tests_negative: 4154
-  - '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-10'
-    date: '2020-04-10'
-    tests_positive: 239
+  - date: '2020-04-10'
     deaths: 3
+    tests_positive: 239
+    '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-10'
     recovered: 103
     tests: 4520
     patients_hospital_current: 7
