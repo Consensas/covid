@@ -1,7 +1,7 @@
 state: AS
 positive: 0
-negative: 20
-pending: 11
+negative: 1
+pending: 2
 hospitalizedCurrently: null
 hospitalizedCumulative: null
 inIcuCurrently: null
@@ -9,16 +9,16 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-lastUpdateEt: '4/06 16:00'
-checkTimeEt: '4/10 14:29'
-death: 0
+lastUpdateEt: '3/29 00:24'
+checkTimeEt: '4/11 10:36'
+death: null
 hospitalized: null
-total: 31
-totalTestResults: 20
-posNeg: 20
+total: 3
+totalTestResults: 1
+posNeg: 1
 fips: '60'
-dateModified: '2020-04-06T20:00:00Z'
-dateChecked: '2020-04-10T18:29:00Z'
+dateModified: '2020-03-29T04:24:00Z'
+dateChecked: '2020-04-11T14:36:00Z'
 notes: Please stop using the "total" field. Use "totalTestResults" instead.
-hash: b8ace055e785ac490a30e88a61657c62542eccac
+hash: fb339fed5db27935468686402f2b43c6e135883e
 date: 20200411
