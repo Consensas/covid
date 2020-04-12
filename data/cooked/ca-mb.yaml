@@ -304,11 +304,11 @@ items:
   - date: '2020-04-10'
     deaths: 3
     tests_positive: 230
-  - '@id': 'urn:covid:consensas:cmo:ca-mb:2020-04-11'
-    date: '2020-04-11'
-    tests_positive: 226
-    tests_probable: 17
+  - date: '2020-04-11'
     deaths: 4
+    tests_positive: 226
+    '@id': 'urn:covid:consensas:cmo:ca-mb:2020-04-11'
+    tests_probable: 17
     tests: 2020
     tests_negative: 1777
 state: MB
