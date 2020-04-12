@@ -186,12 +186,14 @@ _.promise()
             .map(record => ({
                 region: mapping[record.prname] || null,
                 date: (d => `${d.substring(6, 10)}-${d.substring(3, 5)}-${d.substring(0, 2)}`)(record.date),
+                tests: _util.normalize.integer(record.numtested, null),
                 tests_positive: _util.normalize.integer(record.numconf, null),
                 tests_probable: _util.normalize.integer(record.numprob, null),
                 deaths: _util.normalize.integer(record.numdeaths, null),
                 recovered: _util.normalize.integer(record.numrecover, null),
             }))
             .forEach(record => {
+                record = _.d.transform.denull(record)
                 rsd[record.region] = rsd[record.region] || []
                 rsd[record.region].push(record)
             })

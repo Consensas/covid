@@ -1,5 +1,5 @@
 /*
- *  data/world.jhu-csse/primary.js
+ *  data/ca.cmo/pull.js
  *
  *  David Janes
  *  Consensas
