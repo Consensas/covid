@@ -117,6 +117,8 @@ const _pull = _.promise((self, done) => {
                 _.promise.bail(sd)
             }
 
+            delete item.tests // not working???
+
             if (ad.verbose) {
                 console.log("-", "item", item)
             }
