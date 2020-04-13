@@ -316,8 +316,11 @@ items:
     tests_positive: 226
     '@id': 'urn:covid:consensas:cmo:ca-mb:2020-04-12'
     tests_probable: 17
-    tests: 2020
-    tests_negative: 1777
+  - '@id': 'urn:covid:consensas:cmo:ca-mb:2020-04-13'
+    date: '2020-04-13'
+    tests_positive: 229
+    tests_probable: 17
+    deaths: 4
 state: MB
 icu_hospitals: 10
 icu_beds: 93

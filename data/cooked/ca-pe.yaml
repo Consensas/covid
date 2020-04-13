@@ -343,6 +343,13 @@ items:
   - date: '2020-04-12'
     deaths: 0
     tests_positive: 25
+  - '@id': 'urn:covid:consensas:cmo:ca-pe:2020-04-13'
+    date: '2020-04-13'
+    tests: 1912
+    tests_positive: 25
+    tests_negative: 1816
+    tests_pending: 71
+    recovered: 23
 state: PE
 icu_hospitals: 2
 icu_beds: 18
