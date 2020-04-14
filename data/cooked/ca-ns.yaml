@@ -482,15 +482,15 @@ items:
     tests: 14295
     tests_negative: 14198
     patients_hospital_current: 5
-  - '@context': 'https://consensas.world/m/covid'
+  - date: '2020-04-13'
+    deaths: 1
+    tests_positive: 101
+    '@context': 'https://consensas.world/m/covid'
     '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-13'
     region: NS
     country: CA
     key: ca-ns
-    date: '2020-04-13'
     tests: 15580
-    deaths: 1
-    tests_positive: 101
     tests_negative: 15479
     patients_hospital_current: 5
 state: NS
