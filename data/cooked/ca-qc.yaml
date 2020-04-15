@@ -448,9 +448,10 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-13'
     tests_negative: 118013
     tests: 131570
-  - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-14'
-    date: '2020-04-14'
+  - date: '2020-04-14'
+    deaths: 435
     tests_positive: 14248
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-04-14'
     tests_negative: 123203
     tests: 137451
 state: QC
