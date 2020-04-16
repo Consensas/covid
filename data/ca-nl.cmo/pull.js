@@ -88,7 +88,7 @@ const QUERY = JSON.stringify([
     {"onStatisticField":"total_tests_delivered","outStatisticFieldName":"total_tests_delivered_max","statisticType":"max"},
     {"onStatisticField":"date_of_update","outStatisticFieldName":"date_of_update_max","statisticType":"max"},
 ])
-const BASE = "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Covid19_ProvPublic/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&returnGeometry=false"
+const BASE = "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Latest_Covid19Prov_Stats/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&returnGeometry=false"
 
 _.promise()
     .then(fetch.document.get("https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/"))
@@ -105,7 +105,7 @@ _.promise()
         url.searchParams.set("outStatistics", QUERY)
 
         sd.url = url.toString()
-        // console.log(sd.url)
+        console.log(sd.url)
     })
 
     
