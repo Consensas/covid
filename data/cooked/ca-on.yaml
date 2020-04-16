@@ -1015,11 +1015,11 @@ items:
     patients_hospital_current: 769
     patients_icu_current: 255
     patients_ventilated_current: 199
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-04-15'
-    date: '2020-04-15'
+  - date: '2020-04-15'
     deaths: 385
-    tests: 114663
     tests_positive: 8447
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-04-15'
+    tests: 114663
     tests_negative: 106216
     tests_confirmed: 4160
     tests_probable: null
