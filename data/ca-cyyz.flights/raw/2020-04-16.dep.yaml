@@ -1,0 +1,2535 @@
+lastUpdate: '2020-04-16T04:35:00.0124053-04:00'
+serverTime: '2020-04-16T04:40:09.7621172-04:00'
+list:
+  - key: fl.24730796
+    id: FLE700
+    id2: F8700
+    type: DEP
+    schTime: '2020-04-15T21:15:00-04:00'
+    latestTm: '2020-04-16T21:15:00-04:00'
+    gate: B29
+    status: DEL
+    term: T3
+    al: Flair Airlines
+    alCode: FLE
+    ids: []
+    routes:
+      - code: GUA
+        name: La Aurora Airport
+        short: ''
+        city: Guatemala City
+        cnty: GTM
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416JZA8830YYZYUL
+    id: JZA8830
+    id2: AC8830
+    type: DEP
+    schTime: '2020-04-16T00:30:00-04:00'
+    latestTm: '2020-04-16T00:11:00-04:00'
+    gate: D33
+    status: DEP
+    term: T1
+    al: Air Canada Jazz
+    alCode: JZA
+    ids: []
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416EVA35YYZTPE
+    id: EVA35
+    id2: BR35
+    type: DEP
+    schTime: '2020-04-16T01:45:00-04:00'
+    latestTm: '2020-04-16T01:16:00-04:00'
+    gate: E72
+    status: DEP
+    term: T1
+    al: EVA Air
+    alCode: EVA
+    ids:
+      - id: THA6347
+        id2: TG6347
+        alName: Thai Airways International
+      - id: SIA5835
+        id2: SQ5835
+        alName: Singapore Airlines
+    routes:
+      - code: TPE
+        name: Taiwan Taoyuan International Airport
+        short: ''
+        city: Taipei
+        cnty: TWN
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416ACA2283YYZPVG
+    id: ACA2283
+    id2: AC2283
+    type: DEP
+    schTime: '2020-04-16T04:40:00-04:00'
+    latestTm: '2020-04-16T04:40:00-04:00'
+    gate: E78
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: NRT
+        name: Narita International Airport
+        short: Narita
+        city: Tokyo
+        cnty: JPN
+        region: ''
+      - code: PVG
+        name: Shanghai Pudong International Airport
+        short: ''
+        city: Shanghai
+        cnty: CHN
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416AAL5665YYZCLT
+    id: AAL5665
+    id2: AA5665
+    type: DEP
+    schTime: '2020-04-16T06:00:00-04:00'
+    latestTm: '2020-04-16T06:00:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: CLT
+        name: Charlotte Douglas International Airport
+        short: ''
+        city: Charlotte
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416DAL4661YYZDTW
+    id: DAL4661
+    id2: DL4661
+    type: DEP
+    schTime: '2020-04-16T06:10:00-04:00'
+    latestTm: '2020-04-16T06:10:00-04:00'
+    gate: A6
+    status: ONT
+    term: T3
+    al: Delta Airlines
+    alCode: DAL
+    ids:
+      - id: WJA6320
+        id2: WS6320
+        alName: WestJet
+      - id: KAL3358
+        id2: KE3358
+        alName: Korean Air
+    routes:
+      - code: DTW
+        name: Detroit Metropolitan Wayne County Airport
+        short: ''
+        city: Detroit
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL2589YYZMIA
+    id: AAL2589
+    id2: AA2589
+    type: DEP
+    schTime: '2020-04-16T06:14:00-04:00'
+    latestTm: '2020-04-16T06:14:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: MIA
+        name: Miami International Airport
+        short: ''
+        city: Miami
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA2287YYZPVG
+    id: ACA2287
+    id2: AC2287
+    type: DEP
+    schTime: '2020-04-16T06:20:00-04:00'
+    latestTm: '2020-04-16T06:20:00-04:00'
+    gate: '178'
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: NRT
+        name: Narita International Airport
+        short: Narita
+        city: Tokyo
+        cnty: JPN
+        region: ''
+      - code: PVG
+        name: Shanghai Pudong International Airport
+        short: ''
+        city: Shanghai
+        cnty: CHN
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416AAL3955YYZLGA
+    id: AAL3955
+    id2: AA3955
+    type: DEP
+    schTime: '2020-04-16T06:30:00-04:00'
+    latestTm: '2020-04-16T06:30:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: LGA
+        name: La Guardia Airport
+        short: La Guardia
+        city: New York
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA2365YYZMZJ
+    id: ACA2365
+    id2: AC2365
+    type: DEP
+    schTime: '2020-04-16T06:30:00-04:00'
+    latestTm: '2020-04-16T06:30:00-04:00'
+    gate: '155'
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: MZJ
+        name: Pinal Airpark
+        short: ''
+        city: Marana
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416WJA653YYZYYC
+    id: WJA653
+    id2: WS653
+    type: DEP
+    schTime: '2020-04-16T06:45:00-04:00'
+    latestTm: '2020-04-16T06:45:00-04:00'
+    gate: B23
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids: []
+    routes:
+      - code: YYC
+        name: Calgary International Airport
+        short: ''
+        city: Calgary
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL4992YYZPHL
+    id: AAL4992
+    id2: AA4992
+    type: DEP
+    schTime: '2020-04-16T07:00:00-04:00'
+    latestTm: '2020-04-16T07:00:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: PHL
+        name: Philadelphia International Airport
+        short: ''
+        city: Philadelphia
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA7054YYZLIM
+    id: ACA7054
+    id2: AC7054
+    type: DEP
+    schTime: '2020-04-16T07:00:00-04:00'
+    latestTm: '2020-04-16T07:00:00-04:00'
+    gate: E79
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: LIM
+        name: Jorge Chávez International Airport
+        short: ''
+        city: Lima
+        cnty: PER
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416WJA701YYZYVR
+    id: WJA701
+    id2: WS701
+    type: DEP
+    schTime: '2020-04-16T07:00:00-04:00'
+    latestTm: '2020-04-16T07:00:00-04:00'
+    gate: B22
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: CSN7541
+        id2: CZ7541
+        alName: China Southern
+      - id: CES8032
+        id2: MU8032
+        alName: China Eastern
+    routes:
+      - code: YVR
+        name: Vancouver International Airport
+        short: ''
+        city: Vancouver
+        cnty: CAN
+        region: BC
+    carousel: null
+    termzone: CAN
+  - key: U0416FLE102YYZYVR
+    id: FLE102
+    id2: F8102
+    type: DEP
+    schTime: '2020-04-16T07:00:00-04:00'
+    latestTm: '2020-04-16T07:00:00-04:00'
+    gate: B29
+    status: ONT
+    term: T3
+    al: Flair Airlines
+    alCode: FLE
+    ids: []
+    routes:
+      - code: YEG
+        name: Edmonton International Airport
+        short: ''
+        city: Edmonton
+        cnty: CAN
+        region: AB
+      - code: YVR
+        name: Vancouver International Airport
+        short: ''
+        city: Vancouver
+        cnty: CAN
+        region: BC
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL1169YYZDFW
+    id: AAL1169
+    id2: AA1169
+    type: DEP
+    schTime: '2020-04-16T07:00:00-04:00'
+    latestTm: '2020-04-16T07:00:00-04:00'
+    gate: A8
+    status: ONT
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: DFW
+        name: Dallas Fort Worth International Airport
+        short: ''
+        city: Dallas-Fort Worth
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA2369YYZMZJ
+    id: ACA2369
+    id2: AC2369
+    type: DEP
+    schTime: '2020-04-16T07:30:00-04:00'
+    latestTm: '2020-04-16T07:30:00-04:00'
+    gate: '157'
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: MZJ
+        name: Pinal Airpark
+        short: ''
+        city: Marana
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA2285YYZPVG
+    id: ACA2285
+    id2: AC2285
+    type: DEP
+    schTime: '2020-04-16T07:30:00-04:00'
+    latestTm: '2020-04-16T07:30:00-04:00'
+    gate: E75
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: NRT
+        name: Narita International Airport
+        short: Narita
+        city: Tokyo
+        cnty: JPN
+        region: ''
+      - code: PVG
+        name: Shanghai Pudong International Airport
+        short: ''
+        city: Shanghai
+        cnty: CHN
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416AAL5689YYZCLT
+    id: AAL5689
+    id2: AA5689
+    type: DEP
+    schTime: '2020-04-16T07:35:00-04:00'
+    latestTm: '2020-04-16T07:35:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: CLT
+        name: Charlotte Douglas International Airport
+        short: ''
+        city: Charlotte
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL2520YYZORD
+    id: AAL2520
+    id2: AA2520
+    type: DEP
+    schTime: '2020-04-16T07:45:00-04:00'
+    latestTm: '2020-04-16T07:45:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: ORD
+        name: Chicago O'Hare International Airport
+        short: ''
+        city: Chicago
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA402YYZYUL
+    id: ACA402
+    id2: AC402
+    type: DEP
+    schTime: '2020-04-16T08:00:00-04:00'
+    latestTm: '2020-04-16T08:00:00-04:00'
+    gate: D38
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7510YYZYOW
+    id: ACA7510
+    id2: AC7510
+    type: DEP
+    schTime: '2020-04-16T08:10:00-04:00'
+    latestTm: '2020-04-16T08:10:00-04:00'
+    gate: D35
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7155YYZPVG
+    id: ACA7155
+    id2: AC7155
+    type: DEP
+    schTime: '2020-04-16T08:30:00-04:00'
+    latestTm: '2020-04-16T08:30:00-04:00'
+    gate: E74
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: NRT
+        name: Narita International Airport
+        short: Narita
+        city: Tokyo
+        cnty: JPN
+        region: ''
+      - code: PVG
+        name: Shanghai Pudong International Airport
+        short: ''
+        city: Shanghai
+        cnty: CHN
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416ACA2371YYZMZJ
+    id: ACA2371
+    id2: AC2371
+    type: DEP
+    schTime: '2020-04-16T08:30:00-04:00'
+    latestTm: '2020-04-16T08:30:00-04:00'
+    gate: E69
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: MZJ
+        name: Pinal Airpark
+        short: ''
+        city: Marana
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA692YYZYYT
+    id: ACA692
+    id2: AC692
+    type: DEP
+    schTime: '2020-04-16T08:30:00-04:00'
+    latestTm: '2020-04-16T08:30:00-04:00'
+    gate: D37
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YYT
+        name: St. John's International Airport
+        short: ''
+        city: St. John's
+        cnty: CAN
+        region: NL
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA103YYZYVR
+    id: ACA103
+    id2: AC103
+    type: DEP
+    schTime: '2020-04-16T08:30:00-04:00'
+    latestTm: '2020-04-16T08:30:00-04:00'
+    gate: D31
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YVR
+        name: Vancouver International Airport
+        short: ''
+        city: Vancouver
+        cnty: CAN
+        region: BC
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA135YYZYYC
+    id: ACA135
+    id2: AC135
+    type: DEP
+    schTime: '2020-04-16T08:30:00-04:00'
+    latestTm: '2020-04-16T08:30:00-04:00'
+    gate: D41
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YYC
+        name: Calgary International Airport
+        short: ''
+        city: Calgary
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7701YYZORD
+    id: ACA7701
+    id2: AC7701
+    type: DEP
+    schTime: '2020-04-16T08:40:00-04:00'
+    latestTm: '2020-04-16T08:40:00-04:00'
+    gate: F68
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: ORD
+        name: Chicago O'Hare International Airport
+        short: ''
+        city: Chicago
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416JZA8294YYZBOS
+    id: JZA8294
+    id2: AC8294
+    type: DEP
+    schTime: '2020-04-16T08:50:00-04:00'
+    latestTm: '2020-04-16T08:50:00-04:00'
+    gate: F64
+    status: ONT
+    term: T1
+    al: Air Canada Jazz
+    alCode: JZA
+    ids: []
+    routes:
+      - code: BOS
+        name: General Edward Lawrence Logan International Airport
+        short: ''
+        city: Boston
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA791YYZLAX
+    id: ACA791
+    id2: AC791
+    type: DEP
+    schTime: '2020-04-16T08:50:00-04:00'
+    latestTm: '2020-04-16T08:50:00-04:00'
+    gate: F61
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: UAL8321
+        id2: UA8321
+        alName: United Airlines
+      - id: ANZ4791
+        id2: NZ4791
+        alName: Air New Zealand
+    routes:
+      - code: LAX
+        name: Los Angeles International Airport
+        short: ''
+        city: Los Angeles
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA7608YYZDCA
+    id: ACA7608
+    id2: AC7608
+    type: DEP
+    schTime: '2020-04-16T09:00:00-04:00'
+    latestTm: '2020-04-16T09:00:00-04:00'
+    gate: ''
+    status: CAN
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: UAL8552
+        id2: UA8552
+        alName: United Airlines
+    routes:
+      - code: DCA
+        name: Ronald Reagan Washington National Airport
+        short: Reagan
+        city: Washington
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA7706YYZIAD
+    id: ACA7706
+    id2: AC7706
+    type: DEP
+    schTime: '2020-04-16T09:10:00-04:00'
+    latestTm: '2020-04-16T09:10:00-04:00'
+    gate: F66
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: UAL8266
+        id2: UA8266
+        alName: United Airlines
+    routes:
+      - code: IAD
+        name: Washington Dulles International Airport
+        short: Dulles
+        city: Washington
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA7646YYZEWR
+    id: ACA7646
+    id2: AC7646
+    type: DEP
+    schTime: '2020-04-16T09:55:00-04:00'
+    latestTm: '2020-04-16T09:55:00-04:00'
+    gate: F32
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: EWR
+        name: Newark Liberty International Airport
+        short: ''
+        city: Newark
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416WJA3520YYZYUL
+    id: WJA3520
+    id2: WS3520
+    type: DEP
+    schTime: '2020-04-16T10:00:00-04:00'
+    latestTm: '2020-04-16T10:00:00-04:00'
+    gate: B24
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR3757
+        id2: AF3757
+        alName: Air France
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA3462YYZYOW
+    id: WJA3462
+    id2: WS3462
+    type: DEP
+    schTime: '2020-04-16T10:00:00-04:00'
+    latestTm: '2020-04-16T10:00:00-04:00'
+    gate: B25
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids: []
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA657YYZYYC
+    id: WJA657
+    id2: WS657
+    type: DEP
+    schTime: '2020-04-16T10:00:00-04:00'
+    latestTm: '2020-04-16T10:00:00-04:00'
+    gate: B41
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL7579
+        id2: DL7579
+        alName: Delta Airlines
+      - id: QFA3396
+        id2: QF3396
+        alName: Qantas
+    routes:
+      - code: YYC
+        name: Calgary International Airport
+        short: ''
+        city: Calgary
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA269YYZYWG
+    id: ACA269
+    id2: AC269
+    type: DEP
+    schTime: '2020-04-16T10:10:00-04:00'
+    latestTm: '2020-04-16T10:10:00-04:00'
+    gate: D45
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: UAL8643
+        id2: UA8643
+        alName: United Airlines
+      - id: DLH6674
+        id2: LH6674
+        alName: Lufthansa
+      - id: AUA8347
+        id2: OS8347
+        alName: Austrian Airlines
+      - id: ETD3866
+        id2: EY3866
+        alName: Etihad Airways
+    routes:
+      - code: YWG
+        name: Winnipeg / James Armstrong Richardson International Airport
+        short: ''
+        city: Winnipeg
+        cnty: CAN
+        region: MB
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA248YYZYHZ
+    id: WJA248
+    id2: WS248
+    type: DEP
+    schTime: '2020-04-16T10:10:00-04:00'
+    latestTm: '2020-04-16T10:10:00-04:00'
+    gate: B27
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL6334
+        id2: DL6334
+        alName: Delta Airlines
+    routes:
+      - code: YHZ
+        name: Halifax / Stanfield International Airport
+        short: ''
+        city: Halifax
+        cnty: CAN
+        region: NS
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA3123YYZYQT
+    id: WJA3123
+    id2: WS3123
+    type: DEP
+    schTime: '2020-04-16T10:15:00-04:00'
+    latestTm: '2020-04-16T10:15:00-04:00'
+    gate: B20
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL7014
+        id2: DL7014
+        alName: Delta Airlines
+      - id: KLM9578
+        id2: KL9578
+        alName: KLM
+      - id: QFA3614
+        id2: QF3614
+        alName: Qantas
+    routes:
+      - code: YQT
+        name: Thunder Bay Airport
+        short: ''
+        city: Thunder Bay
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL5514YYZPHL
+    id: AAL5514
+    id2: AA5514
+    type: DEP
+    schTime: '2020-04-16T10:25:00-04:00'
+    latestTm: '2020-04-16T10:25:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: PHL
+        name: Philadelphia International Airport
+        short: ''
+        city: Philadelphia
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: fl.24739279
+    id: SWG9010
+    id2: WG9010
+    type: DEP
+    schTime: '2020-04-16T10:30:00-04:00'
+    latestTm: '2020-04-16T10:30:30-04:00'
+    gate: B39
+    status: ONT
+    term: T3
+    al: Sunwing
+    alCode: SWG
+    ids: []
+    routes:
+      - code: YKF
+        name: Waterloo Airport
+        short: ''
+        city: Kitchener
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA3456YYZYQM
+    id: WJA3456
+    id2: WS3456
+    type: DEP
+    schTime: '2020-04-16T10:30:00-04:00'
+    latestTm: '2020-04-16T10:30:00-04:00'
+    gate: B22
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL7158
+        id2: DL7158
+        alName: Delta Airlines
+      - id: KLM9672
+        id2: KL9672
+        alName: KLM
+    routes:
+      - code: YQM
+        name: Greater Moncton International Airport
+        short: ''
+        city: Moncton
+        cnty: CAN
+        region: NB
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA414YYZYYT
+    id: WJA414
+    id2: WS414
+    type: DEP
+    schTime: '2020-04-16T10:45:00-04:00'
+    latestTm: '2020-04-16T10:45:00-04:00'
+    gate: B23
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL7222
+        id2: DL7222
+        alName: Delta Airlines
+      - id: KLM9620
+        id2: KL9620
+        alName: KLM
+    routes:
+      - code: YYT
+        name: St. John's International Airport
+        short: ''
+        city: St. John's
+        cnty: CAN
+        region: NL
+    carousel: null
+    termzone: CAN
+  - key: U0416JZA8603YYZYSB
+    id: JZA8603
+    id2: AC8603
+    type: DEP
+    schTime: '2020-04-16T11:00:00-04:00'
+    latestTm: '2020-04-16T11:00:00-04:00'
+    gate: D7
+    status: ONT
+    term: T1
+    al: Air Canada Jazz
+    alCode: JZA
+    ids: []
+    routes:
+      - code: YSB
+        name: Sudbury Airport
+        short: ''
+        city: Sudbury
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: fl.24704529
+    id: SWG9905
+    id2: WG9905
+    type: DEP
+    schTime: '2020-04-16T11:00:00-04:00'
+    latestTm: '2020-04-16T11:00:00-04:00'
+    gate: B29
+    status: CAN
+    term: T3
+    al: Sunwing
+    alCode: SWG
+    ids: []
+    routes:
+      - code: YKF
+        name: Waterloo Airport
+        short: ''
+        city: Kitchener
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA305YYZYWG
+    id: WJA305
+    id2: WS305
+    type: DEP
+    schTime: '2020-04-16T11:00:00-04:00'
+    latestTm: '2020-04-16T11:00:00-04:00'
+    gate: B40
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL6335
+        id2: DL6335
+        alName: Delta Airlines
+    routes:
+      - code: YWG
+        name: Winnipeg / James Armstrong Richardson International Airport
+        short: ''
+        city: Winnipeg
+        cnty: CAN
+        region: MB
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL5517YYZDCA
+    id: AAL5517
+    id2: AA5517
+    type: DEP
+    schTime: '2020-04-16T11:07:00-04:00'
+    latestTm: '2020-04-16T11:07:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: DCA
+        name: Ronald Reagan Washington National Airport
+        short: Reagan
+        city: Washington
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416WJA3408YYZYQB
+    id: WJA3408
+    id2: WS3408
+    type: DEP
+    schTime: '2020-04-16T11:30:00-04:00'
+    latestTm: '2020-04-16T11:30:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL7635
+        id2: DL7635
+        alName: Delta Airlines
+      - id: KLM9624
+        id2: KL9624
+        alName: KLM
+    routes:
+      - code: YQB
+        name: Quebec Jean Lesage International Airport
+        short: ''
+        city: Quebec
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL3297YYZORD
+    id: AAL3297
+    id2: AA3297
+    type: DEP
+    schTime: '2020-04-16T11:30:00-04:00'
+    latestTm: '2020-04-16T11:30:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids:
+      - id: ASA4079
+        id2: AS4079
+        alName: Alaska Airlines
+      - id: QFA3271
+        id2: QF3271
+        alName: Qantas
+    routes:
+      - code: ORD
+        name: Chicago O'Hare International Airport
+        short: ''
+        city: Chicago
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416DAL4982YYZJFK
+    id: DAL4982
+    id2: DL4982
+    type: DEP
+    schTime: '2020-04-16T11:40:00-04:00'
+    latestTm: '2020-04-16T11:40:00-04:00'
+    gate: A6
+    status: ONT
+    term: T3
+    al: Delta Airlines
+    alCode: DAL
+    ids:
+      - id: WJA6332
+        id2: WS6332
+        alName: WestJet
+      - id: VIR4718
+        id2: VS4718
+        alName: Virgin Atlantic Airways
+      - id: GLO8416
+        id2: G38416
+        alName: Gol Transportes Aereos
+      - id: KLM8041
+        id2: KL8041
+        alName: KLM
+      - id: KAL7417
+        id2: KE7417
+        alName: Korean Air
+      - id: AFR2389
+        id2: AF2389
+        alName: Air France
+      - id: AMX4346
+        id2: AM4346
+        alName: AeroMexico
+      - id: AZA3414
+        id2: AZ3414
+        alName: Alitalia
+    routes:
+      - code: JFK
+        name: John F Kennedy International Airport
+        short: JFK
+        city: New York
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL3470YYZDFW
+    id: AAL3470
+    id2: AA3470
+    type: DEP
+    schTime: '2020-04-16T12:00:00-04:00'
+    latestTm: '2020-04-16T12:00:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: DFW
+        name: Dallas Fort Worth International Airport
+        short: ''
+        city: Dallas-Fort Worth
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL5698YYZCLT
+    id: AAL5698
+    id2: AA5698
+    type: DEP
+    schTime: '2020-04-16T12:14:00-04:00'
+    latestTm: '2020-04-16T12:14:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: CLT
+        name: Charlotte Douglas International Airport
+        short: ''
+        city: Charlotte
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AIC188YYZDEL
+    id: AIC188
+    id2: AI188
+    type: DEP
+    schTime: '2020-04-16T12:15:00-04:00'
+    latestTm: '2020-04-16T12:15:00-04:00'
+    gate: ''
+    status: CAN
+    term: T1
+    al: Air India Limited
+    alCode: AIC
+    ids:
+      - id: ALK3641
+        id2: UL3641
+        alName: SriLankan Airlines
+    routes:
+      - code: DEL
+        name: Indira Gandhi International Airport
+        short: ''
+        city: New Delhi
+        cnty: IND
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: fl.24739285
+    id: SWG9011
+    id2: WG9011
+    type: DEP
+    schTime: '2020-04-16T13:00:00-04:00'
+    latestTm: '2020-04-16T13:00:00-04:00'
+    gate: B39
+    status: ONT
+    term: T3
+    al: Sunwing
+    alCode: SWG
+    ids: []
+    routes:
+      - code: YKF
+        name: Waterloo Airport
+        short: ''
+        city: Kitchener
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL3386YYZLGA
+    id: AAL3386
+    id2: AA3386
+    type: DEP
+    schTime: '2020-04-16T13:29:00-04:00'
+    latestTm: '2020-04-16T13:29:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: LGA
+        name: La Guardia Airport
+        short: La Guardia
+        city: New York
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA414YYZYUL
+    id: ACA414
+    id2: AC414
+    type: DEP
+    schTime: '2020-04-16T14:00:00-04:00'
+    latestTm: '2020-04-16T14:00:00-04:00'
+    gate: D39
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: DLH6569
+        id2: LH6569
+        alName: Lufthansa
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7564YYZYOW
+    id: ACA7564
+    id2: AC7564
+    type: DEP
+    schTime: '2020-04-16T14:10:00-04:00'
+    latestTm: '2020-04-16T14:10:00-04:00'
+    gate: D35
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416JZA8539YYZYQT
+    id: JZA8539
+    id2: AC8539
+    type: DEP
+    schTime: '2020-04-16T14:40:00-04:00'
+    latestTm: '2020-04-16T14:40:00-04:00'
+    gate: D36
+    status: ONT
+    term: T1
+    al: Air Canada Jazz
+    alCode: JZA
+    ids: []
+    routes:
+      - code: YQT
+        name: Thunder Bay Airport
+        short: ''
+        city: Thunder Bay
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL3350YYZLGA
+    id: AAL3350
+    id2: AA3350
+    type: DEP
+    schTime: '2020-04-16T15:00:00-04:00'
+    latestTm: '2020-04-16T15:00:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: LGA
+        name: La Guardia Airport
+        short: La Guardia
+        city: New York
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL3080YYZORD
+    id: AAL3080
+    id2: AA3080
+    type: DEP
+    schTime: '2020-04-16T15:15:00-04:00'
+    latestTm: '2020-04-16T15:15:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids:
+      - id: ASA4042
+        id2: AS4042
+        alName: Alaska Airlines
+      - id: QFA3303
+        id2: QF3303
+        alName: Qantas
+    routes:
+      - code: ORD
+        name: Chicago O'Hare International Airport
+        short: ''
+        city: Chicago
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL4901YYZPHL
+    id: AAL4901
+    id2: AA4901
+    type: DEP
+    schTime: '2020-04-16T15:29:00-04:00'
+    latestTm: '2020-04-16T15:29:00-04:00'
+    gate: A9
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: PHL
+        name: Philadelphia International Airport
+        short: ''
+        city: Philadelphia
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL2943YYZCLT
+    id: AAL2943
+    id2: AA2943
+    type: DEP
+    schTime: '2020-04-16T15:59:00-04:00'
+    latestTm: '2020-04-16T15:59:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: CLT
+        name: Charlotte Douglas International Airport
+        short: ''
+        city: Charlotte
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416WJA711YYZYVR
+    id: WJA711
+    id2: WS711
+    type: DEP
+    schTime: '2020-04-16T16:00:00-04:00'
+    latestTm: '2020-04-16T16:00:00-04:00'
+    gate: B27
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL7109
+        id2: DL7109
+        alName: Delta Airlines
+      - id: CXA6053
+        id2: MF6053
+        alName: Xiamen Airlines
+      - id: PAL1933
+        id2: PR1933
+        alName: Philippine Airlines
+    routes:
+      - code: YVR
+        name: Vancouver International Airport
+        short: ''
+        city: Vancouver
+        cnty: CAN
+        region: BC
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7698YYZYOW
+    id: ACA7698
+    id2: AC7698
+    type: DEP
+    schTime: '2020-04-16T16:10:00-04:00'
+    latestTm: '2020-04-16T16:10:00-04:00'
+    gate: D35
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416CES208YYZPVG
+    id: CES208
+    id2: MU208
+    type: DEP
+    schTime: '2020-04-16T16:25:00-04:00'
+    latestTm: '2020-04-16T16:25:00-04:00'
+    gate: C34
+    status: ONT
+    term: T3
+    al: China Eastern
+    alCode: CES
+    ids: []
+    routes:
+      - code: PVG
+        name: Shanghai Pudong International Airport
+        short: ''
+        city: Shanghai
+        cnty: CHN
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416WJA3517YYZYXU
+    id: WJA3517
+    id2: WS3517
+    type: DEP
+    schTime: '2020-04-16T16:30:00-04:00'
+    latestTm: '2020-04-16T16:30:00-04:00'
+    gate: B20
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: DAL7417
+        id2: DL7417
+        alName: Delta Airlines
+      - id: KLM9684
+        id2: KL9684
+        alName: KLM
+    routes:
+      - code: YXU
+        name: London Airport
+        short: ''
+        city: London
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA872YYZFRA
+    id: ACA872
+    id2: AC872
+    type: DEP
+    schTime: '2020-04-16T16:45:00-04:00'
+    latestTm: '2020-04-16T16:45:00-04:00'
+    gate: E71
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: UAL8592
+        id2: UA8592
+        alName: United Airlines
+      - id: SIA1012
+        id2: SQ1012
+        alName: Singapore Airlines
+      - id: DLH6789
+        id2: LH6789
+        alName: Lufthansa
+      - id: AUA8202
+        id2: OS8202
+        alName: Austrian Airlines
+    routes:
+      - code: FRA
+        name: Frankfurt am Main Airport
+        short: ''
+        city: Frankfurt am Main
+        cnty: DEU
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416ACA2280YYZZRH
+    id: ACA2280
+    id2: AC2280
+    type: DEP
+    schTime: '2020-04-16T17:05:00-04:00'
+    latestTm: '2020-04-16T17:05:00-04:00'
+    gate: E71
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: ZRH
+        name: Zürich Airport
+        short: ''
+        city: Zurich
+        cnty: CHE
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416AAL5542YYZDCA
+    id: AAL5542
+    id2: AA5542
+    type: DEP
+    schTime: '2020-04-16T17:15:00-04:00'
+    latestTm: '2020-04-16T17:15:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: DCA
+        name: Ronald Reagan Washington National Airport
+        short: Reagan
+        city: Washington
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL4931YYZPHL
+    id: AAL4931
+    id2: AA4931
+    type: DEP
+    schTime: '2020-04-16T17:59:00-04:00'
+    latestTm: '2020-04-16T17:59:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: PHL
+        name: Philadelphia International Airport
+        short: ''
+        city: Philadelphia
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416DAL5024YYZDTW
+    id: DAL5024
+    id2: DL5024
+    type: DEP
+    schTime: '2020-04-16T17:59:00-04:00'
+    latestTm: '2020-04-16T17:59:00-04:00'
+    gate: A6
+    status: ONT
+    term: T3
+    al: Delta Airlines
+    alCode: DAL
+    ids:
+      - id: WJA6355
+        id2: WS6355
+        alName: WestJet
+      - id: KLM8051
+        id2: KL8051
+        alName: KLM
+      - id: AFR2859
+        id2: AF2859
+        alName: Air France
+    routes:
+      - code: DTW
+        name: Detroit Metropolitan Wayne County Airport
+        short: ''
+        city: Detroit
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416WJA3474YYZYOW
+    id: WJA3474
+    id2: WS3474
+    type: DEP
+    schTime: '2020-04-16T18:00:00-04:00'
+    latestTm: '2020-04-16T18:00:00-04:00'
+    gate: B22
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR6562
+        id2: AF6562
+        alName: Air France
+      - id: DAL7066
+        id2: DL7066
+        alName: Delta Airlines
+      - id: CHH8688
+        id2: HU8688
+        alName: Hainan Airlines
+      - id: CES8031
+        id2: MU8031
+        alName: China Eastern
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA125YYZYVR
+    id: ACA125
+    id2: AC125
+    type: DEP
+    schTime: '2020-04-16T18:00:00-04:00'
+    latestTm: '2020-04-16T18:00:00-04:00'
+    gate: D39
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: EIN8547
+        id2: EI8547
+        alName: Aer Lingus
+      - id: DLH6580
+        id2: LH6580
+        alName: Lufthansa
+      - id: AUA8259
+        id2: OS8259
+        alName: Austrian Airlines
+    routes:
+      - code: YVR
+        name: Vancouver International Airport
+        short: ''
+        city: Vancouver
+        cnty: CAN
+        region: BC
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA422YYZYUL
+    id: ACA422
+    id2: AC422
+    type: DEP
+    schTime: '2020-04-16T18:00:00-04:00'
+    latestTm: '2020-04-16T18:00:00-04:00'
+    gate: D33
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: EIN8526
+        id2: EI8526
+        alName: Aer Lingus
+      - id: ETD3854
+        id2: EY3854
+        alName: Etihad Airways
+      - id: AUA8337
+        id2: OS8337
+        alName: Austrian Airlines
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA3534YYZYUL
+    id: WJA3534
+    id2: WS3534
+    type: DEP
+    schTime: '2020-04-16T18:00:00-04:00'
+    latestTm: '2020-04-16T18:00:00-04:00'
+    gate: B40
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR7288
+        id2: AF7288
+        alName: Air France
+      - id: DAL7002
+        id2: DL7002
+        alName: Delta Airlines
+      - id: CHH8698
+        id2: HU8698
+        alName: Hainan Airlines
+      - id: CES8029
+        id2: MU8029
+        alName: China Eastern
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA669YYZYYC
+    id: WJA669
+    id2: WS669
+    type: DEP
+    schTime: '2020-04-16T18:00:00-04:00'
+    latestTm: '2020-04-16T18:00:00-04:00'
+    gate: B29
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR3744
+        id2: AF3744
+        alName: Air France
+      - id: DAL7218
+        id2: DL7218
+        alName: Delta Airlines
+      - id: CHH8755
+        id2: HU8755
+        alName: Hainan Airlines
+    routes:
+      - code: YYC
+        name: Calgary International Airport
+        short: ''
+        city: Calgary
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL3185YYZORD
+    id: AAL3185
+    id2: AA3185
+    type: DEP
+    schTime: '2020-04-16T18:30:00-04:00'
+    latestTm: '2020-04-16T18:30:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: ORD
+        name: Chicago O'Hare International Airport
+        short: ''
+        city: Chicago
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL1111YYZDFW
+    id: AAL1111
+    id2: AA1111
+    type: DEP
+    schTime: '2020-04-16T19:15:00-04:00'
+    latestTm: '2020-04-16T19:15:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: DFW
+        name: Dallas Fort Worth International Airport
+        short: ''
+        city: Dallas-Fort Worth
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416AAL5705YYZCLT
+    id: AAL5705
+    id2: AA5705
+    type: DEP
+    schTime: '2020-04-16T19:15:00-04:00'
+    latestTm: '2020-04-16T19:15:00-04:00'
+    gate: A9
+    status: ONT
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: CLT
+        name: Charlotte Douglas International Airport
+        short: ''
+        city: Charlotte
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA7050YYZMEX
+    id: ACA7050
+    id2: AC7050
+    type: DEP
+    schTime: '2020-04-16T19:20:00-04:00'
+    latestTm: '2020-04-16T19:20:00-04:00'
+    gate: E70
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: MEX
+        name: Licenciado Benito Juarez International Airport
+        short: ''
+        city: Mexico City
+        cnty: MEX
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416AAL3531YYZLGA
+    id: AAL3531
+    id2: AA3531
+    type: DEP
+    schTime: '2020-04-16T19:44:00-04:00'
+    latestTm: '2020-04-16T19:44:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids: []
+    routes:
+      - code: LGA
+        name: La Guardia Airport
+        short: La Guardia
+        city: New York
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416ACA155YYZYYC
+    id: ACA155
+    id2: AC155
+    type: DEP
+    schTime: '2020-04-16T19:55:00-04:00'
+    latestTm: '2020-04-16T19:55:00-04:00'
+    gate: D38
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: EIN8585
+        id2: EI8585
+        alName: Aer Lingus
+    routes:
+      - code: YYC
+        name: Calgary International Airport
+        short: ''
+        city: Calgary
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA187YYZYVR
+    id: ACA187
+    id2: AC187
+    type: DEP
+    schTime: '2020-04-16T19:55:00-04:00'
+    latestTm: '2020-04-16T19:55:00-04:00'
+    gate: ''
+    status: CAN
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: UAL8437
+        id2: UA8437
+        alName: United Airlines
+      - id: EIN8633
+        id2: EI8633
+        alName: Aer Lingus
+    routes:
+      - code: YVR
+        name: Vancouver International Airport
+        short: ''
+        city: Vancouver
+        cnty: CAN
+        region: BC
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA173YYZYEG
+    id: ACA173
+    id2: AC173
+    type: DEP
+    schTime: '2020-04-16T19:55:00-04:00'
+    latestTm: '2020-04-16T19:55:00-04:00'
+    gate: D53
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: DLH6666
+        id2: LH6666
+        alName: Lufthansa
+      - id: AUA8311
+        id2: OS8311
+        alName: Austrian Airlines
+    routes:
+      - code: YEG
+        name: Edmonton International Airport
+        short: ''
+        city: Edmonton
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416AAL3033YYZORD
+    id: AAL3033
+    id2: AA3033
+    type: DEP
+    schTime: '2020-04-16T19:59:00-04:00'
+    latestTm: '2020-04-16T19:59:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: American Airlines
+    alCode: AAL
+    ids:
+      - id: ASA4050
+        id2: AS4050
+        alName: Alaska Airlines
+      - id: QFA3313
+        id2: QF3313
+        alName: Qantas
+    routes:
+      - code: ORD
+        name: Chicago O'Hare International Airport
+        short: ''
+        city: Chicago
+        cnty: USA
+        region: ''
+    carousel: null
+    termzone: USA
+  - key: U0416WJA423YYZYEG
+    id: WJA423
+    id2: WS423
+    type: DEP
+    schTime: '2020-04-16T20:00:00-04:00'
+    latestTm: '2020-04-16T20:00:00-04:00'
+    gate: B27
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR3013
+        id2: AF3013
+        alName: Air France
+      - id: DAL7075
+        id2: DL7075
+        alName: Delta Airlines
+      - id: CHH8675
+        id2: HU8675
+        alName: Hainan Airlines
+      - id: KLM9734
+        id2: KL9734
+        alName: KLM
+    routes:
+      - code: YEG
+        name: Edmonton International Airport
+        short: ''
+        city: Edmonton
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7454YYZYOW
+    id: ACA7454
+    id2: AC7454
+    type: DEP
+    schTime: '2020-04-16T20:10:00-04:00'
+    latestTm: '2020-04-16T20:10:00-04:00'
+    gate: D33
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA2330YYZYMX
+    id: ACA2330
+    id2: AC2330
+    type: DEP
+    schTime: '2020-04-16T20:20:00-04:00'
+    latestTm: '2020-04-16T20:20:00-04:00'
+    gate: D41
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YMX
+        name: Montreal International (Mirabel) Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7051YYZMEX
+    id: ACA7051
+    id2: AC7051
+    type: DEP
+    schTime: '2020-04-16T20:20:00-04:00'
+    latestTm: '2020-04-16T20:20:00-04:00'
+    gate: E80
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: MEX
+        name: Licenciado Benito Juarez International Airport
+        short: ''
+        city: Mexico City
+        cnty: MEX
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416ACA848YYZLHR
+    id: ACA848
+    id2: AC848
+    type: DEP
+    schTime: '2020-04-16T20:35:00-04:00'
+    latestTm: '2020-04-16T20:35:00-04:00'
+    gate: E71
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: THA5805
+        id2: TG5805
+        alName: Thai Airways International
+      - id: SIA1015
+        id2: SQ1015
+        alName: Singapore Airlines
+      - id: UAL8384
+        id2: UA8384
+        alName: United Airlines
+      - id: MEA4520
+        id2: ME4520
+        alName: Middle East Airlines
+      - id: ETH1141
+        id2: ET1141
+        alName: Ethiopian Airlines
+      - id: MSR9617
+        id2: MS9617
+        alName: Egyptair
+      - id: DLH6583
+        id2: LH6583
+        alName: Lufthansa
+      - id: AUA8290
+        id2: OS8290
+        alName: Austrian Airlines
+      - id: AIC7310
+        id2: AI7310
+        alName: Air India Limited
+      - id: ALK2848
+        id2: UL2848
+        alName: SriLankan Airlines
+    routes:
+      - code: LHR
+        name: London Heathrow Airport
+        short: Heathrow
+        city: London
+        cnty: GBR
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416WJA272YYZYHZ
+    id: WJA272
+    id2: WS272
+    type: DEP
+    schTime: '2020-04-16T20:45:00-04:00'
+    latestTm: '2020-04-16T20:45:00-04:00'
+    gate: B25
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR7277
+        id2: AF7277
+        alName: Air France
+      - id: CSN7515
+        id2: CZ7515
+        alName: China Southern
+      - id: DAL7094
+        id2: DL7094
+        alName: Delta Airlines
+      - id: CHH8680
+        id2: HU8680
+        alName: Hainan Airlines
+      - id: CES8027
+        id2: MU8027
+        alName: China Eastern
+      - id: RZO7013
+        id2: S47013
+        alName: Azores Airlines
+    routes:
+      - code: YHZ
+        name: Halifax / Stanfield International Airport
+        short: ''
+        city: Halifax
+        cnty: CAN
+        region: NS
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA535YYZYWG
+    id: WJA535
+    id2: WS535
+    type: DEP
+    schTime: '2020-04-16T21:15:00-04:00'
+    latestTm: '2020-04-16T21:15:00-04:00'
+    gate: B20
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR3020
+        id2: AF3020
+        alName: Air France
+      - id: CSN7531
+        id2: CZ7531
+        alName: China Southern
+      - id: DAL7041
+        id2: DL7041
+        alName: Delta Airlines
+      - id: CHH8737
+        id2: HU8737
+        alName: Hainan Airlines
+      - id: KLM9758
+        id2: KL9758
+        alName: KLM
+      - id: RZO7005
+        id2: S47005
+        alName: Azores Airlines
+    routes:
+      - code: YWG
+        name: Winnipeg / James Armstrong Richardson International Airport
+        short: ''
+        city: Winnipeg
+        cnty: CAN
+        region: MB
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA673YYZYYC
+    id: WJA673
+    id2: WS673
+    type: DEP
+    schTime: '2020-04-16T21:15:00-04:00'
+    latestTm: '2020-04-16T21:15:00-04:00'
+    gate: B41
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR3008
+        id2: AF3008
+        alName: Air France
+      - id: CSN7539
+        id2: CZ7539
+        alName: China Southern
+      - id: DAL6318
+        id2: DL6318
+        alName: Delta Airlines
+      - id: CHH8753
+        id2: HU8753
+        alName: Hainan Airlines
+      - id: KLM9752
+        id2: KL9752
+        alName: KLM
+      - id: RZO7039
+        id2: S47039
+        alName: Azores Airlines
+    routes:
+      - code: YYC
+        name: Calgary International Airport
+        short: ''
+        city: Calgary
+        cnty: CAN
+        region: AB
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA624YYZYHZ
+    id: ACA624
+    id2: AC624
+    type: DEP
+    schTime: '2020-04-16T21:15:00-04:00'
+    latestTm: '2020-04-16T21:15:00-04:00'
+    gate: D34
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: UAL8538
+        id2: UA8538
+        alName: United Airlines
+      - id: DLH6572
+        id2: LH6572
+        alName: Lufthansa
+      - id: ETD3851
+        id2: EY3851
+        alName: Etihad Airways
+    routes:
+      - code: YHZ
+        name: Halifax / Stanfield International Airport
+        short: ''
+        city: Halifax
+        cnty: CAN
+        region: NS
+    carousel: null
+    termzone: CAN
+  - key: U0416WJA3538YYZYUL
+    id: WJA3538
+    id2: WS3538
+    type: DEP
+    schTime: '2020-04-16T21:30:00-04:00'
+    latestTm: '2020-04-16T21:30:00-04:00'
+    gate: B24
+    status: ONT
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR5120
+        id2: AF5120
+        alName: Air France
+      - id: CSN4465
+        id2: CZ4465
+        alName: China Southern
+      - id: DAL7059
+        id2: DL7059
+        alName: Delta Airlines
+      - id: CHH8696
+        id2: HU8696
+        alName: Hainan Airlines
+      - id: KLM9650
+        id2: KL9650
+        alName: KLM
+      - id: CES8001
+        id2: MU8001
+        alName: China Eastern
+      - id: PAL1934
+        id2: PR1934
+        alName: Philippine Airlines
+      - id: RZO7027
+        id2: S47027
+        alName: Azores Airlines
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416BAW98FYYZLHR
+    id: BAW98F
+    id2: BA98F
+    type: DEP
+    schTime: '2020-04-16T21:50:00-04:00'
+    latestTm: '2020-04-16T21:50:00-04:00'
+    gate: C33
+    status: ONT
+    term: T3
+    al: British Airways
+    alCode: BAW
+    ids:
+      - id: FIN5998
+        id2: AY5998
+        alName: Finnair
+      - id: IBE7340
+        id2: IB7340
+        alName: Iberia Airlines
+    routes:
+      - code: LHR
+        name: London Heathrow Airport
+        short: Heathrow
+        city: London
+        cnty: GBR
+        region: ''
+    carousel: null
+    termzone: INTL
+  - key: U0416WJA3478YYZYOW
+    id: WJA3478
+    id2: WS3478
+    type: DEP
+    schTime: '2020-04-16T22:00:00-04:00'
+    latestTm: '2020-04-16T22:00:00-04:00'
+    gate: ''
+    status: CAN
+    term: T3
+    al: WestJet
+    alCode: WJA
+    ids:
+      - id: AFR6573
+        id2: AF6573
+        alName: Air France
+      - id: CSN7510
+        id2: CZ7510
+        alName: China Southern
+      - id: CHH8690
+        id2: HU8690
+        alName: Hainan Airlines
+      - id: KLM9574
+        id2: KL9574
+        alName: KLM
+      - id: CES8025
+        id2: MU8025
+        alName: China Eastern
+      - id: PAL1946
+        id2: PR1946
+        alName: Philippine Airlines
+      - id: RZO7003
+        id2: S47003
+        alName: Azores Airlines
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA7456YYZYOW
+    id: ACA7456
+    id2: AC7456
+    type: DEP
+    schTime: '2020-04-16T22:00:00-04:00'
+    latestTm: '2020-04-16T22:00:00-04:00'
+    gate: D37
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids: []
+    routes:
+      - code: YOW
+        name: Ottawa Macdonald-Cartier International Airport
+        short: ''
+        city: Ottawa
+        cnty: CAN
+        region: 'ON'
+    carousel: null
+    termzone: CAN
+  - key: U0416ACA430YYZYUL
+    id: ACA430
+    id2: AC430
+    type: DEP
+    schTime: '2020-04-16T23:10:00-04:00'
+    latestTm: '2020-04-16T23:10:00-04:00'
+    gate: '140'
+    status: ONT
+    term: T1
+    al: Air Canada
+    alCode: ACA
+    ids:
+      - id: LOT4127
+        id2: LO4127
+        alName: LOT Polish Airlines
+      - id: ETD3876
+        id2: EY3876
+        alName: Etihad Airways
+      - id: EIN8534
+        id2: EI8534
+        alName: Aer Lingus
+    routes:
+      - code: YUL
+        name: Montreal / Pierre Elliott Trudeau International Airport
+        short: ''
+        city: Montreal
+        cnty: CAN
+        region: QC
+    carousel: null
+    termzone: CAN
+  - key: U0416PAL119YYZMNL
+    id: PAL119
+    id2: PR119
+    type: DEP
+    schTime: '2020-04-16T23:30:00-04:00'
+    latestTm: '2020-04-16T23:30:00-04:00'
+    gate: C30
+    status: ONT
+    term: T3
+    al: Philippine Airlines
+    alCode: PAL
+    ids: []
+    routes:
+      - code: MNL
+        name: Ninoy Aquino International Airport
+        short: ''
+        city: Manila
+        cnty: PHL
+        region: ''
+    carousel: null
+    termzone: INTL
+today: '2020-04-16'
+tomorrow: '2020-04-17'
+yesterday: '2020-04-15'
