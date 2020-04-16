@@ -1,5 +1,5 @@
 '@context': 'https://consensas.world/m/covid'
-'@id': 'urn:covid:consensas:ca-bc:cmo'
+'@id': 'urn:covid:consensas:cmo:ca-bc'
 region: BC
 country: CA
 key: ca-bc
@@ -10,329 +10,416 @@ items:
   - date: '2020-01-23'
     deaths: 0
     tests_positive: 0
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-23'
+    tests: 2
   - date: '2020-01-24'
     deaths: 0
     tests_positive: 0
   - date: '2020-01-25'
     deaths: 0
     tests_positive: 0
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-25'
+    tests: 6
   - date: '2020-01-26'
     deaths: 0
     tests_positive: 0
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-26'
+    tests: 26
   - date: '2020-01-27'
     deaths: 0
-    tests_positive: 0
+    tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-27'
+    tests: 36
   - date: '2020-01-28'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-28'
+    tests: 39
   - date: '2020-01-29'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-29'
+    tests: 65
   - date: '2020-01-30'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-30'
+    tests: 98
   - date: '2020-01-31'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-01-31'
+    tests: 121
   - date: '2020-02-01'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-01'
+    tests: 145
   - date: '2020-02-02'
     deaths: 0
     tests_positive: 1
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-02'
+    tests: 161
   - date: '2020-02-03'
     deaths: 0
-    tests_positive: 1
+    tests_positive: 2
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-03'
+    tests: 217
   - date: '2020-02-04'
     deaths: 0
-    tests_positive: 1
+    tests_positive: 2
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-04'
+    tests: 265
   - date: '2020-02-05'
     deaths: 0
     tests_positive: 2
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-05'
+    tests: 300
   - date: '2020-02-06'
     deaths: 0
-    tests_positive: 2
-    '@id': 'urn:covid:consensas:ca-bc:2020-02-06'
-    tests: 264
+    tests_positive: 4
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-06'
+    tests: 363
   - date: '2020-02-07'
     deaths: 0
     tests_positive: 4
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-07'
+    tests: 404
   - date: '2020-02-08'
     deaths: 0
     tests_positive: 4
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-08'
+    tests: 434
   - date: '2020-02-09'
     deaths: 0
     tests_positive: 4
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-09'
+    tests: 444
   - date: '2020-02-10'
     deaths: 0
     tests_positive: 4
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-10'
+    tests: 481
   - date: '2020-02-11'
     deaths: 0
     tests_positive: 4
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-11'
+    tests: 550
   - date: '2020-02-12'
     deaths: 0
-    tests_positive: 4
+    tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-12'
+    tests: 605
   - date: '2020-02-13'
     deaths: 0
-    tests_positive: 4
-    '@id': 'urn:covid:consensas:ca-bc:2020-02-13'
-    tests: 524
+    tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-13'
+    tests: 696
   - date: '2020-02-14'
     deaths: 0
-    tests_positive: 4
-    '@id': 'urn:covid:consensas:ca-bc:2020-02-14'
-    tests: 524
+    tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-14'
+    tests: 740
   - date: '2020-02-15'
     deaths: 0
-    tests_positive: 4
+    tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-15'
+    tests: 752
   - date: '2020-02-16'
     deaths: 0
-    tests_positive: 4
+    tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-16'
+    tests: 781
   - date: '2020-02-17'
     deaths: 0
     tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-17'
+    tests: 785
   - date: '2020-02-18'
     deaths: 0
     tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-18'
+    tests: 886
   - date: '2020-02-19'
     deaths: 0
     tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-19'
+    tests: 943
   - date: '2020-02-20'
     deaths: 0
     tests_positive: 5
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-20'
+    tests: 1008
   - date: '2020-02-21'
     deaths: 0
     tests_positive: 6
-    '@id': 'urn:covid:consensas:ca-bc:2020-02-21'
-    tests: 677
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-21'
+    tests: 1057
   - date: '2020-02-22'
     deaths: 0
     tests_positive: 6
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-22'
+    tests: 1101
   - date: '2020-02-23'
     deaths: 0
-    tests_positive: 6
+    tests_positive: 7
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-23'
+    tests: 1118
   - date: '2020-02-24'
     deaths: 0
-    tests_positive: 6
+    tests_positive: 8
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-24'
+    tests: 1183
   - date: '2020-02-25'
     deaths: 0
-    tests_positive: 7
+    tests_positive: 8
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-25'
+    tests: 1261
   - date: '2020-02-26'
     deaths: 0
-    tests_positive: 7
+    tests_positive: 8
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-26'
+    tests: 1399
   - date: '2020-02-27'
     deaths: 0
-    tests_positive: 7
-    '@id': 'urn:covid:consensas:ca-bc:2020-02-27'
-    tests: 1012
+    tests_positive: 8
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-27'
+    tests: 1520
   - date: '2020-02-28'
     deaths: 0
-    tests_positive: 7
+    tests_positive: 9
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-28'
+    tests: 1668
   - date: '2020-02-29'
     deaths: 0
-    tests_positive: 8
+    tests_positive: 10
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-02-29'
+    tests: 1773
   - date: '2020-03-01'
     deaths: 0
-    tests_positive: 8
+    tests_positive: 10
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-01'
+    tests: 1844
   - date: '2020-03-02'
     deaths: 0
-    tests_positive: 8
+    tests_positive: 10
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-02'
+    tests: 2038
   - date: '2020-03-03'
     deaths: 0
-    tests_positive: 9
+    tests_positive: 11
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-03'
+    tests: 2348
   - date: '2020-03-04'
     deaths: 0
-    tests_positive: 12
+    tests_positive: 14
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-04'
+    tests: 2832
   - date: '2020-03-05'
     deaths: 0
-    tests_positive: 13
+    tests_positive: 21
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-05'
+    tests: 3203
   - date: '2020-03-06'
     deaths: 0
-    tests_positive: 21
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-06'
-    tests: 2008
+    tests_positive: 22
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-06'
+    tests: 3959
   - date: '2020-03-07'
     deaths: 0
-    tests_positive: 21
+    tests_positive: 28
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-07'
+    tests: 4401
   - date: '2020-03-08'
     deaths: 0
-    tests_positive: 27
+    tests_positive: 29
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-08'
+    tests: 4792
   - date: '2020-03-09'
     deaths: 1
     tests_positive: 32
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-09'
+    tests: 5239
   - date: '2020-03-10'
     deaths: 1
-    tests_positive: 32
+    tests_positive: 36
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-10'
+    tests: 5934
   - date: '2020-03-11'
     deaths: 1
-    tests_positive: 39
+    tests_positive: 44
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-11'
+    tests: 7071
   - date: '2020-03-12'
     deaths: 1
-    tests_positive: 46
+    tests_positive: 59
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-12'
+    tests: 8151
   - date: '2020-03-13'
     deaths: 1
-    tests_positive: 64
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-13'
-    tests: 6326
+    tests_positive: 72
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-13'
+    tests: 9604
   - date: '2020-03-14'
     deaths: 1
-    tests_positive: 64
+    tests_positive: 94
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-14'
+    tests: 11154
   - date: '2020-03-15'
     deaths: 1
-    tests_positive: 73
+    tests_positive: 109
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-15'
+    tests: 12930
   - date: '2020-03-16'
     deaths: 4
-    tests_positive: 103
+    tests_positive: 138
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-16'
+    tests: 16410
   - date: '2020-03-17'
     deaths: 4
-    tests_positive: 103
+    tests_positive: 186
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-17'
+    tests: 19451
   - date: '2020-03-18'
     deaths: 7
-    tests_positive: 186
+    tests_positive: 228
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-18'
+    tests: 20566
   - date: '2020-03-19'
     deaths: 7
-    tests_positive: 231
+    tests_positive: 288
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-19'
+    tests: 21392
   - date: '2020-03-20'
     deaths: 8
-    tests_positive: 424
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-20'
-    tests: 17912
-    tests_negative: 17488
+    tests_positive: 337
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-20'
+    tests: 22901
   - date: '2020-03-21'
     deaths: 10
-    tests_positive: 472
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-21'
-    tests: 21296
-    tests_negative: 20824
+    tests_positive: 406
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-21'
+    tests: 24864
   - date: '2020-03-22'
     deaths: 10
-    tests_positive: 472
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-22'
-    tests: 26681
-    tests_negative: 26209
+    tests_positive: 471
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-22'
+    tests: 26900
   - date: '2020-03-23'
     deaths: 13
-    tests_positive: 472
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-23'
-    tests: 26681
+    tests_positive: 522
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-23'
+    tests: 28843
   - date: '2020-03-24'
     deaths: 13
-    tests_positive: 617
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-24'
-    tests: 31739
+    tests_positive: 580
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-24'
+    tests: 30723
   - date: '2020-03-25'
     deaths: 13
-    tests_positive: 617
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-25'
-    tests: 34561
+    tests_positive: 640
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-25'
+    tests: 33421
   - date: '2020-03-26'
     deaths: 14
-    tests_positive: 725
+    tests_positive: 728
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-26'
+    tests: 36007
   - date: '2020-03-27'
     deaths: 14
-    tests_positive: 792
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-27'
-    tests: 36643
-    tests_negative: 35851
+    tests_positive: 789
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-27'
+    tests: 38143
   - date: '2020-03-28'
     deaths: 17
-    tests_positive: 884
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-28'
-    tests: 38697
-    tests_negative: 37813
+    tests_positive: 855
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-28'
+    tests: 39932
   - date: '2020-03-29'
     deaths: 17
-    tests_positive: 884
+    tests_positive: 900
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-29'
+    tests: 41498
   - date: '2020-03-30'
     deaths: 19
-    tests_positive: 970
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-30'
-    tests: 42028
-    tests_negative: 41058
+    tests_positive: 960
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-30'
+    tests: 42501
   - date: '2020-03-31'
     deaths: 24
-    tests_positive: 1013
-    '@id': 'urn:covid:consensas:ca-bc:2020-03-31'
-    tests: 43229
-    tests_negative: 42216
+    tests_positive: 1012
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-31'
+    tests: 43489
   - date: '2020-04-01'
     deaths: 24
     tests_positive: 1066
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-01'
-    tests: 44639
-    tests_negative: 43573
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-01'
+    tests: 44654
   - date: '2020-04-02'
     deaths: 31
-    tests_positive: 1121
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-02'
-    tests: 45966
-    tests_negative: 44845
+    tests_positive: 1124
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-02'
+    tests: 45792
   - date: '2020-04-03'
     deaths: 31
-    tests_positive: 1174
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-03'
-    tests: 47352
-    tests_negative: 46178
+    tests_positive: 1176
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-03'
+    tests: 46961
   - date: '2020-04-04'
     deaths: 38
-    tests_positive: 1203
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-04'
-    tests: 48508
-    tests_negative: 47305
+    tests_positive: 1207
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-04'
+    tests: 48190
   - date: '2020-04-05'
     deaths: 38
-    tests_positive: 1203
+    tests_positive: 1245
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-05'
+    tests: 48940
   - date: '2020-04-06'
     deaths: 38
-    tests_positive: 1266
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-06'
-    tests: 50350
-    tests_negative: 49084
+    tests_positive: 1264
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-06'
+    tests: 49765
   - date: '2020-04-07'
     deaths: 39
-    tests_positive: 1291
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-07'
-    tests: 51423
-    tests_negative: 50132
+    tests_positive: 1299
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-07'
+    tests: 50830
   - date: '2020-04-08'
     deaths: 43
-    tests_positive: 1336
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-08'
-    tests: 52412
-    tests_negative: 51076
+    tests_positive: 1349
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-08'
+    tests: 52017
   - date: '2020-04-09'
     deaths: 48
-    tests_positive: 1370
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-09'
-    tests: 53505
-    tests_negative: 52135
+    tests_positive: 1381
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-09'
+    tests: 53184
   - date: '2020-04-10'
     deaths: 50
-    tests_positive: 1410
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-10'
-    tests: 53505
-    tests_negative: 52095
+    tests_positive: 1406
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-10'
+    tests: 54704
   - date: '2020-04-11'
     deaths: 58
-    tests_positive: 1445
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-11'
-    tests: 53505
-    tests_negative: 52060
+    tests_positive: 1457
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-11'
+    tests: 55638
   - date: '2020-04-12'
     deaths: 58
-    tests_positive: 1445
+    tests_positive: 1480
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-12'
+    tests: 56471
   - date: '2020-04-13'
     deaths: 69
-    tests_positive: 1490
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-13'
-    tests: 56142
-    tests_negative: 54652
+    tests_positive: 1498
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-13'
+    tests: 57309
   - date: '2020-04-14'
     deaths: 69
-    tests_positive: 1517
-    '@id': 'urn:covid:consensas:ca-bc:2020-04-14'
-    tests: 58626
-    tests_negative: 57109
+    tests_positive: 1529
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-14'
+    tests: 57997
   - date: '2020-04-15'
     deaths: 72
     tests_positive: 1517
