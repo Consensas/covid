@@ -29,8 +29,8 @@ const xlsx = require("iotdb-xlsx")
 const path = require("path")
 const _util = require("../../_util")
 
-// const FILE = path.join(__dirname, "raw", "98-401-X2016058_English_CSV_data.csv")
-const FILE = path.join(__dirname, "raw", "sample.csv")
+const FILE = path.join(__dirname, "raw", "98-401-X2016058_English_CSV_data.csv")
+// const FILE = path.join(__dirname, "raw", "sample.csv")
 
 /**
  */
@@ -44,6 +44,7 @@ const _one_zone = _.promise((self, done) => {
             }, sd.records[0].zone)
 
             sd.json.health_region = sd.records[0].zone.identifier
+            sd.path = path.join(__dirname, "cooked", sd.json.health_region + ".yaml")
 
             sd.records.forEach(record => {
                 let key = _.id.slugify(record.dim_profile_of_health_regions_2247_)
@@ -59,8 +60,12 @@ const _one_zone = _.promise((self, done) => {
                 sd.json[mapped] = value
             })
 
-            console.log(sd.json)
+            console.log("-", sd.json.health_region)
         })
+
+        .then(fs.make.directory.parent)
+        .then(fs.write.yaml)
+
         .end(done, self, _one_zone)
 })
 
