@@ -526,6 +526,17 @@ items:
     tests: 18453
     tests_negative: 18277
     patients_hospital_current: 7
+  - date: '2020-04-17'
+    deaths: 1
+    tests_positive: 177
+    '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-17'
+    region: NS
+    country: CA
+    key: ca-ns
+    tests: 19506
+    tests_negative: 19329
+    patients_hospital_current: 6
 state: NS
 icu_hospitals: 14
 icu_beds: 141
