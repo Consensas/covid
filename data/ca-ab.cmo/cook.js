@@ -39,6 +39,10 @@ _.promise()
     .then(fs.read.yaml)
     .add("json:settings")
 
+    .add("path", path.join(__dirname, "raw", "cases.yaml"))
+    .then(fs.read.yaml)
+    .add("json/cases:cases")
+
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
         method: fs.read.json.magic,
@@ -48,13 +52,23 @@ _.promise()
     })
     .make(sd => {
         sd.json = _util.record.main(sd.settings)
-        sd.json.key = `${sd.settings.country}-${sd.settings.region}`.toLowerCase()
         sd.json.items = sd.jsons.filter(json => json.date)
 
         sd.json.items.forEach(item => {
             item["@id"] = _util.record.urn(sd.settings, {
                 date: item.date,
             })
+            item.tests_positive = _.size(sd.cases
+                .filter(c => c.date <= item.date))
+            item.active = _.size(sd.cases
+                .filter(c => c.date <= item.date)
+                .filter(c => c.status === "Active"))
+            item.recovered = _.size(sd.cases
+                .filter(c => c.date <= item.date)
+                .filter(c => c.status === "Recovered"))
+            item.deaths = _.size(sd.cases
+                .filter(c => c.date <= item.date)
+                .filter(c => c.status === "Died"))
         })
 
         sd.json = [ sd.json ]

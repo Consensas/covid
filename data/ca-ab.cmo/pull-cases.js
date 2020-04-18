@@ -1,5 +1,5 @@
 /*
- *  data/ab-cmo/pull-new.js
+ *  data/ab-cmo/pull-cases.js
  *
  *  David Janes
  *  Consensas
@@ -82,8 +82,7 @@ const _pull = _.promise((self, done) => {
 
                 for (var row = 0; row < datas[0].length; row++) {
                     sd.json.cases.push({
-                        id: datas[0][row],
-                        date: datas[2][row],
+                        date: datas[1][row],
                         zone: datas[2][row],
                         gender: datas[3][row],
                         age: datas[4][row],
@@ -93,6 +92,7 @@ const _pull = _.promise((self, done) => {
                 }
             })
 
+            sd.json.cases.sort((a, b) => _.is.unsorted(a.date, b.date))
             sd.path = path.join(__dirname, "raw", "cases.yaml")
         })
 
