@@ -31,24 +31,6 @@ const path = require("path")
 // const FILE = path.join(__dirname, "raw", "98-401-X2016058_English_CSV_data.csv")
 const FILE = path.join(__dirname, "raw", "sample.csv")
 
-/*
-
-{ census_year: 2016,
-  geo_code_por_: 1,
-  geo_level: 0,
-  geo_name: 'Canada',
-  gnr: 4,
-  gnr_lf: 5.1,
-  data_quality_flag: 20000,
-  alt_geo_code: 1,
-  dim_profile_of_health_regions_2247_: 'Population, 2016',
-  member_id_profile_of_health_regions_2247_: 1,
-  notes_profile_of_health_regions_2247_: 1,
-  dim_sex_3_member_id_1_total_sex: 35151728,
-  dim_sex_3_member_id_2_male: '...',
-  dim_sex_3_member_id_3_female: '...' }
-*/
-
 /**
  */
 const _one_zone = _.promise((self, done) => {
@@ -58,10 +40,17 @@ const _one_zone = _.promise((self, done) => {
             sd.json = {}
 
             sd.records.forEach(record => {
-                const key = _.id.slugify(record.dim_profile_of_health_regions_2247_)
+                let key = _.id.slugify(record.dim_profile_of_health_regions_2247_)
+                let mapped = sd.settings.mapping[key]
+                if (_.is.Undefined(mapped) || (mapped === "null")) {
+                    return
+                } else if (mapped === "") {
+                    mapped = key
+                }
+
                 const value = record.dim_sex_3_member_id_1_total_sex
 
-                sd.json[key] = value
+                sd.json[mapped] = value
             })
 
             console.log(sd.json)
@@ -72,6 +61,9 @@ const _one_zone = _.promise((self, done) => {
 _one_zone.method = "_one_zone"
 _one_zone.description = ``
 _one_zone.requires = {
+    settings: {
+        mapping: _.is.Dictionary,
+    },
     records: _.is.Array.of.Dictionary,
 }
 _one_zone.accepts = {
@@ -82,6 +74,9 @@ _one_zone.produces = {
 /**
  */
 _.promise()
+    .then(fs.read.yaml.p(path.join(__dirname, "settings.yaml")))
+    .add("json:settings")
+
     .then(fs.read.utf8.p(FILE))
     .then(xlsx.load.csv)
     .make(sd => {

@@ -1,25 +1,21 @@
-rename:
+mapping:
   population_2016: population
   population_2011: null
   population_percentage_change_2011_to_2016: population_growth
   population_density_per_square_kilometre: population_density
-  land_area_in_square_kilometres: area
+  land_area_in_square_kilometres: area_km2
   total_age_groups_and_average_age_of_the_population_100_data: null
-
   average_age_of_the_population: age_average
-  average_household_size: household_size_avergae
+  average_household_size: household_size_average
   average_size_of_census_families: 
   median_age_of_the_population: age_medium
-
-  total_private_dwellings: -
-  private_dwellings_occupied_by_usual_residents: -
-  population_density_per_square_kilometre: -
-  land_area_in_square_kilometres: -
-  '0_to_14_years': age_000_014
+  total_private_dwellings: ""
+  private_dwellings_occupied_by_usual_residents: ""
+  '0_to_14_years': null
   '0_to_4_years': age_000_004
   '5_to_9_years': age_005_009
   '10_to_14_years': age_010_014
-  '15_to_64_years': age_015_064
+  '15_to_64_years': null
   '15_to_19_years': age_015_019
   '20_to_24_years': age_020_024
   '25_to_29_years': age_025_029
@@ -30,67 +26,67 @@ rename:
   '50_to_54_years': age_050_054
   '55_to_59_years': age_055_059
   '60_to_64_years': age_060_064
-  '65_years_and_over': age_065_999
+  '65_years_and_over': null
   '65_to_69_years': age_065_069
   '70_to_74_years': age_070_074
   '75_to_79_years': age_075_079
   '80_to_84_years': age_080_084
-  '85_years_and_over': age_085_999
+  '85_years_and_over': null
   '85_to_89_years': age_085_089
   '90_to_94_years': age_090_094
   '95_to_99_years': age_095_099
   '100_years_and_over': age_100_999
-  total_distribution_of_the_population_by_broad_age_groups_100_data: -
-  total_occupied_private_dwellings_by_structural_type_of_dwelling_100_data: -
-  single_detached_house: -
-  apartment_in_a_building_that_has_five_or_more_storeys: -
-  other_attached_dwelling: -
-  semi_detached_house: -
-  row_house: -
-  apartment_or_flat_in_a_duplex: -
-  apartment_in_a_building_that_has_fewer_than_five_storeys: -
-  other_single_attached_house: -
-  movable_dwelling: -
-  total_private_households_by_household_size_100_data: -
-  '1_person': -
-  '2_persons': -
-  '3_persons': -
-  '4_persons': -
-  '5_or_more_persons': -
-  number_of_persons_in_private_households: -
-  total_marital_status_for_the_population_aged_15_years_and_over_100_data: -
-  married_or_living_common_law: -
-  married: -
-  living_common_law: -
-  not_married_and_not_living_common_law: -
-  never_married: -
-  separated: -
-  divorced: -
-  widowed: -
-  total_census_families_in_private_households_by_family_size_100_data: -
-  total_number_of_census_families_in_private_households_100_data: -
-  total_couple_families: -
-  married_couples: -
-  common_law_couples: -
-  total_lone_parent_families_by_sex_of_parent: -
-  female_parent: -
-  male_parent: -
-  total_couple_census_families_in_private_households_100_data: -
-  couples_without_children: -
-  couples_with_children: -
-  '1_child': -
-  '2_children': -
-  '3_or_more_children': -
-  total_lone_parent_census_families_in_private_households_100_data: -
-  total_persons_not_in_census_families_in_private_households_100_data: -
-  total_private_households_by_household_type_100_data: -
-  one_census_family_households: -
-  without_children_in_a_census_family: -
-  with_children_in_a_census_family: -
-  multiple_census_family_households: -
-  non_census_family_households: -
-  one_person_households: -
-  two_or_more_person_non_census_family_households: -
+  total_distribution_of_the_population_by_broad_age_groups_100_data: null
+  total_occupied_private_dwellings_by_structural_type_of_dwelling_100_data: home_total
+  single_detached_house: home_detached
+  apartment_in_a_building_that_has_five_or_more_storeys: home_apartment_large
+  other_attached_dwelling: home_other
+  semi_detached_house: home_semi
+  row_house: home_row
+  apartment_or_flat_in_a_duplex: home_apartment_duplex
+  apartment_in_a_building_that_has_fewer_than_five_storeys: home_apartment_small
+  other_single_attached_house: home_detached_other
+  movable_dwelling: home_mobile
+  total_private_households_by_household_size_100_data: household_total
+  '1_person': household_1
+  '2_persons': household_2
+  '3_persons': household_3
+  '4_persons': household_4
+  '5_or_more_persons': household_5plus
+  number_of_persons_in_private_households: household_persons
+  total_marital_status_for_the_population_aged_15_years_and_over_100_data: ""
+  married_or_living_common_law: ""
+  married: ""
+  living_common_law: ""
+  not_married_and_not_living_common_law: ""
+  never_married: ""
+  separated: ""
+  divorced: ""
+  widowed: ""
+  total_census_families_in_private_households_by_family_size_100_data: ""
+  total_number_of_census_families_in_private_households_100_data: ""
+  total_couple_families: ""
+  married_couples: ""
+  common_law_couples: ""
+  total_lone_parent_families_by_sex_of_parent: ""
+  female_parent: ""
+  male_parent: ""
+  total_couple_census_families_in_private_households_100_data: ""
+  couples_without_children: ""
+  couples_with_children: ""
+  '1_child': ""
+  '2_children': ""
+  '3_or_more_children': ""
+  total_lone_parent_census_families_in_private_households_100_data: ""
+  total_persons_not_in_census_families_in_private_households_100_data: ""
+  total_private_households_by_household_type_100_data: ""
+  one_census_family_households: ""
+  without_children_in_a_census_family: ""
+  with_children_in_a_census_family: ""
+  multiple_census_family_households: ""
+  non_census_family_households: ""
+  one_person_households: ""
+  two_or_more_person_non_census_family_households: ""
   total_knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents_100_data: null
   english_only: language_english_only
   french_only: language_french_only
