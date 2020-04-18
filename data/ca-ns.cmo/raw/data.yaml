@@ -11,9 +11,10 @@
   gender_: Female
   field13: Male
   age_demographics_: 0 -> 19
-  field15: 20 -> 44
-  field16: 45 -> 64
-  field17: 65+
+  field15: 20 -> 39
+  field16: 40 -> 59
+  field17: 60 -> 79
+  field18: 80+
 - reporting: '2020-03-15'
   new: 0
   total: 415
@@ -92,10 +93,6 @@
   field11: 106
   gender_: 47%
   field13: 53%
-  age_demographics_: 10%
-  field15: 33%
-  field16: 35%
-  field17: 22%
 - reporting: '2020-04-02'
   new: 0
   total: 7446
@@ -106,10 +103,6 @@
   field11: 118
   gender_: 49%
   field13: 51%
-  age_demographics_: 10%
-  field15: 34%
-  field16: 36%
-  field17: 21%
 - reporting: '2020-04-03'
   new: 0
   total: 8234
@@ -120,10 +113,6 @@
   field11: 130
   gender_: 49%
   field13: 51%
-  age_demographics_: 8%
-  field15: 35%
-  field16: 36%
-  field17: 21%
 - reporting: '2020-04-04'
   new: 0
   total: 8964
@@ -134,10 +123,6 @@
   field11: 154
   gender_: 51%
   field13: 49%
-  age_demographics_: 8%
-  field15: 35%
-  field16: 36%
-  field17: 21%
 - reporting: '2020-04-05'
   new: 0
   total: 9510
@@ -148,10 +133,6 @@
   field11: 175
   gender_: 52%
   field13: 48%
-  age_demographics_: 9%
-  field15: 34%
-  field16: 37%
-  field17: 21%
 - reporting: '2020-04-06'
   new: 0
   total: 10218
@@ -162,10 +143,6 @@
   field11: 197
   gender_: 52%
   field13: 48%
-  age_demographics_: 10%
-  field15: 34%
-  field16: 35%
-  field17: 21%
 - reporting: '2020-04-07'
   new: 1
   total: 10621
@@ -176,10 +153,6 @@
   field11: 208
   gender_: 51%
   field13: 49%
-  age_demographics_: 9%
-  field15: 35%
-  field16: 35%
-  field17: 21%
 - reporting: '2020-04-08'
   new: 0
   total: 11346
@@ -190,10 +163,6 @@
   field11: 235
   gender_: 53%
   field13: 47%
-  age_demographics_: 10%
-  field15: 34%
-  field16: 34%
-  field17: 22%
 - reporting: '2020-04-09'
   new: 1
   total: 12177
@@ -206,10 +175,6 @@
   field11: 262
   gender_: 53%
   field13: 47%
-  age_demographics_: 10%
-  field15: 33%
-  field16: 36%
-  field17: 22%
 - reporting: '2020-04-10'
   new: 0
   total: 13014
@@ -222,10 +187,6 @@
   field11: 292
   gender_: 53%
   field13: 47%
-  age_demographics_: 11%
-  field15: 31%
-  field16: 37%
-  field17: 22%
 - reporting: '2020-04-11'
   new: 0
   total: 13632
@@ -238,10 +199,6 @@
   field11: 312
   gender_: 52%
   field13: 48%
-  age_demographics_: 11%
-  field15: 31%
-  field16: 38%
-  field17: 21%
 - reporting: '2020-04-12'
   new: 0
   total: 14295
@@ -254,10 +211,6 @@
   field11: 328
   gender_: 53%
   field13: 47%
-  age_demographics_: 11%
-  field15: 31%
-  field16: 38%
-  field17: 20%
 - reporting: '2020-04-13'
   new: 1
   total: 15580
@@ -270,10 +223,6 @@
   field11: 354
   gender_: 52%
   field13: 48%
-  age_demographics_: 10%
-  field15: 31%
-  field16: 38%
-  field17: 21%
 - reporting: '2020-04-14'
   new: 0
   total: 16755
@@ -286,10 +235,6 @@
   field11: 397
   gender_: 53%
   field13: 47%
-  age_demographics_: 10%
-  field15: 31%
-  field16: 38%
-  field17: 21%
 - reporting: '2020-04-15'
   new: 0
   total: 17419
@@ -302,10 +247,6 @@
   field11: 426
   gender_: 49%
   field13: 52%
-  age_demographics_: 10%
-  field15: 29%
-  field16: 37%
-  field17: 23%
 - reporting: '2020-04-16'
   new: 0
   total: 18453
@@ -318,10 +259,6 @@
   field11: 453
   gender_: 54%
   field13: 46%
-  age_demographics_: 11%
-  field15: 30%
-  field16: 36%
-  field17: 23%
 - reporting: '2020-04-17'
   new: 1
   total: 19506
@@ -334,7 +271,20 @@
   field11: 478
   gender_: 55%
   field13: 45%
-  age_demographics_: 12%
-  field15: 30%
-  field16: 35%
-  field17: 23%
+- reporting: '2020-04-18'
+  new: 3
+  total: 20312
+  total_cases: 184
+  currently_hospitalized: 6
+  field6: 5
+  cumulative_case_numbers_by_zone: 49
+  field9: 36
+  field10: 45
+  field11: 519
+  gender_: 56%
+  field13: 44%
+  age_demographics_: 11%
+  field15: 25%
+  field16: 30%
+  field17: 25%
+  field18: 8%
