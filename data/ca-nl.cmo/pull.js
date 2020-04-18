@@ -82,7 +82,9 @@ _pull.produces = {
 
 const QUERY = JSON.stringify([
     {"onStatisticField":"total_cases","outStatisticFieldName":"total_cases_max","statisticType":"max"},
-    {"onStatisticField":"total_hospitalized","outStatisticFieldName":"total_hospitalized_max","statisticType":"max"},
+    // {"onStatisticField":"total_hospitalized","outStatisticFieldName":"total_hospitalized_max","statisticType":"max"},
+    {"onStatisticField":"currently_hospitalized","outStatisticFieldName":"currently_hospitalized_max","statisticType":"max"},
+    {"onStatisticField":"currently_in_icu","outStatisticFieldName":"currently_in_icu_max","statisticType":"max"},
     {"onStatisticField":"total_deaths","outStatisticFieldName":"total_deaths_max","statisticType":"max"},
     {"onStatisticField":"total_recovered","outStatisticFieldName":"total_recovered_max","statisticType":"max"},
     {"onStatisticField":"total_tests_delivered","outStatisticFieldName":"total_tests_delivered_max","statisticType":"max"},

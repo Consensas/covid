@@ -58,7 +58,8 @@ _.promise({
             deaths: sd.json.total_deaths_max || null,
             recovered: sd.json.total_recovered_max || null,
             tests: sd.json.total_tests_delivered_max || null,
-            patients_hospital_current: sd.json.total_hospitalized_max || null,
+            patients_hospital_current: sd.json.currently_hospitalized_max || null,
+            patients_icu_current: sd.json.currently_in_icu_max || null,
         }),
     })
 
