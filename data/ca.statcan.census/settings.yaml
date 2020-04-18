@@ -9,8 +9,8 @@ mapping:
   average_household_size: household_size_average
   average_size_of_census_families: 
   median_age_of_the_population: age_medium
-  total_private_dwellings: ""
-  private_dwellings_occupied_by_usual_residents: ""
+  total_private_dwellings: home_private_dwellings
+  private_dwellings_occupied_by_usual_residents: home_private_dwellings_occupied
   '0_to_14_years': null
   '0_to_4_years': age_000_004
   '5_to_9_years': age_005_009
@@ -41,11 +41,11 @@ mapping:
   single_detached_house: home_detached
   apartment_in_a_building_that_has_five_or_more_storeys: home_apartment_large
   other_attached_dwelling: home_other
-  semi_detached_house: home_semi
-  row_house: home_row
-  apartment_or_flat_in_a_duplex: home_apartment_duplex
-  apartment_in_a_building_that_has_fewer_than_five_storeys: home_apartment_small
-  other_single_attached_house: home_detached_other
+  semi_detached_house: home_other_semi
+  row_house: home_other_row
+  apartment_or_flat_in_a_duplex: home_other_apartment_duplex
+  apartment_in_a_building_that_has_fewer_than_five_storeys: home_other_apartment_small
+  other_single_attached_house: home_other_other
   movable_dwelling: home_mobile
   total_private_households_by_household_size_100_data: household_total
   '1_person': household_1
@@ -54,44 +54,44 @@ mapping:
   '4_persons': household_4
   '5_or_more_persons': household_5plus
   number_of_persons_in_private_households: household_persons
-  total_marital_status_for_the_population_aged_15_years_and_over_100_data: ""
-  married_or_living_common_law: ""
-  married: ""
-  living_common_law: ""
-  not_married_and_not_living_common_law: ""
-  never_married: ""
-  separated: ""
-  divorced: ""
-  widowed: ""
-  total_census_families_in_private_households_by_family_size_100_data: ""
-  total_number_of_census_families_in_private_households_100_data: ""
-  total_couple_families: ""
-  married_couples: ""
-  common_law_couples: ""
-  total_lone_parent_families_by_sex_of_parent: ""
-  female_parent: ""
-  male_parent: ""
-  total_couple_census_families_in_private_households_100_data: ""
-  couples_without_children: ""
-  couples_with_children: ""
-  '1_child': ""
-  '2_children': ""
-  '3_or_more_children': ""
-  total_lone_parent_census_families_in_private_households_100_data: ""
-  total_persons_not_in_census_families_in_private_households_100_data: ""
-  total_private_households_by_household_type_100_data: ""
-  one_census_family_households: ""
-  without_children_in_a_census_family: ""
-  with_children_in_a_census_family: ""
-  multiple_census_family_households: ""
-  non_census_family_households: ""
-  one_person_households: ""
-  two_or_more_person_non_census_family_households: ""
+  total_marital_status_for_the_population_aged_15_years_and_over_100_data: "marital_total"
+  married_or_living_common_law: marital_married_or_common
+  married: marital_married
+  living_common_law: marital_common
+  not_married_and_not_living_common_law: marital_not_married_or_common
+  never_married: marital_never
+  separated: marital_separated
+  divorced: marital_divorced
+  widowed: marital_widowed
+  total_census_families_in_private_households_by_family_size_100_data: null
+  total_number_of_census_families_in_private_households_100_data: null
+  total_couple_families: family_total
+  married_couples: family_married
+  common_law_couples: family_common
+  total_lone_parent_families_by_sex_of_parent: family_single
+  female_parent: family_single_female
+  male_parent: family_single_male
+  total_couple_census_families_in_private_households_100_data: family_couples
+  couples_without_children: children_couple_0
+  couples_with_children: children_couple_any
+  '1_child': children_1
+  '2_children': children_2
+  '3_or_more_children': children_3plus
+  total_lone_parent_census_families_in_private_households_100_data: household_family_lone
+  total_persons_not_in_census_families_in_private_households_100_data: household_persons_noncensus
+  total_private_households_by_household_type_100_data: household_total
+  one_census_family_households: household_census_one
+  without_children_in_a_census_family: household_census_one_children_none
+  with_children_in_a_census_family: household_census_one_children_any
+  multiple_census_family_households: household_census_multiple
+  non_census_family_households: household_census_noncensus
+  one_person_households: household_noncensus_oneperson
+  two_or_more_person_non_census_family_households: household_noncensus_multiperson
   total_knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents_100_data: null
   english_only: language_english_only
   french_only: language_french_only
   english_and_french: null
-  neither_english_nor_french: neither_english_nor_french
+  neither_english_nor_french: language_neither_english_nor_french
   total_first_official_language_spoken_for_the_total_population_excluding_institutional_residents_100_data: null
   english: language_english
   french: language_french

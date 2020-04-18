@@ -27,6 +27,7 @@ const fs = require("iotdb-fs")
 const xlsx = require("iotdb-xlsx")
 
 const path = require("path")
+const _util = require("../../_util")
 
 // const FILE = path.join(__dirname, "raw", "98-401-X2016058_English_CSV_data.csv")
 const FILE = path.join(__dirname, "raw", "sample.csv")
@@ -37,12 +38,17 @@ const _one_zone = _.promise((self, done) => {
     _.promise(self)
         .validate(_one_zone)
         .make(sd => {
-            sd.json = {}
+            sd.json = _util.record.main({
+                "authority": "statcan.gc.ca",
+                "dataset": "census2016",
+            }, sd.records[0].zone)
+
+            sd.json.health_region = sd.records[0].zone.identifier
 
             sd.records.forEach(record => {
                 let key = _.id.slugify(record.dim_profile_of_health_regions_2247_)
                 let mapped = sd.settings.mapping[key]
-                if (_.is.Undefined(mapped) || (mapped === "null")) {
+                if (_.is.Nullish(mapped)) {
                     return
                 } else if (mapped === "") {
                     mapped = key
@@ -77,6 +83,14 @@ _.promise()
     .then(fs.read.yaml.p(path.join(__dirname, "settings.yaml")))
     .add("json:settings")
 
+    .then(fs.read.yaml.p(path.join(__dirname, "..", "ca.statcan.health-regions", "zones.yaml")))
+    .make(sd => {
+        sd.zoned = {}
+        sd.json.forEach(zone => {
+            sd.zoned[zone.identifier] = zone
+        })
+    })
+
     .then(fs.read.utf8.p(FILE))
     .then(xlsx.load.csv)
     .make(sd => {
@@ -85,6 +99,12 @@ _.promise()
         let current
         let current_geo_code
         sd.jsons.forEach(json => {
+            json.alt_geo_code = "" + json.alt_geo_code
+            json.zone = sd.zoned[json.alt_geo_code]
+            if (!json.zone) {
+                return
+            }
+
             if (json.alt_geo_code !== current_geo_code) {
                 current = []
                 current_geo_code = json.alt_geo_code
@@ -100,54 +120,4 @@ _.promise()
         inputs: "recordss:records",
     })
 
-    /*
-        const pd = {}
-
-        sd.jsons
-            .filter(row => row.age)
-            .forEach(row => {
-                let key
-                let match
-
-                match = row.age.match(/^(\d+) to (\d+) years$/)
-                if (match) {
-                    key = `age_${match[1]}_${match[2]}`
-                }
-
-                match = row.age.match(/^(\d+) years and over/)
-                if (match) {
-                    key = `age_${match[1]}_up`
-                }
-
-                if (row.age === "All ages") {
-                    key = "population"
-                } else if (row.age === "Median age") {
-                    key = "age_median"
-                } else if (row.age === "Age group3 5") {
-                    return
-                }
-
-                _.keys(row)
-                    .filter(key => key.length === 2)
-                    .forEach(province => {
-                        pd[province] = pd[province] || {
-                            country: "CA",
-                            region: province.toUpperCase(),
-                            key: `CA-${province}`.toLowerCase(),
-                        }
-
-                        const value = row[province]
-                        if (_.is.Number(value)) {
-                            pd[province][key] = value
-                        } else if (_.is.String(value)) {
-                            pd[province][key] = _.coerce.to.Integer(value.replace(/,/g, ""), null)
-                        } else {
-                            pd[province][key] = null
-                        }
-                    })
-            })
-
-        sd.json = _.values(pd)
-    */
-    // .then(fs.write.yaml.p(NAME, null))
     .except(_.error.log)
