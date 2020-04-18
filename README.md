@@ -52,9 +52,13 @@ The files we have spent the most work on are `ca-??.yaml`.
 
 ## Data Sources
 
+We pull data from the Government of Canada and each individual province.
+The URLs are documented in each individual folder.
+
 ### COVID CSSEGISandData
 
-This is the primary source of data and should get primary credit.
+This is the primary source of data for "the world"
+and should get primary credit for that.
 We will pull it daily. 
 
 * https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
@@ -69,7 +73,6 @@ You can find this in `data/ca.cases`
 See their original data at
 * https://docs.google.com/spreadsheets/d/1D6okqtBS3S2NRC7GFVHzaZ67DuTw7LX49-fqSLwJyeo/edit#gid=411012049
 * https://github.com/ishaberry/Covid19Canada
-
 
 ### Physicians 
 
