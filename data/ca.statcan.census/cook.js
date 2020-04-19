@@ -43,7 +43,7 @@ const _one_zone = _.promise((self, done) => {
                 "dataset": "census2016",
             }, sd.records[0].zone)
 
-            sd.json.health_region = sd.records[0].zone.identifier
+            sd.json.health_region = sd.records[0].zone.health_region
             sd.json.name = sd.records[0].zone.name
             sd.path = path.join(__dirname, "cooked", sd.json.health_region + ".yaml")
 
