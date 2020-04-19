@@ -8,10 +8,17 @@
 #   Update local database
 #
 
-exit 0
-set -e
 cd $(dirname $0)
 
+node ../../tools/pull-csv \
+    --url "https://raw.githubusercontent.com/ishaberry/Covid19Canada/master/cases.csv" \
+    --path "raw/cases.yaml" \
+    --any-cert \
+    --force
+
+set -e
+
+exit 0
 node pull.js
 node cook.js
 (
