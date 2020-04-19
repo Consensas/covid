@@ -81,13 +81,19 @@ _.promise()
 
             assert.ok(_.is.Array(zds))
 
+            if ((zds.length === 2) && (zds[1].name.indexOf("Health Unit") > -1)) {
+                zds.pop()
+            }
+
             if (zds.length === 1) {
                 const zd = zds[0]
                 
                 sd.zoneds.push({
+                    "@id": zd["@id"],
                     "country": "CA",
                     "region": zd["region"],
                     "name": zd["name"],
+                    "health_region": zd.health_region,
                     "alias": [ bed.health_region ],
                 })
             } else {
@@ -101,6 +107,7 @@ _.promise()
                     "maybes": zds.map(zd => ({
                         "@id": zd["@id"],
                         "name": zd["name"],
+                        "health_region": zd.health_region,
                     }))
                 })
             }
