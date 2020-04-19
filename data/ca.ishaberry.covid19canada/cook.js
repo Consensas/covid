@@ -296,8 +296,12 @@ const _write_zones = _.promise((self, done) => {
                         })
                     })
 
-                    // nrecord.items.sort((a, b) => _.is.unsorted(a.date, b.date))
-                    console.log(nrecord)
+                    nrecord.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+
+                    let rolling = 0
+                    nrecord.items.forEach(item => {
+                        rolling = item.tests_positive += rolling
+                    })
 
                     sd.nrecords.push(nrecord)
                 })
