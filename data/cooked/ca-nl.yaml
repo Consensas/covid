@@ -322,7 +322,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-06'
     recovered: 32
     tests: 3776
-    patients_hospital_current: 8
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 3550
   - date: '2020-04-07'
     deaths: 2
@@ -330,7 +331,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-07'
     recovered: 49
     tests: 3958
-    patients_hospital_current: 7
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 3730
   - date: '2020-04-08'
     deaths: 2
@@ -338,7 +340,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-08'
     recovered: 74
     tests: 4149
-    patients_hospital_current: 6
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 3917
   - date: '2020-04-09'
     deaths: 3
@@ -346,7 +349,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-09'
     recovered: 96
     tests: 4390
-    patients_hospital_current: 6
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 4154
   - date: '2020-04-10'
     deaths: 3
@@ -354,7 +358,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-10'
     recovered: 103
     tests: 4520
-    patients_hospital_current: 7
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 4281
   - date: '2020-04-11'
     deaths: 3
@@ -362,7 +367,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-11'
     recovered: 120
     tests: 4726
-    patients_hospital_current: 6
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 4485
   - date: '2020-04-12'
     deaths: 3
@@ -370,7 +376,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-12'
     recovered: 129
     tests: 4812
-    patients_hospital_current: 7
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 4570
   - date: '2020-04-13'
     deaths: 3
@@ -378,7 +385,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-13'
     recovered: 133
     tests: 4907
-    patients_hospital_current: 8
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 4663
   - date: '2020-04-14'
     deaths: 3
@@ -386,7 +394,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-14'
     recovered: 149
     tests: 5021
-    patients_hospital_current: 8
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 4777
   - date: '2020-04-15'
     deaths: 3
@@ -394,7 +403,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-15'
     recovered: 159
     tests: 5166
-    patients_hospital_current: 8
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 4919
   - date: '2020-04-16'
     deaths: 3
@@ -402,7 +412,8 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-16'
     recovered: 170
     tests: 5370
-    patients_hospital_current: 7
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 5118
   - date: '2020-04-17'
     deaths: 3
@@ -410,8 +421,18 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-17'
     recovered: 176
     tests: 5585
-    patients_hospital_current: 7
+    patients_hospital_current: null
+    patients_icu_current: null
     tests_negative: 5329
+  - date: '2020-04-18'
+    deaths: 3
+    tests_positive: 257
+    '@id': 'urn:covid:consensas:cmo:ca-nl:2020-04-18'
+    recovered: 189
+    tests: 5871
+    patients_hospital_current: 6
+    patients_icu_current: 3
+    tests_negative: 5614
 state: NL
 icu_hospitals: 14
 icu_beds: 98

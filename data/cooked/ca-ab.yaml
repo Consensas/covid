@@ -79,6 +79,8 @@ items:
     tests_negative: 76
     tests: 76
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-14'
+    active: 0
+    recovered: 0
   - date: '2020-02-15'
     deaths: 0
     tests_positive: 0
@@ -109,6 +111,8 @@ items:
     tests_negative: 117
     tests: 117
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-23'
+    active: 0
+    recovered: 0
   - date: '2020-02-24'
     deaths: 0
     tests_positive: 0
@@ -121,12 +125,16 @@ items:
     tests_negative: 117
     tests: 117
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-26'
+    active: 0
+    recovered: 0
   - date: '2020-02-27'
     deaths: 0
     tests_positive: 0
     tests_negative: 117
     tests: 117
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-02-27'
+    active: 0
+    recovered: 0
   - date: '2020-02-28'
     deaths: 0
     tests_positive: 0
@@ -148,6 +156,8 @@ items:
     tests_negative: 173
     tests: 173
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-04'
+    active: 0
+    recovered: 0
   - date: '2020-03-05'
     deaths: 0
     tests_positive: 0
@@ -159,244 +169,311 @@ items:
     tests_positive: 2
   - date: '2020-03-08'
     deaths: 0
-    tests_positive: 4
+    tests_positive: 1
     tests_negative: 375
     tests: 379
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-08'
+    active: 0
+    recovered: 1
   - date: '2020-03-09'
     deaths: 0
     tests_positive: 7
     tests_negative: 1452
     tests: 1459
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-09'
+    active: 1
+    recovered: 6
   - date: '2020-03-10'
     deaths: 0
-    tests_positive: 7
+    tests_positive: 16
     tests_negative: 1452
     tests: 1459
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-10'
+    active: 1
+    recovered: 15
   - date: '2020-03-11'
     deaths: 0
-    tests_positive: 19
+    tests_positive: 24
     tests_negative: 2600
     tests: 2619
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-11'
+    active: 3
+    recovered: 21
   - date: '2020-03-12'
     deaths: 0
-    tests_positive: 23
+    tests_positive: 27
     tests_negative: 4265
     tests: 4288
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-12'
+    active: 3
+    recovered: 24
   - date: '2020-03-13'
     deaths: 0
-    tests_positive: 29
+    tests_positive: 36
     tests_negative: 5429
     tests: 5458
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-13'
+    active: 4
+    recovered: 32
   - date: '2020-03-14'
-    deaths: 0
-    tests_positive: 39
+    deaths: 1
+    tests_positive: 55
     tests_negative: 7069
     tests: 7108
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-14'
+    active: 7
+    recovered: 47
   - date: '2020-03-15'
     deaths: 0
     tests_positive: 39
   - date: '2020-03-16'
-    deaths: 0
-    tests_positive: 74
+    deaths: 1
+    tests_positive: 91
     tests_negative: 10524
     tests: 10598
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-16'
+    active: 9
+    recovered: 81
   - date: '2020-03-17'
-    deaths: 0
-    tests_positive: 119
+    deaths: 2
+    tests_positive: 103
     tests_negative: 14447
     tests: 14566
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-17'
+    active: 10
+    recovered: 91
   - date: '2020-03-18'
-    deaths: 0
-    tests_positive: 119
+    deaths: 2
+    tests_positive: 135
     tests_negative: 14447
     tests: 14566
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-18'
+    active: 15
+    recovered: 118
   - date: '2020-03-19'
-    deaths: 0
-    tests_positive: 146
+    deaths: 3
+    tests_positive: 169
     tests_negative: 16867
     tests: 17013
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-19'
+    active: 17
+    recovered: 149
   - date: '2020-03-20'
-    deaths: 1
-    tests_positive: 146
+    deaths: 3
+    tests_positive: 213
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-20'
+    active: 17
+    recovered: 193
   - date: '2020-03-21'
-    deaths: 1
-    tests_positive: 226
+    deaths: 5
+    tests_positive: 251
     tests_negative: 23516
     tests: 23742
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-21'
+    active: 20
+    recovered: 226
   - date: '2020-03-22'
-    deaths: 1
-    tests_positive: 259
+    deaths: 5
+    tests_positive: 290
     tests_negative: 26740
     tests: 26999
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-22'
+    active: 23
+    recovered: 262
   - date: '2020-03-23'
-    deaths: 1
-    tests_positive: 301
+    deaths: 7
+    tests_positive: 340
     tests_negative: 29757
     tests: 30058
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-23'
+    active: 26
+    recovered: 307
   - date: '2020-03-24'
-    deaths: 1
-    tests_positive: 358
+    deaths: 10
+    tests_positive: 411
     tests_negative: 32418
     tests: 32776
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-24'
+    active: 29
+    recovered: 372
   - date: '2020-03-25'
-    deaths: 2
-    tests_positive: 419
+    deaths: 16
+    tests_positive: 476
     tests_negative: 35089
     tests: 35508
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-25'
+    active: 29
+    recovered: 431
   - date: '2020-03-26'
-    deaths: 2
-    tests_positive: 486
+    deaths: 16
+    tests_positive: 527
     tests_negative: 36174
     tests: 36660
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-26'
+    active: 36
+    recovered: 475
   - date: '2020-03-27'
-    deaths: 2
-    tests_positive: 542
+    deaths: 21
+    tests_positive: 620
     tests_negative: 37673
     tests: 38215
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-27'
+    active: 40
+    recovered: 559
   - date: '2020-03-28'
-    deaths: 2
-    tests_positive: 621
+    deaths: 26
+    tests_positive: 671
     tests: 42527
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-28'
+    active: 42
+    recovered: 603
   - date: '2020-03-29'
-    deaths: 3
-    tests_positive: 661
+    deaths: 29
+    tests_positive: 699
     tests: 44999
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-29'
+    active: 42
+    recovered: 628
   - date: '2020-03-30'
-    deaths: 8
-    tests_positive: 690
+    deaths: 30
+    tests_positive: 745
     tests: 46057
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-30'
+    active: 43
+    recovered: 672
   - date: '2020-03-31'
-    deaths: 9
-    tests_positive: 754
+    deaths: 35
+    tests_positive: 870
     tests: 48692
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-31'
+    active: 48
+    recovered: 787
   - date: '2020-04-01'
-    deaths: 11
-    tests_positive: 871
+    deaths: 35
+    tests_positive: 982
     tests: 53141
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-01'
+    active: 52
+    recovered: 895
   - date: '2020-04-02'
-    deaths: 13
-    tests_positive: 968
+    deaths: 39
+    tests_positive: 1109
     tests: 57096
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-02'
+    active: 58
+    recovered: 1012
   - date: '2020-04-03'
-    deaths: 18
-    tests_positive: 1075
+    deaths: 39
+    tests_positive: 1176
     tests: 61960
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-03'
+    active: 61
+    recovered: 1076
   - date: '2020-04-04'
-    deaths: 18
-    tests_positive: 1075
-    recovered: 196
+    deaths: 41
+    tests_positive: 1231
+    recovered: 1124
     tests: 61960
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-04'
+    active: 66
   - date: '2020-04-05'
-    deaths: 23
-    tests_positive: 1250
-    recovered: 279
+    deaths: 44
+    tests_positive: 1282
+    recovered: 1152
     tests: 64806
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-05'
+    active: 86
   - date: '2020-04-06'
-    deaths: 23
-    tests_positive: 1250
-    recovered: 279
+    deaths: 45
+    tests_positive: 1313
+    recovered: 1160
     tests: 64806
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-06'
+    active: 108
   - date: '2020-04-07'
-    deaths: 26
-    tests_positive: 1373
-    recovered: 447
+    deaths: 46
+    tests_positive: 1374
+    recovered: 1162
     tests: 67117
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-07'
+    active: 166
   - date: '2020-04-08'
-    deaths: 29
-    tests_positive: 1423
-    recovered: 519
+    deaths: 46
+    tests_positive: 1411
+    recovered: 1162
     tests: 68762
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-08'
+    active: 203
   - date: '2020-04-09'
-    deaths: 32
-    tests_positive: 1451
-    recovered: 592
+    deaths: 48
+    tests_positive: 1456
+    recovered: 1162
     tests: 70247
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-09'
+    active: 246
   - date: '2020-04-10'
-    deaths: 32
-    tests_positive: 1451
-    recovered: 592
+    deaths: 48
+    tests_positive: 1513
+    recovered: 1162
     tests: 70247
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-10'
+    active: 303
   - date: '2020-04-11'
-    deaths: 40
-    tests_positive: 1569
-    recovered: 774
+    deaths: 48
+    tests_positive: 1578
+    recovered: 1162
     tests: 75278
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-11'
+    active: 368
   - date: '2020-04-12'
-    deaths: 44
-    tests_positive: 1651
-    recovered: 823
+    deaths: 49
+    tests_positive: 1658
+    recovered: 1162
     tests: 77316
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-12'
+    active: 447
   - date: '2020-04-13'
-    deaths: 44
-    tests_positive: 1651
-    recovered: 823
+    deaths: 49
+    tests_positive: 1743
+    recovered: 1162
     tests: 77316
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-13'
+    active: 532
   - date: '2020-04-14'
-    deaths: 48
-    tests_positive: 1870
-    recovered: 914
+    deaths: 51
+    tests_positive: 1884
+    recovered: 1162
     tests: 82649
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-14'
+    active: 671
   - date: '2020-04-15'
-    deaths: 48
-    tests_positive: 1996
-    recovered: 914
+    deaths: 51
+    tests_positive: 2029
+    recovered: 1162
     tests: 85502
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-15'
+    active: 816
   - date: '2020-04-16'
-    deaths: 50
-    tests_positive: 2158
-    recovered: 914
+    deaths: 51
+    tests_positive: 2210
+    recovered: 1162
     tests: 85502
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-16'
+    active: 997
   - date: '2020-04-17'
-    deaths: 50
-    tests_positive: 2397
-    recovered: 1124
+    deaths: 51
+    tests_positive: 2472
+    recovered: 1162
     tests: 92805
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-17'
+    active: 1259
   - date: '2020-04-18'
-    tests_positive: 2397
-    deaths: 50
-    recovered: 1124
-    tests: 92805
+    deaths: 51
+    tests_positive: 2562
+    recovered: 1162
+    tests: 96897
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-04-18'
+    active: 1349
 state: AB
 icu_hospitals: 16
 icu_beds: 292

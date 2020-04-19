@@ -497,12 +497,12 @@ items:
     '@id': 'urn:covid:consensas:cmo:ca:2020-04-17'
     tests: 507701
     tests_probable: 12
-  - '@id': 'urn:covid:consensas:cmo:ca:2020-04-18'
-    date: '2020-04-18'
-    tests: 516216
-    tests_positive: 32400
-    tests_probable: 12
-    deaths: 1346
-    recovered: 10862
+  - date: '2020-04-18'
+    deaths: 1467
+    tests_positive: 33341
+    recovered: 11178
+    '@id': 'urn:covid:consensas:cmo:ca:2020-04-18'
+    tests: 528057
+    tests_probable: 13
 source: >-
   https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
