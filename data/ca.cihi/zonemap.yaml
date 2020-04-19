@@ -47,6 +47,19 @@
   health_region: '5920'
   alias:
     - Fraser Health
+- country: CA
+  region: BC
+  alias:
+    - Vancouver Coastal Health
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5930'
+  name: Vancouver Coastal Health Authority
+  health_region: '5930'
+- country: CA
+  region: BC
+  name: ''
+  alias:
+    - Provincial Health Services Authority
+  maybes: []
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5940'
   country: CA
   region: BC
@@ -61,19 +74,6 @@
   health_region: '5950'
   alias:
     - Northern Health
-- country: CA
-  region: BC
-  name: ''
-  alias:
-    - Provincial Health Services Authority
-  maybes: []
-- country: CA
-  region: BC
-  alias:
-    - Vancouver Coastal Health
-  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5930'
-  name: Vancouver Coastal Health Authority
-  health_region: '5930'
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4601'
   country: CA
   region: MB
@@ -193,6 +193,12 @@
   health_region: '1201'
   alias:
     - Western Zone
+- country: CA
+  region: NS
+  name: ''
+  alias:
+    - IWK Health Centre
+  maybes: []
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1202'
   country: CA
   region: NS
@@ -200,12 +206,6 @@
   health_region: '1202'
   alias:
     - Northern Zone
-- country: CA
-  region: NS
-  name: ''
-  alias:
-    - IWK Health Centre
-  maybes: []
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1203'
   country: CA
   region: NS
@@ -276,6 +276,13 @@
   health_region: '3504'
   alias:
     - Hamilton Niagara Haldimand Brant LHIN
+- country: CA
+  region: 'ON'
+  alias:
+    - Central West LHIN
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3505'
+  name: Central West
+  health_region: '3505'
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3506'
   country: CA
   region: 'ON'
@@ -283,6 +290,13 @@
   health_region: '3506'
   alias:
     - Mississauga Halton LHIN
+- country: CA
+  region: 'ON'
+  alias:
+    - Toronto Central LHIN
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3507'
+  name: Toronto Central
+  health_region: '3507'
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3508'
   country: CA
   region: 'ON'
@@ -290,6 +304,13 @@
   health_region: '3508'
   alias:
     - Central LHIN
+- country: CA
+  region: 'ON'
+  alias:
+    - Central East LHIN
+  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3509'
+  name: Central East
+  health_region: '3509'
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3510'
   country: CA
   region: 'ON'
@@ -318,27 +339,6 @@
   health_region: '3513'
   alias:
     - North East LHIN
-- country: CA
-  region: 'ON'
-  alias:
-    - Central West LHIN
-  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3505'
-  name: Central West
-  health_region: '3505'
-- country: CA
-  region: 'ON'
-  alias:
-    - Toronto Central LHIN
-  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3507'
-  name: Toronto Central
-  health_region: '3507'
-- country: CA
-  region: 'ON'
-  alias:
-    - Central East LHIN
-  '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3509'
-  name: Central East
-  health_region: '3509'
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3514'
   country: CA
   region: 'ON'
