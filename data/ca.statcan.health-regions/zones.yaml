@@ -12,7 +12,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1011'
   country: CA
   region: NL
-  health_region: '1011'
+  health_region_id: '1011'
   name: Eastern Regional Integrated Health Authority
   fragments:
   - eastern
@@ -20,7 +20,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1012'
   country: CA
   region: NL
-  health_region: '1012'
+  health_region_id: '1012'
   name: Central Regional Integrated Health Authority
   fragments:
   - central
@@ -28,7 +28,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1013'
   country: CA
   region: NL
-  health_region: '1013'
+  health_region_id: '1013'
   name: Western Regional Integrated Health Authority
   fragments:
   - western
@@ -36,7 +36,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1014'
   country: CA
   region: NL
-  health_region: '1014'
+  health_region_id: '1014'
   name: Labrador-Grenfell Regional Integrated Health Authority
   fragments:
   - labrador-grenfell
@@ -44,7 +44,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1201'
   country: CA
   region: NS
-  health_region: '1201'
+  health_region_id: '1201'
   name: Zone 1 - Western
   fragments:
   - '1'
@@ -53,7 +53,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1202'
   country: CA
   region: NS
-  health_region: '1202'
+  health_region_id: '1202'
   name: Zone 2 - Northern
   fragments:
   - '2'
@@ -62,7 +62,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1203'
   country: CA
   region: NS
-  health_region: '1203'
+  health_region_id: '1203'
   name: Zone 3 - Eastern
   fragments:
   - '3'
@@ -71,7 +71,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1204'
   country: CA
   region: NS
-  health_region: '1204'
+  health_region_id: '1204'
   name: Zone 4 - Central
   fragments:
   - '4'
@@ -80,7 +80,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1301'
   country: CA
   region: NB
-  health_region: '1301'
+  health_region_id: '1301'
   name: Zone 1 (Moncton area)
   fragments:
   - '1'
@@ -89,7 +89,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1302'
   country: CA
   region: NB
-  health_region: '1302'
+  health_region_id: '1302'
   name: Zone 2 (Saint John area)
   fragments:
   - '2'
@@ -98,7 +98,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1303'
   country: CA
   region: NB
-  health_region: '1303'
+  health_region_id: '1303'
   name: Zone 3 (Fredericton area)
   fragments:
   - '3'
@@ -107,7 +107,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1304'
   country: CA
   region: NB
-  health_region: '1304'
+  health_region_id: '1304'
   name: Zone 4 (Edmundston area)
   fragments:
   - '4'
@@ -116,7 +116,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1305'
   country: CA
   region: NB
-  health_region: '1305'
+  health_region_id: '1305'
   name: Zone 5 (Campbellton area)
   fragments:
   - '5'
@@ -125,7 +125,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1306'
   country: CA
   region: NB
-  health_region: '1306'
+  health_region_id: '1306'
   name: Zone 6 (Bathurst area)
   fragments:
   - '6'
@@ -134,7 +134,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1307'
   country: CA
   region: NB
-  health_region: '1307'
+  health_region_id: '1307'
   name: Zone 7 (Miramichi area)
   fragments:
   - '7'
@@ -143,7 +143,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2401'
   country: CA
   region: QC
-  health_region: '2401'
+  health_region_id: '2401'
   name: Région du Bas–Saint–Laurent
   fragments:
   - bas–saint–laurent
@@ -151,15 +151,17 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2402'
   country: CA
   region: QC
-  health_region: '2402'
+  health_region_id: '2402'
   name: Région du Saguenay — Lac–Saint–Jean
   fragments:
-  - saguenay — lac–saint–jean
+  - saguenay-lac–saint–jean
+  - saguenay
+  - lac–saint–jean
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2403'
   country: CA
   region: QC
-  health_region: '2403'
+  health_region_id: '2403'
   name: Région de la Capitale–Nationale
   fragments:
   - capitale–nationale
@@ -167,15 +169,17 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2404'
   country: CA
   region: QC
-  health_region: '2404'
+  health_region_id: '2404'
   name: Région de la Mauricie et du Centre–du–Québec
   fragments:
   - mauricie et du centre–du–québec
+  - mauricie
+  - centre–du–québec
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2405'
   country: CA
   region: QC
-  health_region: '2405'
+  health_region_id: '2405'
   name: Région de l'Estrie
   fragments:
   - estrie
@@ -183,7 +187,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2406'
   country: CA
   region: QC
-  health_region: '2406'
+  health_region_id: '2406'
   name: Région de Montréal
   fragments:
   - montréal
@@ -191,7 +195,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2407'
   country: CA
   region: QC
-  health_region: '2407'
+  health_region_id: '2407'
   name: Région de l'Outaouais
   fragments:
   - outaouais
@@ -199,7 +203,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2408'
   country: CA
   region: QC
-  health_region: '2408'
+  health_region_id: '2408'
   name: Région de l'Abitibi–Témiscamingue
   fragments:
   - abitibi–témiscamingue
@@ -207,7 +211,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2409'
   country: CA
   region: QC
-  health_region: '2409'
+  health_region_id: '2409'
   name: Région de la Côte–Nord
   fragments:
   - côte–nord
@@ -215,7 +219,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2410'
   country: CA
   region: QC
-  health_region: '2410'
+  health_region_id: '2410'
   name: Région du Nord–du–Québec
   fragments:
   - nord–du–québec
@@ -223,15 +227,17 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2411'
   country: CA
   region: QC
-  health_region: '2411'
+  health_region_id: '2411'
   name: Région de la Gaspésie — Îles–de–la–Madeleine
   fragments:
-  - gaspésie — îles–de–la–madeleine
+  - gaspésie-îles–de–la–madeleine
+  - gaspésie
+  - îles–de–la–madeleine
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2412'
   country: CA
   region: QC
-  health_region: '2412'
+  health_region_id: '2412'
   name: Région de la Chaudière–Appalaches
   fragments:
   - chaudière–appalaches
@@ -239,7 +245,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2413'
   country: CA
   region: QC
-  health_region: '2413'
+  health_region_id: '2413'
   name: Région de Laval
   fragments:
   - laval
@@ -247,7 +253,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2414'
   country: CA
   region: QC
-  health_region: '2414'
+  health_region_id: '2414'
   name: Région de Lanaudière
   fragments:
   - lanaudière
@@ -255,7 +261,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2415'
   country: CA
   region: QC
-  health_region: '2415'
+  health_region_id: '2415'
   name: Région des Laurentides
   fragments:
   - laurentides
@@ -263,7 +269,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2416'
   country: CA
   region: QC
-  health_region: '2416'
+  health_region_id: '2416'
   name: Région de la Montérégie
   fragments:
   - montérégie
@@ -271,7 +277,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2417'
   country: CA
   region: QC
-  health_region: '2417'
+  health_region_id: '2417'
   name: Région du Nunavik
   fragments:
   - nunavik
@@ -279,7 +285,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2418'
   country: CA
   region: QC
-  health_region: '2418'
+  health_region_id: '2418'
   name: Région des Terres–Cries–de–la–Baie–James
   fragments:
   - terres–cries–de–la–baie–james
@@ -287,7 +293,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3501'
   country: CA
   region: 'ON'
-  health_region: '3501'
+  health_region_id: '3501'
   name: Erie St. Clair
   fragments:
   - erie st. clair
@@ -295,7 +301,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3502'
   country: CA
   region: 'ON'
-  health_region: '3502'
+  health_region_id: '3502'
   name: South West
   fragments:
   - south west
@@ -304,7 +310,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3503'
   country: CA
   region: 'ON'
-  health_region: '3503'
+  health_region_id: '3503'
   name: Waterloo Wellington
   fragments:
   - waterloo wellington
@@ -312,7 +318,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3504'
   country: CA
   region: 'ON'
-  health_region: '3504'
+  health_region_id: '3504'
   name: Hamilton Niagara Haldimand Brant
   fragments:
   - hamilton niagara haldimand brant
@@ -324,7 +330,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3505'
   country: CA
   region: 'ON'
-  health_region: '3505'
+  health_region_id: '3505'
   name: Central West
   fragments:
   - central west
@@ -332,7 +338,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3506'
   country: CA
   region: 'ON'
-  health_region: '3506'
+  health_region_id: '3506'
   name: Mississauga Halton
   fragments:
   - mississauga halton
@@ -340,7 +346,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3507'
   country: CA
   region: 'ON'
-  health_region: '3507'
+  health_region_id: '3507'
   name: Toronto Central
   fragments:
   - toronto central
@@ -348,7 +354,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3508'
   country: CA
   region: 'ON'
-  health_region: '3508'
+  health_region_id: '3508'
   name: Central
   fragments:
   - central
@@ -356,7 +362,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3509'
   country: CA
   region: 'ON'
-  health_region: '3509'
+  health_region_id: '3509'
   name: Central East
   fragments:
   - central east
@@ -364,7 +370,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3510'
   country: CA
   region: 'ON'
-  health_region: '3510'
+  health_region_id: '3510'
   name: South East
   fragments:
   - south east
@@ -372,7 +378,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3511'
   country: CA
   region: 'ON'
-  health_region: '3511'
+  health_region_id: '3511'
   name: Champlain
   fragments:
   - champlain
@@ -380,7 +386,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3512'
   country: CA
   region: 'ON'
-  health_region: '3512'
+  health_region_id: '3512'
   name: North Simcoe Muskoka
   fragments:
   - north simcoe muskoka
@@ -388,7 +394,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3513'
   country: CA
   region: 'ON'
-  health_region: '3513'
+  health_region_id: '3513'
   name: North East
   fragments:
   - north east
@@ -396,7 +402,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3514'
   country: CA
   region: 'ON'
-  health_region: '3514'
+  health_region_id: '3514'
   name: North West
   fragments:
   - north west
@@ -404,7 +410,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3526'
   country: CA
   region: 'ON'
-  health_region: '3526'
+  health_region_id: '3526'
   name: The District of Algoma Health Unit
   fragments:
   - algoma
@@ -412,7 +418,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3527'
   country: CA
   region: 'ON'
-  health_region: '3527'
+  health_region_id: '3527'
   name: Brant County Health Unit
   fragments:
   - brant
@@ -420,7 +426,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3530'
   country: CA
   region: 'ON'
-  health_region: '3530'
+  health_region_id: '3530'
   name: Durham Regional Health Unit
   fragments:
   - durham
@@ -428,7 +434,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3531'
   country: CA
   region: 'ON'
-  health_region: '3531'
+  health_region_id: '3531'
   name: Elgin-St Thomas Health Unit
   fragments:
   - elgin-st thomas
@@ -436,7 +442,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3533'
   country: CA
   region: 'ON'
-  health_region: '3533'
+  health_region_id: '3533'
   name: Grey Bruce Health Unit
   fragments:
   - grey bruce
@@ -444,7 +450,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3534'
   country: CA
   region: 'ON'
-  health_region: '3534'
+  health_region_id: '3534'
   name: Haldimand-Norfolk Health Unit
   fragments:
   - haldimand-norfolk
@@ -452,7 +458,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3535'
   country: CA
   region: 'ON'
-  health_region: '3535'
+  health_region_id: '3535'
   name: 'Haliburton, Kawartha, Pine Ridge District Health Unit'
   fragments:
   - haliburton
@@ -462,7 +468,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3536'
   country: CA
   region: 'ON'
-  health_region: '3536'
+  health_region_id: '3536'
   name: Halton Regional Health Unit
   fragments:
   - halton
@@ -470,7 +476,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3537'
   country: CA
   region: 'ON'
-  health_region: '3537'
+  health_region_id: '3537'
   name: City of Hamilton Health Unit
   fragments:
   - hamilton
@@ -478,7 +484,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3538'
   country: CA
   region: 'ON'
-  health_region: '3538'
+  health_region_id: '3538'
   name: Hastings and Prince Edward Counties Health Unit
   fragments:
   - hastings
@@ -487,7 +493,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3539'
   country: CA
   region: 'ON'
-  health_region: '3539'
+  health_region_id: '3539'
   name: Huron County Health Unit
   fragments:
   - huron county
@@ -495,7 +501,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3540'
   country: CA
   region: 'ON'
-  health_region: '3540'
+  health_region_id: '3540'
   name: Chatham-Kent Health Unit
   fragments:
   - chatham-kent
@@ -503,7 +509,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3541'
   country: CA
   region: 'ON'
-  health_region: '3541'
+  health_region_id: '3541'
   name: 'Kingston, Frontenac and Lennox and Addington Health Unit'
   fragments:
   - kingston
@@ -514,7 +520,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3542'
   country: CA
   region: 'ON'
-  health_region: '3542'
+  health_region_id: '3542'
   name: Lambton Health Unit
   fragments:
   - lambton
@@ -522,7 +528,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3543'
   country: CA
   region: 'ON'
-  health_region: '3543'
+  health_region_id: '3543'
   name: 'Leeds, Grenville and Lanark District Health Unit'
   fragments:
   - leeds
@@ -532,7 +538,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3544'
   country: CA
   region: 'ON'
-  health_region: '3544'
+  health_region_id: '3544'
   name: Middlesex–London Health Unit
   fragments:
   - middlesex–london
@@ -540,7 +546,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3546'
   country: CA
   region: 'ON'
-  health_region: '3546'
+  health_region_id: '3546'
   name: Niagara Regional Area Health Unit
   fragments:
   - niagara
@@ -548,7 +554,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3547'
   country: CA
   region: 'ON'
-  health_region: '3547'
+  health_region_id: '3547'
   name: North Bay Parry Sound District Health Unit
   fragments:
   - north bay parry sound
@@ -556,7 +562,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3549'
   country: CA
   region: 'ON'
-  health_region: '3549'
+  health_region_id: '3549'
   name: Northwestern Health Unit
   fragments:
   - northwestern
@@ -564,7 +570,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3551'
   country: CA
   region: 'ON'
-  health_region: '3551'
+  health_region_id: '3551'
   name: City of Ottawa Health Unit
   fragments:
   - ottawa
@@ -572,7 +578,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3552'
   country: CA
   region: 'ON'
-  health_region: '3552'
+  health_region_id: '3552'
   name: Oxford County Health Unit
   fragments:
   - oxford county
@@ -580,7 +586,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3553'
   country: CA
   region: 'ON'
-  health_region: '3553'
+  health_region_id: '3553'
   name: Peel Regional Health Unit
   fragments:
   - peel
@@ -588,7 +594,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3554'
   country: CA
   region: 'ON'
-  health_region: '3554'
+  health_region_id: '3554'
   name: Perth District Health Unit
   fragments:
   - perth
@@ -596,7 +602,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3555'
   country: CA
   region: 'ON'
-  health_region: '3555'
+  health_region_id: '3555'
   name: Peterborough County–City Health Unit
   fragments:
   - peterborough county–city
@@ -605,7 +611,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3556'
   country: CA
   region: 'ON'
-  health_region: '3556'
+  health_region_id: '3556'
   name: Porcupine Health Unit
   fragments:
   - porcupine
@@ -613,15 +619,16 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3557'
   country: CA
   region: 'ON'
-  health_region: '3557'
+  health_region_id: '3557'
   name: Renfrew County and District Health Unit
   fragments:
   - renfrew county
+  - renfrew
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3558'
   country: CA
   region: 'ON'
-  health_region: '3558'
+  health_region_id: '3558'
   name: The Eastern Ontario Health Unit
   fragments:
   - eastern ontario
@@ -630,7 +637,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3560'
   country: CA
   region: 'ON'
-  health_region: '3560'
+  health_region_id: '3560'
   name: Simcoe Muskoka District Health Unit
   fragments:
   - simcoe muskoka
@@ -638,7 +645,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3561'
   country: CA
   region: 'ON'
-  health_region: '3561'
+  health_region_id: '3561'
   name: Sudbury and District Health Unit
   fragments:
   - sudbury
@@ -646,7 +653,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3562'
   country: CA
   region: 'ON'
-  health_region: '3562'
+  health_region_id: '3562'
   name: Thunder Bay District Health Unit
   fragments:
   - thunder bay
@@ -654,7 +661,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3563'
   country: CA
   region: 'ON'
-  health_region: '3563'
+  health_region_id: '3563'
   name: Timiskaming Health Unit
   fragments:
   - timiskaming
@@ -662,7 +669,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3565'
   country: CA
   region: 'ON'
-  health_region: '3565'
+  health_region_id: '3565'
   name: Waterloo Health Unit
   fragments:
   - waterloo
@@ -670,7 +677,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3566'
   country: CA
   region: 'ON'
-  health_region: '3566'
+  health_region_id: '3566'
   name: Wellington–Dufferin-Guelph Health Unit
   fragments:
   - wellington–dufferin-guelph
@@ -679,7 +686,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3568'
   country: CA
   region: 'ON'
-  health_region: '3568'
+  health_region_id: '3568'
   name: Windsor–Essex County Health Unit
   fragments:
   - windsor–essex
@@ -688,7 +695,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3570'
   country: CA
   region: 'ON'
-  health_region: '3570'
+  health_region_id: '3570'
   name: York Regional Health Unit
   fragments:
   - york
@@ -696,7 +703,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3595'
   country: CA
   region: 'ON'
-  health_region: '3595'
+  health_region_id: '3595'
   name: City of Toronto Health Unit
   fragments:
   - toronto
@@ -704,7 +711,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4601'
   country: CA
   region: MB
-  health_region: '4601'
+  health_region_id: '4601'
   name: Winnipeg Regional Health Authority
   fragments:
   - winnipeg
@@ -712,7 +719,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4602'
   country: CA
   region: MB
-  health_region: '4602'
+  health_region_id: '4602'
   name: Prairie Mountain Health
   fragments:
   - prairie mountain
@@ -720,7 +727,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4603'
   country: CA
   region: MB
-  health_region: '4603'
+  health_region_id: '4603'
   name: Interlake-Eastern Regional Health
   fragments:
   - interlake
@@ -729,7 +736,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4604'
   country: CA
   region: MB
-  health_region: '4604'
+  health_region_id: '4604'
   name: Northern Regional Health Authority
   fragments:
   - northern
@@ -737,7 +744,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4605'
   country: CA
   region: MB
-  health_region: '4605'
+  health_region_id: '4605'
   name: Southern Health
   fragments:
   - southern
@@ -745,7 +752,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4701'
   country: CA
   region: SK
-  health_region: '4701'
+  health_region_id: '4701'
   name: Sun Country Regional Health Authority
   fragments:
   - sun country
@@ -753,7 +760,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4702'
   country: CA
   region: SK
-  health_region: '4702'
+  health_region_id: '4702'
   name: Five Hills Regional Health Authority
   fragments:
   - five hills
@@ -761,7 +768,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4703'
   country: CA
   region: SK
-  health_region: '4703'
+  health_region_id: '4703'
   name: Cypress Regional Health Authority
   fragments:
   - cypress
@@ -769,7 +776,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4704'
   country: CA
   region: SK
-  health_region: '4704'
+  health_region_id: '4704'
   name: Regina Qu'Appelle Regional Health Authority
   fragments:
   - regina qu'appelle
@@ -777,7 +784,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4705'
   country: CA
   region: SK
-  health_region: '4705'
+  health_region_id: '4705'
   name: Sunrise Regional Health Authority
   fragments:
   - sunrise
@@ -785,7 +792,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4706'
   country: CA
   region: SK
-  health_region: '4706'
+  health_region_id: '4706'
   name: Saskatoon Regional Health Authority
   fragments:
   - saskatoon
@@ -793,7 +800,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4707'
   country: CA
   region: SK
-  health_region: '4707'
+  health_region_id: '4707'
   name: Heartland Regional Health Authority
   fragments:
   - heartland
@@ -801,7 +808,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4708'
   country: CA
   region: SK
-  health_region: '4708'
+  health_region_id: '4708'
   name: Kelsey Trail Regional Health Authority
   fragments:
   - kelsey trail
@@ -809,7 +816,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4709'
   country: CA
   region: SK
-  health_region: '4709'
+  health_region_id: '4709'
   name: Prince Albert Parkland Regional Health Authority
   fragments:
   - prince albert parkland
@@ -817,7 +824,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4710'
   country: CA
   region: SK
-  health_region: '4710'
+  health_region_id: '4710'
   name: Prairie North Regional Health Authority
   fragments:
   - prairie north
@@ -825,7 +832,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4711'
   country: CA
   region: SK
-  health_region: '4711'
+  health_region_id: '4711'
   name: Mamawetan Churchill River Regional Health Authority
   fragments:
   - mamawetan churchill river
@@ -833,7 +840,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4712'
   country: CA
   region: SK
-  health_region: '4712'
+  health_region_id: '4712'
   name: Keewatin Yatthé Regional Health Authority
   fragments:
   - keewatin yatthé
@@ -841,7 +848,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4713'
   country: CA
   region: SK
-  health_region: '4713'
+  health_region_id: '4713'
   name: Athabasca Health Authority
   fragments:
   - athabasca
@@ -849,7 +856,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4714'
   country: CA
   region: SK
-  health_region: '4714'
+  health_region_id: '4714'
   name: Mamawetan/Keewatin/Athabasca Regional Health Authorities
   fragments:
   - mamawetan/keewatin/athabasca regional
@@ -857,7 +864,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4831'
   country: CA
   region: AB
-  health_region: '4831'
+  health_region_id: '4831'
   name: South Zone
   fragments:
   - south
@@ -865,7 +872,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4832'
   country: CA
   region: AB
-  health_region: '4832'
+  health_region_id: '4832'
   name: Calgary Zone
   fragments:
   - calgary
@@ -873,7 +880,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4833'
   country: CA
   region: AB
-  health_region: '4833'
+  health_region_id: '4833'
   name: Central Zone
   fragments:
   - central
@@ -881,7 +888,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4834'
   country: CA
   region: AB
-  health_region: '4834'
+  health_region_id: '4834'
   name: Edmonton Zone
   fragments:
   - edmonton
@@ -889,7 +896,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4835'
   country: CA
   region: AB
-  health_region: '4835'
+  health_region_id: '4835'
   name: North Zone
   fragments:
   - north
@@ -898,7 +905,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5911'
+  health_region_id: '5911'
   name: East Kootenay Health Service Delivery Area
   fragments:
   - east kootenay
@@ -907,7 +914,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5912'
+  health_region_id: '5912'
   name: Kootenay-Boundary Health Service Delivery Area
   fragments:
   - kootenay-boundary
@@ -916,7 +923,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5913'
+  health_region_id: '5913'
   name: Okanagan Health Service Delivery Area
   fragments:
   - okanagan
@@ -925,7 +932,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5914'
+  health_region_id: '5914'
   name: Thompson/Cariboo Health Service Delivery Area
   fragments:
   - thompson/cariboo
@@ -934,7 +941,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5921'
+  health_region_id: '5921'
   name: Fraser East Health Service Delivery Area
   fragments:
   - fraser east
@@ -943,7 +950,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5922'
+  health_region_id: '5922'
   name: Fraser North Health Service Delivery Area
   fragments:
   - fraser north
@@ -952,7 +959,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5923'
+  health_region_id: '5923'
   name: Fraser South Health Service Delivery Area
   fragments:
   - fraser south
@@ -961,7 +968,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5931'
+  health_region_id: '5931'
   name: Richmond Health Service Delivery Area
   fragments:
   - richmond
@@ -970,7 +977,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5932'
+  health_region_id: '5932'
   name: Vancouver Health Service Delivery Area
   fragments:
   - vancouver
@@ -979,7 +986,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5933'
+  health_region_id: '5933'
   name: North Shore/Coast Garibaldi Health Service Delivery Area
   fragments:
   - north shore/coast garibaldi
@@ -988,7 +995,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5941'
+  health_region_id: '5941'
   name: South Vancouver Island Health Service Delivery Area
   fragments:
   - south vancouver island
@@ -997,7 +1004,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5942'
+  health_region_id: '5942'
   name: Central Vancouver Island Health Service Delivery Area
   fragments:
   - central vancouver island
@@ -1006,7 +1013,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5943'
+  health_region_id: '5943'
   name: North Vancouver Island Health Service Delivery Area
   fragments:
   - north vancouver island
@@ -1015,7 +1022,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5951'
+  health_region_id: '5951'
   name: Northwest Health Service Delivery Area
   fragments:
   - northwest
@@ -1024,7 +1031,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5952'
+  health_region_id: '5952'
   name: Northern Interior Health Service Delivery Area
   fragments:
   - northern interior
@@ -1033,7 +1040,7 @@
   obsolete: true
   country: CA
   region: BC
-  health_region: '5953'
+  health_region_id: '5953'
   name: Northeast Health Service Delivery Area
   fragments:
   - northeast
@@ -1041,35 +1048,35 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1100'
   country: CA
   region: PE
-  health_region: '1100'
+  health_region_id: '1100'
   name: Prince Edward Island
   aliases: []
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:6001'
   country: CA
   region: YT
-  health_region: '6001'
+  health_region_id: '6001'
   name: Yukon
   aliases: []
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:6101'
   country: CA
   region: NT
-  health_region: '6101'
+  health_region_id: '6101'
   name: Northwest Territories
   aliases: []
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:6201'
   country: CA
   region: NU
-  health_region: '6201'
+  health_region_id: '6201'
   name: Nunavut
   aliases: []
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5910'
   country: CA
   region: BC
-  health_region: '5910'
+  health_region_id: '5910'
   name: Interior Health Authority
   fragments:
   - interior
@@ -1077,7 +1084,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5920'
   country: CA
   region: BC
-  health_region: '5920'
+  health_region_id: '5920'
   name: Fraser Health Authority
   fragments:
   - fraser
@@ -1085,7 +1092,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5930'
   country: CA
   region: BC
-  health_region: '5930'
+  health_region_id: '5930'
   name: Vancouver Coastal Health Authority
   fragments:
   - vancouver coastal
@@ -1093,7 +1100,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5940'
   country: CA
   region: BC
-  health_region: '5940'
+  health_region_id: '5940'
   name: Vancouver Island Health Authority
   fragments:
   - vancouver island
@@ -1102,7 +1109,7 @@
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5950'
   country: CA
   region: BC
-  health_region: '5950'
+  health_region_id: '5950'
   name: Northern Health Authority
   fragments:
   - northern
