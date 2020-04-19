@@ -44,11 +44,18 @@ const _one_zone = _.promise((self, done) => {
             }, sd.records[0].zone)
 
             sd.json.health_region = sd.records[0].zone.identifier
+            sd.json.name = sd.records[0].zone.name
             sd.path = path.join(__dirname, "cooked", sd.json.health_region + ".yaml")
 
             sd.records.forEach(record => {
+                let ikey = "" + record.member_id_profile_of_health_regions_2247_
                 let key = _.id.slugify(record.dim_profile_of_health_regions_2247_)
-                let mapped = sd.settings.mapping[key]
+                let mapped
+
+                mapped = sd.settings.coded[ikey]
+                if (_.is.Nullish(mapped)) {
+                    mapped = sd.settings.mapping[key]
+                }
                 if (_.is.Nullish(mapped)) {
                     return
                 } else if (mapped === "") {
@@ -57,7 +64,15 @@ const _one_zone = _.promise((self, done) => {
 
                 const value = record.dim_sex_3_member_id_1_total_sex
 
+                if (!_.is.Nullish(sd.json[mapped])) {
+                    console.log("#", "conflict!", mapped)
+                    process.exit(1)
+                }
                 sd.json[mapped] = value
+
+                if (mapped === "age_005_009") {
+                    sd.json.age_000_009 = sd.json.age_000_004 + sd.json.age_005_009
+                }
             })
 
             console.log("-", sd.json.health_region)

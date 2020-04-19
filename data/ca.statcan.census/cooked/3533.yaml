@@ -4,6 +4,7 @@ region: 'ON'
 country: CA
 key: ca-on
 health_region: '3533'
+name: Grey Bruce Health Unit
 population: 161977
 population_growth: 2.1
 home_private_dwellings: 88743
@@ -12,6 +13,7 @@ population_density: 18.8
 area_km2: 8603.7
 age_000_004: 8310
 age_005_009: 8305
+age_000_009: 16615
 age_010_014: 8045
 age_015_019: 8580
 age_020_024: 8260
@@ -43,12 +45,12 @@ home_other_apartment_duplex: 900
 home_other_apartment_small: 6495
 home_other_other: 260
 home_mobile: 710
-household_total: 68430
+household_total: 68425
 household_1: 19065
-household_2: 28935
-household_3: 8485
-household_4: 7335
-household_5plus: 3840
+household_2: 28300
+household_3: 8795
+household_4: 7695
+household_5plus: 4580
 household_persons: 158450
 household_size_average: 2.3
 marital_total: 137325
@@ -69,9 +71,6 @@ family_single_male: 1350
 family_couples: 42775
 children_couple_0: 25335
 children_couple_any: 17440
-children_1: 3605
-children_2: 1610
-children_3plus: 610
 household_family_lone: 5825
 household_persons_noncensus: 24500
 household_census_one: 47115
@@ -83,7 +82,6 @@ household_noncensus_oneperson: 19065
 household_noncensus_multiperson: 1515
 language_english_only: 150105
 language_french_only: 30
-language_neither_english_nor_french: 850
-language_english: 535
-language_french: 710
-language_aboriginal: 0
+language_english_and_french: 8740
+language_neither_english_french: 875
+language_aboriginal: 230

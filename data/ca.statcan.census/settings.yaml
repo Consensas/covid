@@ -1,3 +1,16 @@
+coded:
+  "101": language_english_only
+  "102": language_french_only
+  "103": language_english_and_french
+  "104": language_neither_english_french
+  "118": language_aboriginal
+  "51": household_total
+  "52": household_1
+  "53": household_2
+  "54": household_3
+  "55": household_4
+  "56": household_5plus
+
 mapping:
   population_2016: population
   population_2011: null
@@ -47,12 +60,12 @@ mapping:
   apartment_in_a_building_that_has_fewer_than_five_storeys: home_other_apartment_small
   other_single_attached_house: home_other_other
   movable_dwelling: home_mobile
-  total_private_households_by_household_size_100_data: household_total
-  '1_person': household_1
-  '2_persons': household_2
-  '3_persons': household_3
-  '4_persons': household_4
-  '5_or_more_persons': household_5plus
+  total_private_households_by_household_size_100_data: null
+  '1_person': null
+  '2_persons': null
+  '3_persons': null
+  '4_persons': null
+  '5_or_more_persons': null
   number_of_persons_in_private_households: household_persons
   total_marital_status_for_the_population_aged_15_years_and_over_100_data: "marital_total"
   married_or_living_common_law: marital_married_or_common
@@ -74,12 +87,12 @@ mapping:
   total_couple_census_families_in_private_households_100_data: family_couples
   couples_without_children: children_couple_0
   couples_with_children: children_couple_any
-  '1_child': children_1
-  '2_children': children_2
-  '3_or_more_children': children_3plus
+  '1_child': null
+  '2_children': null
+  '3_or_more_children': null
   total_lone_parent_census_families_in_private_households_100_data: household_family_lone
   total_persons_not_in_census_families_in_private_households_100_data: household_persons_noncensus
-  total_private_households_by_household_type_100_data: household_total
+  total_private_households_by_household_type_100_data: null
   one_census_family_households: household_census_one
   without_children_in_a_census_family: household_census_one_children_none
   with_children_in_a_census_family: household_census_one_children_any
@@ -88,20 +101,20 @@ mapping:
   one_person_households: household_noncensus_oneperson
   two_or_more_person_non_census_family_households: household_noncensus_multiperson
   total_knowledge_of_official_languages_for_the_total_population_excluding_institutional_residents_100_data: null
-  english_only: language_english_only
-  french_only: language_french_only
+  english_only: null
+  french_only: null
   english_and_french: null
-  neither_english_nor_french: language_neither_english_nor_french
+  neither_english_nor_french: null
   total_first_official_language_spoken_for_the_total_population_excluding_institutional_residents_100_data: null
-  english: language_english
-  french: language_french
+  english: null
+  french: null
   official_language_minority_number_: null
   official_language_minority_percentage_: null
   total_mother_tongue_for_the_total_population_excluding_institutional_residents_100_data: null
   single_responses: null
   official_languages: null
   non_official_languages: null
-  aboriginal_languages: language_aboriginal
+  aboriginal_languages: null
   algonquian_languages: null
   blackfoot: null
   cree_montagnais_languages: null
