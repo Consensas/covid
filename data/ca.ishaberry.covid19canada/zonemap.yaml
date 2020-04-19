@@ -586,13 +586,6 @@
   health_region_id: '2418'
   alias:
     - Terres-Cries-de-la-Baie-James
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4706'
-  country: CA
-  region: SK
-  name: Saskatoon Regional Health Authority
-  health_region_id: '4706'
-  alias:
-    - Saskatoon
 - country: CA
   region: SK
   name: ''
@@ -623,6 +616,13 @@
   alias:
     - Far North
   maybes: []
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4706'
+  country: CA
+  region: SK
+  name: Saskatoon Regional Health Authority
+  health_region_id: '4706'
+  alias:
+    - Saskatoon
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:6001'
   country: CA
   region: YT

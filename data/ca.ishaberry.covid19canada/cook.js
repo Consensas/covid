@@ -28,6 +28,18 @@ const fs = require("iotdb-fs")
 const path = require("path")
 const _util = require("../../_util")
 
+const minimist = require("minimist")
+const ad = minimist(process.argv.slice(2), {
+    boolean: [
+        "write-regions",
+        "write-regions",
+    ],
+    string: [
+    ],
+    alias: {
+    },
+})
+
 const _normalize_province = op => {
     const np = {
         "Alberta": "AB",
@@ -142,6 +154,8 @@ const _one = _.promise((self, done) => {
                     acquired_country: null,
                 })
 
+            console.log(sd.record)
+
             switch (_util.normalize.text(sd.json.locally_acquired || "")) {
             case "":
                 break
@@ -177,26 +191,33 @@ _one.produces = {
 }
 
 /**
+ *  This is for setting up zonemap.yaml
+ *  and is basically only needed once
  */
-const _write = _.promise((self, done) => {
+const _write_regions = _.promise((self, done) => {
     _.promise(self)
-        .validate(_write)
+        .validate(_write_regions)
 
-        .add("path", path.join(__dirname, "cooked", `${self.json[0].key}.yaml`))
-        .then(fs.write.yaml)
-        .log("path", "path")
+        .make(sd => {
+            sd.json = _.uniqWith(sd.records.map(record => ({
+                region: record.region || null,
+                health_region_name: record.health_region_name || null,
+            })), _.is.Equal)
+            sd.path = "regions.json"
+        })
+        .then(fs.write.json)
 
-        .end(done, self, _write)
+        .end(done, self, _write_regions)
 })
 
-_write.method = "_write"
-_write.description = ``
-_write.requires = {
-    json: _.is.Array,
+_write_regions.method = "_write_regions"
+_write_regions.description = ``
+_write_regions.requires = {
+    records: _.is.Array,
 }
-_write.accepts = {
+_write_regions.accepts = {
 }
-_write.produces = {
+_write_regions.produces = {
 }
 
 /**
@@ -218,6 +239,8 @@ _.promise({
         output_selector: sd => sd.record,
     })
 
+    .conditional(ad["write-regions"], _write_regions)
+
     /*
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
@@ -237,19 +260,11 @@ _.promise({
         sd.rss = _.values(rsd)
     })
     .each({
-        method: _write,
+        method: _write_regions,
         inputs: "rss:json",
     })
     */
 
-    .make(sd => {
-        sd.json = _.uniqWith(sd.records.map(record => ({
-            region: record.region || null,
-            health_region_name: record.health_region_name || null,
-        })), _.is.Equal)
-        sd.path = "xxx.json"
-    })
-    .then(fs.write.json)
 
     .except(_.error.log)
 

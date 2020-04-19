@@ -49,8 +49,8 @@ _.promise()
     .then(fs.read.yaml)
     .add("json:officials")
 
-    // read zones we need to map
-    .then(fs.read.json.magic.p(path.join(__dirname, "xxx.json")))
+    // read zones we need to map (read "bed" as "region")
+    .then(fs.read.json.magic.p(path.join(__dirname, "regions.json")))
     .add("json:beds")
 
     .make(sd => {
