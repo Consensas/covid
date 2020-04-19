@@ -42,7 +42,7 @@ const _normalize_province = op => {
         "Repatriated": "XXRP",
         "Saskatchewan": "SK",
         "NWT": "NT",
-        "Yukon": "YK",
+        "Yukon": "YT",
     }[op]
 
     if (!np) {
@@ -142,9 +142,7 @@ const _one = _.promise((self, done) => {
                     acquired_country: null,
                 })
 
-            console.log("HERE", sd.record)
-            /*
-            switch (_util.normalize.text(sd.json.locally_acquired)) {
+            switch (_util.normalize.text(sd.json.locally_acquired || "")) {
             case "":
                 break
 
@@ -162,7 +160,6 @@ const _one = _.promise((self, done) => {
                 console.log("#", "data/ca.cases/cook", "don't know acquired", sd.json.locally_acquired)
                 process.exit(1)
             }
-            */
         })
 
         .end(done, self, _one)
@@ -220,6 +217,7 @@ _.promise({
         outputs: "records",
         output_selector: sd => sd.record,
     })
+
     /*
     .then(fs.list.p(path.join(__dirname, "raw")))
     .each({
@@ -242,6 +240,7 @@ _.promise({
         method: _write,
         inputs: "rss:json",
     })
+    */
 
     .make(sd => {
         sd.json = _.uniqWith(sd.records.map(record => ({
@@ -251,7 +250,6 @@ _.promise({
         sd.path = "xxx.json"
     })
     .then(fs.write.json)
-    */
 
     .except(_.error.log)
 

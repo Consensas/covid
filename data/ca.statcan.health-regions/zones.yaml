@@ -299,6 +299,7 @@
   name: South West
   fragments:
   - south west
+  - southwest
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3503'
   country: CA
@@ -315,6 +316,10 @@
   name: Hamilton Niagara Haldimand Brant
   fragments:
   - hamilton niagara haldimand brant
+  - hamilton
+  - niagara
+  - haldimand
+  - brant
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3505'
   country: CA
@@ -402,7 +407,7 @@
   health_region: '3526'
   name: The District of Algoma Health Unit
   fragments:
-  - district of algoma
+  - algoma
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3527'
   country: CA
@@ -410,7 +415,7 @@
   health_region: '3527'
   name: Brant County Health Unit
   fragments:
-  - brant county
+  - brant
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3530'
   country: CA
@@ -538,7 +543,7 @@
   health_region: '3546'
   name: Niagara Regional Area Health Unit
   fragments:
-  - niagara regional area
+  - niagara
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3547'
   country: CA
@@ -595,6 +600,7 @@
   name: Peterborough County–City Health Unit
   fragments:
   - peterborough county–city
+  - peterborough
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3556'
   country: CA
@@ -619,6 +625,7 @@
   name: The Eastern Ontario Health Unit
   fragments:
   - eastern ontario
+  - eastern
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3560'
   country: CA
@@ -667,6 +674,7 @@
   name: Wellington–Dufferin-Guelph Health Unit
   fragments:
   - wellington–dufferin-guelph
+  - wellington dufferin guelph
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3568'
   country: CA
@@ -674,7 +682,8 @@
   health_region: '3568'
   name: Windsor–Essex County Health Unit
   fragments:
-  - windsor–essex county
+  - windsor–essex
+  - windsor essex
 
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3570'
   country: CA
