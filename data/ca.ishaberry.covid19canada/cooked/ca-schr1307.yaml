@@ -1,0 +1,14 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:ishaberry:covid19canada:ca-schr1307'
+country: CA
+region: NB
+key: ca-schr1307
+health_region_id: '1307'
+health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr1307'
+items:
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1307:2020-04-02'
+    date: '2020-04-02'
+    tests_positive: 1
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1307:2020-04-07'
+    date: '2020-04-07'
+    tests_positive: 1

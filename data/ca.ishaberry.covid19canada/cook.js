@@ -32,7 +32,7 @@ const minimist = require("minimist")
 const ad = minimist(process.argv.slice(2), {
     boolean: [
         "write-regions",
-        "write-regions",
+        "write-zones",
     ],
     string: [
     ],
@@ -154,7 +154,19 @@ const _one = _.promise((self, done) => {
                     acquired_country: null,
                 })
 
-            console.log(sd.record)
+            const zoned = _util.zone.exact({
+                name: sd.record.health_region_name,
+                region: sd.record.region,
+                country: "CA",
+            }, sd.zoneds)
+
+            if (zoned) {
+                sd.record.health_region = zoned["@id"]
+                sd.record.health_region_id = zoned.health_region_id
+            }
+
+            // console.log(zoned)
+            // console.log(sd.record)
 
             switch (_util.normalize.text(sd.json.locally_acquired || "")) {
             case "":
@@ -183,6 +195,7 @@ _one.method = "_one"
 _one.description = ``
 _one.requires = {
     json: _.is.Dictionary,
+    zoneds: _.is.Array,
 }
 _one.accepts = {
 }
@@ -222,6 +235,93 @@ _write_regions.produces = {
 
 /**
  */
+const _write_one = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_write_one)
+
+        .make(sd => {
+            sd.path = path.join(__dirname, "cooked", `${sd.json.key}.yaml`)
+        })
+        .then(fs.write.yaml)
+        .log("write", "path")
+
+        .end(done, self, _write_one)
+})
+
+_write_one.method = "_write_one"
+_write_one.description = ``
+_write_one.requires = {
+    json: {
+        key: _.is.String,
+    },
+}
+_write_one.accepts = {
+}
+_write_one.produces = {
+}
+
+/**
+ */
+const _write_zones = _.promise((self, done) => {
+    _.promise(self)
+        .validate(_write_zones)
+
+        .make(sd => {
+            sd.nrecords = []
+            sd.zoneds
+                .filter(zoned => zoned.health_region_id)
+                .forEach(zoned => {
+                    const dated = {}
+                    sd.records
+                        .filter(record => zoned.health_region_id === record.health_region_id)
+                        .map(record => record.date)
+                        .forEach(date => {
+                            dated[date] = (dated[date] || 0) + 1
+                        })
+
+                    const nrecord = _util.record.main(sd.settings, {
+                        country: "CA",
+                        region: "schr" + zoned.health_region_id,
+                    })
+                    nrecord.region = zoned.region // sigh
+                    nrecord.health_region_id = zoned.health_region_id
+                    nrecord.health_region = zoned["@id"]
+                    nrecord.items = []
+
+                    _.mapObject(dated, (count, date) => {
+                        nrecord.items.push({
+                            "@id": nrecord["@id"] + ":" + date,
+                            date: date,
+                            tests_positive: count,
+                        })
+                    })
+
+                    // nrecord.items.sort((a, b) => _.is.unsorted(a.date, b.date))
+                    console.log(nrecord)
+
+                    sd.nrecords.push(nrecord)
+                })
+        })
+        .each({
+            method: _write_one,
+            inputs: "nrecords:json",
+        })
+
+        .end(done, self, _write_zones)
+})
+
+_write_zones.method = "_write_zones"
+_write_zones.description = ``
+_write_zones.requires = {
+    records: _.is.Array,
+}
+_write_zones.accepts = {
+}
+_write_zones.produces = {
+}
+
+/**
+ */
 _.promise({
     settings: {
         authority: "ishaberry",
@@ -230,6 +330,16 @@ _.promise({
         region: null,
     },
 })
+
+    // read zonemap
+    .add({
+        path: path.join(__dirname, "zonemap.yaml"),
+        fs$otherwise_json: [],
+    })
+    .then(fs.read.yaml)
+    .add("json:zoneds")
+
+    // read and process cases
     .add("path", path.join(__dirname, "raw", "cases.yaml"))
     .then(fs.read.json.magic)
     .each({
@@ -240,6 +350,7 @@ _.promise({
     })
 
     .conditional(ad["write-regions"], _write_regions)
+    .conditional(ad["write-zones"], _write_zones)
 
     /*
     .then(fs.list.p(path.join(__dirname, "raw")))
@@ -266,5 +377,9 @@ _.promise({
     */
 
 
+    .except(error => {
+        delete error.self
+        console.log(error)
+    })
     .except(_.error.log)
 

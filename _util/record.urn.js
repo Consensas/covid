@@ -44,7 +44,7 @@ const record_urn = (...ds) => {
             side.country = d.country.toLowerCase()
         }
         if (d.locality) {
-            side.locality = d.locality.toLowerCase().replace(/[^a-z]/g, "-").replace(/-+/g, "-")
+            side.locality = d.locality.toLowerCase().replace(/[^a-z0-9]/g, "-").replace(/-+/g, "-")
         }
         if (d.authority) {
             side.authority = d.authority.toLowerCase()

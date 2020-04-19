@@ -1,0 +1,17 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:ishaberry:covid19canada:ca-schr1203'
+country: CA
+region: NS
+key: ca-schr1203
+health_region_id: '1203'
+health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr1203'
+items:
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1203:2020-04-10'
+    date: '2020-04-10'
+    tests_positive: 3
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1203:2020-04-16'
+    date: '2020-04-16'
+    tests_positive: 1
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1203:2020-04-18'
+    date: '2020-04-18'
+    tests_positive: 1

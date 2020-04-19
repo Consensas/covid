@@ -1,0 +1,11 @@
+'@context': 'https://consensas.world/m/covid'
+'@id': 'urn:covid:ishaberry:covid19canada:ca-schr1202'
+country: CA
+region: NS
+key: ca-schr1202
+health_region_id: '1202'
+health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr1202'
+items:
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1202:2020-04-10'
+    date: '2020-04-10'
+    tests_positive: 1

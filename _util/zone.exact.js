@@ -27,6 +27,10 @@ const _ = require("iotdb-helpers")
 /**
  */
 const zone_exact = (matchd, zoneds) => {
+    if (_.is.Empty(matchd.name)) {
+        return null
+    }
+
     const _util = require("../_util")
     const nname = _util.normalize.text(matchd.name)
 
