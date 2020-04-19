@@ -57,18 +57,17 @@ _.promise()
         let seend = {}
 
         sd.beds.forEach(bed => {
-            if (_.is.Empty(bed.health_region) || _.is.Empty(bed.region)) {
+            if (_.is.Empty(bed.health_region_name) || _.is.Empty(bed.region)) {
                 return
             }
-            const key = `${bed.region}/${bed.health_region}`
+            const key = `${bed.region}/${bed.health_region_name}`
             if (seend[key]) {
                 return
             }
             seend[key] = true
 
-            console.log("A", bed)
             let zoned = _util.zone.exact({
-                name: bed.health_region, 
+                name: bed.health_region_name, 
                 region: bed.region, 
                 country: "CA",
             }, sd.zoneds)
@@ -78,7 +77,7 @@ _.promise()
             }
 
             const zds = _util.zone.fuzzy({
-                name: bed.health_region, 
+                name: bed.health_region_name, 
                 region: bed.region, 
                 country: "CA",
             }, sd.officials)
@@ -90,7 +89,6 @@ _.promise()
                 zds.pop()
             }
             */
-            console.log("B")
 
             if (zds.length === 1) {
                 const zd = zds[0]
@@ -100,27 +98,27 @@ _.promise()
                     "country": "CA",
                     "region": zd["region"],
                     "name": zd["name"],
-                    "health_region": zd.health_region,
-                    "alias": [ bed.health_region ],
+                    "health_region_id": zd.health_region_id,
+                    "alias": [ bed.health_region_name ],
                 })
             } else {
-                console.log("#", bed.region, bed.health_region, zds)
+                console.log("#", bed.region, bed.health_region_name, zds)
 
                 sd.zoneds.push({
                     "country": "CA",
                     "region": bed.region,
                     "name": "",
-                    "alias": [ bed.health_region ],
+                    "alias": [ bed.health_region_name ],
                     "maybes": zds.map(zd => ({
                         "@id": zd["@id"],
                         "name": zd["name"],
-                        "health_region": zd.health_region,
+                        "health_region_id": zd.health_region_id,
                     }))
                 })
             }
         })
 
-        sd.zoneds.sort((a, b) => _.is.unsorted(a.region, b.region) || _.is.unsorted(a.health_region, b.health_region))
+        sd.zoneds.sort((a, b) => _.is.unsorted(a.region, b.region) || _.is.unsorted(a.health_region_id, b.health_region_id))
         sd.json = sd.zoneds
         sd.path = path.join(__dirname, "zonemap.yaml")
     })
