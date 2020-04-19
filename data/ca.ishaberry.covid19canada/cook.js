@@ -138,7 +138,7 @@ const _one = _.promise((self, done) => {
                     is_travel: _boolean(sd.json.travel_yn),
                     age_range: _age(sd.json.age),
                     gender: _sex(sd.json.sex),
-                    health_region: _health_region(sd.json.health_region),
+                    health_region_name: _health_region(sd.json.health_region),
                     acquired_country: null,
                 })
 
@@ -245,7 +245,7 @@ _.promise({
     .make(sd => {
         sd.json = _.uniqWith(sd.records.map(record => ({
             region: record.region || null,
-            health_region: record.health_region || null,
+            health_region_name: record.health_region_name || null,
         })), _.is.Equal)
         sd.path = "xxx.json"
     })

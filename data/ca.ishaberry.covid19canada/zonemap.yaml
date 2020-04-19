@@ -2,49 +2,49 @@
   country: CA
   region: AB
   name: South Zone
-  health_region: '4831'
+  health_region_id: '4831'
   alias:
     - South
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4832'
   country: CA
   region: AB
   name: Calgary Zone
-  health_region: '4832'
+  health_region_id: '4832'
   alias:
     - Calgary
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4833'
   country: CA
   region: AB
   name: Central Zone
-  health_region: '4833'
+  health_region_id: '4833'
   alias:
     - Central
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4834'
   country: CA
   region: AB
   name: Edmonton Zone
-  health_region: '4834'
+  health_region_id: '4834'
   alias:
     - Edmonton
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4835'
   country: CA
   region: AB
   name: North Zone
-  health_region: '4835'
+  health_region_id: '4835'
   alias:
     - North
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5910'
   country: CA
   region: BC
   name: Interior Health Authority
-  health_region: '5910'
+  health_region_id: '5910'
   alias:
     - Interior
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5920'
   country: CA
   region: BC
   name: Fraser Health Authority
-  health_region: '5920'
+  health_region_id: '5920'
   alias:
     - Fraser
 - country: CA
@@ -53,547 +53,551 @@
     - Vancouver Coastal
   '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5930'
   name: Vancouver Coastal Health Authority
-  health_region: '5930'
+  health_region_id: '5930'
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5940'
   country: CA
   region: BC
   name: Vancouver Island Health Authority
-  health_region: '5940'
+  health_region_id: '5940'
   alias:
     - Island
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:5950'
   country: CA
   region: BC
   name: Northern Health Authority
-  health_region: '5950'
+  health_region_id: '5950'
   alias:
     - Northern
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4601'
   country: CA
   region: MB
   name: Winnipeg Regional Health Authority
-  health_region: '4601'
+  health_region_id: '4601'
   alias:
     - Winnipeg
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4602'
   country: CA
   region: MB
   name: Prairie Mountain Health
-  health_region: '4602'
+  health_region_id: '4602'
   alias:
     - Prairie Mountain
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4603'
   country: CA
   region: MB
   name: Interlake-Eastern Regional Health
-  health_region: '4603'
+  health_region_id: '4603'
   alias:
     - Interlake-Eastern
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4604'
   country: CA
   region: MB
   name: Northern Regional Health Authority
-  health_region: '4604'
+  health_region_id: '4604'
   alias:
     - Northern
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4605'
   country: CA
   region: MB
   name: Southern Health
-  health_region: '4605'
+  health_region_id: '4605'
   alias:
     - Southern Health
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1301'
   country: CA
   region: NB
   name: Zone 1 (Moncton area)
-  health_region: '1301'
+  health_region_id: '1301'
   alias:
     - Zone 1 (Moncton area)
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1302'
   country: CA
   region: NB
   name: Zone 2 (Saint John area)
-  health_region: '1302'
+  health_region_id: '1302'
   alias:
     - Zone 2 (Saint John area)
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1303'
   country: CA
   region: NB
   name: Zone 3 (Fredericton area)
-  health_region: '1303'
+  health_region_id: '1303'
   alias:
     - Zone 3 (Fredericton area)
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1304'
   country: CA
   region: NB
   name: Zone 4 (Edmundston area)
-  health_region: '1304'
+  health_region_id: '1304'
   alias:
     - Zone 4 (Edmundston area)
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1305'
   country: CA
   region: NB
   name: Zone 5 (Campbellton area)
-  health_region: '1305'
+  health_region_id: '1305'
   alias:
     - Zone 5 (Campbellton area)
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1306'
   country: CA
   region: NB
   name: Zone 6 (Bathurst area)
-  health_region: '1306'
+  health_region_id: '1306'
   alias:
     - Zone 6 (Bathurst area)
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1307'
   country: CA
   region: NB
   name: Zone 7 (Miramichi area)
-  health_region: '1307'
+  health_region_id: '1307'
   alias:
     - Zone 7 (Miramichi area)
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1011'
   country: CA
   region: NL
   name: Eastern Regional Integrated Health Authority
-  health_region: '1011'
+  health_region_id: '1011'
   alias:
     - Eastern
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1012'
   country: CA
   region: NL
   name: Central Regional Integrated Health Authority
-  health_region: '1012'
+  health_region_id: '1012'
   alias:
     - Central
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1013'
   country: CA
   region: NL
   name: Western Regional Integrated Health Authority
-  health_region: '1013'
+  health_region_id: '1013'
   alias:
     - Western
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1014'
   country: CA
   region: NL
   name: Labrador-Grenfell Regional Integrated Health Authority
-  health_region: '1014'
+  health_region_id: '1014'
   alias:
     - Labrador-Grenfell
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1201'
   country: CA
   region: NS
   name: Zone 1 - Western
-  health_region: '1201'
+  health_region_id: '1201'
   alias:
     - Zone 1 - Western
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1202'
   country: CA
   region: NS
   name: Zone 2 - Northern
-  health_region: '1202'
+  health_region_id: '1202'
   alias:
     - Zone 2 - Northern
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1203'
   country: CA
   region: NS
   name: Zone 3 - Eastern
-  health_region: '1203'
+  health_region_id: '1203'
   alias:
     - Zone 3 - Eastern
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1204'
   country: CA
   region: NS
   name: Zone 4 - Central
-  health_region: '1204'
+  health_region_id: '1204'
   alias:
     - Zone 4 - Central
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:6101'
   country: CA
   region: NT
   name: Northwest Territories
-  health_region: '6101'
+  health_region_id: '6101'
   alias:
     - NWT
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3502'
   country: CA
   region: 'ON'
   name: South West
-  health_region: '3502'
+  health_region_id: '3502'
   alias:
     - Southwestern
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3526'
   country: CA
   region: 'ON'
   name: The District of Algoma Health Unit
-  health_region: '3526'
+  health_region_id: '3526'
   alias:
     - Algoma
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3530'
-  country: CA
-  region: 'ON'
-  name: Durham Regional Health Unit
-  health_region: '3530'
-  alias:
-    - Durham
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3533'
-  country: CA
-  region: 'ON'
-  name: Grey Bruce Health Unit
-  health_region: '3533'
-  alias:
-    - Grey Bruce
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3534'
-  country: CA
-  region: 'ON'
-  name: Haldimand-Norfolk Health Unit
-  health_region: '3534'
-  alias:
-    - Haldimand-Norfolk
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3535'
-  country: CA
-  region: 'ON'
-  name: 'Haliburton, Kawartha, Pine Ridge District Health Unit'
-  health_region: '3535'
-  alias:
-    - Haliburton Kawartha Pineridge
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3536'
-  country: CA
-  region: 'ON'
-  name: Halton Regional Health Unit
-  health_region: '3536'
-  alias:
-    - Halton
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3537'
-  country: CA
-  region: 'ON'
-  name: City of Hamilton Health Unit
-  health_region: '3537'
-  alias:
-    - Hamilton
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3538'
-  country: CA
-  region: 'ON'
-  name: Hastings and Prince Edward Counties Health Unit
-  health_region: '3538'
-  alias:
-    - Hastings Prince Edward
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3540'
-  country: CA
-  region: 'ON'
-  name: Chatham-Kent Health Unit
-  health_region: '3540'
-  alias:
-    - Chatham-Kent
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3541'
-  country: CA
-  region: 'ON'
-  name: 'Kingston, Frontenac and Lennox and Addington Health Unit'
-  health_region: '3541'
-  alias:
-    - Kingston Frontenac Lennox & Addington
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3542'
-  country: CA
-  region: 'ON'
-  name: Lambton Health Unit
-  health_region: '3542'
-  alias:
-    - Lambton
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3543'
-  country: CA
-  region: 'ON'
-  name: 'Leeds, Grenville and Lanark District Health Unit'
-  health_region: '3543'
-  alias:
-    - Leeds Grenville and Lanark
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3544'
-  country: CA
-  region: 'ON'
-  name: Middlesex–London Health Unit
-  health_region: '3544'
-  alias:
-    - Middlesex-London
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3547'
-  country: CA
-  region: 'ON'
-  name: North Bay Parry Sound District Health Unit
-  health_region: '3547'
-  alias:
-    - North Bay Parry Sound
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3549'
-  country: CA
-  region: 'ON'
-  name: Northwestern Health Unit
-  health_region: '3549'
-  alias:
-    - Northwestern
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3551'
-  country: CA
-  region: 'ON'
-  name: City of Ottawa Health Unit
-  health_region: '3551'
-  alias:
-    - Ottawa
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3553'
-  country: CA
-  region: 'ON'
-  name: Peel Regional Health Unit
-  health_region: '3553'
-  alias:
-    - Peel
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3554'
-  country: CA
-  region: 'ON'
-  name: Perth District Health Unit
-  health_region: '3554'
-  alias:
-    - Huron Perth
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3555'
-  country: CA
-  region: 'ON'
-  name: Peterborough County–City Health Unit
-  health_region: '3555'
-  alias:
-    - Peterborough
-- country: CA
-  region: 'ON'
-  name: ''
-  alias:
-    - Renfrew
-  maybes: []
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3556'
-  country: CA
-  region: 'ON'
-  name: Porcupine Health Unit
-  health_region: '3556'
-  alias:
-    - Porcupine
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3558'
-  country: CA
-  region: 'ON'
-  name: The Eastern Ontario Health Unit
-  health_region: '3558'
-  alias:
-    - Eastern
 - country: CA
   region: 'ON'
   alias:
     - Brant
   '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3527'
   name: Brant County Health Unit
-  health_region: '3527'
-- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3560'
+  health_region_id: '3527'
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3530'
   country: CA
   region: 'ON'
-  name: Simcoe Muskoka District Health Unit
-  health_region: '3560'
+  name: Durham Regional Health Unit
+  health_region_id: '3530'
   alias:
-    - Simcoe Muskoka
+    - Durham
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3533'
+  country: CA
+  region: 'ON'
+  name: Grey Bruce Health Unit
+  health_region_id: '3533'
+  alias:
+    - Grey Bruce
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3534'
+  country: CA
+  region: 'ON'
+  name: Haldimand-Norfolk Health Unit
+  health_region_id: '3534'
+  alias:
+    - Haldimand-Norfolk
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3535'
+  country: CA
+  region: 'ON'
+  name: 'Haliburton, Kawartha, Pine Ridge District Health Unit'
+  health_region_id: '3535'
+  alias:
+    - Haliburton Kawartha Pineridge
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3536'
+  country: CA
+  region: 'ON'
+  name: Halton Regional Health Unit
+  health_region_id: '3536'
+  alias:
+    - Halton
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3537'
+  country: CA
+  region: 'ON'
+  name: City of Hamilton Health Unit
+  health_region_id: '3537'
+  alias:
+    - Hamilton
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3538'
+  country: CA
+  region: 'ON'
+  name: Hastings and Prince Edward Counties Health Unit
+  health_region_id: '3538'
+  alias:
+    - Hastings Prince Edward
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3540'
+  country: CA
+  region: 'ON'
+  name: Chatham-Kent Health Unit
+  health_region_id: '3540'
+  alias:
+    - Chatham-Kent
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3541'
+  country: CA
+  region: 'ON'
+  name: 'Kingston, Frontenac and Lennox and Addington Health Unit'
+  health_region_id: '3541'
+  alias:
+    - Kingston Frontenac Lennox & Addington
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3542'
+  country: CA
+  region: 'ON'
+  name: Lambton Health Unit
+  health_region_id: '3542'
+  alias:
+    - Lambton
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3543'
+  country: CA
+  region: 'ON'
+  name: 'Leeds, Grenville and Lanark District Health Unit'
+  health_region_id: '3543'
+  alias:
+    - Leeds Grenville and Lanark
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3544'
+  country: CA
+  region: 'ON'
+  name: Middlesex–London Health Unit
+  health_region_id: '3544'
+  alias:
+    - Middlesex-London
 - country: CA
   region: 'ON'
   alias:
     - Niagara
   '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3546'
   name: Niagara Regional Area Health Unit
-  health_region: '3546'
+  health_region_id: '3546'
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3547'
+  country: CA
+  region: 'ON'
+  name: North Bay Parry Sound District Health Unit
+  health_region_id: '3547'
+  alias:
+    - North Bay Parry Sound
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3549'
+  country: CA
+  region: 'ON'
+  name: Northwestern Health Unit
+  health_region_id: '3549'
+  alias:
+    - Northwestern
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3551'
+  country: CA
+  region: 'ON'
+  name: City of Ottawa Health Unit
+  health_region_id: '3551'
+  alias:
+    - Ottawa
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3553'
+  country: CA
+  region: 'ON'
+  name: Peel Regional Health Unit
+  health_region_id: '3553'
+  alias:
+    - Peel
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3554'
+  country: CA
+  region: 'ON'
+  name: Perth District Health Unit
+  health_region_id: '3554'
+  alias:
+    - Huron Perth
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3555'
+  country: CA
+  region: 'ON'
+  name: Peterborough County–City Health Unit
+  health_region_id: '3555'
+  alias:
+    - Peterborough
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3556'
+  country: CA
+  region: 'ON'
+  name: Porcupine Health Unit
+  health_region_id: '3556'
+  alias:
+    - Porcupine
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3557'
+  country: CA
+  region: 'ON'
+  name: Renfrew County and District Health Unit
+  health_region_id: '3557'
+  alias:
+    - Renfrew
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3558'
+  country: CA
+  region: 'ON'
+  name: The Eastern Ontario Health Unit
+  health_region_id: '3558'
+  alias:
+    - Eastern
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3560'
+  country: CA
+  region: 'ON'
+  name: Simcoe Muskoka District Health Unit
+  health_region_id: '3560'
+  alias:
+    - Simcoe Muskoka
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3561'
   country: CA
   region: 'ON'
   name: Sudbury and District Health Unit
-  health_region: '3561'
+  health_region_id: '3561'
   alias:
     - Sudbury
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3562'
   country: CA
   region: 'ON'
   name: Thunder Bay District Health Unit
-  health_region: '3562'
+  health_region_id: '3562'
   alias:
     - Thunder Bay
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3563'
   country: CA
   region: 'ON'
   name: Timiskaming Health Unit
-  health_region: '3563'
+  health_region_id: '3563'
   alias:
     - Timiskaming
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3565'
   country: CA
   region: 'ON'
   name: Waterloo Health Unit
-  health_region: '3565'
+  health_region_id: '3565'
   alias:
     - Waterloo
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3566'
   country: CA
   region: 'ON'
   name: Wellington–Dufferin-Guelph Health Unit
-  health_region: '3566'
+  health_region_id: '3566'
   alias:
     - Wellington Dufferin Guelph
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3568'
   country: CA
   region: 'ON'
   name: Windsor–Essex County Health Unit
-  health_region: '3568'
+  health_region_id: '3568'
   alias:
     - Windsor-Essex
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3570'
   country: CA
   region: 'ON'
   name: York Regional Health Unit
-  health_region: '3570'
+  health_region_id: '3570'
   alias:
     - York
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:3595'
   country: CA
   region: 'ON'
   name: City of Toronto Health Unit
-  health_region: '3595'
+  health_region_id: '3595'
   alias:
     - Toronto
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:1100'
   country: CA
   region: PE
   name: Prince Edward Island
-  health_region: '1100'
+  health_region_id: '1100'
   alias:
     - Prince Edward Island
-- country: CA
-  region: QC
-  name: ''
-  alias:
-    - Gaspésie-Îles-de-la-Madeleine
-  maybes: []
-- country: CA
-  region: QC
-  name: ''
-  alias:
-    - Saguenay
-  maybes: []
-- country: CA
-  region: QC
-  name: ''
-  alias:
-    - Mauricie
-  maybes: []
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2401'
   country: CA
   region: QC
   name: Région du Bas–Saint–Laurent
-  health_region: '2401'
+  health_region_id: '2401'
   alias:
     - Bas-Saint-Laurent
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2402'
+  country: CA
+  region: QC
+  name: Région du Saguenay — Lac–Saint–Jean
+  health_region_id: '2402'
+  alias:
+    - Saguenay
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2403'
   country: CA
   region: QC
   name: Région de la Capitale–Nationale
-  health_region: '2403'
+  health_region_id: '2403'
   alias:
     - Capitale-Nationale
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2404'
+  country: CA
+  region: QC
+  name: Région de la Mauricie et du Centre–du–Québec
+  health_region_id: '2404'
+  alias:
+    - Mauricie
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2405'
   country: CA
   region: QC
   name: Région de l'Estrie
-  health_region: '2405'
+  health_region_id: '2405'
   alias:
     - Estrie
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2406'
   country: CA
   region: QC
   name: Région de Montréal
-  health_region: '2406'
+  health_region_id: '2406'
   alias:
     - Montréal
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2407'
   country: CA
   region: QC
   name: Région de l'Outaouais
-  health_region: '2407'
+  health_region_id: '2407'
   alias:
     - Outaouais
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2408'
   country: CA
   region: QC
   name: Région de l'Abitibi–Témiscamingue
-  health_region: '2408'
+  health_region_id: '2408'
   alias:
     - Abitibi-Témiscamingue
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2409'
   country: CA
   region: QC
   name: Région de la Côte–Nord
-  health_region: '2409'
+  health_region_id: '2409'
   alias:
     - Côte-Nord
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2410'
   country: CA
   region: QC
   name: Région du Nord–du–Québec
-  health_region: '2410'
+  health_region_id: '2410'
   alias:
     - Nord-du-Québec
+- '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2411'
+  country: CA
+  region: QC
+  name: Région de la Gaspésie — Îles–de–la–Madeleine
+  health_region_id: '2411'
+  alias:
+    - Gaspésie-Îles-de-la-Madeleine
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2412'
   country: CA
   region: QC
   name: Région de la Chaudière–Appalaches
-  health_region: '2412'
+  health_region_id: '2412'
   alias:
     - Chaudière-Appalaches
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2413'
   country: CA
   region: QC
   name: Région de Laval
-  health_region: '2413'
+  health_region_id: '2413'
   alias:
     - Laval
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2414'
   country: CA
   region: QC
   name: Région de Lanaudière
-  health_region: '2414'
+  health_region_id: '2414'
   alias:
     - Lanaudière
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2415'
   country: CA
   region: QC
   name: Région des Laurentides
-  health_region: '2415'
+  health_region_id: '2415'
   alias:
     - Laurentides
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2416'
   country: CA
   region: QC
   name: Région de la Montérégie
-  health_region: '2416'
+  health_region_id: '2416'
   alias:
     - Montérégie
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2417'
   country: CA
   region: QC
   name: Région du Nunavik
-  health_region: '2417'
+  health_region_id: '2417'
   alias:
     - Nunavik
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:2418'
   country: CA
   region: QC
   name: Région des Terres–Cries–de–la–Baie–James
-  health_region: '2418'
+  health_region_id: '2418'
   alias:
     - Terres-Cries-de-la-Baie-James
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:4706'
   country: CA
   region: SK
   name: Saskatoon Regional Health Authority
-  health_region: '4706'
+  health_region_id: '4706'
   alias:
     - Saskatoon
 - country: CA
   region: SK
   name: ''
   alias:
-    - North
+    - Central
   maybes: []
 - country: CA
   region: SK
@@ -611,18 +615,18 @@
   region: SK
   name: ''
   alias:
-    - Far North
+    - North
   maybes: []
 - country: CA
   region: SK
   name: ''
   alias:
-    - Central
+    - Far North
   maybes: []
 - '@id': 'urn:covid:statcan.gc.ca:health-region:ca:6001'
   country: CA
   region: YT
   name: Yukon
-  health_region: '6001'
+  health_region_id: '6001'
   alias:
     - Yukon
