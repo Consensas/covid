@@ -73,13 +73,13 @@ _.promise({
                     } else if (key.startsWith("presumptive p")) {
                         // item.tests_xxx = number
                     } else if (key.startsWith("resolved")) {
-                        item.tests_resolved = number
+                        item.recovered = number
                     } else {
                         console.log("-", "key", key)
                     }
                 })
 
-                item.tests = (item.tests_negative || 0) + (item.tests_positive || 0) + (item.tests_resolved || 0) 
+                item.tests = (item.tests_negative || 0) + (item.tests_positive || 0)
 
                 sd.json.items.push(item)
             })

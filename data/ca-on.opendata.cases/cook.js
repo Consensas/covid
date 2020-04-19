@@ -214,7 +214,7 @@ _.promise()
             tests_negative: _.coerce.to.Integer(item.confirmed_negative, null),
             tests_investigation: _.coerce.to.Integer(item.under_investigation, null),
             tests_positive: _.coerce.to.Integer(item.confirmed_positive, null),
-            tests_resolved: _.coerce.to.Integer(item.resolved, null),
+            recovered: _.coerce.to.Integer(item.resolved, null),
             deaths: _.coerce.to.Integer(item.deaths, null),
             tests_approved: _.coerce.to.Integer(item.total_patients_approved_for_testing_as_of_reporting_date, null),
         }))
