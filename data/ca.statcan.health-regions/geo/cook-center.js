@@ -108,7 +108,7 @@ _.promise({
             const ll = sd.lld[zone.health_region_id]
             if (ll) {
                 zone.latitude = ll[0]
-                zone.longitude = ll[0]
+                zone.longitude = ll[1]
             }
         })
     })
