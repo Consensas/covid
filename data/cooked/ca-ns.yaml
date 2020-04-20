@@ -548,15 +548,15 @@ items:
     tests: 20312
     tests_negative: 20128
     patients_hospital_current: 6
-  - '@context': 'https://consensas.world/m/covid'
+  - date: '2020-04-19'
+    deaths: 2
+    tests_positive: 200
+    '@context': 'https://consensas.world/m/covid'
     '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-19'
     region: NS
     country: CA
     key: ca-ns
-    date: '2020-04-19'
     tests: 21120
-    deaths: 2
-    tests_positive: 200
     tests_negative: 20920
     patients_hospital_current: 7
 state: NS
