@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3536
 health_region_id: '3536'
+name: Halton Regional Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3536'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3536:2020-03-11'
@@ -99,3 +100,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3536:2020-04-18'
     date: '2020-04-18'
     tests_positive: 368
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3536:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 380

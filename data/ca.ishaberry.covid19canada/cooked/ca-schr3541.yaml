@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3541
 health_region_id: '3541'
+name: 'Kingston, Frontenac and Lennox and Addington Health Unit'
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3541'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3541:2020-03-17'
@@ -48,3 +49,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3541:2020-04-11'
     date: '2020-04-11'
     tests_positive: 55
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3541:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 56

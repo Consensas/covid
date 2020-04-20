@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3542
 health_region_id: '3542'
+name: Lambton Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3542'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3542:2020-03-26'
@@ -60,3 +61,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3542:2020-04-18'
     date: '2020-04-18'
     tests_positive: 131
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3542:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 132

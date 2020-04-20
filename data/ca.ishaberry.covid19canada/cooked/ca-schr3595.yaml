@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3595
 health_region_id: '3595'
+name: City of Toronto Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3595'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3595:2020-01-25'
@@ -159,3 +160,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3595:2020-04-18'
     date: '2020-04-18'
     tests_positive: 3346
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3595:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 3546

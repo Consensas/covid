@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3544
 health_region_id: '3544'
+name: Middlesex–London Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3544'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3544:2020-01-31'
@@ -99,3 +100,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3544:2020-04-18'
     date: '2020-04-18'
     tests_positive: 289
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3544:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 306

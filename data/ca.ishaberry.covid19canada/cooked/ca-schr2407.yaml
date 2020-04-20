@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2407
 health_region_id: '2407'
+name: Région de l'Outaouais
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2407'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2407:2020-03-18'
@@ -96,3 +97,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2407:2020-04-18'
     date: '2020-04-18'
     tests_positive: 202
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2407:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 209

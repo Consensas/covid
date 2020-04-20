@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3570
 health_region_id: '3570'
+name: York Regional Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3570'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3570:2020-02-29'
@@ -114,3 +115,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3570:2020-04-18'
     date: '2020-04-18'
     tests_positive: 1034
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3570:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 1083

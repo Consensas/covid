@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2415
 health_region_id: '2415'
+name: Région des Laurentides
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2415'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2415:2020-03-05'
@@ -114,3 +115,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2415:2020-04-18'
     date: '2020-04-18'
     tests_positive: 813
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2415:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 844

@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3558
 health_region_id: '3558'
+name: The Eastern Ontario Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3558'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3558:2020-03-14'
@@ -63,3 +64,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3558:2020-04-17'
     date: '2020-04-17'
     tests_positive: 67
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3558:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 68

@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2413
 health_region_id: '2413'
+name: Région de Laval
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2413'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2413:2020-03-19'
@@ -96,3 +97,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2413:2020-04-18'
     date: '2020-04-18'
     tests_positive: 1897
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2413:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 2029

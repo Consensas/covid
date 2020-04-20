@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3534
 health_region_id: '3534'
+name: Haldimand-Norfolk Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3534'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3534:2020-03-26'
@@ -66,3 +67,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3534:2020-04-18'
     date: '2020-04-18'
     tests_positive: 157
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3534:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 158

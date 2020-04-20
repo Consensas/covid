@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2416
 health_region_id: '2416'
+name: Région de la Montérégie
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2416'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2416:2020-03-06'
@@ -120,3 +121,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2416:2020-04-18'
     date: '2020-04-18'
     tests_positive: 2052
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2416:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 2142

@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2404
 health_region_id: '2404'
+name: Région de la Mauricie et du Centre–du–Québec
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2404'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2404:2020-03-11'
@@ -102,3 +103,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2404:2020-04-18'
     date: '2020-04-18'
     tests_positive: 947
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2404:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 961

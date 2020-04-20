@@ -4,6 +4,7 @@ country: CA
 region: SK
 key: ca-schr4706
 health_region_id: '4706'
+name: Saskatoon Regional Health Authority
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr4706'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4706:2020-03-12'
@@ -90,3 +91,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4706:2020-04-18'
     date: '2020-04-18'
     tests_positive: 148
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4706:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 149

@@ -4,6 +4,7 @@ country: CA
 region: AB
 key: ca-schr4832
 health_region_id: '4832'
+name: Calgary Zone
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr4832'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4832:2020-03-05'
@@ -132,3 +133,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4832:2020-04-18'
     date: '2020-04-18'
     tests_positive: 1820
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4832:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 1997

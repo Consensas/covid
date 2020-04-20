@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3562
 health_region_id: '3562'
+name: Thunder Bay District Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3562'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3562:2020-03-27'
@@ -54,3 +55,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3562:2020-04-17'
     date: '2020-04-17'
     tests_positive: 49
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3562:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 51

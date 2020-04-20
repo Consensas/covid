@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2409
 health_region_id: '2409'
+name: Région de la Côte–Nord
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2409'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2409:2020-03-24'
@@ -81,3 +82,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2409:2020-04-18'
     date: '2020-04-18'
     tests_positive: 107
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2409:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 109

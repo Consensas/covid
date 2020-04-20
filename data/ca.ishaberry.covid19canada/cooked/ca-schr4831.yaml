@@ -4,6 +4,7 @@ country: CA
 region: AB
 key: ca-schr4831
 health_region_id: '4831'
+name: South Zone
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr4831'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4831:2020-03-16'
@@ -74,4 +75,7 @@ items:
     tests_positive: 68
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4831:2020-04-18'
     date: '2020-04-18'
-    tests_positive: 77
+    tests_positive: 81
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr4831:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 142

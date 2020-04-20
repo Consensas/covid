@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3538
 health_region_id: '3538'
+name: Hastings and Prince Edward Counties Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3538'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3538:2020-03-20'
@@ -63,3 +64,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3538:2020-04-18'
     date: '2020-04-18'
     tests_positive: 30
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3538:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 31

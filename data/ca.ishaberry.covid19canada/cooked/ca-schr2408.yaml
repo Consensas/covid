@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2408
 health_region_id: '2408'
+name: Région de l'Abitibi–Témiscamingue
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2408'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2408:2020-03-23'
@@ -78,3 +79,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2408:2020-04-17'
     date: '2020-04-17'
     tests_positive: 143
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2408:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 145

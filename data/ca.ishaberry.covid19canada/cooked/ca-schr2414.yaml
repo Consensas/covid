@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2414
 health_region_id: '2414'
+name: Région de Lanaudière
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2414'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2414:2020-03-14'
@@ -108,3 +109,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2414:2020-04-18'
     date: '2020-04-18'
     tests_positive: 1244
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2414:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 1345

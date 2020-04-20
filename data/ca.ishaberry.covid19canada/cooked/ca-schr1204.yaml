@@ -4,6 +4,7 @@ country: CA
 region: NS
 key: ca-schr1204
 health_region_id: '1204'
+name: Zone 4 - Central
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr1204'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1204:2020-03-15'
@@ -21,3 +22,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1204:2020-04-18'
     date: '2020-04-18'
     tests_positive: 102
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr1204:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 128

@@ -4,6 +4,7 @@ country: CA
 region: 'ON'
 key: ca-schr3566
 health_region_id: '3566'
+name: Wellington–Dufferin-Guelph Health Unit
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr3566'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3566:2020-03-16'
@@ -66,3 +67,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3566:2020-04-18'
     date: '2020-04-18'
     tests_positive: 192
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr3566:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 198

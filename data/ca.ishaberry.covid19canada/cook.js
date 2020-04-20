@@ -285,6 +285,7 @@ const _write_zones = _.promise((self, done) => {
                     })
                     nrecord.region = zoned.region // sigh
                     nrecord.health_region_id = zoned.health_region_id
+                    nrecord.name = zoned.name
                     nrecord.health_region = zoned["@id"]
                     nrecord.items = []
 

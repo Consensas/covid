@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2402
 health_region_id: '2402'
+name: Région du Saguenay — Lac–Saint–Jean
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2402'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2402:2020-03-21'
@@ -81,3 +82,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2402:2020-04-18'
     date: '2020-04-18'
     tests_positive: 214
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2402:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 226

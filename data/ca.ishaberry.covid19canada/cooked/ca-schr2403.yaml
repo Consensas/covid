@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2403
 health_region_id: '2403'
+name: Région de la Capitale–Nationale
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2403'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2403:2020-03-15'
@@ -102,3 +103,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2403:2020-04-18'
     date: '2020-04-18'
     tests_positive: 586
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2403:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 599

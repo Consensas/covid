@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2412
 health_region_id: '2412'
+name: Région de la Chaudière–Appalaches
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2412'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2412:2020-03-12'
@@ -102,3 +103,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2412:2020-04-18'
     date: '2020-04-18'
     tests_positive: 316
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2412:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 329

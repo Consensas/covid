@@ -4,6 +4,7 @@ country: CA
 region: QC
 key: ca-schr2406
 health_region_id: '2406'
+name: Région de Montréal
 health_region: 'urn:covid:statcan.gc.ca:health-region:ca-schr2406'
 items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2406:2020-02-27'
@@ -126,3 +127,6 @@ items:
   - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2406:2020-04-18'
     date: '2020-04-18'
     tests_positive: 8052
+  - '@id': 'urn:covid:ishaberry:covid19canada:ca-schr2406:2020-04-19'
+    date: '2020-04-19'
+    tests_positive: 8457
