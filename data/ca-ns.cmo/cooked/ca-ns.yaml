@@ -400,3 +400,14 @@ items:
     tests_positive: 200
     tests_negative: 20920
     patients_hospital_current: 7
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-20'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-04-20'
+    tests: 21769
+    deaths: null
+    tests_positive: 248
+    tests_negative: 21521
+    patients_hospital_current: 8
