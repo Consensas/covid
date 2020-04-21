@@ -15,10 +15,14 @@ node ../../tools/pull-csv \
     --path "raw/cases.yaml" \
     --any-cert \
     --force
+node cook.js --write-zones
 
-set -e
+git add cooked/ca-*.yaml
+git commit -am "new raw data"
+
 
 exit 0
+set -e
 node pull.js
 node cook.js
 (
@@ -35,5 +39,3 @@ git add *8.yaml
 git add *9.yaml
 )
 
-git add cooked/ca-*.yaml
-git commit -am "new raw data"
