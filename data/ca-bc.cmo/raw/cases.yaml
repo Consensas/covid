@@ -68,20 +68,20 @@
   age_group: 50-59
 - reported_date: '2020-03-04'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 20-29
-- reported_date: '2020-03-04'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-04'
-  ha: Vancouver Coastal
   sex: F
   age_group: 50-59
 - reported_date: '2020-03-04'
   ha: Vancouver Coastal
   sex: M
+  age_group: 20-29
+- reported_date: '2020-03-04'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 60-69
+- reported_date: '2020-03-04'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-03-05'
   ha: Fraser
   sex: F
@@ -104,12 +104,12 @@
   age_group: 60-69
 - reported_date: '2020-03-06'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-06'
-  ha: Vancouver Coastal
   sex: F
   age_group: 70-79
+- reported_date: '2020-03-06'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
 - reported_date: '2020-03-07'
   ha: Vancouver Coastal
   sex: F
@@ -133,15 +133,15 @@
 - reported_date: '2020-03-09'
   ha: Vancouver Coastal
   sex: M
+  age_group: 20-29
+- reported_date: '2020-03-09'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 30-39
 - reported_date: '2020-03-09'
   ha: Vancouver Coastal
   sex: F
   age_group: 30-39
-- reported_date: '2020-03-09'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 20-29
 - reported_date: '2020-03-10'
   ha: Fraser
   sex: M
@@ -160,16 +160,16 @@
   age_group: 70-79
 - reported_date: '2020-03-10'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-10'
-  ha: Vancouver Coastal
   sex: F
   age_group: 50-59
 - reported_date: '2020-03-10'
   ha: Vancouver Coastal
   sex: M
   age_group: 89+
+- reported_date: '2020-03-10'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
 - reported_date: '2020-03-10'
   ha: Vancouver Coastal
   sex: F
@@ -196,28 +196,12 @@
   age_group: 89+
 - reported_date: '2020-03-11'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-11'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-11'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-11'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-11'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-11'
-  ha: Vancouver Coastal
   sex: F
   age_group: 70-79
+- reported_date: '2020-03-11'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-03-11'
   ha: Vancouver Coastal
   sex: M
@@ -225,15 +209,31 @@
 - reported_date: '2020-03-11'
   ha: Vancouver Coastal
   sex: F
-  age_group: 70-79
-- reported_date: '2020-03-11'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 30-39
 - reported_date: '2020-03-11'
   ha: Vancouver Coastal
   sex: M
+  age_group: 40-49
+- reported_date: '2020-03-11'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-11'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-11'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 50-59
+- reported_date: '2020-03-11'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-11'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
 - reported_date: '2020-03-12'
   ha: Fraser
   sex: M
@@ -254,6 +254,18 @@
   ha: Fraser
   sex: F
   age_group: 40-49
+- reported_date: '2020-03-12'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-12'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-12'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 20-29
 - reported_date: '2020-03-12'
   ha: Vancouver Coastal
   sex: F
@@ -269,18 +281,6 @@
 - reported_date: '2020-03-12'
   ha: Vancouver Coastal
   sex: F
-  age_group: 30-39
-- reported_date: '2020-03-12'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 20-29
-- reported_date: '2020-03-12'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-12'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 50-59
 - reported_date: '2020-03-12'
   ha: Vancouver Coastal
@@ -316,12 +316,36 @@
   age_group: 60-69
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 40-49
+- reported_date: '2020-03-13'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-13'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-13'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
   sex: M
   age_group: 60-69
+- reported_date: '2020-03-13'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-13'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-13'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
   sex: M
@@ -329,7 +353,7 @@
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
   sex: M
-  age_group: 30-39
+  age_group: 60-69
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
   sex: F
@@ -337,43 +361,19 @@
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
   sex: M
-  age_group: 30-39
+  age_group: 80-89
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
   sex: F
-  age_group: 60-69
-- reported_date: '2020-03-13'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
+  age_group: 50-59
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
   sex: M
   age_group: 20-29
 - reported_date: '2020-03-13'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-13'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-13'
-  ha: Vancouver Coastal
   sex: M
   age_group: 40-49
-- reported_date: '2020-03-13'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-13'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-13'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
 - reported_date: '2020-03-14'
   ha: Fraser
   sex: M
@@ -412,11 +412,15 @@
   age_group: 50-59
 - reported_date: '2020-03-14'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
+  sex: M
+  age_group: 70-79
 - reported_date: '2020-03-14'
   ha: Vancouver Coastal
   sex: M
+  age_group: 50-59
+- reported_date: '2020-03-14'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 50-59
 - reported_date: '2020-03-14'
   ha: Vancouver Coastal
@@ -425,15 +429,11 @@
 - reported_date: '2020-03-14'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
-- reported_date: '2020-03-14'
-  ha: Vancouver Coastal
-  sex: M
   age_group: 70-79
 - reported_date: '2020-03-14'
   ha: Vancouver Coastal
   sex: F
-  age_group: 70-79
+  age_group: 30-39
 - reported_date: '2020-03-15'
   ha: Fraser
   sex: M
@@ -481,55 +481,59 @@
 - reported_date: '2020-03-15'
   ha: Vancouver Coastal
   sex: F
+  age_group: 80-89
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 20-29
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 89+
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-15'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 40-49
 - reported_date: '2020-03-15'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
   sex: F
   age_group: 80-89
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 89+
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
 - reported_date: '2020-03-15'
   ha: Vancouver Coastal
   sex: F
@@ -537,19 +541,15 @@
 - reported_date: '2020-03-15'
   ha: Vancouver Coastal
   sex: M
-  age_group: 80-89
-- reported_date: '2020-03-15'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 50-59
 - reported_date: '2020-03-15'
   ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 80-89
 - reported_date: '2020-03-15'
   ha: Vancouver Coastal
   sex: M
-  age_group: 20-29
+  age_group: 50-59
 - reported_date: '2020-03-16'
   ha: Fraser
   sex: F
@@ -632,12 +632,104 @@
   age_group: 40-49
 - reported_date: '2020-03-16'
   ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
   sex: M
+  age_group: 60-69
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 89+
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 40-49
 - reported_date: '2020-03-16'
   ha: Vancouver Coastal
   sex: F
   age_group: 80-89
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-16'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-03-16'
   ha: Vancouver Coastal
   sex: F
@@ -649,98 +741,6 @@
 - reported_date: '2020-03-16'
   ha: Vancouver Coastal
   sex: M
-  age_group: 30-39
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 89+
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-16'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 50-59
 - reported_date: '2020-03-17'
   ha: Fraser
@@ -813,19 +813,7 @@
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
   sex: F
-  age_group: 89+
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
+  age_group: 20-29
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
   sex: F
@@ -836,40 +824,12 @@
   age_group: 20-29
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 89+
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
   sex: F
   age_group: 70-79
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
   sex: F
-  age_group: 70-79
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
+  age_group: 80-89
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
   sex: M
@@ -877,39 +837,79 @@
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
   sex: F
-  age_group: 20-29
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 20-29
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 89+
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 70-79
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
   sex: M
-  age_group: 50-59
-- reported_date: '2020-03-17'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
+  age_group: 89+
 - reported_date: '2020-03-17'
   ha: Vancouver Coastal
   sex: F
   age_group: 30-39
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 20-29
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 89+
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-17'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
 - reported_date: '2020-03-18'
   ha: Fraser
   sex: F
@@ -1033,6 +1033,30 @@
 - reported_date: '2020-03-18'
   ha: Vancouver Island
   sex: M
+  age_group: 40-49
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 40-49
 - reported_date: '2020-03-18'
   ha: Vancouver Coastal
@@ -1040,116 +1064,92 @@
   age_group: <10
 - reported_date: '2020-03-18'
   ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-18'
+  ha: Vancouver Coastal
   sex: F
   age_group: 20-29
 - reported_date: '2020-03-18'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
   sex: M
   age_group: 40-49
 - reported_date: '2020-03-18'
   ha: Vancouver Coastal
   sex: M
-  age_group: 70-79
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
   age_group: 40-49
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-18'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
 - reported_date: '2020-03-19'
   ha: Fraser
   sex: M
@@ -1260,32 +1260,40 @@
   age_group: 40-49
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
   sex: F
   age_group: 40-49
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
   sex: F
+  age_group: 20-29
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 60-69
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 60-69
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
   sex: F
   age_group: 89+
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
-  sex: F
+  sex: M
   age_group: 30-39
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
-  sex: F
+  sex: M
   age_group: 60-69
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
   sex: F
@@ -1297,35 +1305,7 @@
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
   sex: F
-  age_group: 60-69
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 20-29
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-19'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
+  age_group: 30-39
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
   sex: F
@@ -1337,13 +1317,33 @@
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
   sex: F
-  age_group: 40-49
+  age_group: 60-69
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
   sex: F
+  age_group: 60-69
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 80-89
 - reported_date: '2020-03-19'
   ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-19'
+  ha: Vancouver Coastal
   sex: M
   age_group: 60-69
 - reported_date: '2020-03-20'
@@ -1366,10 +1366,6 @@
   ha: Fraser
   sex: F
   age_group: 30-39
-- reported_date: '2020-03-20'
-  ha: Fraser
-  sex: F
-  age_group: 60-69
 - reported_date: '2020-03-20'
   ha: Fraser
   sex: F
@@ -1496,12 +1492,12 @@
   age_group: 40-49
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
+  age_group: 30-39
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: M
@@ -1512,60 +1508,64 @@
   age_group: 20-29
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
   sex: F
   age_group: 30-39
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: F
   age_group: 70-79
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: F
@@ -1577,7 +1577,23 @@
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: M
-  age_group: 30-39
+  age_group: 20-29
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-20'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: M
@@ -1589,10 +1605,6 @@
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: M
-  age_group: 30-39
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 50-59
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
@@ -1605,23 +1617,7 @@
 - reported_date: '2020-03-20'
   ha: Vancouver Coastal
   sex: M
-  age_group: 60-69
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 20-29
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-20'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
+  age_group: 40-49
 - reported_date: '2020-03-21'
   ha: Fraser
   sex: F
@@ -1666,6 +1662,10 @@
   ha: Fraser
   sex: F
   age_group: 50-59
+- reported_date: '2020-03-21'
+  ha: Fraser
+  sex: F
+  age_group: 60-69
 - reported_date: '2020-03-21'
   ha: Fraser
   sex: F
@@ -1749,43 +1749,51 @@
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: M
-  age_group: 30-39
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
+  age_group: 40-49
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: F
   age_group: 40-49
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: F
@@ -1793,7 +1801,7 @@
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: F
-  age_group: 40-49
+  age_group: 60-69
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: M
@@ -1801,26 +1809,14 @@
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: F
-  age_group: 30-39
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: M
   age_group: 40-49
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: M
-  age_group: 60-69
+  age_group: 70-79
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 30-39
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
@@ -1829,51 +1825,19 @@
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: F
+  age_group: 30-39
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 40-49
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
-  sex: F
+  sex: M
   age_group: 70-79
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-21'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: M
@@ -1881,7 +1845,43 @@
 - reported_date: '2020-03-21'
   ha: Vancouver Coastal
   sex: F
-  age_group: 40-49
+  age_group: 80-89
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-21'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-03-22'
   ha: Fraser
   sex: M
@@ -1996,11 +1996,51 @@
   age_group: 50-59
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
   sex: F
   age_group: 50-59
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
   sex: F
+  age_group: 40-49
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 20-29
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
@@ -2013,79 +2053,39 @@
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
   sex: F
-  age_group: 40-49
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: M
   age_group: 50-59
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: M
   age_group: 20-29
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
   sex: F
   age_group: 50-59
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-22'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
   sex: F
   age_group: 80-89
 - reported_date: '2020-03-22'
   ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 30-39
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-22'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
 - reported_date: '2020-03-23'
   ha: Fraser
   sex: F
@@ -2209,14 +2209,14 @@
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
   sex: F
+  age_group: 50-59
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 40-49
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 30-39
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
@@ -2232,23 +2232,47 @@
   age_group: 80-89
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
   sex: M
+  age_group: 20-29
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 60-69
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
   sex: M
   age_group: 70-79
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 89+
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: F
+  sex: M
   age_group: 80-89
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
@@ -2264,56 +2288,32 @@
   age_group: 50-59
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
   sex: M
   age_group: 50-59
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: M
   age_group: 80-89
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
+  age_group: 80-89
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
   sex: F
+  age_group: 20-29
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 89+
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-23'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 60-69
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 20-29
-- reported_date: '2020-03-23'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 20-29
 - reported_date: '2020-03-23'
   ha: Vancouver Coastal
   sex: F
@@ -2465,27 +2465,19 @@
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
-- reported_date: '2020-03-24'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 20-29
-- reported_date: '2020-03-24'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-24'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-24'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
+  age_group: 60-69
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: M
   age_group: 60-69
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: F
@@ -2494,6 +2486,10 @@
   ha: Vancouver Coastal
   sex: M
   age_group: 50-59
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: F
@@ -2501,15 +2497,15 @@
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: F
+  age_group: 20-29
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 40-49
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: F
-  age_group: 30-39
-- reported_date: '2020-03-24'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
+  age_group: 50-59
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: M
@@ -2524,28 +2520,32 @@
   age_group: 40-49
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-24'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-24'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
+  sex: M
+  age_group: 70-79
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: M
   age_group: 20-29
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
+  sex: M
+  age_group: 70-79
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: M
-  age_group: 60-69
+  age_group: 50-59
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
   sex: F
@@ -2556,8 +2556,12 @@
   age_group: 50-59
 - reported_date: '2020-03-24'
   ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-24'
+  ha: Vancouver Coastal
   sex: M
-  age_group: 60-69
+  age_group: 30-39
 - reported_date: '2020-03-25'
   ha: Fraser
   sex: F
@@ -2744,7 +2748,83 @@
   age_group: 70-79
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
+  sex: F
+  age_group: 20-29
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
   sex: M
+  age_group: 50-59
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 50-59
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
@@ -2752,100 +2832,76 @@
   age_group: 20-29
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 70-79
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-25'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
   sex: M
   age_group: 10-19
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
   sex: M
   age_group: 70-79
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
   sex: M
   age_group: 50-59
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
   sex: M
   age_group: 30-39
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
   sex: M
@@ -2853,63 +2909,11 @@
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
   sex: M
-  age_group: 50-59
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 70-79
 - reported_date: '2020-03-25'
   ha: Vancouver Coastal
   sex: F
-  age_group: 80-89
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 20-29
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 70-79
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-25'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
 - reported_date: '2020-03-26'
   ha: Fraser
   sex: M
@@ -3084,20 +3088,36 @@
   age_group: 20-29
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-26'
+  ha: Vancouver Coastal
   sex: M
   age_group: 70-79
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: M
-  age_group: 40-49
+  age_group: 70-79
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: F
-  age_group: 40-49
+  age_group: 60-69
+- reported_date: '2020-03-26'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-26'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: F
   age_group: 30-39
+- reported_date: '2020-03-26'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: M
@@ -3109,7 +3129,11 @@
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: F
-  age_group: 60-69
+  age_group: 40-49
+- reported_date: '2020-03-26'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: F
@@ -3117,34 +3141,14 @@
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: F
-  age_group: 30-39
-- reported_date: '2020-03-26'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 70-79
-- reported_date: '2020-03-26'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-26'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-26'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
   sex: M
   age_group: 40-49
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-26'
-  ha: Vancouver Coastal
-  sex: F
+  sex: M
   age_group: 40-49
 - reported_date: '2020-03-26'
   ha: Vancouver Coastal
@@ -3304,23 +3308,15 @@
   age_group: 70-79
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
+  sex: M
+  age_group: 70-79
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
   sex: F
   age_group: 40-49
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: M
+  sex: F
   age_group: 30-39
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
@@ -3333,47 +3329,11 @@
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
   sex: F
-  age_group: 30-39
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 50-59
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
   sex: F
-  age_group: 60-69
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
+  age_group: 80-89
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
   sex: M
@@ -3381,15 +3341,75 @@
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
   sex: M
-  age_group: 70-79
+  age_group: 60-69
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
   sex: F
-  age_group: 80-89
+  age_group: 60-69
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
   sex: F
   age_group: 50-59
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-27'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
 - reported_date: '2020-03-27'
   ha: Vancouver Coastal
   sex: M
@@ -3398,22 +3418,6 @@
   ha: Vancouver Coastal
   sex: F
   age_group: 50-59
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-27'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
 - reported_date: '2020-03-28'
   ha: Fraser
   sex: M
@@ -3517,35 +3521,11 @@
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
   sex: F
-  age_group: 70-79
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 20-29
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 80-89
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 20-29
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
   sex: M
   age_group: 70-79
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 20-29
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
   sex: F
@@ -3557,43 +3537,67 @@
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
+  age_group: 20-29
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
   sex: F
   age_group: 30-39
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
+  sex: F
+  age_group: 30-39
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
   sex: M
   age_group: 60-69
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
   sex: F
-  age_group: 40-49
-- reported_date: '2020-03-28'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
+  age_group: 50-59
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
   sex: F
   age_group: 50-59
 - reported_date: '2020-03-28'
   ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 20-29
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
   sex: F
   age_group: 80-89
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 20-29
+- reported_date: '2020-03-28'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
 - reported_date: '2020-03-29'
   ha: Fraser
   sex: M
@@ -3749,50 +3753,6 @@
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
   sex: M
-  age_group: 89+
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: M
   age_group: 60-69
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
@@ -3801,10 +3761,18 @@
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
   sex: F
+  age_group: 89+
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 70-79
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
   sex: M
+  age_group: 60-69
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 50-59
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
@@ -3812,7 +3780,7 @@
   age_group: 80-89
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
-  sex: F
+  sex: M
   age_group: 89+
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
@@ -3820,20 +3788,56 @@
   age_group: 89+
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
   sex: F
+  age_group: 30-39
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 50-59
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
   sex: F
   age_group: 60-69
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-03-29'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-03-29'
   ha: Vancouver Coastal
   sex: F
   age_group: 40-49
-- reported_date: '2020-03-29'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
 - reported_date: '2020-03-30'
   ha: Fraser
   sex: M
@@ -3953,26 +3957,6 @@
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: M
-  age_group: 40-49
-- reported_date: '2020-03-30'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-03-30'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-30'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-30'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-30'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 30-39
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
@@ -3984,24 +3968,16 @@
   age_group: 50-59
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-30'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-03-30'
-  ha: Vancouver Coastal
   sex: F
-  age_group: 89+
+  age_group: 40-49
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: M
   age_group: 70-79
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: M
@@ -4012,12 +3988,20 @@
   age_group: 20-29
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
+  sex: M
+  age_group: 40-49
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: F
   age_group: 70-79
+- reported_date: '2020-03-30'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-30'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: M
@@ -4028,8 +4012,16 @@
   age_group: 89+
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-03-30'
+  ha: Vancouver Coastal
   sex: F
   age_group: 50-59
+- reported_date: '2020-03-30'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: M
@@ -4037,7 +4029,19 @@
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: M
-  age_group: 70-79
+  age_group: 60-69
+- reported_date: '2020-03-30'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-03-30'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-03-30'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
 - reported_date: '2020-03-30'
   ha: Vancouver Coastal
   sex: F
@@ -4200,48 +4204,20 @@
   age_group: 60-69
 - reported_date: '2020-03-31'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
   sex: F
   age_group: 20-29
 - reported_date: '2020-03-31'
   ha: Vancouver Coastal
-  sex: F
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 50-59
 - reported_date: '2020-03-31'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
   sex: F
-  age_group: 60-69
-- reported_date: '2020-03-31'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
+  age_group: 50-59
 - reported_date: '2020-03-31'
   ha: Vancouver Coastal
   sex: F
@@ -4249,7 +4225,23 @@
 - reported_date: '2020-03-31'
   ha: Vancouver Coastal
   sex: F
+  age_group: 40-49
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 60-69
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
 - reported_date: '2020-03-31'
   ha: Vancouver Coastal
   sex: M
@@ -4258,6 +4250,18 @@
   ha: Vancouver Coastal
   sex: F
   age_group: 80-89
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-03-31'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
 - reported_date: '2020-04-01'
   ha: Fraser
   sex: M
@@ -4266,6 +4270,10 @@
   ha: Fraser
   sex: F
   age_group: 60-69
+- reported_date: '2020-04-01'
+  ha: Fraser
+  sex: M
+  age_group: 40-49
 - reported_date: '2020-04-01'
   ha: Fraser
   sex: F
@@ -4412,38 +4420,6 @@
   age_group: 40-49
 - reported_date: '2020-04-01'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 89+
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
   sex: F
   age_group: 30-39
 - reported_date: '2020-04-01'
@@ -4453,47 +4429,79 @@
 - reported_date: '2020-04-01'
   ha: Vancouver Coastal
   sex: F
-  age_group: 30-39
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 80-89
 - reported_date: '2020-04-01'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
   sex: F
   age_group: 40-49
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-01'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
 - reported_date: '2020-04-01'
   ha: Vancouver Coastal
   sex: M
   age_group: 20-29
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 89+
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-04-01'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
 - reported_date: '2020-04-02'
   ha: Fraser
   sex: M
@@ -4629,7 +4637,39 @@
 - reported_date: '2020-04-02'
   ha: Vancouver Coastal
   sex: M
+  age_group: 60-69
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 80-89
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
 - reported_date: '2020-04-02'
   ha: Vancouver Coastal
   sex: M
@@ -4641,27 +4681,23 @@
 - reported_date: '2020-04-02'
   ha: Vancouver Coastal
   sex: M
-  age_group: 60-69
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 80-89
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
 - reported_date: '2020-04-02'
   ha: Vancouver Coastal
   sex: M
   age_group: 20-29
 - reported_date: '2020-04-02'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-04-02'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-04-02'
   ha: Vancouver Coastal
   sex: F
@@ -4673,35 +4709,7 @@
 - reported_date: '2020-04-02'
   ha: Vancouver Coastal
   sex: F
-  age_group: 40-49
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-02'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
+  age_group: 89+
 - reported_date: '2020-04-03'
   ha: Fraser
   sex: F
@@ -4776,32 +4784,12 @@
   age_group: 70-79
 - reported_date: '2020-04-03'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-04-03'
-  ha: Vancouver Coastal
   sex: M
-  age_group: 30-39
+  age_group: 80-89
 - reported_date: '2020-04-03'
   ha: Vancouver Coastal
   sex: F
   age_group: 40-49
-- reported_date: '2020-04-03'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-04-03'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 89+
-- reported_date: '2020-04-03'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-04-03'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
 - reported_date: '2020-04-03'
   ha: Vancouver Coastal
   sex: U
@@ -4809,11 +4797,7 @@
 - reported_date: '2020-04-03'
   ha: Vancouver Coastal
   sex: M
-  age_group: 70-79
-- reported_date: '2020-04-03'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
+  age_group: 60-69
 - reported_date: '2020-04-03'
   ha: Vancouver Coastal
   sex: M
@@ -4821,11 +4805,35 @@
 - reported_date: '2020-04-03'
   ha: Vancouver Coastal
   sex: F
-  age_group: 20-29
+  age_group: 60-69
+- reported_date: '2020-04-03'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 89+
+- reported_date: '2020-04-03'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-04-03'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-03'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-04-03'
   ha: Vancouver Coastal
   sex: M
   age_group: 20-29
+- reported_date: '2020-04-03'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 20-29
+- reported_date: '2020-04-03'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
 - reported_date: '2020-04-04'
   ha: Fraser
   sex: F
@@ -4920,64 +4928,64 @@
   age_group: 50-59
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-04-04'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-04-04'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-04-04'
+  ha: Vancouver Coastal
   sex: U
   age_group: Unknown
+- reported_date: '2020-04-04'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-04'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-04'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-04-04'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
   sex: F
   age_group: 89+
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
+  sex: M
+  age_group: 20-29
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
   sex: M
   age_group: 60-69
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-04-04'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-04-04'
-  ha: Vancouver Coastal
   sex: U
   age_group: Unknown
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
   sex: U
   age_group: Unknown
-- reported_date: '2020-04-04'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-04'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 70-79
-- reported_date: '2020-04-04'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-04-04'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 20-29
-- reported_date: '2020-04-04'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
   sex: F
   age_group: 20-29
 - reported_date: '2020-04-04'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
+  sex: U
+  age_group: Unknown
 - reported_date: '2020-04-05'
   ha: Fraser
   sex: F
@@ -5010,6 +5018,10 @@
   ha: Fraser
   sex: M
   age_group: 70-79
+- reported_date: '2020-04-05'
+  ha: Fraser
+  sex: F
+  age_group: 20-29
 - reported_date: '2020-04-05'
   ha: Fraser
   sex: F
@@ -5025,35 +5037,35 @@
 - reported_date: '2020-04-05'
   ha: Vancouver Coastal
   sex: M
+  age_group: 80-89
+- reported_date: '2020-04-05'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-05'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-04-05'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-05'
+  ha: Vancouver Coastal
+  sex: M
   age_group: 20-29
+- reported_date: '2020-04-05'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-05'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-04-05'
   ha: Vancouver Coastal
   sex: F
   age_group: 60-69
-- reported_date: '2020-04-05'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
-- reported_date: '2020-04-05'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-05'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-05'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-04-05'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-05'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
 - reported_date: '2020-04-06'
   ha: Fraser
   sex: F
@@ -5082,10 +5094,6 @@
   ha: Fraser
   sex: F
   age_group: Unknown
-- reported_date: '2020-04-06'
-  ha: Fraser
-  sex: F
-  age_group: 20-29
 - reported_date: '2020-04-06'
   ha: Fraser
   sex: F
@@ -5105,7 +5113,11 @@
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: F
-  age_group: 89+
+  age_group: 30-39
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: U
@@ -5118,42 +5130,6 @@
   ha: Vancouver Coastal
   sex: M
   age_group: 60-69
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 89+
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: M
@@ -5164,8 +5140,8 @@
   age_group: 50-59
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
+  sex: U
+  age_group: Unknown
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: F
@@ -5173,27 +5149,59 @@
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: M
-  age_group: 60-69
+  age_group: 89+
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: F
-  age_group: 30-39
-- reported_date: '2020-04-06'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
+  age_group: 80-89
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: M
   age_group: 70-79
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
   sex: F
   age_group: 89+
 - reported_date: '2020-04-06'
   ha: Vancouver Coastal
   sex: F
   age_group: 89+
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-04-06'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
 - reported_date: '2020-04-07'
   ha: Fraser
   sex: F
@@ -5357,19 +5365,11 @@
 - reported_date: '2020-04-07'
   ha: Vancouver Coastal
   sex: M
-  age_group: 70-79
+  age_group: 80-89
 - reported_date: '2020-04-07'
   ha: Vancouver Coastal
   sex: F
   age_group: 40-49
-- reported_date: '2020-04-07'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
-- reported_date: '2020-04-07'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
 - reported_date: '2020-04-07'
   ha: Vancouver Coastal
   sex: F
@@ -5381,19 +5381,27 @@
 - reported_date: '2020-04-07'
   ha: Vancouver Coastal
   sex: M
-  age_group: 80-89
+  age_group: 70-79
 - reported_date: '2020-04-07'
   ha: Vancouver Coastal
   sex: F
   age_group: 30-39
 - reported_date: '2020-04-07'
   ha: Vancouver Coastal
-  sex: F
+  sex: M
   age_group: 60-69
+- reported_date: '2020-04-07'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
 - reported_date: '2020-04-07'
   ha: Vancouver Coastal
   sex: M
   age_group: 70-79
+- reported_date: '2020-04-07'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
 - reported_date: '2020-04-08'
   ha: Fraser
   sex: M
@@ -5480,12 +5488,8 @@
   age_group: 40-49
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-04-08'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 30-39
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
   sex: F
@@ -5493,15 +5497,7 @@
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
   sex: F
-  age_group: 70-79
-- reported_date: '2020-04-08'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-04-08'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 40-49
+  age_group: 50-59
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
   sex: F
@@ -5509,11 +5505,11 @@
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
+  age_group: 30-39
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
+  sex: F
+  age_group: 89+
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
   sex: M
@@ -5521,7 +5517,19 @@
 - reported_date: '2020-04-08'
   ha: Vancouver Coastal
   sex: F
+  age_group: 70-79
+- reported_date: '2020-04-08'
+  ha: Vancouver Coastal
+  sex: F
   age_group: 89+
+- reported_date: '2020-04-08'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-04-08'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 40-49
 - reported_date: '2020-04-09'
   ha: Fraser
   sex: M
@@ -5616,12 +5624,12 @@
   age_group: 40-49
 - reported_date: '2020-04-09'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 40-49
-- reported_date: '2020-04-09'
-  ha: Vancouver Coastal
   sex: F
   age_group: 80-89
+- reported_date: '2020-04-09'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 40-49
 - reported_date: '2020-04-10'
   ha: Fraser
   sex: F
@@ -5772,8 +5780,32 @@
   age_group: 50-59
 - reported_date: '2020-04-10'
   ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
   sex: M
   age_group: 40-49
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-04-10'
   ha: Vancouver Coastal
   sex: M
@@ -5781,39 +5813,11 @@
 - reported_date: '2020-04-10'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-10'
-  ha: Vancouver Coastal
-  sex: F
   age_group: 40-49
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-04-10'
   ha: Vancouver Coastal
   sex: F
@@ -5822,6 +5826,10 @@
   ha: Vancouver Coastal
   sex: F
   age_group: 89+
+- reported_date: '2020-04-10'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-04-11'
   ha: Fraser
   sex: M
@@ -5900,16 +5908,16 @@
   age_group: 50-59
 - reported_date: '2020-04-11'
   ha: Vancouver Coastal
-  sex: F
-  age_group: 50-59
+  sex: M
+  age_group: 60-69
 - reported_date: '2020-04-11'
   ha: Vancouver Coastal
   sex: F
   age_group: 89+
 - reported_date: '2020-04-11'
   ha: Vancouver Coastal
-  sex: M
-  age_group: 60-69
+  sex: F
+  age_group: 50-59
 - reported_date: '2020-04-11'
   ha: Vancouver Coastal
   sex: F
@@ -5989,11 +5997,11 @@
 - reported_date: '2020-04-12'
   ha: Vancouver Coastal
   sex: F
-  age_group: 50-59
+  age_group: 60-69
 - reported_date: '2020-04-12'
   ha: Vancouver Coastal
   sex: F
-  age_group: 60-69
+  age_group: 50-59
 - reported_date: '2020-04-13'
   ha: Fraser
   sex: M
@@ -6044,6 +6052,10 @@
   age_group: 30-39
 - reported_date: '2020-04-13'
   ha: Fraser
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-13'
+  ha: Fraser
   sex: F
   age_group: 20-29
 - reported_date: '2020-04-13'
@@ -6074,30 +6086,6 @@
   ha: Vancouver Island
   sex: F
   age_group: 40-49
-- reported_date: '2020-04-13'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 80-89
-- reported_date: '2020-04-13'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-04-13'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-13'
-  ha: Vancouver Coastal
-  sex: M
-  age_group: 30-39
-- reported_date: '2020-04-13'
-  ha: Vancouver Coastal
-  sex: F
-  age_group: 89+
-- reported_date: '2020-04-13'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
 - reported_date: '2020-04-13'
   ha: Vancouver Coastal
   sex: M
@@ -6108,8 +6096,32 @@
   age_group: 10-19
 - reported_date: '2020-04-13'
   ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-13'
+  ha: Vancouver Coastal
   sex: F
   age_group: 70-79
+- reported_date: '2020-04-13'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-13'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-04-13'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-13'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-13'
+  ha: Vancouver Coastal
+  sex: M
+  age_group: 80-89
 - reported_date: '2020-04-14'
   ha: Fraser
   sex: M
@@ -6130,14 +6142,6 @@
   ha: Fraser
   sex: M
   age_group: 50-59
-- reported_date: '2020-04-14'
-  ha: Fraser
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-04-14'
-  ha: Fraser
-  sex: M
-  age_group: 30-39
 - reported_date: '2020-04-14'
   ha: Fraser
   sex: F
@@ -6180,6 +6184,10 @@
   age_group: 70-79
 - reported_date: '2020-04-14'
   ha: Northern
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-04-14'
+  ha: Northern
   sex: F
   age_group: 20-29
 - reported_date: '2020-04-14'
@@ -6187,69 +6195,73 @@
   sex: F
   age_group: 30-39
 - reported_date: '2020-04-14'
-  ha: Northern
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-14'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-15'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-15'
+  ha: Fraser
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-15'
+  ha: Fraser
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-15'
+  ha: Fraser
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-15'
+  ha: Fraser
   sex: M
   age_group: 30-39
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-14'
-  ha: Vancouver Coastal
-  sex: U
-  age_group: Unknown
-- reported_date: '2020-04-15'
-  ha: Fraser
-  sex: M
-  age_group: 50-59
-- reported_date: '2020-04-15'
-  ha: Fraser
-  sex: F
-  age_group: 50-59
-- reported_date: '2020-04-15'
-  ha: Fraser
-  sex: F
-  age_group: 50-59
 - reported_date: '2020-04-15'
   ha: Fraser
   sex: F
@@ -6300,14 +6312,18 @@
   age_group: Unknown
 - reported_date: '2020-04-16'
   ha: Fraser
-  sex: F
-  age_group: 60-69
+  sex: M
+  age_group: 50-59
 - reported_date: '2020-04-16'
   ha: Fraser
   sex: F
   age_group: 89+
 - reported_date: '2020-04-16'
   ha: Fraser
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-16'
+  ha: Fraser
   sex: M
   age_group: 30-39
 - reported_date: '2020-04-16'
@@ -6329,10 +6345,26 @@
 - reported_date: '2020-04-16'
   ha: Fraser
   sex: M
+  age_group: 40-49
+- reported_date: '2020-04-16'
+  ha: Fraser
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-16'
+  ha: Fraser
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-16'
+  ha: Fraser
+  sex: M
   age_group: 60-69
 - reported_date: '2020-04-16'
   ha: Fraser
   sex: F
+  age_group: 20-29
+- reported_date: '2020-04-16'
+  ha: Fraser
+  sex: M
   age_group: 20-29
 - reported_date: '2020-04-16'
   ha: Fraser
@@ -6366,6 +6398,14 @@
   ha: Fraser
   sex: M
   age_group: 20-29
+- reported_date: '2020-04-16'
+  ha: Fraser
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-04-16'
+  ha: Fraser
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-04-16'
   ha: Fraser
   sex: M
@@ -6467,6 +6507,290 @@
   sex: U
   age_group: Unknown
 - reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 20-29
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 20-29
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-17'
+  ha: Fraser
+  sex: M
+  age_group: 20-29
+- reported_date: '2020-04-17'
   ha: Interior
   sex: F
   age_group: 50-59
+- reported_date: '2020-04-17'
+  ha: Interior
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-04-17'
+  ha: Vancouver Island
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-04-17'
+  ha: Vancouver Island
+  sex: M
+  age_group: 20-29
+- reported_date: '2020-04-17'
+  ha: Vancouver Island
+  sex: F
+  age_group: 20-29
+- reported_date: '2020-04-17'
+  ha: Northern
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-17'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-17'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-17'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-17'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-17'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-17'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-18'
+  ha: Fraser
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-18'
+  ha: Fraser
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-04-18'
+  ha: Fraser
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-04-18'
+  ha: Fraser
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-18'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-18'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-04-18'
+  ha: Vancouver Island
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-18'
+  ha: Vancouver Island
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-18'
+  ha: Vancouver Island
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-18'
+  ha: Vancouver Island
+  sex: M
+  age_group: 20-29
+- reported_date: '2020-04-18'
+  ha: Northern
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-18'
+  ha: Northern
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-18'
+  ha: Northern
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-04-18'
+  ha: Northern
+  sex: F
+  age_group: 30-39
+- reported_date: '2020-04-18'
+  ha: Northern
+  sex: F
+  age_group: 10-19
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 60-69
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-18'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-19'
+  ha: Fraser
+  sex: F
+  age_group: 89+
+- reported_date: '2020-04-19'
+  ha: Fraser
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-04-19'
+  ha: Fraser
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-04-19'
+  ha: Fraser
+  sex: M
+  age_group: 60-69
+- reported_date: '2020-04-19'
+  ha: Fraser
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-04-19'
+  ha: Fraser
+  sex: M
+  age_group: <10
+- reported_date: '2020-04-19'
+  ha: Fraser
+  sex: F
+  age_group: 20-29
+- reported_date: '2020-04-19'
+  ha: Vancouver Island
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-19'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-19'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-19'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-19'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
+- reported_date: '2020-04-20'
+  ha: Interior
+  sex: M
+  age_group: 30-39
+- reported_date: '2020-04-20'
+  ha: Interior
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-04-20'
+  ha: Vancouver Coastal
+  sex: U
+  age_group: Unknown
