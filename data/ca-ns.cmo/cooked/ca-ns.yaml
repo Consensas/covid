@@ -433,3 +433,14 @@ items:
     tests_positive: 330
     tests_negative: 22663
     patients_hospital_current: 7
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-23'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-04-23'
+    tests: 23731
+    deaths: 4
+    tests_positive: 358
+    tests_negative: 23373
+    patients_hospital_current: 6
