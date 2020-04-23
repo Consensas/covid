@@ -422,3 +422,14 @@ items:
     tests_positive: 286
     tests_negative: 21904
     patients_hospital_current: 8
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-22'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-04-22'
+    tests: 22993
+    deaths: 2
+    tests_positive: 330
+    tests_negative: 22663
+    patients_hospital_current: 7
