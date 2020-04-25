@@ -1,0 +1,33 @@
+state: NM
+positive: 2521
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: C
+negative: 48989
+pending: null
+hospitalizedCurrently: 152
+hospitalizedCumulative: 412
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 614
+lastUpdateEt: '4/24 20:17'
+checkTimeEt: '4/24 23:06'
+death: 84
+hospitalized: 412
+total: 51510
+totalTestResults: 51510
+posNeg: 51510
+fips: '35'
+dateModified: '2020-04-25T00:17:00Z'
+dateChecked: '2020-04-25T03:06:00Z'
+hash: 270e21f6a5cebf5552df757eac5ace74b28b87ba
+date: 20200425
