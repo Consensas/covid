@@ -8276,6 +8276,8 @@
   numtested: 58848
   numrecover: 1092
   percentrecover: 59.87
+  numtoday: 29
+  percentoday: 0.016
 - pruid: 48
   prname: Alberta
   prnamefr: Alberta
@@ -8287,6 +8289,8 @@
   numtested: 112562
   numrecover: 1357
   percentrecover: 36.48
+  numtoday: 319
+  percentoday: 0.094
 - pruid: 47
   prname: Saskatchewan
   prnamefr: Saskatchewan
@@ -8298,6 +8302,8 @@
   numtested: 24504
   numrecover: 270
   percentrecover: 81.57
+  numtoday: 5
+  percentoday: 0.015
 - pruid: 46
   prname: Manitoba
   prnamefr: Manitoba
@@ -8309,6 +8315,8 @@
   numtested: 21229
   numrecover: 174
   percentrecover: 66.41
+  numtoday: 5
+  percentoday: 0.019
 - pruid: 35
   prname: Ontario
   prnamefr: Ontario
@@ -8320,6 +8328,8 @@
   numtested: 188377
   numrecover: 6680
   percentrecover: 51.87
+  numtoday: 634
+  percentoday: 0.052
 - pruid: 24
   prname: Quebec
   prnamefr: Québec
@@ -8331,6 +8341,8 @@
   numtested: 180833
   numrecover: 4484
   percentrecover: 20.53
+  numtoday: 873
+  percentoday: 0.042
 - pruid: 10
   prname: Newfoundland and Labrador
   prnamefr: Terre-Neuve-et-Labrador
@@ -8342,6 +8354,8 @@
   numtested: 6862
   numrecover: 205
   percentrecover: 80.08
+  numtoday: -1
+  percentoday: -0.004
 - pruid: 13
   prname: New Brunswick
   prnamefr: Nouveau-Brunswick
@@ -8353,6 +8367,8 @@
   numtested: 11616
   numrecover: 104
   percentrecover: 88.14
+  numtoday: 0
+  percentoday: 0
 - pruid: 12
   prname: Nova Scotia
   prnamefr: Nouvelle-Écosse
@@ -8364,6 +8380,8 @@
   numtested: 24884
   numrecover: 358
   percentrecover: 43.29
+  numtoday: 55
+  percentoday: 0.071
 - pruid: 11
   prname: Prince Edward Island
   prnamefr: Île-du-Prince-Édouard
@@ -8375,6 +8393,8 @@
   numtested: 2466
   numrecover: 24
   percentrecover: 92.31
+  numtoday: 0
+  percentoday: 0
 - pruid: 60
   prname: Yukon
   prnamefr: Yukon
@@ -8386,6 +8406,8 @@
   numtested: 881
   numrecover: 8
   percentrecover: 72.73
+  numtoday: 0
+  percentoday: 0
 - pruid: 61
   prname: Northwest Territories
   prnamefr: Territoires du Nord-Ouest
@@ -8397,6 +8419,8 @@
   numtested: 1515
   numrecover: 5
   percentrecover: 100
+  numtoday: 0
+  percentoday: 0
 - pruid: 62
   prname: Nunavut
   prnamefr: Nunavut
@@ -8408,6 +8432,8 @@
   numtested: 340
   numrecover: 0
   percentrecover: N/A
+  numtoday: 0
+  percentoday: 0
 - pruid: 99
   prname: Repatriated travellers
   prnamefr: Voyageurs rapatriés
@@ -8415,6 +8441,8 @@
   numconf: 13
   numprob: 0
   numtotal: 13
+  numtoday: 0
+  percentoday: 0
 - pruid: 1
   prname: Canada
   prnamefr: Canada
@@ -8426,3 +8454,166 @@
   numtested: 634917
   numrecover: 14761
   percentrecover: 35.05
+  numtoday: 1920
+  percentoday: 0.048
+- pruid: 59
+  prname: British Columbia
+  prnamefr: Colombie-Britannique
+  date: 24-04-2020
+  numconf: 1853
+  numprob: 0
+  numdeaths: 98
+  numtotal: 1853
+  numtested: 60472
+  numrecover: 1114
+  percentrecover: 60.12
+- pruid: 48
+  prname: Alberta
+  prnamefr: Alberta
+  date: 24-04-2020
+  numconf: 4017
+  numprob: 0
+  numdeaths: 72
+  numtotal: 4017
+  numtested: 116859
+  numrecover: 1397
+  percentrecover: 34.78
+- pruid: 47
+  prname: Saskatchewan
+  prnamefr: Saskatchewan
+  date: 24-04-2020
+  numconf: 341
+  numprob: 0
+  numdeaths: 4
+  numtotal: 341
+  numtested: 25141
+  numrecover: 280
+  percentrecover: 82.11
+- pruid: 46
+  prname: Manitoba
+  prnamefr: Manitoba
+  date: 24-04-2020
+  numconf: 252
+  numprob: 11
+  numdeaths: 6
+  numtotal: 263
+  numtested: 21720
+  numrecover: 196
+  percentrecover: 74.52
+- pruid: 35
+  prname: Ontario
+  prnamefr: Ontario
+  date: 24-04-2020
+  numconf: 13519
+  numprob: 0
+  numdeaths: 763
+  numtotal: 13519
+  numtested: 200270
+  numrecover: 7087
+  percentrecover: 52.42
+- pruid: 24
+  prname: Quebec
+  prnamefr: Québec
+  date: 24-04-2020
+  numconf: 22616
+  numprob: 0
+  numdeaths: 1340
+  numtotal: 22616
+  numtested: 185632
+  numrecover: 4724
+  percentrecover: 20.89
+- pruid: 10
+  prname: Newfoundland and Labrador
+  prnamefr: Terre-Neuve-et-Labrador
+  date: 24-04-2020
+  numconf: 256
+  numprob: 0
+  numdeaths: 3
+  numtotal: 256
+  numtested: 7105
+  numrecover: 207
+  percentrecover: 80.86
+- pruid: 13
+  prname: New Brunswick
+  prnamefr: Nouveau-Brunswick
+  date: 24-04-2020
+  numconf: 118
+  numprob: 0
+  numdeaths: 0
+  numtotal: 118
+  numtested: 11908
+  numrecover: 107
+  percentrecover: 90.68
+- pruid: 12
+  prname: Nova Scotia
+  prnamefr: Nouvelle-Écosse
+  date: 24-04-2020
+  numconf: 850
+  numprob: 0
+  numdeaths: 16
+  numtotal: 850
+  numtested: 25658
+  numrecover: 392
+  percentrecover: 46.12
+- pruid: 11
+  prname: Prince Edward Island
+  prnamefr: Île-du-Prince-Édouard
+  date: 24-04-2020
+  numconf: 26
+  numprob: 0
+  numdeaths: 0
+  numtotal: 26
+  numtested: 2564
+  numrecover: 24
+  percentrecover: 92.31
+- pruid: 60
+  prname: Yukon
+  prnamefr: Yukon
+  date: 24-04-2020
+  numconf: 11
+  numprob: 0
+  numdeaths: 0
+  numtotal: 11
+  numtested: 888
+  numrecover: 8
+  percentrecover: 72.73
+- pruid: 61
+  prname: Northwest Territories
+  prnamefr: Territoires du Nord-Ouest
+  date: 24-04-2020
+  numconf: 5
+  numprob: 0
+  numdeaths: 0
+  numtotal: 5
+  numtested: 1537
+  numrecover: 5
+  percentrecover: 100
+- pruid: 62
+  prname: Nunavut
+  prnamefr: Nunavut
+  date: 24-04-2020
+  numconf: 0
+  numprob: 0
+  numdeaths: 0
+  numtotal: 0
+  numtested: 354
+  numrecover: 0
+  percentrecover: N/A
+- pruid: 99
+  prname: Repatriated travellers
+  prnamefr: Voyageurs rapatriés
+  date: 24-04-2020
+  numconf: 13
+  numprob: 0
+  numtotal: 13
+- pruid: 1
+  prname: Canada
+  prnamefr: Canada
+  date: 24-04-2020
+  numconf: 43877
+  numprob: 11
+  numdeaths: 2302
+  numtotal: 43888
+  numtested: 660108
+  numrecover: 15541
+  percentrecover: 35.41
