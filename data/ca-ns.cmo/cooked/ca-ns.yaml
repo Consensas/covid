@@ -466,3 +466,14 @@ items:
     tests_positive: 412
     tests_negative: 24707
     patients_hospital_current: 8
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-26'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-04-26'
+    tests: 25615
+    deaths: 2
+    tests_positive: 439
+    tests_negative: 25176
+    patients_hospital_current: 10
