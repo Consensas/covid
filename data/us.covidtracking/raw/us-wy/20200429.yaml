@@ -1,0 +1,33 @@
+state: WY
+positive: 389
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: C
+negative: 8226
+pending: null
+hospitalizedCurrently: 16
+hospitalizedCumulative: 56
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 343
+lastUpdateEt: '4/27 17:05'
+checkTimeEt: '4/28 15:46'
+death: 7
+hospitalized: 56
+total: 8615
+totalTestResults: 8615
+posNeg: 8615
+fips: '56'
+dateModified: '2020-04-27T21:05:00Z'
+dateChecked: '2020-04-28T19:46:00Z'
+hash: 8a2ae61574964fcfdd97901777a326db8fa2e90c
+date: 20200429

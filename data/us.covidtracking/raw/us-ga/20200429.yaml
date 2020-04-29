@@ -1,0 +1,33 @@
+state: GA
+positive: 24615
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A
+negative: 115405
+pending: null
+hospitalizedCurrently: null
+hospitalizedCumulative: 4814
+inIcuCurrently: null
+inIcuCumulative: 1087
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '4/28 13:25'
+checkTimeEt: '4/28 14:07'
+death: 1026
+hospitalized: 4814
+total: 140020
+totalTestResults: 140020
+posNeg: 140020
+fips: '13'
+dateModified: '2020-04-28T17:25:00Z'
+dateChecked: '2020-04-28T18:07:00Z'
+hash: c948aec0c005525755302a694cb2c17cf4a05bcf
+date: 20200429

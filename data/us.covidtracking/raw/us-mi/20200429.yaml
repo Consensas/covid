@@ -1,0 +1,33 @@
+state: MI
+positive: 39262
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A+
+negative: 125543
+pending: null
+hospitalizedCurrently: 2623
+hospitalizedCumulative: null
+inIcuCurrently: 1027
+inIcuCumulative: null
+onVentilatorCurrently: 801
+onVentilatorCumulative: null
+recovered: 8342
+lastUpdateEt: '4/28 11:00'
+checkTimeEt: '4/28 16:21'
+death: 3567
+hospitalized: null
+total: 164805
+totalTestResults: 164805
+posNeg: 164805
+fips: '26'
+dateModified: '2020-04-28T15:00:00Z'
+dateChecked: '2020-04-28T20:21:00Z'
+hash: e9a9aa47222faf95082ca2cb25e9da708d16aa48
+date: 20200429
