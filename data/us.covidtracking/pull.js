@@ -145,12 +145,13 @@ if (ad.states) {
     }
 } else {
     if (ad.all) {
-        url = "https://covidtracking.com/api/us/daily"
+        url = "https://covidtracking.com/api/v1/us/daily.json"
     } else {
-        url = "https://covidtracking.com/api/us"
+        url = "https://covidtracking.com/api/v1/us/current.json"
     }
 }
 
+console.log("URL", url)
 _.promise({ 
     url: url,
 })
