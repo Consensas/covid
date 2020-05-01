@@ -669,6 +669,17 @@ items:
     tests: 27486
     tests_negative: 26957
     patients_hospital_current: 8
+  - date: '2020-04-30'
+    deaths: null
+    tests_positive: 545
+    '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-30'
+    region: NS
+    country: CA
+    key: ca-ns
+    tests: 28209
+    tests_negative: 27664
+    patients_hospital_current: 7
 state: NS
 icu_hospitals: 14
 icu_beds: 141
