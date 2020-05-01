@@ -510,3 +510,14 @@ items:
     tests_positive: 529
     tests_negative: 26957
     patients_hospital_current: 8
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-04-30'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-04-30'
+    tests: 28209
+    deaths: null
+    tests_positive: 545
+    tests_negative: 27664
+    patients_hospital_current: 7
