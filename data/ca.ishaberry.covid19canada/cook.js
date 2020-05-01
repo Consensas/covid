@@ -55,7 +55,7 @@ const _normalize_province = op => {
         "Saskatchewan": "SK",
         "NWT": "NT",
         "Yukon": "YT",
-        "Nunavit": "NU",
+        "Nunavut": "NU",
     }[op]
 
     if (!np) {
