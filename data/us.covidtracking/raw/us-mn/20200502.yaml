@@ -1,0 +1,33 @@
+state: MN
+positive: 5730
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A
+negative: 69099
+pending: null
+hospitalizedCurrently: 369
+hospitalizedCumulative: 1096
+inIcuCurrently: 118
+inIcuCumulative: 380
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 2282
+lastUpdateEt: '4/30 17:00'
+checkTimeEt: '5/01 15:02'
+death: 371
+hospitalized: 1096
+total: 74829
+totalTestResults: 74829
+posNeg: 74829
+fips: '27'
+dateModified: '2020-04-30T21:00:00Z'
+dateChecked: '2020-05-01T19:02:00Z'
+hash: 1ab37a215502fa777279dc1d1ee855677e7be532
+date: 20200502

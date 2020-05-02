@@ -1,0 +1,33 @@
+state: MA
+positive: 64311
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A
+negative: 225325
+pending: null
+hospitalizedCurrently: 3716
+hospitalizedCumulative: 6169
+inIcuCurrently: 947
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '5/01 12:00'
+checkTimeEt: '5/01 16:55'
+death: 3716
+hospitalized: 6169
+total: 289636
+totalTestResults: 289636
+posNeg: 289636
+fips: '25'
+dateModified: '2020-05-01T16:00:00Z'
+dateChecked: '2020-05-01T20:55:00Z'
+hash: aa5a0d96fdaeeb86822ce8c8f676c1e2a12f3f9a
+date: 20200502
