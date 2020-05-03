@@ -1,0 +1,33 @@
+state: WV
+positive: 1169
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 0
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: C
+negative: 47977
+pending: null
+hospitalizedCurrently: 76
+hospitalizedCumulative: null
+inIcuCurrently: 29
+inIcuCumulative: null
+onVentilatorCurrently: 15
+onVentilatorCumulative: null
+recovered: 572
+lastUpdateEt: '5/02 10:00'
+checkTimeEt: '5/02 16:04'
+death: 48
+hospitalized: null
+total: 49146
+totalTestResults: 49146
+posNeg: 49146
+fips: '54'
+dateModified: '2020-05-02T14:00:00Z'
+dateChecked: '2020-05-02T20:04:00Z'
+hash: 39863e7f32c66be9ba258d3680df96db6b33fccc
+date: 20200503

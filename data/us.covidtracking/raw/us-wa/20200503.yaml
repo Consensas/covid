@@ -1,0 +1,33 @@
+state: WA
+positive: 14637
+positiveScore: 0
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: C
+score: 2
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 184087
+pending: null
+hospitalizedCurrently: 428
+hospitalizedCumulative: null
+inIcuCurrently: 117
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '5/01 02:59'
+checkTimeEt: '5/02 15:14'
+death: 824
+hospitalized: null
+total: 198724
+totalTestResults: 198724
+posNeg: 198724
+fips: '53'
+dateModified: '2020-05-01T06:59:00Z'
+dateChecked: '2020-05-02T19:14:00Z'
+hash: 109f0907ed0285fc4f1d344344cf13e5e1ce158f
+date: 20200503
