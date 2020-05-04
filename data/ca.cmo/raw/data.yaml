@@ -3154,7 +3154,6 @@
   numdeaths: 14
   numtotal: 659
   numtested: 28344
-  numrecover: N/A
   numtoday: 42
   percentoday: 0.068
 - pruid: 48
@@ -3334,7 +3333,8 @@
   numdeaths: 14
   numtotal: 725
   numtested: 30238
-  numrecover: N/A
+  numrecover: 183
+  percentrecover: 25.24
   numtoday: 66
   percentoday: 0.1
 - pruid: 48
@@ -3514,7 +3514,8 @@
   numdeaths: 14
   numtotal: 725
   numtested: 31536
-  numrecover: N/A
+  numrecover: 186
+  percentrecover: 25.66
   numtoday: 0
   percentoday: 0
 - pruid: 48
@@ -3694,7 +3695,8 @@
   numdeaths: 16
   numtotal: 884
   numtested: 31536
-  numrecover: N/A
+  numrecover: 186
+  percentrecover: 21.04
   numtoday: 159
   percentoday: 0.219
 - pruid: 48
@@ -3874,7 +3876,8 @@
   numdeaths: 17
   numtotal: 884
   numtested: 33476
-  numrecover: N/A
+  numrecover: 396
+  percentrecover: 44.8
   numtoday: 0
   percentoday: 0
 - pruid: 48
@@ -4054,7 +4057,8 @@
   numdeaths: 19
   numtotal: 960
   numtested: 34969
-  numrecover: N/A
+  numrecover: 396
+  percentrecover: 41.25
   numtoday: 76
   percentoday: 0.086
 - pruid: 48
@@ -4234,7 +4238,8 @@
   numdeaths: 19
   numtotal: 970
   numtested: 36024
-  numrecover: N/A
+  numrecover: 469
+  percentrecover: 48.35
   numtoday: 10
   percentoday: 0.01
 - pruid: 48
@@ -4414,7 +4419,8 @@
   numdeaths: 25
   numtotal: 1066
   numtested: 36364
-  numrecover: N/A
+  numrecover: 507
+  percentrecover: 47.56
   numtoday: 96
   percentoday: 0.099
 - pruid: 48
@@ -4594,7 +4600,8 @@
   numdeaths: 31
   numtotal: 1121
   numtested: 36966
-  numrecover: N/A
+  numrecover: 606
+  percentrecover: 54.06
   numtoday: 55
   percentoday: 0.052
 - pruid: 48
@@ -4774,7 +4781,8 @@
   numdeaths: 35
   numtotal: 1174
   numtested: 39926
-  numrecover: N/A
+  numrecover: 641
+  percentrecover: 54.6
   numtoday: 53
   percentoday: 0.047
 - pruid: 48
@@ -4954,7 +4962,8 @@
   numdeaths: 38
   numtotal: 1203
   numtested: 40771
-  numrecover: N/A
+  numrecover: 705
+  percentrecover: 58.6
   numtoday: 29
   percentoday: 0.025
 - pruid: 48
@@ -5523,6 +5532,8 @@
   numdeaths: 43
   numtotal: 1291
   numtested: 43257
+  numrecover: 783
+  percentrecover: 60.65
   numtoday: 25
   percentoday: 0.02
 - pruid: 48
@@ -5687,6 +5698,8 @@
   numdeaths: 48
   numtotal: 1336
   numtested: 44269
+  numrecover: 838
+  percentrecover: 62.72
   numtoday: 45
   percentoday: 0.035
 - pruid: 48
@@ -5851,6 +5864,8 @@
   numdeaths: 50
   numtotal: 1370
   numtested: 45156
+  numrecover: 858
+  percentrecover: 62.63
   numtoday: 34
   percentoday: 0.025
 - pruid: 48
@@ -6015,6 +6030,8 @@
   numdeaths: 55
   numtotal: 1410
   numtested: 46236
+  numrecover: 879
+  percentrecover: 62.34
   numtoday: 40
   percentoday: 0.029
 - pruid: 48
@@ -6178,6 +6195,8 @@
   numdeaths: 58
   numtotal: 1445
   numtested: 46236
+  numrecover: 905
+  percentrecover: 62.63
   numtoday: 35
   percentoday: 0.025
 - pruid: 48
@@ -6341,6 +6360,8 @@
   numdeaths: 58
   numtotal: 1445
   numtested: 48360
+  numrecover: 905
+  percentrecover: 62.63
   numtoday: 0
   percentoday: 0
 - pruid: 48
@@ -6504,6 +6525,8 @@
   numdeaths: 69
   numtotal: 1490
   numtested: 49370
+  numrecover: 926
+  percentrecover: 62.15
   numtoday: 45
   percentoday: 0.031
 - pruid: 48
@@ -6667,6 +6690,8 @@
   numdeaths: 72
   numtotal: 1517
   numtested: 50134
+  numrecover: 942
+  percentrecover: 62.1
   numtoday: 27
   percentoday: 0.018
 - pruid: 48
@@ -6830,6 +6855,8 @@
   numdeaths: 75
   numtotal: 1561
   numtested: 50438
+  numrecover: 955
+  percentrecover: 61.18
   numtoday: 44
   percentoday: 0.029
 - pruid: 48
@@ -6993,6 +7020,8 @@
   numdeaths: 75
   numtotal: 1561
   numtested: 51297
+  numrecover: 955
+  percentrecover: 61.18
   numtoday: 0
   percentoday: 0
 - pruid: 48
@@ -7156,6 +7185,8 @@
   numdeaths: 77
   numtotal: 1575
   numtested: 52378
+  numrecover: 983
+  percentrecover: 62.41
   numtoday: 14
   percentoday: 0.009
 - pruid: 48
@@ -10115,3 +10146,164 @@
   numtested: 866235
   numrecover: 23801
   percentrecover: 41.97
+- pruid: 59
+  prname: British Columbia
+  prnamefr: Colombie-Britannique
+  date: 03-05-2020
+  numconf: 2171
+  numprob: 0
+  numdeaths: 114
+  numtotal: 2171
+  numtested: 81061
+  numrecover: 1376
+  percentrecover: 63.38
+- pruid: 48
+  prname: Alberta
+  prnamefr: Alberta
+  date: 03-05-2020
+  numconf: 5766
+  numprob: 0
+  numdeaths: 95
+  numtotal: 5766
+  numtested: 152123
+  numrecover: 2713
+  percentrecover: 47.05
+- pruid: 47
+  prname: Saskatchewan
+  prnamefr: Saskatchewan
+  date: 03-05-2020
+  numconf: 433
+  numprob: 0
+  numdeaths: 6
+  numtotal: 433
+  numtested: 29498
+  numrecover: 305
+  percentrecover: 70.44
+- pruid: 46
+  prname: Manitoba
+  prnamefr: Manitoba
+  date: 03-05-2020
+  numconf: 281
+  numprob: 0
+  numdeaths: 6
+  numtotal: 281
+  numtested: 26253
+  numrecover: 237
+  percentrecover: 84.34
+- pruid: 35
+  prname: Ontario
+  prnamefr: Ontario
+  date: 03-05-2020
+  numconf: 17553
+  numprob: 0
+  numdeaths: 1216
+  numtotal: 17553
+  numtested: 316796
+  numrecover: 12005
+  percentrecover: 68.39
+- pruid: 24
+  prname: Quebec
+  prnamefr: Québec
+  date: 03-05-2020
+  numconf: 31865
+  numprob: 0
+  numdeaths: 2205
+  numtotal: 31865
+  numtested: 230864
+  numrecover: 7258
+  percentrecover: 22.78
+- pruid: 10
+  prname: Newfoundland and Labrador
+  prnamefr: Terre-Neuve-et-Labrador
+  date: 03-05-2020
+  numconf: 259
+  numprob: 0
+  numdeaths: 3
+  numtotal: 259
+  numtested: 8819
+  numrecover: 232
+  percentrecover: 89.58
+- pruid: 13
+  prname: New Brunswick
+  prnamefr: Nouveau-Brunswick
+  date: 03-05-2020
+  numconf: 118
+  numprob: 0
+  numdeaths: 0
+  numtotal: 118
+  numtested: 14559
+  numrecover: 118
+  percentrecover: 100
+- pruid: 12
+  prname: Nova Scotia
+  prnamefr: Nouvelle-Écosse
+  date: 03-05-2020
+  numconf: 971
+  numprob: 0
+  numdeaths: 37
+  numtotal: 971
+  numtested: 31192
+  numrecover: 624
+  percentrecover: 64.26
+- pruid: 11
+  prname: Prince Edward Island
+  prnamefr: Île-du-Prince-Édouard
+  date: 03-05-2020
+  numconf: 27
+  numprob: 0
+  numdeaths: 0
+  numtotal: 27
+  numtested: 3138
+  numrecover: 24
+  percentrecover: 88.89
+- pruid: 60
+  prname: Yukon
+  prnamefr: Yukon
+  date: 03-05-2020
+  numconf: 11
+  numprob: 0
+  numdeaths: 0
+  numtotal: 11
+  numtested: 1023
+  numrecover: 11
+  percentrecover: 100
+- pruid: 61
+  prname: Northwest Territories
+  prnamefr: Territoires du Nord-Ouest
+  date: 03-05-2020
+  numconf: 5
+  numprob: 0
+  numdeaths: 0
+  numtotal: 5
+  numtested: 1697
+  numrecover: 5
+  percentrecover: 100
+- pruid: 62
+  prname: Nunavut
+  prnamefr: Nunavut
+  date: 03-05-2020
+  numconf: 1
+  numprob: 0
+  numdeaths: 0
+  numtotal: 1
+  numtested: 421
+  numrecover: 0
+  percentrecover: 0
+- pruid: 99
+  prname: Repatriated travellers
+  prnamefr: Voyageurs rapatriés
+  date: 03-05-2020
+  numconf: 13
+  numprob: 0
+  numtotal: 13
+- pruid: 1
+  prname: Canada
+  prnamefr: Canada
+  date: 03-05-2020
+  numconf: 59474
+  numprob: 0
+  numdeaths: 3682
+  numtotal: 59474
+  numtested: 897444
+  numrecover: 24908
+  percentrecover: 41.88
