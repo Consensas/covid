@@ -1,0 +1,33 @@
+state: CA
+positive: 53616
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 662135
+pending: null
+hospitalizedCurrently: 4734
+hospitalizedCumulative: null
+inIcuCurrently: 1468
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '5/03 14:00'
+checkTimeEt: '5/03 15:54'
+death: 2215
+hospitalized: null
+total: 715751
+totalTestResults: 715751
+posNeg: 715751
+fips: '06'
+dateModified: '2020-05-03T18:00:00Z'
+dateChecked: '2020-05-03T19:54:00Z'
+hash: 7e44599df4c3ba9deb196535fc0e2cbc88e3ed46
+date: 20200504

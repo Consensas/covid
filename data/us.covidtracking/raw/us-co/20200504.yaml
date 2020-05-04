@@ -1,0 +1,33 @@
+state: CO
+positive: 16225
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 63681
+pending: null
+hospitalizedCurrently: 883
+hospitalizedCumulative: 2793
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 2607
+lastUpdateEt: '5/03 00:00'
+checkTimeEt: '5/03 16:15'
+death: 832
+hospitalized: 2793
+total: 79906
+totalTestResults: 79906
+posNeg: 79906
+fips: 08
+dateModified: '2020-05-03T04:00:00Z'
+dateChecked: '2020-05-03T20:15:00Z'
+hash: 83e396d731d77b81636ecfa4227ef5c5253bbed9
+date: 20200504
