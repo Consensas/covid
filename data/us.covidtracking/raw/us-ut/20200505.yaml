@@ -1,0 +1,33 @@
+state: UT
+positive: 5317
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: C
+negative: 119344
+pending: null
+hospitalizedCurrently: null
+hospitalizedCumulative: 441
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 2342
+lastUpdateEt: '5/03 15:00'
+checkTimeEt: '5/04 15:38'
+death: 50
+hospitalized: 441
+total: 124661
+totalTestResults: 124661
+posNeg: 124661
+fips: '49'
+dateModified: '2020-05-03T19:00:00Z'
+dateChecked: '2020-05-04T19:38:00Z'
+hash: 978eedfb142b923373f16f0f7010494877748945
+date: 20200505
