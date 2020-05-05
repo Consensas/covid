@@ -339,7 +339,7 @@ items:
   - date: '2020-03-26'
     deaths: 39
     tests_positive: 4018
-    recovered: 184
+    recovered: 230
     '@id': 'urn:covid:consensas:cmo:ca:2020-03-26'
     tests: 161603
     tests_probable: 25
@@ -353,42 +353,42 @@ items:
   - date: '2020-03-28'
     deaths: 59
     tests_positive: 5386
-    recovered: 466
+    recovered: 502
     '@id': 'urn:covid:consensas:cmo:ca:2020-03-28'
     tests: 184201
     tests_probable: 39
   - date: '2020-03-29'
     deaths: 61
     tests_positive: 6255
-    recovered: 466
+    recovered: 522
     '@id': 'urn:covid:consensas:cmo:ca:2020-03-29'
     tests: 210435
     tests_probable: 3
   - date: '2020-03-30'
     deaths: 89
     tests_positive: 7424
-    recovered: 466
+    recovered: 1068
     '@id': 'urn:covid:consensas:cmo:ca:2020-03-30'
     tests: 221628
     tests_probable: 13
   - date: '2020-03-31'
     deaths: 96
     tests_positive: 8536
-    recovered: 1592
+    recovered: 1254
     '@id': 'urn:covid:consensas:cmo:ca:2020-03-31'
     tests: 241138
     tests_probable: 12
   - date: '2020-04-01'
     deaths: 109
     tests_positive: 9595
-    recovered: 1324
+    recovered: 1553
     '@id': 'urn:covid:consensas:cmo:ca:2020-04-01'
     tests: 256933
     tests_probable: 18
   - date: '2020-04-02'
     deaths: 138
     tests_positive: 11268
-    recovered: 1735
+    recovered: 1983
     '@id': 'urn:covid:consensas:cmo:ca:2020-04-02'
     tests: 268154
     tests_probable: 15
@@ -608,6 +608,13 @@ items:
     recovered: 24908
     '@id': 'urn:covid:consensas:cmo:ca:2020-05-03'
     tests: 897444
+    tests_probable: 0
+  - date: '2020-05-04'
+    deaths: 3854
+    tests_positive: 60772
+    recovered: 26017
+    '@id': 'urn:covid:consensas:cmo:ca:2020-05-04'
+    tests: 919368
     tests_probable: 0
 source: >-
   https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html

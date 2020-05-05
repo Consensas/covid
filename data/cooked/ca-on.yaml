@@ -1281,6 +1281,20 @@ items:
     patients_hospital_current: 1010
     patients_icu_current: 232
     patients_ventilated_current: 174
+  - date: '2020-05-04'
+    deaths: 1300
+    tests_positive: 17923
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-04'
+    recovered: 12505
+    tests: 335795
+    tests_negative: 317872
+    tests_confirmed: 4118
+    tests_probable: null
+    tests_pending: 6265
+    tests_approved: 342060
+    patients_hospital_current: 984
+    patients_icu_current: 225
+    patients_ventilated_current: 175
 state: 'ON'
 icu_hospitals: 84
 icu_beds: 1122
