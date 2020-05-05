@@ -182,7 +182,7 @@
       tests_positive: 725
       tests_probable: 0
       deaths: 14
-      recovered: 183
+      recovered: 186
     - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-27'
       date: '2020-03-27'
       tests: 31536
@@ -196,7 +196,7 @@
       tests_positive: 884
       tests_probable: 0
       deaths: 16
-      recovered: 186
+      recovered: 396
     - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-29'
       date: '2020-03-29'
       tests: 33476
@@ -210,28 +210,28 @@
       tests_positive: 960
       tests_probable: 0
       deaths: 19
-      recovered: 396
+      recovered: 469
     - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-03-31'
       date: '2020-03-31'
       tests: 36024
       tests_positive: 970
       tests_probable: 0
       deaths: 19
-      recovered: 469
+      recovered: 507
     - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-01'
       date: '2020-04-01'
       tests: 36364
       tests_positive: 1066
       tests_probable: 0
       deaths: 25
-      recovered: 507
+      recovered: 606
     - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-02'
       date: '2020-04-02'
       tests: 36966
       tests_positive: 1121
       tests_probable: 0
       deaths: 31
-      recovered: 606
+      recovered: 641
     - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-03'
       date: '2020-04-03'
       tests: 39926
@@ -336,7 +336,7 @@
       tests_positive: 1575
       tests_probable: 0
       deaths: 77
-      recovered: 983
+      recovered: 955
     - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-04-18'
       date: '2020-04-18'
       tests: 53569
@@ -449,3 +449,10 @@
       tests_probable: 0
       deaths: 114
       recovered: 1376
+    - '@id': 'urn:covid:consensas:cmo:ca-bc:2020-05-04'
+      date: '2020-05-04'
+      tests: 82862
+      tests_positive: 2224
+      tests_probable: 0
+      deaths: 117
+      recovered: 1417

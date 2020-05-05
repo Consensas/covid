@@ -138,12 +138,14 @@
       tests_positive: 5
       tests_probable: 0
       deaths: 0
+      recovered: 3
     - '@id': 'urn:covid:consensas:cmo:ca-yk:2020-04-02'
       date: '2020-04-02'
       tests: 742
       tests_positive: 6
       tests_probable: 0
       deaths: 0
+      recovered: 3
     - '@id': 'urn:covid:consensas:cmo:ca-yk:2020-04-03'
       date: '2020-04-03'
       tests: 753
@@ -343,6 +345,13 @@
       recovered: 11
     - '@id': 'urn:covid:consensas:cmo:ca-yk:2020-05-03'
       date: '2020-05-03'
+      tests: 1023
+      tests_positive: 11
+      tests_probable: 0
+      deaths: 0
+      recovered: 11
+    - '@id': 'urn:covid:consensas:cmo:ca-yk:2020-05-04'
+      date: '2020-05-04'
       tests: 1023
       tests_positive: 11
       tests_probable: 0
