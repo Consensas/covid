@@ -1,0 +1,6162 @@
+updatedAt: '2020-05-06T02:30:04.688-06:00'
+flights:
+  - Id: 20200505WS3348A
+    ScheduledTime: '2020-05-05T18:55:00Z'
+    EstimatedTime: '2020-05-05T19:08:00Z'
+    ActualTime: '2020-05-05T19:08:00Z'
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3348'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:10:12Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3111D
+    ScheduledTime: '2020-05-05T18:00:00Z'
+    EstimatedTime: '2020-05-05T17:51:00Z'
+    ActualTime: '2020-05-05T17:51:00Z'
+    Gate:
+      Code: B40
+      Name: B40
+    Airport:
+      Code: YKA
+      Name: Kamloops
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3111'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:38Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC144D
+    ScheduledTime: '2020-05-05T17:40:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '144'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T17:40:05Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3280A
+    ScheduledTime: '2020-05-07T18:58:00Z'
+    EstimatedTime: '2020-05-07T18:58:00Z'
+    ActualTime: null
+    Gate:
+      Code: C33
+      Name: C33
+    Airport:
+      Code: YYF
+      Name: Penticton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3280'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:23:35Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC134D
+    ScheduledTime: '2020-05-05T13:00:00Z'
+    EstimatedTime: null
+    ActualTime: '2020-05-05T13:00:00Z'
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '134'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T14:36:57Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3159D
+    ScheduledTime: '2020-05-05T17:15:00Z'
+    EstimatedTime: '2020-05-05T17:15:00Z'
+    ActualTime: '2020-05-05T17:15:00Z'
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3159'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T17:33:02Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3158A
+    ScheduledTime: '2020-05-07T21:36:00Z'
+    EstimatedTime: '2020-05-07T21:36:00Z'
+    ActualTime: null
+    Gate:
+      Code: C39
+      Name: C39
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3158'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:38:02Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS662D
+    ScheduledTime: '2020-05-05T16:30:00Z'
+    EstimatedTime: '2020-05-05T16:25:00Z'
+    ActualTime: '2020-05-05T16:25:00Z'
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '662'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:41Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3351D
+    ScheduledTime: '2020-05-06T16:30:00Z'
+    EstimatedTime: '2020-05-06T16:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3351'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T12:27:18Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3042A
+    ScheduledTime: '2020-05-06T18:40:00Z'
+    EstimatedTime: '2020-05-06T18:40:00Z'
+    ActualTime: null
+    Gate:
+      Code: C38
+      Name: C38
+    Airport:
+      Code: YXC
+      Name: Cranbrook
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3042'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T17:33:02Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3137D
+    ScheduledTime: '2020-05-06T02:00:00Z'
+    EstimatedTime: '2020-05-06T01:57:00Z'
+    ActualTime: '2020-05-06T01:57:00Z'
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3137'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:13:00Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3160A
+    ScheduledTime: '2020-05-06T15:09:00Z'
+    EstimatedTime: '2020-05-06T15:09:00Z'
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3160'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:16:16Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3338A
+    ScheduledTime: '2020-05-06T21:27:00Z'
+    EstimatedTime: '2020-05-06T21:27:00Z'
+    ActualTime: null
+    Gate:
+      Code: C33
+      Name: C33
+    Airport:
+      Code: YXX
+      Name: Abbotsford
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3338'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:26:45Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3338A
+    ScheduledTime: '2020-05-05T21:27:00Z'
+    EstimatedTime: '2020-05-05T21:14:00Z'
+    ActualTime: '2020-05-05T21:14:00Z'
+    Gate:
+      Code: C31
+      Name: C31
+    Airport:
+      Code: YXX
+      Name: Abbotsford
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3338'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:49:49Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506DL4595D
+    ScheduledTime: '2020-05-06T20:30:00Z'
+    EstimatedTime: '2020-05-06T20:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: E74
+      Name: E74
+    Airport:
+      Code: MSP
+      Name: Minneapolis
+    Airline:
+      Code: DL
+      Name: Delta Air Lines
+    FlightNumber: '4595'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T04:55:56Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: T
+  - Id: 20200505AC155A
+    ScheduledTime: '2020-05-06T04:15:00Z'
+    EstimatedTime: '2020-05-06T04:24:00Z'
+    ActualTime: '2020-05-06T04:15:00Z'
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '155'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T05:24:05Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3379A
+    ScheduledTime: '2020-05-05T15:46:00Z'
+    EstimatedTime: '2020-05-05T15:25:00Z'
+    ActualTime: '2020-05-05T15:25:00Z'
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YXE
+      Name: Saskatoon
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3379'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T17:33:03Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507DL4555A
+    ScheduledTime: '2020-05-07T19:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: D74
+      Name: D74
+    Airport:
+      Code: MSP
+      Name: Minneapolis
+    Airline:
+      Code: DL
+      Name: Delta Air Lines
+    FlightNumber: '4555'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:28:38Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: I
+  - Id: 20200505AC8441D
+    ScheduledTime: '2020-05-05T12:20:00Z'
+    EstimatedTime: null
+    ActualTime: '2020-05-05T12:15:00Z'
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8441'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T12:34:10Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3307A
+    ScheduledTime: '2020-05-07T21:50:00Z'
+    EstimatedTime: '2020-05-07T21:50:00Z'
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YXJ
+      Name: Fort St. John
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3307'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:13Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS672D
+    ScheduledTime: '2020-05-06T23:00:00Z'
+    EstimatedTime: '2020-05-06T23:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '672'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T00:03:26Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC8376A
+    ScheduledTime: '2020-05-06T22:56:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C39
+      Name: C39
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8376'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T06:14:34Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3387D
+    ScheduledTime: '2020-05-07T02:00:00Z'
+    EstimatedTime: '2020-05-07T02:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: B33
+      Name: B33
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3387'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:26:46Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS261A
+    ScheduledTime: '2020-05-05T15:07:00Z'
+    EstimatedTime: '2020-05-05T14:52:00Z'
+    ActualTime: '2020-05-05T14:52:00Z'
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YWG
+      Name: Winnipeg
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '261'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:41Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3264D
+    ScheduledTime: '2020-05-06T00:35:00Z'
+    EstimatedTime: '2020-05-06T00:25:00Z'
+    ActualTime: '2020-05-06T00:25:00Z'
+    Gate:
+      Code: B31
+      Name: B31
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3264'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:49:49Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3140A
+    ScheduledTime: '2020-05-07T01:55:00Z'
+    EstimatedTime: '2020-05-07T01:55:00Z'
+    ActualTime: null
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3140'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:40:35Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC8134D
+    ScheduledTime: '2020-05-05T15:30:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8134'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T15:30:05Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3376D
+    ScheduledTime: '2020-05-05T17:30:00Z'
+    EstimatedTime: '2020-05-05T17:20:00Z'
+    ActualTime: '2020-05-05T17:20:00Z'
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YXX
+      Name: Abbotsford
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3376'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:40Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC224A
+    ScheduledTime: '2020-05-08T00:32:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '224'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:24:37Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS659A
+    ScheduledTime: '2020-05-07T20:11:00Z'
+    EstimatedTime: '2020-05-07T20:11:00Z'
+    ActualTime: null
+    Gate:
+      Code: C35
+      Name: C35
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '659'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:38Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS863D
+    ScheduledTime: '2020-05-06T01:15:00Z'
+    EstimatedTime: '2020-05-06T01:10:00Z'
+    ActualTime: '2020-05-06T01:10:00Z'
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YYJ
+      Name: Victoria
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '863'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:48:38Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3158A
+    ScheduledTime: '2020-05-05T21:36:00Z'
+    EstimatedTime: '2020-05-05T21:16:00Z'
+    ActualTime: '2020-05-05T21:16:00Z'
+    Gate:
+      Code: C39
+      Name: C39
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3158'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:49:50Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4037A
+    ScheduledTime: '2020-05-08T03:46:00Z'
+    EstimatedTime: '2020-05-08T03:46:00Z'
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4037'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T18:33:34Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3145D
+    ScheduledTime: '2020-05-07T22:30:00Z'
+    EstimatedTime: '2020-05-07T22:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B39
+      Name: B39
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3145'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:38:18Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3387D
+    ScheduledTime: '2020-05-06T02:00:00Z'
+    EstimatedTime: '2020-05-06T01:47:00Z'
+    ActualTime: '2020-05-06T01:47:00Z'
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3387'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:10:13Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS137D
+    ScheduledTime: '2020-05-08T02:00:00Z'
+    EstimatedTime: '2020-05-08T02:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '137'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:20Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3111D
+    ScheduledTime: '2020-05-07T18:00:00Z'
+    EstimatedTime: '2020-05-07T18:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YKA
+      Name: Kamloops
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3111'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:40:34Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS122A
+    ScheduledTime: '2020-05-07T19:52:00Z'
+    EstimatedTime: '2020-05-07T19:52:00Z'
+    ActualTime: null
+    Gate:
+      Code: C53
+      Name: C53
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '122'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:11Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3394A
+    ScheduledTime: '2020-05-06T14:55:00Z'
+    EstimatedTime: '2020-05-06T14:55:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3394'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T12:27:18Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS557A
+    ScheduledTime: '2020-05-08T00:35:00Z'
+    EstimatedTime: '2020-05-08T00:35:00Z'
+    ActualTime: null
+    Gate:
+      Code: C35
+      Name: C35
+    Airport:
+      Code: YKF
+      Name: Waterloo
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '557'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:31:36Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3116A
+    ScheduledTime: '2020-05-05T21:14:00Z'
+    EstimatedTime: '2020-05-05T21:01:00Z'
+    ActualTime: '2020-05-05T21:01:00Z'
+    Gate:
+      Code: C34
+      Name: C34
+    Airport:
+      Code: YKA
+      Name: Kamloops
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3116'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:20:33Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC8441A
+    ScheduledTime: '2020-05-05T14:35:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8441'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T11:44:53Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3155D
+    ScheduledTime: '2020-05-06T17:30:00Z'
+    EstimatedTime: '2020-05-06T17:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B34
+      Name: B34
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3155'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T19:53:05Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS662D
+    ScheduledTime: '2020-05-07T16:30:00Z'
+    EstimatedTime: '2020-05-07T16:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B37
+      Name: B37
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '662'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:37Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC135A
+    ScheduledTime: '2020-05-07T16:41:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '135'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:29:00Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3101D
+    ScheduledTime: '2020-05-05T17:45:00Z'
+    EstimatedTime: '2020-05-05T17:32:00Z'
+    ActualTime: '2020-05-05T17:32:00Z'
+    Gate:
+      Code: B34
+      Name: B34
+    Airport:
+      Code: YXJ
+      Name: Fort St. John
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3101'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:39Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AA1376D
+    ScheduledTime: '2020-05-05T18:41:00Z'
+    EstimatedTime: '2020-05-05T18:41:00Z'
+    ActualTime: '2020-05-05T18:36:00Z'
+    Gate:
+      Code: E81
+      Name: E81
+    Airport:
+      Code: DFW
+      Name: Dallas - DFW
+    Airline:
+      Code: AA
+      Name: American Airlines
+    FlightNumber: '1376'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:50:57Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: T
+  - Id: 20200506WS3162A
+    ScheduledTime: '2020-05-06T20:38:00Z'
+    EstimatedTime: '2020-05-06T20:38:00Z'
+    ActualTime: null
+    Gate:
+      Code: C31
+      Name: C31
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3162'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:46:37Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3370D
+    ScheduledTime: '2020-05-08T01:05:00Z'
+    EstimatedTime: '2020-05-08T01:05:00Z'
+    ActualTime: null
+    Gate:
+      Code: B33
+      Name: B33
+    Airport:
+      Code: YXE
+      Name: Saskatoon
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3370'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:14Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3301A
+    ScheduledTime: '2020-05-07T15:47:00Z'
+    EstimatedTime: '2020-05-07T16:02:00Z'
+    ActualTime: null
+    Gate:
+      Code: C39
+      Name: C39
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3301'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Warning
+        EffectiveTime: '2020-05-05T18:38:03Z'
+        ShortEnglishText: 'Delayed '
+        LongEnglishText: 'Delayed '
+        ShortFrenchText: 'Retardé '
+        LongFrenchText: 'Retardé '
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS125D
+    ScheduledTime: '2020-05-06T18:30:00Z'
+    EstimatedTime: '2020-05-06T18:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '125'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:48:03Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS4035A
+    ScheduledTime: '2020-05-06T03:56:00Z'
+    EstimatedTime: '2020-05-06T03:35:00Z'
+    ActualTime: '2020-05-06T03:35:00Z'
+    Gate:
+      Code: C40
+      Name: C40
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4035'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T04:36:05Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3008D
+    ScheduledTime: '2020-05-05T16:15:00Z'
+    EstimatedTime: '2020-05-05T16:07:00Z'
+    ActualTime: '2020-05-05T16:07:00Z'
+    Gate:
+      Code: B38
+      Name: B38
+    Airport:
+      Code: YQL
+      Name: Lethbridge
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3008'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:42Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC219D
+    ScheduledTime: '2020-05-05T20:45:00Z'
+    EstimatedTime: null
+    ActualTime: '2020-05-05T20:34:00Z'
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '219'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T21:57:18Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3379A
+    ScheduledTime: '2020-05-06T15:46:00Z'
+    EstimatedTime: '2020-05-06T15:46:00Z'
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YXE
+      Name: Saskatoon
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3379'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:11:34Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3301A
+    ScheduledTime: '2020-05-05T16:02:00Z'
+    EstimatedTime: '2020-05-05T15:45:00Z'
+    ActualTime: '2020-05-05T15:45:00Z'
+    Gate:
+      Code: C31
+      Name: C31
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3301'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:39Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3012D
+    ScheduledTime: '2020-05-05T19:30:00Z'
+    EstimatedTime: '2020-05-05T19:21:00Z'
+    ActualTime: '2020-05-05T19:21:00Z'
+    Gate:
+      Code: B38
+      Name: B38
+    Airport:
+      Code: YXH
+      Name: Medicine Hat
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3012'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T21:57:18Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3008D
+    ScheduledTime: '2020-05-07T16:15:00Z'
+    EstimatedTime: '2020-05-07T16:15:00Z'
+    ActualTime: null
+    Gate:
+      Code: B40
+      Name: B40
+    Airport:
+      Code: YQL
+      Name: Lethbridge
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3008'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:14:33Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3155D
+    ScheduledTime: '2020-05-07T17:30:00Z'
+    EstimatedTime: '2020-05-07T17:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B39
+      Name: B39
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3155'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:38:18Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS653A
+    ScheduledTime: '2020-05-06T14:59:00Z'
+    EstimatedTime: '2020-05-06T14:59:00Z'
+    ActualTime: null
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '653'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:48:03Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS125D
+    ScheduledTime: '2020-05-05T18:30:00Z'
+    EstimatedTime: '2020-05-05T18:23:00Z'
+    ActualTime: '2020-05-05T18:23:00Z'
+    Gate:
+      Code: C53
+      Name: C53
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '125'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:37Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC8586D
+    ScheduledTime: '2020-05-06T20:30:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YXE
+      Name: Saskatoon
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8586'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T11:35:49Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3140A
+    ScheduledTime: '2020-05-08T01:55:00Z'
+    EstimatedTime: '2020-05-08T01:55:00Z'
+    ActualTime: null
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3140'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:32:07Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS672D
+    ScheduledTime: '2020-05-07T23:00:00Z'
+    EstimatedTime: '2020-05-07T23:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: B35
+      Name: B35
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '672'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:38Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AA1376D
+    ScheduledTime: '2020-05-06T18:41:00Z'
+    EstimatedTime: '2020-05-06T18:41:00Z'
+    ActualTime: null
+    Gate:
+      Code: E81
+      Name: E81
+    Airport:
+      Code: DFW
+      Name: Dallas - DFW
+    Airline:
+      Code: AA
+      Name: American Airlines
+    FlightNumber: '1376'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:45:57Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: T
+  - Id: 20200507WS117D
+    ScheduledTime: '2020-05-07T14:00:00Z'
+    EstimatedTime: '2020-05-07T14:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: B34
+      Name: B34
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '117'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:13:37Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3348A
+    ScheduledTime: '2020-05-06T18:55:00Z'
+    EstimatedTime: '2020-05-06T18:55:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3348'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T00:03:32Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3351D
+    ScheduledTime: '2020-05-07T16:30:00Z'
+    EstimatedTime: '2020-05-07T16:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3351'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:34Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS137D
+    ScheduledTime: '2020-05-07T02:00:00Z'
+    EstimatedTime: '2020-05-07T02:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '137'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:49:12Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC145A
+    ScheduledTime: '2020-05-07T22:40:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '145'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T07:45:44Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC323A
+    ScheduledTime: '2020-05-07T03:33:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YUL
+      Name: Montreal
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '323'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:25:46Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3003A
+    ScheduledTime: '2020-05-05T18:28:00Z'
+    EstimatedTime: '2020-05-05T18:16:00Z'
+    ActualTime: '2020-05-05T18:16:00Z'
+    Gate:
+      Code: C38
+      Name: C38
+    Airport:
+      Code: YQL
+      Name: Lethbridge
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3003'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T21:57:18Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3145D
+    ScheduledTime: '2020-05-05T22:30:00Z'
+    EstimatedTime: '2020-05-05T22:24:00Z'
+    ActualTime: '2020-05-05T22:24:00Z'
+    Gate:
+      Code: B39
+      Name: B39
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3145'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:49:50Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3015A
+    ScheduledTime: '2020-05-05T21:58:00Z'
+    EstimatedTime: '2020-05-05T21:50:00Z'
+    ActualTime: '2020-05-05T21:50:00Z'
+    Gate:
+      Code: C38
+      Name: C38
+    Airport:
+      Code: YXH
+      Name: Medicine Hat
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3015'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T22:50:05Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3109D
+    ScheduledTime: '2020-05-05T17:00:00Z'
+    EstimatedTime: '2020-05-05T16:53:00Z'
+    ActualTime: '2020-05-05T16:53:00Z'
+    Gate:
+      Code: B36
+      Name: B36
+    Airport:
+      Code: YCD
+      Name: Nanaimo
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3109'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:40Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC224A
+    ScheduledTime: '2020-05-06T00:32:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '224'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T17:04:05Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3376D
+    ScheduledTime: '2020-05-07T17:30:00Z'
+    EstimatedTime: '2020-05-07T17:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B36
+      Name: B36
+    Airport:
+      Code: YXX
+      Name: Abbotsford
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3376'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:40:17Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS117D
+    ScheduledTime: '2020-05-06T14:00:00Z'
+    EstimatedTime: '2020-05-06T14:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: B35
+      Name: B35
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '117'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T05:00:17Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS4020D
+    ScheduledTime: '2020-05-06T12:35:00Z'
+    EstimatedTime: '2020-05-06T12:35:00Z'
+    ActualTime: null
+    Gate:
+      Code: B40
+      Name: B40
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4020'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:53:02Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS538A
+    ScheduledTime: '2020-05-06T15:23:00Z'
+    EstimatedTime: '2020-05-06T15:23:00Z'
+    ActualTime: null
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YYJ
+      Name: Victoria
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '538'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:48:44Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3376D
+    ScheduledTime: '2020-05-06T17:30:00Z'
+    EstimatedTime: '2020-05-06T17:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B33
+      Name: B33
+    Airport:
+      Code: YXX
+      Name: Abbotsford
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3376'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:14:53Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS4041A
+    ScheduledTime: '2020-05-07T04:01:00Z'
+    EstimatedTime: '2020-05-07T04:01:00Z'
+    ActualTime: null
+    Gate:
+      Code: C36
+      Name: C36
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4041'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:33:53Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC204A
+    ScheduledTime: '2020-05-06T16:32:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '204'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:30Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS653A
+    ScheduledTime: '2020-05-07T14:59:00Z'
+    EstimatedTime: '2020-05-07T14:59:00Z'
+    ActualTime: null
+    Gate:
+      Code: C37
+      Name: C37
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '653'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:37Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS261A
+    ScheduledTime: '2020-05-07T15:07:00Z'
+    EstimatedTime: '2020-05-07T15:07:00Z'
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YWG
+      Name: Winnipeg
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '261'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:23Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS125D
+    ScheduledTime: '2020-05-07T18:30:00Z'
+    EstimatedTime: '2020-05-07T18:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B35
+      Name: B35
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '125'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:35Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC204A
+    ScheduledTime: '2020-05-07T16:32:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '204'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T07:46:16Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC8381D
+    ScheduledTime: '2020-05-06T19:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8381'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T11:57:33Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC144D
+    ScheduledTime: '2020-05-07T17:40:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '144'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:29:00Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC135A
+    ScheduledTime: '2020-05-06T16:41:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '135'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:27:56Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC8430A
+    ScheduledTime: '2020-05-06T22:43:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C32
+      Name: C32
+    Airport:
+      Code: YQU
+      Name: Grande Prairie
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8430'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T14:24:03Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC225D
+    ScheduledTime: '2020-05-06T01:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '225'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-06T01:20:05Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3012D
+    ScheduledTime: '2020-05-07T19:30:00Z'
+    EstimatedTime: '2020-05-07T19:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: B38
+      Name: B38
+    Airport:
+      Code: YXH
+      Name: Medicine Hat
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3012'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T02:53:11Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3171D
+    ScheduledTime: '2020-05-07T17:15:00Z'
+    EstimatedTime: '2020-05-07T17:15:00Z'
+    ActualTime: null
+    Gate:
+      Code: B34
+      Name: B34
+    Airport:
+      Code: YQQ
+      Name: Comox
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3171'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:16:16Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3307A
+    ScheduledTime: '2020-05-05T21:50:00Z'
+    EstimatedTime: '2020-05-05T21:32:00Z'
+    ActualTime: '2020-05-05T21:32:00Z'
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YXJ
+      Name: Fort St. John
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3307'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:10:13Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC323A
+    ScheduledTime: '2020-05-06T03:33:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YUL
+      Name: Montreal
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '323'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T17:05:59Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC230A
+    ScheduledTime: '2020-05-07T05:17:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '230'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:30Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS122A
+    ScheduledTime: '2020-05-05T19:52:00Z'
+    EstimatedTime: '2020-05-05T19:43:00Z'
+    ActualTime: '2020-05-05T19:43:00Z'
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '122'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:10:11Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AA3343A
+    ScheduledTime: '2020-05-07T19:10:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: D81
+      Name: D81
+    Airport:
+      Code: DFW
+      Name: Dallas - DFW
+    Airline:
+      Code: AA
+      Name: American Airlines
+    FlightNumber: '3343'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:28:40Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: I
+  - Id: 20200507AC219D
+    ScheduledTime: '2020-05-07T20:45:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '219'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T07:46:16Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS137D
+    ScheduledTime: '2020-05-06T02:00:00Z'
+    EstimatedTime: '2020-05-06T01:57:00Z'
+    ActualTime: '2020-05-06T01:57:00Z'
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '137'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:10:11Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS526D
+    ScheduledTime: '2020-05-06T01:00:00Z'
+    EstimatedTime: '2020-05-06T00:41:00Z'
+    ActualTime: '2020-05-06T00:41:00Z'
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YWG
+      Name: Winnipeg
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '526'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:00:06Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3137D
+    ScheduledTime: '2020-05-08T02:00:00Z'
+    EstimatedTime: '2020-05-08T02:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3137'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:15Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS653A
+    ScheduledTime: '2020-05-05T14:59:00Z'
+    EstimatedTime: '2020-05-05T14:40:00Z'
+    ActualTime: '2020-05-05T14:40:00Z'
+    Gate:
+      Code: C35
+      Name: C35
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '653'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T05:00:18Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3215D
+    ScheduledTime: '2020-05-06T20:35:00Z'
+    EstimatedTime: '2020-05-06T20:35:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YQU
+      Name: Grande Prairie
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3215'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T00:03:32Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3145D
+    ScheduledTime: '2020-05-06T22:30:00Z'
+    EstimatedTime: '2020-05-06T22:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3145'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:11:34Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3370D
+    ScheduledTime: '2020-05-07T01:05:00Z'
+    EstimatedTime: '2020-05-07T01:05:00Z'
+    ActualTime: null
+    Gate:
+      Code: B31
+      Name: B31
+    Airport:
+      Code: YXE
+      Name: Saskatoon
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3370'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:46:37Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS112A
+    ScheduledTime: '2020-05-05T15:23:00Z'
+    EstimatedTime: '2020-05-05T15:07:00Z'
+    ActualTime: '2020-05-05T15:07:00Z'
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '112'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:49:39Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS659A
+    ScheduledTime: '2020-05-05T20:11:00Z'
+    EstimatedTime: '2020-05-05T19:50:00Z'
+    ActualTime: '2020-05-05T19:50:00Z'
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '659'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:49:49Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3394A
+    ScheduledTime: '2020-05-05T14:55:00Z'
+    EstimatedTime: '2020-05-05T14:49:00Z'
+    ActualTime: '2020-05-05T14:49:00Z'
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3394'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:41Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC8133A
+    ScheduledTime: '2020-05-05T15:02:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8133'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T11:46:49Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AA1376A
+    ScheduledTime: '2020-05-05T17:51:00Z'
+    EstimatedTime: '2020-05-05T17:36:00Z'
+    ActualTime: '2020-05-05T17:35:00Z'
+    Gate:
+      Code: D81
+      Name: D81
+    Airport:
+      Code: DFW
+      Name: Dallas - DFW
+    Airline:
+      Code: AA
+      Name: American Airlines
+    FlightNumber: '1376'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:06:05Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: I
+  - Id: 20200505AC204A
+    ScheduledTime: '2020-05-05T16:32:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '204'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T08:19:03Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3160A
+    ScheduledTime: '2020-05-05T15:09:00Z'
+    EstimatedTime: '2020-05-05T14:55:00Z'
+    ActualTime: '2020-05-05T14:55:00Z'
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3160'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:40Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC225D
+    ScheduledTime: '2020-05-08T01:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '225'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:24:37Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC145A
+    ScheduledTime: '2020-05-06T22:40:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '145'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:04Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3228A
+    ScheduledTime: '2020-05-05T21:05:00Z'
+    EstimatedTime: '2020-05-05T20:54:00Z'
+    ActualTime: '2020-05-05T20:54:00Z'
+    Gate:
+      Code: C36
+      Name: C36
+    Airport:
+      Code: YCD
+      Name: Nanaimo
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3228'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T21:54:05Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3379A
+    ScheduledTime: '2020-05-07T15:46:00Z'
+    EstimatedTime: '2020-05-07T15:46:00Z'
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YXE
+      Name: Saskatoon
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3379'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:14:06Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4021A
+    ScheduledTime: '2020-05-07T16:01:00Z'
+    EstimatedTime: '2020-05-07T16:01:00Z'
+    ActualTime: null
+    Gate:
+      Code: C35
+      Name: C35
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4021'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:35Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4078D
+    ScheduledTime: '2020-05-07T17:28:00Z'
+    EstimatedTime: '2020-05-07T17:28:00Z'
+    ActualTime: null
+    Gate:
+      Code: C53
+      Name: C53
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4078'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:16:55Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3370D
+    ScheduledTime: '2020-05-06T01:05:00Z'
+    EstimatedTime: '2020-05-06T00:53:00Z'
+    ActualTime: '2020-05-06T00:53:00Z'
+    Gate:
+      Code: B32
+      Name: B32
+    Airport:
+      Code: YXE
+      Name: Saskatoon
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3370'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:48:38Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC8133A
+    ScheduledTime: '2020-05-07T15:02:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C31
+      Name: C31
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8133'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T17:06:43Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3159D
+    ScheduledTime: '2020-05-07T17:15:00Z'
+    EstimatedTime: '2020-05-07T17:15:00Z'
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3159'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:14:06Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3301A
+    ScheduledTime: '2020-05-06T15:47:00Z'
+    EstimatedTime: '2020-05-06T16:02:00Z'
+    ActualTime: null
+    Gate:
+      Code: C34
+      Name: C34
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3301'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Warning
+        EffectiveTime: '2020-05-04T19:53:03Z'
+        ShortEnglishText: 'Delayed '
+        LongEnglishText: 'Delayed '
+        ShortFrenchText: 'Retardé '
+        LongFrenchText: 'Retardé '
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS669A
+    ScheduledTime: '2020-05-06T02:41:00Z'
+    EstimatedTime: '2020-05-06T02:25:00Z'
+    ActualTime: '2020-05-06T02:25:00Z'
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '669'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:54:17Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3394A
+    ScheduledTime: '2020-05-07T14:55:00Z'
+    EstimatedTime: '2020-05-07T14:55:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3394'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:34Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3162A
+    ScheduledTime: '2020-05-07T20:38:00Z'
+    EstimatedTime: '2020-05-07T20:38:00Z'
+    ActualTime: null
+    Gate:
+      Code: C40
+      Name: C40
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3162'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T07:51:02Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC316D
+    ScheduledTime: '2020-05-05T12:45:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YUL
+      Name: Montreal
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '316'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:45:05Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC8134D
+    ScheduledTime: '2020-05-06T15:30:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8134'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T11:36:03Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS4401A
+    ScheduledTime: '2020-05-06T21:20:00Z'
+    EstimatedTime: '2020-05-06T21:20:00Z'
+    ActualTime: null
+    Gate:
+      Code: C35
+      Name: C35
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4401'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:25:24Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC8446A
+    ScheduledTime: '2020-05-05T16:32:00Z'
+    EstimatedTime: '2020-05-05T16:29:00Z'
+    ActualTime: '2020-05-05T16:26:00Z'
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8446'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:07:17Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3041D
+    ScheduledTime: '2020-05-06T16:20:00Z'
+    EstimatedTime: '2020-05-06T16:20:00Z'
+    ActualTime: null
+    Gate:
+      Code: B38
+      Name: B38
+    Airport:
+      Code: YXC
+      Name: Cranbrook
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3041'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T21:53:00Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS652D
+    ScheduledTime: '2020-05-07T06:05:00Z'
+    EstimatedTime: '2020-05-07T06:05:00Z'
+    ActualTime: null
+    Gate:
+      Code: B37
+      Name: B37
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '652'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T14:37:47Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3065D
+    ScheduledTime: '2020-05-06T19:20:00Z'
+    EstimatedTime: '2020-05-06T19:20:00Z'
+    ActualTime: null
+    Gate:
+      Code: B38
+      Name: B38
+    Airport:
+      Code: YLL
+      Name: Lloydminster
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3065'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T17:33:03Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4096D
+    ScheduledTime: '2020-05-08T00:02:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: B37
+      Name: B37
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4096'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:30:16Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3155D
+    ScheduledTime: '2020-05-05T17:30:00Z'
+    EstimatedTime: '2020-05-05T17:22:00Z'
+    ActualTime: '2020-05-05T17:22:00Z'
+    Gate:
+      Code: B31
+      Name: B31
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3155'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:39Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC201D
+    ScheduledTime: '2020-05-05T12:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '201'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:20:05Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC144D
+    ScheduledTime: '2020-05-06T17:40:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '144'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:27:56Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3220A
+    ScheduledTime: '2020-05-06T23:57:00Z'
+    EstimatedTime: '2020-05-06T23:57:00Z'
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YQU
+      Name: Grande Prairie
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3220'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:13Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC8441A
+    ScheduledTime: '2020-05-07T14:35:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8441'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T07:47:05Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS112A
+    ScheduledTime: '2020-05-07T15:23:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '112'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:33:45Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3015A
+    ScheduledTime: '2020-05-07T21:58:00Z'
+    EstimatedTime: '2020-05-07T21:58:00Z'
+    ActualTime: null
+    Gate:
+      Code: C38
+      Name: C38
+    Airport:
+      Code: YXH
+      Name: Medicine Hat
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3015'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T02:53:13Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC230A
+    ScheduledTime: '2020-05-08T05:17:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '230'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T07:56:12Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3228A
+    ScheduledTime: '2020-05-07T21:05:00Z'
+    EstimatedTime: '2020-05-07T21:05:00Z'
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YCD
+      Name: Nanaimo
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3228'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:19Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS4040D
+    ScheduledTime: '2020-05-07T00:02:00Z'
+    EstimatedTime: '2020-05-07T00:02:00Z'
+    ActualTime: null
+    Gate:
+      Code: B35
+      Name: B35
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4040'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:25:22Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3158A
+    ScheduledTime: '2020-05-06T21:36:00Z'
+    EstimatedTime: '2020-05-06T21:36:00Z'
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3158'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T19:23:23Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507DL4595D
+    ScheduledTime: '2020-05-07T20:30:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: E74
+      Name: E74
+    Airport:
+      Code: MSP
+      Name: Minneapolis
+    Airline:
+      Code: DL
+      Name: Delta Air Lines
+    FlightNumber: '4595'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T07:47:18Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: T
+  - Id: 20200506AC134D
+    ScheduledTime: '2020-05-06T13:00:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '134'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T04:15:05Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS4021A
+    ScheduledTime: '2020-05-06T16:01:00Z'
+    EstimatedTime: '2020-05-06T16:01:00Z'
+    ActualTime: null
+    Gate:
+      Code: C35
+      Name: C35
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4021'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:12:53Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS112A
+    ScheduledTime: '2020-05-06T15:23:00Z'
+    EstimatedTime: '2020-05-06T15:23:00Z'
+    ActualTime: null
+    Gate:
+      Code: C51
+      Name: C51
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '112'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T00:03:23Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC8477D
+    ScheduledTime: '2020-05-06T20:25:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: B32
+      Name: B32
+    Airport:
+      Code: YQU
+      Name: Grande Prairie
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8477'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T05:51:07Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3159D
+    ScheduledTime: '2020-05-06T17:15:00Z'
+    EstimatedTime: '2020-05-06T17:15:00Z'
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3159'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T19:23:35Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3101D
+    ScheduledTime: '2020-05-07T17:45:00Z'
+    EstimatedTime: '2020-05-07T17:45:00Z'
+    ActualTime: null
+    Gate:
+      Code: B33
+      Name: B33
+    Airport:
+      Code: YXJ
+      Name: Fort St. John
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3101'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:20:34Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3338A
+    ScheduledTime: '2020-05-07T21:27:00Z'
+    EstimatedTime: '2020-05-07T21:27:00Z'
+    ActualTime: null
+    Gate:
+      Code: C33
+      Name: C33
+    Airport:
+      Code: YXX
+      Name: Abbotsford
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3338'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:14Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS526D
+    ScheduledTime: '2020-05-08T01:00:00Z'
+    EstimatedTime: '2020-05-08T01:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C53
+      Name: C53
+    Airport:
+      Code: YWG
+      Name: Winnipeg
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '526'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:11Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC8134D
+    ScheduledTime: '2020-05-07T15:30:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8134'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T07:47:05Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS4072D
+    ScheduledTime: '2020-05-05T12:33:00Z'
+    EstimatedTime: '2020-05-05T12:23:00Z'
+    ActualTime: '2020-05-05T12:23:00Z'
+    Gate:
+      Code: B31
+      Name: B31
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4072'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T12:38:06Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS863D
+    ScheduledTime: '2020-05-07T01:15:00Z'
+    EstimatedTime: '2020-05-07T01:15:00Z'
+    ActualTime: null
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YYJ
+      Name: Victoria
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '863'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:48:44Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC224A
+    ScheduledTime: '2020-05-07T00:32:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '224'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:26:25Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS117D
+    ScheduledTime: '2020-05-05T14:00:00Z'
+    EstimatedTime: '2020-05-05T13:40:00Z'
+    ActualTime: '2020-05-05T13:40:00Z'
+    Gate:
+      Code: B35
+      Name: B35
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '117'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T14:36:56Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4097A
+    ScheduledTime: '2020-05-08T04:04:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C32
+      Name: C32
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4097'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:35:19Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC152D
+    ScheduledTime: '2020-05-07T23:00:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '152'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T07:45:44Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS538A
+    ScheduledTime: '2020-05-07T15:23:00Z'
+    EstimatedTime: '2020-05-07T15:23:00Z'
+    ActualTime: null
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YYJ
+      Name: Victoria
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '538'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:19Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3264D
+    ScheduledTime: '2020-05-08T00:35:00Z'
+    EstimatedTime: '2020-05-08T00:35:00Z'
+    ActualTime: null
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3264'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:12Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC225D
+    ScheduledTime: '2020-05-07T01:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '225'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:26:25Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS652D
+    ScheduledTime: '2020-05-06T06:05:00Z'
+    EstimatedTime: '2020-05-06T05:51:00Z'
+    ActualTime: '2020-05-06T05:51:00Z'
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '652'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T06:12:06Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3264D
+    ScheduledTime: '2020-05-07T00:35:00Z'
+    EstimatedTime: '2020-05-07T00:35:00Z'
+    ActualTime: null
+    Gate:
+      Code: B36
+      Name: B36
+    Airport:
+      Code: YQR
+      Name: Regina
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3264'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T20:58:02Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS130A
+    ScheduledTime: '2020-05-08T00:22:00Z'
+    EstimatedTime: '2020-05-08T00:22:00Z'
+    ActualTime: null
+    Gate:
+      Code: C40
+      Name: C40
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '130'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:30:42Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS669A
+    ScheduledTime: '2020-05-07T02:41:00Z'
+    EstimatedTime: '2020-05-07T02:41:00Z'
+    ActualTime: null
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '669'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:19Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS130A
+    ScheduledTime: '2020-05-06T00:22:00Z'
+    EstimatedTime: '2020-05-06T00:10:00Z'
+    ActualTime: '2020-05-06T00:10:00Z'
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '130'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:48:38Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC316D
+    ScheduledTime: '2020-05-06T12:45:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YUL
+      Name: Montreal
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '316'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T17:05:59Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC134D
+    ScheduledTime: '2020-05-07T13:00:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '134'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:21Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC8376A
+    ScheduledTime: '2020-05-07T22:56:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C39
+      Name: C39
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8376'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:06:45Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3348A
+    ScheduledTime: '2020-05-07T18:55:00Z'
+    EstimatedTime: '2020-05-07T18:55:00Z'
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3348'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:15Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3137D
+    ScheduledTime: '2020-05-07T02:00:00Z'
+    EstimatedTime: '2020-05-07T02:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C50
+      Name: C50
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3137'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:13Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS3064A
+    ScheduledTime: '2020-05-06T22:20:00Z'
+    EstimatedTime: '2020-05-06T22:20:00Z'
+    ActualTime: null
+    Gate:
+      Code: C40
+      Name: C40
+    Airport:
+      Code: YLL
+      Name: Lloydminster
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3064'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T18:13:00Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3109D
+    ScheduledTime: '2020-05-07T17:00:00Z'
+    EstimatedTime: '2020-05-07T17:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: B38
+      Name: B38
+    Airport:
+      Code: YCD
+      Name: Nanaimo
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3109'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:50:17Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS669A
+    ScheduledTime: '2020-05-08T02:41:00Z'
+    EstimatedTime: '2020-05-08T02:41:00Z'
+    ActualTime: null
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '669'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:32:59Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC219D
+    ScheduledTime: '2020-05-06T20:45:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '219'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:04Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC323A
+    ScheduledTime: '2020-05-08T03:33:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YUL
+      Name: Montreal
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '323'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T07:46:58Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4079A
+    ScheduledTime: '2020-05-07T21:59:00Z'
+    EstimatedTime: '2020-05-07T21:59:00Z'
+    ActualTime: null
+    Gate:
+      Code: C37
+      Name: C37
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4079'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:30:16Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3281D
+    ScheduledTime: '2020-05-07T16:00:00Z'
+    EstimatedTime: '2020-05-07T16:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: B32
+      Name: B32
+    Airport:
+      Code: YYF
+      Name: Penticton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3281'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:26Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC201D
+    ScheduledTime: '2020-05-07T12:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '201'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:30Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS652D
+    ScheduledTime: '2020-05-05T06:05:00Z'
+    EstimatedTime: '2020-05-05T05:54:00Z'
+    ActualTime: '2020-05-05T05:54:00Z'
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '652'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T05:55:04Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3351D
+    ScheduledTime: '2020-05-05T16:30:00Z'
+    EstimatedTime: '2020-05-05T16:51:00Z'
+    ActualTime: '2020-05-05T16:51:00Z'
+    Gate:
+      Code: C54
+      Name: C54
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3351'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:41Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS672D
+    ScheduledTime: '2020-05-05T23:00:00Z'
+    EstimatedTime: '2020-05-05T22:51:00Z'
+    ActualTime: '2020-05-05T22:51:00Z'
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '672'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:49:49Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS662D
+    ScheduledTime: '2020-05-06T16:30:00Z'
+    EstimatedTime: '2020-05-06T16:30:00Z'
+    ActualTime: null
+    Gate:
+      Code: C51
+      Name: C51
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '662'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T00:03:24Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4036D
+    ScheduledTime: '2020-05-08T00:02:00Z'
+    EstimatedTime: '2020-05-08T00:02:00Z'
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4036'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T18:33:45Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS122A
+    ScheduledTime: '2020-05-06T19:52:00Z'
+    EstimatedTime: '2020-05-06T19:52:00Z'
+    ActualTime: null
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '122'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T22:03:04Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC152D
+    ScheduledTime: '2020-05-06T23:00:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '152'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:04Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3387D
+    ScheduledTime: '2020-05-08T02:00:00Z'
+    EstimatedTime: '2020-05-08T02:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3387'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:13Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3172A
+    ScheduledTime: '2020-05-07T21:31:00Z'
+    EstimatedTime: '2020-05-07T21:31:00Z'
+    ActualTime: null
+    Gate:
+      Code: C36
+      Name: C36
+    Airport:
+      Code: YQQ
+      Name: Comox
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3172'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:26:08Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC201D
+    ScheduledTime: '2020-05-06T12:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '201'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T05:06:05Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS538A
+    ScheduledTime: '2020-05-05T15:23:00Z'
+    EstimatedTime: '2020-05-05T15:15:00Z'
+    ActualTime: '2020-05-05T15:15:00Z'
+    Gate:
+      Code: C53
+      Name: C53
+    Airport:
+      Code: YYJ
+      Name: Victoria
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '538'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:38Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AA1376A
+    ScheduledTime: '2020-05-06T17:51:00Z'
+    EstimatedTime: '2020-05-06T17:51:00Z'
+    ActualTime: null
+    Gate:
+      Code: D81
+      Name: D81
+    Airport:
+      Code: DFW
+      Name: Dallas - DFW
+    Airline:
+      Code: AA
+      Name: American Airlines
+    FlightNumber: '1376'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:45:57Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: I
+  - Id: 20200507AC316D
+    ScheduledTime: '2020-05-07T12:45:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YUL
+      Name: Montreal
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '316'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T12:25:46Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS556D
+    ScheduledTime: '2020-05-07T16:05:00Z'
+    EstimatedTime: '2020-05-07T16:05:00Z'
+    ActualTime: null
+    Gate:
+      Code: C58
+      Name: C58
+    Airport:
+      Code: YKF
+      Name: Waterloo
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '556'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:23Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3003A
+    ScheduledTime: '2020-05-07T18:28:00Z'
+    EstimatedTime: '2020-05-07T18:28:00Z'
+    ActualTime: null
+    Gate:
+      Code: C38
+      Name: C38
+    Airport:
+      Code: YQL
+      Name: Lethbridge
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3003'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T02:53:11Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS261A
+    ScheduledTime: '2020-05-06T15:07:00Z'
+    EstimatedTime: '2020-05-06T15:07:00Z'
+    ActualTime: null
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YWG
+      Name: Winnipeg
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '261'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-03T00:03:26Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS659A
+    ScheduledTime: '2020-05-06T20:11:00Z'
+    EstimatedTime: '2020-05-06T20:11:00Z'
+    ActualTime: null
+    Gate:
+      Code: C37
+      Name: C37
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '659'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T14:37:47Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC155A
+    ScheduledTime: '2020-05-07T04:15:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '155'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T13:09:21Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3116A
+    ScheduledTime: '2020-05-07T21:14:00Z'
+    EstimatedTime: '2020-05-07T21:14:00Z'
+    ActualTime: null
+    Gate:
+      Code: C59
+      Name: C59
+    Airport:
+      Code: YKA
+      Name: Kamloops
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3116'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T00:03:12Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS3160A
+    ScheduledTime: '2020-05-07T15:09:00Z'
+    EstimatedTime: '2020-05-07T15:09:00Z'
+    ActualTime: null
+    Gate:
+      Code: C32
+      Name: C32
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3160'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:26Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC8381D
+    ScheduledTime: '2020-05-07T19:20:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C51
+      Name: C51
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8381'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T20:20:01Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS863D
+    ScheduledTime: '2020-05-08T01:15:00Z'
+    EstimatedTime: '2020-05-08T01:15:00Z'
+    ActualTime: null
+    Gate:
+      Code: B40
+      Name: B40
+    Airport:
+      Code: YYJ
+      Name: Victoria
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '863'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:30:42Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS4073A
+    ScheduledTime: '2020-05-05T16:19:00Z'
+    EstimatedTime: '2020-05-05T15:58:00Z'
+    ActualTime: '2020-05-05T15:58:00Z'
+    Gate:
+      Code: C34
+      Name: C34
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4073'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T19:41:39Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506DL4555A
+    ScheduledTime: '2020-05-06T19:20:00Z'
+    EstimatedTime: '2020-05-06T19:20:00Z'
+    ActualTime: null
+    Gate:
+      Code: D74
+      Name: D74
+    Airport:
+      Code: MSP
+      Name: Minneapolis
+    Airline:
+      Code: DL
+      Name: Delta Air Lines
+    FlightNumber: '4555'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T04:55:57Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: I
+  - Id: 20200505AC152D
+    ScheduledTime: '2020-05-05T23:00:00Z'
+    EstimatedTime: '2020-05-05T23:00:00Z'
+    ActualTime: '2020-05-05T22:47:00Z'
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '152'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T23:30:05Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507AC155A
+    ScheduledTime: '2020-05-08T04:15:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '155'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T07:46:22Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS130A
+    ScheduledTime: '2020-05-07T00:22:00Z'
+    EstimatedTime: '2020-05-07T00:22:00Z'
+    ActualTime: null
+    Gate:
+      Code: C57
+      Name: C57
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '130'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T03:49:12Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC135A
+    ScheduledTime: '2020-05-05T16:41:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '135'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-04T15:23:52Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS526D
+    ScheduledTime: '2020-05-07T01:00:00Z'
+    EstimatedTime: '2020-05-07T01:00:00Z'
+    ActualTime: null
+    Gate:
+      Code: C55
+      Name: C55
+    Airport:
+      Code: YWG
+      Name: Winnipeg
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '526'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T04:53:17Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3162A
+    ScheduledTime: '2020-05-05T20:38:00Z'
+    EstimatedTime: '2020-05-05T20:21:00Z'
+    ActualTime: '2020-05-05T20:21:00Z'
+    Gate:
+      Code: C32
+      Name: C32
+    Airport:
+      Code: YLW
+      Name: Kelowna
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3162'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T01:48:38Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200507WS4020D
+    ScheduledTime: '2020-05-07T12:35:00Z'
+    EstimatedTime: '2020-05-07T12:35:00Z'
+    ActualTime: null
+    Gate:
+      Code: C56
+      Name: C56
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4020'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-04T00:03:19Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506WS4400D
+    ScheduledTime: '2020-05-06T17:15:00Z'
+    EstimatedTime: '2020-05-06T17:15:00Z'
+    ActualTime: null
+    Gate:
+      Code: B35
+      Name: B35
+    Airport:
+      Code: YMM
+      Name: Fort McMurray
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4400'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T01:12:53Z'
+        ShortEnglishText: ''
+        LongEnglishText: ''
+        ShortFrenchText: ''
+        LongFrenchText: ''
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200506AC8133A
+    ScheduledTime: '2020-05-06T15:02:00Z'
+    EstimatedTime: null
+    ActualTime: null
+    Gate:
+      Code: ''
+      Name: ''
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '8133'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Danger
+        EffectiveTime: '2020-05-05T11:35:49Z'
+        ShortEnglishText: Cancelled
+        LongEnglishText: Cancelled
+        ShortFrenchText: Annulé
+        LongFrenchText: Annulé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC230A
+    ScheduledTime: '2020-05-06T05:17:00Z'
+    EstimatedTime: '2020-05-06T05:06:00Z'
+    ActualTime: '2020-05-06T05:06:00Z'
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YVR
+      Name: Vancouver
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '230'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T06:06:04Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS3140A
+    ScheduledTime: '2020-05-06T01:55:00Z'
+    EstimatedTime: '2020-05-06T01:35:00Z'
+    ActualTime: '2020-05-06T01:35:00Z'
+    Gate:
+      Code: C34
+      Name: C34
+    Airport:
+      Code: YEG
+      Name: Edmonton
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '3140'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T02:50:17Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505WS4034D
+    ScheduledTime: '2020-05-06T00:07:00Z'
+    EstimatedTime: '2020-05-05T23:52:00Z'
+    ActualTime: '2020-05-05T23:44:00Z'
+    Gate:
+      Code: B40
+      Name: B40
+    Airport:
+      Code: YFI
+      Name: Firebag
+    Airline:
+      Code: WS
+      Name: WestJet
+    FlightNumber: '4034'
+    Leg: D
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-06T00:07:06Z'
+        ShortEnglishText: Departed
+        LongEnglishText: Departed
+        ShortFrenchText: Parti
+        LongFrenchText: Parti
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
+  - Id: 20200505AC145A
+    ScheduledTime: '2020-05-05T22:40:00Z'
+    EstimatedTime: '2020-05-05T21:49:00Z'
+    ActualTime: '2020-05-05T21:48:00Z'
+    Gate:
+      Code: C52
+      Name: C52
+    Airport:
+      Code: YYZ
+      Name: Toronto
+    Airline:
+      Code: AC
+      Name: Air Canada
+    FlightNumber: '145'
+    Leg: A
+    YycStatus:
+      PrimaryStatus:
+        Class: Default
+        EffectiveTime: '2020-05-05T22:49:05Z'
+        ShortEnglishText: Arrived
+        LongEnglishText: Arrived
+        ShortFrenchText: Arrivé
+        LongFrenchText: Arrivé
+        ShortOtherText: null
+        LongOtherText: null
+      SecondaryStatus: null
+      TertiaryStatus: null
+    Sector: D
