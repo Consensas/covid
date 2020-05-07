@@ -173,6 +173,8 @@ const _one = _.promise((self, done) => {
             case "":
                 break
 
+
+            case "closecontact":
             case "close contact":
                 sd.record.acquired_close_contact = true
                 sd.record.acquired_country = "CA"
