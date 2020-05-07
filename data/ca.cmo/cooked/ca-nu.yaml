@@ -323,14 +323,14 @@
     - '@id': 'urn:covid:consensas:cmo:ca-nu:2020-04-30'
       date: '2020-04-30'
       tests: 396
-      tests_positive: 1
+      tests_positive: 0
       tests_probable: 0
       deaths: 0
       recovered: 0
     - '@id': 'urn:covid:consensas:cmo:ca-nu:2020-05-01'
       date: '2020-05-01'
       tests: 421
-      tests_positive: 1
+      tests_positive: 0
       tests_probable: 0
       deaths: 0
       recovered: 0
@@ -358,6 +358,13 @@
     - '@id': 'urn:covid:consensas:cmo:ca-nu:2020-05-05'
       date: '2020-05-05'
       tests: 492
+      tests_positive: 0
+      tests_probable: 0
+      deaths: 0
+      recovered: 0
+    - '@id': 'urn:covid:consensas:cmo:ca-nu:2020-05-06'
+      date: '2020-05-06'
+      tests: 525
       tests_positive: 0
       tests_probable: 0
       deaths: 0
