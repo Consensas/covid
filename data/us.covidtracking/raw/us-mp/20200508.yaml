@@ -1,0 +1,27 @@
+state: MP
+dataQualityGrade: D
+positive: 15
+negative: 1783
+pending: null
+hospitalizedCurrently: null
+hospitalizedCumulative: null
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 12
+lastUpdateEt: '5/06 00:00'
+checkTimeEt: '5/07 14:23'
+death: 2
+hospitalized: null
+total: 1798
+totalTestResults: 1798
+posNeg: 1798
+fips: '69'
+dateModified: '2020-05-06T04:00:00Z'
+dateChecked: '2020-05-07T18:23:00Z'
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+hash: d190b16cda09bbdb211ac1747af4fba744be57bb
+date: 20200508
