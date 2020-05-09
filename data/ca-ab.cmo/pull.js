@@ -125,6 +125,19 @@ const _pull = _.promise((self, done) => {
                             sd.json.tests = row[4]
                         }
                     })
+                } else if (_.is.Equal(table[0], [ 'location', 'confirmed cases', 'active cases', 'recovered cases', 'in hospital', 'in intensive care', 'deaths', 'tests completed' ])) {
+                    table.forEach(row => {
+                        if (row[0] === "in alberta") {
+                            sd.json.tests_positive = row[1]
+                            sd.json.recovered = row[3]
+                            sd.json.patients_hospital_current = row[4]
+                            sd.json.patients_icu_current = row[5]
+                            sd.json.deaths = row[6]
+                            sd.json.tests = row[7]
+                        }
+                    })
+                } else if (ad.verbose) {
+                    console.log(table[0])
                 }
             }) 
 
