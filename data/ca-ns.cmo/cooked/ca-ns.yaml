@@ -598,3 +598,14 @@ items:
     tests_positive: 708
     tests_negative: 31581
     patients_hospital_current: 3
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-08'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-05-08'
+    tests: 32835
+    deaths: 2
+    tests_positive: 722
+    tests_negative: 32113
+    patients_hospital_current: 3
