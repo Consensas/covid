@@ -1,0 +1,33 @@
+state: NY
+positive: 330407
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 791136
+pending: null
+hospitalizedCurrently: 8196
+hospitalizedCumulative: 71679
+inIcuCurrently: 2811
+inIcuCumulative: null
+onVentilatorCurrently: 2295
+onVentilatorCumulative: null
+recovered: 56378
+lastUpdateEt: '5/08 00:00'
+checkTimeEt: '5/08 16:40'
+death: 21045
+hospitalized: 71679
+total: 1121543
+totalTestResults: 1121543
+posNeg: 1121543
+fips: '36'
+dateModified: '2020-05-08T04:00:00Z'
+dateChecked: '2020-05-08T20:40:00Z'
+hash: c83030b792feadcc614c013eb5c7ec807bd01202
+date: 20200509
