@@ -1,0 +1,10 @@
+total_cases_max: 261
+currently_hospitalized_max: 4
+currently_in_icu_max: 2
+total_deaths_max: 3
+total_recovered_max: 244
+total_tests_delivered_max: 9592
+date_of_update_max: 1588948200000
+date: '2020-05-08'
+url: >-
+  https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Latest_Covid19Prov_Stats/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&returnGeometry=false&outStatistics=%5B%7B%22onStatisticField%22%3A%22total_cases%22%2C%22outStatisticFieldName%22%3A%22total_cases_max%22%2C%22statisticType%22%3A%22max%22%7D%2C%7B%22onStatisticField%22%3A%22currently_hospitalized%22%2C%22outStatisticFieldName%22%3A%22currently_hospitalized_max%22%2C%22statisticType%22%3A%22max%22%7D%2C%7B%22onStatisticField%22%3A%22currently_in_icu%22%2C%22outStatisticFieldName%22%3A%22currently_in_icu_max%22%2C%22statisticType%22%3A%22max%22%7D%2C%7B%22onStatisticField%22%3A%22total_deaths%22%2C%22outStatisticFieldName%22%3A%22total_deaths_max%22%2C%22statisticType%22%3A%22max%22%7D%2C%7B%22onStatisticField%22%3A%22total_recovered%22%2C%22outStatisticFieldName%22%3A%22total_recovered_max%22%2C%22statisticType%22%3A%22max%22%7D%2C%7B%22onStatisticField%22%3A%22total_tests_delivered%22%2C%22outStatisticFieldName%22%3A%22total_tests_delivered_max%22%2C%22statisticType%22%3A%22max%22%7D%2C%7B%22onStatisticField%22%3A%22date_of_update%22%2C%22outStatisticFieldName%22%3A%22date_of_update_max%22%2C%22statisticType%22%3A%22max%22%7D%5D
