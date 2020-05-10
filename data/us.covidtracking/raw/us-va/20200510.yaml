@@ -1,0 +1,33 @@
+state: VA
+positive: 23196
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A+
+negative: 113953
+pending: 501
+hospitalizedCurrently: 1593
+hospitalizedCumulative: 4717
+inIcuCurrently: 367
+inIcuCumulative: null
+onVentilatorCurrently: 198
+onVentilatorCumulative: null
+recovered: 3124
+lastUpdateEt: '5/08 17:00'
+checkTimeEt: '5/09 15:07'
+death: 827
+hospitalized: 4717
+total: 137650
+totalTestResults: 137149
+posNeg: 137149
+fips: '51'
+dateModified: '2020-05-08T21:00:00Z'
+dateChecked: '2020-05-09T19:07:00Z'
+hash: 3a4d64f028d20f7a03552c63f3d4e13cac5b5f91
+date: 20200510
