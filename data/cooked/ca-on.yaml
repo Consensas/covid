@@ -1352,8 +1352,33 @@ items:
     patients_icu_current: 213
     patients_ventilated_current: 166
   - date: '2020-05-09'
-    deaths: 1726
-    tests_positive: 21148
+    deaths: 1599
+    tests_positive: 19944
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-09'
+    recovered: 14383
+    tests: 401069
+    tests_negative: 381125
+    tests_confirmed: 3962
+    tests_probable: null
+    tests_pending: 15307
+    tests_approved: 416376
+    patients_hospital_current: 1016
+    patients_icu_current: 203
+    patients_ventilated_current: 158
+  - date: '2020-05-10'
+    deaths: 1634
+    tests_positive: 20238
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-10'
+    recovered: 14772
+    tests: 419178
+    tests_negative: 398940
+    tests_confirmed: 3832
+    tests_probable: null
+    tests_pending: 14816
+    tests_approved: 433994
+    patients_hospital_current: 961
+    patients_icu_current: 195
+    patients_ventilated_current: 140
 state: 'ON'
 icu_hospitals: 84
 icu_beds: 1122
