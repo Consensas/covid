@@ -125,7 +125,7 @@ const _pull = _.promise((self, done) => {
                             sd.json.tests = row[4]
                         }
                     })
-                } else if (_.is.Equal(table[0], [ 'location', 'confirmed cases', 'active cases', 'recovered cases', 'in hospital', 'in intensive care', 'deaths', 'tests completed' ])) {
+                } else if (_.is.Equal(table[0], [ 'location', 'confirmed cases', 'active cases', 'recovered cases', 'in hospital', 'in intensive care', 'deaths', 'tests completed' ]) || _.is.Equal(table[0], [ 'location', 'confirmedcases', 'activecases', 'recoveredcases', 'inhospital', 'in intensivecare', 'deaths', 'testscompleted' ])) {
                     table.forEach(row => {
                         if (row[0] === "in alberta") {
                             sd.json.tests_positive = row[1]
