@@ -36,7 +36,7 @@ try {
     console.log("#", "use bin/google-token to get tokens first")
 }
 
-const googled = {
+const google$cfg = {
     credentials: credentials,
     token: token,
 }
@@ -50,7 +50,7 @@ const _pad = s => {
 }
 
 _.promise({
-    googled: googled,
+    google$cfg: google$cfg,
 })
     .then(google.initialize)
     .then(google.auth.token)

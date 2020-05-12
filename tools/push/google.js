@@ -41,7 +41,7 @@ const initialize = _.promise((self, done) => {
     _.promise(self)
         .validate(initialize)
 
-        .add("googled", {
+        .add("google$cfg", {
             credentials: credentials,
             token: token,
         })
