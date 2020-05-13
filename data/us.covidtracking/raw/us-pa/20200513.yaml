@@ -1,0 +1,33 @@
+state: PA
+positive: 57991
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: C
+negative: 237989
+pending: null
+hospitalizedCurrently: 2187
+hospitalizedCumulative: null
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: 497
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '5/12 12:00'
+checkTimeEt: '5/12 15:00'
+death: 3806
+hospitalized: null
+total: 295980
+totalTestResults: 295980
+posNeg: 295980
+fips: '42'
+dateModified: '2020-05-12T16:00:00Z'
+dateChecked: '2020-05-12T19:00:00Z'
+hash: cbdfd8449319a0af1d477f5caff86f7d8a5c01d0
+date: 20200513

@@ -1,0 +1,33 @@
+state: NH
+positive: 3160
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 0
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 32401
+pending: 54
+hospitalizedCurrently: 117
+hospitalizedCumulative: 318
+inIcuCurrently: null
+inIcuCumulative: 97
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 1231
+lastUpdateEt: '5/11 09:00'
+checkTimeEt: '5/12 15:22'
+death: 133
+hospitalized: 318
+total: 35615
+totalTestResults: 35561
+posNeg: 35561
+fips: '33'
+dateModified: '2020-05-11T13:00:00Z'
+dateChecked: '2020-05-12T19:22:00Z'
+hash: 668b838ba8813dc7414b3be490febf5b016dd476
+date: 20200513
