@@ -642,6 +642,18 @@ items:
     tests: 191330
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-05-12'
     active: 1349
+  - date: '2020-05-13'
+    deaths: 120
+    tests_positive: 6407
+  - date: '2020-05-14'
+    tests_positive: 2562
+    recovered: 1162
+    patients_hospital_current: 70
+    patients_icu_current: 11
+    deaths: 51
+    tests: 195402
+    '@id': 'urn:covid:consensas:cmo:ca-ab:2020-05-14'
+    active: 1349
 state: AB
 icu_hospitals: 16
 icu_beds: 292
