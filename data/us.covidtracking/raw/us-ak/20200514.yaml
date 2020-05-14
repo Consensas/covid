@@ -1,0 +1,33 @@
+state: AK
+positive: 383
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 30266
+pending: null
+hospitalizedCurrently: 12
+hospitalizedCumulative: null
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 338
+lastUpdateEt: '5/13 00:00'
+checkTimeEt: '5/13 16:08'
+death: 10
+hospitalized: null
+total: 30649
+totalTestResults: 30649
+posNeg: 30649
+fips: '02'
+dateModified: '2020-05-13T04:00:00Z'
+dateChecked: '2020-05-13T20:08:00Z'
+hash: 65fc900d3f18980bc2b5ce61bc063910f001f945
+date: 20200514

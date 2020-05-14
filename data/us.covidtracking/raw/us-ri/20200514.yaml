@@ -1,0 +1,33 @@
+state: RI
+positive: 11835
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 0
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A+
+negative: 86087
+pending: null
+hospitalizedCurrently: 269
+hospitalizedCumulative: 1328
+inIcuCurrently: 68
+inIcuCumulative: null
+onVentilatorCurrently: 48
+onVentilatorCumulative: null
+recovered: 886
+lastUpdateEt: '5/13 12:00'
+checkTimeEt: '5/13 16:32'
+death: 462
+hospitalized: 1328
+total: 97922
+totalTestResults: 97922
+posNeg: 97922
+fips: '44'
+dateModified: '2020-05-13T16:00:00Z'
+dateChecked: '2020-05-13T20:32:00Z'
+hash: c3689bc6d81da6275c1e69ec41acd655bfffbf84
+date: 20200514
