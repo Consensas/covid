@@ -653,3 +653,14 @@ items:
     tests_positive: 864
     tests_negative: 33340
     patients_hospital_current: 5
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-13'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-05-13'
+    tests: 34604
+    deaths: 3
+    tests_positive: 870
+    tests_negative: 33734
+    patients_hospital_current: 5
