@@ -240,10 +240,6 @@
   age_group: 60-69
 - reported_date: '2020-03-12'
   ha: Fraser
-  sex: F
-  age_group: 60-69
-- reported_date: '2020-03-12'
-  ha: Fraser
   sex: M
   age_group: 60-69
 - reported_date: '2020-03-12'
@@ -557,6 +553,10 @@
 - reported_date: '2020-03-16'
   ha: Fraser
   sex: M
+  age_group: 60-69
+- reported_date: '2020-03-16'
+  ha: Fraser
+  sex: F
   age_group: 60-69
 - reported_date: '2020-03-16'
   ha: Fraser
@@ -1605,18 +1605,6 @@
 - reported_date: '2020-03-21'
   ha: Fraser
   sex: M
-  age_group: 50-59
-- reported_date: '2020-03-21'
-  ha: Fraser
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-21'
-  ha: Fraser
-  sex: M
-  age_group: 70-79
-- reported_date: '2020-03-21'
-  ha: Fraser
-  sex: M
   age_group: 70-79
 - reported_date: '2020-03-21'
   ha: Fraser
@@ -1881,7 +1869,19 @@
 - reported_date: '2020-03-22'
   ha: Fraser
   sex: M
+  age_group: 70-79
+- reported_date: '2020-03-22'
+  ha: Fraser
+  sex: M
   age_group: 80-89
+- reported_date: '2020-03-22'
+  ha: Fraser
+  sex: M
+  age_group: 50-59
+- reported_date: '2020-03-22'
+  ha: Fraser
+  sex: M
+  age_group: 70-79
 - reported_date: '2020-03-22'
   ha: Fraser
   sex: M
@@ -8150,6 +8150,10 @@
   ha: Vancouver Island
   sex: M
   age_group: 10-19
+- reported_date: '2020-04-27'
+  ha: Vancouver Island
+  sex: M
+  age_group: 30-39
 - reported_date: '2020-04-27'
   ha: Northern
   sex: F
@@ -9032,11 +9036,11 @@
   age_group: 60-69
 - reported_date: '2020-05-05'
   ha: Northern
-  sex: F
+  sex: M
   age_group: 50-59
 - reported_date: '2020-05-05'
   ha: Northern
-  sex: M
+  sex: F
   age_group: 50-59
 - reported_date: '2020-05-05'
   ha: Vancouver Coastal
@@ -9424,10 +9428,6 @@
   age_group: 40-49
 - reported_date: '2020-05-11'
   ha: Fraser
-  sex: F
-  age_group: 80-89
-- reported_date: '2020-05-11'
-  ha: Fraser
   sex: M
   age_group: 70-79
 - reported_date: '2020-05-11'
@@ -9499,6 +9499,70 @@
   sex: F
   age_group: 60-69
 - reported_date: '2020-05-12'
+  ha: Vancouver Coastal
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: M
+  age_group: 89+
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: M
+  age_group: 40-49
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: F
+  age_group: 89+
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: M
+  age_group: 89+
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: M
+  age_group: 80-89
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: F
+  age_group: 80-89
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: F
+  age_group: 70-79
+- reported_date: '2020-05-13'
+  ha: Fraser
+  sex: F
+  age_group: 40-49
+- reported_date: '2020-05-13'
+  ha: Interior
+  sex: M
+  age_group: 70-79
+- reported_date: '2020-05-13'
+  ha: Northern
+  sex: F
+  age_group: 50-59
+- reported_date: '2020-05-13'
   ha: Vancouver Coastal
   sex: U
   age_group: Unknown
