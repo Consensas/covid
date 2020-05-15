@@ -1,0 +1,33 @@
+state: VT
+positive: 932
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 21573
+pending: null
+hospitalizedCurrently: 18
+hospitalizedCumulative: null
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 792
+lastUpdateEt: '5/14 00:00'
+checkTimeEt: '5/14 15:59'
+death: 53
+hospitalized: null
+total: 22505
+totalTestResults: 22505
+posNeg: 22505
+fips: '50'
+dateModified: '2020-05-14T04:00:00Z'
+dateChecked: '2020-05-14T19:59:00Z'
+hash: a6e07b04478e576f3ab6a81942f44232379243d7
+date: 20200515
