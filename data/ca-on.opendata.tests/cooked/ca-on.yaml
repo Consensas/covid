@@ -1382,12 +1382,40 @@ items:
     deaths: 1798
     recovered: 16204
     tests: 474909
-    tests_positive: 21494
-    tests_negative: 453415
-    tests_confirmed: 3492
+    tests_positive: 21581
+    tests_negative: 453328
+    tests_confirmed: 3579
     tests_probable: null
     tests_pending: 17578
     tests_approved: 492487
     patients_hospital_current: 1026
     patients_icu_current: 184
     patients_ventilated_current: 141
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-15'
+    date: '2020-05-15'
+    deaths: 1825
+    recovered: 16641
+    tests: 496468
+    tests_positive: 21922
+    tests_negative: 474546
+    tests_confirmed: 3456
+    tests_probable: null
+    tests_pending: 14373
+    tests_approved: 510841
+    patients_hospital_current: 986
+    patients_icu_current: 179
+    patients_ventilated_current: 135
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-16'
+    date: '2020-05-16'
+    deaths: 1858
+    recovered: 17020
+    tests: 518044
+    tests_positive: 22313
+    tests_negative: 495731
+    tests_confirmed: 3435
+    tests_probable: null
+    tests_pending: 10565
+    tests_approved: 528609
+    patients_hospital_current: 975
+    patients_icu_current: 180
+    patients_ventilated_current: 135
