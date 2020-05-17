@@ -1449,12 +1449,12 @@ items:
     patients_hospital_current: 986
     patients_icu_current: 179
     patients_ventilated_current: 135
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-16'
-    date: '2020-05-16'
+  - date: '2020-05-16'
     deaths: 1858
+    tests_positive: 22313
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-16'
     recovered: 17020
     tests: 518044
-    tests_positive: 22313
     tests_negative: 495731
     tests_confirmed: 3435
     tests_probable: null

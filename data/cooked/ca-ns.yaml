@@ -845,15 +845,15 @@ items:
     tests: 35375
     tests_negative: 34457
     patients_hospital_current: 4
-  - '@context': 'https://consensas.world/m/covid'
+  - date: '2020-05-16'
+    deaths: null
+    tests_positive: 930
+    '@context': 'https://consensas.world/m/covid'
     '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-16'
     region: NS
     country: CA
     key: ca-ns
-    date: '2020-05-16'
     tests: 35703
-    deaths: null
-    tests_positive: 930
     tests_negative: 34773
     patients_hospital_current: 4
 state: NS
