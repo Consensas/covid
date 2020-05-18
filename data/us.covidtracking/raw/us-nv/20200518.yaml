@@ -1,0 +1,33 @@
+state: NV
+positive: 6857
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 73780
+pending: null
+hospitalizedCurrently: 423
+hospitalizedCumulative: null
+inIcuCurrently: 105
+inIcuCumulative: null
+onVentilatorCurrently: 65
+onVentilatorCumulative: null
+recovered: 272
+lastUpdateEt: '5/17 11:00'
+checkTimeEt: '5/17 17:03'
+death: 349
+hospitalized: null
+total: 80637
+totalTestResults: 80637
+posNeg: 80637
+fips: '32'
+dateModified: '2020-05-17T15:00:00Z'
+dateChecked: '2020-05-17T21:03:00Z'
+hash: b6d62b097ea324c9d9a51e6df7752353012dc872
+date: 20200518

@@ -1,0 +1,33 @@
+state: KS
+positive: 7886
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 0
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A
+negative: 53706
+pending: null
+hospitalizedCurrently: null
+hospitalizedCumulative: 724
+inIcuCurrently: null
+inIcuCumulative: 246
+onVentilatorCurrently: null
+onVentilatorCumulative: 112
+recovered: 443
+lastUpdateEt: '5/15 10:00'
+checkTimeEt: '5/17 16:33'
+death: 172
+hospitalized: 724
+total: 61592
+totalTestResults: 61592
+posNeg: 61592
+fips: '20'
+dateModified: '2020-05-15T14:00:00Z'
+dateChecked: '2020-05-17T20:33:00Z'
+hash: bb83ea09263f9b4d037ced5ec15447936066d351
+date: 20200518

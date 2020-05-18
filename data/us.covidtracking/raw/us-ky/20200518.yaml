@@ -1,0 +1,33 @@
+state: KY
+positive: 7688
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A+
+negative: 121997
+pending: null
+hospitalizedCurrently: 381
+hospitalizedCumulative: 1896
+inIcuCurrently: 218
+inIcuCumulative: 797
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 2768
+lastUpdateEt: '5/16 17:19'
+checkTimeEt: '5/17 17:34'
+death: 334
+hospitalized: 1896
+total: 129685
+totalTestResults: 129685
+posNeg: 129685
+fips: '21'
+dateModified: '2020-05-16T21:19:00Z'
+dateChecked: '2020-05-17T21:34:00Z'
+hash: a1520bf6708525f0f0cce48f8529e15ea3e14883
+date: 20200518
