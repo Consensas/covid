@@ -88,13 +88,13 @@
       tests: 5880
       tests_positive: 74
       tests_probable: 0
-      deaths: 0
+      deaths: 1
     - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-19'
       date: '2020-03-19'
       tests: 6757
       tests_positive: 121
       tests_probable: 0
-      deaths: 0
+      deaths: 1
     - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-03-20'
       date: '2020-03-20'
       tests: 8539
@@ -489,3 +489,10 @@
       tests_probable: 0
       deaths: 3562
       recovered: 11754
+    - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-05-18'
+      date: '2020-05-18'
+      tests: 335232
+      tests_positive: 43627
+      tests_probable: 0
+      deaths: 3596
+      recovered: 12045

@@ -69,7 +69,7 @@
       tests: 16507
       tests_positive: 146
       tests_probable: 0
-      deaths: 0
+      deaths: 1
     - '@id': 'urn:covid:consensas:cmo:ca-ab:2020-03-20'
       date: '2020-03-20'
       tests: 19782
@@ -464,3 +464,10 @@
       tests_probable: 0
       deaths: 127
       recovered: 5453
+    - '@id': 'urn:covid:consensas:cmo:ca-ab:2020-05-18'
+      date: '2020-05-18'
+      tests: 199237
+      tests_positive: 6683
+      tests_probable: 0
+      deaths: 128
+      recovered: 5519

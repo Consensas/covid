@@ -79,72 +79,72 @@
       date: '2020-03-08'
       tests_positive: 62
       tests_probable: 0
-      deaths: 0
+      deaths: 1
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-09'
       date: '2020-03-09'
       tests_positive: 77
       tests_probable: 0
-      deaths: 0
+      deaths: 1
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-11'
       date: '2020-03-11'
       tests: 11023
       tests_positive: 103
       tests_probable: 0
-      deaths: 0
+      deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-12'
       date: '2020-03-12'
       tests: 15185
       tests_positive: 138
       tests_probable: 3
-      deaths: 0
+      deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-13'
       date: '2020-03-13'
       tests: 15185
       tests_positive: 176
       tests_probable: 3
-      deaths: 0
+      deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-14'
       date: '2020-03-14'
       tests: 22409
       tests_positive: 193
       tests_probable: 6
-      deaths: 0
+      deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-15'
       date: '2020-03-15'
       tests: 24977
       tests_positive: 249
       tests_probable: 4
-      deaths: 0
+      deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-16'
       date: '2020-03-16'
       tests: 37730
       tests_positive: 324
       tests_probable: 17
-      deaths: 0
+      deaths: 5
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-17'
       date: '2020-03-17'
       tests: 44176
       tests_positive: 424
       tests_probable: 16
-      deaths: 0
+      deaths: 8
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-18'
       date: '2020-03-18'
       tests: 53546
       tests_positive: 569
       tests_probable: 28
-      deaths: 0
+      deaths: 9
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-19'
       date: '2020-03-19'
       tests: 54956
       tests_positive: 846
       tests_probable: 27
-      deaths: 0
+      deaths: 12
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-20'
       date: '2020-03-20'
       tests: 76814
       tests_positive: 971
       tests_probable: 33
-      deaths: 12
+      deaths: 13
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-21'
       date: '2020-03-21'
       tests: 88883
@@ -533,3 +533,10 @@
       tests_probable: 11
       deaths: 5782
       recovered: 38550
+    - '@id': 'urn:covid:consensas:cmo:ca:2020-05-18'
+      date: '2020-05-18'
+      tests: 1323371
+      tests_positive: 78061
+      tests_probable: 11
+      deaths: 5842
+      recovered: 39238

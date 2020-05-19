@@ -23,7 +23,7 @@
       tests: 29
       tests_positive: 2
       tests_probable: 0
-      deaths: 0
+      deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca-xxtr:2020-03-14'
       date: '2020-03-14'
       tests: 29
@@ -382,6 +382,11 @@
       tests_probable: 0
     - '@id': 'urn:covid:consensas:cmo:ca-xxtr:2020-05-17'
       date: '2020-05-17'
+      tests: 76
+      tests_positive: 13
+      tests_probable: 0
+    - '@id': 'urn:covid:consensas:cmo:ca-xxtr:2020-05-18'
+      date: '2020-05-18'
       tests: 76
       tests_positive: 13
       tests_probable: 0
