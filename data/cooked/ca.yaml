@@ -617,7 +617,7 @@ items:
     recovered: 36091
     '@id': 'urn:covid:consensas:cmo:ca:2020-05-14'
     tests: 1203512
-    tests_positive: 73390
+    tests_positive: 73477
     tests_probable: 11
     deaths: 5472
   - date: '2020-05-15'
@@ -648,5 +648,12 @@ items:
     tests_positive: 78061
     tests_probable: 11
     deaths: 5842
+  - date: '2020-05-19'
+    recovered: 40050
+    '@id': 'urn:covid:consensas:cmo:ca:2020-05-19'
+    tests: 1339895
+    tests_positive: 79101
+    tests_probable: 11
+    deaths: 5912
 source: >-
   https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
