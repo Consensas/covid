@@ -1,0 +1,33 @@
+state: ND
+positive: 1994
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 0
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: C
+negative: 55737
+pending: null
+hospitalizedCurrently: 32
+hospitalizedCumulative: 135
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 1269
+lastUpdateEt: '5/19 13:00'
+checkTimeEt: '5/19 14:47'
+death: 45
+hospitalized: 135
+total: 57731
+totalTestResults: 57731
+posNeg: 57731
+fips: '38'
+dateModified: '2020-05-19T17:00:00Z'
+dateChecked: '2020-05-19T18:47:00Z'
+hash: cb3958e972db8fc85c4faa7f808ac833cf145fcb
+date: 20200520

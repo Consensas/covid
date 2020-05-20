@@ -1,0 +1,33 @@
+state: WI
+positive: 12885
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A+
+negative: 148237
+pending: 211
+hospitalizedCurrently: 609
+hospitalizedCumulative: 2110
+inIcuCurrently: 129
+inIcuCumulative: 503
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 7371
+lastUpdateEt: '5/19 00:00'
+checkTimeEt: '5/19 16:24'
+death: 467
+hospitalized: 2110
+total: 161333
+totalTestResults: 161122
+posNeg: 161122
+fips: '55'
+dateModified: '2020-05-19T04:00:00Z'
+dateChecked: '2020-05-19T20:24:00Z'
+hash: 04c587fe2a886fb6414cc9130296a61a7da0618f
+date: 20200520
