@@ -587,17 +587,22 @@ items:
     tests: 123926
   - date: '2020-05-18'
     deaths: 143
-    tests_positive: 2444
+    tests_positive: 2445
     '@id': 'urn:covid:consensas:cmo:ca-bc:2020-05-18'
     tests: 125069
   - date: '2020-05-19'
     deaths: 146
-    tests_positive: 2449
+    tests_positive: 2450
     '@id': 'urn:covid:consensas:cmo:ca-bc:2020-05-19'
     tests: 126236
   - date: '2020-05-20'
     deaths: 149
     tests_positive: 2467
+    '@id': 'urn:covid:consensas:cmo:ca-bc:2020-05-20'
+    tests: 127786
+  - date: '2020-05-21'
+    deaths: 152
+    tests_positive: 2479
 state: BC
 icu_hospitals: 34
 icu_beds: 304
