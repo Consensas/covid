@@ -741,3 +741,14 @@ items:
     tests_positive: 956
     tests_negative: 35700
     patients_hospital_current: 4
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-21'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-05-21'
+    tests: 37078
+    deaths: 1
+    tests_positive: 959
+    tests_negative: 36119
+    patients_hospital_current: 5
