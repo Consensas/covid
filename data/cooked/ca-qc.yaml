@@ -663,6 +663,15 @@ items:
     tests_positive: 45495
     '@id': 'urn:covid:consensas:cmo:ca-qc:2020-05-21'
     tests: 45495
+  - date: '2020-05-22'
+    deaths: 3866
+    tests_positive: 46141
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-05-22'
+    tests: 46141
+  - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-05-23'
+    date: '2020-05-23'
+    tests_positive: 46838
+    tests: 46838
 state: QC
 icu_hospitals: 87
 icu_beds: 885
