@@ -1489,3 +1489,31 @@ items:
     patients_hospital_current: 984
     patients_icu_current: 155
     patients_ventilated_current: 117
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-22'
+    date: '2020-05-22'
+    deaths: 2021
+    recovered: 18767
+    tests: 583442
+    tests_positive: 24628
+    tests_negative: 558814
+    tests_confirmed: 3840
+    tests_probable: null
+    tests_pending: 5516
+    tests_approved: 588958
+    patients_hospital_current: 961
+    patients_icu_current: 153
+    patients_ventilated_current: 120
+  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-23'
+    date: '2020-05-23'
+    deaths: 2048
+    recovered: 19146
+    tests: 594115
+    tests_positive: 25040
+    tests_negative: 569075
+    tests_confirmed: 3846
+    tests_probable: null
+    tests_pending: 5871
+    tests_approved: 599986
+    patients_hospital_current: 912
+    patients_icu_current: 147
+    patients_ventilated_current: 119
