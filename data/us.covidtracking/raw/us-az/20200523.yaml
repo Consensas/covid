@@ -1,0 +1,33 @@
+state: AZ
+positive: 15608
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 0
+commercialScore: 1
+grade: B
+score: 3
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A+
+negative: 160395
+pending: null
+hospitalizedCurrently: 796
+hospitalizedCumulative: 1879
+inIcuCurrently: 311
+inIcuCumulative: null
+onVentilatorCurrently: 203
+onVentilatorCumulative: null
+recovered: 3949
+lastUpdateEt: '5/22 00:00'
+checkTimeEt: '5/22 16:02'
+death: 775
+hospitalized: 1879
+total: 176003
+totalTestResults: 176003
+posNeg: 176003
+fips: '04'
+dateModified: '2020-05-22T04:00:00Z'
+dateChecked: '2020-05-22T20:02:00Z'
+hash: 1dabcddcd1f7a8797bdde2797f043d1ba05cf83e
+date: 20200523
