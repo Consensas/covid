@@ -668,9 +668,10 @@ items:
     tests_positive: 46141
     '@id': 'urn:covid:consensas:cmo:ca-qc:2020-05-22'
     tests: 46141
-  - '@id': 'urn:covid:consensas:cmo:ca-qc:2020-05-23'
-    date: '2020-05-23'
+  - date: '2020-05-23'
+    deaths: 3941
     tests_positive: 46838
+    '@id': 'urn:covid:consensas:cmo:ca-qc:2020-05-23'
     tests: 46838
 state: QC
 icu_hospitals: 87

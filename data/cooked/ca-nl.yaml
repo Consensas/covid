@@ -727,10 +727,10 @@ items:
   - date: '2020-05-22'
     deaths: 3
     tests_positive: 260
-  - '@id': 'urn:covid:consensas:cmo:ca-nl:2020-05-23'
-    date: '2020-05-23'
-    tests_positive: 260
+  - date: '2020-05-23'
     deaths: 3
+    tests_positive: 260
+    '@id': 'urn:covid:consensas:cmo:ca-nl:2020-05-23'
     recovered: 254
     tests: 11208
     patients_hospital_current: 3

@@ -1547,12 +1547,12 @@ items:
     patients_hospital_current: 961
     patients_icu_current: 153
     patients_ventilated_current: 120
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-23'
-    date: '2020-05-23'
+  - date: '2020-05-23'
     deaths: 2048
+    tests_positive: 25040
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-05-23'
     recovered: 19146
     tests: 594115
-    tests_positive: 25040
     tests_negative: 569075
     tests_confirmed: 3846
     tests_probable: null
