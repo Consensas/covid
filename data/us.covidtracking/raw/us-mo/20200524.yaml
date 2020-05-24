@@ -1,0 +1,33 @@
+state: MO
+positive: 11752
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 136552
+pending: null
+hospitalizedCurrently: 742
+hospitalizedCumulative: null
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: 94
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '5/23 15:00'
+checkTimeEt: '5/23 17:37'
+death: 676
+hospitalized: null
+total: 148304
+totalTestResults: 148304
+posNeg: 148304
+fips: '29'
+dateModified: '2020-05-23T19:00:00Z'
+dateChecked: '2020-05-23T21:37:00Z'
+hash: c765ea65088272d3366f33c615ed22d4283e4a95
+date: 20200524

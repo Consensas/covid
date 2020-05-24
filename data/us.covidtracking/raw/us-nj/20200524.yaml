@@ -1,0 +1,33 @@
+state: NJ
+positive: 153104
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A+
+negative: 425631
+pending: null
+hospitalizedCurrently: 2974
+hospitalizedCumulative: null
+inIcuCurrently: 806
+inIcuCumulative: null
+onVentilatorCurrently: 611
+onVentilatorCumulative: null
+recovered: 24762
+lastUpdateEt: '5/23 13:00'
+checkTimeEt: '5/23 15:20'
+death: 11081
+hospitalized: null
+total: 578735
+totalTestResults: 578735
+posNeg: 578735
+fips: '34'
+dateModified: '2020-05-23T17:00:00Z'
+dateChecked: '2020-05-23T19:20:00Z'
+hash: 3201fcef2d50fca9b61249a309498b7f452f8a36
+date: 20200524
