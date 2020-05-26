@@ -944,6 +944,17 @@ items:
     tests: 38055
     tests_negative: 37082
     patients_hospital_current: 3
+  - date: '2020-05-25'
+    deaths: null
+    tests_positive: 974
+    '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-25'
+    region: NS
+    country: CA
+    key: ca-ns
+    tests: 38458
+    tests_negative: 37484
+    patients_hospital_current: 3
 state: NS
 icu_hospitals: 14
 icu_beds: 141

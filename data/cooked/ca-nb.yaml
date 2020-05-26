@@ -704,6 +704,15 @@ items:
     patients_hospital_current: 0
     patients_icu_current: 0
     tests_negative: 22180
+  - date: '2020-05-25'
+    deaths: 0
+    tests_positive: 121
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-05-25'
+    tests: 22572
+    recovered: 120
+    patients_hospital_current: 0
+    patients_icu_current: 0
+    tests_negative: 22451
 state: NB
 icu_hospitals: 9
 icu_beds: 103
