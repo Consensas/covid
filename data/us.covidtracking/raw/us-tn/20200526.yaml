@@ -1,0 +1,33 @@
+state: TN
+positive: 20607
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 375612
+pending: null
+hospitalizedCurrently: null
+hospitalizedCumulative: 1594
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 13073
+lastUpdateEt: '5/25 15:00'
+checkTimeEt: '5/25 16:07'
+death: 338
+hospitalized: 1594
+total: 396219
+totalTestResults: 396219
+posNeg: 396219
+fips: '47'
+dateModified: '2020-05-25T19:00:00Z'
+dateChecked: '2020-05-25T20:07:00Z'
+hash: 9cf287343dc4115b0fe9315461db434783cbd152
+date: 20200526
