@@ -169,14 +169,14 @@ items:
     recovered: 8
     '@id': 'urn:covid:consensas:cmo:ca:2020-03-11'
     tests: 11023
-    tests_positive: 103
+    tests_positive: 50
     tests_probable: 0
     deaths: 2
   - date: '2020-03-12'
     recovered: 8
     '@id': 'urn:covid:consensas:cmo:ca:2020-03-12'
     tests: 15185
-    tests_positive: 138
+    tests_positive: 137
     tests_probable: 3
     deaths: 2
   - date: '2020-03-13'
@@ -697,5 +697,12 @@ items:
     tests_positive: 85700
     tests_probable: 11
     deaths: 6545
+  - date: '2020-05-26'
+    recovered: 45352
+    '@id': 'urn:covid:consensas:cmo:ca:2020-05-26'
+    tests: 1502914
+    tests_positive: 86636
+    tests_probable: 11
+    deaths: 6639
 source: >-
   https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
