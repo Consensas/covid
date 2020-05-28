@@ -105,6 +105,10 @@ const _pull = _.promise((self, done) => {
                     return
                 }
 
+                if (ad.verbose) {
+                    console.log("-", "table", table[0])
+                }
+
                 if (_.is.Equal(table[0], [
                     'region',
                     'of patients with tests ordered',
