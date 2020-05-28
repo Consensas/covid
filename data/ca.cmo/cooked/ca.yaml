@@ -88,13 +88,13 @@
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-11'
       date: '2020-03-11'
       tests: 11023
-      tests_positive: 50
+      tests_positive: 103
       tests_probable: 0
       deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-12'
       date: '2020-03-12'
       tests: 15185
-      tests_positive: 137
+      tests_positive: 138
       tests_probable: 3
       deaths: 2
     - '@id': 'urn:covid:consensas:cmo:ca:2020-03-13'
@@ -596,3 +596,10 @@
       tests_probable: 11
       deaths: 6639
       recovered: 45352
+    - '@id': 'urn:covid:consensas:cmo:ca:2020-05-27'
+      date: '2020-05-27'
+      tests: 1530855
+      tests_positive: 87508
+      tests_probable: 11
+      deaths: 6765
+      recovered: 46177
