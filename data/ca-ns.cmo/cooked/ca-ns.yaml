@@ -804,6 +804,17 @@ items:
     date: '2020-05-26'
     tests: 38999
     deaths: 1
-    tests_positive: 976
-    tests_negative: 38023
+    tests_positive: 975
+    tests_negative: 38024
+    patients_hospital_current: 4
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-27'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-05-27'
+    tests: 39441
+    deaths: null
+    tests_positive: 975
+    tests_negative: 38466
     patients_hospital_current: 4
