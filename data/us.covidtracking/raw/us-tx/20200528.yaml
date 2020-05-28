@@ -1,0 +1,33 @@
+state: TX
+positive: 57921
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 797753
+pending: null
+hospitalizedCurrently: 1645
+hospitalizedCumulative: null
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: 37626
+lastUpdateEt: '5/27 16:40'
+checkTimeEt: '5/27 17:05'
+death: 1562
+hospitalized: null
+total: 855674
+totalTestResults: 855674
+posNeg: 855674
+fips: '48'
+dateModified: '2020-05-27T20:40:00Z'
+dateChecked: '2020-05-27T21:05:00Z'
+hash: b9d6bd1625680580874a3aa4617a066147119f54
+date: 20200528

@@ -1,0 +1,33 @@
+state: FL
+positive: 52634
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: A
+negative: 880937
+pending: 955
+hospitalizedCurrently: null
+hospitalizedCumulative: 9899
+inIcuCurrently: null
+inIcuCumulative: null
+onVentilatorCurrently: null
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '5/27 10:13'
+checkTimeEt: '5/27 17:26'
+death: 2400
+hospitalized: 9899
+total: 934526
+totalTestResults: 933571
+posNeg: 933571
+fips: '12'
+dateModified: '2020-05-27T14:13:00Z'
+dateChecked: '2020-05-27T21:26:00Z'
+hash: 20ae9196e6abea993854d406423ee8bdd295fe02
+date: 20200528
