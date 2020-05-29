@@ -977,6 +977,17 @@ items:
     tests: 39441
     tests_negative: 38466
     patients_hospital_current: 4
+  - date: '2020-05-28'
+    deaths: null
+    tests_positive: 977
+    '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-28'
+    region: NS
+    country: CA
+    key: ca-ns
+    tests: 40240
+    tests_negative: 39263
+    patients_hospital_current: 5
 state: NS
 icu_hospitals: 14
 icu_beds: 141
