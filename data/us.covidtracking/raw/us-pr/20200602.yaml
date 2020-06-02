@@ -1,0 +1,33 @@
+state: PR
+positive: 3873
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: null
+pending: null
+hospitalizedCurrently: 99
+hospitalizedCumulative: null
+inIcuCurrently: 9
+inIcuCumulative: null
+onVentilatorCurrently: 4
+onVentilatorCumulative: null
+recovered: null
+lastUpdateEt: '6/01 02:51'
+checkTimeEt: '6/01 15:34'
+death: 136
+hospitalized: null
+total: 3873
+totalTestResults: 3873
+posNeg: 3873
+fips: '72'
+dateModified: '2020-06-01T06:51:00Z'
+dateChecked: '2020-06-01T19:34:00Z'
+hash: 77a1ec33b3791268d16b78e5cd4a4dae0727e00e
+date: 20200602

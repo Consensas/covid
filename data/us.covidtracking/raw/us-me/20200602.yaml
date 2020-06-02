@@ -1,0 +1,33 @@
+state: ME
+positive: 2349
+positiveScore: 1
+negativeScore: 1
+negativeRegularScore: 1
+commercialScore: 1
+grade: A
+score: 4
+notes: >-
+  Please stop using the "total" field. Use "totalTestResults" instead. As of
+  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
+dataQualityGrade: B
+negative: 47284
+pending: null
+hospitalizedCurrently: 52
+hospitalizedCumulative: 284
+inIcuCurrently: 17
+inIcuCumulative: null
+onVentilatorCurrently: 10
+onVentilatorCumulative: null
+recovered: 1586
+lastUpdateEt: '5/31 23:59'
+checkTimeEt: '6/01 17:14'
+death: 89
+hospitalized: 284
+total: 49633
+totalTestResults: 49633
+posNeg: 49633
+fips: '23'
+dateModified: '2020-06-01T03:59:00Z'
+dateChecked: '2020-06-01T21:14:00Z'
+hash: 21a6eb111cd9501d553459df83db4bf4cc61ae9e
+date: 20200602
