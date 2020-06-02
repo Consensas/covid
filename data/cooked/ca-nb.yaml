@@ -749,6 +749,15 @@ items:
   - date: '2020-05-31'
     deaths: 0
     tests_positive: 132
+  - date: '2020-06-01'
+    deaths: 0
+    tests_positive: 132
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-06-01'
+    tests: 28462
+    recovered: 120
+    patients_hospital_current: 4
+    patients_icu_current: 1
+    tests_negative: 28330
 state: NB
 icu_hospitals: 9
 icu_beds: 103
