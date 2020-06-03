@@ -1,33 +1,35 @@
-state: RI
-positive: 14991
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 0
-grade: B
-score: 3
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A+
-negative: 141844
-pending: null
-hospitalizedCurrently: 195
-hospitalizedCumulative: 1724
-inIcuCurrently: 46
-inIcuCumulative: null
-onVentilatorCurrently: 29
-onVentilatorCumulative: null
-recovered: 1281
-lastUpdateEt: '6/01 12:00'
-checkTimeEt: '6/01 15:39'
-death: 720
-hospitalized: 1724
-total: 156835
-totalTestResults: 156835
-posNeg: 156835
-fips: '44'
-dateModified: '2020-06-01T16:00:00Z'
-dateChecked: '2020-06-01T19:39:00Z'
-hash: 6b9304f352cad4252a5e8768ca9e7d8e2ace955d
 date: 20200602
+state: RI
+positive: 15112
+negative: 144448
+pending: null
+hospitalizedCurrently: 188
+hospitalizedCumulative: 1743
+inIcuCurrently: 48
+inIcuCumulative: null
+onVentilatorCurrently: 31
+onVentilatorCumulative: null
+recovered: 1302
+dataQualityGrade: A+
+lastUpdateEt: '6/2/2020 12:00'
+dateModified: '2020-06-02T12:00:00Z'
+checkTimeEt: '06/02 08:00'
+death: 732
+hospitalized: 1743
+dateChecked: '2020-06-02T12:00:00Z'
+fips: '44'
+positiveIncrease: 121
+negativeIncrease: 2604
+total: 159560
+totalTestResults: 159560
+totalTestResultsIncrease: 2725
+posNeg: 159560
+deathIncrease: 12
+hospitalizedIncrease: 19
+hash: 8f81a3083e50f9fc3c1806381bd03530fb39b2c5
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

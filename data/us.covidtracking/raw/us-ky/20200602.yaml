@@ -1,33 +1,35 @@
+date: 20200602
 state: KY
-positive: 10046
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 1
-grade: A
-score: 4
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A
-negative: 206000
+positive: 10185
+negative: 217086
 pending: null
-hospitalizedCurrently: 457
-hospitalizedCumulative: 2274
-inIcuCurrently: 90
-inIcuCumulative: 940
+hospitalizedCurrently: 481
+hospitalizedCumulative: 2307
+inIcuCurrently: 85
+inIcuCumulative: 941
 onVentilatorCurrently: null
 onVentilatorCumulative: null
-recovered: 3232
-lastUpdateEt: '6/01 17:00'
-checkTimeEt: '6/01 17:11'
-death: 439
-hospitalized: 2274
-total: 216046
-totalTestResults: 216046
-posNeg: 216046
+recovered: 3275
+dataQualityGrade: A
+lastUpdateEt: '6/2/2020 00:00'
+dateModified: '2020-06-02T00:00:00Z'
+checkTimeEt: '06/01 20:00'
+death: 442
+hospitalized: 2307
+dateChecked: '2020-06-02T00:00:00Z'
 fips: '21'
-dateModified: '2020-06-01T21:00:00Z'
-dateChecked: '2020-06-01T21:11:00Z'
-hash: d250a0d891bc33edb2e671a9cb38972427bc8517
-date: 20200602
+positiveIncrease: 139
+negativeIncrease: 11086
+total: 227271
+totalTestResults: 227271
+totalTestResultsIncrease: 11225
+posNeg: 227271
+deathIncrease: 3
+hospitalizedIncrease: 33
+hash: 7af84faf6560eeb39c68ce6aafae368632308e47
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

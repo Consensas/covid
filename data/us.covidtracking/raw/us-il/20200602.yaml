@@ -1,33 +1,35 @@
+date: 20200602
 state: IL
-positive: 121234
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 1
-grade: A
-score: 4
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A
-negative: 797039
+positive: 122848
+negative: 811856
 pending: null
-hospitalizedCurrently: 3215
+hospitalizedCurrently: 3238
 hospitalizedCumulative: null
-inIcuCurrently: 902
+inIcuCurrently: 874
 inIcuCumulative: null
-onVentilatorCurrently: 547
+onVentilatorCurrently: 548
 onVentilatorCumulative: null
 recovered: null
-lastUpdateEt: '6/01 00:59'
-checkTimeEt: '6/01 16:57'
-death: 5412
+dataQualityGrade: A
+lastUpdateEt: '6/2/2020 00:00'
+dateModified: '2020-06-02T00:00:00Z'
+checkTimeEt: '06/01 20:00'
+death: 5525
 hospitalized: null
-total: 918273
-totalTestResults: 918273
-posNeg: 918273
+dateChecked: '2020-06-02T00:00:00Z'
 fips: '17'
-dateModified: '2020-06-01T04:59:00Z'
-dateChecked: '2020-06-01T20:57:00Z'
-hash: 3c1eb4780e8c37a755997b136e3bb62a0744835e
-date: 20200602
+positiveIncrease: 1614
+negativeIncrease: 14817
+total: 934704
+totalTestResults: 934704
+totalTestResultsIncrease: 16431
+posNeg: 934704
+deathIncrease: 113
+hospitalizedIncrease: 0
+hash: a22a989313150f67fe5df7d7fb35635ad9bff181
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

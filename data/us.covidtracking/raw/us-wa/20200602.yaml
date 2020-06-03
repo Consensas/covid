@@ -1,33 +1,35 @@
+date: 20200602
 state: WA
-positive: 21702
-positiveScore: 0
-negativeScore: 1
-negativeRegularScore: 0
-commercialScore: 1
-grade: C
-score: 2
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: B
-negative: 339197
+positive: 21977
+negative: 343295
 pending: null
-hospitalizedCurrently: 245
-hospitalizedCumulative: 3501
+hospitalizedCurrently: 232
+hospitalizedCumulative: 3517
 inIcuCurrently: null
 inIcuCumulative: null
-onVentilatorCurrently: 52
+onVentilatorCurrently: 48
 onVentilatorCumulative: null
 recovered: null
-lastUpdateEt: '5/31 02:59'
-checkTimeEt: '6/01 17:24'
-death: 1118
-hospitalized: 3501
-total: 360899
-totalTestResults: 360899
-posNeg: 360899
+dataQualityGrade: B
+lastUpdateEt: '6/2/2020 02:59'
+dateModified: '2020-06-02T02:59:00Z'
+checkTimeEt: '06/01 22:59'
+death: 1124
+hospitalized: 3517
+dateChecked: '2020-06-02T02:59:00Z'
 fips: '53'
-dateModified: '2020-05-31T06:59:00Z'
-dateChecked: '2020-06-01T21:24:00Z'
-hash: 16872efb989cfd40e0b796639b9d9281aac6d3eb
-date: 20200602
+positiveIncrease: 275
+negativeIncrease: 4098
+total: 365272
+totalTestResults: 365272
+totalTestResultsIncrease: 4373
+posNeg: 365272
+deathIncrease: 6
+hospitalizedIncrease: 16
+hash: 9167e1968ffde08bc2df02d7120293f350d8983b
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

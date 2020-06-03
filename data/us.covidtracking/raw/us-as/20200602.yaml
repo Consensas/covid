@@ -1,5 +1,5 @@
+date: 20200602
 state: AS
-dataQualityGrade: C
 positive: 0
 negative: 174
 pending: null
@@ -10,18 +10,26 @@ inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-lastUpdateEt: '5/29 00:00'
-checkTimeEt: '6/01 16:45'
+dataQualityGrade: C
+lastUpdateEt: '5/29/2020 00:00'
+dateModified: '2020-05-29T00:00:00Z'
+checkTimeEt: '05/28 20:00'
 death: 0
 hospitalized: null
+dateChecked: '2020-05-29T00:00:00Z'
+fips: '60'
+positiveIncrease: 0
+negativeIncrease: 0
 total: 174
 totalTestResults: 174
+totalTestResultsIncrease: 0
 posNeg: 174
-fips: '60'
-dateModified: '2020-05-29T04:00:00Z'
-dateChecked: '2020-06-01T20:45:00Z'
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-hash: 084ce9915c0dd4dc7ea694261550abc8d20cfc3f
-date: 20200602
+deathIncrease: 0
+hospitalizedIncrease: 0
+hash: cccae3dfdebc5c6a2b53fdb498e0fbce6aec0120
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

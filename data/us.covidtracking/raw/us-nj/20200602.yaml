@@ -1,33 +1,35 @@
-state: NJ
-positive: 160918
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 1
-grade: A
-score: 4
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A+
-negative: 634682
-pending: null
-hospitalizedCurrently: 2466
-hospitalizedCumulative: 17222
-inIcuCurrently: 646
-inIcuCumulative: null
-onVentilatorCurrently: 459
-onVentilatorCumulative: null
-recovered: 26703
-lastUpdateEt: '6/01 13:00'
-checkTimeEt: '6/01 17:23'
-death: 11721
-hospitalized: 17222
-total: 795600
-totalTestResults: 795600
-posNeg: 795600
-fips: '34'
-dateModified: '2020-06-01T17:00:00Z'
-dateChecked: '2020-06-01T21:23:00Z'
-hash: 2e9f887e83e42e5824cf8c03f09db6d0cca84e66
 date: 20200602
+state: NJ
+positive: 161545
+negative: 656132
+pending: null
+hospitalizedCurrently: 2370
+hospitalizedCumulative: 17390
+inIcuCurrently: 639
+inIcuCumulative: null
+onVentilatorCurrently: 480
+onVentilatorCumulative: null
+recovered: 26815
+dataQualityGrade: A+
+lastUpdateEt: '6/2/2020 13:00'
+dateModified: '2020-06-02T13:00:00Z'
+checkTimeEt: '06/02 09:00'
+death: 11770
+hospitalized: 17390
+dateChecked: '2020-06-02T13:00:00Z'
+fips: '34'
+positiveIncrease: 627
+negativeIncrease: 21450
+total: 817677
+totalTestResults: 817677
+totalTestResultsIncrease: 22077
+posNeg: 817677
+deathIncrease: 49
+hospitalizedIncrease: 168
+hash: af4e46b714748139f5efd3686da8619d3ae279fb
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

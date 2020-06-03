@@ -1,33 +1,35 @@
+date: 20200602
 state: FL
-positive: 56830
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 1
-grade: A
-score: 4
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A
-negative: 983570
-pending: 1160
+positive: 57447
+negative: 992305
+pending: 1206
 hospitalizedCurrently: null
-hospitalizedCumulative: 10494
+hospitalizedCumulative: 10678
 inIcuCurrently: null
 inIcuCumulative: null
 onVentilatorCurrently: null
 onVentilatorCumulative: null
 recovered: null
-lastUpdateEt: '6/01 09:54'
-checkTimeEt: '6/01 16:26'
-death: 2543
-hospitalized: 10494
-total: 1041560
-totalTestResults: 1040400
-posNeg: 1040400
+dataQualityGrade: A
+lastUpdateEt: '6/1/2020 09:54'
+dateModified: '2020-06-01T09:54:00Z'
+checkTimeEt: '06/01 05:54'
+death: 2613
+hospitalized: 10678
+dateChecked: '2020-06-01T09:54:00Z'
 fips: '12'
-dateModified: '2020-06-01T13:54:00Z'
-dateChecked: '2020-06-01T20:26:00Z'
-hash: 9c2d73bc9b78abc706644add3d9a6ae261d9d48d
-date: 20200602
+positiveIncrease: 617
+negativeIncrease: 8735
+total: 1050958
+totalTestResults: 1049752
+totalTestResultsIncrease: 9352
+posNeg: 1049752
+deathIncrease: 70
+hospitalizedIncrease: 184
+hash: 74a707be20d238b7e16ef3b6072ad4e5ecf7c170
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

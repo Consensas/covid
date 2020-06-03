@@ -1,33 +1,35 @@
+date: 20200602
 state: KS
 positive: 10011
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 0
-grade: B
-score: 3
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A
-negative: 85230
+negative: 93301
 pending: null
 hospitalizedCurrently: null
-hospitalizedCumulative: 842
+hospitalizedCumulative: 862
 inIcuCurrently: null
-inIcuCumulative: 284
+inIcuCumulative: 290
 onVentilatorCurrently: null
-onVentilatorCumulative: 124
-recovered: 547
-lastUpdateEt: '6/01 10:00'
-checkTimeEt: '6/01 14:20'
+onVentilatorCumulative: 127
+recovered: 555
+dataQualityGrade: A
+lastUpdateEt: '6/1/2020 10:00'
+dateModified: '2020-06-01T10:00:00Z'
+checkTimeEt: '06/01 06:00'
 death: 217
-hospitalized: 842
-total: 95241
-totalTestResults: 95241
-posNeg: 95241
+hospitalized: 862
+dateChecked: '2020-06-01T10:00:00Z'
 fips: '20'
-dateModified: '2020-06-01T14:00:00Z'
-dateChecked: '2020-06-01T18:20:00Z'
-hash: b8d68ed2111c866b1494400d120abd33fce3e11d
-date: 20200602
+positiveIncrease: 0
+negativeIncrease: 8071
+total: 103312
+totalTestResults: 103312
+totalTestResultsIncrease: 8071
+posNeg: 103312
+deathIncrease: 0
+hospitalizedIncrease: 20
+hash: 4780b6fd588d9035618999cacd32438cf322493c
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

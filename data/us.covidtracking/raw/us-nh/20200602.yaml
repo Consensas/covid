@@ -1,33 +1,35 @@
+date: 20200602
 state: NH
-positive: 4651
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 0
-grade: B
-score: 3
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: B
-negative: 67805
-pending: 1661
-hospitalizedCurrently: 96
-hospitalizedCumulative: 451
+positive: 4685
+negative: 69659
+pending: 2183
+hospitalizedCurrently: 98
+hospitalizedCumulative: 456
 inIcuCurrently: null
-inIcuCumulative: 141
+inIcuCumulative: 142
 onVentilatorCurrently: null
 onVentilatorCumulative: null
-recovered: 2948
-lastUpdateEt: '5/31 09:00'
-checkTimeEt: '6/01 14:48'
+recovered: 2954
+dataQualityGrade: B
+lastUpdateEt: '6/1/2020 09:00'
+dateModified: '2020-06-01T09:00:00Z'
+checkTimeEt: '06/01 05:00'
 death: 245
-hospitalized: 451
-total: 74117
-totalTestResults: 72456
-posNeg: 72456
+hospitalized: 456
+dateChecked: '2020-06-01T09:00:00Z'
 fips: '33'
-dateModified: '2020-05-31T13:00:00Z'
-dateChecked: '2020-06-01T18:48:00Z'
-hash: 5c199a702ebe44cdab6432d9c510b0a0d66ee4b3
-date: 20200602
+positiveIncrease: 34
+negativeIncrease: 1854
+total: 76527
+totalTestResults: 74344
+totalTestResultsIncrease: 1888
+posNeg: 74344
+deathIncrease: 0
+hospitalizedIncrease: 5
+hash: d79a1ab1bc1d3bedb820445e24ab43dcd98b230a
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

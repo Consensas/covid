@@ -1,33 +1,35 @@
+date: 20200602
 state: PA
-positive: 72898
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 1
-grade: A
-score: 4
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A+
-negative: 389431
+positive: 73510
+negative: 399361
 pending: null
 hospitalizedCurrently: 1302
 hospitalizedCumulative: null
 inIcuCurrently: null
 inIcuCumulative: null
-onVentilatorCurrently: 287
+onVentilatorCurrently: 283
 onVentilatorCumulative: null
-recovered: 48428
-lastUpdateEt: '6/01 00:00'
-checkTimeEt: '6/01 17:13'
-death: 5567
+recovered: 48838
+dataQualityGrade: A+
+lastUpdateEt: '6/2/2020 00:00'
+dateModified: '2020-06-02T00:00:00Z'
+checkTimeEt: '06/01 20:00'
+death: 5667
 hospitalized: null
-total: 462329
-totalTestResults: 462329
-posNeg: 462329
+dateChecked: '2020-06-02T00:00:00Z'
 fips: '42'
-dateModified: '2020-06-01T04:00:00Z'
-dateChecked: '2020-06-01T21:13:00Z'
-hash: c9ee7f89a0ae74dd6288ac85577ff698880ad075
-date: 20200602
+positiveIncrease: 612
+negativeIncrease: 9930
+total: 472871
+totalTestResults: 472871
+totalTestResultsIncrease: 10542
+posNeg: 472871
+deathIncrease: 100
+hospitalizedIncrease: 0
+hash: c56b3eb7527ae42ed17a01e34438dcbed8f42bdf
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''

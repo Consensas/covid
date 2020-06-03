@@ -1,33 +1,35 @@
-state: NV
-positive: 8688
-positiveScore: 1
-negativeScore: 1
-negativeRegularScore: 1
-commercialScore: 1
-grade: A
-score: 4
-notes: >-
-  Please stop using the "total" field. Use "totalTestResults" instead. As of
-  4/24/20, "grade" is deprecated. Please use "dataQualityGrade" instead.
-dataQualityGrade: A+
-negative: 138095
-pending: null
-hospitalizedCurrently: 361
-hospitalizedCumulative: null
-inIcuCurrently: 87
-inIcuCumulative: null
-onVentilatorCurrently: 40
-onVentilatorCumulative: null
-recovered: 459
-lastUpdateEt: '6/01 11:00'
-checkTimeEt: '6/01 14:14'
-death: 421
-hospitalized: null
-total: 146783
-totalTestResults: 146783
-posNeg: 146783
-fips: '32'
-dateModified: '2020-06-01T15:00:00Z'
-dateChecked: '2020-06-01T18:14:00Z'
-hash: ccf32197e1ba46c01b4a4943326c2fabebeb9003
 date: 20200602
+state: NV
+positive: 8830
+negative: 143261
+pending: null
+hospitalizedCurrently: 365
+hospitalizedCumulative: null
+inIcuCurrently: 88
+inIcuCumulative: null
+onVentilatorCurrently: 39
+onVentilatorCumulative: null
+recovered: 464
+dataQualityGrade: A+
+lastUpdateEt: '6/1/2020 00:00'
+dateModified: '2020-06-01T00:00:00Z'
+checkTimeEt: '05/31 20:00'
+death: 420
+hospitalized: null
+dateChecked: '2020-06-01T00:00:00Z'
+fips: '32'
+positiveIncrease: 142
+negativeIncrease: 5166
+total: 152091
+totalTestResults: 152091
+totalTestResultsIncrease: 5308
+posNeg: 152091
+deathIncrease: -1
+hospitalizedIncrease: 0
+hash: cae14e7e4eba4d9a5ec9c44a3a26b4eb14f6787b
+commercialScore: 0
+negativeRegularScore: 0
+negativeScore: 0
+positiveScore: 0
+score: 0
+grade: ''
