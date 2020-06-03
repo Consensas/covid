@@ -1032,6 +1032,17 @@ items:
     tests: 42426
     tests_negative: 41442
     patients_hospital_current: 4
+  - date: '2020-06-02'
+    deaths: null
+    tests_positive: 992
+    '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-06-02'
+    region: NS
+    country: CA
+    key: ca-ns
+    tests: 42861
+    tests_negative: 41869
+    patients_hospital_current: 3
 state: NS
 icu_hospitals: 14
 icu_beds: 141
