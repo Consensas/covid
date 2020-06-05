@@ -820,6 +820,18 @@ items:
     patients_hospital_current: 1
     patients_icu_current: null
     tests_negative: 12172
+  - date: '2020-06-03'
+    deaths: 3
+    tests_positive: 261
+  - date: '2020-06-04'
+    deaths: 3
+    tests_positive: 261
+    '@id': 'urn:covid:consensas:cmo:ca-nl:2020-06-04'
+    recovered: 256
+    tests: 12819
+    patients_hospital_current: 1
+    patients_icu_current: null
+    tests_negative: 12558
 state: NL
 icu_hospitals: 14
 icu_beds: 98
