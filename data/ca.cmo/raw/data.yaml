@@ -7949,15 +7949,15 @@
   numdeaths: 0
   numtotal: 13
   numtested: 76
-  numrecover: 0
-  percentrecover: 0
+  numrecover: 12
+  percentrecover: 92.31
   numtoday: 0
   percentoday: 0
   deathstoday: 0
   percentdeath: 0
   testedtoday: 0
-  recoveredtoday: 0
-  percentactive: 100
+  recoveredtoday: 12
+  percentactive: 7.69
 - pruid: 1
   prname: Canada
   prnamefr: Canada
@@ -8259,15 +8259,15 @@
   numdeaths: 0
   numtotal: 13
   numtested: 76
-  numrecover: 0
-  percentrecover: 0
+  numrecover: 12
+  percentrecover: 92.31
   numtoday: 0
   percentoday: 0
   deathstoday: 0
   percentdeath: 0
   testedtoday: 0
   recoveredtoday: 0
-  percentactive: 100
+  percentactive: 7.69
 - pruid: 1
   prname: Canada
   prnamefr: Canada
@@ -25510,9 +25510,14 @@
   numrecover: 2265
   percentrecover: 86.06
   ratetested: 25307
+  numtoday: 9
+  percentoday: 0.34
   ratetotal: 51.9
   ratedeaths: 3.273
+  deathstoday: 0
   percentdeath: 6.31
+  testedtoday: 1647
+  recoveredtoday: 22
   percentactive: 7.64
 - pruid: 48
   prname: Alberta
@@ -25526,9 +25531,14 @@
   numrecover: 6611
   percentrecover: 93.23
   ratetested: 56830
+  numtoday: 15
+  percentoday: 0.21
   ratetotal: 162.22
   ratedeaths: 3.34
+  deathstoday: 1
   percentdeath: 2.06
+  testedtoday: 3643
+  recoveredtoday: 24
   percentactive: 4.71
 - pruid: 47
   prname: Saskatchewan
@@ -25542,9 +25552,14 @@
   numrecover: 608
   percentrecover: 93.83
   ratetested: 38346
+  numtoday: 1
+  percentoday: 0.15
   ratetotal: 55.17
   ratedeaths: 0.937
+  deathstoday: 0
   percentdeath: 1.7
+  testedtoday: 664
+  recoveredtoday: 6
   percentactive: 4.48
 - pruid: 46
   prname: Manitoba
@@ -25558,9 +25573,14 @@
   numrecover: 284
   percentrecover: 95.3
   ratetested: 33614
+  numtoday: 0
+  percentoday: 0
   ratetotal: 21.76
   ratedeaths: 0.511
+  deathstoday: 0
   percentdeath: 2.35
+  testedtoday: 905
+  recoveredtoday: 2
   percentactive: 2.35
 - pruid: 35
   prname: Ontario
@@ -25574,9 +25594,14 @@
   numrecover: 23208
   percentrecover: 78.93
   ratetested: 52216
+  numtoday: 356
+  percentoday: 1.23
   ratetotal: 201.85
   ratedeaths: 16.181
+  deathstoday: 45
   percentdeath: 8.02
+  testedtoday: 20141
+  recoveredtoday: 397
   percentactive: 13.05
 - pruid: 24
   prname: Quebec
@@ -25590,9 +25615,14 @@
   numrecover: 17336
   percentrecover: 33.25
   ratetested: 54599
+  numtoday: 259
+  percentoday: 0.5
   ratetotal: 614.53
   ratedeaths: 57.572
+  deathstoday: 91
   percentdeath: 9.37
+  testedtoday: 6706
+  recoveredtoday: 238
   percentactive: 57.38
 - pruid: 10
   prname: Newfoundland and Labrador
@@ -25606,9 +25636,14 @@
   numrecover: 256
   percentrecover: 98.08
   ratetested: 24548
+  numtoday: 0
+  percentoday: 0
   ratetotal: 50.04
   ratedeaths: 0.575
+  deathstoday: 0
   percentdeath: 1.15
+  testedtoday: 202
+  recoveredtoday: 0
   percentactive: 0.77
 - pruid: 13
   prname: New Brunswick
@@ -25622,9 +25657,14 @@
   numrecover: 120
   percentrecover: 88.24
   ratetested: 38966
+  numtoday: 1
+  percentoday: 0.74
   ratetotal: 17.51
   ratedeaths: 0.129
+  deathstoday: 1
   percentdeath: 0.74
+  testedtoday: 493
+  recoveredtoday: 0
   percentactive: 11.03
 - pruid: 12
   prname: Nova Scotia
@@ -25638,9 +25678,14 @@
   numrecover: 995
   percentrecover: 94.05
   ratetested: 46556
+  numtoday: 0
+  percentoday: 0
   ratetotal: 108.92
   ratedeaths: 6.28
+  deathstoday: 1
   percentdeath: 5.77
+  testedtoday: 580
+  recoveredtoday: 2
   percentactive: 0.19
 - pruid: 11
   prname: Prince Edward Island
@@ -25654,6 +25699,573 @@
   numrecover: 27
   percentrecover: 100
   ratetested: 44123
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 17.2
+  ratedeaths: 0
+  deathstoday: 0
+  percentdeath: 0
+  testedtoday: 149
+  recoveredtoday: 0
+  percentactive: 0
+- pruid: 60
+  prname: Yukon
+  prnamefr: Yukon
+  date: 04-06-2020
+  numconf: 11
+  numprob: 0
+  numdeaths: 0
+  numtotal: 11
+  numtested: 1201
+  numrecover: 11
+  percentrecover: 100
+  ratetested: 29397
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 26.93
+  ratedeaths: 0
+  deathstoday: 0
+  percentdeath: 0
+  testedtoday: 9
+  recoveredtoday: 0
+  percentactive: 0
+- pruid: 61
+  prname: Northwest Territories
+  prnamefr: Territoires du Nord-Ouest
+  date: 04-06-2020
+  numconf: 5
+  numprob: 0
+  numdeaths: 0
+  numtotal: 5
+  numtested: 2083
+  numrecover: 5
+  percentrecover: 100
+  ratetested: 46469
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 11.15
+  ratedeaths: 0
+  deathstoday: 0
+  percentdeath: 0
+  testedtoday: 28
+  recoveredtoday: 0
+  percentactive: 0
+- pruid: 62
+  prname: Nunavut
+  prnamefr: Nunavut
+  date: 04-06-2020
+  numconf: 0
+  numprob: 0
+  numdeaths: 0
+  numtotal: 0
+  numtested: 814
+  numrecover: 0
+  percentrecover: N/A
+  ratetested: 20990
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 0
+  ratedeaths: 0
+  deathstoday: 0
+  testedtoday: 13
+  recoveredtoday: 0
+- pruid: 99
+  prname: Repatriated travellers
+  prnamefr: Voyageurs rapatriés
+  date: 04-06-2020
+  numconf: 13
+  numprob: 0
+  numtotal: 13
+  numtested: 76
+  numrecover: 13
+  percentrecover: 100
+  numtoday: 0
+  percentoday: 0
+  testedtoday: 0
+  recoveredtoday: 0
+- pruid: 1
+  prname: Canada
+  prnamefr: Canada
+  date: 04-06-2020
+  numconf: 93715
+  numprob: 11
+  numdeaths: 7637
+  numtotal: 93726
+  numtested: 1791106
+  numrecover: 51739
+  percentrecover: 55.2
+  ratetested: 47649
+  numtoday: 641
+  percentoday: 0.69
+  ratetotal: 249.34
+  ratedeaths: 20.317
+  deathstoday: 139
+  percentdeath: 8.15
+  testedtoday: 35180
+  recoveredtoday: 691
+  percentactive: 36.65
+- pruid: 59
+  prname: British Columbia
+  prnamefr: Colombie-Britannique
+  date: 05-06-2020
+  numconf: 2632
+  numprob: 0
+  numdeaths: 167
+  numtotal: 2632
+  numtested: 130103
+  numrecover: 2272
+  percentrecover: 86.32
+  ratetested: 25655
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 51.9
+  ratedeaths: 3.293
+  deathstoday: 1
+  percentdeath: 6.34
+  testedtoday: 1762
+  recoveredtoday: 7
+  percentactive: 7.33
+- pruid: 48
+  prname: Alberta
+  prnamefr: Alberta
+  date: 05-06-2020
+  numconf: 7098
+  numprob: 0
+  numdeaths: 146
+  numtotal: 7098
+  numtested: 254050
+  numrecover: 6624
+  percentrecover: 93.32
+  ratetested: 58118
+  numtoday: 7
+  percentoday: 0.1
+  ratetotal: 162.38
+  ratedeaths: 3.34
+  deathstoday: 0
+  percentdeath: 2.06
+  testedtoday: 5627
+  recoveredtoday: 13
+  percentactive: 4.62
+- pruid: 47
+  prname: Saskatchewan
+  prnamefr: Saskatchewan
+  date: 05-06-2020
+  numconf: 649
+  numprob: 0
+  numdeaths: 11
+  numtotal: 649
+  numtested: 45623
+  numrecover: 611
+  percentrecover: 94.14
+  ratetested: 38846
+  numtoday: 1
+  percentoday: 0.15
+  ratetotal: 55.26
+  ratedeaths: 0.937
+  deathstoday: 0
+  percentdeath: 1.69
+  testedtoday: 587
+  recoveredtoday: 3
+  percentactive: 4.16
+- pruid: 46
+  prname: Manitoba
+  prnamefr: Manitoba
+  date: 05-06-2020
+  numconf: 289
+  numprob: 11
+  numdeaths: 7
+  numtotal: 300
+  numtested: 46668
+  numrecover: 284
+  percentrecover: 94.67
+  ratetested: 34078
+  numtoday: 2
+  percentoday: 0.67
+  ratetotal: 21.91
+  ratedeaths: 0.511
+  deathstoday: 0
+  percentdeath: 2.33
+  testedtoday: 635
+  recoveredtoday: 0
+  percentactive: 3
+- pruid: 35
+  prname: Ontario
+  prnamefr: Ontario
+  date: 05-06-2020
+  numconf: 29747
+  numprob: 0
+  numdeaths: 2372
+  numtotal: 29747
+  numtested: 782597
+  numrecover: 23583
+  percentrecover: 79.28
+  ratetested: 53726
+  numtoday: 344
+  percentoday: 1.17
+  ratetotal: 204.21
+  ratedeaths: 16.284
+  deathstoday: 15
+  percentdeath: 7.97
+  testedtoday: 21987
+  recoveredtoday: 375
+  percentactive: 12.75
+- pruid: 24
+  prname: Quebec
+  prnamefr: Québec
+  date: 05-06-2020
+  numconf: 52398
+  numprob: 0
+  numdeaths: 4935
+  numtotal: 52398
+  numtested: 470862
+  numrecover: 17764
+  percentrecover: 33.9
+  ratetested: 55494
+  numtoday: 255
+  percentoday: 0.49
+  ratetotal: 617.54
+  ratedeaths: 58.162
+  deathstoday: 50
+  percentdeath: 9.42
+  testedtoday: 7595
+  recoveredtoday: 428
+  percentactive: 56.68
+- pruid: 10
+  prname: Newfoundland and Labrador
+  prnamefr: Terre-Neuve-et-Labrador
+  date: 05-06-2020
+  numconf: 261
+  numprob: 0
+  numdeaths: 3
+  numtotal: 261
+  numtested: 12935
+  numrecover: 256
+  percentrecover: 98.08
+  ratetested: 24801
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 50.04
+  ratedeaths: 0.575
+  deathstoday: 0
+  percentdeath: 1.15
+  testedtoday: 132
+  recoveredtoday: 0
+  percentactive: 0.77
+- pruid: 13
+  prname: New Brunswick
+  prnamefr: Nouveau-Brunswick
+  date: 05-06-2020
+  numconf: 136
+  numprob: 0
+  numdeaths: 1
+  numtotal: 136
+  numtested: 30645
+  numrecover: 121
+  percentrecover: 88.97
+  ratetested: 39449
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 17.51
+  ratedeaths: 0.129
+  deathstoday: 0
+  percentdeath: 0.74
+  testedtoday: 375
+  recoveredtoday: 1
+  percentactive: 10.29
+- pruid: 12
+  prname: Nova Scotia
+  prnamefr: Nouvelle-Écosse
+  date: 05-06-2020
+  numconf: 1058
+  numprob: 0
+  numdeaths: 61
+  numtotal: 1058
+  numtested: 45709
+  numrecover: 997
+  percentrecover: 94.23
+  ratetested: 47055
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 108.92
+  ratedeaths: 6.28
+  deathstoday: 0
+  percentdeath: 5.77
+  testedtoday: 485
+  recoveredtoday: 2
+  percentactive: 0
+- pruid: 11
+  prname: Prince Edward Island
+  prnamefr: Île-du-Prince-Édouard
+  date: 05-06-2020
+  numconf: 27
+  numprob: 0
+  numdeaths: 0
+  numtotal: 27
+  numtested: 7111
+  numrecover: 27
+  percentrecover: 100
+  ratetested: 45308
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 17.2
+  ratedeaths: 0
+  deathstoday: 0
+  percentdeath: 0
+  testedtoday: 186
+  recoveredtoday: 0
+  percentactive: 0
+- pruid: 60
+  prname: Yukon
+  prnamefr: Yukon
+  date: 05-06-2020
+  numconf: 11
+  numprob: 0
+  numdeaths: 0
+  numtotal: 11
+  numtested: 1201
+  numrecover: 11
+  percentrecover: 100
+  ratetested: 29397
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 26.93
+  ratedeaths: 0
+  deathstoday: 0
+  percentdeath: 0
+  testedtoday: 0
+  recoveredtoday: 0
+  percentactive: 0
+- pruid: 61
+  prname: Northwest Territories
+  prnamefr: Territoires du Nord-Ouest
+  date: 05-06-2020
+  numconf: 5
+  numprob: 0
+  numdeaths: 0
+  numtotal: 5
+  numtested: 2097
+  numrecover: 5
+  percentrecover: 100
+  ratetested: 46781
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 11.15
+  ratedeaths: 0
+  deathstoday: 0
+  percentdeath: 0
+  testedtoday: 14
+  recoveredtoday: 0
+  percentactive: 0
+- pruid: 62
+  prname: Nunavut
+  prnamefr: Nunavut
+  date: 05-06-2020
+  numconf: 0
+  numprob: 0
+  numdeaths: 0
+  numtotal: 0
+  numtested: 821
+  numrecover: 0
+  percentrecover: N/A
+  ratetested: 21171
+  numtoday: 0
+  percentoday: 0
+  ratetotal: 0
+  ratedeaths: 0
+  deathstoday: 0
+  testedtoday: 7
+  recoveredtoday: 0
+- pruid: 99
+  prname: Repatriated travellers
+  prnamefr: Voyageurs rapatriés
+  date: 05-06-2020
+  numconf: 13
+  numprob: 0
+  numtotal: 13
+  numtested: 76
+  numrecover: 13
+  percentrecover: 100
+  numtoday: 0
+  percentoday: 0
+  testedtoday: 0
+  recoveredtoday: 0
+- pruid: 1
+  prname: Canada
+  prnamefr: Canada
+  date: 05-06-2020
+  numconf: 94324
+  numprob: 11
+  numdeaths: 7703
+  numtotal: 94335
+  numtested: 1830498
+  numrecover: 52568
+  percentrecover: 55.72
+  ratetested: 48697
+  numtoday: 609
+  percentoday: 0.65
+  ratetotal: 250.96
+  ratedeaths: 20.493
+  deathstoday: 66
+  percentdeath: 8.17
+  testedtoday: 39392
+  recoveredtoday: 829
+  percentactive: 36.11
+- pruid: 59
+  prname: British Columbia
+  prnamefr: Colombie-Britannique
+  date: 06-06-2020
+  numconf: 2632
+  numprob: 0
+  numdeaths: 167
+  numtotal: 2632
+  numtested: 131722
+  numrecover: 2272
+  percentrecover: 86.32
+  ratetested: 25974
+  ratetotal: 51.9
+  ratedeaths: 3.293
+  percentdeath: 6.34
+  percentactive: 7.33
+- pruid: 48
+  prname: Alberta
+  prnamefr: Alberta
+  date: 06-06-2020
+  numconf: 7138
+  numprob: 0
+  numdeaths: 146
+  numtotal: 7138
+  numtested: 259031
+  numrecover: 6656
+  percentrecover: 93.25
+  ratetested: 59257
+  ratetotal: 163.29
+  ratedeaths: 3.34
+  percentdeath: 2.05
+  percentactive: 4.71
+- pruid: 47
+  prname: Saskatchewan
+  prnamefr: Saskatchewan
+  date: 06-06-2020
+  numconf: 650
+  numprob: 0
+  numdeaths: 11
+  numtotal: 650
+  numtested: 46118
+  numrecover: 611
+  percentrecover: 94
+  ratetested: 39267
+  ratetotal: 55.34
+  ratedeaths: 0.937
+  percentdeath: 1.69
+  percentactive: 4.31
+- pruid: 46
+  prname: Manitoba
+  prnamefr: Manitoba
+  date: 06-06-2020
+  numconf: 289
+  numprob: 11
+  numdeaths: 7
+  numtotal: 300
+  numtested: 46668
+  numrecover: 284
+  percentrecover: 94.67
+  ratetested: 34078
+  ratetotal: 21.91
+  ratedeaths: 0.511
+  percentdeath: 2.33
+  percentactive: 3
+- pruid: 35
+  prname: Ontario
+  prnamefr: Ontario
+  date: 06-06-2020
+  numconf: 30202
+  numprob: 0
+  numdeaths: 2407
+  numtotal: 30202
+  numtested: 804946
+  numrecover: 23947
+  percentrecover: 79.29
+  ratetested: 55260
+  ratetotal: 207.34
+  ratedeaths: 16.524
+  percentdeath: 7.97
+  percentactive: 12.74
+- pruid: 24
+  prname: Quebec
+  prnamefr: Québec
+  date: 06-06-2020
+  numconf: 52624
+  numprob: 0
+  numdeaths: 4970
+  numtotal: 52624
+  numtested: 477737
+  numrecover: 18412
+  percentrecover: 34.99
+  ratetested: 56304
+  ratetotal: 620.2
+  ratedeaths: 58.574
+  percentdeath: 9.44
+  percentactive: 55.57
+- pruid: 10
+  prname: Newfoundland and Labrador
+  prnamefr: Terre-Neuve-et-Labrador
+  date: 06-06-2020
+  numconf: 261
+  numprob: 0
+  numdeaths: 3
+  numtotal: 261
+  numtested: 13192
+  numrecover: 256
+  percentrecover: 98.08
+  ratetested: 25294
+  ratetotal: 50.04
+  ratedeaths: 0.575
+  percentdeath: 1.15
+  percentactive: 0.77
+- pruid: 13
+  prname: New Brunswick
+  prnamefr: Nouveau-Brunswick
+  date: 06-06-2020
+  numconf: 136
+  numprob: 0
+  numdeaths: 1
+  numtotal: 136
+  numtested: 31083
+  numrecover: 121
+  percentrecover: 88.97
+  ratetested: 40013
+  ratetotal: 17.51
+  ratedeaths: 0.129
+  percentdeath: 0.74
+  percentactive: 10.29
+- pruid: 12
+  prname: Nova Scotia
+  prnamefr: Nouvelle-Écosse
+  date: 06-06-2020
+  numconf: 1058
+  numprob: 0
+  numdeaths: 61
+  numtotal: 1058
+  numtested: 46379
+  numrecover: 999
+  percentrecover: 94.42
+  ratetested: 47745
+  ratetotal: 108.92
+  ratedeaths: 6.28
+  percentdeath: 5.77
+  percentactive: -0.19
+- pruid: 11
+  prname: Prince Edward Island
+  prnamefr: Île-du-Prince-Édouard
+  date: 06-06-2020
+  numconf: 27
+  numprob: 0
+  numdeaths: 0
+  numtotal: 27
+  numtested: 7197
+  numrecover: 27
+  percentrecover: 100
+  ratetested: 45856
   ratetotal: 17.2
   ratedeaths: 0
   percentdeath: 0
@@ -25661,7 +26273,7 @@
 - pruid: 60
   prname: Yukon
   prnamefr: Yukon
-  date: 04-06-2020
+  date: 06-06-2020
   numconf: 11
   numprob: 0
   numdeaths: 0
@@ -25677,15 +26289,15 @@
 - pruid: 61
   prname: Northwest Territories
   prnamefr: Territoires du Nord-Ouest
-  date: 04-06-2020
+  date: 06-06-2020
   numconf: 5
   numprob: 0
   numdeaths: 0
   numtotal: 5
-  numtested: 2083
+  numtested: 2097
   numrecover: 5
   percentrecover: 100
-  ratetested: 46469
+  ratetested: 46781
   ratetotal: 11.15
   ratedeaths: 0
   percentdeath: 0
@@ -25693,21 +26305,21 @@
 - pruid: 62
   prname: Nunavut
   prnamefr: Nunavut
-  date: 04-06-2020
+  date: 06-06-2020
   numconf: 0
   numprob: 0
   numdeaths: 0
   numtotal: 0
-  numtested: 814
+  numtested: 830
   numrecover: 0
   percentrecover: N/A
-  ratetested: 20990
+  ratetested: 21403
   ratetotal: 0
   ratedeaths: 0
 - pruid: 99
   prname: Repatriated travellers
   prnamefr: Voyageurs rapatriés
-  date: 04-06-2020
+  date: 06-06-2020
   numconf: 13
   numprob: 0
   numtotal: 13
@@ -25717,16 +26329,16 @@
 - pruid: 1
   prname: Canada
   prnamefr: Canada
-  date: 04-06-2020
-  numconf: 93715
+  date: 06-06-2020
+  numconf: 95046
   numprob: 11
-  numdeaths: 7637
-  numtotal: 93726
-  numtested: 1791106
-  numrecover: 51739
-  percentrecover: 55.2
-  ratetested: 47649
-  ratetotal: 249.34
-  ratedeaths: 20.317
-  percentdeath: 8.15
-  percentactive: 36.65
+  numdeaths: 7773
+  numtotal: 95057
+  numtested: 1868277
+  numrecover: 53614
+  percentrecover: 56.4
+  ratetested: 49702
+  ratetotal: 252.88
+  ratedeaths: 20.679
+  percentdeath: 8.18
+  percentactive: 35.42
