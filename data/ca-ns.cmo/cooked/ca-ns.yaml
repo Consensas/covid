@@ -804,8 +804,8 @@ items:
     date: '2020-05-26'
     tests: 38999
     deaths: 1
-    tests_positive: 975
-    tests_negative: 38024
+    tests_positive: 976
+    tests_negative: 38023
     patients_hospital_current: 4
   - '@context': 'https://consensas.world/m/covid'
     '@id': 'urn:covid:consensas:cmo:ca-ns:2020-05-27'
@@ -906,3 +906,25 @@ items:
     tests_positive: 995
     tests_negative: 42916
     patients_hospital_current: 2
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-06-05'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-06-05'
+    tests: 44477
+    deaths: null
+    tests_positive: 997
+    tests_negative: 43480
+    patients_hospital_current: 1
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-06-06'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-06-06'
+    tests: 45094
+    deaths: null
+    tests_positive: 999
+    tests_negative: 44095
+    patients_hospital_current: 1
