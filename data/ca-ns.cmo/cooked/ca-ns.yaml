@@ -928,3 +928,14 @@ items:
     tests_positive: 999
     tests_negative: 44095
     patients_hospital_current: 1
+  - '@context': 'https://consensas.world/m/covid'
+    '@id': 'urn:covid:consensas:cmo:ca-ns:2020-06-07'
+    region: NS
+    country: CA
+    key: ca-ns
+    date: '2020-06-07'
+    tests: 45466
+    deaths: null
+    tests_positive: 999
+    tests_negative: 44467
+    patients_hospital_current: 1
