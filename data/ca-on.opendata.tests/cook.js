@@ -80,6 +80,9 @@ _.promise()
             if (!_oki(item.tests_negative) && _oki(item.tests_positive) && _oki(item.tests)) {
                 item.tests_negative = item.tests - item.tests_positive
             }
+            if (_oki(item.recovered) && _oki(item.tests_positive)) {
+                item.active = item.tests_positive - item.recovered
+            }
 
             return item
         })
