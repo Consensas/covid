@@ -1,0 +1,1125 @@
+info:
+  language: en
+  timing:
+    last: 1591882443
+    next: 1591882503
+  overdue: false
+  rename_field: true
+  external_data:
+    waitingtime: {}
+    airline: {}
+  type: A
+  direction: ASC
+  sort: planned_hour
+  rule: 24h
+  limit: 1000
+  filter_gone: false
+  count: 35
+  timequery: -0.8025
+  hashdata: 4e0d4de2e5faeda5f81759aa1b7375c9e974a990
+  status:
+    code: 200
+data:
+  - id: AC402-1591881360-A
+    type: arrival
+    flight: AC402
+    planned: '1591881360'
+    revised: '1591880100'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ARR/REV
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC402'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC402'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '9:16'
+    planned_date: Jun. 11
+    revised_hour: '8:55'
+    revised_date: Jun. 11
+    terminal_gate: null
+    details:
+      hours: '8:55'
+      hoursRevised: 'jun. 11 (was at 9:16)'
+      status: Arrived
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC490-1591886040-A
+    type: arrival
+    flight: AC490
+    planned: '1591886040'
+    revised: '1591885020'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: DEV/EARLY
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC490'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC490'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '10:34'
+    planned_date: Jun. 11
+    revised_hour: '10:17'
+    revised_date: Jun. 11
+    terminal_gate: null
+    details:
+      hours: '10:17'
+      hoursRevised: 'jun. 11 (was at 10:34)'
+      status: Advanced
+      statusMore: 'To 10:17'
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: WS3520-1591889040-A
+    type: arrival
+    flight: WS3520
+    planned: '1591889040'
+    revised: '1591888740'
+    company: WESTJET
+    compagny_without_accent: WS
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=WS3520'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=WS3520'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/WJA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/WJA_FIDS%402x.png'
+    planned_hour: '11:24'
+    planned_date: Jun. 11
+    revised_hour: '11:19'
+    revised_date: Jun. 11
+    terminal_gate: null
+    details:
+      hours: '11:19'
+      hoursRevised: 'jun. 11 (was at 11:24)'
+      status: Revised time
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AA5350-1591890840-A
+    type: arrival
+    flight: AA5350
+    planned: '1591890840'
+    revised: '0'
+    company: 'PSA Airlines, Inc'
+    compagny_without_accent: AA
+    note: ''
+    destination: 'Charlotte         '
+    destination_without_accent: 'Charlotte         '
+    sector: T
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AA5350'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AA5350'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/AAL_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/AAL_FIDS%402x.png'
+    planned_hour: '11:54'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '11:54'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC8503-1591891860-A
+    type: arrival
+    flight: AC8503
+    planned: '1591891860'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: Fredericton
+    destination_without_accent: Fredericton
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC8503'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC8503'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '12:11'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '12:11'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: DL4736-1591891980-A
+    type: arrival
+    flight: DL4736
+    planned: '1591891980'
+    revised: '0'
+    company: DELTA
+    compagny_without_accent: DL
+    note: ''
+    destination: Detroit
+    destination_without_accent: Detroit
+    sector: T
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=DL4736'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=DL4736'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/DAL_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/DAL_FIDS%402x.png'
+    planned_hour: '12:13'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '12:13'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC408-1591892160-A
+    type: arrival
+    flight: AC408
+    planned: '1591892160'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC408'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC408'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '12:16'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '12:16'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC316-1591893060-A
+    type: arrival
+    flight: AC316
+    planned: '1591893060'
+    revised: '1591892280'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Calgary
+    destination_without_accent: Calgary
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC316'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC316'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '12:31'
+    planned_date: Jun. 11
+    revised_hour: '12:18'
+    revised_date: Jun. 11
+    terminal_gate: null
+    details:
+      hours: '12:18'
+      hoursRevised: 'jun. 11 (was at 12:31)'
+      status: Revised time
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC663-1591893180-A
+    type: arrival
+    flight: AC663
+    planned: '1591893180'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Halifax
+    destination_without_accent: Halifax
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC663'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC663'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '12:33'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '12:33'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AA5622-1591893900-A
+    type: arrival
+    flight: AA5622
+    planned: '1591893900'
+    revised: '0'
+    company: 'PSA Airlines, Inc'
+    compagny_without_accent: AA
+    note: ''
+    destination: Philadelphia
+    destination_without_accent: Philadelphia
+    sector: T
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AA5622'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AA5622'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/AAL_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/AAL_FIDS%402x.png'
+    planned_hour: '12:45'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '12:45'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC833-1591895700-A
+    type: arrival
+    flight: AC833
+    planned: '1591895700'
+    revised: '1591894200'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: DEV/EARLY
+    destination: Bruxelles
+    destination_without_accent: Bruxelles
+    sector: I
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC833'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC833'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '13:15'
+    planned_date: Jun. 11
+    revised_hour: '12:50'
+    revised_date: Jun. 11
+    terminal_gate: null
+    details:
+      hours: '12:50'
+      hoursRevised: 'jun. 11 (was at 13:15)'
+      status: Advanced
+      statusMore: 'To 12:50'
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC871-1591899900-A
+    type: arrival
+    flight: AC871
+    planned: '1591899900'
+    revised: '1591899120'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Paris
+    destination_without_accent: Paris
+    sector: I
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC871'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC871'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '14:25'
+    planned_date: Jun. 11
+    revised_hour: '14:12'
+    revised_date: Jun. 11
+    terminal_gate: null
+    details:
+      hours: '14:12'
+      hoursRevised: 'jun. 11 (was at 14:25)'
+      status: Revised time
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC7481-1591900320-A
+    type: arrival
+    flight: AC7481
+    planned: '1591900320'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: St John's
+    destination_without_accent: St John's
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC7481'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC7481'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '14:32'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '14:32'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AM680-1591901100-A
+    type: arrival
+    flight: AM680
+    planned: '1591901100'
+    revised: '0'
+    company: AEROMEXICO
+    compagny_without_accent: AM
+    note: ''
+    destination: Mexico
+    destination_without_accent: Mexico
+    sector: I
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AM680'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AM680'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/AMX_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/AMX_FIDS%402x.png'
+    planned_hour: '14:45'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '14:45'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: PB1901-1591902300-A
+    type: arrival
+    flight: PB1901
+    planned: '1591902300'
+    revised: '0'
+    company: 'PAL AIRLINES '
+    compagny_without_accent: PB
+    note: ''
+    destination: 'MJoli, Québec'
+    destination_without_accent: 'MontJoli, Quebec'
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=PB1901'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=PB1901'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/PVL_FIDS2%402x_1.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/PVL_FIDS2%402x_1.png'
+    planned_hour: '15:05'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '15:05'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC875-1591902900-A
+    type: arrival
+    flight: AC875
+    planned: '1591902900'
+    revised: '1591901700'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: DEV/EARLY
+    destination: Frankfurt
+    destination_without_accent: Frankfurt
+    sector: I
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC875'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC875'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '15:15'
+    planned_date: Jun. 11
+    revised_hour: '14:55'
+    revised_date: Jun. 11
+    terminal_gate: null
+    details:
+      hours: '14:55'
+      hoursRevised: 'jun. 11 (was at 15:15)'
+      status: Advanced
+      statusMore: 'To 14:55'
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC414-1591902960-A
+    type: arrival
+    flight: AC414
+    planned: '1591902960'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC414'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC414'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '15:16'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '15:16'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC8932-1591905540-A
+    type: arrival
+    flight: AC8932
+    planned: '1591905540'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: Ottawa
+    destination_without_accent: Ottawa
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC8932'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC8932'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '15:59'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '15:59'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC8717-1591907160-A
+    type: arrival
+    flight: AC8717
+    planned: '1591907160'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: Québec
+    destination_without_accent: Quebec
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC8717'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC8717'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '16:26'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '16:26'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC304-1591908120-A
+    type: arrival
+    flight: AC304
+    planned: '1591908120'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Vancouver
+    destination_without_accent: Vancouver
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC304'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC304'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '16:42'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '16:42'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC418-1591910160-A
+    type: arrival
+    flight: AC418
+    planned: '1591910160'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC418'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC418'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '17:16'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '17:16'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC332-1591911840-A
+    type: arrival
+    flight: AC332
+    planned: '1591911840'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Edmonton
+    destination_without_accent: Edmonton
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC332'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC332'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '17:44'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '17:44'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC322-1591912380-A
+    type: arrival
+    flight: AC322
+    planned: '1591912380'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Calgary
+    destination_without_accent: Calgary
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC322'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC322'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '17:53'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '17:53'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC580-1591916040-A
+    type: arrival
+    flight: AC580
+    planned: '1591916040'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: 'Chicago OHare Int   '
+    destination_without_accent: 'Chicago OHare Int   '
+    sector: T
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC580'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC580'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '18:54'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '18:54'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC422-1591917360-A
+    type: arrival
+    flight: AC422
+    planned: '1591917360'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC422'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC422'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '19:16'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '19:16'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: WS3534-1591918920-A
+    type: arrival
+    flight: WS3534
+    planned: '1591918920'
+    revised: '0'
+    company: WESTJET
+    compagny_without_accent: WS
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=WS3534'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=WS3534'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/WJA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/WJA_FIDS%402x.png'
+    planned_hour: '19:42'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '19:42'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC492-1591921140-A
+    type: arrival
+    flight: AC492
+    planned: '1591921140'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC492'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC492'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '20:19'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '20:19'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC428-1591929960-A
+    type: arrival
+    flight: AC428
+    planned: '1591929960'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC428'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC428'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '22:46'
+    planned_date: Jun. 11
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '22:46'
+      hoursRevised: jun. 11
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC312-1591936440-A
+    type: arrival
+    flight: AC312
+    planned: '1591936440'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Vancouver
+    destination_without_accent: Vancouver
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC312'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC312'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '0:34'
+    planned_date: Jun. 12
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '0:34'
+      hoursRevised: jun. 12
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC8501-1591958460-A
+    type: arrival
+    flight: AC8501
+    planned: '1591958460'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: Fredericton
+    destination_without_accent: Fredericton
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC8501'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC8501'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '6:41'
+    planned_date: Jun. 12
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '6:41'
+      hoursRevised: jun. 12
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC8970-1591958700-A
+    type: arrival
+    flight: AC8970
+    planned: '1591958700'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: Ottawa
+    destination_without_accent: Ottawa
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC8970'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC8970'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '6:45'
+    planned_date: Jun. 12
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '6:45'
+      hoursRevised: jun. 12
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC8701-1591958760-A
+    type: arrival
+    flight: AC8701
+    planned: '1591958760'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: Québec
+    destination_without_accent: Quebec
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC8701'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC8701'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '6:46'
+    planned_date: Jun. 12
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '6:46'
+      hoursRevised: jun. 12
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: AC7479-1591960560-A
+    type: arrival
+    flight: AC7479
+    planned: '1591960560'
+    revised: '0'
+    company: 'AIR CANADA '
+    compagny_without_accent: AC
+    note: ''
+    destination: St John's
+    destination_without_accent: St John's
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC7479'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC7479'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '7:16'
+    planned_date: Jun. 12
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '7:16'
+      hoursRevised: jun. 12
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
+  - id: WG2860-1591964400-A
+    type: arrival
+    flight: WG2860
+    planned: '1591964400'
+    revised: '0'
+    company: 'SUNWING AIRLINES '
+    compagny_without_accent: WG
+    note: ''
+    destination: Mexico
+    destination_without_accent: Mexico
+    sector: I
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=WG2860'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=WG2860'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/SWG_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/SWG_FIDS%402x.png'
+    planned_hour: '8:20'
+    planned_date: Jun. 12
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '8:20'
+      hoursRevised: jun. 12
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: Book your way to security
+      waitingtime:
+        label: Customs waiting time
+        duration: N/A
+      canceledInfos: null
+  - id: AC402-1591967760-A
+    type: arrival
+    flight: AC402
+    planned: '1591967760'
+    revised: '0'
+    company: AIR CANADA
+    compagny_without_accent: AC
+    note: ''
+    destination: Toronto
+    destination_without_accent: Toronto
+    sector: D
+    gate: null
+    lipso_url: 'https://www.admtl.com/en/flights/sms-service?vol=AC402'
+    lipso_customs_url: 'https://www.admtl.com/en/flights/secure_express?vol=AC402'
+    company_logo_reduce: >-
+      https://www.admtl.com/sites/default/files/styles/reduced_for_retina/public/ACA_FIDS%402x.png
+    company_logo_retina: 'https://www.admtl.com/sites/default/files/ACA_FIDS%402x.png'
+    planned_hour: '9:16'
+    planned_date: Jun. 12
+    revised_hour: null
+    revised_date: null
+    terminal_gate: null
+    details:
+      hours: '9:16'
+      hoursRevised: jun. 12
+      status: '-'
+      statusMore: null
+      doorNumber: null
+      reservedSecurExpress: null
+      waitingtime: []
+      canceledInfos: null
