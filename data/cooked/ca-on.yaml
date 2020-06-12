@@ -1927,6 +1927,21 @@ items:
     patients_icu_current: 118
     patients_ventilated_current: 86
     active: 5961
+  - date: '2020-06-11'
+    deaths: 2487
+    tests_positive: 31544
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-06-11'
+    recovered: 25885
+    tests: 908321
+    tests_negative: 876777
+    tests_confirmed: 3172
+    tests_probable: null
+    tests_pending: 16359
+    tests_approved: 924680
+    patients_hospital_current: 538
+    patients_icu_current: 120
+    patients_ventilated_current: 87
+    active: 5659
 state: 'ON'
 icu_hospitals: 84
 icu_beds: 1122
