@@ -840,6 +840,15 @@ items:
     patients_hospital_current: 4
     patients_icu_current: 1
     tests_negative: 36448
+  - date: '2020-06-14'
+    deaths: 2
+    tests_positive: 157
+    '@id': 'urn:covid:consensas:cmo:ca-nb:2020-06-14'
+    tests: 37072
+    recovered: 129
+    patients_hospital_current: 4
+    patients_icu_current: 1
+    tests_negative: 36915
 state: NB
 icu_hospitals: 9
 icu_beds: 103
