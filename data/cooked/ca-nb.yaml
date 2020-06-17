@@ -851,13 +851,16 @@ items:
     tests_negative: 36915
   - date: '2020-06-15'
     deaths: 2
-    tests_positive: 160
+    tests_positive: 163
     '@id': 'urn:covid:consensas:cmo:ca-nb:2020-06-15'
-    tests: 37509
-    recovered: 129
+    tests: 37843
+    recovered: 131
     patients_hospital_current: 4
     patients_icu_current: 1
-    tests_negative: 37349
+    tests_negative: 37680
+  - date: '2020-06-16'
+    deaths: 2
+    tests_positive: 163
 state: NB
 icu_hospitals: 9
 icu_beds: 103
