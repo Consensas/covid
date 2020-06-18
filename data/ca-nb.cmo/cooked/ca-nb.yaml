@@ -581,6 +581,15 @@
       tests_negative: 36915
     - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-06-15'
       date: '2020-06-15'
+      tests: 37509
+      tests_positive: 160
+      recovered: 129
+      patients_hospital_current: 4
+      patients_icu_current: 1
+      deaths: 2
+      tests_negative: 37349
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-06-16'
+      date: '2020-06-16'
       tests: 37843
       tests_positive: 163
       recovered: 131
@@ -588,3 +597,12 @@
       patients_icu_current: 1
       deaths: 2
       tests_negative: 37680
+    - '@id': 'urn:covid:consensas:cmo:ca-nb:2020-06-17'
+      date: '2020-06-17'
+      tests: 38714
+      tests_positive: 164
+      recovered: 133
+      patients_hospital_current: 4
+      patients_icu_current: 1
+      deaths: 2
+      tests_negative: 38550
