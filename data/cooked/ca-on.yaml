@@ -2017,6 +2017,21 @@ items:
     patients_icu_current: 98
     patients_ventilated_current: 70
     active: 5123
+  - date: '2020-06-17'
+    deaths: 2550
+    tests_positive: 32744
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-06-17'
+    recovered: 27784
+    tests: 1049794
+    tests_negative: 1017050
+    tests_confirmed: 2410
+    tests_probable: null
+    tests_pending: 21635
+    tests_approved: 1071429
+    patients_hospital_current: 383
+    patients_icu_current: 92
+    patients_ventilated_current: 65
+    active: 4960
 state: 'ON'
 icu_hospitals: 84
 icu_beds: 1122
