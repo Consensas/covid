@@ -759,10 +759,11 @@ items:
   - date: '2020-06-23'
     deaths: 0
     tests_positive: 27
-  - '@id': 'urn:covid:consensas:cmo:ca-pe:2020-06-24'
-    date: '2020-06-24'
-    tests: 10441
+  - date: '2020-06-24'
+    deaths: 0
     tests_positive: 27
+    '@id': 'urn:covid:consensas:cmo:ca-pe:2020-06-24'
+    tests: 10441
     tests_negative: 10301
     tests_pending: 113
     recovered: 27
