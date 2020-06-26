@@ -988,10 +988,10 @@ items:
     patients_hospital_current: null
     patients_icu_current: null
     tests_negative: 16359
-  - '@id': 'urn:covid:consensas:cmo:ca-nl:2020-06-25'
-    date: '2020-06-25'
-    tests_positive: 261
+  - date: '2020-06-25'
     deaths: 3
+    tests_positive: 261
+    '@id': 'urn:covid:consensas:cmo:ca-nl:2020-06-25'
     recovered: 258
     tests: 16901
     patients_hospital_current: null
