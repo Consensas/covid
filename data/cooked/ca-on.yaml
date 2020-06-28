@@ -2152,6 +2152,36 @@ items:
     patients_icu_current: 69
     patients_ventilated_current: 47
     active: 4677
+  - date: '2020-06-26'
+    deaths: 2644
+    tests_positive: 34316
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-06-26'
+    recovered: 29754
+    tests: 1266970
+    tests_negative: 1232654
+    tests_confirmed: 1918
+    tests_probable: null
+    tests_pending: 27344
+    tests_approved: 1294314
+    patients_hospital_current: 256
+    patients_icu_current: 61
+    patients_ventilated_current: 41
+    active: 4562
+  - date: '2020-06-27'
+    deaths: 2652
+    tests_positive: 34476
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-06-27'
+    recovered: 29932
+    tests: 1294047
+    tests_negative: 1259571
+    tests_confirmed: 1892
+    tests_probable: null
+    tests_pending: 33759
+    tests_approved: 1327806
+    patients_hospital_current: 252
+    patients_icu_current: 54
+    patients_ventilated_current: 35
+    active: 4544
 state: 'ON'
 icu_hospitals: 84
 icu_beds: 1122
