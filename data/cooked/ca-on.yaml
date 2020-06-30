@@ -2197,12 +2197,12 @@ items:
     patients_icu_current: 51
     patients_ventilated_current: 36
     active: 4547
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-06-29'
-    date: '2020-06-29'
+  - date: '2020-06-29'
     deaths: 2665
+    tests_positive: 34911
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-06-29'
     recovered: 30196
     tests: 1366865
-    tests_positive: 34911
     tests_negative: 1331954
     tests_confirmed: 2050
     tests_probable: null
