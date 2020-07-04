@@ -972,6 +972,27 @@ items:
     tests: 442253
     '@id': 'urn:covid:consensas:cmo:ca-ab:2020-06-29'
     active: 1349
+  - date: '2020-06-30'
+    deaths: 154
+    tests_positive: 8108
+  - date: '2020-07-01'
+    deaths: 154
+    tests_positive: 8108
+  - date: '2020-07-02'
+    deaths: 155
+    tests_positive: 8202
+  - date: '2020-07-03'
+    deaths: 155
+    tests_positive: 8259
+  - date: '2020-07-04'
+    tests_positive: 2562
+    recovered: 1162
+    patients_hospital_current: 42
+    patients_icu_current: 9
+    deaths: 51
+    tests: 470809
+    '@id': 'urn:covid:consensas:cmo:ca-ab:2020-07-04'
+    active: 1349
 state: AB
 icu_hospitals: 16
 icu_beds: 292

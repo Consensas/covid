@@ -797,6 +797,23 @@ items:
     tests_negative: 11346
     tests_pending: 20
     recovered: 27
+  - date: '2020-06-30'
+    deaths: 0
+    tests_positive: 27
+  - date: '2020-07-01'
+    deaths: 0
+    tests_positive: 27
+  - date: '2020-07-02'
+    deaths: 0
+    tests_positive: 27
+  - date: '2020-07-03'
+    deaths: 0
+    tests_positive: 27
+    '@id': 'urn:covid:consensas:cmo:ca-pe:2020-07-03'
+    tests: 12252
+    tests_negative: 12080
+    tests_pending: 145
+    recovered: 27
 state: PE
 icu_hospitals: 2
 icu_beds: 18

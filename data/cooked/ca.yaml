@@ -938,9 +938,32 @@ items:
   - date: '2020-06-29'
     recovered: 67178
     '@id': 'urn:covid:consensas:cmo:ca:2020-06-29'
-    tests: 2721609
+    tests: 2885670
     tests_positive: 103907
     tests_probable: 11
     deaths: 8566
+  - date: '2020-06-30'
+    recovered: 67594
+    '@id': 'urn:covid:consensas:cmo:ca:2020-06-30'
+    tests: 2770153
+    tests_positive: 104193
+    tests_probable: 11
+    deaths: 8591
+  - date: '2020-07-01'
+    recovered: 69397
+  - date: '2020-07-02'
+    recovered: 68345
+    '@id': 'urn:covid:consensas:cmo:ca:2020-07-02'
+    tests: 2848244
+    tests_positive: 104760
+    tests_probable: 12
+    deaths: 8642
+  - date: '2020-07-03'
+    recovered: 68693
+    '@id': 'urn:covid:consensas:cmo:ca:2020-07-03'
+    tests: 2885746
+    tests_positive: 105079
+    tests_probable: 12
+    deaths: 8663
 source: >-
   https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
