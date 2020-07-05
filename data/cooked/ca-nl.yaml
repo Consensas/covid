@@ -1033,10 +1033,10 @@ items:
   - date: '2020-07-03'
     deaths: 3
     tests_positive: 261
-  - '@id': 'urn:covid:consensas:cmo:ca-nl:2020-07-04'
-    date: '2020-07-04'
-    tests_positive: 261
+  - date: '2020-07-04'
     deaths: 3
+    tests_positive: 261
+    '@id': 'urn:covid:consensas:cmo:ca-nl:2020-07-04'
     recovered: 258
     tests: 18586
     patients_hospital_current: null

@@ -2272,12 +2272,12 @@ items:
     patients_icu_current: 40
     patients_ventilated_current: 25
     active: 4626
-  - '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-07-04'
-    date: '2020-07-04'
+  - date: '2020-07-04'
     deaths: 2687
+    tests_positive: 35656
+    '@id': 'urn:covid:data.ontario.ca:tests:ca-on:2020-07-04'
     recovered: 31083
     tests: 1488728
-    tests_positive: 35656
     tests_negative: 1453072
     tests_confirmed: 1886
     tests_probable: null
